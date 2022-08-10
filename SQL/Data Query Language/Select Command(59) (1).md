@@ -21,6 +21,7 @@ Long Data Type is not Supported by SQL
 
 2. How to select UNIQUE records from a table using a SQL Query?
 |Table: Employees|
+
 | EMPLOYEE_ID | NAME     | SALARY |
 | ----------- | -------- | ------ |
 | 100         | Jennifer | 4400   |
