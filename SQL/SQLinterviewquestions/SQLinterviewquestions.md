@@ -1203,9 +1203,9 @@ SELECT _ FROM Table_B
 
 </details>
 
-```
+---
   
- 57. What will be the Output for the following command?
+57. What will be the Output for the following command?
   
   ```sql
 INSERT INTO class VALUES(2, 'Rashid');
