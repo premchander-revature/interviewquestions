@@ -1147,11 +1147,11 @@ d.	6 <br>
 
 -----
 
-43.Which of the following do you need to consider when you make a table in SQL?
-a. Data types
-b. Primary Keys
-c. Default Values
-d. All of the above
+43.Which of the following do you need to consider when you make a table in SQL? <br>
+a. Data types <br>
+b. Primary Keys <br>
+c. Default Values <br>
+d. All of the above <br>
 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
