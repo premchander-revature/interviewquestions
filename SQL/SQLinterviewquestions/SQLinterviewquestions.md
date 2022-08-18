@@ -1197,7 +1197,7 @@ SELECT _ FROM Table_B
 
 <blockquote>
 
-GROUP BY is meant for combination perform use; DISTINCT simply removes duplicates (based on all column values matching on a per row basis) from visibility. If TABLE2 permits duplicate values associated to TABLE1 records, you've got to use either choice.
+`GROUP BY` is meant for combination perform use; `DISTINCT` simply removes duplicates (based on all column values matching on a per row basis) from visibility. If TABLE2 permits duplicate values associated to TABLE1 records, you've got to use either choice.
 
 </blockquote>
 
