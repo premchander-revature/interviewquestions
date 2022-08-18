@@ -1205,7 +1205,9 @@ SELECT _ FROM Table_B
 
 ```
   
-  57. ```sql
+ 57. What will be the Output for the following command?
+  
+  ```sql
 INSERT INTO class VALUES(2, 'Rashid');
 
 COMMIT;
@@ -1224,8 +1226,6 @@ SAVEPOINT C;
 
 SELECT \* FROM class;
 ```
-
-What will be the Output for the following command?
 
 ![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
@@ -1259,7 +1259,7 @@ What will be the Output for the following command?
 
 ---
 
-57. Find the Error in the Following Command:
+58. Find the Error in the Following Command:
 
 ```sql
     Insert into Table Example( col1 [datatype],col2 [datatype],col3[datatype])
@@ -1294,7 +1294,7 @@ What will be the Output for the following command?
 
 ---
 
-58. Which TCL Command is to be used based on the output recieved?
+59. Which TCL Command is to be used based on the output recieved?
 
 ```SQL
 CREATE TABLE Players(
