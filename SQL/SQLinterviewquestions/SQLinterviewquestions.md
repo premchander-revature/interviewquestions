@@ -1204,6 +1204,151 @@ SELECT _ FROM Table_B
 </details>
 
 ```
+  
+  57.
+
+```sql
+INSERT INTO class VALUES(2, 'Rashid');
+
+COMMIT;
+
+UPDATE class SET name = 'Albert' WHERE id = '2';
+
+SAVEPOINT A;
+
+INSERT INTO class VALUES(3, 'Charlie');
+
+SAVEPOINT B;
+
+INSERT INTO class VALUES(4, 'Brandon');
+
+SAVEPOINT C;
+
+SELECT \* FROM class;
+```
+
+What will be the Output for the following command?
+
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+| id  | Name    |
+| --- | ------- |
+| 2   | Albert  |
+| 3   | Charlie |
+| 4   | Brandon |
+
+</blockquote>
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+- The Above commands is inserting values into a table class.
+- `COMMIT` command is used to make sure that the data is stored permanently.
+- Then the Name is being modified using `UPDATE` Command.
+- `SAVEPOINT` is used to save that data at the certain point of time.
+- The `SELECT` command is used to view the data in the table.
+
+</details>
+
+</details>
+
+---
+
+57. Find the Error in the Following Command:
+
+```sql
+    Insert into Table Example( col1 [datatype],col2 [datatype],col3[datatype])
+    values(val1,val2,val3);
+    commit;
+    rollback;
+```
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+`ROLLBACK` command is not applicable if `COMMIT` is used before the usage of `ROLLBACK` Command.
+
+</blockquote>
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+`COMMIT` command is used to store a data in the table permanently, therefore once the `COMMMIT` command is being executed there is no way for `ROLLBACK`.
+
+</blockquote>
+
+</details>
+
+</details>
+
+---
+
+58. Which TCL Command is to be used based on the output recieved?
+
+```SQL
+CREATE TABLE Players(
+ID INT,
+First_Name VARCHAR(255),
+Last_Name VARCHAR(255),
+Date_Of_Birth date,
+Place_Of_Birth VARCHAR(255),
+Country VARCHAR(255),
+PRIMARY KEY (ID)
+);
+
+insert into Players values(1, 'Jonathan', 'Swift', DATE('1981-04-22'), 'CapeTown', 'SouthAfrica');<br>
+insert into Players values(2, 'Kumara', 'Sangakkara', DATE('1977-10-27'), 'Matale', 'Srilanka'); <br>
+________;
+insert into Players values(1, 'Mahendra Singh', 'Dhoni', DATE('1981-07-07'), 'Ranchi', 'India');<br>
+```
+
+O/P:
+
+| ID  | First_Name     | Last_Name | Date_Of_Birth | Place_Of_Birth | Country |
+| --- | -------------- | --------- | ------------- | -------------- | ------- |
+| 1   | Mahendra Singh | Dhoni     | 1981-07-07    | Ranchi         | India   |
+
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+`ROLLBACK` is the missing Command
+
+</blockquote>
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+- Based on the output we can see that the insertion of the first 2 columns has been removed, Only the insertion below the missing command hence the missing command is `ROLLBACK`.
+
+</blockquote>
+
+</details>
+
+</details>
+
+---
+
 
 
 
