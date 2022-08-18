@@ -1129,10 +1129,10 @@ For the Query,
 ```
 The Number of rows returned is,
                    
-a.	3
-b.	4
-c.	5
-d.	6
+a.	3 <br>
+b.	4 <br>
+c.	5 <br>
+d.	6 <br>
 
 <details>
 <summary> Show Answer </summary>
