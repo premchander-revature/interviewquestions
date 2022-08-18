@@ -898,6 +898,482 @@ When we attempt to insert data into the database, but the data is incomplete or 
 
 ---
   
+36.Create a query by using the ‘IN’ Operator to determine whether the Employee FirstName is present in the table.
+          Table_Name: Employee Table
+|Emp_Id	|    First_Name  	|      Last_Name    |      	Email_Id        |	Salary  | Dept_Id  |
+|-------|-------------------|-------------------|-----------------------|-----------|----------|
+|  1	|     John          |	     King       |	john.king@gmail.com |	33000	|    1     |
+|  2	|     James         |	     Bond       |	james@gmail.com     |	30000   |	 1     |
+|  3	|     Neena         |	    Kochhar     |   neena@gmail.com	    |   17000   |	 2     |
+|  4	|      Lex	        |       De Haan     |     lex@gmail.com	    |   15000	|    1     |
+|  5	|      Amit	        |        Patel      |	  amit@gmail.com	|   18000	|    3     |
+|  6	|      Abdul	    |        Kalam      |    abdul@gmail.com	|   25000	|    4     |
+
+         Table_Name: Department Table
+
+|  Dept_Id	|     Name    |
+|-----------|-------------|
+|     1     |    Finance  |
+|     2     |     HR      |
+|     3     |    Sales    |
+|     4     |    Admin    |
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+```sql
+`SELECT` Emp_Id, First_Name, Last_Name, Salary
+`FROM` Employee
+'WHERE` Emp_Id IN (1, 3, 5, 6)
+```
+The above query will return records where Emp_Id is 1 or 3 or 5 or 6. 
+
+The above query will display the following result.
+
+|Emp_Id	|   First_Name  |	Last_Name|	Salary  |
+|  1    |	  John      |     King   |	33000   |
+|  3    |	  Neena     |    Kochhar |  17000   |
+|  5    |	  Amit      |    Patel   |	18000   |
+|  6    |	  Abdul     |    Kalam   |	25000   |
+
+</blockquote>
+
+</details>
+
+--------
+
+
+37.There is a table which contains two columns Student and Marks, you need to find all the students, whose marks are greater than average marks i.e. list of above-average students.
+|   Stu_Id	|   Stu_Name	|  Marks   |  Average  |
+|     1     |	Akshaya     |	78     |	75     | 
+|     2	    |    Divya	    |   65	   |    65     |
+|     3     |	Bharathi	|   77     |	83     |
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+```sql
+`SELECT`  Stu_Name, Marks
+`FROM`  Student_info
+`WHERE` Marks > `SELECT` Average(Marks) `FROM` Student_info);
+```
+
+</blockquote>
+
+</details>
+
+--------
+
+38.What is the wrong with this SQL query?
+`SELECT` Id, to_date(OrderDate,’YYYY’) `AS` OrderYear
+`FROM` Order
+`WHERE` OrderYear >= 2015;
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+
+In the above query, OrderYear is an alias for to_date(OrderDate,’YYYY’) in SELECT clause.
+When we are using OrderYear in WHERE clause, it is not available there.
+The Following is the correct query:
+
+```sql
+`SELECT` Id, YEAR(OrderDate) AS OrderYear
+`FROM` Order
+'WHERE` YEAR(OrderDate) >= 2015;
+```
+</blockquote>
+
+</details>
+
+--------
+
+39.How can you find 10 employees with Odd number as Employee ID?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+To find the Odd number Employee ID, we can use % function.
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+```sql
+`SELECT` TOP 10 ID `FROM` Employee `WHERE` ID % 2 = 1;
+```
+</blockquote>
+
+<blockquote>
+<summary><b> Explanation </b></summary>
+
+To find the Odd number Employee ID, we can use % function.
+
+</blockquote>
+
+</details>
+</details>
+
+--------
+
+40.If marks column contain the comma separated values from Student table. How to calculate the count of that comma separated values?
+
+|   Student Name	|       Marks       |
+|-------------------|-------------------|
+|      Amit	        |    30,130,20,4    |
+|    Sukruta	    |    100,20,30      |
+|     Sonali	    |    140,10         |
+
+Want to display output like :
+
+|   Student Name	|   Marks Count   |
+|-------------------|-----------------|
+|      Amit         |	    4         |
+|     Sukruta       |	    3         | 
+|     Sonali        |	    2         |
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+```sql
+`SELECT` Student_name, regexp_count (marks,’,’) + As “Marks Count” `FROM` Student;
+```
+</blockquote>
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+In real scenarios, lot of times developer needs to calculate the number of commas in the column then regexp_count function is used.
+
+</blockquote>
+
+</details>
+</details>
+
+------
+
+
+41.How to create the Student_1 table, which is exact replica of Student table?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+```sql
+`CREATE` Table Student_1 as `SELECT` * from Student;
+```
+
+</blockquote>
+
+</details>
+
+-----
+
+
+
+42.Sailors(s_id, s_name, rating, age) with the following  data.
+
+
+
+|   S_Id   |	S_Name	  |    Rating  |	Age  |
+|----------|--------------|------------|---------|
+|   22	   |    Avinash	  |      7	   |    45   |
+|   29     |	Raghu     |      1	   |    33   |
+|   31	   |   Bharathi   |   	 8	   |    55   |
+|   32	   |    Rohith	  |      8     |	25   |
+|   58	   |    Vishnu    |	    10     |	17   |
+|   64	   |   Sandhiya	  |      7	   |    35   |
+|   71	   |    Divya	  |     10	   |    16   |
+|   74	   |   Yeshwini	  |      9	   |    35   |
+|   85	   |    Pooja	  |      3     |	26   |
+|   84	   |   Sangeetha  | 	 3	   |    64   |
+|   96	   |    Farin	  |      3	   |    17   |
+
+
+
+For the Query,
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+```sql
+`SELECT`  S.Rating, AVG(S.Age) `AS` average `FROM` Sailsors s
+`WHERE` S.Age>=18
+`GROUP BY` S.Rating
+`HAVING` 1<(SELECT COUNT(*) `FROM` Sailors S2 `WHERE` S.Rating = S.Rating)
+```
+The Number of rows returned is,
+a.	3
+b.	4
+c.	5
+d.	6
+
+<details>
+<summary> Show Answer </summary>
+
+<blockquote>
+
+3
+
+</blockquote>
+
+</details>
+
+-----
+
+43.Which of the following do you need to consider when you make a table in SQL?
+a. Data types
+b. Primary Keys
+c. Default Values
+d. All of the above
+
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary> <b> Show Answer </b></summary>
+
+<blockquote>
+
+Datatypes, Primary Key and Default values
+
+</blockquote>
+
+<details>
+<summary> <b> Explanation </b></summary>
+
+<blockquote>
+
+Make sure when the column datatypes are the smallest required and to fit
+the data comfortably.
+
+</blockquote>
+
+</details>
+</details>
+
+-----
+
+ 44.How can "Raju" in the "Name" column of the Users table be changed to "Sanjana"?
+
+- a. Update User Set Name = "Raju" INTO Name = "Sanjana"
+- b. Modify Users SET Name = "Sanjana" WHERE Name = "Raju"
+- c. Update Users SET Name = "Sanjana" WHERE Name = "Raju"
+- d. Modify Users SET Name = "Raju" INTO Name = "Sanjana"
+
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
+<details>
+<summary> <b> Show Answer </b> </summary>
+
+<blockquote>
+
+```sql
+`UPDATE` Users `SET` Name = "Sanjana" `WHERE` Name = "Raju"
+```
+</blockquote>
+
+<details>
+<summary><b> Explanation </b></summary>
+
+<blockquote>
+
+The `UPDATE` command and WHERE clause are used together to change the name as asked in the question.
+
+</blockquote>
+
+</details>
+</details>
+
+------
+
+
+45.What will be the Output for the following table.
+
+Let's take a Product table consisting of the following records and delete a single record from the given table below.
+
+Table_Name: Product 
+  |  Product  |  
+
+| Product_Id   |	Product_Name   |   Product_Price	|    Product_Quantity     |
+|--------------|-----------------  |------------------  |-------------------------|
+|  P101	       |      Chips	       |           20       |         20              |
+|  P102	       |      Chocolates   |           60	    |         40              |
+|  P103	       |       Maggi	   |           75	    |          5              |
+|  P104	       |       Biscuits	   |           80	    |         20              |
+|  P105	       |      Namkeen	   |           40	    |         50              |
+
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+```sql
+`DELETE` FROM Product `WHERE` Product_Id = P103 ; 
+```
+</blockquote>
+
+| Product_Id   |	Product_Name   |   Product_Price	|    Product_Quantity     |
+|--------------|-------------------|--------------------|-------------------------|
+|  P101	       |      Chips	       |           20       |         20              |
+|  P102	       |      Chocolates   |           60	    |         40              |
+|  P104	       |       Biscuits	   |           80	    |         20              |
+|  P105	       |      Namkeen	   |           40	    |         50              |
+
+<details>
+<summary><b> Explanation </b><summary>
+
+<blockquote>
+
+To delete a particular row by using the delete command. The Syntax for deleting a row is ,
+`DELETE` FROM Table_Name `WHERE` Condition ;
+
+</blockquote>
+
+</details>
+</details>
+
+-----
+
+46.Write a command by using the employee table and increase the income of all employees by 5% in a table.
+
+Table Name: Employees
+
+           |Employess|
+         |  Emp_Id   |   Emp_Name   |   Emp_Salary  |
+         |-----------|--------------|---------------|
+         |   2010    |    Ankitha   |     28000     |
+         |   2020    |    Kumar     |     23000     |
+         |   2030    |    Diya      |     31000     |
+         |   2040    |    Poornima  |     47000     |
+         |   2050    |    Abinaya   |     20000     |
+
+Increase Income of all employees by 5% in the above given table.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+```sql
+`UPDATE` Employees `SET` Emp_Salary = Emp_Salary+(Emp_Salary*5.0/100.0);
+```
+
+         |  Emp_Id   |   Emp_Name   |   Emp_Salary  |
+         |-----------|--------------|---------------|
+         |   2010    |	Ankitha	    |     29400     |
+         |   2020    |  Kumar	    |     24150     |
+         |   2030    |  Diya	    |     32550     |
+         |   2040    |  Poornima    |     49350     |
+         |   2050    |  Abinaya     |     21000     |
+
+</blockquote>
+
+<details>
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+Here `UPDATE` command is used for updating the salary by 5% and it is also can be used for only 5% alone it can be used for updating even 10% also.
+
+</blockquote>
+
+</details>
+</details>
+
+-----
+
+
+47.The DDL, DCL, and DML language components that make up a database management system (DBMS).
+Users and practitioners, two diverse groups of individuals, are both interested in them. Which of them do DBMS users often work with?
+
+- a. DDL
+- b. DML
+- c. DDL and DCL
+- d. DCL and DML
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+
+<details>
+<summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Data Manipulation Language
+
+</blockquote>
+
+<details>
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+Only the DBMS component for data manipulation language is of interest to users and practitioners.
+
+</blockquote>
+
+</details>
+</details>
+
+----
+
+48.Write a query to create an empty table from an existing table?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details>
+<summary><b> Explanation </b></summary>
+
+<blockquote>
+
+An empty table is a table with same structure as the given table. But it does not contain records.
+To create an empty table, we have to run a `SELECT` query so that no records are returned. But we can use the result of this query in `CREATE` statement to create an empty table.
+To get no records in `SELECT` query, we can give a false condition like 1 > 2 in `WHERE` clause.
+Query will be as follows:
+
+```sql
+`CREATE` TABLE Student_info  `AS`
+`SELECT` * from Student
+`WHERE` 1 > 2;
+```
+</blockquote>
+</details>
+
+----
+
+
+
+
+  
  
   
   
