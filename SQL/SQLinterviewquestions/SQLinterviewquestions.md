@@ -969,7 +969,7 @@ Employee Table:
 
 <details>
 
-<summary><b>Show Answer</b><summary>
+<summary><b>Show Answer</b></summary>
 
 <blockquote>
 
@@ -1137,7 +1137,10 @@ HAVING ( COUNT(email) > 1 )
 
 </blockquote>
 
-## </details>
+ </details>
+  
+  ---
+  
 
 55. Write a SQL question to seek out records in Table A that aren't in Table B while not mistreatment NOT IN operator.
     Consider 2 tables
