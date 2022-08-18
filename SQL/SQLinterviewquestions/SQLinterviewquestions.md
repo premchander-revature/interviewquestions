@@ -1169,7 +1169,7 @@ HAVING ( COUNT(email) > 1 )
 
 <blockquote>
 
-- We can use MINUS operator during this case for Oracle and apart from SQL Server.
+- We can use `MINUS` operator during this case for Oracle and apart from SQL Server.
 
 ```sql
 
