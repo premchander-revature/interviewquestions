@@ -898,7 +898,7 @@ When we attempt to insert data into the database, but the data is incomplete or 
 
 ---
   
-36.Create a query by using the ‘IN’ Operator to determine whether the Employee FirstName is present in the table.
+36.Create a query by using the `IN` Operator to determine whether the Employee FirstName is present in the table.
           Table_Name: Employee Table
 |Emp_Id	|    First_Name  	  |      Last_Name    |      	Email_Id        |	Salary  | Dept_Id  |
 |-------|-------------------|-------------------|-----------------------|---------|----------|
@@ -926,9 +926,9 @@ When we attempt to insert data into the database, but the data is incomplete or 
 <blockquote>
 
 ```sql
-`SELECT` Emp_Id, First_Name, Last_Name, Salary
-`FROM` Employee
-'WHERE` Emp_Id IN (1, 3, 5, 6)
+SELECT Emp_Id, First_Name, Last_Name, Salary
+FROM Employee
+WHERE Emp_Id IN (1, 3, 5, 6)
 ```
 The above query will return records where Emp_Id is 1 or 3 or 5 or 6. 
 
@@ -963,9 +963,9 @@ The above query will display the following result.
 <blockquote>
 
 ```sql
-`SELECT`  Stu_Name, Marks
-`FROM`  Student_info
-`WHERE` Marks > `SELECT` Average(Marks) `FROM` Student_info);
+SELECT  Stu_Name, Marks
+FROM  Student_info
+WHERE Marks > SELECT Average(Marks) FROM Student_info);
 ```
 
 </blockquote>
@@ -977,9 +977,9 @@ The above query will display the following result.
 38.What is the wrong with this SQL query?
   
   ```sql
-`SELECT` Id, to_date(OrderDate,’YYYY’) `AS` OrderYear
-`FROM` Order
-`WHERE` OrderYear >= 2015;
+SELECT Id, to_date(OrderDate,’YYYY’) AS OrderYear
+FROM Order
+WHERE OrderYear >= 2015;
 ```
   
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -995,9 +995,9 @@ When we are using OrderYear in WHERE clause, it is not available there.
 The Following is the correct query:
 
 ```sql
-`SELECT` Id, YEAR(OrderDate) `AS` OrderYear
-`FROM` Order
-'WHERE` YEAR(OrderDate) >= 2015;
+SELECT Id, YEAR(OrderDate) AS OrderYear
+FROM Order
+WHERE YEAR(OrderDate) >= 2015;
 ```
 </blockquote>
 
@@ -1015,7 +1015,7 @@ The Following is the correct query:
 <blockquote>
 
 ```sql
-`SELECT` TOP 10 ID `FROM` Employee `WHERE` ID % 2 = 1;
+SELECT TOP 10 ID FROM Employee WHERE ID % 2 = 1;
 ```
 </blockquote>
 
@@ -1057,7 +1057,7 @@ Want to display output like :
 <blockquote>
 
 ```sql
-`SELECT` Student_name, regexp_count (marks,’,’) + As “Marks Count” `FROM` Student;
+SELECT Student_name, regexp_count (marks,’,’) + As “Marks Count” FROM Student;
 ```
 </blockquote>
 
@@ -1086,7 +1086,7 @@ In real scenarios, lot of times developer needs to calculate the number of comma
 <blockquote>
 
 ```sql
-`CREATE` Table Student_1 as `SELECT` * from Student;
+CREATE Table Student_1 as SELECT * from Student;
 ```
 
 </blockquote>
@@ -1104,15 +1104,15 @@ In real scenarios, lot of times developer needs to calculate the number of comma
 |   S_Id   |	S_Name	    |    Rating  |	Age    |
 |----------|--------------|------------|---------|
 |   22	   |    Avinash	  |      7	   |    45   |
-|   29     |	Raghu       |      1	   |    33   |
-|   31	   |   Bharathi   |   	 8	   |    55   |
+|   29     |	  Raghu     |      1	   |    33   |
+|   31	   |    Bharathi  |   	 8	   |    55   |
 |   32	   |    Rohith	  |      8     |	  25   |
 |   58	   |    Vishnu    |	    10     |	  17   |
-|   64	   |   Sandhiya	  |      7	   |    35   |
+|   64	   |    Sandhiya	|      7	   |    35   |
 |   71	   |    Divya	    |     10	   |    16   |
-|   74	   |   Yeshwini	  |      9	   |    35   |
+|   74	   |    Yeshwini	|      9	   |    35   |
 |   85	   |    Pooja	    |      3     |	  26   |
-|   84	   |   Sangeetha  | 	   3	   |    64   |
+|   84	   |    Sangeetha | 	   3	   |    64   |
 |   96	   |    Farin	    |      3	   |    17   |
 
 
@@ -1122,10 +1122,10 @@ For the Query,
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 ```sql
-`SELECT`  S.Rating, AVG(S.Age) `AS` average `FROM` Sailsors s
-`WHERE` S.Age>=18
-`GROUP BY` S.Rating
-`HAVING` 1<(SELECT COUNT(*) `FROM` Sailors S2 `WHERE` S.Rating = S.Rating)
+SELECT  S.Rating, AVG(S.Age) AS average FROM Sailsors s
+WHERE S.Age>=18
+GROUP BY S.Rating
+HAVING 1<(SELECT COUNT(*) FROM Sailors S2 WHERE S.Rating = S.Rating)
 ```
 The Number of rows returned is,
                    
@@ -1197,7 +1197,7 @@ the data comfortably.
 <blockquote>
 
 ```sql
-`UPDATE` Users `SET` Name = "Sanjana" `WHERE` Name = "Raju"
+UPDATE Users SET Name = "Sanjana" WHERE Name = "Raju"
 ```
 </blockquote>
 
@@ -1206,7 +1206,7 @@ the data comfortably.
 
 <blockquote>
 
-The `UPDATE` command and WHERE clause are used together to change the name as asked in the question.
+The UPDATE command and WHERE clause are used together to change the name as asked in the question.
 
 </blockquote>
 
@@ -1241,16 +1241,16 @@ Table_Name: Product
 <blockquote>
 
 ```sql
-`DELETE` FROM Product `WHERE` Product_Id = P103 ; 
+DELETE FROM Product WHERE Product_Id = P103 ; 
 ```
 </blockquote>
 
-| Product_Id   |	Product_Name   |   Product_Price	|    Product_Quantity     |
+| Product_Id   |	Product_Name     |   Product_Price	  |    Product_Quantity     |
 |--------------|-------------------|--------------------|-------------------------|
 |  P101	       |      Chips	       |           20       |         20              |
-|  P102	       |      Chocolates   |           60	    |         40              |
-|  P104	       |       Biscuits	   |           80	    |         20              |
-|  P105	       |      Namkeen	   |           40	    |         50              |
+|  P102	       |      Chocolates   |           60	      |         40              |
+|  P104	       |      Biscuits	   |           80	      |         20              |
+|  P105	       |      Namkeen	     |           40	      |         50              |
 
 <details>
 <summary><b> Explanation </b><summary>
@@ -1291,7 +1291,7 @@ Increase Income of all employees by 5% in the above given table.
 <blockquote>
 
 ```sql
-`UPDATE` Employees `SET` Emp_Salary = Emp_Salary+(Emp_Salary*5.0/100.0);
+UPDATE Employees SET Emp_Salary = Emp_Salary+(Emp_Salary*5.0/100.0);
 ```
 
          |  Emp_Id   |   Emp_Name   |   Emp_Salary  |
@@ -1368,9 +1368,9 @@ To get no records in `SELECT` query, we can give a false condition like 1 > 2 in
 Query will be as follows:
 
 ```sql
-`CREATE` TABLE Student_info  `AS`
-`SELECT` * from Student
-`WHERE` 1 > 2;
+CREATE TABLE Student_info  AS
+SELECT * from Student
+WHERE 1 > 2;
 ```
 </blockquote>
 </details>
@@ -1387,10 +1387,10 @@ Table: Employee
 
 | ID  | NAME   | DEPT_ID |
 | --- | ------ | ------- |
-| 1   | JOHN   | 1       |
-| 2   | GEORGE | 2       |
-| 3   | JANE   | 1       |
-| 4   | SMITH  | 2       |
+| 1   | JOHN   |    1    |
+| 2   | GEORGE |    2    |
+| 3   | JANE   |    1    |
+| 4   | SMITH  |    2    |
 
 <details>
 
@@ -1467,7 +1467,7 @@ OR DeptID <> 1;
 
 </blockquote>
 
-## </details>
+ </details>
 
 51. What will be the result of following query?
 
@@ -1821,8 +1821,6 @@ O/P:
 </details>
 
 ---
-
-  EOD
 
 
 
