@@ -1182,10 +1182,10 @@ the data comfortably.
 
  44.How can "Raju" in the "Name" column of the Users table be changed to "Sanjana"?
 
- a. Update User Set Name = "Raju" INTO Name = "Sanjana"
- b. Modify Users SET Name = "Sanjana" WHERE Name = "Raju"
- c. Update Users SET Name = "Sanjana" WHERE Name = "Raju"
- d. Modify Users SET Name = "Raju" INTO Name = "Sanjana"
+<br>a. Update User Set Name = "Raju" INTO Name = "Sanjana"
+<br>b. Modify Users SET Name = "Sanjana" WHERE Name = "Raju"
+<br>c. Update Users SET Name = "Sanjana" WHERE Name = "Raju"
+<br>d. Modify Users SET Name = "Raju" INTO Name = "Sanjana"
 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
