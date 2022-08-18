@@ -1016,6 +1016,8 @@ Department:
 | 2   | FINANCE    | 2        |
 | 3   | TECHNOLOGY | NULL     |
 
+  ```sql
+  
 SELECT \*
 
 FROM Employee
@@ -1023,6 +1025,8 @@ FROM Employee
 WHERE id NOT IN (SELECT Emp_id
 
 FROM Department)
+  
+  ```
 
 <details>
 
