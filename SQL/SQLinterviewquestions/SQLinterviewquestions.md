@@ -975,10 +975,13 @@ The above query will display the following result.
 --------
 
 38.What is the wrong with this SQL query?
+  
+  ```sql
 `SELECT` Id, to_date(OrderDate,’YYYY’) `AS` OrderYear
 `FROM` Order
 `WHERE` OrderYear >= 2015;
-
+```
+  
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
