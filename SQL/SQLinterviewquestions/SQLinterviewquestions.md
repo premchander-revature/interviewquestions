@@ -900,14 +900,14 @@ When we attempt to insert data into the database, but the data is incomplete or 
   
 36.Create a query by using the ‘IN’ Operator to determine whether the Employee FirstName is present in the table.
           Table_Name: Employee Table
-|Emp_Id	|    First_Name  	|      Last_Name    |      	Email_Id        |	Salary  | Dept_Id  |
-|-------|-------------------|-------------------|-----------------------|-----------|----------|
-|  1	|     John          |	     King       |	john.king@gmail.com |	33000	|    1     |
-|  2	|     James         |	     Bond       |	james@gmail.com     |	30000   |	 1     |
-|  3	|     Neena         |	    Kochhar     |   neena@gmail.com	    |   17000   |	 2     |
-|  4	|      Lex	        |       De Haan     |     lex@gmail.com	    |   15000	|    1     |
-|  5	|      Amit	        |        Patel      |	  amit@gmail.com	|   18000	|    3     |
-|  6	|      Abdul	    |        Kalam      |    abdul@gmail.com	|   25000	|    4     |
+|Emp_Id	|    First_Name  	  |      Last_Name    |      	Email_Id        |	Salary  | Dept_Id  |
+|-------|-------------------|-------------------|-----------------------|---------|----------|
+|  1	  |     John          |	     King         |	john.king@gmail.com   |	33000	  |    1     |
+|  2	  |     James         |	     Bond         |	james@gmail.com       |	30000   |	   1     |
+|  3	  |     Neena         |	    Kochhar       |   neena@gmail.com	    |   17000 |	   2     |
+|  4	  |      Lex	        |       De Haan     |     lex@gmail.com	    |   15000	|    1     |
+|  5	  |      Amit	        |        Patel      |	  amit@gmail.com	    |   18000	|    3     |
+|  6	  |      Abdul	      |        Kalam      |    abdul@gmail.com	  |   25000	|    4     |
 
          Table_Name: Department Table
 
@@ -934,7 +934,8 @@ The above query will return records where Emp_Id is 1 or 3 or 5 or 6.
 
 The above query will display the following result.
 
-|Emp_Id	|   First_Name  |	Last_Name|	Salary  |
+|Emp_Id	|  First_Name |	Last_Name  |	Salary  |
+|-------|-------------|------------|----------|
 |  1    |	  John      |     King   |	33000   |
 |  3    |	  Neena     |    Kochhar |  17000   |
 |  5    |	  Amit      |    Patel   |	18000   |
@@ -949,9 +950,9 @@ The above query will display the following result.
 
 37.There is a table which contains two columns Student and Marks, you need to find all the students, whose marks are greater than average marks i.e. list of above-average students.
 |   Stu_Id	|   Stu_Name	|  Marks   |  Average  |
-|     1     |	Akshaya     |	78     |	75     | 
-|     2	    |    Divya	    |   65	   |    65     |
-|     3     |	Bharathi	|   77     |	83     |
+|     1     |	Akshaya     |	78       |	  75     | 
+|     2	    |    Divya	  |   65	   |    65     |
+|     3     |	Bharathi	  |   77     |	  83     |
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -990,7 +991,7 @@ When we are using OrderYear in WHERE clause, it is not available there.
 The Following is the correct query:
 
 ```sql
-`SELECT` Id, YEAR(OrderDate) AS OrderYear
+`SELECT` Id, YEAR(OrderDate) `AS` OrderYear
 `FROM` Order
 'WHERE` YEAR(OrderDate) >= 2015;
 ```
@@ -1002,7 +1003,7 @@ The Following is the correct query:
 
 39.How can you find 10 employees with Odd number as Employee ID?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 To find the Odd number Employee ID, we can use % function.
 
@@ -1031,20 +1032,20 @@ To find the Odd number Employee ID, we can use % function.
 40.If marks column contain the comma separated values from Student table. How to calculate the count of that comma separated values?
 
 |   Student Name	|       Marks       |
-|-------------------|-------------------|
-|      Amit	        |    30,130,20,4    |
+|-----------------|-------------------|
+|      Amit	      |    30,130,20,4    |
 |    Sukruta	    |    100,20,30      |
 |     Sonali	    |    140,10         |
 
 Want to display output like :
 
-|   Student Name	|   Marks Count   |
+|   Student Name	  |   Marks Count   |
 |-------------------|-----------------|
-|      Amit         |	    4         |
-|     Sukruta       |	    3         | 
-|     Sonali        |	    2         |
+|      Amit         |	    4           |
+|     Sukruta       |	    3           | 
+|     Sonali        |	    2           |
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b> Show Answer </b></summary>
@@ -1057,7 +1058,7 @@ Want to display output like :
 </blockquote>
 
 <details>
-<summary><b> Show Answer </b></summary>
+<summary><b> Explanation </b></summary>
 
 <blockquote>
 
@@ -1073,7 +1074,7 @@ In real scenarios, lot of times developer needs to calculate the number of comma
 
 41.How to create the Student_1 table, which is exact replica of Student table?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b> Show Answer </b></summary>
@@ -1096,25 +1097,25 @@ In real scenarios, lot of times developer needs to calculate the number of comma
 
 
 
-|   S_Id   |	S_Name	  |    Rating  |	Age  |
+|   S_Id   |	S_Name	    |    Rating  |	Age    |
 |----------|--------------|------------|---------|
 |   22	   |    Avinash	  |      7	   |    45   |
-|   29     |	Raghu     |      1	   |    33   |
+|   29     |	Raghu       |      1	   |    33   |
 |   31	   |   Bharathi   |   	 8	   |    55   |
-|   32	   |    Rohith	  |      8     |	25   |
-|   58	   |    Vishnu    |	    10     |	17   |
+|   32	   |    Rohith	  |      8     |	  25   |
+|   58	   |    Vishnu    |	    10     |	  17   |
 |   64	   |   Sandhiya	  |      7	   |    35   |
-|   71	   |    Divya	  |     10	   |    16   |
+|   71	   |    Divya	    |     10	   |    16   |
 |   74	   |   Yeshwini	  |      9	   |    35   |
-|   85	   |    Pooja	  |      3     |	26   |
-|   84	   |   Sangeetha  | 	 3	   |    64   |
-|   96	   |    Farin	  |      3	   |    17   |
+|   85	   |    Pooja	    |      3     |	  26   |
+|   84	   |   Sangeetha  | 	   3	   |    64   |
+|   96	   |    Farin	    |      3	   |    17   |
 
 
 
 For the Query,
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 ```sql
 `SELECT`  S.Rating, AVG(S.Age) `AS` average `FROM` Sailsors s
@@ -1176,10 +1177,10 @@ the data comfortably.
 
  44.How can "Raju" in the "Name" column of the Users table be changed to "Sanjana"?
 
-- a. Update User Set Name = "Raju" INTO Name = "Sanjana"
-- b. Modify Users SET Name = "Sanjana" WHERE Name = "Raju"
-- c. Update Users SET Name = "Sanjana" WHERE Name = "Raju"
-- d. Modify Users SET Name = "Raju" INTO Name = "Sanjana"
+ a. Update User Set Name = "Raju" INTO Name = "Sanjana"
+ b. Modify Users SET Name = "Sanjana" WHERE Name = "Raju"
+ c. Update Users SET Name = "Sanjana" WHERE Name = "Raju"
+ d. Modify Users SET Name = "Raju" INTO Name = "Sanjana"
 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -1215,15 +1216,15 @@ The `UPDATE` command and WHERE clause are used together to change the name as as
 Let's take a Product table consisting of the following records and delete a single record from the given table below.
 
 Table_Name: Product 
-  |  Product  |  
+ 
 
-| Product_Id   |	Product_Name   |   Product_Price	|    Product_Quantity     |
-|--------------|-----------------  |------------------  |-------------------------|
-|  P101	       |      Chips	       |           20       |         20              |
+| Product_Id   |	Product_Name     |   Product_Price  |    Product_Quantity     |
+|--------------|-----------------  |------------------|-------------------------|
+|  P101	       |      Chips	       |           20     |         20              |
 |  P102	       |      Chocolates   |           60	    |         40              |
-|  P103	       |       Maggi	   |           75	    |          5              |
+|  P103	       |       Maggi	     |           75	    |          5              |
 |  P104	       |       Biscuits	   |           80	    |         20              |
-|  P105	       |      Namkeen	   |           40	    |         50              |
+|  P105	       |      Namkeen	     |           40	    |         50              |
 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -1257,7 +1258,7 @@ To delete a particular row by using the delete command. The Syntax for deleting 
 </blockquote>
 
 </details>
-</details>
+
 
 -----
 
@@ -1265,7 +1266,7 @@ To delete a particular row by using the delete command. The Syntax for deleting 
 
 Table Name: Employees
 
-           |Employess|
+           
          |  Emp_Id   |   Emp_Name   |   Emp_Salary  |
          |-----------|--------------|---------------|
          |   2010    |    Ankitha   |     28000     |
@@ -1290,8 +1291,8 @@ Increase Income of all employees by 5% in the above given table.
          |  Emp_Id   |   Emp_Name   |   Emp_Salary  |
          |-----------|--------------|---------------|
          |   2010    |	Ankitha	    |     29400     |
-         |   2020    |  Kumar	    |     24150     |
-         |   2030    |  Diya	    |     32550     |
+         |   2020    |  Kumar	      |     24150     |
+         |   2030    |  Diya	      |     32550     |
          |   2040    |  Poornima    |     49350     |
          |   2050    |  Abinaya     |     21000     |
 
@@ -1315,12 +1316,12 @@ Here `UPDATE` command is used for updating the salary by 5% and it is also can b
 47.The DDL, DCL, and DML language components that make up a database management system (DBMS).
 Users and practitioners, two diverse groups of individuals, are both interested in them. Which of them do DBMS users often work with?
 
-- a. DDL
-- b. DML
-- c. DDL and DCL
-- d. DCL and DML
+ a. DDL
+ b. DML
+ c. DDL and DCL
+ d. DCL and DML
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 
 <details>
@@ -1348,7 +1349,7 @@ Only the DBMS component for data manipulation language is of interest to users a
 
 48.Write a query to create an empty table from an existing table?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b> Explanation </b></summary>
@@ -1370,17 +1371,7 @@ Query will be as follows:
 
 ----
 
-
-
-
-  
- 
-  
-  
-  
-  
-  
-  49. Write a query for this problem?
+49. Write a query for this problem?
 
 Given the Employee table, where each employee has a DeptId, To transfer personnel from DeptID 1 to DeptID 2 and from DeptID 2 to DeptID 1, use a single SQL query.
 
