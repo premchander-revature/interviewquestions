@@ -1205,9 +1205,7 @@ SELECT _ FROM Table_B
 
 ```
   
-  57.
-
-```sql
+  57. ```sql
 INSERT INTO class VALUES(2, 'Rashid');
 
 COMMIT;
