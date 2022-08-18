@@ -1201,13 +1201,13 @@ SELECT _ FROM Table_B
 
 </blockquote>
 
-</deatils>
+</details>
 
 ```
 
 
 
-```
+
 
   
   
