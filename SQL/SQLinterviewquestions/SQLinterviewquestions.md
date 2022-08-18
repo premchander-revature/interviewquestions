@@ -895,4 +895,331 @@ When we attempt to insert data into the database, but the data is incomplete or 
 </details>
 
 ---
+  
+ 
+  
+  
+  
+  
+  
+  49. Write a query for this problem?
+
+Given the Employee table, where each employee has a DeptId, To transfer personnel from DeptID 1 to DeptID 2 and from DeptID 2 to DeptID 1, use a single SQL query.
+
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
+Table: Employee
+
+| ID  | NAME   | DEPT_ID |
+| --- | ------ | ------- |
+| 1   | JOHN   | 1       |
+| 2   | GEORGE | 2       |
+| 3   | JANE   | 1       |
+| 4   | SMITH  | 2       |
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+We can use `CASE` statement here.
+
+<blockquote>
+
+```sql
+UPDATE Employee SET DeptId =
+
+            CASE DeptId
+
+                        WHEN ‘1’ THEN ‘2’
+
+                        WHEN ‘2’ THEN ‘1’
+
+            ELSE DeptId END;
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
+50. What is wrong with this request for the list of workers who don't work for Dept. 1?
+
+![Medium](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg>)
+
+```sql
+
+SELECT Name
+
+FROM Employee
+
+WHERE DeptID <> 1;
+
+```
+
+Employee Table:
+
+| ID  | NAME   | DEPT_ID |
+| --- | ------ | ------- |
+| 1   | JOHN   | NULL    |
+| 2   | GEORGE | 2       |
+| 3   | SMITH  | 1       |
+| 4   | RAY    | NULL    |
+
+<details>
+
+<summary><b>Show Answer</b><summary>
+
+<blockquote>
+
+- There are 3 Employees (John, George and Ray) not in Dept 1. But Query returns only one result: George.
+- Since we are just looking for employees not in Dept 1, query does not compare DeptID with NULL. So Employees without a department are not returned.
+
+Correct Query is as follows:
+
+```sql
+
+SELECT Name
+
+FROM Employee
+
+WHERE DeptID IS NULL
+
+OR DeptID <> 1;
+
+```
+
+</blockquote>
+
+## </details>
+
+51. What will be the result of following query?
+
+![Medium](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg>)
+
+Consider following tables:
+
+Employee:
+
+| ID  | EMP_NAME |
+| --- | -------- |
+| 1   | JANE     |
+| 2   | GEORGE   |
+| 3   | JOHN     |
+
+Department:
+
+| ID  | DEPT_NAME  | EMP_NAME |
+| --- | ---------- | -------- |
+| 1   | MARKETING  | 1        |
+| 2   | FINANCE    | 2        |
+| 3   | TECHNOLOGY | NULL     |
+
+SELECT \*
+
+FROM Employee
+
+WHERE id NOT IN (SELECT Emp_id
+
+FROM Department)
+
+<details>
+
+<summary><b> Show Answer </summary></b>
+
+<blockquote>
+
+The above query will return no records. The reason for this is presence of null value in Emp_id column of Department table.
+
+When we do SELECT Emp_id FROM Department, we get null value also. Now in main query we compare NOT IN with null value, then it does not return any result.
+
+```sql
+
+The correct query is:
+
+SELECT \*
+
+FROM Employee
+
+WHERE id NOT IN (SELECT Emp_id
+
+FROM Department WHERE Emp_id IS NOT NULL)
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
+52. Why do SQL queries need escape characters?
+
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
+<details>
+
+<summary><b>Show Answer </summary></b>
+
+<blockquote>
+
+- There are specific special characters and words reserved for specific purposes in SQL. For example, the reserved letter &.
+- We must employ escape characters to send the message to the database telling it to interpret the special characters as non-special or non-reserved when we want to use them in the context of our data.
+
+</blockquote>
+
+</details>
+
+---
+
+53. Create a query to locate every employee, regardless of case, whose name contains the term "Rich." As in Rich, RICH, Rich.
+
+![Medium](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg>)
+
+<details>
+
+<summary><b>Show Answer </b></summary>
+
+<blockquote>
+
+- We can use UPPER function for comparing the both sides with uppercase.
+
+```sql
+
+SELECT \*
+
+FROM Employees
+
+WHERE UPPER(emp_name) like '%RICH%'
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
+54. To locate employees that have multiple emails, create a query.
+
+![Medium](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg>)
+
+Employee table:
+
+| ID  | NAME    | EMAIL           |
+| --- | ------- | --------------- |
+| 10  | FREK    | MISHI@GMAIL.COM |
+| 20  | RICHARD | ADAMS@GMAIL.COM |
+| 30  | RAM     | MISHI@GMAIL.COM |
+
+<details>
+
+<summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+We can use Group by clause on the column in which we want to find duplicate values.
+
+```sql
+
+Query would be as follows:
+
+SELECT name, `COUNT`(email)
+
+FROM Employee
+
+GROUP BY email
+
+HAVING ( COUNT(email) > 1 )
+
+```
+
+</blockquote>
+
+## </details>
+
+55. Write a SQL question to seek out records in Table A that aren't in Table B while not mistreatment NOT IN operator.
+    Consider 2 tables
+
+![Medium](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg>)
+
+| TABLE A |
+| ------- |
+| 10      |
+| 20      |
+| 30      |
+
+| TABLE B |
+| ------- |
+| 15      |
+| 30      |
+| 45      |
+
+<details>
+
+<summary><b>Show Answer </b></summary>
+
+<blockquote>
+
+- We can use MINUS operator during this case for Oracle and apart from SQL Server.
+
+```sql
+
+Query can be as follows:
+
+SELECT _ FROM Table_A
+MINUS
+SELECT _ FROM Table_B
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
+56. What will be used rather than distinct in SQL?
+
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
+<details>
+
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+GROUP BY is meant for combination perform use; DISTINCT simply removes duplicates (based on all column values matching on a per row basis) from visibility. If TABLE2 permits duplicate values associated to TABLE1 records, you've got to use either choice.
+
+</blockquote>
+
+</deatils>
+
+```
+
+
+
+```
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
