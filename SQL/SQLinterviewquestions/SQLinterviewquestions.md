@@ -67,10 +67,11 @@ WHERE grades =
                    WHERE ADDRESS = ’NOIDA’ );
 
 ```
-</blockquote>
 
+  </blockquote>
+<details>
 <summary> Explanation </summary>
-<blockquote>
+<blockquote>  
 
     In the above query we use GROUP BY MARKS means, it clusters the rows with same Marks and we also use SELECT MARKS, COUNT(DISTINCT STUDENT_ID) which prints the Marks of each cluster and the count of rows of respective clusters. 
 
@@ -104,9 +105,11 @@ WHERE Year >= 2010
     WHERE Year(BillingDate) >= 2010;
 ```
 
-</blockquote>
-
+  </blockquote>
+  
+  <details>
 <summary> Explanation </summary>
+  
 <blockquote>
 
     The expression BillingYear in the WHERE clause is invalid. Even though it is defined as an alias in the SELECT phrase, which appears before the WHERE phrase, the logical processing order of the phrases of the statement is different from the written order.
@@ -165,12 +168,14 @@ b) COMMIT
 
 </blockquote>
 
+  <details>
 <summary> Explanation </summary>
 <blockquote>
 
  The COMMIT command must be executed to save all the operations performed in the transaction.
 
 </blockquote>
+  </details>
 </details>
 
 ---
@@ -288,7 +293,7 @@ a) With the DDL commands, any structural changes can be made to the table, inclu
 <summary>Explanation</summary>
 <blockquote>
 
-- Data definition language (DDL) refers to the set of SQL commands that can create and manipulate the structures of a database. DDL statements are used to create, change, and remove objects including indexes, triggers, tables, and views.
+Data definition language (DDL) refers to the set of SQL commands that can create and manipulate the structures of a database. DDL statements are used to create, change, and remove objects including indexes, triggers, tables, and views.
 
 </blockquote>
 </details>
