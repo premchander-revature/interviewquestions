@@ -1128,6 +1128,7 @@ For the Query,
 `HAVING` 1<(SELECT COUNT(*) `FROM` Sailors S2 `WHERE` S.Rating = S.Rating)
 ```
 The Number of rows returned is,
+                   
 a.	3
 b.	4
 c.	5
