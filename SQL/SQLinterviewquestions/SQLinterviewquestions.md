@@ -950,8 +950,9 @@ The above query will display the following result.
 
 37.There is a table which contains two columns Student and Marks, you need to find all the students, whose marks are greater than average marks i.e. list of above-average students.
 |   Stu_Id	|   Stu_Name	|  Marks   |  Average  |
-|     1     |	Akshaya     |	78       |	  75     | 
-|     2	    |    Divya	  |   65	   |    65     |
+|-----------|-------------|----------|-----------|
+|     1     |	Akshaya     |	  78     |	  75     | 
+|     2	    |   Divya	    |   65	   |    65     |
 |     3     |	Bharathi	  |   77     |	  83     |
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -1005,8 +1006,6 @@ The Following is the correct query:
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-To find the Odd number Employee ID, we can use % function.
-
 <details>
 <summary><b> Show Answer </b></summary>
 
@@ -1017,8 +1016,10 @@ To find the Odd number Employee ID, we can use % function.
 ```
 </blockquote>
 
-<blockquote>
+<details>
 <summary><b> Explanation </b></summary>
+
+<blockquote>
 
 To find the Odd number Employee ID, we can use % function.
 
@@ -1257,6 +1258,7 @@ To delete a particular row by using the delete command. The Syntax for deleting 
 
 </blockquote>
 
+</details>
 </details>
 
 
