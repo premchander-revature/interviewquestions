@@ -1,4 +1,4 @@
-1.Write a query to fetch values in table Sample_a that are and not in Sample_b without using the NOT keyword.
+1.Write a query to fetch values in a table Sample_a that are not in Sample_b without using the NOT keyword.
 
   Given two tables created as follows:
 
@@ -41,7 +41,7 @@ select _ from Sample_b;
 
 ---
 
-2.Find the Error in the given SQL query:
+2.Debug the given SQL query:
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -73,7 +73,7 @@ WHERE grades =
 <summary> Explanation </summary>
 <blockquote>  
 
-    In the above query we use GROUP BY MARKS means, it clusters the rows with same Marks and we also use SELECT MARKS, COUNT(DISTINCT STUDENT_ID) which prints the Marks of each cluster and the count of rows of respective clusters. 
+    In the above query, we used GROUP BY MARKS. It clusters the rows with same Marks and we also use SELECT MARKS, COUNT(DISTINCT STUDENT_ID) which prints the marks of each cluster and the count of the rows of respective clusters. 
 
 </blockquote>
 
@@ -83,7 +83,7 @@ WHERE grades =
 ---
 
 
-3.Find the Error in the given query:
+3.Debug the given SQL query:
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -120,7 +120,7 @@ WHERE Year >= 2010
 
 ---
 
-4.Which of the following query finds the names of the sailors who have reserved atleast one boat?
+4.Which of the following SQL query tracks the names of the sailors who have reserved atleast one boat?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -147,7 +147,7 @@ C.SELECT DISTINCT s.name FROM sailors s, reserves r WHERE s.sid = r.sid;
 
 ---
 
-5.After the completion of a transaction in SQL, it must be executed to save all the operations performed in the transaction. Here we are talking about which command?
+5.After the completion of a transaction in SQL, it must be executed to save all the operations performed in the transaction. Which command is used for this?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -217,7 +217,7 @@ The Statement in Option d is used to Select the Gender data from the table with 
 
 ---
 
-7.Write the sql query to get the employee details using last name ?
+7.Write a SQL query to get the employee details using last name?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -259,7 +259,7 @@ d) SELECT Gender FROM Employees WHERE Last_Name = 'Kumar';
 
 <blockquote>
 
-By using SELECT key in addition to WHERE clause to be used for Last_Name
+By using SELECT key in addition to WHERE clause be used for Last_Name
 
 </blockquote>
 
@@ -268,7 +268,7 @@ By using SELECT key in addition to WHERE clause to be used for Last_Name
 
 ---
 
-8.Decide which statement is true.
+8.Which of the following statement is true?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -301,7 +301,7 @@ Data definition language (DDL) refers to the set of SQL commands that can create
 
 ---
 
-9.Which statement is used to get all data from the student table whose name starts with p?
+9.Which of the following statement is used to get all datas whose name starts with p from the student table?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -326,14 +326,14 @@ c. SELECT \* FROM student WHERE name LIKE 'p%';
 <blockquote>
 
 - The '%' symbol indicates zero or more characters next to where it will be used.
-- The \_ symbol is used to match exactly one character. Therefore option C is the correct choice.
+- The \_ symbol is used to match exactly one character. Therefore, option C is the correct choice.
 </blockquote>
 </details>
 </details>
 
 ---
 
-10.Table Employee has 10 Records,it has a non - NULL SALARY column which is also UNIQUE.Predict the output. 
+10. Consider the Employee table has 10 Records and it has a non - NULL SALARY column which is also UNIQUE. Predict the output for the same. 
 
 For the SQL statement
 
@@ -368,7 +368,7 @@ Each non-NULL value in the SALARY column of the employee table's 10 records is d
 
 ---
 
-11.What functional differences do Drop and Truncate have?
+11.What are the functional differences of Drop and Truncate?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -377,14 +377,14 @@ Each non-NULL value in the SALARY column of the employee table's 10 records is d
 
 <blockquote>
 
-- The DROP command is used to delete all of the data in a table or database, including any indexes and data. In contrast, the TRUNCATE command is used to remove all of the table's rows.
+- The DROP command is used to delete all the data in a table or database, including any indexes and data. In contrast, the TRUNCATE command is used to remove all of the table's rows.
 
 </blockquote>
 </details>
 
 ------
 
-12.How to quickly obtain records from a table and give an explanation.
+12.How to quickly retrieve records from a table. Give an explanation.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -418,7 +418,7 @@ Table will be created with no default value for CREATE_DATE column
 
 ------
 
-14.You are designing a table for the Bank department.In which datatype you need to store an interval of days, hours, minutes and seconds in a column.?
+14.A table is created for a bank department. Which datatype is used to store an interval of days, hours, minutes and seconds in a column?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -444,7 +444,7 @@ INTERVAL YEAR TO MONTH
 <blockquote>
 
 - It's not necessary to mention a table's size. Online table editing is possible. 
-- To create the table's structure, each column needs attributes such data kinds and precision.
+- To create the table's structure, each column needs attributes such as data kinds and precision.
 
 </blockquote>
 </details>
@@ -469,7 +469,7 @@ INTERVAL YEAR TO MONTH
 ---
 
 
-17.What is schema and its reliablity?
+17.What is schema and what is its reliablity?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -486,7 +486,7 @@ INTERVAL YEAR TO MONTH
 
 ------
 
-18.By using quoted Identifiers ' ', you could create tables. In what manner will you reference the table?
+18.By using quoted Identifiers ' ', you could create tables. How would you reference those table?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -521,7 +521,7 @@ INTERVAL YEAR TO MONTH
 
 ------
 
-20.How you determine the referenced data when you delete the parent record.
+20.How would you determine the referenced data when you delete the parent record?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -540,7 +540,7 @@ There are two options:
 
 ------
 
-21.How can we copy the existing table and use it for the development purposes without changing the real table ?
+21.How do we copy the existing table without affecting the real table and use it for the development purposes?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -567,7 +567,7 @@ CREATE TABLE table_name AS (SELECT select_query);
 
 ------
 
-22.How to create an event and write a sample query for the annual function in the office ?
+22.How do we create an event. Write a sample query for the annual function in the office ?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -703,7 +703,7 @@ Transaction Control Language commands are used to manage transactions in the dat
 
 ---
 
-27.Which Command is used to temporarily save a transaction so that you can rollback to that point whenever necessary?
+27.Which command is used to temporarily save a transaction so that you can rollback to that point whenever necessary?
 
 ![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
@@ -903,7 +903,7 @@ When we attempt to insert data into the database, but the data is incomplete or 
 
 ---
   
-36.Create a query by using the `IN` Operator to determine whether the Employee FirstName is present in the table.
+36.Create a SQL query by using the `IN` Operator to determine whether the Employee FirstName is present in the table.
           Table_Name: Employee Table
 |Emp_Id	|    First_Name  	  |      Last_Name    |      	Email_Id        |	Salary  | Dept_Id  |
 |-------|-------------------|-------------------|-----------------------|---------|----------|
