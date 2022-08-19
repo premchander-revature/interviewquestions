@@ -46,5 +46,59 @@ It is better to use Spring Boot if we want to develop a simple Spring-based appl
 |     Spring Boot offers embedded server such as Jetty and   Tomcat, etc.                                                                                                    |     To test the Spring MVC project, we need to set up   the sever explicitly.                    |
 |     Spring Boot comes with the concept of starter in   pom.xml file that internally takes care of downloading the dependencies JARs   based on Spring Boot Requirement.    |     Developers manually define dependencies for the   Spring project in pom.xml.                 |
 |     There is no requirement for a deployment descriptor i.e.,   web.xml file.                                                                                              |     For Spring MVC applications a deployment descriptor   is required.                           |
-  
-  ![image](https://user-images.githubusercontent.com/99252558/185605265-237355ae-7024-43ca-8ee6-6817570c79fd.png)
+
+
+</blockqoute> 
+</details>
+
+---
+
+4. What are some of the annotations you've used in Spring Boot?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+<details>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
+    
+ Spring Annotations are a form of metadata that provides data about a program. Annotations are used to provide supplemental information about a program. Spring annotations present in the `org.springframework.boot.autoconfigure` and `org.springframework.boot.autoconfigure.condition` packages are commonly known as Spring Boot annotations. Some of the annotations that are available in this category are as follows: 
+1.	**@SpringBootApplication** - This annotation is used to mark the main class of a Spring Boot application. It encapsulates @SpringBootConfiguration, @EnableAutoConfiguration, and @ComponentScan annotations with their default attributes.
+2.	**@ComponentScan** - It is used when we want to scan a package for beans. Generally, @ComponentScan annotation is used with @Configuration annotation to specify the package for Spring to scan for components. We can also specify the base packages to scan for Spring Components. It tells Spring in which packages you have annotated classes that should be managed by Spring. For example, if you have a class annotated with @Controller which is in a package that is not scanned by Spring, you will not be able to use it as a Spring controller. So, we can say @ComponentScan enables Spring to scan for things like configurations, controllers, services, and other components that are defined. 
+3.	**@EnableAutoConfiguration** - It auto-configures the bean that is present in the class path and configures it to run the methods. The use of this annotation is reduced in Spring Boot 1.2.0 release because developers provided an alternative of the annotation, i.e., @SpringBootApplication. For example, when we illustrate the spring-boot-starter-web dependency in the class path, Spring boot auto-configures Tomcat, and Spring MVC. The package of the class declaring the @EnableAutoConfiguration annotation is considered as the default. Therefore, we need to apply the @EnableAutoConfiguration annotation in the root package so that every sub-packages and class can be examined.
+4.	**@Configuration** - It is a class-level annotation. The class annotated with @Configuration used by Spring Containers as a source of bean definitions.
+5.	**@SpringBootConfiguration** - It can be used as an alternative to Spring’s standard @Configuration annotation so that configuration can be found automatically. Most Spring Boot Applications use @SpringBootConfiguration via @SpringBootApplication.
+</blockqoute> 
+</details>
+
+---
+
+5. How to create Spring Boot project? Or What is Spring Initializr? How would I go about writing a spring boot application to expose endpoints?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+<details>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
+    
+ The easiest way to build Spring Boot project is to used Spring Initializr module. Spring Initializr provides an extensible API to generate JVM-based projects, and to inspect the metadata used to generate projects, for instance to list the available dependencies and versions. 
+    
+**Explanation**<br> With Spring Initializr, there is minimal code involved and the service has a very rich configuration structure, allowing you to define not only the values of various project attributes but also the list of dependencies and the constraints to apply to them. The API can be used standalone or embedded in other tools (e.g., it is used in major IDEs such as Spring Tool Suite, IntelliJ IDEA Ultimate, NetBeans and VSCode).
+
+Steps:<br>
+1.	Navigate to `https://start.spring.io.` This service pulls in all the dependencies you need for an application and does most of the setup for you.
+2.	Choose either Gradle or **Maven** and the language you want to use. This guide assumes that you chose Java.
+3.	Click **Dependencies** and select **Spring Web**, **Spring Data JPA**, and **MySQL** Driver.
+4.	Click **Generate**.
+5.	Download the resulting ZIP file, which is an archive of a web application that is configured with your choices.
+6.	Open the project into any java IDE.
+7.	Configure standard package names.
+8.	Define various configuration details for your spring application e.g., DB server details under each `application-<spring-profile-name-by-region>.properties` file.
+9.	Configure various entities used in project using respective ORM provider.
+10.	Implement DAO layer repositories using either **JpaRepository** or **CrudRepository** (We prefer using **JpaRepository** due to its additional benefits) and using `@Repository` annotation.
+11.	Implement service layers using more business specific functionalities by injection one or more repositories.
+12.	Implement controller layer using `@Controller` or `@RestController`  depending upon business requirements.
+13.	Expose various endpoint methods using appropriate request mapping annotations like. `@GetMapping`, `@PostMapping`, `@PutMapping`  or `@DeleteMapping`
+14.	Test Application using any client like SoapUI, Postman etc.
+
+</blockqoute> 
+</details>
+    
+ ---
