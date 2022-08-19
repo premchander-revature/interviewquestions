@@ -11,6 +11,7 @@ Spring MVC is the web component of Spring’s framework which provides a rich fu
   
 **Explanation**<br> Spring MVC, as many other web frameworks, is designed around the front controller pattern where a central **Servlet**, the **DispatcherServlet**, provides a shared algorithm for request processing, while actual work is performed by configurable delegate components. The **DispatcherServlet**, as any Servlet, needs to be declared and mapped according to the Servlet specification by using Java configuration or in web.xml. In turn, the **DispatcherServlet** uses Spring configuration to discover the delegate components it needs for request mapping, view resolution, exception handling, and more.
 ![image](https://user-images.githubusercontent.com/99252558/185601373-5f78c15d-428c-41ea-882c-cec6fd370072.png)
+    
 The request processing workflow in Spring Web MVC (high level):
 - The **DispatcherServlet**, as any **Servlet**, needs to be declared and mapped according to the Servlet specification by using Java configuration or in **web.xml**. In turn, the **DispatcherServlet** uses Spring configuration to discover the delegate components it needs for request mapping, view resolution, exception handling etc.
 ``` xml
