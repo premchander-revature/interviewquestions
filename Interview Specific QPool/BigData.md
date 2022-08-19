@@ -19,7 +19,9 @@ Hadoop Common – It Provides common Java **libraries** that can be used across 
 
  </blockqoute> 
 </details>
+
 ---
+
 
 2. What do you mean by Hive?
 <details>
@@ -35,4 +37,6 @@ Components of Hive:
 5.	Executor
  </blockqoute> 
 </details>
+
 --- 
+
