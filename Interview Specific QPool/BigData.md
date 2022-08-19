@@ -80,7 +80,7 @@ Now, days in Internet has huge amount of data being generated daily, in a simple
     
 Distributed computing is used as a storing of huge data or large volume. To maintain it uses mainly Hadoop and Spark.
     
-Spark is 100 times faster in memory and 10 times faster on disk. Spark is faster than Hadoop because it does the processing in **RAM **, which helps to reduce the read – write operation in system. But Spark never replace Hadoop, both are having their own way of handling data, only regarding fast processing speed we prefer spark more than Hadoop.
+Spark is 100 times faster in memory and 10 times faster on disk. Spark is faster than Hadoop because it does the processing in **RAM**, which helps to reduce the read – write operation in system. But Spark never replace Hadoop, both are having their own way of handling data, only regarding fast processing speed we prefer spark more than Hadoop.
 
  </blockqoute> 
 </details>
