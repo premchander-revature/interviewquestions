@@ -68,3 +68,24 @@ Component of Spark:
 
 --- 
 
+4. Given that Spark is 100 times faster than Hadoop, what is the business use case for Hadoop?
+
+<details>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
+
+ **Spark** runs a workload up to 100 times faster than **Hadoop**. 
+    
+Now, days in Internet has huge amount of data being generated daily, in a simple word its known as **Bigdata**. As we know data in both formats structured and Unstructured, is generated from business, organizations mainly social network. 
+    
+Distributed computing is used as a storing of huge data or large volume. To maintain it uses mainly Hadoop and Spark.
+    
+Spark is 100 times faster in memory and 10 times faster on disk. Spark is faster than Hadoop because it does the processing in **RAM **, which helps to reduce the read – write operation in system. But Spark never replace Hadoop, both are having their own way of handling data, only regarding fast processing speed we prefer spark more than Hadoop.
+
+ </blockqoute> 
+</details>
+
+--- 
+
+
+
