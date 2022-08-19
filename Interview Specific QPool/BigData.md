@@ -19,3 +19,20 @@ Hadoop Common – It Provides common Java **libraries** that can be used across 
 
  </blockqoute> 
 </details>
+---
+
+2. What do you mean by Hive?
+<details>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
+    Hive is a tool which is used to work on MapReduce Tasks. If we think Writing a MapReduce job is very long process and time taken, well, with Hadoop Hive, we can used and Submit SQL queries as well as we can perform MapReduce Jobs. So, if we are comfortable with SQL Queries then Hive is a best tool for us to perform a Basic Queries which known as HQL (Hive Query Language. Working on HQL, we use Pig Latin as a Language.
+Basically, Hive runs on our system, which helps to convert the SQL queries to set of jobs in Hadoop Cluster. 
+Components of Hive:
+1.	Driver
+2.	Meta store
+3.	Compiler
+4.	Optimizer
+5.	Executor
+ </blockqoute> 
+</details>
+--- 
