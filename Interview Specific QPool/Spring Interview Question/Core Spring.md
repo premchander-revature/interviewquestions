@@ -258,3 +258,51 @@ public Laptop myLaptop() {
 </details>
 
 ---
+
+7. What are Advantages & Disadvantages of DI?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+<details>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
+
+The process of injecting and converting coupled or dependent objects into decoupled or independent objects is called Dependency Injection. It is a process that allows concurrent and or independent development. Through dependency injection, two developers can independently develop classes that use each other, while only needing to know the interface the classes will communicate through. Moreover, dependency injection decreases coupling between classes and its dependency. 
+
+**Advantages of Dependency Injection:**
+1.	Dependency injection allows a client the flexibility of being configurable.
+2.	Classes are more modular, as they depend only on the interface of passed-in dependencies. Class behavior can be changed by swapping out a new component.
+3.	Centralized configuration can be used to externalize a system's configuration details into configuration files, allowing the system to be reconfigured without recompilation.
+4.	Separate configurations can be written for different situations that require different implementations of components. This includes, but is not limited to, testing.
+5.	Due to decoupling, the reusability of the code is increased.
+6.	Improved code maintainability.
+7.	It can be applied to legacy code as a code refactoring.
+8.	The ease of testing is often the first benefit noticed when using dependency injection.
+9.	It allows reduction of boilerplate code in the application objects, since all work to initialize or set up dependencies is handled by a provider component. 
+10.	Improves application testing, since stubs can be substituted for any dependency.
+	
+Even though there are uncountable benefits of using Dependency Injection, it is of utmost importance to check the drawbacks and disadvantages provided by it. From encouraging dependence on a dependency injection framework to forcing complexity to move out of classes and into the linkages between classes, which might not always be desirable or easily managed, there are several disadvantages of dependency injection. 
+
+**Disadvantages of dependency Injection:**
+1.	Using many instances together can become a very difficult if there are too many instances and many dependencies that need to be resolved.
+2.	Code can become harder to understand.
+3.	Dependency injection can make code difficult to trace (read) because it separates behavior from construction. This means developers must refer to more files to follow how a system performs.
+</blockqoute> 
+</details>
+
+---
+
+8. Why is Dependency Injection Useful?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+<details>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
+	
+DI a very useful technique for testing, since it allows dependencies to be mocked or stubbed as required. Every layer (DAO, service, controller) of application can be tested independently.
+
+**Explanation**<br>
+Dependency injection plays an important role in test driven development of a software, and it is a design paradigms that is used by software programmers all over the world. Moreover, this framework takes care of creating complicated and advanced objects for developers without allowing them to worry about providing right elements or ingredients. However, the importance of dependency injection is extremely high for unit testing, validation and exception management, as it is tremendously helpful to them in various ways. Hence, elaborated here is the use of dependency injection in unit testing and validation or exception management.<br>
+**Unit Testing:** In unit testing, dependency injection enables one to replace complex dependencies, such as databases, with mocked implementations of those dependencies. This further allows them to completely isolate the code that is being tested by the team of expert testers.<br>
+**Validation or Exception Management:** With the assistance of dependency injection, an individual can inject additional code between the available dependencies. Also, it is possible to inject exception management logic or validation logic, which means that the developer no longer needs to write similar logic for every phase of development.<br>
+	
+---
