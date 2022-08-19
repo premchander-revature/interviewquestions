@@ -71,8 +71,9 @@ Spring Data JPA provides repository support for the Java Persistence API (JPA). 
 <blockquote>
   
 - The key differences are listed below-
+	
  
-  | **#** | **Spring Data JPA**                                                                      | **Spring Data JDBC**                             |
+| **#** | **Spring Data JPA**                                                                      | **Spring Data JDBC**                             |
 | ----- | ---------------------------------------------------------------------------------------- | ------------------------------------------------ |
 | 1     | Database independent and portable                                                        | Generally, Database Specific                     |
 | 2     | Introduces complexity through Object-Relational Mapping                                  | Less complex, than Spring Data JPA               |
@@ -82,6 +83,7 @@ Spring Data JPA provides repository support for the Java Persistence API (JPA). 
 | 8     | Caching and lazy loading                                                                 | No caching, no lazy loading                      |
 | 9     | Sessions and dirty tracking                                                              | No sessions, no dirty tracking                   |
   
+	
 </blockquote>
 
 </details>
