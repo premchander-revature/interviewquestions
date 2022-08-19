@@ -206,6 +206,8 @@ When using XML-based configuration metadata, we can specify the **autowire** mod
 2.	**byName**: Autowiring by property name. Spring looks for a bean with the same name as the property that needs to be autowired.
 3.	**byType**: Lets a property be autowired if exactly one bean of the property type exists in the container. If more than one exists, a fatal exception is thrown, which indicates that you may not use byType autowiring for that bean. If there are no matching beans, nothing happens (the property is not set).
 4.	**constructor**: Analogous to byType but applies to constructor arguments. If there is not exactly one bean of the constructor argument type in the container, a fatal error is raised.
+  </blockqoute> 
+</details>
 	
 ---
 	
@@ -225,3 +227,34 @@ A bean with the prototype scope will return a different instance every time it i
 4.	**session**: Scopes a single bean definition to the lifecycle of an HTTP Session. Only valid in the context of a web-aware Spring ApplicationContext.
 5.	**application**: Scopes a single bean definition to the lifecycle of a **ServletContext**. Only valid in the context of a web-aware Spring **ApplicationContext**.
 6.	**websocket**: Scopes a single bean definition to the lifecycle of a **WebSocket**. Only valid in the context of a web-aware Spring **ApplicationContext**.
+
+**Singleton Scoped Bean Example**
+``` java
+@Bean
+@Scope("singleton")
+//or
+//@Scope(value = ConfigurableBeanFactory.SCOPE_SINGLETON)
+public Laptop myLaptop() {
+    return new Laptop();
+}
+```
+![image](https://user-images.githubusercontent.com/99252558/185595446-87b66f4d-773e-4dcc-a94f-4aedfc1b79f4.png)
+
+**Prototype Scoped Bean Example**
+
+``` java
+@Bean
+@Scope("prototype")
+//or
+//@Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
+public Laptop myLaptop() {
+    return new Laptop();
+}
+```
+![image](https://user-images.githubusercontent.com/99252558/185595878-948d15c0-3769-4d4e-9d0d-2c9467ee1ff8.png)
+	
+**Note**: Additional **Custom Scopes** can also be created and configured using a **CustomScopeConfigurer**. An example would be the **flow scope** added by Spring Webflow. In most cases, you may only deal with the Spring’s core scope i.e., **singleton** and **prototype**.
+</blockqoute> 
+</details>
+
+---
