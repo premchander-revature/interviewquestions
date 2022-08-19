@@ -48,4 +48,26 @@ These modules can drastically reduce the development time of an application. For
 
 ---
 
+4. What are various projects offered by Spring? List few of them.
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+<details>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
+
+Spring is modular by design. From configuration to security, web apps to big data—whatever the infrastructure needs of your application may be, there is a Spring Project to help you build it. Few commonly used projects listed below-
+1.	**Spring Framework** - Provides core support for dependency injection, transaction management, web apps, data access, messaging, and more.
+2.	**Spring Boot** - Takes an opinionated view of building Spring applications and gets you up and running as quickly as possible.
+3.	**Spring Data** - Provides a consistent approach to data access – relational, non-relational, map-reduce, and beyond.
+4.	**Spring Cloud** - Provides a set of tools for common patterns in distributed systems. Useful for building and deploying microservices.
+5.	**Spring Security** - Protects your application with comprehensive and extensible authentication and authorization support.
+6.	**Spring Batch** - Simplifies and optimizes the work of processing high-volume batch operations.
+7.	**Spring HATEOAS** - Simplifies creating REST representations that follow the HATEOAS principle.
+8.	**Spring REST Docs** - Lets you document RESTful services by combining hand-written documentation with auto-generated snippets produced with Spring MVC Test or REST Assured.
+9.	**Spring For Apache Kafka** - Provides Familiar Spring Abstractions for Apache Kafka.
+10.	**Spring Vault** - Provides familiar Spring abstractions for HashiCorp Vault
+
+**Note**: We use first four project as part of our Spring and Microservices curriculum.
+    
+---
+    
