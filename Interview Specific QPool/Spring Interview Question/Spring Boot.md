@@ -102,3 +102,89 @@ Steps:<br>
 </details>
     
  ---
+    
+ 6. What are the standard package names which are followed by any enterprise java application?
+ 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+<details>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
+
+Usually there is no restriction on whatever the package name you provide for your application, but as per industry standards and enterprise application being divided into various layered structure the standard package structures which can be defined in project are listed below 
+    
+1.	`com.revature.model`  - This will have all your POJOs and JPA entities defined.
+2.	`com.revature.repositories` or `com.revature.dao`  - This will have all you @Repositries or any DAO interface & classes defined.
+3.	`com.revature.service` - This will have all you @Service interface & classes defined.
+4.	`com.revature.controller` - This will have all you @Controller or @RestControllers classes defined.
+5.	`com.revature.constants` - This will have all your classes with private constructor and all public static final constants defined.
+6.	`com.revature.util` - This will have all your own utility classes defined e.g.pdf, csv export file utilities, encryption/decryption.
+7.	`com.revature.config` - This will have all your spring @Configuration classes with @Bean definitions.
+8.	`com.revature.dto`  - This will have all your Data Transfer Object (DTO) classes defined which are usually subsets of attributes from different POJO and Entity classes.
+9.	`com.revature.test.unit` - This will have all your application jUnit test cases defined.
+10.	`com.revature.test.api` - This will have all your application integration test cases defined.
+</blockqoute> 
+</details>
+    
+---
+
+7. What is the standard Spring profile per region properties file names followed by any enterprise java application?
+    
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+<details>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
+    
+Usually there is no restriction on whatever the profile names you use but as per industry standards you can use below spring profile and respective properties file name-
+1.	`application.properties`  - Spring Default profile
+2.	`application-dev.properties`  - Spring Dev Profile for Development Region
+3.	`application-int.properties`  - Spring Dev Profile for Integration Testing Region
+4.	`application-uat.properties`  - Spring Dev Profile for User Acceptance Testing Region
+5.	`application-staging.properties`  - Spring Dev Profile for User Staging/Performance Testing Region
+6.	`application-preprod.properties`  - Spring Dev Profile for Pre-Production or Sandbox Region
+7.	`application-prod.properties`  - Spring Dev Profile for PROD Region
+</blockqoute> 
+</details>
+    
+---
+    
+8. Which IDE can be used to build Spring Boot application?
+    
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+<details>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
+    
+You can use any latest version of Eclipse, Spring Tool Suite, IntelliJ Idea, Visual Studio Code or any other IDE compliant with your enterprise guidelines. Out of all the IDE spring recommended to use Spring Tool Suite since it has Spring Initializr integration integrations preconfigured for other IDEs you may need to configure Spring plugins manually.
+</blockqoute> 
+</details>
+    
+---
+
+9. How does Spring Boot Application Bootstraps?
+    
+ ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+<details>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
+
+ The entry point of execution of a Spring Boot application is the class that is annotated with `@SpringBootApplication`. 
+    
+``` java
+@SpringBootApplication
+public class Application {
+    public static void main(String[] args) {
+        SpringApplication.run(Application.class, args);
+    }
+}
+```
+    
+Spring boot application uses embedded container to run the application. Spring Boot uses the public static void main entry point to launch an embedded web server. The binding of the Servlet, Filter, and ServletContextInitializer beans from the application context to the embedded servlet container is take care internally. It automatically scans all the classes in the same package or sub packages of the Main-class for components. In addition, Spring Boot provides the option of deploying it as a web archive in an external container for this we have to extend the SpringBootServletInitializer as follows, Here the external servlet container looks for the Main-class defined in the META-INF file of the web archive, and the SpringBootServletInitializer will take care of binding the Servlet, Filter, and ServletContextInitializer.
+    
+ ``` java
+ @SpringBootApplication
+public class Application extends SpringBootServletInitializer {
+    // ...
+}
+```
+    
+---
