@@ -304,5 +304,7 @@ DI a very useful technique for testing, since it allows dependencies to be mocke
 Dependency injection plays an important role in test driven development of a software, and it is a design paradigms that is used by software programmers all over the world. Moreover, this framework takes care of creating complicated and advanced objects for developers without allowing them to worry about providing right elements or ingredients. However, the importance of dependency injection is extremely high for unit testing, validation and exception management, as it is tremendously helpful to them in various ways. Hence, elaborated here is the use of dependency injection in unit testing and validation or exception management.<br>
 **Unit Testing:** In unit testing, dependency injection enables one to replace complex dependencies, such as databases, with mocked implementations of those dependencies. This further allows them to completely isolate the code that is being tested by the team of expert testers.<br>
 **Validation or Exception Management:** With the assistance of dependency injection, an individual can inject additional code between the available dependencies. Also, it is possible to inject exception management logic or validation logic, which means that the developer no longer needs to write similar logic for every phase of development.<br>
-	
+</blockqoute> 
+</details>
+
 ---
