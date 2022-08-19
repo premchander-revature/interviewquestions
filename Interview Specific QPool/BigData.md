@@ -45,3 +45,26 @@ Components of Hive:
 
 --- 
 
+3. What do you mean by Spark?
+
+<details>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
+
+Basically, **Spark** is used as a general-purpose **distributing data processing system**, which is used to use in wide range.  Spark is used as Storage as well as processing. As we know, spark has its own cluster management for computation, so it uses Hadoop storage for storing data.
+    
+Component of Spark:
+    
+1.	Spark SQL 
+2.	Spark Streaming 
+3.	Machine Learning 
+4.	Graphx
+
+![image](https://user-images.githubusercontent.com/70228962/185568923-3ec8184d-a9f4-4e98-b2a4-9f42d488d912.png)
+
+    
+ </blockqoute> 
+</details>
+
+--- 
+
