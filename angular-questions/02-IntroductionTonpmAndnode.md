@@ -44,9 +44,10 @@ Download Node.js from nodejs.org and install it. The npm CLI gets installed with
 <details>
 <summary><b>Show Answer</b></summary>
 <blockquote>
-NPM stands for Node Package Manager, responsible for managing all the packages and modules for Node.js.
+ 
+- NPM stands for Node Package Manager, responsible for managing all the packages and modules for Node.js.
 
-Node Package Manager provides two main functionalities:
+- Node Package Manager provides two main functionalities:
     - Provides online repositories for node.js packages/modules, which are searchable on search.nodejs.org
     - Provides command-line utility to install Node.js packages and also manages Node.js versions and dependencies  
   
@@ -79,7 +80,7 @@ Node Package Manager provides two main functionalities:
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-
+To check the node.js is install, open power shell or command prompt (cmd) and type `node –v`. If the node.js is install properly in your system print something like that v4.4.3.
 
 </blockquote>
 </summary>
@@ -92,7 +93,7 @@ Node Package Manager provides two main functionalities:
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-
+ `package.json` file used to store the metadata related to the project such as a project description, the version of the project in a particular distribution, license information, as well as to store the list of dependency packages.
 
 </blockquote>
 </summary>
@@ -105,7 +106,9 @@ Node Package Manager provides two main functionalities:
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
+In package.json, regular `dependencies` are packages that are required for your production-ready site or app to work. Production-ready means the online version of your website or app that the audience experiences.
 
+`devDependencies` are packages used for development purposes, e.g for running tests or transpiling your code.
 
 </blockquote>
 </summary>
@@ -118,7 +121,7 @@ Node Package Manager provides two main functionalities:
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-
+`npm install` command is used for installing JavaScript packages on your local computer.
 
 </blockquote>
 </summary>
@@ -131,7 +134,7 @@ Node Package Manager provides two main functionalities:
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-
+`npm uninstall` command is used to remove installed npm packages on your computer.
 
 </blockquote>
 </summary>
@@ -144,8 +147,14 @@ Node Package Manager provides two main functionalities:
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
+`npm update` command is used to update the node package manager to the latest version.
+  
+It will also install missing packages.
 
+If the -g flag is specified, this command will update globally installed packages.
 
+If no package name is specified, all packages in the specified location (global or local) will be updated.
+  
 </blockquote>
 </summary>
 </details>
@@ -157,7 +166,7 @@ Node Package Manager provides two main functionalities:
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-
+The `npm init` command in the JSON language creates a package.json file for your project’s frontend. 
 
 </blockquote>
 </summary>
@@ -170,7 +179,7 @@ Node Package Manager provides two main functionalities:
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-
+ Yes, it can run angular application.
 
 </blockquote>
 </summary>
@@ -178,4 +187,31 @@ Node Package Manager provides two main functionalities:
   
 ---
  
-14. 
+14. Why do we need `package.json` file?
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+`package.json` contains just JSON. The main purpose of this file is to hold various metadata related to the project. The file is used to provide the information to the node package manager (NPM) that allows identifying the project and its dependencies.
+
+</blockquote>
+</summary>
+</details>
+  
+---
+
+15. Where you can find `package.json` file?
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+The package.json file is normally present at the root directory of a project folder structure.
+
+</blockquote>
+</summary>
+</details>
+  
+---
+
