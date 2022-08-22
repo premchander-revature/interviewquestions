@@ -1,0 +1,572 @@
+## Multiple Choice Questions
+
+1. During transaction before commit which of the following statements is done automatically in case of shutdown?
+
+- a) Rollback
+- b) Commit
+- c) View
+- d) Flashback
+
+<details>
+
+<summary> Show Answer </summary>
+ Answer:
+
+a) Rollback
+
+Explanation:
+
+In case of a shutdown, before committing, Rollback is done.
+
+</details>
+
+2. When Working with a huge data sets, which is a smarter way to define commit command?
+
+- a) Define commit after each insertion / Updation in the table.
+- b) Defining Set Autocommit=1 at the beginning of the file.
+- c) It is Not possible to save changes permanently in MySQL.
+- d) The Changes are saved Permanently by Default.
+
+<details>
+<summary>Show Answer</summary>
+Answer:
+
+b)Defining Set Autocommit=1 at the beginning of the file.
+
+Explanation:
+
+Set Autocommit=1 is a command in MySQL that is used to enable autocommit therefore each changes stored permanently by default.
+
+</details>
+
+3. What is the use of SAVEPOINT command from Transition Control Language.
+
+- a) Used to Load a file.
+- b) Used to update the file in the databsase.
+- c) Used to save the changes till a certain point in time.
+- d) None of the Above.
+
+<details>
+<summary>Show Answer</summary>
+Answer:
+
+c) Used to save the changes till a certain point in time.
+
+Explanation:
+
+it is a point in a transaction when you can roll the transaction back to a certain point without rolling back the entire transaction.
+
+</details>
+
+4.  In order to start the transaction, the command used is –
+
+- a. Mysql > START COMMIT;
+- b. Mysql > START TRANSACTION;
+- c. Mysql > START ROLLBACK;
+- d. None of the above
+<details>
+<summary>Show Answer</summary>
+
+Answer:
+
+b) Mysql > START TRANSACTION;
+
+Explanation:
+
+To start the transaction, Mysql > START TRANSACTION; command is used.
+
+</details>
+
+5. Regarding the NOT NULL Constraint, which is considered TRUE among the following?
+
+- a. In columns that are subject to the NOT NULL constraint, duplicate values are not allowed.
+- b. When a table's column is declared as NOT NULL, no record in the table can have an empty value for that column.
+- c. By applying the NOT NULL constraint, we will always ensure that the column contains a unique value and won't allow nulls.
+- d. The value will first be checked for certain conditions before inserting it into the column when a NOT NULL constraint applies to a column in the table.
+
+<details>
+<summary>Show Answer</summary>
+
+B. When a table's column is declared as NOT NULL, no record in the table can have an empty value for that column
+
+Explanation:
+
+When a table's column is declared as NOT NULL, no record in the table can have an empty value for that column.
+
+</details>
+
+## Scenario Based
+
+1. Larry was updating a SQL table during his practical exam during which he mistakenly added few mismatched data's his examination time is about to end
+   Suggest a quick solution through which he can score full marks.
+
+- a)Revoke
+- b)Grant
+- c)Alter
+- d)Rollback
+
+<details>
+
+<summary> Show Answer </summary>
+
+Answer:
+
+d) Rollback
+
+Explanation:
+Rollback is the command used in mySQL to restore any unsaved data in a table.
+
+</details>
+
+2. Few Students Mark has been uploaded in a database , to prevent the data loss from the database which command can be used
+
+| Name          | Marks |
+| ------------- | ----- |
+| Addam Warlock | 67    |
+| Demos         | 65    |
+| Brayan        | 84    |
+| Chester       | 88    |
+| Duke          | 99    |
+
+- a) Grant
+- b) Select
+- c) Commit
+- d) Rollback
+
+<details>
+
+<summary> Show Answer </summary>
+
+c) Commit
+
+Explanation:
+Commit is the command used in mySQL to store data permanently in a table.
+
+</details>
+
+3. Larry and Weasly was assigned a project in SQL they both worked seperatly hence they had some duplicate data , both are confused in finding a way to get rid of the duplicate data,Luckily Larry used a savepoint command during data insertion.
+   Suggest them a solution.
+
+- a) By using just Rollback command.
+- b) By Using Only Savepoint Command
+- c) Duplicate datas cant be stored in a database
+- d) By Combining Savepoint and Rollback command
+
+<details>
+ 
+<summary> show Answer </summary>
+
+Show Answer:
+
+d) By Combining Savepoint and Rollback command
+
+Explanation:
+
+Savepoint is a command in MySQL that is like a Restore Point in Windows i.e., If an error occurs it rollbacks to the point where the restore point was created, Likewise in MySQL if we want to go to a point we will be using the
+ROLLBACK TO [SAVEPOINT NAME];
+
+</details>
+
+4. We want to update the location of Amritha to "Gujarat" in the table “EMPLOYEE” an make sure to save the chages permanently. EMPLOYEE table is as follows:
+
+| EMP_ID | EMP_NAME | EMP_LOC |
+| ------ | -------- | ------- |
+| 100    | Amritha  | Punjab  |
+| 200    | Rajesh   | Mumbai  |
+| 300    | Rashmika | Chennai |
+
+<details>
+<summary> Show Answer </summary>
+
+Answer:
+UPDATE EMPLOYEE SET EMP_LOC = 'Gujarat' WHERE EMP_NAME= 'Amritha';
+COMMIT;
+
+Explanation:
+Update Command is used to alter the data in the table, Commit command is used to save the changes permanently.
+
+</details>
+
+5. Shree was working on a top secret project he had a high value intel stored to a database on his laptop, while going away he forget to lock his laptop, therefore his colleagues took the chance to make some changes without knowing the importance of the data, suggest the correct thing that can be done to make sure the data is recovered to the actual state it was left by him.
+
+a. `GRANT`
+
+b. `REVOKE`
+
+c. `ROLLBACK`
+
+d. `COMMIT`
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+c. `ROLLBACK`
+
+</blockquote>
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+`ROLLBACK` command in SQL is used to rollback any changes made in a database before commiting it using `COMMIT` command.
+
+</blockquote>
+
+</details>
+
+</details>
+
+---
+
+6. Find the missing code:
+
+```sql
+create table sample(Name_ varchar(20), age_ int, number_ int);
+insert into sample values
+("Albert",20,85904903),
+("Jhon",19,23198298),
+("Dave",30,85937582),
+("Jesse",40,32892933),
+_________;
+rollback;
+```
+
+the output is as follows:
+
+| Name\_ | age\_ | number\_ |
+| ------ | ----- | -------- |
+| Albert | 20    | 85904903 |
+| Jhon   | 19    | 23198298 |
+| Dave   | 30    | 85937582 |
+| Jesse  | 40    | 32892933 |
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+`COMMIT` is the missing command.
+
+</blockquote>
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+As we can see the execution of `ROLLBACK` command failed, the reason is that once a `COMMIT` command is executed before `ROLLBACK` command then the changes made can't be rollbacked.
+
+</blockquote>
+
+</details>
+
+</details>
+
+---
+
+7. Sudeep was working on his final year project with his friends, it was a database related project, everyone did their part seperately so it was Sudeep's work to combine each of them. He did it but lately found that there was some duplicate datas too. Suggest a method to get rid of the duplicate datas.
+
+Hint: He created a restore points after each insertion.
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+Since, he created restore points after each insertion we can try to use the `ROLLBACK` command with `SAVEPOINT` inorder to remove the duplicates from the database.
+
+</blockquote>
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+Sudeep should use the `ROLLBACK` command with `SAVEPOINT` inorder to remove the duplicate entries.
+
+the syntax is as follows:
+
+```sql
+
+ROLLBACK to SAVEPOINT a;
+
+```
+
+</blockquote>
+
+</details>
+
+</details>
+
+---
+
+8. Sanjay is having some hands on a database, he was inserting data's and deleting them. Finally he went on to try something new, now he wanted to retrive the deletions he made earlier suggest a solution.
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+Sanjay can try `ROLLBACK` command inorder to retrive the deletions he made earlier.
+
+</blockquote>
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+`ROLLBACK` is the TCL command which is used to retrieve deleted datas in a database. It is applicable only if `COMMIT` command is not executed prior to `ROLLBACK`
+command.
+
+</blockquote>
+
+</details>
+
+</details>
+
+---
+
+9. It was raining heavily outside and Danny was inserting certain datas into a database and suddenly there was an power outage in his area. Unfortunately he has only few minutes to spare before his UPS dies on him, so suggest a quick solution for him to save his data so that he can work on it lately.
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+`SAVEPOINT` command can be used inorder to create a temporary `SAVEPOINT` so that Danny can use it to jumpback to the point where he left.
+
+</blockquote>
+
+</details>
+
+---
+
+## Output Based
+
+1. What does the following code snippet do?
+
+DELETE FROM STUDENTS
+WHERE AGE = 16;
+ROLLBACK;
+
+- a) Performs an undo operation on the delete operation.
+- b) Deletes the rows from the table where AGE = 16.
+- c) Deletes the entire table.
+- d) none of the Above.
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+a) Performs an undo operation on the delete operation.
+
+</blockquote>
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+Delete Command is used to delete data from the table where age =16.
+Then the data is beinged rollbacked using rollback command.
+
+</blockquote>
+
+</details>
+
+</details>
+
+---
+
+2. INSERT INTO class VALUES(2, 'Rashid');
+
+COMMIT;
+
+UPDATE class SET name = 'Albert' WHERE id = '2';
+
+SAVEPOINT A;
+
+INSERT INTO class VALUES(3, 'Charlie');
+
+SAVEPOINT B;
+
+INSERT INTO class VALUES(4, 'Brandon');
+
+SAVEPOINT C;
+
+SELECT \* FROM class;
+
+What will be the Output for the following command?
+
+<details>
+
+<summary> Show Answer </summary>
+
+Answer:
+
+| id  | name    |
+| --- | ------- |
+| 2   | Albert  |
+| 3   | Charlie |
+| 4   | Brandon |
+
+Explanation:
+The Above commands is inserting values into a table class.
+and commit command is used to make sure that the data is stored permanently.
+Then the is being modified using Update Command.
+Savepoint is used to save that data at the certain point of time.
+and the select command is used to view the data in the table.
+
+</details>
+
+## Exercise Problems
+
+1. Table : CLASS
+
+| ID  | NAME   |
+| --- | ------ |
+| 1   | Anish  |
+| 2   | Anuja  |
+| 3   | Karima |
+
+i) Write a Query to
+Insert the following values into the table CLASS,
+Student Ramesh with ID 4 and make sure to save the current Transaction, and replace the name with Abhishek make sure to save the data in order to retrieve it in case of dataloss, Insert Student Christian with ID 5, make sure to save the data inorder to retrieve it in case of data loss, Insert Student DJ BRAVO with ID 6 again make sure to save the data in order to retrieve it in case of data loss.
+
+ii) What will the output after the updation?
+
+iii) What will be the Output of the following query?
+
+```sql
+rollback to B;
+SELECT \* from class;
+```
+
+iv)What will be the Output of the following query?
+
+```sql
+rollback to A;
+SELECT \* from class;
+```
+
+![Medium](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg>)
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+i)
+
+```sql
+INSERT into class values(4,'Ramesh');
+commit;
+UPDATE class set name='Abhishek' where id='4';
+savepoint A;
+INSERT into class values(5,'Christian');
+savepoint B;
+INSERT into class values(6,'DJ Bravo');
+savepoint C;
+SELECT \* from class;
+
+```
+
+ii)
+
+| ID  | NAME      |
+| --- | --------- |
+| 1   | Anish     |
+| 2   | Anuja     |
+| 3   | Karima    |
+| 4   | Abhishek  |
+| 5   | Christian |
+| 6   | DJ Bravo  |
+
+iii)
+
+| ID  | NAME      |
+| --- | --------- |
+| 1   | Anish     |
+| 2   | Anuja     |
+| 3   | Karima    |
+| 4   | Abhishek  |
+| 5   | Christian |
+
+iv)
+
+| ID  | NAME     |
+| --- | -------- |
+| 1   | Anish    |
+| 2   | Anuja    |
+| 3   | Karima   |
+| 4   | Abhishek |
+
+</blockquote>
+
+</details>
+
+2. Fill in the missing command based on the output,
+
+CREATE TABLE Players(
+ID INT,
+First_Name VARCHAR(255),
+Last_Name VARCHAR(255),
+Date_Of_Birth date,
+Place_Of_Birth VARCHAR(255),
+Country VARCHAR(255),
+PRIMARY KEY (ID)
+);
+
+insert into Players values(1, 'Jonathan', 'Swift', DATE('1981-04-22'), 'CapeTown', 'SouthAfrica');<br>
+insert into Players values(2, 'Kumara', 'Sangakkara', DATE('1977-10-27'), 'Matale', 'Srilanka'); <br>
+\_\_\_\_\_\_\_\_;
+insert into Players values(1, 'Mahendra Singh', 'Dhoni', DATE('1981-07-07'), 'Ranchi', 'India');<br>
+
+O/P:
+
+| ID  | First_Name     | Last_Name | Date_Of_Birth | Place_Of_Birth | Country |
+| --- | -------------- | --------- | ------------- | -------------- | ------- |
+| 1   | Mahendra Singh | Dhoni     | 1981-07-07    | Ranchi         | India   |
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+Rollback
+
+</blockquote>
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+Based on the output we can see that the insertion of the first 2 columns has been removed, Only the insertion below the missing command hence the missing command is Rollback.
+
+</blockquote>
+
+</details>
+
+</details>
+
+---
