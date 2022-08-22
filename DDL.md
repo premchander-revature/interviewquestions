@@ -21,7 +21,7 @@
 
 --------
 
-2.List out the types of DDL commands which used in sql.
+2.List out the types of DDL commands which is used in sql.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -43,7 +43,7 @@
 
 -------
 
-3.Write a query to create a table for the students along with three columns of ID,NAME and DEPARTMENT.
+3.Write a SQL query to create a table for the students that contains three columns as ID,NAME and DEPARTMENT.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -152,7 +152,7 @@ CREATE TABLE table_name1 AS (SELECT table_no, first_name, last_name FROM table_n
 
 <blockquote>
 
-- We can use the `CTAS` for copy the table's structure along with the `WHERE` clause in the `SELECT` query to ensure to select particular columns.
+- We can use the `CTAS` to copy the table's structure along with the `WHERE` clause in the `SELECT` query to ensure to select particular columns.
 
 </blockquote>
 
@@ -161,7 +161,7 @@ CREATE TABLE table_name1 AS (SELECT table_no, first_name, last_name FROM table_n
 
 -------
 
-7.How to create an event and write a sample query for the annual function in the office ?
+7.How to create an event and write a sample query for the annual function in the office?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -293,7 +293,7 @@ CREATE DATABASE IF NOT EXISTS database_name;
 
 -------
 
-11.Which of the following below defines a `VIEW`?
+11.Which of the following defines a `VIEW`?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -344,7 +344,7 @@ d.All of the above
 
 <blockquote>
 
-- Sequence, Table and Synonym are the database objects which are physically store in database schema.
+- Sequence, Table and Synonym are the database objects which are physically stored in database schema.
 
 </blockquote>
 
@@ -353,7 +353,7 @@ d.All of the above
 
 -------
 
-13.Which database objects give an alternative name to an object?
+13.Which of the following database objects gives an alternative name to an object?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -385,7 +385,7 @@ a.Synonym
 
 -------
 
-14.In which of the database object use to improve the performance of queries ?
+14. Which of the following database object is used to improve the performance of queries?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
