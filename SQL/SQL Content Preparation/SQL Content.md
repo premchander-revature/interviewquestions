@@ -98,6 +98,8 @@ Four advantages of database are
 
 </details>
 
+---
+
 6.What do you mean by Data Redundancy?
 
 <details>
@@ -112,6 +114,8 @@ Duplication of data in a database is known as data redundancy.
 
 </details>
 
+---
+
 7.What do you mean by Data Integrity?
 
 <details>
@@ -125,6 +129,8 @@ Data integrity means that the data is accurate and consistent in the database.
 </blockquote>
 
 </details>
+
+---
 
 8.What is Data Consistency?
 
