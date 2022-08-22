@@ -1533,7 +1533,7 @@ FROM Department WHERE Emp_id IS NOT NULL)
 
 ---
 
-52. Why do SQL queries need escape characters?
+52. What is the purpose of using escape characters in Sql queries?
 
 ![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
