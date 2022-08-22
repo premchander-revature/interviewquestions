@@ -1181,7 +1181,7 @@ d. All of the above <br>
 
 <blockquote>
 
-Datatypes, Primary Key and Default values
+All of the above
 
 </blockquote>
 
