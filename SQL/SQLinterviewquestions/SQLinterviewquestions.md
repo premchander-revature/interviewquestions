@@ -502,7 +502,7 @@ INTERVAL YEAR TO MONTH
 
 ------
 
-19.What is accurate regarding a table obtained by a sub-query? 
+19.What are the rules to create a sub query? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -511,8 +511,10 @@ INTERVAL YEAR TO MONTH
 
 <blockquote>
 
-- When a table is made using a sub-query, a LONG column is not replicated.
-- The LONG column is not copied when a table is created using the CTAS (CREATE TABLE AS SELECT) method.
+- Enclose the subquery in parenthesis always.
+- A subquery does not contain a `BETWEEN` or `LIKE` clause.
+- A subquery does not contain an `ORDER BY` clause.
+- A subquery in a `DELETE` and `UPDATE` statement cannot retrieve the data from the same table in which data is to deleted and updated respectively.
 
 </blockquote>
 </details>
@@ -565,7 +567,7 @@ CREATE TABLE table_name AS (SELECT select_query);
 
 ------
 
-22.Write a sample query for the annual function in the office and how do we create an event?
+22.In office there is a annual party falls on September month of year 2022.  Write a sample query for the annual party date & timings and how do we create as an event?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
