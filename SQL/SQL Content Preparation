@@ -1,3 +1,227 @@
+##Defenition Based
+
+1. Which commands are used to manage transactions in the database?
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+Transaction Control Language is used to manage transactions in a database.
+
+</blockquote>
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+- TCL commands are used to manage the changes made by the DML commands such as `INSERT`, `UPDATE`, `DELETE`.
+
+- The TCL commands are: `COMMIT`, `ROLLBACK`, `SAVEPOINT`.
+</blockquote>
+
+</details>
+
+</details>
+
+---
+
+2. Which Command is used to temporarily save a transaction so that you can rollback to that point whenever necessary?
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+- The `SAVEPOINT` command is used to save transactions momentarily so that you can always roll back to that point.
+- The Syntax for a `SAVEPOINT` is as follows:
+
+```sql
+
+SAVEPOINT savepoint_name;
+
+```
+
+</blockquote>
+
+</details>
+
+</details>
+
+---
+
+3. Which Command undoes all the changes done by the current transaction?
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+- `ROLLBACK` is the command which is used to return the database to its last committed state.
+- `ROLLBACK` is also used to leap to a savepoint in an ongoing transaction.
+- The Syntax for a `ROLLBACK` is as follows:
+
+```sql
+
+ROLLBACK TO savepoint_name;
+
+```
+
+</blockquote>
+
+</details>
+
+</details>
+
+---
+
+4. Which Command is used to Save a data in the table Permanently?
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+- `COMMIT` is the command which is used to Save a data in the table Permanently.
+- When using any DML command, such as `INSERT`, `UPDATE`, or `DELETE`, the changes produced by these operations are not permanent; they can be undone until the current session is ended.
+
+- We utilise the `COMMIT` command to designate the modifications as permanent in order to prevent that.
+- The Syntax for a `COMMIT` is as follows:
+
+```sql
+
+COMMIT;
+
+```
+
+</blockquote>
+
+</details>
+
+</details>
+
+---
+
+5. How to reduce the data redundancy in a database ?
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+The Data Redundancy in the database can be reduced with the help of Normalization techniques.
+
+</blockquote>
+<details>
+
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+- Redundancy from a relation or collection of relations is reduced through the use of normalisation.
+- The removal of unwanted traits like Insertion, Update, and Deletion Anomalies is another purpose for it.
+- The bigger table is split into smaller ones during normalisation, and they are connected through relationships.
+
+</blockquote>
+
+</details>
+
+</details>
+
+---
+
+6. In What ways can we reduce the Data Redundancy in a Database?
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+The data redundancy can be achieved using various Normalization Forms.
+
+</blockquote>
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+- 1NF ---> A relation is in 1NF if it contains an atomic value.
+- 2NF ---> A relation will be in 2NF if it is in 1NF and all non-key attributes are fully functional dependent on the primary key.
+- 3NF ---> A relation will be in 3NF if it is in 2NF and no transition dependency exists.
+- BCNF ---> A stronger definition of 3NF is known as Boyce Codd's normal form.
+- 4NF ---> A relation will be in 4NF if it is in Boyce Codd's normal form and has no multi-valued dependency.
+
+</blockquote>
+
+</details>
+
+</details>
+
+---
+
+7. What are the Advantages of Reducing the Data Redundancy in a Database ?
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+- Improved overall database organization
+- Reduces redundancy
+- Data consistency
+- Cost reduction
+- Increased security
+
+</blockquote>
+
+</details>
+
+---
+
+8. What are the Disadvantages of Reducing the Data Redundancy in a Database ?
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+- The database structure is more complex.
+- More Complex Queries required for fetching data.
+
+</blockquote>
+
+</details>
+
+---
+
+9.  In What ways can we increase the Data Redundancy in a Database?
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+Data Redundancy in a database can be increased using De-Normalization Techniques.
+
+</blockquote>
+
+</details>
+
+---
+
+
 ## Multiple Choice Questions
 
 1. During transaction before commit which of the following statements is done automatically in case of shutdown?
