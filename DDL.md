@@ -158,6 +158,7 @@ CREATE TABLE table_name1 AS (SELECT table_no, first_name, last_name FROM table_n
 
 </details>
 </details>
+
 -------
 
 7.How to create an event and write a sample query for the annual function in the office ?
