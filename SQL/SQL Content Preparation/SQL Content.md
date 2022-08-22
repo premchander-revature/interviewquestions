@@ -471,11 +471,11 @@ f. City – Char or Varchar
 
 25. Define the following terms :
 
-1. Table
+i)   Table
 
-1. Fields
+ii)  Fields
 
-1. Records
+iii) Records
 
 <details>
 
