@@ -903,7 +903,7 @@ When we attempt to insert data into the database, but the data is incomplete or 
 
 ---
   
-36.Create a SQL query by using the `IN` Operator to determine whether the Employee FirstName is present in the table.
+36.Create a SQL query by using the `IN` Operator to determine whether the Employee's FirstName is present in the table.
           Table_Name: Employee Table
 |Emp_Id	|    First_Name  	  |      Last_Name    |      	Email_Id        |	Salary  | Dept_Id  |
 |-------|-------------------|-------------------|-----------------------|---------|----------|
@@ -1221,7 +1221,7 @@ The UPDATE command and WHERE clause are used together to change the name as aske
 ------
 
 
-45.What will be the Output for the following table.
+45.What is the Output for the following table?
 
 Let's take a Product table consisting of the following records and delete a single record from the given table below.
 
@@ -1685,7 +1685,7 @@ SELECT _ FROM Table_B
 
 ---
   
-57. What will be the Output for the following command?
+57. What is the Output for the following command?
   
   ```sql
 INSERT INTO class VALUES(2, 'Rashid');
@@ -1774,7 +1774,7 @@ SELECT \* FROM class;
 
 ---
 
-59. Which TCL Command is to be used based on the output recieved?
+59. Which TCL Command is to be used based on the output received?
 
 ```SQL
 CREATE TABLE Players(
