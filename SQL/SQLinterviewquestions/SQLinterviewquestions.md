@@ -701,7 +701,7 @@ Transaction Control Language commands are used to manage transactions in the dat
 
 ---
 
-27.Which command is used to preserve a transaction temporarily so that you may rewind to that point if necessary?
+27.Which command is used to temporarily save a transaction so that you can rollback to that point whenever necessary?
 
 ![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
@@ -719,7 +719,7 @@ Transaction Control Language commands are used to manage transactions in the dat
 
 ---
 
-28.What Command reverses every modification made by the current transaction?
+28.Which Command undoes all the changes done by the current transaction?
 
 ![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
@@ -737,7 +737,7 @@ Transaction Control Language commands are used to manage transactions in the dat
 
 ---
 
-29.Which command is used to indefinitely save data in a table?
+29.Which Command is used to Save a data in the table Permanently?
 
 ![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
@@ -755,7 +755,7 @@ Transaction Control Language commands are used to manage transactions in the dat
 
 ---
 
-30.How do you eliminate duplication in a database?
+30.How to reduce the Data redundancy in a database?
 
 ![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
@@ -811,7 +811,7 @@ Here is a list of Normalization Techniques in SQL:
 
 ---
 
-32.What Benefits Can we Get from Lessening Data Redundancy?
+32.What are the Advantages of Reducing the Data Redundancy in a Database?
 
 ![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
@@ -835,7 +835,7 @@ Here is a list of Normalization Techniques in SQL:
 
 ---
 
-33.What Drawbacks Come with Reducing Data Redundancy in a Database ?
+33.What are the Disadvantages of Reducing the Data Redundancy in a Database ?
 
 ![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
@@ -855,7 +855,7 @@ Here is a list of Normalization Techniques in SQL:
 
 ---
 
-34.How may the data redundancy in a database be increased?
+34.In What ways can we increase the Data Redundancy in a Database?
 
 ![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
@@ -1009,6 +1009,23 @@ WHERE YEAR(OrderDate) >= 2015;
 --------
 
 39.Write a SQL query to find the first 10 employees from a list whose Employee ID's are odd numbers?
+| Emp_Id 	| Emp_Name    	| Emp_Dept                 	|
+|--------	|-------------	|--------------------------	|
+| 1      	| James       	| Finance                  	|
+| 2      	| Robert      	| Sales                    	|
+| 3      	| John        	| Purchase                 	|
+| 4      	| Michael     	| Administration           	|
+| 5      	| David       	| Research and development 	|
+| 6      	| William     	| Marketing and sales      	|
+| 7      	| Richard     	| Human resources          	|
+| 8      	| Joseph      	| Customer service         	|
+| 9      	| Thomas      	| Accounting               	|
+| 10     	| Charles     	| Production               	|
+| 11     	| Christopher 	| finance                  	|
+| 12     	| Daniel      	|  Development             	|
+| 13     	| Matthew     	| Sales                    	|
+| 14     	|   Anthony   	|        Development       	|
+| 15     	| Andrew      	| Accounting               	|
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
