@@ -1,6 +1,6 @@
-1.Write a query to fetch values in a table Sample_a that are not in Sample_b without using the NOT keyword.
+1. Comparing the given two tables, fetch the values from the table Sample_a that are not common in table Sample_b, without using the NOT keyword.
 
-  Given two tables created as follows:
+  Two tables are created as follows:
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -30,9 +30,9 @@ insert into Sample_b(ID) values
 
 ```sql
 
-select _ from Sample_a
+select * from Sample_a
 except
-select _ from Sample_b;
+select * from Sample_b;
 
 ```
 
@@ -217,7 +217,7 @@ The Statement in Option d is used to Select the Gender data from the table with 
 
 ---
 
-7.Write a SQL query to get the employee details using last name?
+7.Write a SQL query for the below tableto get the employee details using the last name?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -301,7 +301,7 @@ Data definition language (DDL) refers to the set of SQL commands that can create
 
 ---
 
-9.Which of the following statement is used to get all datas whose name starts with p from the student table?
+9.Which of the following statement is used to get all datas whose name starts with p from a student table?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -333,9 +333,7 @@ c. SELECT \* FROM student WHERE name LIKE 'p%';
 
 ---
 
-10. Consider the Employee table has 10 Records and it has a non - NULL SALARY column which is also UNIQUE. Predict the output for the same. 
-
-For the SQL statement
+10. Consider an Employee table that has 10 Records and it has a non - NULL SALARY column which is also UNIQUE. Based on these, predict the output for the given SQL statement.
 
 ```sql
 SELECT COUNT(*) FROM Employee WHERE SALARY > ANY (SELECT SALARY FROM EMPLOYEE);
@@ -451,7 +449,7 @@ INTERVAL YEAR TO MONTH
 
 ---
 
-16.What emerges if a transaction is in effect against a table on which a DDL is issued?
+16. What happens when a transaction function is issued against a DDL command?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -540,7 +538,7 @@ There are two options:
 
 ------
 
-21.How do we copy the existing table without affecting the real table and use it for the development purposes?
+21.How do we copy the existing table without affecting the real table and use the same for the development purposes?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -567,7 +565,7 @@ CREATE TABLE table_name AS (SELECT select_query);
 
 ------
 
-22.How do we create an event. Write a sample query for the annual function in the office ?
+22.Write a sample query for the annual function in the office and how do we create an event?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -597,7 +595,7 @@ UPDATE myschema.mytable SET mycol = mycol +1 ;
 
 -------
 
-23.Assemble a table to hold data on weather monitoring cities having latitude_north,longitude_west and temprature with NO duplicate ID fields are allowed.
+23. Create a table for list of cities on weather monitoring that holds datas of latitude_north,longitude_west and temperature with NO duplicate ID fields.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -621,7 +619,7 @@ Create a table along with a table name "WEATHER_MONITOR" contains fields such as
 
 -------
 
-24.Query to look at table WEATHER_MONITOR in undefined order in sql.
+24. Write a SQL query to get the below table displayed as output in undefined order.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -658,7 +656,7 @@ By using `SELECT` Command following `*` along with the table name.
 ------
 
 
-25.You need to add a constraint to the EMPLOYEES table which restricts the addition of those employees who have salaries less than 10000.
+25.Write a SQl query to add a constraint to a EMPLOYEE table that restricts the addition of employees whose salary is less than 10000.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -757,7 +755,7 @@ Transaction Control Language commands are used to manage transactions in the dat
 
 ---
 
-30.How to reduce the Data redundancy in a database ?
+30.How to reduce the Data redundancy in a database?
 
 ![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
@@ -903,7 +901,7 @@ When we attempt to insert data into the database, but the data is incomplete or 
 
 ---
   
-36.Create a SQL query by using the `IN` Operator to determine whether the Employee's FirstName is present in the table.
+36.Create a SQL query by using the `IN` Operator to determine whether the Employee's FirstName is present in the given table.
           Table_Name: Employee Table
 |Emp_Id	|    First_Name  	  |      Last_Name    |      	Email_Id        |	Salary  | Dept_Id  |
 |-------|-------------------|-------------------|-----------------------|---------|----------|
@@ -953,7 +951,7 @@ The above query will display the following result.
 --------
 
 
-37.There is a table which contains two columns Student and Marks, you need to find all the students, whose marks are greater than average marks i.e. list of above-average students.
+37.Write a SQL query to find all the students, whose marks are greater than the average marks from the below table.
 |   Stu_Id	|   Stu_Name	|  Marks   |  Average  |
 |-----------|-------------|----------|-----------|
 |     1     |	Akshaya     |	  78     |	  75     | 
@@ -979,7 +977,7 @@ WHERE Marks > SELECT Average(Marks) FROM Student_info);
 
 --------
 
-38.What is the wrong with this SQL query?
+38.Debug the given SQL query?
   
   ```sql
 SELECT Id, to_date(OrderDate,’YYYY’) AS OrderYear
@@ -1010,7 +1008,7 @@ WHERE YEAR(OrderDate) >= 2015;
 
 --------
 
-39.How can you find 10 employees with Odd number as Employee ID?
+39.Write a SQL query to find the first 10 employees from a list whose Employee ID's are odd numbers?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1038,7 +1036,7 @@ To find the Odd number Employee ID, we can use % function.
 
 --------
 
-40.If marks column contain the comma separated values from Student table. How to calculate the count of that comma separated values?
+40.Write a SQL query to calculate the count of comma separated values for each names from the given Student table.
 
 |   Student Name	|       Marks       |
 |-----------------|-------------------|
@@ -1081,7 +1079,7 @@ In real scenarios, lot of times developer needs to calculate the number of comma
 ------
 
 
-41.How to create the Student_1 table, which is exact replica of Student table?
+41.How to create a Student1_table, which is an exact replica of Student_table?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1127,7 +1125,7 @@ For the Query,
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 ```sql
-SELECT  S.Rating, AVG(S.Age) AS average FROM Sailsors s
+SELECT  S.Rating, AVG(S.Age) AS average FROM Sailors s
 WHERE S.Age>=18
 GROUP BY S.Rating
 HAVING 1<(SELECT COUNT(*) FROM Sailors S2 WHERE S.Rating = S.Rating)
@@ -1152,7 +1150,7 @@ d.	6 <br>
 
 -----
 
-43.Which of the following do you need to consider when you make a table in SQL? <br>
+43.Which of the following do you need to consider when you create a table in SQL? <br>
 a. Data types <br>
 b. Primary Keys <br>
 c. Default Values <br>
@@ -1185,7 +1183,7 @@ the data comfortably.
 
 -----
 
- 44.How can "Raju" in the "Name" column of the Users table be changed to "Sanjana"?
+ 44.For any given User table, how could the name "Raju" in the "Name" column be changed to the name "Sanjana"?
 
 <br>a. Update User Set Name = "Raju" INTO Name = "Sanjana"
 <br>b. Modify Users SET Name = "Sanjana" WHERE Name = "Raju"
@@ -1273,7 +1271,7 @@ To delete a particular row by using the delete command. The Syntax for deleting 
 
 -----
 
-46.Write a command by using the employee table and increase the income of all employees by 5% in a table.
+46.Write a SQL query to increase the income of all employees in Emp_Salary by 5% for the below employee table .
 
 Table Name: Employees
 
@@ -1286,7 +1284,6 @@ Table Name: Employees
          |   2040    |    Poornima  |     47000     |
          |   2050    |    Abinaya   |     20000     |
 
-Increase Income of all employees by 5% in the above given table.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1382,9 +1379,7 @@ WHERE 1 > 2;
 
 ----
 
-49. Write a query for this problem?
-
-Given the Employee table, where each employee has a DeptId, To transfer personnel from DeptID 1 to DeptID 2 and from DeptID 2 to DeptID 1, use a single SQL query.
+49. For the given Employee table, where each employee has a DeptId, write a single SQL query to transfer personnel from DeptID 1 to DeptID 2 and vice versa.
 
 ![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
@@ -1424,7 +1419,7 @@ UPDATE Employee SET DeptId =
 
 ---
 
-50. What is wrong with this request for the list of workers who don't work for Dept. 1?
+50. Debug the below SQL query and predict the output for the list of workers who don't work for Dept. 1?
 
 ![Medium](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg>)
 
@@ -1474,7 +1469,7 @@ OR DeptID <> 1;
 
  </details>
 
-51. What will be the result of following query?
+51. Predict the output of the following query?
 
 ![Medium](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg>)
 
@@ -1557,7 +1552,7 @@ FROM Department WHERE Emp_id IS NOT NULL)
 
 ---
 
-53. Create a query to locate every employee, regardless of case, whose name contains the term "Rich." As in Rich, RICH, Rich.
+53. Create a query to locate every employee from a employee list, whose name contains the term "Rich." For example: Rich, RICH, Rich.
 
 ![Medium](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg>)
 
@@ -1585,7 +1580,7 @@ WHERE UPPER(emp_name) like '%RICH%'
 
 ---
 
-54. To locate employees that have multiple emails, create a query.
+54. Create a SQL query To locate employees that has duplicate email ID.
 
 ![Medium](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg>)
 
@@ -1667,7 +1662,7 @@ SELECT _ FROM Table_B
 
 ---
 
-56. What will be used rather than distinct in SQL?
+56. What could be used instead of `distinct` in SQL?
 
 ![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
@@ -1739,7 +1734,7 @@ SELECT \* FROM class;
 
 ---
 
-58. Find the Error in the Following Command:
+58. Spot the error in the given SQL query:
 
 ```sql
     Insert into Table Example( col1 [datatype],col2 [datatype],col3[datatype])
@@ -1774,7 +1769,7 @@ SELECT \* FROM class;
 
 ---
 
-59. Which TCL Command is to be used based on the output received?
+59. Which TCL Command is to be used for the below received output?
 
 ```SQL
 CREATE TABLE Players(
@@ -1817,7 +1812,7 @@ O/P:
 
 <blockquote>
 
-- Based on the output we can see that the insertion of the first 2 columns has been removed, Only the insertion below the missing command hence the missing command is `ROLLBACK`.
+- Based on the output, we can see that the insertion of the first 2 columns has been removed, Only the insertion below the missing command hence the missing command is `ROLLBACK`.
 
 </blockquote>
 
