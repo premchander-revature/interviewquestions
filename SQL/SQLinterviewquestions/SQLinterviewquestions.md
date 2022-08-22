@@ -432,7 +432,7 @@ INTERVAL YEAR TO MONTH
 
 ------
 
-15.What about making a table is true?
+15.What are the reliablities for table creation?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
