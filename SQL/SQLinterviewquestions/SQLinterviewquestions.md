@@ -1009,23 +1009,6 @@ WHERE YEAR(OrderDate) >= 2015;
 --------
 
 39.Write a SQL query to find the first 10 employees from a list whose Employee ID's are odd numbers?
-| Emp_Id 	| Emp_Name    	| Emp_Dept                 	|
-|--------	|-------------	|--------------------------	|
-| 1      	| James       	| Finance                  	|
-| 2      	| Robert      	| Sales                    	|
-| 3      	| John        	| Purchase                 	|
-| 4      	| Michael     	| Administration           	|
-| 5      	| David       	| Research and development 	|
-| 6      	| William     	| Marketing and sales      	|
-| 7      	| Richard     	| Human resources          	|
-| 8      	| Joseph      	| Customer service         	|
-| 9      	| Thomas      	| Accounting               	|
-| 10     	| Charles     	| Production               	|
-| 11     	| Christopher 	| finance                  	|
-| 12     	| Daniel      	|  Development             	|
-| 13     	| Matthew     	| Sales                    	|
-| 14     	|   Anthony   	|        Development       	|
-| 15     	| Andrew      	| Accounting               	|
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1117,9 +1100,7 @@ CREATE Table Student_1 as SELECT * from Student;
 
 
 
-42.Sailors(s_id, s_name, rating, age) with the following  data.
-
-
+42. Compare the below table and the given query and predict the output
 
 |   S_Id   |	S_Name	    |    Rating  |	Age    |
 |----------|--------------|------------|---------|
@@ -1136,17 +1117,15 @@ CREATE Table Student_1 as SELECT * from Student;
 |   96	   |    Farin	    |      3	   |    17   |
 
 
-
-For the Query,
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 ```sql
 SELECT  S.Rating, AVG(S.Age) AS average FROM Sailors s
 WHERE S.Age>=18
 GROUP BY S.Rating
 HAVING 1<(SELECT COUNT(*) FROM Sailors S2 WHERE S.Rating = S.Rating)
 ```
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+                 
 The Number of rows returned is,
                    
 a.	3 <br>
@@ -1338,33 +1317,42 @@ Here `UPDATE` command is used for updating the salary by 5% and it is also can b
 -----
 
 
-47.The DDL, DCL, and DML language components that make up a database management system (DBMS).
-Users and practitioners, two diverse groups of individuals, are both interested in them. Which of them do DBMS users often work with?
-
- a. DDL
- b. DML
- c. DDL and DCL
- d. DCL and DML
+47.Predict the output for the following given table (Update single column)
+Update the column_Name and set the value to "Divya" in all the rows where Age is 20.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-
 <details>
-<summary><b> Show Answer</b></summary>
+<summary><b> Show Answer </b></summary>
 
 <blockquote>
 
-Data Manipulation Language
+```sql
 
-</blockquote>
+UPDATE Student WHERE Age = 20 SET NAME = "Divya" ;
+UPDATE Student SET NAME = "Divya" WHERE Age = 20;
 
+```
+      |ROLL_NO|    NAME    |	ADDRESS  |    PHONE   |	  Age  |
+      |-------|------------|-----------|------------|--------|
+      |    1	|    Ram     |	Delhi    | 987466321  |    18  |
+      |    2	|   RAMESH   | GURGAON	 | 7010234567 |    18  |
+      |    3	|   Divya    |	Chennai  | 6897543222 |    20  |
+      |    4	|   SURESH   |  Delhi	   | 8756340034 |    18  |
+      |    5	|   Divya    |	Rohit    | 7786432668 |    20  |
 <details>
-<summary><b>Explanation</b></summary>
+<summary><b> Explanation </b></summary>
 
 <blockquote>
 
-Only the DBMS component for data manipulation language is of interest to users and practitioners.
+```sql
 
+  UPDATE table_name
+     SET column1 = value1, column2 = value2, ...
+     WHERE condition;
+
+```
+This is the correct syntax for updating the values in the given table.
 </blockquote>
 
 </details>
