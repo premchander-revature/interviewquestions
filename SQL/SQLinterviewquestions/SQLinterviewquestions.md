@@ -432,7 +432,7 @@ INTERVAL YEAR TO MONTH
 
 ------
 
-15.What are the reliablities for table creation?
+15.What about making a table is true?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -502,7 +502,7 @@ INTERVAL YEAR TO MONTH
 
 ------
 
-19.What are the rules to create a sub query? 
+19.What is accurate regarding a table obtained by a sub-query? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -511,10 +511,8 @@ INTERVAL YEAR TO MONTH
 
 <blockquote>
 
-- Enclose the subquery in parenthesis always.
-- A subquery does not contain a `BETWEEN` or `LIKE` clause.
-- A subquery does not contain an `ORDER BY` clause.
-- A subquery in a `DELETE` and `UPDATE` statement cannot retrieve the data from the same table in which data is to deleted and updated respectively.
+- When a table is made using a sub-query, a LONG column is not replicated.
+- The LONG column is not copied when a table is created using the CTAS (CREATE TABLE AS SELECT) method.
 
 </blockquote>
 </details>
@@ -567,7 +565,7 @@ CREATE TABLE table_name AS (SELECT select_query);
 
 ------
 
-22.In office there is a annual party falls on September month of year 2022.  Write a sample query for the annual party date & timings and how do we create as an event?
+22.Write a sample query for the annual function in the office and how do we create an event?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -703,7 +701,7 @@ Transaction Control Language commands are used to manage transactions in the dat
 
 ---
 
-27.Which command is used to temporarily save a transaction so that you can rollback to that point whenever necessary?
+27.Which command is used to preserve a transaction temporarily so that you may rewind to that point if necessary?
 
 ![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
@@ -721,7 +719,7 @@ Transaction Control Language commands are used to manage transactions in the dat
 
 ---
 
-28.Which Command undoes all the changes done by the current transaction?
+28.What Command reverses every modification made by the current transaction?
 
 ![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
@@ -739,7 +737,7 @@ Transaction Control Language commands are used to manage transactions in the dat
 
 ---
 
-29.Which Command is used to Save a data in the table Permanently?
+29.Which command is used to indefinitely save data in a table?
 
 ![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
@@ -757,7 +755,7 @@ Transaction Control Language commands are used to manage transactions in the dat
 
 ---
 
-30.How to reduce the Data redundancy in a database?
+30.How do you eliminate duplication in a database?
 
 ![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
@@ -813,7 +811,7 @@ Here is a list of Normalization Techniques in SQL:
 
 ---
 
-32.What are the Advantages of Reducing the Data Redundancy in a Database?
+32.What Benefits Can we Get from Lessening Data Redundancy?
 
 ![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
@@ -837,7 +835,7 @@ Here is a list of Normalization Techniques in SQL:
 
 ---
 
-33.What are the Disadvantages of Reducing the Data Redundancy in a Database ?
+33.What Drawbacks Come with Reducing Data Redundancy in a Database ?
 
 ![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
@@ -857,7 +855,7 @@ Here is a list of Normalization Techniques in SQL:
 
 ---
 
-34.In What ways can we increase the Data Redundancy in a Database?
+34.How may the data redundancy in a database be increased?
 
 ![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
@@ -1535,7 +1533,7 @@ FROM Department WHERE Emp_id IS NOT NULL)
 
 ---
 
-52. What is the purpose of using escape characters in Sql queries?
+52. Why do SQL queries need escape characters?
 
 ![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
