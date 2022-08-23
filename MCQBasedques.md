@@ -1,3 +1,4 @@
+
 1.Which SQL Data is used to delete a data from a table?
 
 a.COLLAPSE
@@ -24,7 +25,7 @@ DELETE
 
 <blockquote>
 
-DELETE command is used to delete the existing records from a table. by Using this command  you can either delete a specific record based on their condition or all the records from a table.
+`DELETE` command is used to delete the existing records from a table. by Using this command  you can either delete a specific record based on their condition or all the records from a table.
 
 </blockquote>
 
@@ -34,22 +35,41 @@ DELETE command is used to delete the existing records from a table. by Using thi
 
 2.Which command is used for removing columns from a table?
 
+```sql
+
 a. MODIFY TABLE TableName DROP ColumnName
+
+```
+
+```sql
 
 b. MODIFY TABLE TableName DROP COLUMN ColumnName
 
+```
+
+```sql
+
 c. ALTER TABLE TableName DROP ColumnName
+
+```
+
+```sql
 
 d. ALTER TABLE TableName DROP COLUMN ColumnName
 
+```
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b> Show Answer </b></summary>
 
 <blockquote>
-
+ 
+```sql
+ 
 ALTER TABLE TableName DROP COLUMN ColumnName
+ 
+```
 
 </blockquote>
 
@@ -501,13 +521,29 @@ All of the above
 
 16.Which clause is used to delete all rows from the table?
 
+ ```sql
+ 
 a. SQL DELETE ALL ROWS Table_Name;
 
+```
+
+```sql
+ 
 b. SQL DELETE ROWS Table_Name;
+ 
+```
+ 
+```sql
 
 c. DELETE FROM Table_Name;
+ 
+```
 
+```sql
+ 
 d. DELETE FROM ALL ROWS Table_Name;
+ 
+```
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -731,14 +767,30 @@ Create Table
 
 23.How can "Raju" in the "Name" column of the Users table be changed to "Sanjana"?
 
+```sql
+ 
 a. Update User Set Name = "Raju" INTO Name = "Sanjana"
 
+```
+ 
+```sql
+ 
 b. Modify Users SET Name = "Sanjana" WHERE Name = "Raju"
+ 
+```
 
+```sql
+ 
 c. Update Users SET Name = "Sanjana" WHERE Name = "Raju"
+ 
+```
 
+```sql
+ 
 d. Modify Users SET Name = "Raju" INTO Name = "Sanjana"
 
+```
+ 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
@@ -771,10 +823,17 @@ Update Users SET Name = "Sanjana" WHERE Name = "Raju"
 | 204    	| Priya    	| 29000      	|
 | 205    	| Abirami  	| 40000      	|
 
-a.INSERT INTO TABLE_NAME ( column_Name1 , column_Name2 , column_Name3 , .... column_NameN )  VALUES (value_1, value_2, value_3, .... value_N ) ;   
+```sql
+ 
+a.INSERT INTO TABLE_NAME ( column_Name1 , column_Name2 , column_Name3 , .... column_NameN )  VALUES (value_1, value_2, value_3, .... value_N );
+ 
+```
 
-b.INSERT INTO TABLE_NAME  VALUES (value_1, value_2, value_3, .... value_N ) ;    
+```sql
+ 
+b.INSERT INTO TABLE_NAME  VALUES (value_1, value_2, value_3, .... value_N );    
 
+```
 c.Both A and B
 
 d.None of these
@@ -796,10 +855,20 @@ Both A and B
 <blockquote>
 
 Both A and B suites for the syntax for inserting a table 
+ 
+```sql
+ 
 insert into employee (Emp_Id, Emp_Name, Emp_Salary) values (201, "Anusha", 25000);
-             (OR)
+ 
+```
+            (OR)
+ 
+```sql
+ 
 insert into employee values(201, "Anusha", 25000);
 
+```
+ 
 </blockquote>
 
 </details>
@@ -896,7 +965,7 @@ HAVING aggregate_function(column_name) operator value;
 </details>
 </details>
  
-27. Which data manipulation command is used to combines the records from one or more tables?
+27.Which data manipulation command is used to combines the records from one or more tables?
 
  a. SELECT
  
@@ -1357,9 +1426,13 @@ d.All of above
 <summary><b> Show Answer </b></summary>
 
 <blockquote>
-
+ 
+```sql
+ 
 INSERT SELECT FROM OPENROWSET(BULK …)
 
+```
+ 
 </blockquote>
 
 <details>
