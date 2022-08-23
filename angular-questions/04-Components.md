@@ -70,9 +70,8 @@ When we run `ng g c server` in the terminal, CLI creates a component and registe
 <blockquote>
   
 Angular creates a component; renders it; creates and renders its children; checks it when it’s data-bound properties change; and destroys it before removing it from the DOM. These events are called "Lifecycle Hooks".
-
-Lifecycle Hooks:	
-- `constructor()` - The constructor of the component class gets executed first, before the execution of any other lifecycle hook events. If we need to inject any dependencies into the component, then the constructor is the best place to do so.
+	
+Lifecycle Hooks:	.
 - `ngOnChanges()` - Called whenever the input properties of the component change. It returns a SimpleChanges object which holds any current and previous property values.
 - `ngOnInit()` - Called once to initialize the component and set the input properties. It initializes the component after Angular first displays the data-bound properties.
 - `ngDoCheck()` - Called during all change-detection runs that Angular can't detect on its own. Also called immediately after the `ngOnChanges()` method.
@@ -82,6 +81,9 @@ Lifecycle Hooks:
 - `ngAfterViewChecked()` - Invoked after each time Angular checks for the content projected into the component. It called after `ngAfterViewInit()` and every subsequent `ngAfterContentChecked()`
 - `ngOnDestroy()` - Invoked before Angular destroys the directive or component.
 
+
+NOTE - `constructor()` - The constructor of the component class gets executed first, before the execution of any other lifecycle hook events. If we need to inject any dependencies into the component, then the constructor is the best place to do so
+	
 </blockquote>  
 </details>
 	
@@ -271,7 +273,9 @@ When you generate an Angular application with the Angular CLI, the `app.componen
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-
+- `templateUrl` - You can define the template in a separate HTML file and link to it in the component metadata using the `@Component` decorator's `templateUrl` property.
+	
+- `template` - You can define it inline using the template property 
 </blockquote>
 </details>
   
@@ -285,8 +289,28 @@ When you generate an Angular application with the Angular CLI, the `app.componen
 <details>
 <summary><b>Show Answer</b></summary>
 <blockquote>
-
-
+	
+- You can use `styles` property to keep the CSS code inline to style your component's HTML template.
+```ts
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styles:[`
+        .green { color:#003300 !important; }
+        .bold { font-weight:bold; }
+        `]
+})
+```
+- You can use `styleUrls` property Keep the CSS code separately in its own file to style your component's HTML template.
+	
+```ts
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+```
+- **NOTE:** Both the `styles` and `styleUrls` properties are arrays.
 
 </blockquote>
 </details>
@@ -301,14 +325,14 @@ When you generate an Angular application with the Angular CLI, the `app.componen
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-
+`OnChanges()`
 
 </blockquote>
 </details>
   
 ---
  
-17. Which lifecycle hook used to inject any dependencies into the component?
+17. Where I can inject any dependencies into the component?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -316,7 +340,7 @@ When you generate an Angular application with the Angular CLI, the `app.componen
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-
+`constructor()`
 
 </blockquote>
 </details>
@@ -331,14 +355,25 @@ When you generate an Angular application with the Angular CLI, the `app.componen
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
+Angular calls these hook methods in the following order:
 
+1. **ngOnChanges**: When an input/output binding value changes.
+2. **ngOnInit**: After the first ngOnChanges.
+3. **ngDoCheck**: Developer's custom change detection.
+4. **ngAfterContentInit**: After component content initialized.
+5. **ngAfterContentChecked**: After every check of component content.
+6. **ngAfterViewInit**: After a component's views are initialized.
+7. **ngAfterViewChecked**: After every check of a component's views.
+8. **ngOnDestroy**: Just before the component/directive is destroyed.
+	
+![image](https://user-images.githubusercontent.com/70228962/186122348-fbb3f882-842d-41f9-a330-6951f72af1a3.png)
 
 </blockquote>
 </details>
   
 ---
  
-19. Which lifecycle called only one?
+19. Which lifecycle hook called only one?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -453,7 +488,7 @@ When you generate an Angular application with the Angular CLI, the `app.componen
 
 There are two ways of defining template in an angular component.
 1. Inline Template
-2. Template file
+2. External Template
 	
 Inline Template  - It is defined by placing the HTML code in back ticks _`_ and is linked to the component metadata using the `template` property of `@Component` decorator.
 ```ts
@@ -463,7 +498,7 @@ Inline Template  - It is defined by placing the HTML code in back ticks _`_ and 
   styleUrls: ['./app.component.css']
 })
 ````
-Template File - It is defined in a separate HTML file and is linked to the component metadata using the `@Component` decorator’s `templateUrl` property 
+External Template - It is defined in a separate HTML file and is linked to the component metadata using the `@Component` decorator’s `templateUrl` property 
 	
 ```ts
 @Component({
@@ -478,3 +513,41 @@ Template File - It is defined in a separate HTML file and is linked to the compo
   
 ---
  
+27. What would you choose between inline and external template file?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+Choose based on the explanation below	
+
+</blockquote>
+<details>
+<summary><b>Explanation</b></summary>
+<blockquote>
+
+Normally we use inline template for small portion of code and external template file for bigger views. By default, the Angular CLI generates components with a template file. But you can override that with using `ng g c hero -it` command.
+	
+</blockquote>
+</details>
+</details>
+  
+---
+ 
+28. What is executed before any lifecycle hooks? 
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+	
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+`constructor()`
+
+</blockquote>
+</details>
+  
+---
+ 	
