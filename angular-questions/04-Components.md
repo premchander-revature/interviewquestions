@@ -584,6 +584,41 @@ Normally we use inline template for small portion of code and external template 
 
 </blockquote>
 </details>
-  
+
 ---
- 	
+
+28. Complete the missing metadata in `@Component` decorator with following criteria.
+    -  This component should be identified by `user`
+    -  Template of this component, should say "Hello User!!"
+    -  Template should have atleast one heading tag
+    -  Also, text inside that heading tag, should be in red color
+```ts
+import { Component } from '@angular/core';
+@Component ({
+  // add here
+export class UserComponent {
+} 
+```	
+	
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+	
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+	
+```ts
+import { Component } from '@angular/core';
+@Component ({
+selector: 'user',
+  template: `<h1> Hello User!!</h1>  ` ,
+  styles: `h1 { color: red; }`
+})
+export class UserComponent {
+} 
+```	
+	
+</blockquote>
+</details>
+  
+---	
+	
