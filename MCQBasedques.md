@@ -1,9 +1,12 @@
 1.Which SQL Data is used to delete a data from a table?
 
-- a.COLLAPSE
-- b.REMOVE
-- c.ALTER
-- d.DELETE
+a.COLLAPSE
+
+b.REMOVE
+
+c.ALTER
+
+d.DELETE
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -21,7 +24,7 @@ DELETE
 
 <blockquote>
 
--  DELETE command is used to delete the existing records from a table. by Using this command  you can either delete a specific record based on their condition or all the records from a table.
+DELETE command is used to delete the existing records from a table. by Using this command  you can either delete a specific record based on their condition or all the records from a table.
 
 </blockquote>
 
@@ -31,11 +34,13 @@ DELETE
 
 2.Which command is used for removing columns from a table?
 
+a. MODIFY TABLE TableName DROP ColumnName
 
-- a. MODIFY TABLE TableName DROP ColumnName
-- b. MODIFY TABLE TableName DROP COLUMN ColumnName
-- c. ALTER TABLE TableName DROP ColumnName
-- d. ALTER TABLE TableName DROP COLUMN ColumnName
+b. MODIFY TABLE TableName DROP COLUMN ColumnName
+
+c. ALTER TABLE TableName DROP ColumnName
+
+d. ALTER TABLE TableName DROP COLUMN ColumnName
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -63,10 +68,13 @@ ALTER TABLE TableName DROP COLUMN ColumnName
 
 3.Which of the following command is excluded from DML? (Data Manipulation Language)
 
-- a. INSERT
-- b. UPDATE
-- c. DELETE
-- d. CREATE
+a. INSERT
+
+b. UPDATE
+
+c. DELETE
+
+d. CREATE
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -92,10 +100,13 @@ CREATE Command is used to create a new table in the given database.
 
 4.A table showing data redundancy produces _____________characteristics.
 
-- a. Update
-- b. Insertion
-- c. Deletion
-- d. All of the Above
+a. Update
+
+b. Insertion
+
+c. Deletion
+
+d. All of the Above
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -121,13 +132,13 @@ Update, insertion, and deletion anomalies can be seen in the table that shows da
 
 5.DML is Used to___________.
 
-- a. Description of logical structure of database.
+a. Description of logical structure of database.
 
-- b. Addition of new structure in the database system.
+b. Addition of new structure in the database system.
 
-- c. Manipulation & processing datas in a database.
+c. Manipulation & processing datas in a database.
 
-- d. Definition of physical structure of database system.
+d. Definition of physical structure of database system.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -154,10 +165,13 @@ A data manipulation language (DML) is used for adding (inserting), deleting, and
 6.The DDL, DCL, and DML language components that make up a database management system (DBMS).
 Users and practitioners, two diverse groups of individuals, are both interested in them. Which of them do DBMS users often work with?
 
-- a. DDL
-- b. DML
-- c. DDL and DCL
-- d. DCL and DML
+a. DDL
+
+b. DML
+
+c. DDL and DCL
+
+d. DCL and DML
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -183,12 +197,15 @@ DML(Data Manipulation Language)
 </details>
 ----------
 
-7. What are the following Commands that comes under DML?
+7.What are the following Commands that comes under DML?
 
-- a. ROLLBACK
-- b. GRANT
-- c. UPDATE
-- d. All of the above
+a. ROLLBACK
+
+b. GRANT
+
+c. UPDATE
+
+d. All of the above
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -214,12 +231,15 @@ Commands that comes under DML are INSERT, SELECT, UPDATE & DELETE.
 </details>
 ----------
 
-8. Which command will delete the records from the table while maintaining the table's structure?
+8.Which command will delete the records from the table while maintaining the table's structure?
 
-- a. REMOVE
-- b. DELETE
-- c. DROP
-- d. TRUNCATE
+a. REMOVE
+
+b. DELETE
+
+c. DROP
+
+d. TRUNCATE
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -247,10 +267,13 @@ The DELETE command will delete the records from the table without changing the w
 
 9.Which of the following SQL commands should we execute if we wish to remove certain data from the database?
 
-- a. DML
-- b. TCL
-- c. DCL
-- d. DDL
+a. DML
+
+b. TCL
+
+c. DCL
+
+d. DDL
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -276,12 +299,15 @@ The DML command must be used whenever we need to make changes to the database, s
 </details>
 ----------
 
-10. In which type of language is the database defined?
+10.In which type of language is the database defined?
 
-- a. DDL
-- b. DML
-- c. DCL
-- d. TCL
+a. DDL
+
+b. DML
+
+c. DCL
+
+d. TCL
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -308,12 +334,15 @@ DML(Data Manipulation Language)
 </details>
 </details>
 
-11. The records from one or more tables that are combined by using which DML command?
+11.The records from one or more tables that are combined by using which DML command?
 
-- a. SELECT
-- b. PROJECT
-- c. JOIN
-- d. PRODUCT
+a. SELECT
+
+b. PROJECT
+
+c. JOIN
+
+d. PRODUCT
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -338,12 +367,15 @@ Records from one or more tables are combined using the SQL JOIN Command. Additio
 </details>
 </details>
 
-12. The ___________ Language provides the ability to insert, delete, and modify tuples as well as query a data.
+12.The ___________ Language provides the ability to insert, delete, and modify tuples as well as query a data.
 
-- a. TCL (Transaction Control Language)
-- b. DCL (Data Control Language)
-- c. DDL (Data Definition Langauge)
-- d. DML (Data Manipulation Langauge)
+a. TCL (Transaction Control Language)
+
+b. DCL (Data Control Language)
+
+c. DDL (Data Definition Langauge)
+
+d. DML (Data Manipulation Langauge)
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -368,12 +400,15 @@ The database is manipulated by using  DML. To manipulate data in a database that
 </details>
 </details>
 
-13. INSERT command is used to insert a ____________.
+13.INSERT command is used to insert a ____________.
 
-- a. Single or Multiple database
-- b. Single or Multiple record
-- c. Single or Multiple table
-- d.  None of the above
+a. Single or Multiple database
+
+b. Single or Multiple record
+
+c. Single or Multiple table
+
+d.  None of the above
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -400,10 +435,13 @@ Single or Multiple record
 
 14.which command is used to insert a row directly in the table?
 
-- a. INSERT IN
-- b. INSERT INTO
-- c. INSERT UNDER
-- d. INSERT INSIDE
+a. INSERT IN
+
+b. INSERT INTO
+
+c. INSERT UNDER
+
+d. INSERT INSIDE
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -428,12 +466,15 @@ INSERT INTO
 </details>
 </details>
 
-15. DELETE command can be used to delete a ____________.
+15.DELETE command can be used to delete a ____________.
 
-- a. Rows
-- b. Database
-- c. View
-- d. All of the above
+a. Rows
+
+b. Database
+
+c. View
+
+d. All of the above
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -458,12 +499,15 @@ All of the above
 </details>
 </details>
 
-16. Which clause is used to delete all rows from the table?
+16.Which clause is used to delete all rows from the table?
 
-- a. SQL DELETE ALL ROWS Table_Name;
-- b. SQL DELETE ROWS Table_Name;
-- c. DELETE FROM Table_Name;
-- d. DELETE FROM ALL ROWS Table_Name;
+a. SQL DELETE ALL ROWS Table_Name;
+
+b. SQL DELETE ROWS Table_Name;
+
+c. DELETE FROM Table_Name;
+
+d. DELETE FROM ALL ROWS Table_Name;
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -489,12 +533,15 @@ DELETE FROM Table_Name;
 </details>
 </details>
 
-19.Which keyword is used In order to delete duplicate rows from the table?
+17.Which keyword is used In order to delete duplicate rows from the table?
 
-- a. DISTINCT
-- b. DELETE
-- c. FROM
-- d. WHERE
+a. DISTINCT
+
+b. DELETE
+
+c. FROM
+
+d. WHERE
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -519,12 +566,15 @@ DISTINCT
 </details>
 </details>
 
-20.In order to delete the database, which keyword is used?
+18.In order to delete the database, which keyword is used?
 
-- a. DELETE
-- b. ALTER
-- c. DROP
-- d. None of the above
+a. DELETE
+
+b. ALTER
+
+c. DROP
+
+d. None of the above
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -549,12 +599,15 @@ DROP
 </details>
 </details>
 
-21. In order to delete the database, which keyword is used?
+19.In order to delete the database, which keyword is used?
 
-- a. DELETE
-- b. ALTER
-- c. DROP
-- d. None of the above
+a. DELETE
+
+b. ALTER
+
+c. DROP
+
+d. None of the above
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -578,12 +631,15 @@ DROP
 </details>
 </details>
 
-22. Which of the following allows users to put tuples into the database, delete tuples from the database, and alter tuples already present there?
+20.Which of the following allows users to put tuples into the database, delete tuples from the database, and alter tuples already present there?
 
-- a. DDL(Data Definition Language)
-- b. Query
-- c. Relational Schema
-- d. DML(Data Manipulation Language)
+a. DDL(Data Definition Language)
+
+b. Query
+
+c. Relational Schema
+
+d. DML(Data Manipulation Language)
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -607,12 +663,15 @@ DML(Data Manipulation Language)
 </details>
 </details>
 
-23. The SQL used by front-end application programs to request data from the DBMS is called _______
+21.The SQL used by front-end application programs to request data from the DBMS is called _______
 
-- a. DDL
-- b. DML
-- c. SDL
-- d. VDLD  
+a. DDL
+
+b. DML
+
+c. SDL
+
+d. VDLD  
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -637,12 +696,15 @@ DML(Data Manipulation Language)
 </details>
 </details>
 
-24. ___________ command in SQL should be used to create a new table?
+22.___________ command in SQL should be used to create a new table?
 
-- a. Generate Table
-- b. Build Table
-- c. Create Table
-- d. All the Above
+a. Generate Table
+
+b. Build Table
+
+c. Create Table
+
+d. All the Above
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -667,12 +729,15 @@ Create Table
 </details>
 </details>
 
-25. How can "Raju" in the "Name" column of the Users table be changed to "Sanjana"?
+23.How can "Raju" in the "Name" column of the Users table be changed to "Sanjana"?
 
-- a. Update User Set Name = "Raju" INTO Name = "Sanjana"
-- b. Modify Users SET Name = "Sanjana" WHERE Name = "Raju"
-- c. Update Users SET Name = "Sanjana" WHERE Name = "Raju"
-- d. Modify Users SET Name = "Raju" INTO Name = "Sanjana"
+a. Update User Set Name = "Raju" INTO Name = "Sanjana"
+
+b. Modify Users SET Name = "Sanjana" WHERE Name = "Raju"
+
+c. Update Users SET Name = "Sanjana" WHERE Name = "Raju"
+
+d. Modify Users SET Name = "Raju" INTO Name = "Sanjana"
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -697,7 +762,7 @@ Update Users SET Name = "Sanjana" WHERE Name = "Raju"
 </details>
 </details>
 
-26. Which of the following is the correct syntax for inserting a record in the given table?
+24.Which of the following is the correct syntax for inserting a record in the given table?
 | Emp_Id 	| Emp_Name 	| Emp_Salary 	|
 |--------	|----------	|------------	|
 | 201    	| Anusha   	| 25000      	|
@@ -706,10 +771,13 @@ Update Users SET Name = "Sanjana" WHERE Name = "Raju"
 | 204    	| Priya    	| 29000      	|
 | 205    	| Abirami  	| 40000      	|
 
-- a.INSERT INTO TABLE_NAME ( column_Name1 , column_Name2 , column_Name3 , .... column_NameN )  VALUES (value_1, value_2, value_3, .... value_N ) ;   
-- b. INSERT INTO TABLE_NAME  VALUES (value_1, value_2, value_3, .... value_N ) ;    
-- Both A and B
-- None of these
+a.INSERT INTO TABLE_NAME ( column_Name1 , column_Name2 , column_Name3 , .... column_NameN )  VALUES (value_1, value_2, value_3, .... value_N ) ;   
+
+b.INSERT INTO TABLE_NAME  VALUES (value_1, value_2, value_3, .... value_N ) ;    
+
+c.Both A and B
+
+d.None of these
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -737,12 +805,15 @@ insert into employee values(201, "Anusha", 25000);
 </details>
 </details>
 
-27.   __________________Modifies existing database data.
+25.__________________Modifies existing database data.
 
-- a. UPDATE
-- b. ALTER
-- c. CREATE
-- d. DELETE
+a. UPDATE
+ 
+b. ALTER
+
+c. CREATE
+
+d. DELETE
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -767,13 +838,31 @@ UPDATE
 </details>
 </details>
 
-28.Which of the following queries displays the sum of all employee salaries for those employees not making commission, for each job, including only those sums greater than 2500?
+26.Which of the following queries displays the sum of all employee salaries for those employees not making commission, for each job, including only those sums greater than 2500?
 
-- a. select job, sum(Sal) from Emp where sum(Sal) > 2500 and comm is null;
-- b. select job, sum(Sal) from Emp where sum(Sal) > 2500 and comm is null group by job;
-- c. select job, sum(Sal) from Emp where comm is null group by job having sum(Sal) > 2500;
-- d. Select job, sum(Sal) from Emp group by job having sum(Sal) > 2500 and comm is not null;
+ ```sql
+ 
+a. select job, sum(Sal) from Emp where sum(Sal) > 2500 and comm is null;
+ 
+```
+ 
+```sql
 
+b. select job, sum(Sal) from Emp where sum(Sal) > 2500 and comm is null group by job;
+ 
+```
+
+```sql
+
+c. select job, sum(Sal) from Emp where comm is null group by job having sum(Sal) > 2500;
+
+```
+ 
+```sql
+ 
+d. Select job, sum(Sal) from Emp group by job having sum(Sal) > 2500 and comm is not null;
+
+```
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
@@ -806,12 +895,16 @@ HAVING aggregate_function(column_name) operator value;
 
 </details>
 </details>
-29. Which data manipulation command is used to combines the records from one or more tables?
+ 
+27. Which data manipulation command is used to combines the records from one or more tables?
 
- a. SELECT<br>
- b. JOIN<br>
- c. PROJECT<br>
- d. PRODUCT<br>
+ a. SELECT
+ 
+ b. JOIN
+ 
+ c. PROJECT
+ 
+ d. PRODUCT
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -836,12 +929,15 @@ Records from one or more tables are combined using the SQL `JOIN` statement. Add
 </details>
 </details>
 
-30.What key phrase is utilised to order the result set?
+28.What key phrase is utilised to order the result set?
 
-a. SORT BY<br>
-b. ORDER<br>
-c. ORDER BY<br>
-d. SORT<br>
+a. SORT BY
+ 
+b. ORDER
+ 
+c. ORDER BY
+ 
+d. SORT
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -868,12 +964,15 @@ ORDER BY
 </details>
 </details>
 
-31.Which of the following commands can be used  to add data to a database table?
+29.Which of the following commands can be used  to add data to a database table?
 
-a. ADD<br>
-b. UPDATE<br>
-c. APPEND<br>
-d. INSERT<br>
+a. ADD
+ 
+b. UPDATE
+ 
+c. APPEND
+ 
+d. INSERT
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -898,11 +997,15 @@ The `INSERT` INTO statement is used to insert new records in a table.
 </details>
 </details>
 
-32.When using the SQL INSERT statement:
-a. Rows can be inserted into a table one at a time or in groups.<br>
-b. Rows can be modified according to criteria only.<br>
-c. Rows cannot be copied in mass from one table to another only.<br>
-d. Rows can be inserted into a table one at a time only.<br>
+30.When using the SQL INSERT statement:
+ 
+a. Rows can be inserted into a table one at a time or in groups.
+ 
+b. Rows can be modified according to criteria only.
+ 
+c. Rows cannot be copied in mass from one table to another only.
+ 
+d. Rows can be inserted into a table one at a time only.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -930,12 +1033,15 @@ INSERT INTO table_name (column1, column2, column3, ...)
 </details>
 </details>
 
-33.An Operation that will increase the length of a list is:
+31.An Operation that will increase the length of a list is:
 
-a. Insert<br>
-b. Look - Up<br>
-c. Modify<br>
-d. All of the above<br>
+a. Insert
+ 
+b. Look - Up
+ 
+c. Modify
+ 
+d. All of the above
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -960,12 +1066,15 @@ extend() method increases the length of the list by the number of elements that 
 </details>
 </details>
 
-34.The DML's which require user to specify what data is needed and how  to get, it is called as____________.
+32.The DML's which require user to specify what data is needed and how  to get, it is called as____________.
 
-a. DDL DMLs.<br>
-b. Procedural DMLs.<br>
-c. Non - Procedural DMLs.<br>
-d. None of the above.<br>
+a. DDL DMLs.
+ 
+b. Procedural DMLs.
+ 
+c. Non - Procedural DMLs.
+ 
+d. None of the above.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -989,12 +1098,15 @@ Procedural DMLs ask the user to specify the data they need and how to obtain the
 </details>
 </details>
 
-35.Which of the following is a privilege in SQL standard?
+33.Which of the following is a privilege in SQL standard?
 
-a. SELECT<br>
-b. INSERT<br>
-c. UPDATE<br>
-d. All of the above<br>
+a. SELECT
+ 
+b. INSERT
+ 
+c. UPDATE
+ 
+d. All of the above
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1021,12 +1133,15 @@ All of the above
 </details>
 </details>
 
-36.What command in SQL is used to add new rows to a table?
+34.What command in SQL is used to add new rows to a table?
 
-a. Alter Table<br>
-b. Add row<br>
-c. Insert<br>
-d. Append<br>
+a. Alter Table
+ 
+b. Add row
+ 
+c. Insert
+ 
+d. Append
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1051,7 +1166,7 @@ The `INSERT` statement is used to insert or add new rows in the table.
 </details>
 </details>
 
-37.What does the following code snippet do?
+35.What does the following code snippet do?
 
 ```sql
 
@@ -1061,10 +1176,13 @@ ROLLBACK;
 
 ```
 
-a. Performs an undo operation on the delete operation.<br>
-b. Deletes the rows from the table where AGE = 16.<br>
-c. Deletes the entire table.<br>
-d. none of the Above.<br>
+a. Performs an undo operation on the delete operation.
+ 
+b. Deletes the rows from the table where AGE = 16.
+ 
+c. Deletes the entire table.
+ 
+d. none of the Above.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1091,12 +1209,15 @@ d. none of the Above.<br>
 </details>
 </details>
 
-38.Which of the following statement is true?
+36.Which of the following statement is true?
 
-a. DELETE does not free the space containing the table and TRUNCATE free the space containing the table.<br>
-b. Both DELETE and TRUNCATE free the space containing the table.<br>
-c. Both DELETE and TRUNCATE does not free the space containing the table.<br>
-d. DELETE free the space containing the table and TRUNCATE does not free the space containing the table.<br>
+a. DELETE does not free the space containing the table and TRUNCATE free the space containing the table.
+ 
+b. Both DELETE and TRUNCATE free the space containing the table.
+ 
+c. Both DELETE and TRUNCATE does not free the space containing the table.
+ 
+d. DELETE free the space containing the table and TRUNCATE does not free the space containing the table.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1121,18 +1242,30 @@ Delete Command Deletes only the data and not the Table Schema while in other han
 </details>
 </details>
 
-39.Which of the following insert statements are correct:
+37.Which of the following insert statements are correct:
+ 
 ```sql
-a. Insert  into Persons ("xxx1", "yyy1");<br>
+ 
+a. Insert  into Persons ("xxx1", "yyy1");
+ 
 ```
+ 
 ```sql
-b. Insert  Ito [dbo].[Persons]([LastName],[FirstName]) VALUES ("xxx", "yyy");<br>
+ 
+b. Insert  Ito [dbo].[Persons]([LastName],[FirstName]) VALUES ("xxx", "yyy");
+ 
 ```
+ 
 ```sql
-c. Insert  into  Persons values ("xxx1", "yyy1");<br>
+ 
+c. Insert  into  Persons values ("xxx1", "yyy1");
+ 
 ```
+ 
 ```sql
-d. Insert  into  Persons value ("xxx1", "yyy1");<br>
+ 
+d. Insert  into  Persons value ("xxx1", "yyy1");
+ 
 ```
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -1175,12 +1308,15 @@ INSERT INTO table_name VALUES (value1, value2, value3,…); table_name: name of 
 </details>
 </details>
 
-40.Data can be inserted into a database using the `INSERT` statement in ________________.
+38.Data can be inserted into a database using the `INSERT` statement in ________________.
 
-a. all columns<br>  
-b. IDENTITY column<br>
-c. particular column<br>
-d. All of above<br>
+a.all columns
+ 
+b.IDENTITY column
+ 
+c.particular column
+ 
+d.All of above
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1205,12 +1341,15 @@ Enter the key phrase insert into followed by the table name, an open parenthesis
 </details>
 </details>
 
-41.Several techniques are supported by SQL Server for adding data to tables, including_______________.
+39.Several techniques are supported by SQL Server for adding data to tables, including_______________.
 
-a. SELECT INTO<br>
-b. INSERT SELECT<br>
-c. INSERT SELECT FROM OPENROWSET(BULK …)<br>
-d. All of above<br>
+a.SELECT INTO
+ 
+b.INSERT SELECT
+ 
+c.INSERT SELECT FROM OPENROWSET(BULK …)
+ 
+d.All of above
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1235,12 +1374,13 @@ The basic purpose of the `INSERT` INTO T-SQL statement in SQL Server is to add o
 </details>
 </details>
 
-42.What statement or statements from the list below should we use if we need to insert many values using a single insert query?
+40.What statement or statements from the list below should we use if we need to insert many values using a single insert query?
 
 ```sql
 
 i INSERT  INTO Persons VALUES ('xxx1','yyy1'), ('xxx2','yyy2'), ('xxx3','yyy3');
-```
+
+ ```
 
 ```sql
 
@@ -1248,10 +1388,13 @@ ii. INSERT  INTO Persons VALUES ('xxx1','yyy1'), VALUES ('xxx2','yyy2'), Values 
 
 ```
 
-a. only i is correct<br>
-b. only ii is correct<br>
-c. Both are correct<br>
-d. None is correct<br>
+a.only i is correct
+ 
+b.only ii is correct
+ 
+c.Both are correct
+ 
+d.None is correct
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1274,12 +1417,15 @@ A DML (Data Manipulation Language) action in SQL is the act of inserting  the da
 </details>
 </details>
 
-43.By Using the______________expression if you wish to specify the quantity or percentage of randomly selected rows that will be inserted during Insert.
+41.By Using the______________expression if you wish to specify the quantity or percentage of randomly selected rows that will be inserted during Insert.
 
-a. TYPE
-b. TOP
-c. NUMBER
-d. PERCENT
+a.TYPE
+ 
+b.TOP
+ 
+c.NUMBER
+ 
+d.PERCENT
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1304,12 +1450,15 @@ Sets the quantity or percentage of randomly inserted rows. expression might be a
 </details>
 </details>
 
-44.Which cursor class technique is employed to add or update numerous rows with a single query?
+42.Which cursor class technique is employed to add or update numerous rows with a single query?
 
-a. cursor.executeall(query, rows).<br>
-b. cursor.execute(query, rows).<br>
-c. cursor.executemany(query, rows).<br>
-d. cursor.executemultiple(query, rows).<br>
+a. cursor.executeall(query, rows).
+ 
+b. cursor.execute(query, rows).
+ 
+c. cursor.executemany(query, rows).
+ 
+d. cursor.executemultiple(query, rows).
  
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1333,28 +1482,29 @@ The function cursor.executemultiple(query, rows) is used to insert or update mul
 </details>
 </details>
 
-45.With SQL, how can you return all the records from a table named "Persons" sorted descending by "First_Name"?
+43.With SQL, how can you return all the records from a table named "Persons" sorted descending by "First_Name"?
 
 ```sql
 
-a. SELECT * from Persons  SORT "First_Name" desc<br>
+a. SELECT * from Persons  SORT "First_Name" desc
+ 
 ```
 
 ```sql
 
-b. SELECT * from Persons  ORDER "First_Name" desc<br>
+b. SELECT * from Persons  ORDER "First_Name" desc
 
 ```
 
 ```sql 
 
-c. SELECT * from Persons  SORT BY "First_Name" desc<br>
+c. SELECT * from Persons  SORT BY "First_Name" desc
 
 ```
 
 ```sql
 
-d. SELECT * from Persons  ORDER BY "First_Name" desc<br>
+d. SELECT * from Persons  ORDER BY "First_Name" desc
 
 ```
 
@@ -1385,23 +1535,23 @@ The SQL `SELECT` Statement queries data from tables in the data base.
 </details>
 </details>
 
-46.With SQL , how can you return the number of not null records in the "Persons" table?
+44.With SQL , how can you return the number of not null records in the "Persons" table?
 
 ```sql
 
-a. SELECT COLUMNS()from Persons.<br>
+a. SELECT COLUMNS()from Persons.
 
 ```
 
 ```sql
 
-b. SELECT COLUMNS(*)from Persons.<br> 
+b. SELECT COLUMNS(*)from Persons.
 
 ```
 
 ```sql
 
-c. SELECT COUNT()from Persons.<br>
+c. SELECT COUNT()from Persons.
 
 ```
 
@@ -1436,12 +1586,15 @@ SELECT COUNT()from Persons;
 </dtails>
 </details>
 
-47.The UPDATE SQL clause can _____________.
+45.The UPDATE SQL clause can _____________.
 
-a. Update only one row at a time.<br>
-b. delete only one row at a time.<br>
-c. delete more than one row at a tim.<br>    
-d. Update more than one row at a time.<br>
+a.Update only one row at a time.
+ 
+b.delete only one row at a time.
+ 
+c.delete more than one row at a time.
+ 
+d.Update more than one row at a time.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1466,12 +1619,15 @@ The SQL `UPDATE` Query is used to modify the existing records `UPDATE` Query to 
 </details>
 </details>
 
-48.The Command ______________ such tables are available only within the transaction executing the query, and are dropped when the transactions finishes.
+46.The Command ______________ such tables are available only within the transaction executing the query, and are dropped when the transactions finishes.
 
-a. Create Table.<br>
-b. Create View.<br>
-c. Create temporary Table.<br>
-d. Create Label view.<br>
+a.Create Table.
+ 
+b.Create View.
+ 
+c.Create temporary Table.
+ 
+d.Create Label view.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1496,7 +1652,7 @@ DDL Statement is used to alter structure of a table.
 </details>
 </details>
 
-49.what are the programming languages that reprsents a  collection of programming languages explicitly used to make changes in the database?
+47.what are the programming languages that reprsents a  collection of programming languages explicitly used to make changes in the database?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1514,10 +1670,11 @@ Data Manipulation Language or DML represents a collection of programming languag
 
 </details>
 
-50.The commands in data manipulation language can modify the structure of a database.
+48.The commands in data manipulation language can modify the structure of a database.
 
-a. True<br>
-b. False<br>
+a. True
+ 
+b. False
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1544,10 +1701,11 @@ The commands in data manipulation language cannot modify the structure of a data
 </details>
 </details>
 
-51. DML is a domain-specific language used in programming and designed for managing data and structures of databases.
+49.DML is a domain-specific language used in programming and designed for managing data and structures of databases.
 
-a. True<br> 
-b. False<br>
+a. True
+ 
+b. False
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1572,10 +1730,11 @@ SQL is a domain-specific language used in programming and designed for managing 
 </details>
 </details>
 
-52.One must match the field names before inserting a table, else the system will error out.
+50.One must match the field names before inserting a table, else the system will error out.
 
-a. True<br>
-b. False<br>
+a. True
+ 
+b. False
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1598,10 +1757,11 @@ True
 </details>
 </details>
 
-53.`INSERT` and `UPDATE` commands in SQL and DML are basically the same.
+51.`INSERT` and `UPDATE` commands in SQL and DML are basically the same.
 
-a. True<br>
-b. False<br>
+a. True
+ 
+b. False
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1626,10 +1786,11 @@ False
 </details>
 </details>
 
-54.Data changing commands include editing, inserting data, updating data, deleting data, and reversing transactions.
+52.Data changing commands include editing, inserting data, updating data, deleting data, and reversing transactions.
 
-a. True<br>
-b. False<br>
+a. True
+ 
+b. False
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1654,7 +1815,7 @@ The correct statement is, Data changing commands include querying, inserting dat
 </details>
 </details>
 
-55.Predict the output in the following code snippet?
+53.Predict the output in the following code snippet?
    
 ```sql
 
@@ -1662,10 +1823,13 @@ SELECT ROUND (TRUNCATE (MOD (2500, 20), -1), 2) FROM dual;
 
 ```
 
-a. Error<br> 
-b. 0<br>
-c. 00<br>
-d. 1<br>
+a. Error
+ 
+b. 0
+ 
+c. 00
+ 
+d. 1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
