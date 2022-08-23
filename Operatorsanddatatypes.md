@@ -839,7 +839,6 @@ In this query,  a `SELECT` query containing a `WHERE` clause on the City column 
 </details>
 </details>
 
-24.
 
 
 
@@ -850,7 +849,8 @@ In this query,  a `SELECT` query containing a `WHERE` clause on the City column 
 
 
 
-https://www.sanfoundry.com/database-mcqs-basic-sql-operations/
+
+
 
 
 
