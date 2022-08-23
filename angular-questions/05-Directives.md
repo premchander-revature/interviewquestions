@@ -138,3 +138,45 @@ Enter the username: <input type='text' [(ngModel)]='name'>
 </details>
 	
 --- 
+
+6. Design the angular app with the following criteria
+    - Get the `name` and `age` from the user
+    - If entered `age`is greater than 60, print their `name` then say "is a senior citizen"
+    - Else, their `name` then say "is not a senior citizen"
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+**Steps:**
+1. Create an angular project by running `ng new angularDemo2` command in the angular CLI
+2. In `app.component.html` file, create a form to get the `name` and `age` from the user
+```html
+<form>
+   Name: <input type = text [(ngModel)]="name"/>
+   age: <input type = text [(ngModel)] = "age" />
+</form>
+```
+3. In `app.component.ts` file, create a `name` and `age` variables.
+```ts
+import { Component } from '@angular/core';
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+  title = 'angularDemo2';
+
+  name !: string;
+  age !: string;
+}	
+```
+4. Since we are using the `ngModel`directive, we have to import `FormsModule` in `app.module.ts` file
+	
+</blockquote>
+</details>
+  
+---
