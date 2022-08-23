@@ -479,3 +479,100 @@ Yes, the code can compile and execute without any errors. It uses functional int
 
 </blockquote>
 </details>
+
+---
+
+31. What is the code to sort strings using the Java 8 lambda expression?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+The below piece of code sorts strings using the lambda expression:
+
+//Sorting using Java 8 lambda expression
+
+private void sortUsingJava8(List<String> names) {
+
+Collections.sort(names, (s1, s2) -> s1.compareTo(s2));
+
+}
+</blockquote>
+</details>
+
+---
+
+32. Is it possible to call a static method of any interface in a class using Java 8?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Yes, it is possible to call a static method in a class by making use of the name as shown below:
+
+interface Student {
+static void Present() {
+System.out.println("Student is there!");
+}
+}
+
+class Associates implements Student {
+public void print() {
+Student.Present();
+}
+
+</blockquote>
+</details>
+
+---
+
+33. Do you knoq how the random keyword in Java 8 works?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+The random keyword, as the name suggests, is used to generate random values for computations and operations in Java 8.
+
+The following piece of code is used to print out 20 random numbers using the forEach loop:
+
+Random random = new Random();
+random.ints().limit(20).forEach(System.out::println);
+
+</blockquote>
+</details>
+
+---
+
+34. What are collectors in Java 8?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Collectors are mainly used to combine the final result after the processing of elements in a stream. They are used to return lists or strings.
+
+</blockquote>
+</details>
+
+---
+
+35. What is the easiest way to print the sum of all of the numbers present in a list using Java 8?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+In Java 8, the following code is used to print the sum of all of the numbers that are present in a list:
+
+List<Integer> numbers = Arrays.asList(5, 4, 10, 12, 87, 33, 75);
+IntSummaryStatistics stats = integers.stream().mapToInt((x) −> x).summaryStatistics();
+System.out.println("Sum of all numbers : " + stats.getSum());
+
+</blockquote>
+</details>
