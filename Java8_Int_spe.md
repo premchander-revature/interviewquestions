@@ -576,3 +576,94 @@ System.out.println("Sum of all numbers : " + stats.getSum());
 
 </blockquote>
 </details>
+
+---
+
+36. When is an ideal situation to use the Stream API in Java 8?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+- The Stream API in Java 8 can be effectively used if the Java project calls for the following operations:
+
+ * Perform database operations
+ * Execute operations lazily
+ * Write functional-style programming
+ * Perform parallel processing
+ * Use pipeline operations
+ * Use internal iteration
+
+</blockquote>
+</details>
+
+---
+
+37. Can you tell me about supplier in Java 8?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+A supplier is a simple functional interface in Java 8 that does not take in any argument. It is used as an assignment target when making use of lambda expressions.
+
+</blockquote>
+</details>
+
+---
+
+38. Do you know about predicate in Java 8 ?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Just like a predicate, a consumer is a single argument functional interface present in Java 8. However, the consumer does not return any value and can be used for lambda expressions.
+
+</blockquote>
+</details>
+
+---
+
+39. Can you name the common types of functional interfaces in the standard library?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+There are many functional interface types in the standard library, and some of them are as follows:
+
+- BiFuction
+- BinaryOperator
+- Consumer
+- Predicate
+- Supplier
+- UnaryOperator
+
+</blockquote>
+</details>
+
+---
+
+40. Can you give examples of intermediate operations in Java 8?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+The examples that are widely used in intermediate operations are:
+
+- Distinct()
+- Limit(long n)
+- Filter(Predicate)
+- Map(Function)
+- skip(long n)
+
+</blockquote>
+</details>
+
+---
+
