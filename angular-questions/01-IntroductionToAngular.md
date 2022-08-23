@@ -598,9 +598,9 @@ The _src_ folder contains the source files which give information about applicat
 <summary> <b>Show Answer</b></summary>
 <blockquote>
 
-package.json - used to configure npm package dependencies that are available to all projects in the workspace.
+`package.json` - used to configure npm package dependencies that are available to all projects in the workspace.
 
-package-lock.json - this provides version information for all packages installed into node_modules by the npm client.
+`package-lock.json` - this provides version information for all packages installed into _node_modules_ by the npm client.
 	
 </blockquote>
 </details>
