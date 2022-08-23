@@ -1,1 +1,140 @@
+1. What are directives?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+  
+Directives add behaviour to an existing DOM element or an existing component instance.
+
+```ts
+import { Directive, ElementRef, Input } from '@angular/core';
+
+@Directive({ selector: '[myHighlight]' })
+export class HighlightDirective {
+    constructor(el: ElementRef) {
+       el.nativeElement.style.backgroundColor = 'yellow';
+    }
+}
+```
+Now this directive extends HTML element behavior with a yellow background as below
+
+```html
+<p myHighlight>Highlight me!</p>
+```
+
+  </blockquote>
+</details>
+  
+---
+
+2. What are the differences between Component and Directive?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+In a short note, A component(`@Component`) is a directive-with-a-template. Some of the major differences are mentioned in a tabular form:
+
+| Component                                                             | Directive                                                     |
+|-----------------------------------------------------------------------|---------------------------------------------------------------|
+| To register a component we use @Component meta-data annotation        | To register directives we use @Directive meta-data annotation |
+| Components are typically used to create UI widgets                    | Directive is used to add behavior to an existing DOM element  |
+| Component is used to break up the application into smaller components | Directive is use to design re-usable components               |
+| Only one component can be present per DOM element                     | Many directives can be used per DOM element                   |
+</blockquote>
+</details>
+  
+---
+
+3. What are the different types of directives in Angular?
+  
+<details>
+<summary> <b>Show Answer</b></summary>
+<blockquote>
+    
+ - **Component Directives** - Component directives alter the details of how the component should be processed, instantiated, and used at runtime.
+- **Structural Directives** -  Structural directives are used for adding, removing, or manipulating DOM elements.
+- **Attribute Directives** - Attribute directives are used to change the look and behavior of the DOM elements.
+    
+<i>Custom Directive: Custom directive can also be created if any of the above directives does not solve our purpose for the requirement</i>
+
+</blockquote> 
+</details>
+	
+--- 
+    
+4. Explain about Structural Directives in Angular?
+  
+<details>
+<summary> <b>Show Answer</b></summary>
+ <blockquote>
+    
+- Structural directives are used for adding, removing, or manipulating DOM elements
+- Structural directives start with an asterisk (*) followed by a directive name. 
+- There are three built-in structural directives - `ngIf`, `ngFor` and `ngSwitch`.
+- The `ngFor` directive is used to repeat a part of the HTML template once per each item from an iterable list.
+- `ngIf` directive allows us to add or remove DOM Elements based upon the Boolean expression. We can also have an else block associated with an ngIf directive.
+
+```html
+  
+<div *ngIf="age > 55; else elseBlock1">
+	    {{name}} is a senior citizen
+</div>
+<ng-template #elseBlock1>
+	    {{name}} is not a senior citizen
+</ng-template>
+    
+```
+- `ngSwitch` directive lets you hide/show HTML elements depending on an expression. `NgSwitchCase` displays its element when its value matches the switch value. `NgSwitchDefault` displays its element when no sibling `NgSwitchCase` matches the switch value.
+    
+```html
+<!-- user to enter any vowels(a, e, i o, u), print any word starting with vowels -->
+<input type="text" [(ngModel)]="str" />
+<div [ngSwitch]="str">
+	    <div *ngSwitchCase="'a'">Entered a!! Word: Apple</div>
+	    <div *ngSwitchCase="'e'"> Entered e!! Word: Egg</div>
+	    <div *ngSwitchCase="'i'"> Entered i!! Word: Ice cream</div>
+	    <div *ngSwitchCase="'o'"> Entered o!! Word: Orange</div>
+	    <div *ngSwitchCase="'u'"> Entered u!! Word: Umberalla</div>
+	    <div *ngSwitchDefault> You Entered Constant </div>
+</div>   
+```
+  
+</blockquote> 
+</details>
+	
+--- 
+  
+5. Explain about Attribute Directives in Angular?
+  
+<details>
+<summary> <b>Show Answer</b></summary>
+<blockquote>
+    
+- Attribute directives are used to change the look and behavior of the DOM elements.
+- Attribute directives are enclosed with the [] square brackets
+- There are two built-in attribute directives - `ngClass` and `ngStyle`
+- The `ngClass` directive is used for adding or removing the CSS classes on an HTML element. It allows us to apply CSS classes dynamically based on expression evaluation.
+    
+```html
+    
+<h3 [ngClass]="'red'"> Need your attention</h3>
+<div [ngClass]="['red','size20']"> Red Background, Text with Size 20px </div>
+<div [ngClass]="{'red':false,'size20':true}">Text with Size 20px</div>
+
+```
+- The `ngStyle` directive allows us to dynamically change the style of HTML element based on the expression.
+    
+```html
+Enter the username: <input type='text' [(ngModel)]='name'>
+<div [ngStyle]="{'background-color':username === 'Admin' ? 'green' : 'red' }"></div>
+```
+
+</blockquote> 
+</details>
+	
+--- 
