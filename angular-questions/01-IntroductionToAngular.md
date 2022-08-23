@@ -1,5 +1,7 @@
 1.	Demonstrate a basic understanding of Angular or What is Angular
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details>
   <summary> <b>Show Answer</b></summary>
   
@@ -16,6 +18,8 @@
 
 2. What is meant by SPA?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details>
 <summary> <b>Show Answer</b></summary>
   
@@ -31,6 +35,8 @@
 --- 
 
 3. Angular workflow or How does Angular work or bootstrapping your angular app?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary> <b>Show Answer</b></summary>
@@ -73,6 +79,9 @@
 --- 
   
 4. How SPA is different from tradtional web application?
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+	
 <details>
 <summary><b>Show Answer</b></summary>
 <blockquote>
@@ -89,6 +98,8 @@
   
 5. Have you used Angular in your project. Can you list some of the features of Angular.
   
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+	
 <details>
 <summary><b>Show Answer</b></summary>
 <blockquote>
@@ -105,6 +116,9 @@ Yes, used Angular.
  ---
   
 6. In SPA, after the initial page load, does the server send any more HTML to you?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details>
 <summary><b>Show Answer</b></summary>
 <blockquote>
@@ -117,6 +131,8 @@ On a SPA, after the initial page load, no more HTML gets sent over the network. 
  ---
   
 8. Does refreshing a whole page needed in SPA?
+	
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary> <b>Show Answer</b></summary>
@@ -131,6 +147,8 @@ In a SPA, a page refresh never occurs; instead, all necessary HTML, JavaScript, 
   
 9. What are some advantages of Angular?
   
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+	
 <details>
 <summary> <b>Show Answer</b></summary>
   
@@ -149,16 +167,20 @@ In a SPA, a page refresh never occurs; instead, all necessary HTML, JavaScript, 
 --- 
 	
 10. What do you choose between Traditional Web Apps and Single Page Apps _or_ What do you choose between Multiple Page Apps and Single Page Apps
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 	
 <details>
 <summary> <b>Show Answer</b></summary>
 <blockquote>
+	
 Choose based on the explanation given
 </blockquote> 
 	
 <details>
 <summary><b>Explanation</b></summary>
-<blockquote>	
+<blockquote>
+	
 Use traditional web applications or MPA when:
 - Your application's client-side requirements are simple or even read-only.
 - Your application needs to function in browsers without JavaScript support.
@@ -180,6 +202,9 @@ Choosing the best option, you should always have your business goals and require
 ---
 
 11. How SPA different from MPA?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+	
 <details>
 <summary> <b>Show Answer</b></summary>
 <blockquote>
@@ -194,6 +219,8 @@ On the other hand, a MPA (multiple page application) is considered a more tradit
 ---
 
 12. Difference between Angular JS and Angular 4 +
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary> <b>Show Answer</b></summary>
@@ -213,6 +240,8 @@ On the other hand, a MPA (multiple page application) is considered a more tradit
 --- 
 
 13. Difference between Angular 2 and Angular 4
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary> <b>Show Answer</b></summary>
@@ -230,6 +259,9 @@ On the other hand, a MPA (multiple page application) is considered a more tradit
 --- 
 
 14. What are some common Angular CLI commands?
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+	
 <details>
 <summary> <b>Show Answer</b></summary>
 <blockquote>
@@ -249,6 +281,8 @@ On the other hand, a MPA (multiple page application) is considered a more tradit
 	
 15. What `ng` means?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details>
 <summary> <b>Show Answer</b></summary>
 <blockquote>
@@ -261,6 +295,8 @@ On the other hand, a MPA (multiple page application) is considered a more tradit
 --- 
 	
 16. List drawbacks and benfits of MPA _or_ List the advantages and disadvantages of MPA
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary> <b>Show Answer</b></summary>
@@ -280,6 +316,8 @@ Drawbacks:
 --- 
 	
 17. List drawbacks and benfits of SPA _or_ List the advantages and disadvantages of SPA
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary> <b>Show Answer</b></summary>
@@ -304,10 +342,14 @@ Drawbacks:
 
 18. What is the latest version of Angular?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+	
 <details>
 <summary> <b>Show Answer</b></summary>
 <blockquote>
+	
 - Angular 14 (as per August 2022)
+	
 </blockquote>
 	
 <details>
@@ -323,6 +365,8 @@ Drawbacks:
 	
 19. Does Angular support in mobiles?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+	
 <details>
 <summary> <b>Show Answer</b></summary>
 <blockquote>
@@ -335,6 +379,8 @@ Drawbacks:
 --- 
 	
 20. Why do we need Webpack?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary> <b>Show Answer</b></summary>
@@ -352,6 +398,8 @@ Drawbacks:
 	
 21. Webpack builds a dependency graph. What does that mean? _or_ What is dependency graph? How is it related to Webpack?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details>
 <summary> <b>Show Answer</b></summary>
 <blockquote>
@@ -367,6 +415,8 @@ Drawbacks:
 
 22. How do you install Angular CLI?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+	
 <details>
 <summary> <b>Show Answer</b></summary>
 <blockquote>
@@ -380,6 +430,8 @@ Before installing Angular CLI, make sure the development environment includes No
 	
 23. How do you create any angular application?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+	
 <details>
 <summary> <b>Show Answer</b></summary>
 <blockquote>
@@ -393,6 +445,8 @@ Before installing Angular CLI, make sure the development environment includes No
 
 24. Which port angular application will be launced?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+	
 <details>
 <summary> <b>Show Answer</b></summary>
 <blockquote>
@@ -405,6 +459,8 @@ Before installing Angular CLI, make sure the development environment includes No
 --- 
 
 25. How `ng serve -o` different form `ng serve` command?
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary> <b>Show Answer</b></summary>
@@ -418,6 +474,8 @@ The `ng serve` command launches the server on HTTP port 4200, which watches our 
 --- 
 
 26. How do you find the version of angular installed in our system?
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary> <b>Show Answer</b></summary>
@@ -432,6 +490,8 @@ To check version of angular installed by running `ng --version` or `ng v` comman
 
 27. How do you update angular to the latest version?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+	
 <details>
 <summary> <b>Show Answer</b></summary>
 <blockquote>
@@ -443,7 +503,9 @@ Run `npm install -g @angular/cli@latest` command to update angular to the latest
 	
 --- 
 
-28. What is the difference between npm start and ng serve
+28. What is the difference between `npm start` and `ng serve`?
+	
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary> <b>Show Answer</b></summary>
@@ -469,7 +531,8 @@ Then `npm start` will run `ng serve`.
 	
 29. How to deploy angular app to production?
 
-
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+	
 <details>
 <summary> <b>Show Answer</b></summary>
 <blockquote>
@@ -484,7 +547,8 @@ Then `npm start` will run `ng serve`.
 	
 30. What kind of files we can find on _e2e_ folder and node_modules folder?
 
-
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+	
 <details>
 <summary> <b>Show Answer</b></summary>
 <blockquote>
@@ -497,6 +561,9 @@ The _e2e_ folder at the top level contains source files for a set of end-to-end 
 --- 
 	
 31. What are files we can find under _src_ folder?
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+	
 <details>
 <summary> <b>Show Answer</b></summary>
 <blockquote>
@@ -508,19 +575,25 @@ The _src_ folder contains the source files which give information about applicat
 	
 --- 
 32. What is the difference between `angular.json` and `package.json` file?
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details>
 <summary> <b>Show Answer</b></summary>
 <blockquote>
 
-angular.json - holds CLI configuration defaults for all projects in the workspace. It includes configuration options for the build, serve, and test tools.
+`angular.json` - holds CLI configuration defaults for all projects in the workspace. It includes configuration options for the build, serve, and test tools.
 	
-package.json - used to configure npm package dependencies that are available to all projects in the workspace.
+`package.json` - used to configure npm package dependencies that are available to all projects in the workspace.
 
 </blockquote>
 </details>
 	
 --- 
 33. What is the difference between `package.json` and `package-lock.json` files?
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+	
 <details>
 <summary> <b>Show Answer</b></summary>
 <blockquote>
