@@ -311,6 +311,9 @@ public @interface ByteProgramming
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
 - Example
 - * StreamSupport.stream(iterable.spliterator(),false).forEach( stud -> { System.out.println(stud); });
 
@@ -381,3 +384,98 @@ Java 8 added overloaded static join methods that join multiple strings into a si
 </details>
 
 ---
+
+26. What is the use of the String::ValueOf expression in Java 8?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+String::ValueOf is a simple static method referencing the valueOf method, belonging to the class 
+‘String.’
+
+</blockquote>
+</details>
+
+---
+
+27. What is the meaning of method reference in Java 8?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Method references are used in Java 8 to refer to methods of functional interfaces. It can be considered as a short-code version of using a lambda expression.
+
+The following is the expression for a method reference:
+
+    Class::methodname
+</blockquote>
+</details>
+
+---
+
+28. What is the easiest way to print the current date and time using the new APIs in Java 8?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+The ‘now’ method, which is a part of LocalDate, can be used to get the current date as shown below:
+
+LocalDate currentDate = LocalDate.now();
+System.out.println(currentDate);
+
+Similarly, it can also be used to get the current time:
+
+LocalTime currentTime = LocalTime.now();
+System.out.println(currentTime);
+
+</blockquote>
+</details>
+
+---
+
+29. Differentiate between intermediate and terminal operations in Java 8.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+*** Intermediate Operation ***
+Used for the transition to a new state	
+Lazy execution of code, i.e., code is not executed as soon as it is encountered	Not lazy; 
+
+*** Terminal Operation ***
+Used to end the process under execution
+code is immediately executed upon encounter
+
+</blockquote>
+</details>
+
+---
+30. Can the following piece of code compile successfully?
+
+<blockquote>
+@FunctionalInterface<br>
+public interface Function2<T, U, V> {<br>
+public V apply(T t, U u);<br>
+default void count() {<br>
+    // increment counter<br>
+}<br>
+}<br>
+</blockquote>
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Yes, the code can compile and execute without any errors. It uses functional interface specifications when the single abstract method is being defined.
+
+</blockquote>
+</details>
