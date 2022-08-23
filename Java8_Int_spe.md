@@ -667,3 +667,209 @@ The examples that are widely used in intermediate operations are:
 
 ---
 
+41. What are the similarities between map and flatMap stream operations in Java 8?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Both map and flatMap operations are a form of intermediate stream operations that take in a function and use the input function for performing various activities in the stream.
+
+</blockquote>
+</details>
+
+---
+
+42.How  to find and remove duplicate elements from a list using Java 8 easily?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Duplicate elements can be listed and removed easily by applying stream operations and performing a collection, later using the Collections.toSet() method. This should remove all of the duplicate elements present in the list.
+
+</blockquote>
+</details>
+
+---
+
+43. What is the easiest way to convert an array into a stream in Java 8?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Any array in Java 8 can be converted into a stream easily using the stream class. The creation of a stream using a factory method is as shown below:
+
+String[] testarray = {"Hello", "Intellipaat", "learners"};
+Stream numbers = Stream.of(testarray);
+numbers.forEach(System.out::println);
+
+</blockquote>
+</details>
+
+---
+
+44. What is the use of the peek() method in Java 8?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+The peek() method is a part of the stream class in Java 8, which is used to see actions performed through a stream pipeline. Peeking can be done at every step to print messages about the code being executed onto the console.
+
+Peeking has a wide amount of usage when efficiency is a requirement, when debugging code with the lambda expression, or when performing stream processing.
+
+</blockquote>
+</details>
+
+---
+
+45.  What is the meaning of a Spliterator in Java 8?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Spliterator is a newly introduced iterator interface for Java 8. It is very efficient and handles API-related operations seamlessly across the runtime environment.
+
+</blockquote>
+</details>
+
+---
+
+46.  What is JJS in Java 8?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+JJS is the common line tool that comes packaged with Java 8. It is used to run JavaScript code seamlessly using just the console.
+
+</blockquote>
+</details>
+
+---
+
+47. Explain the different time and date APIs and when you may use them.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+The new date and time API functions can be useful in coding projects, with each having its own benefits. LocalDate returns the date on the accessing machine in year, month and day format, and a company may use it to display special messages on a holiday. LocalTime provides the current time for the accessing machine, which allows you to customize actions throughout the day, such as displaying a lunch or dinner menu to a user. Finally, LocalDateTime combines both, allowing for options such as a gym showing a message about current and upcoming classes  that adjusts to the time and day.
+
+</blockquote>
+</details>
+
+---
+
+48. How to convert String to LocalDate, LocalDateTime in Java ?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+The Java 8 LocalDate-Time API includes a parse() method, which can be used to parse a given input string using a specified format.
+
+For example,
+
+LocalDate newDate = LocalDate.parse("2016-08-23");
+System.out.println("Parsed date : " + newDate);
+
+</blockquote>
+</details>
+
+---
+
+49. What is the difference between a predicate and a function ?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+- A predicate takes one argument and returns a boolean value.
+- A function takes one argument and returns an object.
+- Both are useful for evaluating lambda expressions.
+
+</blockquote>
+</details>
+
+---
+
+50. What is Nashorn in Java?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+This is the new Java processing engine for Java platform which is shipped in Java 8. Until JDK 7 Java platform used Rhino as the processing engine. It was a Javascript processing engine. Nashorn provides better compliance with the ECMA normalized JavaScript specification. It also provides better runtime performance than its previous versions.
+</blockquote>
+</details>
+
+---
+
+51. Can a functional interface extend/inherit another interface?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+A functional interface cannot extend another interface with abstract methods as it will void the rule of one abstract method per functional interface. E.g:
+
+interface Parent { 
+public int parentMethod(); 
+} 
+@FunctionalInterface // This cannot be FunctionalInterface 
+interface Child extends Parent { 
+public int childMethod(); 
+// It will also extend the abstract method of the Parent Interface 
+// Hence it will have more than one abstract method 
+// And will give a compiler error 
+}
+It can extend other interfaces which do not have any abstract method and only have the default, static, another class is overridden, and normal methods.
+
+</blockquote>
+</details>
+
+---
+
+52. What are the advantages of using the Optional class?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+It encapsulates optional values, i.e., null or not-null values, which helps in avoiding null checks, which results in better, readable, and robust code It acts as a wrapper around the object and returns an object instead of a value, which can be used to avoid run-time NullPointerExceptions.
+
+</blockquote>
+</details>
+
+---
+
+53. What is Effectively Final in Java 8?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+- Java 8 has introduced a new concept called “effectively final” variable. A non-final local variable or method parameter whose value is never changed after initialization is known as effectively final.
+- If you remember, prior to Java 8, we cannot use a local variable in an anonymous class. If you have to access a local variable in the Anonymous class, you have to make it final.
+- In Java 8, you can use non-final local variable in an anonymous class or lambda expression, if its value is never changed. Java internally consider these variables as effectively final and allow them to use.
+
+</blockquote>
+</details>
+
+---
