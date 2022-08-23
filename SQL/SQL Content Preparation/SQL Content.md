@@ -1518,6 +1518,8 @@ The asterisk symbol “ * ” can be usedin the select clause to denote “all a
 </blockquote>
 
 </details>
+   
+ ---
 
 57. ``` sql
 
@@ -1580,8 +1582,10 @@ WHERE salary BETWEEN 90000 AND 100000;
 
 ```
 
-<blockquote>
+</blockquote>
 
+ <blockquote>
+    
 SQL includes a between comparison operator to simplify where clauses that specify that a value be less than or equal to some value and greater than or equal to some other value.
 
 </blockquote>
