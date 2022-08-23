@@ -436,7 +436,7 @@ Before installing Angular CLI, make sure the development environment includes No
 <summary> <b>Show Answer</b></summary>
 <blockquote>
 
-	Run the CLI command `ng new my-app` to create a new angular app with the `my-app` name.
+Run the CLI command `ng new my-app` to create a new angular app with the `my-app` name.
 
 </blockquote>
 </details>
