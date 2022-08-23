@@ -150,7 +150,7 @@ This is the correct syntax for updating the values in the given table.
 
 ------
 
-4. Predict the output of the following by using  Inner JOINS?
+4.Predict the output of the following by using  Inner JOINS?
 Table 1:
 
 ```sql
@@ -280,7 +280,7 @@ you can insert how many of records you want by using the syntax
 
 ------
 
-6. Predict the output of the following  for updating a single record in table?
+6.Predict the output of the following  for updating a single record in table?
 
 | EmpID 	| EmpName 	| EmpEmail       	| PhoneNumber 	| City      	|
 |-------	|---------	|----------------	|-------------	|-----------	|
@@ -345,10 +345,10 @@ Output:
 
 ------
 
-7. Predict the output of the following  for updating a Multiple record in table by using WHERE clause?
+7.Predict the output of the following  for updating a Multiple record in table by using WHERE clause?
 A query to update the employees EmpEmail to sample@abc.com  for all records to city name Delhi.
 
-! [Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b> Show Answer </b></summary>
@@ -356,6 +356,7 @@ A query to update the employees EmpEmail to sample@abc.com  for all records to c
 <blockquote>
 
 ```sql
+ 
 UPDATE Employees
 Set EmpEmail = "sample@abc.com"
 WHERE City = "Delhi";
@@ -388,7 +389,7 @@ To update multiple records in the table, we must use the `WHERE` clause. The `WH
 
 ------
 
-8. Predict the output of the following  for Updating the  data by omitting `WHERE` Clause?
+8.Predict the output of the following  for Updating the  data by omitting `WHERE` Clause?
 a query to update the employees’ emails to example@xyz.com.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -404,7 +405,6 @@ UPDATE Employees
 Set EmpEmail = 'example@xyz.com’;
 
 ```
-
 Output:
 You will see the following table as output:
 
@@ -416,17 +416,17 @@ You will see the following table as output:
 | 4     	| Avni    	| avni@xyz.com   	| 9876543678  	| Mumbai    	|
 | 5     	| Rahul   	| rahul@abc.com  	| 9542456786  	| Delhi     	|
 
-! [Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 <details>
 <summary><b> Explanation </b></summary>
 
 <blockquote>
- When we omit the `WHERE` clause while using the `UPDATE` statement in SQL, then there is no limit set on the number of records that must be updated. So, all the records will be updated automatically.
+ 
+When we omit the `WHERE` clause while using the `UPDATE` statement in SQL, then there is no limit set on the number of records that must be updated. So, all the records will be updated automatically.
+
 </blockquote>
 
- </details>
- </details>
+</details>
+</details>
 
  ------
 
