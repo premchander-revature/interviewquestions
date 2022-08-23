@@ -277,7 +277,7 @@ public @interface ByteProgramming
 
 19. How to avoid NullPointer exception in Java 8?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Easy%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -294,7 +294,7 @@ public @interface ByteProgramming
 
 20. What are the functional interfaces you have used in your project, introduced in Java 8?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Easy%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -307,3 +307,77 @@ public @interface ByteProgramming
 
 ---
 
+21. How would you convert object of type Iterable to stream ?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+- Example
+- * StreamSupport.stream(iterable.spliterator(),false).forEach( stud -> { System.out.println(stud); });
+
+</blockquote>
+</details>
+
+---
+
+22.  How to come overcome, multiple inheritance problem in Java 8 ?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Override the default method in the implementation class
+Altogether provide new implementation or
+Invoke either one of the default method using super keyword
+For example, <interfaceName>.super.<defaultMethodName>
+
+</blockquote>
+</details>
+
+---
+
+23. What happens, if a class implements 2 interfaces having exactly same method with same signature (consider one as default and another abstract) ?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+- Compilation fails with error saying conflicting method.
+- Compile-time error: The default method displayDefaultMethod() inherited from DemoInterfaceA conflicts with another method inherited from DemoInterfaceB
+- To overcome this error, override this conflicting method and provide new implementation or invoke default method’s implementation using super keyword
+
+</blockquote>
+</details>
+
+---
+
+24. How can we resolve ambiguity problem in Java 8 while implementing multiple Interfaces ?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+To resolve ambiguity problem in Java 8, override the conflicting method.
+Now, if we want to invoke default method from any of the interfaces then call using super keyword
+For example, <interfaceName>.super.<defaultMethodName>
+
+</blockquote>
+</details>
+
+---
+
+25. What is the purpose of join() method introduced in Java 8 ?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Java 8 added overloaded static join methods that join multiple strings into a single string.
+
+</blockquote>
+</details>
+
+---
