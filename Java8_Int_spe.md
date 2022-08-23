@@ -109,8 +109,10 @@ Stream pipelining is the process of chaining different operations together. It a
 <blockquote>
 
 Yes, we can. create our own functional interface.
+
 </blockquote>
-<details>
+</details>
+
 ---
 
 9. What will happen if i am using a Functional interface and if i define multiple abstract methods inside that interface?
@@ -214,6 +216,91 @@ There are instances where you have a stream, but you only want to select a rando
 - Stream API creates objects in a lazy manner.
 - Multiple consumption: Most of the Collection APIs support iteration and consumption of elements multiple times.
 - With Stream API we can consume or iterate elements only once.
+
+</blockquote>
+</details>
+
+---
+
+16. Do you know what are the various forms of writing lambda expressions?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+- () -> expression
+- (parameters) -> expression
+- (parameters) -> { multiple statements}
+
+</blockquote>
+</details>
+
+---
+
+17. What do you understand by @Functional Interface annotation in Java 8?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+- @Functional interface , if used will force the compiler to check whether the given interface has single-abstract method or not.
+- If not, compiler will throw error "Unexpected @FunctionalInterface annotation"
+
+</blockquote>
+</details>
+
+---
+
+18. How do you create a custom annotation in Java?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+- Example :
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.Type)
+public @interface ByteProgramming
+{
+    String username() default "ByteProgramming";
+
+}
+@ByteProgramming(username="Byte")
+
+</blockquote>
+</details>
+
+---
+
+19. How to avoid NullPointer exception in Java 8?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Easy%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+- Java 8 provides concept of Optionals
+- Optionals can be used to avoid NullPointer Exception
+
+- Ex: String value=null;
+     * Optional<String> value=Optional.empty();
+</blockquote>
+</details>
+
+---
+
+20. What are the functional interfaces you have used in your project, introduced in Java 8?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Easy%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+- Functional interfaces like Function like Function, Consumer, Supplier, Predicate
+- All these are part of java.util.function package.
 
 </blockquote>
 </details>
