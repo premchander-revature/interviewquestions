@@ -86,3 +86,311 @@ When we run `ng g c server` in the terminal, CLI creates a component and registe
 </details>
 	
 ---  
+
+6. What is use of `@Component` decorator?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+	
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+- Components in Angular are defined using a @Component decorator. It includes a selector, template, style, and other properties, and it specifies the metadata required to process the component.
+
+</blockquote>
+</details>
+  
+---
+
+7. How many components can angular have?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+Angular applications can have multiple components. Each component handles a small part of UI. These components work together to produce the complete user interface of the application.
+
+</blockquote>
+</details>
+  
+---
+
+8. What is the root component in Angular?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+An Angular application has one root component - `AppComponent`
+
+</blockquote>
+</details>
+  
+---
+	
+9. How do you find which is a root component?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+By default, the root component in angular is `AppComponent` which is specified in the `bootstrap` array under the `@NgModule` defined in the `app.module.ts` file.
+
+```ts
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { AppComponent } from './app.component';
+
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+```
+	
+</blockquote>
+</details>
+	
+---
+
+10. I have to create component `User` as a parent. Then, I want to 2 child components for `User` component. Let's say 2 child components are `User-Login` and `User-Register`. What are the steps I needed to do?
+	
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+
+
+</blockquote>
+</details>
+  
+---
+	
+11. Below is the code in `user.component.ts`. If I want to insert user component to the `index.html` file.
+```ts
+import { Component } from '@angular/core';
+@Component ({
+  selector: 'user'
+  templateUrl: './user.component.html' ,
+  styleUrls: ['./user.component.css']
+export class UserComponent {
+} 
+```
+ 	
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+
+
+</blockquote>
+</details>
+  
+---
+	
+12. Detail about `@Component` Decorator.
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)	
+
+<details>
+<summary> <b>Show Answer</b></summary>
+<blockquote>
+
+In `app.component.ts` file, we export the `AppComponent` class, and we decorate it with the `@Component` decorator, imported from the `@angular/core package`, which takes a few metadata, such as: `selector`, `templateUrl` and `styleUrls`.
+
+![image](https://user-images.githubusercontent.com/103101208/185589415-67f2a93c-98cd-44e9-b427-17d082620a8a.png)
+
+- `selector` – just name given for the component. In the `index.html` file, `<app-root>` tag corresponds to component’s selector. By doing so, Angular will inject the corresponding template of the component. 
+
+![image](https://user-images.githubusercontent.com/103101208/185589556-9a942bf6-14a7-42c4-9bf1-ed567efcd25c.png)
+
+- `templateUrl` - points to an HTML file that defines what you see on your application. 
+- `styleUrls` - points to set of CSS file that defines styles or design for application
+
+</blockquote>
+</details>
+	
+---   
+
+13. What is a template in Angular?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+
+
+</blockquote>
+</details>
+  
+---
+ 
+ 14. What is the difference between `templateUrl` and `template` in `@Component` decorator?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+
+
+</blockquote>
+</details>
+  
+---
+ 	
+	
+15. What is the difference between `styleUrls` and `styles` in `@Component` decorator?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+
+
+</blockquote>
+</details>
+  
+---
+ 
+16. Which lifecycle hook will be executed first?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+
+
+</blockquote>
+</details>
+  
+---
+ 
+17. Which lifecycle hook used to inject any dependencies into the component?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+
+
+</blockquote>
+</details>
+  
+---
+ 
+18. In which order does lifecycle hooks gets exceuted?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+
+
+</blockquote>
+</details>
+  
+---
+ 
+19. Which lifecycle called only one?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+
+
+</blockquote>
+</details>
+  
+---
+ 
+20. Which angular module has all lifecycle hooks interfaces?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+
+
+</blockquote>
+</details>
+  
+---
+	
+21. Can we have html content attached to the component without having `.html` file. If so, how?
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+
+
+</blockquote>
+</details>
+  
+---
+	
+22. Can we have css styles attached to the component without having `.css` file. If so, how?
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+
+
+</blockquote>
+</details>
+  
+---
+	
+23.  Can we have multiline template? If so, how?
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+
+
+</blockquote>
+</details>
+  
+---
+	
