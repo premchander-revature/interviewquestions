@@ -73,7 +73,7 @@ When we run `ng g c server` in the terminal, CLI creates a component and registe
 - `constructor()` - The constructor of the component class gets executed first, before the execution of any other lifecycle hook events. If we need to inject any dependencies into the component, then the constructor is the best place to do so.
 - `ngOnChanges()` - Called whenever the input properties of the component change. It returns a SimpleChanges object which holds any current and previous property values.
 - `ngOnInit()` - Called once to initialize the component and set the input properties. It initializes the component after Angular first displays the data-bound properties.
-- `ngDoCheck()` - Called during all change-detection runs that Angular can't detect on its own. Also called immediately after the ngOnChanges() method.
+- `ngDoCheck()` - Called during all change-detection runs that Angular can't detect on its own. Also called immediately after the `ngOnChanges()` method.
 - `ngAfterContentInit()` - Invoked once after Angular performs any content projection into the component’s view.
 - `ngAfterContentChecked()` - Invoked after each time Angular checks for content projected into the component. It's called after `ngAfterContentInit()` and every subsequent `ngDoCheck()`
 - `ngAfterViewInit()` - Invoked after Angular initializes the component's views and its child views.
@@ -95,7 +95,7 @@ When we run `ng g c server` in the terminal, CLI creates a component and registe
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-- Components in Angular are defined using a @Component decorator. It includes a selector, template, style, and other properties, and it specifies the metadata required to process the component.
+- Components in Angular are defined using a `@Component` decorator. It includes a selector, template, style, and other properties, and it specifies the metadata required to process the component.
 
 </blockquote>
 </details>
@@ -214,12 +214,24 @@ export class UserComponent {
 
 In `app.component.ts` file, we export the `AppComponent` class, and we decorate it with the `@Component` decorator, imported from the `@angular/core package`, which takes a few metadata, such as: `selector`, `templateUrl` and `styleUrls`.
 
-![image](https://user-images.githubusercontent.com/103101208/185589415-67f2a93c-98cd-44e9-b427-17d082620a8a.png)
+```ts
+import { Component } from '@angular/core';
 
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+  title = 'angularDemoProject';
+}
+```
 - `selector` – just name given for the component. In the `index.html` file, `<app-root>` tag corresponds to component’s selector. By doing so, Angular will inject the corresponding template of the component. 
-
-![image](https://user-images.githubusercontent.com/103101208/185589556-9a942bf6-14a7-42c4-9bf1-ed567efcd25c.png)
-
+```html
+<body>
+  <app-root></app-root>
+</body>
+```
 - `templateUrl` - points to an HTML file that defines what you see on your application. 
 - `styleUrls` - points to set of CSS file that defines styles or design for application
 
@@ -394,3 +406,4 @@ In `app.component.ts` file, we export the `AppComponent` class, and we decorate 
   
 ---
 	
+24. 
