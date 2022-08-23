@@ -8,6 +8,10 @@
 
 Components are the basic building blocks in the Angular application. Components contain the data & UI logic that defines the view and behavior of the web application.
 
+![image](https://user-images.githubusercontent.com/70228962/186086415-c49cc203-e383-43c0-bc5b-15e2f101f159.png)
+
+Consider, we are building a page for an application. The features in the page include the header, footer and navigation and content area. Instead of building a single page with all these features, we can choose to split the page into components, which help us to manage our application. In the above scenario, we can say that the header, footer, content area, navigation and so on are separate components of the page; but when the user views it on the website through any device, it will show as a single page.
+	
 </blockquote>
 </details>
   
@@ -51,7 +55,7 @@ Components are the basic building blocks in the Angular application. Components 
 <summary><b>Show Answer</b></summary>
 <blockquote>
    
-When we run `ng g c server` in the terminal, CLI creates a component and registers this component in the AppModule. Now, you're able to see a *server* folder inside *src/app*. This *server* folder contains 4 files - *server.component.html*, *server.component.spec.ts*, *server.component.ts* and *server.component.css*. 
+When we run `ng g c server` in the terminal, CLI creates a component and registers this component in the AppModule. Now, you're able to see a `server` folder inside `src/app`. This `server` folder contains 4 files - `server.component.html`, `server.component.spec.ts`, `server.component.ts` and `server.component.css`. 
 
 </blockquote>
 </details>
@@ -65,11 +69,9 @@ When we run `ng g c server` in the terminal, CLI creates a component and registe
   
 <blockquote>
   
-- Angular creates a component; renders it; creates and renders its children; checks it when it’s data-bound properties change; and destroys it before removing it from the DOM. These events are called "Lifecycle Hooks".
-- Lifecycle Hooks:
-	
-  ![image](https://user-images.githubusercontent.com/103101208/185570891-363fb6d0-3bcd-454e-b2da-68362092fe64.png)
-	
+Angular creates a component; renders it; creates and renders its children; checks it when it’s data-bound properties change; and destroys it before removing it from the DOM. These events are called "Lifecycle Hooks".
+
+Lifecycle Hooks:	
 - `constructor()` - The constructor of the component class gets executed first, before the execution of any other lifecycle hook events. If we need to inject any dependencies into the component, then the constructor is the best place to do so.
 - `ngOnChanges()` - Called whenever the input properties of the component change. It returns a SimpleChanges object which holds any current and previous property values.
 - `ngOnInit()` - Called once to initialize the component and set the input properties. It initializes the component after Angular first displays the data-bound properties.
@@ -79,8 +81,6 @@ When we run `ng g c server` in the terminal, CLI creates a component and registe
 - `ngAfterViewInit()` - Invoked after Angular initializes the component's views and its child views.
 - `ngAfterViewChecked()` - Invoked after each time Angular checks for the content projected into the component. It called after `ngAfterViewInit()` and every subsequent `ngAfterContentChecked()`
 - `ngOnDestroy()` - Invoked before Angular destroys the directive or component.
-	
-![image](https://user-images.githubusercontent.com/103101208/185571059-270e2558-e7f9-48e9-8023-3cb594a8d780.png)
 
 </blockquote>  
 </details>
@@ -165,7 +165,7 @@ export class AppModule { }
 	
 ---
 
-10. I have to create component `User` as a parent. Then, I want to 2 child components for `User` component. Let's say 2 child components are `User-Login` and `User-Register`. What are the steps I needed to do?
+10. I have to create component `user` as a parent. Then, I want to 2 child components for `user` component. Let's say 2 child components are `user-login` and `user-register`. What are the steps I needed to do?
 	
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -173,7 +173,13 @@ export class AppModule { }
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
+**Steps:**
+1. Run `ng g c user` in the terminal, CLI creates a component and registers this component in the AppModule.  Now, you're able to see a `user` folder inside `src/app`.
+2. Move to the `src/app/user` folder.
+3. Run `ng g c user-login` in the terminal, CLI creates `user-login` component
+4. Run `ng g c user-register` in the terminal, CLI creates `user-register` component
 
+![image](https://user-images.githubusercontent.com/70228962/186089554-ec5c403b-dd95-4f13-83ce-2bd90e4b67c2.png)
 
 </blockquote>
 </details>
@@ -190,14 +196,14 @@ import { Component } from '@angular/core';
 export class UserComponent {
 } 
 ```
- 	
+ 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-
+Using `<user>` tag in the `index.html`
 
 </blockquote>
 </details>
@@ -248,7 +254,9 @@ export class AppComponent {
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
+A template just like regular HTML that renders a view, or user interface, in the browser.
 
+When you generate an Angular application with the Angular CLI, the `app.component.html` file is the default template containing placeholder HTML.
 
 </blockquote>
 </details>
@@ -262,7 +270,6 @@ export class AppComponent {
 <details>
 <summary><b>Show Answer</b></summary>
 <blockquote>
-
 
 
 </blockquote>
@@ -406,4 +413,68 @@ export class AppComponent {
   
 ---
 	
-24. 
+24. What is a views in Angular?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+
+
+</blockquote>
+</details>
+  
+---
+	
+25. How view is different from template?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+
+
+</blockquote>
+</details>
+  
+---
+
+26. What are ways to define templates?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+There are two ways of defining template in an angular component.
+1. Inline Template
+2. Template file
+	
+Inline Template  - It is defined by placing the HTML code in back ticks _`_ and is linked to the component metadata using the `template` property of `@Component` decorator.
+```ts
+@Component({
+  selector: 'app-root',
+  templateUrl: `<h1> Hello World </h1>`,
+  styleUrls: ['./app.component.css']
+})
+````
+Template File - It is defined in a separate HTML file and is linked to the component metadata using the `@Component` decorator’s `templateUrl` property 
+	
+```ts
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+```
+
+</blockquote>
+</details>
+  
+---
+ 
