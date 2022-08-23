@@ -1,4 +1,5 @@
 1. Debug the error in the given below table:
+
 | Stu_Id 	| Stu_Name 	| Stu_Marks 	| Stu_Age 	|
 |---------|-----------|------------	|-----------|
 | 101    	| Ramesh   	| 92        	| 20      	|
