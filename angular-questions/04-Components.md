@@ -357,16 +357,14 @@ When you generate an Angular application with the Angular CLI, the `app.componen
 
 Angular calls these hook methods in the following order:
 
-1. **ngOnChanges**: When an input/output binding value changes.
-2. **ngOnInit**: After the first ngOnChanges.
-3. **ngDoCheck**: Developer's custom change detection.
-4. **ngAfterContentInit**: After component content initialized.
-5. **ngAfterContentChecked**: After every check of component content.
-6. **ngAfterViewInit**: After a component's views are initialized.
-7. **ngAfterViewChecked**: After every check of a component's views.
-8. **ngOnDestroy**: Just before the component/directive is destroyed.
-	
-![image](https://user-images.githubusercontent.com/70228962/186122348-fbb3f882-842d-41f9-a330-6951f72af1a3.png)
+1. **`ngOnChanges`**: When an input/output binding value changes.
+2. **`ngOnInit`**: After the first `ngOnChanges`.
+3. **`ngDoCheck`**: Developer's custom change detection.
+4. **`ngAfterContentInit`**: After component content initialized.
+5. **`ngAfterContentChecked`**: After every check of component content.
+6. **`ngAfterViewInit`**: After a component's views are initialized.
+7. **`ngAfterViewChecked`**: After every check of a component's views.
+8. **`ngOnDestroy`**: Just before the component/directive is destroyed.
 
 </blockquote>
 </details>
@@ -381,7 +379,7 @@ Angular calls these hook methods in the following order:
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-
+`ngOnInit`called only once during the component lifecycle, after the first `ngOnChanges` call. 
 
 </blockquote>
 </details>
@@ -396,7 +394,7 @@ Angular calls these hook methods in the following order:
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-
+`@angular/core`
 
 </blockquote>
 </details>
@@ -411,7 +409,16 @@ Angular calls these hook methods in the following order:
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-
+Yes, by using inline template.
+	
+Inline Template  - It is defined by placing the HTML code in back ticks _`_ and is linked to the component metadata using the `template` property of `@Component` decorator.
+```ts
+@Component({
+  selector: 'app-root',
+  templateUrl: `<h1> Hello World </h1>`,
+  styleUrls: ['./app.component.css']
+})
+````
 
 </blockquote>
 </details>
@@ -426,8 +433,20 @@ Angular calls these hook methods in the following order:
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
+Yes, by using inline css. 
 
-
+You can use `styles` property to keep the CSS code inline to style your component's HTML template.
+```ts
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styles:[`
+        .green { color:#003300 !important; }
+        .bold { font-weight:bold; }
+        `]
+})
+```
+	
 </blockquote>
 </details>
   
@@ -440,9 +459,24 @@ Angular calls these hook methods in the following order:
 <details>
 <summary><b>Show Answer</b></summary>
 <blockquote>
+	
+Yes, by using backticks _`_
+	
+```ts
+import { Component } from '@angular/core';
 
-
-
+@Component({
+  selector: 'app-root',
+  template: `<h1> Hello World </h1>
+  <h2> Hello World  </h2>
+  ` ,
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent{
+  title = 'angularDemoProject';
+}
+```
+	
 </blockquote>
 </details>
   
@@ -456,7 +490,7 @@ Angular calls these hook methods in the following order:
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-
+Views are almost like their own virtual DOM.  Together, the component and its template describe a view.
 
 </blockquote>
 </details>
@@ -471,7 +505,9 @@ Angular calls these hook methods in the following order:
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
+A template is an HTML snippet that tells Angular how to render the component in angular application.
 
+The template is immediately associated with a component defines that component’s view.
 
 </blockquote>
 </details>
