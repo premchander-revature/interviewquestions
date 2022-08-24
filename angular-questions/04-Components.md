@@ -655,3 +655,36 @@ The _ngOnInit_ function is specific to the Angular framework and is called when 
 </details>
   
 ---
+
+31. What is dynamic component in Angular?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+Dynamic components are components location in the application is not defined at buildtime. That means, that it is not used in any angular template.
+
+Instead, the component is instantiated and placed in the application at runtime.
+
+</blockquote>
+</details>
+  
+---
+	
+33. What is View Encapsulation in Angular?
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+View Encapsulation in Angular defines how the styles defined in the template affects the other parts of the application. 
+
+</blockquote>
+</details>
+  
+---
+ 
+ 
