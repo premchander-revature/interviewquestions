@@ -295,3 +295,30 @@ Angular `ElementRef`is simply a class that wraps native DOM elements in the brow
   
 ---
 
+10. How do you choose an element from a component template?
+	
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+	
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+	
+To directly access items in the view, use the `@ViewChild` directive. Consider an input item with a reference.
+```html
+<input #example>
+```
+	
+and construct a view child directive that is accessed in the `ngAfterViewInit` lifecycle hook
+```ts		
+@ViewChild('example') input;
+
+ngAfterViewInit() {
+  console.log(this.input.nativeElement.value);
+}
+```	
+	
+</blockquote>
+</details>
+  
+---
+
