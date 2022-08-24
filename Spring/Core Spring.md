@@ -67,7 +67,7 @@ Spring does not manage the complete lifecycle of a prototype bean.
 - Few of these beans are added by spring framework and rest all are defined by developers.
 - These beans can be configured using XML configuration file (usually named as `applicationContext.xml`) or using Java Configuration class (usually named as `AppConfig.java`).
 - **`applicationContext.xml` sample** -
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -94,7 +94,7 @@ Spring does not manage the complete lifecycle of a prototype bean.
 ```
 - **`AppConfig.java` sample** -
 
-```
+```java
 package com.revature.config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -153,7 +153,7 @@ public class AppConfig {
 - It's always advisable to use ApplicationContext which is child interface of BeanFactory.
 - There are multiple implementations available of ApplicationContext depending upon your bean configuration.
 - For `applicationContext.xml` based bean configuration we use `ClassPathXmlApplicationContext` class.
-```
+```java
 package com.revature.client;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -172,7 +172,7 @@ public class App {
 ```
 - For `AppConfig.java` based bean configuration we use `AnnotationConfigApplicationContext` class.
 
-```
+```java
 package com.revature.client;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import com.revature.config.AppConfig;
@@ -243,7 +243,7 @@ public class App {
 
 - There are broadly two ways in which Spring beans are configured in application-
     - Using XML configuration – We usually define xml file with standard name as `applicationContext.xml` inside `src/main/resources` folder of your maven project.
-    ```
+    ```xml
     <?xml version="1.0" encoding="UTF-8"?>
     <beans xmlns="http://www.springframework.org/schema/beans"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -258,7 +258,7 @@ public class App {
     </beans>
     ```
     - Using Annotation configuration - `@Bean`, `@Component`, `@Service`, `@Repository`, `@Controller`, `@RestController`
-    ```
+    ```java
     @Component("employeeDtoForReport")  // Bean id - employeeDtoForReport
     public class EmployeeDto{
     ....
@@ -305,7 +305,7 @@ public class App {
 - There are third party DB connection pooling providers like `Apache DBCP`, `Hikari CP` etc. which can also be configured in application.
 - `DriverManagerDataSource` sample -
 
-    ```
+    ```xml
     <?xml version="1.0" encoding="UTF-8"?>
     <beans xmlns="http://www.springframework.org/schema/beans"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
@@ -334,7 +334,7 @@ public class App {
     ```
 - `Apache DBCP` maven dependency(ies)-
 
-    ```
+    ```xml
     <!-- Apache DBCP jar -->
         <dependency>
             <groupId>commons-dbcp</groupId>
@@ -344,7 +344,7 @@ public class App {
     ```
 - `Apache DBCP` sample -
 
-    ```
+    ```xml
     <?xml version="1.0" encoding="UTF-8"?>
     <beans xmlns="http://www.springframework.org/schema/beans"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
@@ -396,7 +396,7 @@ public class App {
 - The class `Counterstrike` has one dependency called `gameControl` of type `Usb`.
 - The Spring container while injecting dependency gameControl has confusion, as there are three qualifying beans for desired match, hence we will get `NoUniqueBeanDefinitionException` exception.
 
-    ```
+    ```java
     @Component
     public class Keyboard implements Usb{
         //....
@@ -418,7 +418,7 @@ public class App {
     }
     ```
 - The solution for the exception will be using `@Qualifier` annotation with exact matching bean name-
-    ```
+    ```java
     @Component
     public class Counterstrike {
         @Autowired
@@ -453,7 +453,7 @@ public class App {
 - Both of the above annotation are part of Common Annotations API and it’s part of JDK module javax.annotation-api. 
 - Lets look at simple example below:
 - `MailService.java` file-
-```
+```java
 package com.revature;
 import java.util.HashMap;
 import java.util.Map;
@@ -495,7 +495,7 @@ public class MailService {
 ```
 - `MainApp.java` file-
 
-```
+```java
 package com.revature.app;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import com.revature.MailService;
@@ -544,7 +544,7 @@ management.endpoint.health.group.custom.show-details=always
 - `application.yml` file, which uses a key-value format:
     - YAML is a convenient format for specifying hierarchical configuration data. 
     - The below code is more readable than .properties file alternative, due to lack of repeated prefixes.
-```
+```yml
 management:
   endpoints:
     web:
