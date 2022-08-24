@@ -278,7 +278,7 @@ a.SELECT Username, Password FROM Users.
 
 follows the above syntax.
 
-<blockquote> 
+</blockquote> 
 </details>
 </details>
                        
