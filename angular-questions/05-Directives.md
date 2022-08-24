@@ -322,3 +322,18 @@ ngAfterViewInit() {
   
 ---
 
+11. What is `ng-template` in Angular?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+`ng-template` is an Angular element that is used for rendering HTML in a template. However, it is not rendered directly on DOM. If you include an ng-template tag to a template, the tag and the content inside it will be replaced by comment upon render.
+
+</blockquote>
+</details>
+  
+---
+ 
