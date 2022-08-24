@@ -611,7 +611,7 @@ import { Component } from '@angular/core';
 @Component ({
 selector: 'user',
   template: `<h1> Hello User!!</h1>  ` ,
-  styles: `h1 { color: red; }`
+  styles: `[h1 { color: red; }]`
 })
 export class UserComponent {
 } 
