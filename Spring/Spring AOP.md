@@ -34,7 +34,7 @@
 - In either case, we also need to ensure that AspectJ’s `aspectjweaver.jar` library is on the class path of application (version 1.8 or later). 
 - This library is available in the lib directory of an AspectJ distribution or from the Maven Central repository.
 - `pom.xml` sample-
-```
+```xml
     <properties>
         <aspectJ.version>1.6.11</aspectJ.version>
     </properties>
@@ -68,7 +68,7 @@
 - Exception being one of the cross-cutting concern in Spring application which can be handled using Spring AOP.
 - Ensure the AspectJ dependencies are added in pom.xml file.
 - Define central logging class named `LoggingAspect.java` 
-```
+```java
 import java.util.Arrays;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
@@ -124,7 +124,7 @@ we want to deal with custom cross cutting concerns.
 - Measuring performance of the method execution can be one of such example of cross cutting concerns.
 - Ensure the AspectJ dependencies are added in pom.xml file.
 - Define central logging class named `ExecutionTimeAspect.java` 
-```
+```java
 package com.revature.aop;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -173,7 +173,7 @@ public class ExecutionTimeAspect {
     
 - Enables support for handling components marked with AspectJ's @Aspect annotation. 
 - This annotaion is usually defind on class marked with @Configuration.
-```
+```java
  @Configuration
  @EnableAspectJAutoProxy
  public class AppConfig {
@@ -192,5 +192,3 @@ public class ExecutionTimeAspect {
 </details>
 
 ---
-
-
