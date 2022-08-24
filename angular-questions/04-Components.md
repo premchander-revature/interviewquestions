@@ -714,7 +714,8 @@ The CSS Styles has global scope. CSS rules applies to the entire document. You c
 
 In case of Angular apps the components co exists with the other components. Hence it become very important to ensure that the CSS Styles specified in one component does not override the rules in another component.
 	
-
+That's why we need view encapsulation.
+	
 </blockquote>
 </details>
   
