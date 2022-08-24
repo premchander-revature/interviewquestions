@@ -80,14 +80,12 @@ In a short note, A component(`@Component`) is a directive-with-a-template. Some 
 - `ngIf` directive allows us to add or remove DOM Elements based upon the Boolean expression. We can also have an else block associated with an ngIf directive.
 
 ```html
-  
-<div *ngIf="age > 55; else elseBlock1">
-	    {{name}} is a senior citizen
+<div *ngIf=" a > b ; else elseBlock1">
+	    {{ a }} is greater than {{ b }}
 </div>
 <ng-template #elseBlock1>
-	    {{name}} is not a senior citizen
+	    {{ b }} is greater than {{ a }}
 </ng-template>
-    
 ```
 - `ngSwitch` directive lets you hide/show HTML elements depending on an expression. `NgSwitchCase` displays its element when its value matches the switch value. `NgSwitchDefault` displays its element when no sibling `NgSwitchCase` matches the switch value.
     
@@ -154,10 +152,8 @@ Enter the username: <input type='text' [(ngModel)]='name'>
 1. Create an angular project by running `ng new angularDemo2` command in the angular CLI
 2. In `app.component.html` file, create a form to get the `name` and `age` from the user
 ```html
-<form>
-   Name: <input type = text [(ngModel)]="name"/>
-   age: <input type = text [(ngModel)] = "age" />
-</form>
+Name: <input type="text" [(ngModel)]="name" /> <br> 
+Age: <input type="text" [(ngModel)]="age" />
 ```
 3. In `app.component.ts` file, create a `name` and `age` variables.
 ```ts
@@ -174,8 +170,27 @@ export class AppComponent {
   age !: string;
 }	
 ```
-4. Since we are using the `ngModel`directive, we have to import `FormsModule` in `app.module.ts` file
-	
+4. Since we are using the `ngModel`directive, we have to import `FormsModule` in `app.module.ts` file.
+```java
+ imports: [
+    BrowserModule,
+    FormsModule
+ ]
+```
+5. To check entered age and print the sentence according to it. We need to use `ngIf` directive. In `app.component.html` file,
+```ts
+<div *ngIf=" age > 60; else elseBlock1">
+    {{name}} is a senior citizen
+</div>
+<ng-template #elseBlock1>
+    {{name}} is not a senior citizen
+</ng-template>	
+```
+6. Launch the application by running `ng serve -o` command.
+7. Now, able to see the excepted output.
+![image](https://user-images.githubusercontent.com/70228962/186344357-656f9e28-3cfa-4dc0-9873-dbd62dcd14d8.png) ![image](https://user-images.githubusercontent.com/70228962/186344483-f0368ed8-f0e2-46ec-8b3e-42e4cc6eb2c1.png)
+
+
 </blockquote>
 </details>
   
