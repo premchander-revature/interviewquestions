@@ -167,7 +167,7 @@ export class AppComponent {
   title = 'angularDemo2';
 
   name !: string;
-  age !: string;
+  age !: number;
 }	
 ```
 4. Since we are using the `ngModel`directive, we have to import `FormsModule` in `app.module.ts` file.
@@ -188,8 +188,9 @@ export class AppComponent {
 ```
 6. Launch the application by running `ng serve -o` command.
 7. Now, able to see the excepted output.
-![image](https://user-images.githubusercontent.com/70228962/186344357-656f9e28-3cfa-4dc0-9873-dbd62dcd14d8.png) ![image](https://user-images.githubusercontent.com/70228962/186344483-f0368ed8-f0e2-46ec-8b3e-42e4cc6eb2c1.png)
+![image](https://user-images.githubusercontent.com/70228962/186344357-656f9e28-3cfa-4dc0-9873-dbd62dcd14d8.png) 
 
+![image](https://user-images.githubusercontent.com/70228962/186344483-f0368ed8-f0e2-46ec-8b3e-42e4cc6eb2c1.png)
 
 </blockquote>
 </details>
