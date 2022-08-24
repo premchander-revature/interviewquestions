@@ -92,6 +92,8 @@ Benefits of lazy loading module:
 
 6. Explain the use of `@NgModule` Decorator
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details>
 <summary> <b>Show Answer</b></summary>
 <blockquote>
@@ -118,9 +120,22 @@ import { AppComponent } from './app.component';
 })
 export class AppModule { }
 ```
-  
+	
+</blockquote>
+</details>
+	
+--- 
 
+7. What is the root module of angular?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary> <b>Show Answer</b></summary>
+<blockquote>
+
+`AppModule` - file is `app.module.ts`
+	
 </blockquote>
 </details>
 	
