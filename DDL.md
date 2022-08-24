@@ -93,8 +93,8 @@ CREATE TABLE table_name AS (SELECT select_query);
 <blockquote>
 
 - You can specify the table_name for your new table, as well need to use a `SELECT` query.
-- If you need to copied all the records from the existing table mentioning `SELECT * FROM` to new table.
-- It also refered as `CTAS`(`CREATE TABLE AS SELECT`)
+- If you need to copy all the records from the existing table, mention `SELECT * FROM` to new table.
+- It is also referred as `CTAS`(`CREATE TABLE AS SELECT`)
 
 </blockquote>
 
@@ -123,7 +123,7 @@ CREATE TABLE table_name AS (SELECT * FROM old_table WHERE 1=0);
 
 <blockquote>
 
-- We can use the `CTAS` for copy the table's structure along with the `WHERE` clause in the `SELECT` query to ensure there are no rows to be return.
+- We can use the `CTAS` to copy the table's structure along with the `WHERE` clause in the `SELECT` query to ensure there are no rows to return.
 
 </blockquote>
 
@@ -183,7 +183,7 @@ UPDATE myschema.mytable SET mycol = mycol +1 ;
 
 <blockquote>
 
-- In the above query, `CREATE EVENT` keyword along with event name is used to identifies the event name in database schema.
+- In the above query, `CREATE EVENT` keyword along with event name is used to identify the event name in database schema.
 - `ON SCHEDULE` clause is used to determine how the event executes.
 - `DO` clause is the sql statement for the execution.
 
@@ -194,7 +194,7 @@ UPDATE myschema.mytable SET mycol = mycol +1 ;
 
 -------
 
-8.Assemble a table to hold data on weather monitoring cities having latitude_north,longitude_west and temprature with NO duplicate ID fields are allowed.
+8.Assemble a table to hold data on weather monitoring cities having latitude_north,longitude_west and temprature with NO duplicate ID fields allowed.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -214,7 +214,7 @@ CREATE TABLE WEATHER_MONITOR (ID INT PRIMARY KEY, CITY VARCHAR(30), STATE VARCHA
 
 <blockquote>
 
-Create a table along with a table name "WEATHER_MONITOR" contains fields such as ID with the datatype `INTEGER`, CITY with the datatype `VARCHAR`, STATE with the datatype `VARCHAR`, TEMPERATURE, LATITUDE_N, LONGITUDE_W with the datatype `REAL`.
+Create a table along with a table name "WEATHER_MONITOR" that contains fields such as ID with the datatype `INTEGER`, CITY with the datatype `VARCHAR`, STATE with the datatype `VARCHAR`, TEMPERATURE, LATITUDE_N, LONGITUDE_W with the datatype `REAL`.
 
 </blockquote>
 
@@ -247,8 +247,8 @@ SHOW DATABASES;
 
 <blockquote>
 
-- Creation of database is easy in sql by using `CREATE` `DATABASE` command followed by the databse name.
-- When you create a database you can see the list of all databases which is created by you in the system. <br>
+- Creation of database is easy in sql by using `CREATE` `DATABASE` command followed by the database name.
+- When you create a database, you can see the list of all databases which is created by you in the system. <br>
 E.g List of Databases
 
 | Databases      |
@@ -264,7 +264,7 @@ E.g List of Databases
 
 -----
 
-10.How to check the database if already created in the system? Write a Sample query.
+10.How to check if the database is created in the system? Write a Sample query.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -474,7 +474,7 @@ b. @
 
 -------
 
-17.While creating a table which of the following option can be use with the `DEFAULT` option ?
+17.While creating a table which of the following option can be used with the `DEFAULT` option ?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -559,7 +559,7 @@ b. A table and an index can have the same name in a schema
 
 <blockquote>
 
-- In Sql, both table and index can have the same name also the index and contraints share the same namespace.
+- In Sql, both table and index can have the same name and also the index and contraints share the same namespace.
 
 </blockquote>
 
@@ -568,7 +568,7 @@ b. A table and an index can have the same name in a schema
 
 ------
 
-20.In which of the following query used to create a table with no rows?
+20.Which of the following query is used to create a table with no rows?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -600,7 +600,7 @@ CREATE TABLE stu AS SELECT * from students where 1=0;
 
 <blockquote>
 
-- By using `CTAS` can be use to copy the structure of the existing table without copying any data.
+- By using `CTAS`, it is used to copy the structure of the existing table without copying any data.
 
 </blockquote>
 
@@ -686,7 +686,7 @@ ALTER TABLE Employees_List RENAME COLUMN Birth_Date to Date_of_Birth;
 
 ------
 
-23.Write a query to adds a new column Location to the Employees_List table.
+23.Write a query to add a new column Location to the Employees_List table.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -726,7 +726,7 @@ ALTER TABLE Employees ADD (Location varchar(30));
 
 <blockquote>
 
-- By using `ALTER TABLE` command is used for Addition of a new column_name in  the given table followed by the table name.
+- By using `ALTER TABLE` command is used for Addition of a new column_name in the given table followed by the table name.
 
 </blockquote>
 
@@ -774,7 +774,7 @@ ALTER TABLE Employees_List DROP column Joining_Date;
 
 <blockquote>
 
-- To delete a particular column in the table using `DROP` followed `ALTER TABLE` command in sql.
+- To delete a particular column in the table, use `DROP` followed `ALTER TABLE` command in sql.
 
 </blockquote>
 
@@ -783,7 +783,7 @@ ALTER TABLE Employees_List DROP column Joining_Date;
 
 ------
 
-25.Write a statement to adds a primary key on the First_Name column in the given table.
+25.Write a statement to add a primary key on the First_Name column in the given table.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -819,7 +819,7 @@ ALTER TABLE Employees ADD PRIMARY KEY (First_Name);
 
 ------
 
-26.In Which of the following below querie used to add a column in a table which is already created?
+26.Which of the following query is used to add a column in a table which is already created?
 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -852,7 +852,7 @@ d. ALTER TABLE table_name add (place varchar2(20));
 
 <blockquote>
 
-- `ALTER TABLE` command used to add a new column to a table. New column should define by a column name and datatype. 
+- `ALTER TABLE` command is used to add a new column to a table. New column should define by a column name and datatype. 
 
 </blockquote>
 
@@ -861,7 +861,7 @@ d. ALTER TABLE table_name add (place varchar2(20));
 
 ------
 
-27.What command is used to modify the datatype which is already existed in a column?
+27.What command is used to modify the datatype which already exists in a column?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/medium%20(2).svg)
 
@@ -901,7 +901,7 @@ d. ALTER TABLE table_name MODIFY (place varchar2(10));
 
 ------
 
-28.Which is the vaild query to delete the column from the table ?
+28.Which of the following is the valid query to delete the column from the table ?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/medium%20(2).svg)
 
@@ -933,7 +933,7 @@ b. ALTER TABLE table table_name DROP COLUMN (place);
 
 <blockquote>
 
-- `ALTER TABLE` & `DROP` command used to delete the column from the table.
+- `ALTER TABLE` & `DROP` command is used to delete the column from the table.
 </blockquote>
 
 </details>
@@ -941,11 +941,11 @@ b. ALTER TABLE table table_name DROP COLUMN (place);
 
 ------
 
-29.Let us consider the following schema below
+29.Let us consider the following schema below:
 
 STUDENTS(sub_code, dep_name, location_id, city);
 
-Which code snippet will modify the STUDENTS table and add an address column with the data type `VARCHAR2(100)`?
+Which of the following code snippet will modify the STUDENTS table and add an address column with the data type `VARCHAR2(100)`?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/medium%20(2).svg)
 
@@ -984,7 +984,7 @@ b. ALTER TABLE students ADD (address varchar2(100));
 
 ------
 
-30.In which of the following code snippet will delete a view named marks_maths?
+30.Which of the following code snippet will delete a view named marks_maths?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/medium%20(2).svg)
 
@@ -1016,7 +1016,7 @@ c. drop view marks_maths;
 
 <blockquote>
 
-- `DROP` command used to remove the column marks_maths in the  table.
+- `DROP` command is used to remove the column marks_maths in the  table.
 
 </blockquote>
 
@@ -1025,7 +1025,7 @@ c. drop view marks_maths;
 
 ------
 
-31.What is temp tables ?
+31.What are temp tables ?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1034,7 +1034,7 @@ c. drop view marks_maths;
 
 <blockquote>
 
-- Temporary tables are introduced by SQL server. It can create at runtime and do all operations that the normal table can do. 
+- Temporary tables are introduced by SQL server. It can be created at runtime and can do all operations that the normal table does. 
 - Temporary tables are present inside the tempdb database.
 
 </blockquote>
@@ -1052,7 +1052,7 @@ c. drop view marks_maths;
 
 <blockquote>
 
-- The structure of the table, relatioship, constraints and access privileges are all together will get dropped when using `DROP` command in the table.
+- The structure of the table, relationship, constraints and access privileges all together will get dropped when using `DROP` command in the table.
 
 </blockquote>
 
@@ -1060,7 +1060,7 @@ c. drop view marks_maths;
 
 ------
 
-33.What are the  functional differences do `DROP` and `TRUNCATE` have?
+33.What functional differences do `DROP` and `TRUNCATE` have?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1069,14 +1069,14 @@ c. drop view marks_maths;
 
 <blockquote>
 
-- The DROP command is used to delete all of the data in a table or database, including any indexes and data. In contrast, the TRUNCATE command is used to remove all of the table's rows.
+- The DROP command is used to delete all the data in a table or database, including any indexes and data. In contrast, the TRUNCATE command is used to remove all the table's rows.
 
 </blockquote>
 </details>
 
 ------
 
-34.What is Primary key?
+34.What is a Primary key?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1085,7 +1085,7 @@ c. drop view marks_maths;
 
 <blockquote>
 
-- Primary key is a field or the combination of fields that uniquely identify the each record in the table.
+- Primary key is a field or the combination of fields that uniquely identify each record in the table.
 - If the column contains primary key, it cannot be null or empty.
 - It cannot have more than one primary key.
 - It stores uniques values into column. For Example, the Employee ID can be treated as the primary key for a Employees in Company.
@@ -1096,7 +1096,7 @@ c. drop view marks_maths;
 
 ------
 
-35.Why we need a index if the primary key is present already in the table?
+35.Why we need a index if the primary key is already present in the table?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1115,7 +1115,7 @@ c. drop view marks_maths;
 
 ------
 
-36.Find the debug in the following query below?
+36.Debug the following query?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1145,7 +1145,7 @@ CREATE TABLE emp AS SELECT * FROM employees WHERE 1=0;
 
 ------
 
-37.Find the debug in the following query below?
+37.Debug the following query?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1168,7 +1168,7 @@ ALTER TABLE table_name add (city VARCHAR(20));
 
 <blockquote>
 
-- "city" column cannot be a integer datatype we have to mention a `VARCHAR` datatype.
+- "city" column cannot be a integer datatype. We have to mention a `VARCHAR` datatype.
 
 </blockquote>
 </details>
@@ -1177,7 +1177,7 @@ ALTER TABLE table_name add (city VARCHAR(20));
 ------
 
 
-38.Find the debug in the following query below?
+38.Debug the following query?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1200,7 +1200,7 @@ ALTER TABLE table_name DROP column city;
 
 <blockquote>
 
-- While deleting the column need to mention the `drop` command along with column and column_name.
+- While deleting the column, we need to mention the `drop` command along with column and column_name.
 
 </blockquote>
 </details>
@@ -1241,14 +1241,14 @@ False
 
 <blockquote>
 
-- A view is used to restrict access to the data, making simple queries from complex and giving a different views of same data.
+- A view is used to restrict access to the data, making simple queries from complex and giving a different view of same data.
 
 </blockquote>
 </details>
 
 ------
 
-41.How to quickly obtain records from a table and give an explanation.
+41.How to quickly obtain records from a table. Give an explanation.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1282,7 +1282,7 @@ Table will be created with no default value for CREATE_DATE column
 
 ------
 
-43.You are designing a table for the Bank department.In which datatype you need to store an interval of days, hours, minutes and seconds in a column.?
+43.You are designing a table for the Bank department.Which datatype is needed to store an interval of days, hours, minutes and seconds in a column?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1385,7 +1385,7 @@ INTERVAL YEAR TO MONTH
 
 ------
 
-49.How you determine the referenced data when you delete the parent record.
+49.How do you determine the referenced data when you delete the parent record.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1421,7 +1421,7 @@ CREATE TABLE table_name AS (SELECT select_query);
 <blockquote>
 
 - You can specify the table_name for your new table, as well need to use a `SELECT` query.
-- If you need to copied all the records from the existing table mentioning `SELECT * FROM` to new table.
+- If you need to copy all the records from the existing table mentioning `SELECT * FROM` to new table.
 - It also refered as `CTAS`(`CREATE TABLE AS SELECT`)
 
 </blockquote>
@@ -1431,7 +1431,7 @@ CREATE TABLE table_name AS (SELECT select_query);
 
 ------
 
-51.How to create an event and write a sample query for the annual function in the office ?
+51.Write a sample query to create an event for the annual function in the office ?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1486,7 +1486,7 @@ Using `ALTER` command adding the `CONSTRAINT` in emp_salary column checking the 
 
 -------
 
-53.Write a query for the employee table having ID, first_name, last_name, salary, joining_date, department_id along with a Inline foreign key.?
+53.Write a query for the employee table having ID, first_name, last_name, salary, joining_date, department_id along with a Inline foreign key?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
