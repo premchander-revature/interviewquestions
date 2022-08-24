@@ -238,13 +238,22 @@ export class AppComponent {
     FormsModule
  ]
 ```
-5. To check entered age and print the sentence according to it. We need to use `ngIf` directive. In `app.component.html` file,
+5. To check entered number is odd and even and print it. We will use `ngSwitch` directive. In `app.component.html` file,
 ```ts
+Enter a number: <input type="text" [(ngModel)]="num">
 
+<div ngSwitch="{{num%2}}">
+    <div *ngSwitchCase="'0'">{{num}} is even.</div>
+    <div *ngSwitchCase="'1'">{{num}} is odd</div>
+    <div *ngSwitchDefault>Nothing Found</div>
+</div>
 ```
 6. Launch the application by running `ng serve -o` command.
 7. Now, able to see the excepted output.
 
+![image](https://user-images.githubusercontent.com/70228962/186347155-19484af6-e1f9-4818-bb4d-ba6d47864fb2.png)
+
+![image](https://user-images.githubusercontent.com/70228962/186347246-414044f8-21bf-4021-a3c4-b2dba0540442.png)
 
 </blockquote>
 </details>
