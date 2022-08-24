@@ -638,3 +638,20 @@ export class UserComponent {
 </details>
   
 ---
+	
+30. What is the difference between `constructor()` and `ngOnInit()`?
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+	
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+	
+The _constructor_ is a _Typescript_ feature used to instantiate the _Typescript_ class. In most Angular projects about the only thing that should ever be done in the constructor is to inject services.
+
+The _ngOnInit_ function is specific to the Angular framework and is called when Angular is done creating the component. It should be called with any custom finalization like loading data for your component to display.
+	
+</blockquote>
+</details>
+  
+---
