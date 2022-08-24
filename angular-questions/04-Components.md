@@ -721,3 +721,30 @@ That's why we need view encapsulation.
   
 ---
 		
+36. How do add view encapsulation to components?
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>	
+	
+The Encapsulation methods are added using the encapsulation metadata of the @Component decorator as shown below:
+
+```ts
+@Component({
+  template: `<p>Using Emulator</p>`,
+  styles: ['p { color:red}'],
+  encapsulation: ViewEncapsulation.Emulated     //This is default
+//encapsulation: ViewEncapsulation.None
+//encapsulation: ViewEncapsulation.ShadowDOM
+})
+```
+
+**NOTE:** `ViewEncapsulation.Emulated` is the default encapsulation method.
+	
+</blockquote>
+</details>
+  
+---
+			
