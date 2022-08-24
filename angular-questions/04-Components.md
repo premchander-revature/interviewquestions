@@ -622,3 +622,19 @@ export class UserComponent {
   
 ---
 	
+29. What happens if you use `<script>` tag inside template?
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+	
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+- Angular recognizes the value as unsafe and automatically sanitizes it, which removes the `<script>` tag but keeps safe content such as the text content of the script tag. 
+- This way it eliminates the risk of **script injection attacks**. 
+- If you still use it then it will be ignored and a warning appears in the browser console.
+	
+</blockquote>
+</details>
+  
+---
