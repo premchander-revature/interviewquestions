@@ -279,4 +279,19 @@ export class MyHighlightDirective {
 </details>
   
 ---
+
+9. What's Angular `ElementRef`?
  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+	
+Angular `ElementRef`is simply a class that wraps native DOM elements in the browser and allows you to work with the DOM by providing the `nativeElement` object which exposes all the methods and properties of the native elements.
+
+</blockquote>
+</details>
+  
+---
+
