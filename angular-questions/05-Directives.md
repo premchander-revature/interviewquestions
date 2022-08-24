@@ -51,6 +51,8 @@ In a short note, A component(`@Component`) is a directive-with-a-template. Some 
 ---
 
 3. What are the different types of directives in Angular?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details>
 <summary> <b>Show Answer</b></summary>
@@ -68,7 +70,9 @@ In a short note, A component(`@Component`) is a directive-with-a-template. Some 
 --- 
     
 4. Explain about Structural Directives in Angular?
-  
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details>
 <summary> <b>Show Answer</b></summary>
  <blockquote>
@@ -108,7 +112,9 @@ In a short note, A component(`@Component`) is a directive-with-a-template. Some 
 --- 
   
 5. Explain about Attribute Directives in Angular?
-  
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details>
 <summary> <b>Show Answer</b></summary>
 <blockquote>
@@ -191,6 +197,54 @@ export class AppComponent {
 ![image](https://user-images.githubusercontent.com/70228962/186344357-656f9e28-3cfa-4dc0-9873-dbd62dcd14d8.png) 
 
 ![image](https://user-images.githubusercontent.com/70228962/186344483-f0368ed8-f0e2-46ec-8b3e-42e4cc6eb2c1.png)
+
+</blockquote>
+</details>
+---
+
+7. Design angular application with the following criteria
+	-  Get a number from the user. 
+	-  Print its a even number or odd number
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+	
+1. Create an angular project by running `ng new angularDemo2` command in the angular CLI
+2. In `app.component.html` file, create a form to get the `name` and `age` from the user
+```html
+Enter a number: <input type="text" [(ngModel)]="num" />
+```
+3. In `app.component.ts` file, create a `name` and `age` variables.
+```ts
+import { Component } from '@angular/core';
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+  title = 'angularDemo2';
+	
+  num !: number;
+}	
+```
+4. Since we are using the `ngModel`directive, we have to import `FormsModule` in `app.module.ts` file.
+```java
+ imports: [
+    BrowserModule,
+    FormsModule
+ ]
+```
+5. To check entered age and print the sentence according to it. We need to use `ngIf` directive. In `app.component.html` file,
+```ts
+
+```
+6. Launch the application by running `ng serve -o` command.
+7. Now, able to see the excepted output.
+
 
 </blockquote>
 </details>
