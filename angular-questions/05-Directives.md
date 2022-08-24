@@ -7,23 +7,6 @@
 <blockquote>
   
 Directives add behaviour to an existing DOM element or an existing component instance.
-
-```ts
-import { Directive, ElementRef, Input } from '@angular/core';
-
-@Directive({ selector: '[myHighlight]' })
-export class HighlightDirective {
-    constructor(el: ElementRef) {
-       el.nativeElement.style.backgroundColor = 'yellow';
-    }
-}
-```
-Now this directive extends HTML element behavior with a yellow background as below
-
-```html
-<p myHighlight>Highlight me!</p>
-```
-
   </blockquote>
 </details>
   
@@ -261,5 +244,39 @@ Enter a number: <input type="text" [(ngModel)]="num">
   
 ---
 
-8. 
+8. How do you create a custom directive in Angular?
+ 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+Steps to creating custom directive in angular:
+	
+1. To create an angular application, run `ng new myapp` command.
+2. Then, we can create directive by running `ng g d myHighlight` command. Angular CLI creates two files `my-highlight.directive.spec.ts` and `my-highlight.directive.ts` and updates `app.module.ts`
+3. In `my-highlight.directive.ts`, we will create an instance of `ElementRef` and just highlighting the background color as yellow.
+```ts
+import { Directive, ElementRef} from '@angular/core';
+
+@Directive({selector: '[myHighlight]'})
+export class MyHighlightDirective {
+  constructor( private el: ElementRef) {
+    el.nativeElement.style.backgroundColor = 'yellow';
+   }
+}
+```
+4. Now this directive extends HTML element behavior with a yellow background as below
+```html
+<p myHighlight> Hi, there!!</p>	
+```
+5. Launch the angular application by running `ng serve -o` command.  The expected output will be,
+	
+![image](https://user-images.githubusercontent.com/70228962/186374096-514930ba-f29c-424e-bcf8-11318b5c0734.png)
+
+</blockquote>
+</details>
+  
+---
  
