@@ -687,4 +687,36 @@ View Encapsulation in Angular defines how the styles defined in the template aff
   
 ---
  
- 
+34. List the strategies that angular uses while rendering the view?
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+3 strategies - `ViewEncapsulation.Emulated`, `ViewEncapsulation.ShadowDOM` and `ViewEncapsulation.None`
+	
+</blockquote>
+</details>
+  
+---
+	
+35. Why do we need View Encapsulation?
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>	
+	
+The CSS Styles has global scope. CSS rules applies to the entire document. You cannot apply rules to the part of the document. Hence, we use class, id & CSS specificity rules to ensure that the styles do not interfere with each other
+
+In case of Angular apps the components co exists with the other components. Hence it become very important to ensure that the CSS Styles specified in one component does not override the rules in another component.
+	
+
+</blockquote>
+</details>
+  
+---
+		
