@@ -200,6 +200,7 @@ export class AppComponent {
 
 </blockquote>
 </details>
+
 ---
 
 7. Design angular application with the following criteria
@@ -259,3 +260,6 @@ Enter a number: <input type="text" [(ngModel)]="num">
 </details>
   
 ---
+
+8. 
+ 
