@@ -135,37 +135,40 @@ In `app.component.html`, create a button and have `Click Me` enclosed with `<but
 	
 --- 
 
-8. Explain about Attribute Binding in Angular?
+9. What is the difference between property and attribute in angular?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
-<details>
-<summary><b>Show Answer</b></summary>
-<blockquote>
-
-- Attribute binding is used to bind an attribute property of a view element. 
-
-
-</blockquote>
-</details>
-  
----
-
-9. What is the difference between Property Binding and Attribute Binding?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
 <blockquote>
+For example, if we take below `<input>` tag:	
+	
+```html
+<input type="text" id="name" value="John">
+```
+	
+Here we have an `<input>` tag sets value as "John". It's the initial value.  
 
-- Attribute binding syntax is like property binding. In property binding, we only specify the element between brackets. But in the case of attribute binding, it starts with the prefix `attar`, followed by a dot (.), and the name of the attribute. You then bind the attribute value using an expression that resolves to a string.
+In console of a browser if we execute,
+	
+```js	
+name.getAttribute('value') //attribute value gives John
 
+name.value  // property value also gives John
+```
+	
+Let's say the user enters/changes to  "Jim" in this input textbox.
+	
+```js
+name.getAttribute('value') // attribute value gives Jim
+
+name.value  // property value also gives Jim	
+```
+**NOTE:** Attributes initialise DOM properties. Once initialisation complete attribute job is done. Properties value can change whereas attribute value cannot change
+	
 </blockquote>
 </details>
   
 ---
- 
-
-
 
