@@ -344,8 +344,41 @@ ngAfterViewInit() {
 <details>
 <summary><b>Show Answer</b></summary>
 <blockquote>
+	
+1. To create an angular application, run `ng new myapp` command.
+2. Then, we can create directive by running `ng g d myHighlight` command. Angular CLI creates two files `my-highlight.directive.spec.ts` and `my-highlight.directive.ts` and updates `app.module.ts`
+3. In `my-highlight.directive.ts`, we will create an instance of `ElementRef` and highlighting based on the mouseover and mouseleave.
+```ts
+import { Directive, ElementRef, HostListener } from '@angular/core';
 
+@Directive({
+  selector: '[myHighlight]'
+})
+export class MyHighlightDirective {
 
+  constructor(private el : ElementRef) {}
+
+  @HostListener('mouseover') onMouseOver() {
+    this.changeBackgroundColor('blue');
+  }
+
+  @HostListener('mouseleave') onMouseLeave() {
+    this.changeBackgroundColor('white');
+  }
+
+  private changeBackgroundColor(color: string) {
+    this.el.nativeElement.style.backgroundColor = color;
+  }
+
+}
+```
+4. Adding `myHighlight` directive to the HTML elements, will change color based on mouseover and mouse leave
+```html
+<p myHighlight> Hi, there!!</p>	
+```	
+5. Launch the angular application by running `ng serve -o` command. Then, we'll able to see the excepted output
+
+![image](https://user-images.githubusercontent.com/70228962/186696341-de34b3a7-9c4a-4102-8d9d-16d6984d4746.png)
 	
 </blockquote>
 </details>
