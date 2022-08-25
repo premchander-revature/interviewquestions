@@ -655,6 +655,57 @@ Yes, I recommend AOT compiler. Here is my reasons:
 </details>
 	
 --- 
-	
 
-		
+37. Can you tell me about JIT compiler?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+Just in time (JIT) compiler provides compilation during the execution of the program at a run time before execution. In simple words, code get compiles when it’s needed, not at the build time.
+
+</blockquote>
+</details>
+  
+---
+ 	
+
+38. How JIT compiler differs from AOT compiler?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+| JIT                                                                                            | AOT                                                                                                               |
+|------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| JIT downloads the compiler and compiles code exactly before Displaying in the browser.         | AOT has already complied with the code while building your application, so it doesn’t have to compile at runtime. |
+| Loading in JIT is slower than the AOT because it needs to compile your application at runtime. | Loading in AOT is much quicker than the JIT because it already has compiled your code at build time.              |
+| JIT is more suitable for development mode.                                                     | AOT is much suitable in the case of Production mode.                                                              |
+| Bundle size is higher compare to AOT.                                                          | Bundle size optimized in AOT, in results AOT bundle size is half the size of JIT bundles.                         |
+| You can run your app in JIT with this command: `ng build` OR `ng serve`                            | To run your app in AOT you have to provide –aot at the end like: `ng build --aot` OR `ng serve --aot`                 |
+| You can catch template binding error at display time.                                          | You can catch the template error at building your application.                                                    |
+
+</blockquote>
+</details>
+  
+---
+	
+39. When to use JIT Compiler?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+- If you have a big project or a situation where some of your components don’t come in use most of the time then you should use the Just in time compiler.
+- Just in Time compiler is best when your application is in local development
+
+</blockquote>
+</details>
+  
+---
