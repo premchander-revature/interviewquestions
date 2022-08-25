@@ -34,7 +34,7 @@ export class UserComponent implements OnInit  {
   
 ---
 
-2. How do you make a service available for all the components?
+2. How do you make a service available at application level?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -56,8 +56,34 @@ export class UserService {
   
 </blockquote>
 </details>
+
 ---
 
+3.  How do you make service available at the NgModule level? _or_ How do you make service available for all components in a NgModule?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+ 
+At the NgModule level, using the `providers` field of the `@NgModule` decorator. In this scenario, the `UserService` is available to a**ll components, directives and pipes** declared in this NgModule.
+  
+For example:
+```ts
+@NgModule({
+  declarations: [UserListComponent]
+  providers: [UserService]
+})
+class UserListModule {}
+``` 
+  
+When you register a provider with a specific NgModule, the same instance of a service is available to all components in that NgModule.
+  
+</blockquote>
+</details>
+
+---
 
 4. How do you inject a dependency in angular?
 
