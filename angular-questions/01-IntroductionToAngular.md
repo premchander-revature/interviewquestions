@@ -615,7 +615,7 @@ The _src_ folder contains the source files which give information about applicat
 <summary> <b>Show Answer</b></summary>
 <blockquote>	
 	
-	Angular is written using TypeScript. But, browser only understand the JavaScript. We need to compile the Angular, so angular applications require a compilation process before they can run in a browser.
+Angular is written using TypeScript. But, browser only understand the JavaScript. We need to compile the Angular, so angular applications require a compilation process before they can run in a browser.
 	
 </blockquote>
 </details>
