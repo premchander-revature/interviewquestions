@@ -1,6 +1,6 @@
 ## Technical
 
-1. What is DispatcherServlet in Spring MVC application?
+1. What is `DispatcherServlet` in Spring MVC application?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -8,15 +8,15 @@
 
 <blockquote> 
     
-- In the case of Spring MVC, DispatcherServlet is the front controller. 
-- DispatcherServlet acts as an entry and exit point for any request received from client. 
+- In the case of Spring MVC, `DispatcherServlet` is the front controller. 
+- `DispatcherServlet` acts as an entry and exit point for any request received from client. 
 </blockquote> 
 
 </details>
 
 ---
 
-2. How DispatcherServlet handles request & response in Spring MVC application?
+2. How `DispatcherServlet` handles request & response in Spring MVC application?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -34,7 +34,7 @@
 
 ---
 
-3. How Spring MVC DispatcherServlet is registered in the web.xml file?
+3. How Spring MVC `DispatcherServlet` is registered in the web.xml file?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -137,7 +137,7 @@ public String homePage(){
 </details>
 
 ---
-7. Can @Controller annotation be used for both Spring MVC and RESTful applications?
+7. Can `@Controller` annotation be used for both Spring MVC and RESTful applications?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -145,7 +145,7 @@ public String homePage(){
 
 <blockquote> 
     
-- Yes, @RestController is a convenience annotation that does nothing more than adding the @Controller and @ResponseBody annotations.
+- Yes, `@RestController` is a convenience annotation that does nothing more than adding the `@Controller` and `@ResponseBody` annotations.
 - Hence the following two controller definitions are same:
 
 ```java
@@ -165,7 +165,7 @@ public class RestControllerB {
 </details>
 
 ---
-8. What does @Controller & @RestController returns?
+8. What does `@Controller` & `@RestController` returns?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -173,14 +173,14 @@ public class RestControllerB {
 
 <blockquote> 
     
-- @Controller return a view in Spring MVC application.
-- @RestController returns an object as response instead of view.
+- `@Controller` return a view in Spring MVC application.
+- `@RestController` returns an object as response instead of view.
 </blockquote> 
 
 </details>
 
 ---
-9. What is use of @ResponseBody in Spring?
+9. What is use of `@ResponseBody` in Spring?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -188,7 +188,7 @@ public class RestControllerB {
 
 <blockquote> 
     
-- @ResponseBody is a Spring annotation which binds a method return value to the web response body. 
+- `@ResponseBody` is a Spring annotation which binds a method return value to the web response body. 
 - It is not interpreted as a view name. 
 - It uses `org.springframework.http.converter Interface HttpMessageConverter<T>` to convert the return value to HTTP response body, based on the content-type in the request HTTP header.
 </blockquote> 
@@ -196,7 +196,7 @@ public class RestControllerB {
 </details>
 
 ---
-10. What are MIME Types?
+10. What are `MIME Types`?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -204,12 +204,12 @@ public class RestControllerB {
 
 <blockquote> 
     
-- MIME stands for Multi-purpose Internet Mail Extensions. 
+- MIME stands for `Multi-purpose Internet Mail Extensions`. 
 - MIME types form a standard way of classifying file types on the Internet. 
 - Internet programs such as Web servers and browsers all have a list of MIME types, so that they can transfer files of the same type in the same way, no matter what operating system they are working in.
 - A MIME type has two parts: a `type` and a `subtype`. They are separated by a slash (`/`) i.e., `type/subtype`. 
 - For example, the MIME type for Microsoft Word files is application and the subtype is msword. Together, the complete MIME type is application/msword.
-- The entire list of MIME types is available under Internet Assigned Numbers Authority (IANA) website- https://www.iana.org/assignments/media-types/media-types.xhtml
+- The entire list of MIME types is available under `Internet Assigned Numbers Authority (IANA)` website- https://www.iana.org/assignments/media-types/media-types.xhtml
 - The MIME types & extensions can be found under-https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types 
 </blockquote> 
 
@@ -232,7 +232,7 @@ public class RestControllerB {
 </details>
 
 ---
-12. What is the meaning of Content Negotiation?
+12. What is the meaning of `Content Negotiation`?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -240,7 +240,7 @@ public class RestControllerB {
 
 <blockquote> 
     
-- Content negotiation is the process of selecting one of multiple possible representations to return to a client, based on client or server preferences.
+- `Content Negotiation` is the process of selecting one of multiple possible representations to return to a client, based on client or server preferences.
 - When a consumer sends a request, it can specify two HTTP Headers related to Content Negotiation `Accept` and `Content-Type`.
 - `Content-Type` indicates the content type of the body of the request.
 - `Accept` indicates the expected content type of the response.
@@ -249,7 +249,7 @@ public class RestControllerB {
 </details>
 
 ---
-13. What is REST? Is it protocol dependent?
+13. What is `REST`? Is it protocol dependent?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -257,14 +257,14 @@ public class RestControllerB {
 
 <blockquote> 
     
-- REST is about resource state manipulation through their representations on the top of stateless communication between client and server. 
+- `REST` is about resource state manipulation through their representations on the top of stateless communication between client and server. 
 - It's a protocol independent architectural style but, in practice, it's commonly implemented on the top of the HTTP protocol.
 </blockquote> 
 
 </details>
 
 ---
-14. What is "representation", "state" and "transfer" in Representational State Transfer (REST)?
+14. What is "representation", "state" and "transfer" in `Representational State Transfer (REST)`?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
