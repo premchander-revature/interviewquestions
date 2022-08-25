@@ -135,7 +135,7 @@ In `app.component.html`, create a button and have `Click Me` enclosed with `<but
 	
 --- 
 
-8. How we can pass the data from component to the template?
+8. Explain about Attribute Binding in Angular?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -143,12 +143,29 @@ In `app.component.html`, create a button and have `Click Me` enclosed with `<but
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
+- Attribute binding is used to bind an attribute property of a view element. 
 
 
 </blockquote>
 </details>
   
 ---
+
+9. What is the difference between Property Binding and Attribute Binding?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+- Attribute binding syntax is like property binding. In property binding, we only specify the element between brackets. But in the case of attribute binding, it starts with the prefix `attar`, followed by a dot (.), and the name of the attribute. You then bind the attribute value using an expression that resolves to a string.
+
+</blockquote>
+</details>
+  
+---
  
+
 
 
