@@ -109,7 +109,7 @@ interface PipeTransform {
   
 ---
  
-8. Design the angular application to print the list of groceries items followed by its price in ruppes
+8. Design the angular application to print the list of groceries items followed by its price in rupees
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
