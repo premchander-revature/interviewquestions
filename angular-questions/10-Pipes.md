@@ -47,10 +47,18 @@ If we want to create a custom pipe in angular, we need to annotate the class wit
   
 ---
  
-4. Detail the use of below code:
+4. What do you get from the below code?
 ```ts
-interface PipeTransform {
-  transform(value: any, ...args: any[]): any
+import { Pipe, PipeTransform } from '@angular/core';
+@Pipe({
+  name: 'filter'
+})
+export class FilterPipe implements PipeTransform {
+  transform(array: string[], startWith: string): any {
+    let temp: string[] = [];
+    temp = array.filter(a => a.startsWith(startWith));
+    return temp;
+  }
 }
 ```
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -58,9 +66,9 @@ interface PipeTransform {
 <details>
 <summary><b>Show Answer</b></summary>
 <blockquote>
-
-`PipeTransform` interface that is implemented by pipes in order to perform a transformation. Angular invokes the `transform` method with the value of a binding as the first argument, and any parameters as the second argument in list form.
-
+- `FilterPipe` is a custom pipe.
+- We take array of strings (`array`) and another string (`startWith`) as an input.
+- Using `filter` method, we only filter string that starts with value in `startsWith` and returning it.
 </blockquote>
 </details>
   
@@ -166,6 +174,27 @@ export class WordcountPipe implements PipeTransform {
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
+For example, below are the groceries items and its cost.
+```ts
+    items = [
+    { name : "Pasta" ,  cost: 32 },
+    { name : "Rice" ,  cost: 50 },
+    { name : "Milk" ,  cost: 30 },
+    { name : "Egg" ,  cost: 5}
+  ]
+```
+    
+ To print the list of groceries items followed by its price in rupees, we just need to use `ngFor` directive and `currency` pipe
+ 
+```html
+ <div *ngFor="let item of items">
+    <li> {{item.name}} - {{ item.cost | currency:'INR'}}</li>
+</div>
+ ```
+
+Output will be like
+   
+![image](https://user-images.githubusercontent.com/70228962/186734281-ebe35c70-f152-402b-9e36-8b3a48f9ff90.png)
 
 
 </blockquote>
@@ -181,7 +210,26 @@ export class WordcountPipe implements PipeTransform {
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
+ For example,
+ ```html
+<p>{{ "abcdefghijk" | slice:3:7}}  </p>
+<!-- output: 'defg' -->
+```
 
+We have slice pipe in angular to slice the strings. Here, a number is given per character to our input string to understand start and end index. Index starts from 0.
+    
+```
+ 0   1   2   3   4   5   6   7   8   9   10 
+ |   |   |   |   |   |   |   |   |   |   |    
+ a   b   c   d   e   f   g   h   i   j   k
+ ```
+In our example we have following indexes. 
+    
+start = 3
+    
+end = 7
+    
+Slice pipe will return substring starting from index 3 i.e character d and will include all characters before index 7 i.e up to g. The character at end index will not be included in the output substring.
 
 </blockquote>
 </details>
@@ -260,8 +308,13 @@ Some of the built-in pipes are:
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-
-
+`PipeTransform` is an interface that is implemented by pipes in order to perform a transformation. Angular invokes the `transform` method with the value of a binding as the first argument, and any parameters as the second argument in list form.
+    
+```ts
+interface PipeTransform {
+  transform(value: any, ...args: any[]): any
+}
+```
 </blockquote>
 </details>
   
