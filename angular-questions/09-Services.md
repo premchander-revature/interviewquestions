@@ -1,4 +1,4 @@
-1. How do you make a service availiable for a component?
+1. How do you make a service available for a component?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -6,41 +6,35 @@
 <summary><b>Show Answer</b></summary>
 <blockquote>
   
+Let's consider, we have to make `UserService` available for a `UserComponent` in our angular application.
+  
+In the `user.component.ts` file, add the `UserService` in the `providers` property of `@Component` decorator
 ```ts
- @Component({
-  selector: 'hero-list',
-  template: '...',
-  providers: [HeroService]
-})
-class HeroListComponent {}
-```
+import { Component, OnInit } from '@angular/core';
+import { UserService } from '../user.service';
 
+@Component({
+  selector: 'app-user',
+  templateUrl: './user.component.html',
+  styleUrls: ['./user.component.css'],
+  providers : [UserService]
+})
+export class UserComponent implements OnInit  {
+
+  constructor(private  user : UserService) {  }
+  ngOnInit(): void {
+    console.log("Form User Component")
+    this.user.display()
+  }
+}
+```
+  
 </blockquote>
 </details>
   
 ---
 
-2. How do you make a service availiable for all the components of a NgModule?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
-<details>
-<summary><b>Show Answer</b></summary>
-<blockquote>
-  
-```ts
-@NgModule({
-  declarations: [HeroListComponent]
-  providers: [HeroService]
-})
-class HeroListModule {}
-```
-</blockquote>
-</details>
-  
----
-
-3. How do you make a service availiable for the entire application?
+2. How do you make a service available for all the components?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -48,17 +42,22 @@ class HeroListModule {}
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-```ts
-@Injectable({
-  providedIn: 'root'
-})
-class HeroService {}
-```
+Let's consider, we want to make `UserService` available for all the components. 
 
+In the `user.service.ts` file, by default, AngularCLI sets the providedIn to `root` registers the service at the module level. So that is available for all compoenents.
+  
+```ts
+import { Injectable } from '@angular/core';
+
+@Injectable({ providedIn: 'root' })
+export class UserService {
+}
+```
+  
 </blockquote>
 </details>
-  
 ---
+
 
 4. How do you inject a dependency in angular?
 
@@ -67,6 +66,8 @@ class HeroService {}
 <details>
 <summary><b>Show Answer</b></summary>
 <blockquote>
+  
+The most common way to inject a dependency is to declare it in a **class constructor**. When Angular creates a new instance of a component, directive, or pipe class, it determines which services or other dependencies that class needs by looking at the constructor parameter types.
   
 ```ts
 @Component({ … })
