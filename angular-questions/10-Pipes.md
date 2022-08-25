@@ -23,7 +23,7 @@ For example, a Date object shows the date in this format: `Sat Aug 03 2019 19:48
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-Using Pipes 
+Using Pipes, we can transform any strings, currency amounts, dates, and other data for display.
 
 </blockquote>
 </details>
@@ -59,7 +59,7 @@ interface PipeTransform {
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-An interface that is implemented by pipes in order to perform a transformation. Angular invokes the `transform` method with the value of a binding as the first argument, and any parameters as the second argument in list form.
+`PipeTransform` interface that is implemented by pipes in order to perform a transformation. Angular invokes the `transform` method with the value of a binding as the first argument, and any parameters as the second argument in list form.
 
 </blockquote>
 </details>
@@ -97,7 +97,7 @@ And, we can use it any template file. For example,  in `app.component.ts` file,
 ```ts
 {{ "Hello World" | firstChar}}  
 ```
-  
+
 </blockquote>
 </details>
   
@@ -111,8 +111,12 @@ And, we can use it any template file. For example,  in `app.component.ts` file,
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
+We can use date pipe to date in this format "MM/dd/yy". Also, we can get the current date using `Date.now()`.
 
+![image](https://user-images.githubusercontent.com/70228962/186723294-69118376-7c4a-48e5-966f-c8cd0ba50954.png)
 
+**NOTE:**  Output like  _08/25/22_
+    
 </blockquote>
 </details>
   
@@ -126,7 +130,28 @@ And, we can use it any template file. For example,  in `app.component.ts` file,
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
+1. Create an angular application by running `ng new myapp` command 
+2. Create an custom pipe to count words by running the `ng g pipe wordcount` command
+3. In `wordcount.pipe.ts` file, write the logic for word count
+```ts
+import { Pipe, PipeTransform } from '@angular/core';
+@Pipe({   name: 'wordcount' })
+export class WordcountPipe implements PipeTransform {
+  transform(value : string): unknown {
+    return value.trim().split(' ').length;
+  }
+}
+```
+4. In `app.component.html`, get the sentence and use the `wordcount` pipe. Also, we have to import `FormsModule` in the `app.module.ts` and create `sentence` variable of type `string` like `sentence !: string` in the `app.component.ts`.
+    
+```ts
+<p>Enter a sentence: <input type="text" [(ngModel)]="sentence"> <br/></p>
 
+{{ sentence | wordcount}}
+```
+5. Output will be
+    
+![image](https://user-images.githubusercontent.com/70228962/186726853-a751b72f-faf3-4a00-ad1a-5b43176b0ae5.png)
 
 </blockquote>
 </details>
@@ -171,8 +196,33 @@ And, we can use it any template file. For example,  in `app.component.ts` file,
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-
-
+Some of the built-in pipes are:
+    - **Date pipe** - Used for formatting dates.
+    - **Decimal pipe** - Used for formatting numbers
+    - **Currency pipe** - Used for formatting currencies
+    - **Lowercase pipe** - Used for converting strings into lowercase.
+    - **Uppercase pipe** - Used for converting strings into uppercase.
+    
+**For example:**
+```html
+<h2>Built-in Pipes</h2>
+<li>{{"Pipes"}} </li>
+<li>{{"Pipes" | uppercase}}</li>
+<li>{{"Pipes" | lowercase}} </li>
+<li>{{dob}}</li>
+<li>{{dob | date}}</li>
+<li>{{dob | date |uppercase }}</li>
+<li>{{17.81922 | number }}</li>
+<li>{{17.819227546354 | number: '3.4-6' }}</li>
+<li>{{17.81922 | number : '2.0-0'}}</li>
+<li>{{365778 | currency}}</li>
+<li>{{365778 | currency: 'INR'}}</li>
+```
+    
+ Output:
+ 
+![image](https://user-images.githubusercontent.com/70228962/186727762-9ca23c43-6cb0-4026-a00d-c443324950ee.png)  
+    
 </blockquote>
 </details>
   
@@ -186,7 +236,16 @@ And, we can use it any template file. For example,  in `app.component.ts` file,
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
+1. Create an angular application by running `ng new myapp` command 
+2. In `app.component.html`, get the user's brithdate. Also, import `FormsModule` in the `app.module.ts` and create `brithdate` variable of type `number` like `birthday !: number;` in the `app.component.ts`.
+ ```html
+ <p>Enter your birthday: <input type="date" [(ngModel)]="birthday"> <br/></p>
 
+<p>Date Of birth : {{ birthday | date | uppercase}} </p>
+<!-- OUTPUT Date Of birth : MAY 19, 1997 -->  
+ ```
+   
+ Here we're chaining pipes, chaining the `date` pipe and `uppercase` pipe. If, we just have only date pipe `{{ birthday | date }}` the output will be like `Aug 3, 2022`. Since the excepted output has Month is in uppercase, there is need to transform month to the uppercase. so will chain the uppercase pipe after the date pipe. 
 
 </blockquote>
 </details>
