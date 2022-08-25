@@ -45,10 +45,10 @@ In `app.component.html`, create a button and have `Click Me` enclosed with `<but
 <summary> <b>Show Answer</b></summary>
 <blockquote>
 
-- Databinding is a technique used to bind the data from an HTML template to a component class (.ts file) or from a component class (.ts file) to an HTML template.
+- Databinding is a technique used to bind the data from an view to a component or from a component to view.
 - They are 1 way databinding and 2-way databinding
 
-![image](https://user-images.githubusercontent.com/103101208/185592479-3570b8c1-3fc1-4d06-8328-9c266186a2d3.png)
+![image](https://user-images.githubusercontent.com/70228962/186707770-894831c5-ca53-455e-9a22-553f426c3335.png)
 
 </blockquote>
 </details>
@@ -63,7 +63,7 @@ In `app.component.html`, create a button and have `Click Me` enclosed with `<but
 <summary> <b>Show Answer</b></summary>
 <blockquote>
 	
-- From Component Class to the HTML Template
+- From Component to the view
 - Bind values to the attributes of HTML elements.
 - Uses [], square brackets in the html file
 - Create a variable in the class, and the bind that value to an attribute for HTML tag
@@ -83,7 +83,7 @@ In `app.component.html`, create a button and have `Click Me` enclosed with `<but
 <summary> <b>Show Answer</b></summary>
 <blockquote>
 
-- From HTML template to the component class
+- From view to component
 - Bind DOM events such as keystrokes, button clicks, mouse overs, touches, etc. to a function in the component.
 - Uses (), parentheses in the html file
 - Here, we were calling the `OnClick()` function, when the ‘Click Here’ button is clicked.
@@ -134,5 +134,21 @@ In `app.component.html`, create a button and have `Click Me` enclosed with `<but
 </details>
 	
 --- 
-	
+
+8. How we can pass the data from component to the template?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+
+
+</blockquote>
+</details>
+  
+---
+ 
+
 
