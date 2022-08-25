@@ -607,3 +607,54 @@ The _src_ folder contains the source files which give information about applicat
 	
 --- 
 	
+34. Why do need to compile the Angular? 
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+	
+<details>
+<summary> <b>Show Answer</b></summary>
+<blockquote>	
+	
+	Angular is written using TypeScript. But, browser only understand the JavaScript. We need to compile the Angular, so angular applications require a compilation process before they can run in a browser.
+	
+</blockquote>
+</details>
+	
+--- 
+
+35. Have you heard of AOT compiler? If so, can you explain about it?
+		
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+	
+<details>
+<summary> <b>Show Answer</b></summary>
+<blockquote>	
+	
+The Angular ahead-of-time (AOT) compiler converts your Angular HTML and TypeScript code into efficient JavaScript code during the build phase before the browser downloads and runs that code. Compiling your application during the build process provides a faster rendering in the browser.
+	
+</blockquote>
+</details>
+	
+--- 
+	
+36. Do you recommend AOT compiler? If yes, Justify.
+		
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+	
+<details>
+<summary> <b>Show Answer</b></summary>
+<blockquote>	
+
+Yes, I recommend AOT compiler. Here is my reasons:
+
+- **Faster rendering**: With AOT, the browser downloads a pre-compiled version of the application. The browser loads executable code so it can render the application immediately, without waiting to compile the application first.
+- **Detect template errors earlier** : The AOT compiler detects and reports template binding errors during the build step before users can see them.
+- **Better Security**: AOT compiles HTML templates and components into JavaScript files long before they are served to the client. With no templates to read and no risky client-side HTML or JavaScript evaluation, there are fewer opportunities for injection attacks.
+		
+</blockquote>
+</details>
+	
+--- 
+	
+
+		
