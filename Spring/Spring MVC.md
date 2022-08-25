@@ -322,6 +322,17 @@ public class RestControllerB {
 - Non-breaking changes, such as adding new endpoints or new response parameters, do not require a change to the major version number.
 - Example of using two controller classes serving to different version-
 ```java
+@RestController
+@RequestMapping("/api/v1")
+public class ControllerV1 {
+  //...
+}
+
+@RestController
+@RequestMapping("/api/v2")
+public class ControllerV2 {
+  //...
+}
 ```
 </blockquote> 
 
