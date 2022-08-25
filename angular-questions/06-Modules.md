@@ -139,4 +139,123 @@ export class AppModule { }
 </blockquote>
 </details>
 	
---- 
+---
+
+8. What is Angular Module?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+Module in Angular refers to a place where you can group the components, directives, pipes, and services, which are related to the application.
+	
+![image](https://user-images.githubusercontent.com/70228962/186698012-0db3b928-1c5c-4706-b9c2-bf797be57473.png)
+
+
+</blockquote>
+</details>
+  
+---
+
+9. What are the modules imported by default in an angular application?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+After creating the angular application, in the `app.module.ts` file , we able to see `BrowserModule` is imported by default.
+
+```ts
+import { BrowserModule } from '@angular/platform-browser';
+import { AppComponent } from './app.component';
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+```
+`BrowserModule` is imported from `@angular/platform-browser` (by default provides support to run Angular apps on different supported browsers.
+
+</blockquote>
+</details>
+  
+---
+ 
+10. If I want to use the pipe in two components, what I should do?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+We have to make that pipe class public, through the `export` keyword, so that external components can use them. 
+	
+For example: `export class FirstCharPipe implements PipeTransform {}` and in that `app.module.ts`, we have imported the pipe class and added under the `declarations` property of `@NgModule`
+
+```ts
+import { BrowserModule } from '@angular/platform-browser';
+import { AppComponent } from './app.component';
+import { UserComponent } from './user/user.component';
+import { AdminComponent } from './admin/admin.component';
+import { FirstCharPipe } from './first-char.pipe';
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    UserComponent,
+    AdminComponent,
+    FirstCharPipe
+  ],
+  imports: [
+    BrowserModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+```
+
+</blockquote>
+</details>
+  
+---
+ 
+
+11. Have you heard below angular modules? If so, explain a bit about each.
+	- `BrowserModule`
+	- `FormsModule`
+	- `RouterModule`
+	- `HttpClientModule`
+
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+- `BrowserModule` is imported from `@angular/platform-browser` (by default) provides support to run Angular apps on different supported browsers.
+- `FormsModule` is imported from `@angular/forms` and it is used when you build template driven forms.
+- `RouterModule` is imported from `@angular/router` and  it is used when you want to naviagate between views defined in an application.
+- `HttpClientModule` is imported from `@angular/common/http` and it used to initiate HTTP request and responses in angular apps. 
+
+</blockquote>
+</details>
+  
+---
+ 
+
+ 
+
+
