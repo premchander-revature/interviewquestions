@@ -135,7 +135,7 @@ In `app.component.html`, create a button and have `Click Me` enclosed with `<but
 	
 --- 
 
-9. What is the difference between property and attribute in angular?
+8. What is the difference between property and attribute in angular?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
