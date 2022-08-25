@@ -48,7 +48,7 @@ In `app.component.html`, create a button and have `Click Me` enclosed with `<but
 - Databinding is a technique used to bind the data from an view to a component or from a component to view.
 - They are 1 way databinding and 2-way databinding
 
-![image](https://user-images.githubusercontent.com/70228962/186707770-894831c5-ca53-455e-9a22-553f426c3335.png)
+![image](https://user-images.githubusercontent.com/70228962/186710327-e17f9bca-c65d-4957-a43a-ddecbd339ee6.png)
 
 </blockquote>
 </details>
