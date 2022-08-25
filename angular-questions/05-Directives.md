@@ -337,3 +337,18 @@ ngAfterViewInit() {
   
 ---
  
+12. Create a `myHighlight` attribute directive to set an element’s background color when you hovers over that element.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+
+	
+</blockquote>
+</details>
+  
+---
+ 
