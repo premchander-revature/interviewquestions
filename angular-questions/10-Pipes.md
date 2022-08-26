@@ -247,7 +247,6 @@ Slice pipe will return substring starting from index 3 i.e character d and will 
 <blockquote>
 
 Some of the built-in pipes are:
-    
     - **Date pipe** - Used for formatting dates.
     - **Decimal pipe** - Used for formatting numbers
     - **Currency pipe** - Used for formatting currencies
