@@ -9,10 +9,8 @@
 
     public static void main(String[] args)
     {
-  
         // Creating a list of Integers
         List<Integer> list = Arrays.asList(3, 4, 6, 12, 20);
-  
         // Getting a stream consisting of the
         // elements that are divisible by 5
         // Using Stream filter(Predicate predicate)
@@ -23,45 +21,55 @@
 
 </blockquote>
 
-*** Output *** <br>
+**Output**<br>
     
     20
+    
+<details> <summary> <b> Explanation </b> </summary>
 
+<blockquote>
+    
 - It provides a method `filter()` to filter stream elements on the basis of given predicate. 
 - This method take predicate as an argument and returns a stream of consisting of resulted elements.
+    
+</blockquote>
 
+</details>
+    
 </details>
 
 ---
 
-2. Can we define `default()` without using keyword in Java8?
+2. Can we define `default()` method without using default keyword in Java8?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
+    
 <blockquote>
 
-- No, for defining default method inside interface `default` keyword is must and it should prefix method declaration
-- Without prefixing default keyword results in compilation error
-- *** Compile-time error ***: Abstract methods do not specify a body
-- *** Reason ***: without default keyword, compiler consider it as abstract method and as said abstract methods doesn’t have body.
+- No, for defining default method inside interface `default` keyword is must and it should prefix method declaration.
+- Without prefixing default keyword results in compilation error.
+- **Compile-time error**: Abstract methods do not specify a body.
+- **Reason**: without default keyword, compiler consider it as abstract method which doesn’t have body.
 
 </blockquote>
+    
 </details>
 
 ---
 
-3. What actual advantage does Java 8 bring ?
+3. What actual advantage does Java 8 brings ?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- code is more concise and readable
-- more reusable,testable and maintable
-- user can write parallel code
-- user can write database like operations
+- Code is more concise and readable.
+- More reusable,testable and maintable.
+- User can write parallel code.
+- User can write database like operations.
 </blockquote>
 </details>
 
@@ -74,8 +82,8 @@
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- Until Java 7, JVM used an area called PermGen to store classes. It got removed in Java 8 and replaced by MetaSpace.
-- Major advantage of MetaSpace over permgen: Permgen was fixed in term of maximum size and cannot grow dynamically but Metaspace can grow dynamically and do not have any size constraint.
+- Until Java 7, JVM used an area called `PermGen` to store classes. It is replaced as `MetaSpace` in Java 8.
+- Major advantage of `MetaSpace` over `permgen`: `Permgen` was fixed in term of maximum size and cannot grow dynamically but `Metaspace` can grow dynamically and do not have any size constraint.
 
 </blockquote>
 </details>
@@ -117,7 +125,7 @@ Lambda expressions can only be applied to abstract method of functional interfac
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Stream pipelining is the process of chaining different operations together. It accomplishes this function by dividing stream operations into two categories, intermediate operation and terminal operations.
+It is the process of chaining different operations together. It accomplishes this function by dividing stream operations into two categories, intermediate operation and terminal operations.
 
 </blockquote>
 </details>
@@ -138,28 +146,28 @@ Yes, we can create our own functional interface.
 
 ---
 
-9. What will happen if i am using a Functional interface and if i define multiple abstract methods inside that interface?
+9. What will happen if we define multiple abstract methods inside the Functional interface?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-It will throw a compiletime error.
+It will throw a compile time error.
 
 </blockquote>
 </details>
 
 ---
 
-10. Why default methods needed in the inteface?
+10. Why default methods needed in the interface?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Default methods let us to add new functionality to the libraries interfaces and ensure binary compatability with older code written for the interfaces.
+Default methods can add new functionality to the libraries interfaces and ensure binary compatability with older code written for the interfaces.
 
 </blockquote>
 </details>
@@ -187,7 +195,7 @@ The `findFirst()` method returns the first element of a stream or an empty Optio
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-The `findAny()` method returns any element of the stream - much like findFirst() with no encounter order.
+The `findAny()` method returns any element of the stream - much like `findFirst()` with no encounter order.
 
 </blockquote>
 </details>
@@ -251,7 +259,8 @@ There are instances where you have a stream, but you only want to select a rando
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
-
+We can declare a lambda expression by-
+    
 - () -> expression
 - (parameters) -> expression
 - (parameters) -> { multiple statements}
@@ -268,7 +277,7 @@ There are instances where you have a stream, but you only want to select a rando
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- `@Functional interface `, if used will force the compiler to check whether the given interface has single-abstract method or not.
+- `@Functional interface `- used to force the compiler to check whether the given interface has single-abstract method or not.
 - If not, compiler will throw error `"Unexpected @FunctionalInterface annotation"`
 
 </blockquote>
@@ -306,16 +315,19 @@ public @interface ByteProgramming
 <blockquote>
 
 - Java 8 provides concept of Optionals
-- Optionals can be used to avoid NullPointer Exception
+- Optionals can be used to avoid `NullPointer Exception`
 
-- Ex: String value=null;
-     * Optional \<String\> value=Optional.empty();
+Example:
+    ```java
+    String value=null;
+     Optional \<String\> value=Optional.empty();
+    ```
 </blockquote>
 </details>
 
 ---
 
-20. What are the functional interfaces you have used in your project, introduced in Java 8?
+20. What are the functional interfaces you have used in your project?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -338,7 +350,7 @@ public @interface ByteProgramming
 <blockquote>
 
 - Example
--  StreamSupport.stream(iterable.spliterator(),false).forEach( stud -> { System.out.println(stud); });
+<code> StreamSupport.stream(iterable.spliterator(),false).forEach( stud -> { System.out.println(stud); }); </code>
 
 </blockquote>
 </details>
@@ -351,8 +363,8 @@ public @interface ByteProgramming
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
-
-Override the default method in the implementation class. Altogether provide new implementation or invoke either one of the `default()` method using `super` keyword
+    
+we can do that by overriding the default method in the implementation class. Altogether provide new implementation or invoke either one of the `default()` method using `super` keyword
 For example, `\<interfaceName\>.super.\<defaultMethodName\>`
 
 </blockquote>
@@ -368,7 +380,7 @@ For example, `\<interfaceName\>.super.\<defaultMethodName\>`
 <blockquote>
 
 - Compilation fails with error saying conflicting method.
-- *** Compile-time error ***: The default method `displayDefaultMethod()` inherited from DemoInterfaceA conflicts with another method inherited from DemoInterfaceB
+- **Compile-time error**: The default method `displayDefaultMethod()` inherited from DemoInterfaceA conflicts with another method inherited from DemoInterfaceB
 - To overcome this error, override this conflicting method and provide new implementation or invoke default method’s implementation using `super` keyword
 
 </blockquote>
@@ -398,17 +410,19 @@ For example,` \<interfaceName\>.super.\<defaultMethodName\>`
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-The `joining()` method of the Collectors class in Java 8 returns a Collector that concatenates the input elements into a String, in encounter order.
-
-    public class Demo {
+The `joining()` method of the Collectors class in Java 8 returns a Collector that concatenates the input elements into a String.
+    
+``` java
+    public class Example {
         public static void main(String[] args) {
             List<Character> list = Arrays.asList('D', 'e', 'm', 'o');
             String str = list.stream().map(String::valueOf).collect(Collectors.joining());
             System.out.println("Concatenated = "+str);
         }
     }
+```
 
-*** Output ***
+**Output**
 
 Concatenated = Demo
 
@@ -424,26 +438,26 @@ Concatenated = Demo
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-`String::ValueOf` is a simple static method referencing the valueOf method, belonging to the class 
-*** ‘String’ ***
+`String::ValueOf` is a simple static method referencing the `valueOf` method, belonging to the class 
+`String`.
 
 </blockquote>
 </details>
 
 ---
 
-27. What is the meaning of method reference in Java 8?
+27. What do you mean by method reference in Java 8?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Method references are used in Java 8 to refer to methods of functional interfaces. It can be considered as a short-code version of using a lambda expression.
+It refer to methods of functional interfaces. It can be considered as a short-code version of using a lambda expression.
 
 The following is the expression for a method reference:
 
-    Class::methodname
+    `Class::methodname`
 
 </blockquote>
 </details>
@@ -479,21 +493,23 @@ Similarly, it can also be used to get the current time:
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-*** Intermediate Operation ***
+**Intermediate Operation**
 
-- Used for the transition to a new state	
-- Lazy execution of code, i.e., code is not executed as soon as it is encountered Not lazy; 
+- Used for the transition to a new state.	
+- Lazy execution of code, i.e., code is not executed as soon as it is encountered Not lazy.
 
-*** Terminal Operation ***
+**Terminal Operation**
 
-- Used to end the process under execution
-- Code is immediately executed upon encounter
+- Used to end the process under execution.
+- Code is immediately executed upon encounter.
 
 </blockquote>
 </details>
 
 ---
 30. Can the following piece of code compile successfully?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <blockquote>
 @FunctionalInterface<br>
@@ -504,8 +520,6 @@ default void count() {<br>
 }<br>
 }<br>
 </blockquote>
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -582,7 +596,7 @@ The following piece of code is used to print out 20 random numbers using the for
 
 ---
 
-34. What are collectors in Java 8?
+34. Explain about collectors in Java 8?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -621,14 +635,14 @@ In Java 8, the following code is used to print the sum of all of the numbers tha
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- The Stream API in Java 8 can be effectively used if the Java project calls for the following operations:
+The Stream API in Java 8 can be effectively used if the Java project calls for the following operations:
 
-    * Perform database operations
-    * Execute operations lazily
-    * Write functional-style programming
-    * Perform parallel processing
-    * Use pipeline operations
-    * Use internal iteration
+    - Perform database operations
+    - Execute operations lazily
+    - Write functional-style programming
+    - Perform parallel processing
+    - Use pipeline operations
+    - Use internal iteration
 
 </blockquote>
 </details>
@@ -704,21 +718,21 @@ The examples that are widely used in intermediate operations are:
 
 ---
 
-41. What are the similarities between map and flatMap stream operations in Java 8?
+41. What are the similarities between `map` and `flatMap` stream operations in Java 8?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Both map and flatMap operations are a form of intermediate stream operations that take in a function and use the input function for performing various activities in the stream.
+Both `map` and `flatMap` operations are a form of intermediate stream operations that take in a function and use the input function for performing various activities in the stream.
 
 </blockquote>
 </details>
 
 ---
 
-42.How  to find and remove duplicate elements from a list using Java 8 easily?
+42.How  to find and remove duplicate elements from a list using Java 8?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -789,20 +803,20 @@ Spliterator is a newly introduced iterator interface for Java 8. It is very effi
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-The new date and time API functions can be useful in coding projects, with each having its own benefits. LocalDate returns the date on the accessing machine in year, month and day format, and a company may use it to display special messages on a holiday. LocalTime provides the current time for the accessing machine, which allows you to customize actions throughout the day, such as displaying a lunch or dinner menu to a user. Finally, LocalDateTime combines both, allowing for options such as a gym showing a message about current and upcoming classes  that adjusts to the time and day.
+The new date and time API functions can be useful in coding projects, with each having its own benefits. `LocalDate` returns the date on the accessing machine in year, month and day format, and a company may use it to display special messages on a holiday. LocalTime provides the current time for the accessing machine, which allows you to customize actions throughout the day, such as displaying a lunch or dinner menu to a user. Finally, LocalDateTime combines both, allowing for options such as a gym showing a message about current and upcoming classes  that adjusts to the time and day.
 
 </blockquote>
 </details>
 
 ---
 
-47. How to convert String to LocalDate, LocalDateTime in Java ?
+47. How to convert String to `LocalDate`, `LocalDateTime` in Java ?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
-The Java 8 LocalDate-Time API includes a `parse()` method, which can be used to parse a given input string using a specified format.
+The Java 8 `LocalDate-Time API` includes a `parse()` method, which can be used to parse a given input string using a specified format.
 
 For example,
 
