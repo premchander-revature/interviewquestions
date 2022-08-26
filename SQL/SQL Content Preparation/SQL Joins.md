@@ -168,7 +168,7 @@ Two features of database are :
 
 <blockquote>
 
-RDBMS stands for Relational Database Management System. When data is to be stored, maintained, and retrieved from multiple tables then special database software are required known as RDBMS.
+RDBMS stands for Relational Database Management System. When data is to be stored, maintained, and retrieved from multiple tables then special database software are required known as `RDBMS`.
 
 </blockquote>
 
@@ -184,7 +184,7 @@ RDBMS stands for Relational Database Management System. When data is to be store
 
 <blockquote>
 
-A field which is unique for each and every record in a table is called primary key.
+A field which is unique for each and every record in a table is called `primary key`.
 
 </blockquote>
 
@@ -200,7 +200,7 @@ A field which is unique for each and every record in a table is called primary k
 
 <blockquote>
 
-When primary key constraint is applied on one or more columns then it is known as Composite Primary Key.
+When primary key constraint is applied on one or more columns then it is known as `Composite Primary Key`.
 
 </blockquote>
 
@@ -278,7 +278,7 @@ True
 
 ---
 
-16. \_\_\_\_\_ are the basic building blocks of a database
+16. _______ are the basic building blocks of a database
 
 <details>
 
@@ -367,10 +367,11 @@ Four appropriate field names and their data types to store record of students ar
 <blockquote>
 
 Four data types which are used to store numerical value are
-Smallint
-Bigint
-Integer
-Float
+   
+- Smallint
+- Bigint
+- Integer
+- Float
 
 </blockquote>
 
@@ -378,7 +379,7 @@ Float
 
 ---
 
-21. In RDBMS table is also known as \_\_\_\_
+21. In RDBMS,table is also known as __________
 
 <details>
 
@@ -394,7 +395,7 @@ Relation
 
 ---
 
-22. Data in a (RDBMS) is organized in the form of \_\_\_\_\_.
+22. Data in a (RDBMS) is organized in the form of __________
 
 <details>
 
@@ -483,11 +484,11 @@ f. City – Char or Varchar
 
 <blockquote>
 
-Table : A table is a set of data elements that is organized in vertical columns and horizontal rows.
+- Table : A table is a set of data elements that is organized in vertical columns and horizontal rows.
 
-Fields : A field is a set of data values of a particular simple type, one for each row of the table.
+- Fields : A field is a set of data values of a particular simple type, one for each row of the table.
 
-Records : A row also called a Record or Tuple represents a single, data item in a table.
+- Records : A row also called a Record or Tuple represents a single, data item in a table.
 
 </blockquote>
 
@@ -622,7 +623,7 @@ Insert and Delete are the DML Commands
 
 ---
 
-33. _______ is the most commonly used Data Manipulation Language(DML) command.
+33. _____ is the most commonly used Data Manipulation Language(DML) command.
 
 <details>
 
@@ -673,7 +674,7 @@ Select \* from book;
 
 ---
 
-36. Write the shortcut to execute query in “Create query in SQL view” of Base.
+36. Write the shortcut to execute query in `Create query in SQL view` of Base.
 
 <details>
 
@@ -689,7 +690,7 @@ F5
 
 ---
 
-37. What is the purpose of Where clause in Select Command?
+37. What is the purpose of `Where` clause in Select Command?
 
 <details>
 
@@ -697,7 +698,7 @@ F5
 
 <blockquote>
 
-Where Clause is used to retrieve specific record from the table.
+`Where` Clause is used to retrieve specific record from the table.
 
 </blockquote>
 
@@ -705,7 +706,7 @@ Where Clause is used to retrieve specific record from the table.
 
 ---
 
-38. What is the purpose of Order by clause in Select Command?
+38. What is the purpose of `Order by` clause in Select Command?
 
 <details>
 
@@ -713,7 +714,7 @@ Where Clause is used to retrieve specific record from the table.
 
 <blockquote>
 
-Order by clause is used to arrange the records in ascending or descending order.
+`Order by` clause is used to arrange the records in ascending or descending order.
 
 </blockquote>
 
@@ -819,7 +820,7 @@ Exercise: "STUDENT"
 | 1002  | Ravi   | 10    | Yellow |
 | 1003  | Poonam | 10    | Green  |
 
-a.Display the entire tabl
+a.Display the entire table
 
 <details>
 
@@ -1083,7 +1084,7 @@ Update Item set Price = Price + 2;
 
 </details>
 
-j.Write a query to decrease the price of all items by Rs2 whose price is less than 20.
+j.Write a query to decrease the price of all items by Rs 2 whose price is less than 20.
 
 <details>
 
@@ -1099,7 +1100,7 @@ Update Item set Price = Price – 2 where Price < 20;
 
 ---
 
-43. By default, data is arranged in \_\_\_\_ order using ORDER BY clause.
+43. By default, data is arranged in _______ order using `ORDER BY` clause.
 
 <details>
 
@@ -1314,6 +1315,8 @@ d) Instructor
 c) Where
 
 </blockquote>
+   
+<summary><b>Explanation</b></summary> 
 
 <blockquote>
 
@@ -1325,7 +1328,7 @@ Where selects the rows on a particular condition. From gives the relation which 
 
 ---
 
-51. The **\_\_** clause allows us to select only those rows in the result relation of the \_\_\_\_ clause that satisfy a specified predicate.
+51. The ________ clause allows us to select only those rows in the result relation of the ______ clause that satisfy a specified predicate.
 
 a) Where, from
 
@@ -1344,6 +1347,8 @@ d) From, where
 a) Where, from
 
 </blockquote>
+   
+<summary><b>Explanation</b></summary>
 
 <blockquote>
 
@@ -1379,6 +1384,8 @@ d) Name
 c) Distinct
 
 </blockquote>
+   
+<summary><b>Explanation</b></summary>
 
 <blockquote>
 
@@ -1400,6 +1407,7 @@ Distinct keyword selects only the entries that are unique.
 | Derek  |
 
 Which of these query will display the the table given above ?
+   
 a) Select employee from name
 b) Select name
 c) Select name from employee
@@ -1414,6 +1422,8 @@ d) Select employee
 c) Select name from employee
 
 </blockquote>
+   
+<summary><b>Explanation</b></summary>
 
 <blockquote>
 
@@ -1426,6 +1436,7 @@ The field to be displayed is included in select and the table is included in the
 ---
 
 54. ______ operator is used for appending two strings.
+   
     a) &
     b) %
     c) ||
@@ -1440,6 +1451,8 @@ The field to be displayed is included in select and the table is included in the
 c) ||
 
 </blockquote>
+   
+<summary><b>Explanation</b></summary>
 
 <blockquote>
 
@@ -1451,7 +1464,7 @@ c) ||
 
 ---
 
-55.In SQL the spaces at the end of the string are removed by **\_\_\_** function.
+55.In SQL the spaces at the end of the string are removed by ________ function.
 
 a) Upper
 b) String
@@ -1467,6 +1480,8 @@ d) Lower
 c) Trim
 
 </blockquote>
+   
+<summary><b>Explanation</b></summary>
 
 <blockquote>
 
@@ -1504,6 +1519,8 @@ d) Only the some attributes from instructed and teaches are selected
 b) All attributes of instructor are selected on the given condition
 
 </blockquote>
+   
+<summary><b>Explanation</b></summary>
 
 <blockquote>
 
@@ -1573,6 +1590,8 @@ FROM instructor
 WHERE salary BETWEEN 90000 AND 100000;
 
 ```
+   
+<summary><b>Explanation</b></summary>
 
 <blockquote>
 
@@ -1609,10 +1628,12 @@ d) Descending, Ascending
 c) Desc, Asc
 
 </blockquote>
+   
+<summary><b>Explanation</b></summary>
 
 <blockquote>
 
-Explanation:....
+Explanation:
 
 </blockquote>
 
@@ -1642,6 +1663,8 @@ d) Ascending
 d) Ascending
 
 </blockquote>
+   
+<summary><b>Explanation</b></summary>
 
 <blockquote>
 
@@ -1669,10 +1692,10 @@ d) All, Exactly
 b) Exactly, Atleast
 
 </blockquote>
+   
+<summary><b>Explanation</b></summary>
 
 <blockquote>
-
-Explanation:
 
 </blockquote>
 
@@ -1806,8 +1829,6 @@ A) True
 
 <blockquote>
 
-Explanation:
-
 </blockquote>
 
 </details>
@@ -1816,7 +1837,7 @@ Explanation:
 
 ---
 
-65.Use left or right outer join with ...... when you are looking for something in one table that doesn’t exist in another table.
+65.Use left or right outer join with _______ when you are looking for something in one table that doesn’t exist in another table.
 
 A) null condition
 B) inclusions
@@ -1874,60 +1895,14 @@ Explanation:
 
 ---
 
-67.Choose the query that matches the above image.
+67.A_____ is a query that retrieves rows from more than one table or view:
+a) Start
+b) End
+c) Join
+d) All of the mentioned
 
-A.
-Select [List]
-from [Table A] A
-inner join
-[Table B] B
-on A.value=B.value
-B.
-Select [List]
-from [Table A] A
-full outer join
-[Table B] B
-on A.value=B.value
-where A.value is null
-or B.value is null
-C.
-Select [List]
-from [Table A] A
-right join
-[Table B] B
-on A.value=B.value
-where A.value is null
-D.
-Select [List]
-from [Table A] A
-full outer join
-[Table B] B
-on A.value=B.value
-
-<details>
-
-<summary><b>Show Answer</b></summary>
-
-<blockquote>
-
-B.
-Select [List]
-from [Table A] A
-full outer join
-[Table B] B
-on A.value=B.value
-where A.value is null
-or B.value is null
-
-</blockquote>
-
-<blockquote>
-
-Explanation:
-
-</blockquote>
-
-</details>
+Answer: c
+Explanation: An SQL join clause combines records from two or more tables in a database. It creates a set that can be saved as a table or used as it is. A JOIN is a means for combining fields from two tables by using values common to each.
 
 ---
 
@@ -2230,7 +2205,7 @@ ivL)Write an SQL query to fetch departments along with the total salaries paid f
 
 Answers:
 
-1.The required query is:
+i)The required query is:
 
 <details>
 
@@ -2252,7 +2227,7 @@ Select FIRST_NAME AS WORKER_NAME from Worker;
 
 <blockquote>
 
-2.The required query is:
+ii)The required query is:
 
 <details>
 
@@ -2268,7 +2243,7 @@ Select upper(FIRST_NAME) from Worker;
 
 ---
 
-3.The required query is:
+iii)The required query is:
 
 <details>
 
@@ -2284,7 +2259,7 @@ Select distinct DEPARTMENT from Worker;
 
 ---
 
-4.The required query is:
+iv)The required query is:
 
 <details>
 
@@ -2300,7 +2275,7 @@ Select substring(FIRST_NAME,1,3) from Worker;
 
 ---
 
-5.The required query is:
+v)The required query is:
 
 <details>
 
@@ -2316,7 +2291,7 @@ Select INSTR(FIRST_NAME, BINARY'a') from Worker where FIRST_NAME = 'Amitabh';
 
 ---
 
-6.The required query is:
+vi)The required query is:
 
 <details>
 
@@ -2332,7 +2307,7 @@ Select RTRIM(FIRST_NAME) from Worker;
 
 ---
 
-7.The required query is:
+vii)The required query is:
 
 <details>
 
@@ -2348,7 +2323,7 @@ Select LTRIM(DEPARTMENT) from Worker;
 
 ---
 
-8.The required query is:
+viii)The required query is:
 
 <details>
 
@@ -2364,7 +2339,7 @@ Select distinct length(DEPARTMENT) from Worker;
 
 ---
 
-9.The required query is:
+ix)The required query is:
 
 <details>
 
@@ -2380,7 +2355,7 @@ Select REPLACE(FIRST_NAME,'a','A') from Worker;
 
 ---
 
-10.The required query is:
+x)The required query is:
 
 <details>
 
@@ -2396,7 +2371,7 @@ Select CONCAT(FIRST_NAME, ' ', LAST_NAME) AS 'COMPLETE_NAME' from Worker;
 
 ---
 
-11.The required query is:
+xi)The required query is:
 
 <details>
 
@@ -2412,7 +2387,7 @@ Select \* from Worker order by FIRST_NAME asc;
 
 ---
 
-12.The required query is:
+xii)The required query is:
 
 <details>
 
@@ -2428,7 +2403,7 @@ Select \* from Worker order by FIRST_NAME asc,DEPARTMENT desc;
 
 ---
 
-13.The required query is:
+xiii)The required query is:
 
 <details>
 
@@ -2442,7 +2417,7 @@ Select \* from Worker where FIRST_NAME in ('Vipul','Satish');
 
 </details>
 
-14.The required query is:
+xiv)The required query is:
 
 <details>
 
@@ -2458,7 +2433,7 @@ Select \* from Worker where FIRST_NAME not in ('Vipul','Satish');
 
 ---
 
-15.The required query is:
+xv)The required query is:
 
 <details>
 
@@ -2474,7 +2449,7 @@ Select \* from Worker where DEPARTMENT like 'Admin%';
 
 ---
 
-16.The required query is:
+xvi)The required query is:
 
 <details>
 
@@ -2490,7 +2465,7 @@ Select \* from Worker where FIRST_NAME like '%a%';
 
 ---
 
-17.The required query is:
+xvii)The required query is:
 
 <details>
 
@@ -2506,7 +2481,7 @@ Select \* from Worker where FIRST_NAME like '%a';
 
 ---
 
-18.The required query is:
+xviii)The required query is:
 
 <details>
 
@@ -2522,7 +2497,7 @@ Select \* from Worker where FIRST_NAME like '**\_**h';
 
 ---
 
-19.The required query is:
+xix)The required query is:
 
 <details>
 
@@ -2538,7 +2513,7 @@ Select \* from Worker where SALARY between 100000 and 500000;
 
 ---
 
-20.The required query is:
+xx)The required query is:
 
 <details>
 
@@ -2554,7 +2529,7 @@ Select \* from Worker where year(JOINING_DATE) = 2014 and month(JOINING_DATE) = 
 
 ---
 
-21.The required query is:
+xxi)The required query is:
 
 <details>
 
@@ -2570,7 +2545,7 @@ SELECT COUNT(\*) FROM worker WHERE DEPARTMENT = 'Admin';
 
 ---
 
-22.The required query is:
+xxii)The required query is:
 
 <details>
 
@@ -2590,7 +2565,7 @@ WHERE Salary BETWEEN 50000 AND 100000);
 
 ---
 
-23.The required query is:
+xxiii)The required query is:
 
 <details>
 
@@ -2609,7 +2584,7 @@ ORDER BY No_Of_Workers DESC;
 
 ---
 
-24.The required query is:
+xxiv)The required query is:
 
 <details>
 
@@ -2629,7 +2604,7 @@ AND T.WORKER_TITLE in ('Manager');
 
 ---
 
-25.The required query is:
+xxv)The required query is:
 
 <details>
 
@@ -2648,7 +2623,7 @@ HAVING COUNT(*) > 1;
 
 ---
 
-26.The required query is:
+xxvi)The required query is:
 
 <details>
 
@@ -2658,7 +2633,7 @@ HAVING COUNT(*) > 1;
 
 SELECT \* FROM Worker WHERE MOD (WORKER_ID, 2) <> 0;
 
-27.The required query is:
+xxvii)The required query is:
 
 SELECT \* FROM Worker WHERE MOD (WORKER_ID, 2) = 0;
 
@@ -2668,7 +2643,7 @@ SELECT \* FROM Worker WHERE MOD (WORKER_ID, 2) = 0;
 
 ---
 
-28.The required query is:
+xxviii)The required query is:
 
 <details>
 
@@ -2686,7 +2661,7 @@ INTERSECT
 
 ---
 
-29.The general query to clone a table with data is:
+xxix)The general query to clone a table with data is:
 
 <details>
 
@@ -2716,7 +2691,7 @@ SELECT \* INTO WorkerClone FROM Worker WHERE 1 = 0;
 
 ---
 
-30.The required query is:
+xxx)The required query is:
 
 <details>
 
@@ -2734,7 +2709,7 @@ SELECT _ FROM Title;
 
 ---
 
-31.The required query is:
+xxxi)The required query is:
 
 <details>
 
@@ -2753,7 +2728,7 @@ and W.WORKER_ID != W1.WORKER_ID;
 
 ---
 
-32.The required query is:
+xxxii)The required query is:
 
 <details>
 
@@ -2770,7 +2745,7 @@ where Salary not in (Select max(Salary) from Worker);
 
 ---
 
-33.The required query is:
+xxxiii)The required query is:
 
 <details>
 
@@ -2788,7 +2763,7 @@ select FIRST_NAME, DEPARTMENT from Worker W1 where W1.DEPARTMENT='HR';
 
 ---
 
-34.The required query is:
+xxxiv)The required query is:
 
 <details>
 
@@ -2806,7 +2781,7 @@ INTERSECT
 
 ---
 
-35.The required query is:
+xxxv)The required query is:
 
 <details>
 
@@ -2824,7 +2799,7 @@ WHERE WORKER_ID <= (SELECT count(WORKER_ID)/2 from Worker);
 
 ---
 
-36.The following query returns the expected result:
+xxxvi)The following query returns the expected result:
 
 <details>
 
@@ -2840,7 +2815,7 @@ SELECT DEPARTMENT, COUNT(DEPARTMENT) as 'Number of Workers' FROM Worker GROUP BY
 
 ---
 
-37.The following query will return the last record from the Worker table:
+xxxvii)The following query will return the last record from the Worker table:
 
 <details>
 
@@ -2856,7 +2831,7 @@ Select \* from Worker where WORKER_ID = (SELECT max(WORKER_ID) from Worker);
 
 ---
 
-38.The required query is:
+xxxviii)The required query is:
 
 <details>
 
@@ -2872,7 +2847,7 @@ Select \* from Worker where WORKER_ID = (SELECT min(WORKER_ID) from Worker);
 
 ---
 
-39.The required query is:
+xxxix)The required query is:
 
 <details>
 
@@ -2888,7 +2863,7 @@ SELECT distinct Salary from worker a WHERE 3 >= (SELECT count(distinct Salary) f
 
 ---
 
-40.The required query is:
+xL)The required query is:
 
 <details>
 
@@ -3165,13 +3140,13 @@ B. Retrieves all the unmatched rows of Table2
 C. Retrieves both matched and unmatched rows of Table1 and Table2
 D. Retrieves only matched rows of table1 and Table2
 
-<details><summary> <b>Show Answer</b> </summary>
+<details><summary> <b>Show Answer</b></summary>
 
 C. Retrieves both matched and unmatched rows of Table1 and Table2
 
 <details><summary> <b>Explanation</b> </summary>
   
-> The statement is TRUE about FULL OUTER JOIN created on two tables Table1 and Table2 is Retrieves both matched and unmatched rows of Table1 and Table2.
+- The statement is TRUE about FULL OUTER JOIN created on two tables Table1 and Table2 is Retrieves both matched and unmatched rows of Table1 and Table2.
 
   </details>
 </details>
@@ -3571,21 +3546,7 @@ Answer: b
 Explanation: An SQL join clause combines records from two or more tables in a database. It creates a set that can be saved as a table or used as it is. A JOIN is a means for combining fields from two tables by using values common to each.
 
 ---
-
-104. A_____ is a query that retrieves rows from more than one table or view:
-a) Start
-b) End
-c) Join
-d) All of the mentioned
-
-Answer: c
-Explanation: An SQL join clause combines records from two or more tables in a database. It creates a set that can be saved as a table or used as it is. A JOIN is a means for combining fields from two tables by using values common to each.
-
----
-
-
-
-
-
-
+   
+   
+   
 
