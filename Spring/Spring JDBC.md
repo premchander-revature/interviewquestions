@@ -142,8 +142,7 @@
 </details>
 
 ---
-8. What does isloation and propagation attributes denote in below code-
-`@Transactional(isolation = Isolation.READ_COMMITTED, propagation = Propagation.NEVER)`?
+8. What does isloation and propagation attributes denote in @Transactional annoation e.g. `@Transactional(isolation = xxx, propagation = xxx)`?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
