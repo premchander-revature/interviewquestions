@@ -247,11 +247,12 @@ Slice pipe will return substring starting from index 3 i.e character d and will 
 <blockquote>
 
 Some of the built-in pipes are:
-    - **Date pipe** - Used for formatting dates.
-    - **Decimal pipe** - Used for formatting numbers
-    - **Currency pipe** - Used for formatting currencies
-    - **Lowercase pipe** - Used for converting strings into lowercase.
-    - **Uppercase pipe** - Used for converting strings into uppercase.
+
+- **Date pipe**: Used for formatting dates.
+- **Decimal pipe**: Used for formatting numbers
+- **Currency pipe**: Used for formatting currencies
+- **Lowercase pipe**: Used for converting strings into lowercase.
+- **Uppercase pipe**: Used for converting strings into uppercase.
     
 **For example:**
 ```html
