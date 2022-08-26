@@ -66,9 +66,11 @@ export class FilterPipe implements PipeTransform {
 <details>
 <summary><b>Show Answer</b></summary>
 <blockquote>
+    
 - `FilterPipe` is a custom pipe.
 - We take array of strings (`array`) and another string (`startWith`) as an input.
 - Using `filter` method, we only filter string that starts with value in `startsWith` and returning it.
+    
 </blockquote>
 </details>
   
