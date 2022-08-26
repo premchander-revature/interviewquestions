@@ -794,3 +794,1153 @@ Based on the output we can see that the insertion of the first 2 columns has bee
 </details>
 
 ---
+
+## Normalization
+
+## MCQ's
+
+1. The BCNF is not utilised when a relation has
+
+a. Two (or more) candidate keys
+
+b. Two candidate keys and composite
+
+c. The candidate key overlap
+
+d. Two mutually exclusive foreign keys.
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+d.Two mutually exclusive foreign keys.
+
+</blockquote>
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+- We say A relation is in Boyce–Codd Normal Form (BCNF) if all attributes which are determinants are also candidate keys in every relation.
+
+- Transformation into Boyce–Codd Normal Form (BCNF) deals with the problem of overlapping keys and there is no problem with 2 or more Candidate keys .
+
+</blockquote>
+
+</details>
+
+</details>
+
+---
+
+2. Which of the following normal forms is founded on the idea of "complete functional dependency"?
+
+a. First Normal Form
+
+b. Second Normal Form
+
+c. Third Normal Form
+
+d. Third Normal Form
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+b.Second Normal Form
+
+</blockquote>
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+- Second normal form (2NF) is based on the concept of full functional dependency.
+
+`Functional Dependency:`
+
+- The attribute B is fully functionally dependent on the attribute A if each value of A determines one and only one value of B.
+
+- Example: EMP_EID → EMP_NAME
+
+- In this case, the attribute EMP_EID is known as the determinant attribute and the attribute EMP_NAME is known as the dependent attribute.
+
+</blockquote>
+
+</details>
+
+</details>
+
+---
+
+3. In a relational database architecture, take into account the BOOK table and the related dependencies.. What is the normal form for the given relation.
+
+ISBN → Title
+
+ISBN → Publisher
+
+Publisher → Address
+
+a. First Normal Form
+
+b. Second Normal Form
+
+c. Third Normal Form
+
+d. Boyce–Codd Normal Form
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+b.Second Normal Form
+
+</blockquote>
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+- Given relation is in 1NF because All attribute in the given functional dependencies are atomic values
+
+- Candidate key = ISBN
+
+- A relation is in 2NF if every non-prime attribute of the relation is dependent on the whole of every candidate key. So the given dependencies satisfies the 2NF
+
+- 3NF : Address which is Transitively dependent on ISBN . Hence Transitive dependency exists .
+
+- So the given relation is in 2NF and not in 3NF
+
+</blockquote>
+
+</details>
+
+</details>
+
+---
+
+4. For the database relation R(a, b, c, d) where the domains of a, b, c and d include only atomic values, and only the following functional dependencies and those that can be inferred from them hold :
+
+a → c
+
+b → d
+
+The relation is in
+
+a. First normal form but not in second normal form
+
+b. Second normal form but not in third normal form
+
+c. Third normal form
+
+d. Boyce–Codd normal form
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+a. First normal form but not in second normal form
+
+</blockquote>
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+- Candidate Key for the above relation is ab.
+
+- Checking the FD’s :
+
+<b> .</b> a→c (Prime derives Non-Prime.)
+
+<b> .</b> b→d (Prime derives Non-Prime.)
+
+<b> .</b> Prime attribute { a,b}
+
+<b> .</b> Non prime attribute {c,d}.
+
+- Since all a,b,c,d are atomic so the relation is in 1NF.
+
+- The relation will be in 2NF if every Non Prime attribute is fully functional dependent on KEY.
+
+- Here {c,d } are not fully functionally dependent, rather they are partially dependent so, it is not in 2NF.
+
+- Hence, this relation is in 1NF but not in 2NF.
+</blockquote>
+
+</details>
+
+</details>
+
+---
+
+5.  Many-to-one relationship exists between sets r1 and r2. How can it be represented, using functional dependencies if Pk(r) denotes the primary key attribute of relation 'r'?
+
+a. Pk(r1) → Pk(r2)
+
+b. Pk(r2) → Pk(r1)
+
+c. Pk(r2) → Pk(r1) and Pk(r1) → Pk(r2)
+
+d. Pk(r2) → Pk(r1) or Pk(r1) → Pk(r2)
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+a. Pk(r1) → Pk(r2)
+
+</blockquote>
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+- We have many-to-one relationship set between entity sets student and Department.
+  Let two relations be:
+- R1(Student with pk SId)
+- R2(Department with pk DId)
+
+</blockquote>
+
+</details>
+
+</details>
+
+---
+
+6. Which of the following Normal Forms depends on transitive dependency :
+
+a. First Normal Form
+
+b. Second Normal Form
+
+c. Fourth Normal Form
+
+d. Third Normal Form
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+d. Third Normal Form
+
+</blockquote>
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+- For 3NF every non‐prime attribute of table must be dependent on primary key.
+
+- The transitive functional dependency should be removed from the table.
+- The table must be in second normal form 2NF.
+
+`Transitive Functional:`
+
+- When an indirect relationship causes functional dependency it is called Transitive Dependency.
+
+- If P -> Q and Q -> R is true, then P-> R is a transitive dependence
+  A transitive dependency can only occur in a relation of three of more attributes
+
+</blockquote>
+
+</details>
+
+</details>
+
+---
+
+7. The primary key is choosen from the:
+
+a. Composite keys
+
+b. Determinants
+
+c. Candidate keys
+
+d. Foreign keys
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+c. Candidate Key
+
+</blockquote>
+
+<details>
+
+<sumamry><b>Explanation</b></summary>
+
+<blockquote>
+
+- CANDIDATE KEY is a set of attributes that uniquely identify tuples(rows) in a table.
+- Candidate Key is a super key with no repeated attributes.
+- Each Table have one or more candidate keys.
+- Primary key should be selected from the candidate keys.
+- Every table must have at least a single candidate key.
+- Each table can have multiple candidate keys but only a single primary key.
+
+</blockquote>
+
+</details>
+
+</details>
+
+---
+
+8. Which one of the following statements is not TRUE about Normal Forms?
+
+a. BCNF is stricter than 3NF
+
+b. Lossless,dependency preserving decomposition into BCNF is always possible
+
+c. Lossless,dependency preserving decomposition into 3NF is always possible
+
+d. Any relation with two attributes is BCNF
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+b. Lossless,dependency preserving decomposition into BCNF is always possible
+
+</blcokquote>
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+- True : BCNF is stricter than 3NF.
+- False: Lossless, dependency-preserving decomposition into BCNF is always possible
+  It is not always possible to decompose a table in BCNF and preserve dependencies.
+- True: Lossless, dependency-preserving decomposition into 3NF is always possible.
+- True: Any relation with two attributes is in BCNF.
+
+</blockquote>
+
+</details>
+
+</details>
+
+---
+
+9. Analysis of relational schemas to reduce insertion or update anomalies and redundancy is categorised as:
+
+a. Normalized of data
+
+b. Denomination of data
+
+c. Isolation of data
+
+d. Denormalization of data
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+d. Denormalization of data
+
+</blockquote>
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+- Process of analyzing relation schemas to achieve minimal redundancy and insertion or update anomalies is classified as normalization of data
+
+- Normalization is a process of organizing the data in database to avoid data redundancy, insertion anomaly, update anomaly & deletion anomaly.
+
+- Following are the most commonly used normal forms:
+  - First normal form(1NF)
+  - Second normal form(2NF)
+  - Third normal form(3NF)
+  - Boyce & Codd normal form (BCNF)
+
+</blockquote>
+
+</details>
+
+</details>
+
+---
+
+10. Which of the following relation schemas is definitely in Boyce-Codd Normal Form ?
+
+a. R1(A,B)
+
+b. R4(A,B,C,D,E)
+
+c. R3(A,B,C,D)
+
+d. R2(A,B,C)
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+a. R1(A,B)
+
+</blockquote>
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+Every Binary Relation(a relation with only two attributes) is always in BCNF because if we have only 2 attributes then definitely one will be key.
+
+</blockquote>
+
+</details>
+
+</details>
+
+---
+
+11. For the database relation R(a,b,c,d) where the domains of a, b, c and d include only atomic values,, and only the following functional dependencies and those that can be inferred from them hold :
+
+a → c
+
+b → d
+
+The relation is in
+
+a. 1 normal form but not in 2 normal form
+
+b. 2 normal form but not in 3 normal form
+
+c. 3 normal form
+
+d. None of these
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+a. 1 normal form but not in 2 normal form.
+
+</blockquote>
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+- Candidate Key for the above relation is ab.
+
+- Checking the FD's :
+
+  - a→c (Prime derives Non-Prime.)
+  - b→d (Prime derives Non-Prime.)
+
+- Prime attribute { a,b}
+
+  - non prime attribute {c,d}.
+
+- Since all a,b,c,d are atomic so the relation is in 1NF.
+
+- The relation will be in 2NF if every Non Prime attribute is fully functional dependent on KEY.
+
+- Here {c,d } are not fully functionally dependent, rather they are partially dependent so, it is not in 2NF.
+
+- Hence, this relation is in 1NF but not in 2NF
+
+</blockquote>
+
+</details>
+
+</details>
+
+---
+
+12. If a table is in Boyce-Codd Normal Form and has no multivalued dependencies, then it is Which Form?
+
+a. 3NF
+
+b. 2NF
+
+c. 4NF
+
+d. 5NF
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+c. 4NF
+
+</blockquote>
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+- First Normal Form
+
+  - Each table cell should contain a single value.
+  - Each record needs to be unique.
+
+- Second Normal Form
+
+  - A relation R is in 2NF if and only if it is in 1NF
+  - There no partial dependencies
+
+- Third Normal Form
+
+  - A relation R is in 3NF if and only if it is in 2NF
+  - There is no transitive functional dependencies
+
+- Boyce-Codd Normal Form
+
+  - A relation R is in BCNF if and only if it is in 3NF
+  - A relation is in BCNF if every functional dependency A → B and A is the super key of the given relation
+
+- 4 Normal Form
+
+  - A relation R is in 4NF if and only if it is in BCNF.
+  - There is no multi-valued dependency.
+
+</blockquote>
+
+</details>
+
+</details>
+
+---
+
+13. Which of the following statements is FALSE with respect to normalization?
+
+a. 4NF is more immune against logical inconsistencies than a 3NF table.
+
+b. A 3NF table will have fewer anomalies than a 2NF table
+
+c. A 3NF table is more vulnerable than a 2NF table
+
+d. A database is said to be in 3NF if all its tables are in 3NF
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+a. 4NF is more immune against logical inconsistencies than a 3NF table.
+
+</blockquote>
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+- First Normal Form
+
+  - Each table cell should contain a single value.
+  - Each record needs to be unique.
+
+- Second Normal Form
+
+  - A relation R is in 2NF if and only if it is in 1NF
+  - There no partial dependencies
+
+- Third Normal Form
+
+  - A relation R is in 3NF if and only if it is in 2NF
+  - There is no transitive functional dependencies
+
+- Boyce-Codd Normal Form
+
+  - A relation R is in BCNF if and only if it is in 3NF
+  - A relation is in BCNF if every functional dependency A → B and A is the super key of the given relation
+
+- 4 Normal Form
+
+  - A relation R is in 4NF if and only if it is in BCNF.
+  - There is no multi-valued dependency.
+
+</blockquote>
+
+</details>
+
+</details>
+
+---
+
+14. Which of the following statements is the main reasons for normalizing relation in a database?
+
+(i) To achieve physical data independence
+
+(ii) To remove data anomalies (insertion, update, delete, anomalies)
+
+(iii) To save space on disk.
+
+a. (i),(ii) and (iii)
+
+b. (i) and (ii)
+
+c. (i) and (iii)
+
+d. (ii) and (iii)
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+d. (ii) and (iii)
+
+</blockquote>
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+- Greater overall database organization
+- To remove data anomalies(insertion/update/delete anomalies)
+  Reduction of redundant data.
+- To save space on disk (it is happened because of avoiding redundancy).
+- Data consistency within the database.
+- A much more flexible database design.
+
+</blockquote>
+
+</details>
+
+</details>
+
+---
+
+15. At which level is multi-valued dependency checked among attributes? ?
+
+a. 2 NF
+
+b. 3 NF
+
+c. 4 NF
+
+d. 5 NF
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+c. 4 NF
+
+</blockquote>
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+- First Normal Form
+
+  - Each table cell should contain a single value.
+  - Each record needs to be unique.
+
+- Second Normal Form
+
+  - A relation R is in 2NF if and only if it is in 1NF
+  - There no partial dependencies
+
+- Third Normal Form
+
+  - A relation R is in 3NF if and only if it is in 2NF
+  - There is no transitive functional dependencies
+
+- Boyce-Codd Normal Form
+
+  - A relation R is in BCNF if and only if it is in 3NF
+  - A relation is in BCNF if every functional dependency A → B and A is the super key of the given relation
+
+- 4 Normal Form
+
+  - A relation R is in 4NF if and only if it is in BCNF.
+  - There is no multi-valued dependency.
+
+- 5 Normal Form
+  - A relation R is in 5NF if and only if it satisfies following conditions:
+  </blockquote>
+
+</details>
+
+</details>
+
+---
+
+The functional dependencies F = {AB → C, AB → D, C → A, D → B} are best represented by the relation scheme R(A, B, C, Dbest )'s which normal form ?
+
+a. Boyce-Codd Normal form
+
+b. Third Normal form
+
+c. Second Normal form
+
+d. First Normal form
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+b. Third Normal form
+
+</blockquote>
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+A+ ={A}
+
+B+ ={B}
+
+C+ ={C,A}
+
+D+ ={D,B}
+
+Since single attributes can't determine all the attributes of relation So, now check with two attributes
+
+AB+ ={A,B,C,D}
+
+AC+ ={A,C}
+
+AD+ ={A,D,B,C}
+
+BC+ ={B,C,A,D}
+
+AB+ ={A,B,C,D}
+
+AC+ ={A,C}
+
+AD+ ={A,D,B,C}
+
+BC+ ={B,C,A,D}
+
+BD+ ={B,D}
+
+CD+ ={C,D,B,A}
+
+Candidate Keys = AB,AD,BC,CD
+
+Prime Attributes = A,B,C,D
+
+C -> A and D-> B it is not be partial dependency because in C -> A, A is a Key element and in D -> B, B is key element.
+
+So, there is no partial dependency or transitive dependency Therefore it is in 3NF
+
+C and D are not keys for the relation A,B,C,D , therefore it is not in BCNF
+
+</blockquote>
+
+</details>
+
+</details>
+
+---
+
+17. Decomposition aids in removing Which of the issues associated with poor design?
+
+a. Redundancy
+
+b. Inconsistencies
+
+c. Anomalies
+
+d. All of the above
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+d. All of the above
+
+</blockquote>
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+- Decomposition is used to eliminate some of the problems of bad design like anomalies, inconsistencies, and redundancy.
+
+- Decomposition help in eliminating Redundancy, Inconsistencies and anomalies
+
+- If the relation has no proper decomposition then it may lead to problems like loss of information.
+
+</blockquote>
+
+</details>
+
+</details>
+
+---
+
+1.  Which normal form is usually considered for a normal database design ?
+
+a. 2NF
+
+b. 3NF
+
+c. 4NF
+
+d. 5NF
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+b. 3NF
+
+</blockquote>
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+`Third Normal Form(3NF)`
+
+- 3NF is considered adequate for normal relational database design because most of the 3NF tables are free of insertion, update, and deletion anomalies.
+
+- However 3NF always ensures functional dependency preserving and lossless and
+
+- BCNF is not considered adequate because BCNF doesn't guarantee dependency preservation.
+
+</blockquote>
+
+</details>
+
+</details>
+
+---
+
+19. Which of the following is TRUE?
+
+a. A relation in 3NF is always in BCNF
+
+b. A relation in BCNF is always in 3NF
+
+c. BCNF and 3NF are totally different
+
+d. A relation in BCNF is in 2NF but not in 3NF
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+b. A relation in BCNF is always in 3NF
+
+</blockquote>
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+Every relation in Boyce-Codd Normal Form is also in 3rd Normal Form.
+
+</blockquote>
+
+</details>
+
+</details>
+
+---
+
+20. Which of the following statements is true if a relation is in 2NF and 3NF forms:
+
+a. No non-prime attribute is functionally dependent on other non-prime attributes.
+
+b. No non-prime attribute is functionally dependent on prime attributes.
+
+c. All attributes are functionally independent.
+
+d. Prime attribute is functionally independent of all non-prime attributes.
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+a. No non-prime attribute is functionally dependent on other non-prime attributes.
+
+</blockquote>
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+`Second Normal Form`
+
+- A relation R is in 2NF if and only if it is in 1NF
+- There no partial dependencies
+- Partial dependencies means Every non-prime attribute is fully functionally dependent on each relation key
+
+`Third Normal Form`
+
+- A relation R is in 3NF if and only if it is in 2NF
+- There is no transitive functional dependencies
+
+</blockquote>
+
+</details>
+
+</details>
+
+---
+
+21. If each non-key characteristic depends on the primary key to operate, then the relationship is in \_\_\_\_\_\_ .
+
+a. First normal form
+
+b. Second normal form
+
+c. Third normal form
+
+d. Fourth normal form
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+c. Third normal form
+
+</blockquote>
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+- Given key is Third normal form but Second normal form is the most appropriate one
+
+`First Normal Form`
+
+- Each table cell should contain a single value.
+- Each record needs to be unique.
+
+`Second Normal Form`
+
+- A relation R is in 2NF if and only if it is in 1NF
+- There no partial dependencies
+
+-Partial dependencies means Every non-prime attribute is fully functionally dependent on each relation key
+
+`Third Normal Form`
+
+- A relation R is in 3NF if and only if it is in 2NF
+- There is no transitive functional dependencies
+
+</blockquote>
+
+</details>
+
+</details>
+
+---
+
+22. The Following relation R (A, B, C, D, E, F, G, H), has a property where each attribute is atomic, and following functional dependencies exist.
+
+CH → G
+
+A → BC
+
+B → CFH
+
+E → A
+
+F → EG
+
+Then the relation R is \_\_\_\_\_\_?
+
+a. In 1NF but not in 2NF
+
+b. In 2NF but not in 3NF
+
+c. In 3NF but not in BCNF
+
+d. In Boyce-Codd Normal Form.
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+a. In 1NF but not in 2NF
+
+</blockquote>
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+Given R (A, B, C, D, E, F, G, H) with FD's
+
+CH → G
+
+A → BC
+
+B → CFH
+
+E → A
+
+F → EG
+
+Form the RHS in Given FD's all attributes are present except D So, Attribute D can’t be derived from any key and it must be added to all keys to be derived from.
+
+Hence we have to add attribute D to A,B,C,E,F,G,H and check which of them are Candidate keys of size 2.
+
+AD+ = { ABCDEFGH }
+
+BD+ = { ABCDEFGH }
+
+ED+ = { ABCDEFGH }
+
+FD+= { ABCDEFGH }
+
+Candidate keys = AD, BD, ED and FD.
+
+CD+ GD+ HD+ are not candidate keys because it does not derive all the attributes of the given relation R
+
+Partial dependencies = { A → BC, B → CFH and F → EG }
+
+So, the given relation is in 1NF but not in 2NF.
+
+</blockquote>
+
+</details>
+
+</details>
+
+---
+
+23. For a database relation R(A, B, C, D) where the domains of A, B, C and D include only atomic values, , and only the following functional dependencies and those that can be inferred from them hold :
+
+A → C
+
+B → D
+
+The relation R is in \_\_\_\_\_.
+
+a. First normal form but not in second normal form.
+
+b. Both in first normal form as well as in second normal form.
+
+c. Second normal form but not in third normal form.
+
+d. Both in second normal form as well as in third normal form.
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+a. First normal form but not in second normal form.
+
+</blockquote>
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+Candidate Key for the above relation is ab.
+
+Checking the FD's :
+
+a→c (Prime derives Non-Prime.)
+
+b→d (Prime derives Non-Prime.)
+
+Prime attribute { a,b}
+
+non prime attribute {c,d}.
+
+Since all a,b,c,d are atomic so the relation is in 1NF.
+
+The relation will be in 2NF if every Non Prime attribute is fully functional dependent on KEY.
+
+Here {c,d } are not fully functionally dependent, rather they are partially dependent so, it is not in 2NF.
+
+Hence, this relation is in 1NF but not in 2NF.
+
+</blockquote>
+
+</details>
+
+</details>
+
+---
