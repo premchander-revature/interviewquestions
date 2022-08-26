@@ -1,4 +1,4 @@
-SQL CONTENT BASED QUESTIONS:
+OVERALL JOINS QUESTIONS :
 
 DEFINITION BASED QUESTIONS:
 
@@ -98,8 +98,6 @@ Four advantages of database are
 
 </details>
 
----
-
 6.What do you mean by Data Redundancy?
 
 <details>
@@ -114,8 +112,6 @@ Duplication of data in a database is known as data redundancy.
 
 </details>
 
----
-
 7.What do you mean by Data Integrity?
 
 <details>
@@ -129,8 +125,6 @@ Data integrity means that the data is accurate and consistent in the database.
 </blockquote>
 
 </details>
-
----
 
 8.What is Data Consistency?
 
@@ -477,11 +471,11 @@ f. City – Char or Varchar
 
 25. Define the following terms :
 
-i)   Table
+1. Table
 
-ii)  Fields
+1. Fields
 
-iii) Records
+1. Records
 
 <details>
 
@@ -628,7 +622,7 @@ Insert and Delete are the DML Commands
 
 ---
 
-33. ________ is the most commonly used Data Manipulation Language(DML) command.
+33. _______ is the most commonly used Data Manipulation Language(DML) command.
 
 <details>
 
@@ -1270,7 +1264,7 @@ Join clause joins two tables by matching the common column.
 
 ---
 
-49.The **\_\_\_\_** clause is used to list the attributes desired in the result of a query.
+49.The _______ clause is used to list the attributes desired in the result of a query.
 
 a) Where
 b) Select
@@ -1357,7 +1351,7 @@ Where selects the rows on a particular condition. From gives the relation which 
 
 </blockquote>
 
-## </details>
+</details>
 
 52.Here which of the following displays the unique values of the column?
 
@@ -1431,7 +1425,7 @@ The field to be displayed is included in select and the table is included in the
 
 ---
 
-54. **\_** operator is used for appending two strings.
+54. ______ operator is used for appending two strings.
     a) &
     b) %
     c) ||
@@ -1518,8 +1512,6 @@ The asterisk symbol “ * ” can be usedin the select clause to denote “all a
 </blockquote>
 
 </details>
-   
- ---
 
 57. ``` sql
 
@@ -1582,10 +1574,8 @@ WHERE salary BETWEEN 90000 AND 100000;
 
 ```
 
-</blockquote>
+<blockquote>
 
- <blockquote>
-    
 SQL includes a between comparison operator to simplify where clauses that specify that a value be less than or equal to some value and greater than or equal to some other value.
 
 </blockquote>
@@ -1792,28 +1782,1806 @@ As keyword is used to rename.
 
 </details>
 
+---
 
+64.You can drop OUTER keyword and just say LEFT JOIN or RIGHT JOIN or FULL JOIN.
 
+A) True
 
+B) False
 
+<details>
 
+<summary><b>Show Answer</b></summary>
 
+<blockquote>
 
+A) True
 
+</blockquote>
 
+<details>
 
+<summary><b>Explanation</b></summary>
 
+<blockquote>
 
+Explanation:
 
+</blockquote>
 
+</details>
 
+</details>
 
+---
 
+65.Use left or right outer join with ...... when you are looking for something in one table that doesn’t exist in another table.
 
+A) null condition
+B) inclusions
+C) exclusions
+D) none of above
 
+<details>
 
+<summary><b>Show Answer</b></summary>
 
+<blockquote>
 
+C)exclusions
+
+</blockquote>
+
+<details>
+
+<summary><b>Explanation</b></summary>
+
+<blockquote>
+
+Explanation:
+
+</blockquote>
+
+</details>
+
+</details>
+
+---
+
+66.Understanding the primary and foreign key relationship is not important to join on the correct columns.
+
+A) True
+B) False
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+B) False
+
+</blockquote>
+
+<blockquote>
+
+Explanation:
+
+</blockquote>
+
+</details>
+
+---
+
+67.Choose the query that matches the above image.
+
+A.
+Select [List]
+from [Table A] A
+inner join
+[Table B] B
+on A.value=B.value
+B.
+Select [List]
+from [Table A] A
+full outer join
+[Table B] B
+on A.value=B.value
+where A.value is null
+or B.value is null
+C.
+Select [List]
+from [Table A] A
+right join
+[Table B] B
+on A.value=B.value
+where A.value is null
+D.
+Select [List]
+from [Table A] A
+full outer join
+[Table B] B
+on A.value=B.value
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+B.
+Select [List]
+from [Table A] A
+full outer join
+[Table B] B
+on A.value=B.value
+where A.value is null
+or B.value is null
+
+</blockquote>
+
+<blockquote>
+
+Explanation:
+
+</blockquote>
+
+</details>
+
+---
+
+68.LEFT JOIN and LEFT OUTER JOIN are equivalent.
+
+A) True
+B) False
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+A) True
+
+ </blockquote>
+
+ <blockquote>
+
+Explanation:
+
+</blockquote>
+
+</details>
+
+---
+
+69.Self-JOIN can be attained by ........ based on requirement but table must join with itself.
+
+A) INNER-JOIN
+B) OUTER-JOIN
+C) CROSS-JOIN
+D) All of above
+E) Both A & B
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+D) All of above
+
+ </blockquote>
+
+ <blockquote>
+
+Explanation:
+
+</blockquote>
+
+</details>
+
+---
+
+70.Select the correct query/queries for cross join:
+
+A)Select \* FROM Table1 T1 CROSS JOIN Table1 T2;
+
+B)Select \* FROM Table1 T1 ALL CROSS JOIN Table1 T2;
+
+C)Select \* FROM Table1 T1,Table1 T2;
+
+D)Select \* FROM Table1 T1 CROSS Table1 T2;
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+A. Select \* FROM Table1 T1 CROSS JOIN Table1 T2;
+
+</blockquote>
+
+<blockquote>
+
+Explanation:
+
+</blockquote>
+
+</details>
+
+---
+
+71.To avoid a Cartesian product, always include a valid join condition in a WHERE clause.
+
+A) True
+B) False
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+A)True
+
+</blockquote>
+
+<blockquote>
+
+Explanation:
+
+</blockquote>
+
+</details>
+
+---
+
+72.EXERCISE PROBLEM:
+
+SAMPLE TABLE- WORKER
+
+| WORKER_ID | FIRST_NAME | LAST_NAME | SALARY | JOINING_DATE        | DEPARTMENT |
+| --------- | ---------- | --------- | ------ | ------------------- | ---------- |
+| 001       | Monika     | Arora     | 100000 | 2014-02-20 09:00:00 | HR         |
+| 002       | Niharika   | Verma     | 80000  | 2014-06-11 09:00:00 | Admin      |
+| 003       | Vishal     | Singhal   | 300000 | 2014-02-20 09:00:00 | HR         |
+| 004       | Amitabh    | Singh     | 500000 | 2014-02-20 09:00:00 | Admin      |
+| 005       | Vivek      | Bhati     | 500000 | 2014-06-11 09:00:00 | Admin      |
+| 006       | Vipul      | Diwati    | 200000 | 2014-06-11 09:00:00 | Account    |
+| 007       | Satish     | Kumar     | 75000  | 2014-01-20 09:00:00 | Account    |
+| 008       | Geetika    | Chauhan   | 90000  | 2014-04-11 09:00:00 | Admin      |
+
+SAMPLE TABLE- BONUS
+
+| WORKER_REF_ID | BONUS_DATE          | BONUS_AMOUNT |
+| ------------- | ------------------- | ------------ |
+| 1             | 2016-02-20 00:00:00 | 5000         |
+| 2             | 2016-06-11 00:00:00 | 3000         |
+| 3             | 2016-02-20 00:00:00 | 4000         |
+| 1             | 2016-02-20 00:00:00 | 4500         |
+| 2             | 2016-06-11 00:00:00 | 3500         |
+
+SAMPLE TABLE- TITLE
+
+| WORKER_REF_ID | WORKET_TITLE | AFFECTED_FROM       |
+| ------------- | ------------ | ------------------- |
+| 1             | Manager      | 2016-02-20 00:00:00 |
+| 2             | Executive    | 2016-06-11 00:00:00 |
+| 8             | Executive    | 2016-06-11 00:00:00 |
+| 5             | Manager      | 2016-06-11 00:00:00 |
+| 4             | Asst.Manager | 2016-06-11 00:00:00 |
+| 7             | Executive    | 2016-06-11 00:00:00 |
+| 6             | Lead         | 2016-06-11 00:00:00 |
+| 3             | Lead         | 2016-06-11 00:00:00 |
+
+i)Write an SQL query to fetch “FIRST_NAME” from Worker table using the alias name as <WORKER_NAME>.
+
+---
+
+ii) Write an SQL query to fetch “FIRST_NAME” from Worker table in upper case.
+
+---
+
+iii)Write an SQL query to fetch unique values of DEPARTMENT from Worker table.
+
+---
+
+iv)Write an SQL query to print the first three characters of FIRST_NAME from Worker table.
+
+---
+
+v)Write an SQL query to find the position of the alphabet (‘a’) in the first name column ‘Amitabh’ from Worker table.
+
+---
+
+vi)Write an SQL query to print the FIRST_NAME from Worker table after removing white spaces from the right side.
+
+---
+
+vii)Write an SQL query to print the DEPARTMENT from Worker table after removing white spaces from the left side.
+
+---
+
+viii)Write an SQL query that fetches the unique values of DEPARTMENT from Worker table and prints its length.
+
+---
+
+ix)Write an SQL query to print the FIRST_NAME from Worker table after replacing ‘a’ with ‘A’.
+
+---
+
+x)Write an SQL query to print the FIRST_NAME and LAST_NAME from Worker table into a single column COMPLETE_NAME. A space char should separate them.
+
+---
+
+xi)Write an SQL query to print all Worker details from the Worker table order by FIRST_NAME Ascending.
+
+---
+xii)Write an SQL query to print all Worker details from the Worker table order by FIRST_NAME Ascending and DEPARTMENT Descending.
+
+---
+
+xiii)Write an SQL query to print details for Workers with the first name as “Vipul” and “Satish” from Worker table.
+
+---
+
+xiv)Write an SQL query to print details of workers excluding first names, “Vipul” and “Satish” from Worker table.
+
+---
+
+xv)Write an SQL query to print details of Workers with DEPARTMENT name as “Admin”.
+
+---
+
+xvi)Write an SQL query to print details of the Workers whose FIRST_NAME contains ‘a’.
+
+---
+
+xvii)Write an SQL query to print details of the Workers whose FIRST_NAME ends with ‘a’.
+
+---
+
+xviii)Write an SQL query to print details of the Workers whose FIRST_NAME ends with ‘h’ and contains six alphabets.
+
+---
+
+xix)Write an SQL query to print details of the Workers whose SALARY lies between 100000 and 500000.
+
+---
+
+xx)Write an SQL query to print details of the Workers who have joined in Feb’2014.
+
+---
+
+xxi)Write an SQL query to fetch the count of employees working in the department ‘Admin’.
+
+---
+
+xxii)Write an SQL query to fetch worker names with salaries >= 50000 and <= 100000.
+
+---
+
+xxiii)Write an SQL query to fetch the no. of workers for each department in the descending order.
+
+---
+
+xxiv)Write an SQL query to print details of the Workers who are also Managers.
+
+---
+
+xxv)Write an SQL query to fetch duplicate records having matching data in some fields of a table.
+
+---
+
+xxvi)Write an SQL query to show only odd rows from a table.
+
+---
+
+xxvii)Write an SQL query to show only even rows from a table.
+
+---
+
+xxviii)Write an SQL query to fetch intersecting records of two tables.
+
+---
+
+xxix)Write an SQL query to clone a new table from another table.
+
+---
+
+xxx)Write an SQL query to show records from one table that another table does not have.
+
+---
+
+xxxi)Write an SQL query to fetch the list of employees with the same salary.
+
+---
+
+xxxii)Write an SQL query to show the second highest salary from a table.
+
+---
+
+xxxiii)Write an SQL query to show one row twice in results from a table.
+
+xxxiv)Write an SQL query to fetch intersecting records of two tables.
+
+---
+
+xxxv)Write an SQL query to fetch the first 50% records from a table.
+
+xxxvi)Write an SQL query to show all departments along with the number of people in there.
+
+xxxvii)Write an SQL query to show the last record from a table.
+
+---
+
+xxxviii)Write an SQL query to fetch the first row of a table.
+
+xxxix)Write an SQL query to fetch three min salaries from a table.
+
+---
+
+ivL)Write an SQL query to fetch departments along with the total salaries paid for each of them.
+
+---
+
+Answers:
+
+1.The required query is:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+Select FIRST_NAME AS WORKER_NAME from Worker;
+
+</blockquote>
+
+</details>
+
+---
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+2.The required query is:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+Select upper(FIRST_NAME) from Worker;
+
+</blockquote>
+
+</details>
+
+---
+
+3.The required query is:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+Select distinct DEPARTMENT from Worker;
+
+</blockquote>
+
+</details>
+
+---
+
+4.The required query is:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+Select substring(FIRST_NAME,1,3) from Worker;
+
+</blockquote>
+
+</details>
+
+---
+
+5.The required query is:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+Select INSTR(FIRST_NAME, BINARY'a') from Worker where FIRST_NAME = 'Amitabh';
+
+</blockquote>
+
+</details>
+
+---
+
+6.The required query is:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+Select RTRIM(FIRST_NAME) from Worker;
+
+</blockquote>
+
+</details>
+
+---
+
+7.The required query is:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+Select LTRIM(DEPARTMENT) from Worker;
+
+</blockquote>
+
+</details>
+
+---
+
+8.The required query is:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+Select distinct length(DEPARTMENT) from Worker;
+
+</blockquote>
+
+</details>
+
+---
+
+9.The required query is:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+Select REPLACE(FIRST_NAME,'a','A') from Worker;
+
+</blockquote>
+
+</details>
+
+---
+
+10.The required query is:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+Select CONCAT(FIRST_NAME, ' ', LAST_NAME) AS 'COMPLETE_NAME' from Worker;
+
+</blockquote>
+
+</details>
+
+---
+
+11.The required query is:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+Select \* from Worker order by FIRST_NAME asc;
+
+</blockquote>
+
+</details>
+
+---
+
+12.The required query is:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+Select \* from Worker order by FIRST_NAME asc,DEPARTMENT desc;
+
+</blockquote>
+
+</details>
+
+---
+
+13.The required query is:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+Select \* from Worker where FIRST_NAME in ('Vipul','Satish');
+
+</blockquote>
+
+</details>
+
+14.The required query is:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+Select \* from Worker where FIRST_NAME not in ('Vipul','Satish');
+
+</blockquote>
+
+</details>
+
+---
+
+15.The required query is:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+Select \* from Worker where DEPARTMENT like 'Admin%';
+
+</blockquote>
+
+</details>
+
+---
+
+16.The required query is:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+Select \* from Worker where FIRST_NAME like '%a%';
+
+</blockquote>
+
+</details>
+
+---
+
+17.The required query is:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+Select \* from Worker where FIRST_NAME like '%a';
+
+</blockquote>
+
+</details>
+
+---
+
+18.The required query is:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+Select \* from Worker where FIRST_NAME like '**\_**h';
+
+</blockquote>
+
+</details>
+
+---
+
+19.The required query is:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+Select \* from Worker where SALARY between 100000 and 500000;
+
+</blockquote>
+
+</details>
+
+---
+
+20.The required query is:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+Select \* from Worker where year(JOINING_DATE) = 2014 and month(JOINING_DATE) = 2;
+
+</blockquote>
+
+</details>
+
+---
+
+21.The required query is:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+SELECT COUNT(\*) FROM worker WHERE DEPARTMENT = 'Admin';
+
+</blockquote>
+
+</details>
+
+---
+
+22.The required query is:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+SELECT CONCAT(FIRST_NAME, ' ', LAST_NAME) As Worker_Name, Salary
+FROM worker
+WHERE WORKER_ID IN
+(SELECT WORKER_ID FROM worker
+WHERE Salary BETWEEN 50000 AND 100000);
+
+</blockquote>
+
+</details>
+
+---
+
+23.The required query is:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+SELECT DEPARTMENT, count(WORKER_ID) No_Of_Workers
+FROM worker
+GROUP BY DEPARTMENT
+ORDER BY No_Of_Workers DESC;
+
+</blockquote>
+
+</details>
+
+---
+
+24.The required query is:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+SELECT DISTINCT W.FIRST_NAME, T.WORKER_TITLE
+FROM Worker W
+INNER JOIN Title T
+ON W.WORKER_ID = T.WORKER_REF_ID
+AND T.WORKER_TITLE in ('Manager');
+
+</blockquote>
+
+</details>
+
+---
+
+25.The required query is:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+SELECT WORKER*TITLE, AFFECTED_FROM, COUNT(*)
+FROM Title
+GROUP BY WORKER*TITLE, AFFECTED_FROM
+HAVING COUNT(*) > 1;
+
+</blockquote>
+
+</details>
+
+---
+
+26.The required query is:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+SELECT \* FROM Worker WHERE MOD (WORKER_ID, 2) <> 0;
+
+27.The required query is:
+
+SELECT \* FROM Worker WHERE MOD (WORKER_ID, 2) = 0;
+
+</blockquote>
+
+</details>
+
+---
+
+28.The required query is:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+(SELECT _ FROM Worker)
+INTERSECT
+(SELECT _ FROM WorkerClone);
+
+</blockquote>
+
+</details>
+
+---
+
+29.The general query to clone a table with data is:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+SELECT \* INTO WorkerClone FROM Worker;
+
+</blockquote>
+
+</details>
+
+The general way to clone a table without information is:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+SELECT \* INTO WorkerClone FROM Worker WHERE 1 = 0;
+
+</blockquote>
+
+</details>
+
+---
+
+30.The required query is:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+SELECT _ FROM Worker
+MINUS
+SELECT _ FROM Title;
+
+</blockquote>
+
+</details>
+
+---
+
+31.The required query is:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+Select distinct W.WORKER_ID, W.FIRST_NAME, W.Salary
+from Worker W, Worker W1
+where W.Salary = W1.Salary
+and W.WORKER_ID != W1.WORKER_ID;
+
+</blockquote>
+
+</details>
+
+---
+
+32.The required query is:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+Select max(Salary) from Worker
+where Salary not in (Select max(Salary) from Worker);
+
+</blockquote>
+
+</details>
+
+---
+
+33.The required query is:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+select FIRST_NAME, DEPARTMENT from worker W where W.DEPARTMENT='HR'
+union all
+select FIRST_NAME, DEPARTMENT from Worker W1 where W1.DEPARTMENT='HR';
+
+</blockquote>
+
+</details>
+
+---
+
+34.The required query is:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+(SELECT _ FROM Worker)
+INTERSECT
+(SELECT _ FROM WorkerClone);
+
+</blockquote>
+
+</details>
+
+---
+
+35.The required query is:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+SELECT \*
+FROM WORKER
+WHERE WORKER_ID <= (SELECT count(WORKER_ID)/2 from Worker);
+
+</blockquote>
+
+</details>
+
+---
+
+36.The following query returns the expected result:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+SELECT DEPARTMENT, COUNT(DEPARTMENT) as 'Number of Workers' FROM Worker GROUP BY DEPARTMENT;
+
+</blockquote>
+
+</details>
+
+---
+
+37.The following query will return the last record from the Worker table:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+Select \* from Worker where WORKER_ID = (SELECT max(WORKER_ID) from Worker);
+
+</blockquote>
+
+</details>
+
+---
+
+38.The required query is:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+Select \* from Worker where WORKER_ID = (SELECT min(WORKER_ID) from Worker);
+
+</blockquote>
+
+</details>
+
+---
+
+39.The required query is:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+SELECT distinct Salary from worker a WHERE 3 >= (SELECT count(distinct Salary) from worker b
+
+</blockquote>
+
+</details>
+
+---
+
+40.The required query is:
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+
+<blockquote>
+
+SELECT DEPARTMENT, sum(Salary) from worker group by DEPARTMENT;
+
+</blockquote>
+
+</details>
+
+---
+
+73.Write SQL Query to get Student Name and number of Students in same grade.
+
+Given Student Table
+
+ID        | Name            | Grade
+
+1          | George         | 1
+
+2          | Smith          | 2
+
+Answer: We can use WITH clause for this problem. We first get the number students in each grade by using GROUP BY on grade. Then we use Sub-Query returned by WITH clause in Main query.
+
+Query will be as follows:
+
+WITH grade_count AS (
+
+  SELECT grade, COUNT(*) AS grade_count
+
+  FROM   student
+
+  GROUP BY grade)
+
+SELECT s.name AS student_name,
+
+       gc.grade_count AS grade_count
+
+FROM   student s,
+
+       grade_count gc
+
+WHERE  e.grade = gc.grade;
+
+---
+
+74.Write SQL Query to get the list of grades with total score more than average score.
+
+Consider Student and Grade tables
+
+Student: ID, name, grade_ID, score
+
+Grade: ID, grade_num
+
+Answer: We can use WITH clause to get the total score in each grade. We can also use WITH clause to get the average score among all grades. Then we can use the two sub-queries to get the list of GRADES with Score total more than average score.
+
+Query will be as follows:
+
+WITH
+
+  grade_score AS (
+
+    SELECT grade_num, SUM(s.score) grade_total
+
+    FROM   student s, grade g
+
+    WHERE  s.grade_ID = g.ID
+
+    GROUP BY grade_num),
+
+  avg_score AS (
+
+    SELECT SUM(grade_total)/COUNT(*) avg
+
+    FROM   grade_score)
+
+SELECT *
+
+FROM   grade_score
+
+WHERE  grade_total > (SELECT avg FROM avg_score) ORDER BY grade_num;
+
+---
+
+75.Write a SQL query to maximum Zipcode from a table without using MAX or MIN aggregate functions.
+
+Consider Zipcode_list table with column Zipcode
+
+ZIPCODE
+
+7500
+
+7525
+
+7550
+
+7600
+
+7575
+
+Answer: Point to be noted is that the Maximum zipcode is not smaller than any Zipcode in the list.
+
+We can use self join to find the list of Zipcodes that are smaller than at least one other Zipcode. Once we get that list, we just use NOT IN to find the Zipcode from Zipcode_list that does not exist in this smaller list. That will be the maximum Zipcode with no Zipcode bigger than it.
+
+Query will be as follows:
+
+SELECT DISTINCT Zipcode
+
+FROM Zipcode_list
+
+WHERE Zipcode NOT IN (
+
+SELECT Smaller_list.Zipcode
+
+FROM Zipcode_list AS Larger_list
+
+JOIN Zipcode_list AS Smaller_list
+
+ON Smaller_list.Zipcode < Largerlist.Zipcode
+
+)
+
+---
+
+76.Which SQL feature can be used to view data in a table sequentially?
+
+In this question, we need to clarify with interviewer if it is about SEQUENCE based on some value in data or it is just a SEQUENCE of rows from data.
+
+In first case, we can use ORDER BY clause in SQL to view data in a sequential order based on a value.
+
+In second case, we can use a CURSOR to view the whole data set in a sequence.
+
+---
+
+77.These three tasks can be carried out using a SELECT statement:
+
+- Choose rows from a table.
+- Choose columns from a table.
+- Bring together data that is stored in different tables by creating a link between them.
+
+Which set of keywords describes these capabilities?
+
+![Simple](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
+A. difference, projection, join
+
+B. selection, projection, join
+
+C. Selection, intersection, join
+
+D. Intersection, projection, join
+
+<details><summary> <b>Show Answer</b> </summary>
+<blockquote>
+  
+ B. selection, projection, join
+
+</blockquote>
+  
+<details><summary> <b>Explanation</b> </summary>
+<blockquote>
+  
+ selection, projection, join is the answer.
+  
+</blockquote></blockquote>
+</details>
+
+---
+
+78.Test the following SQL statement: Which functions of a SELECT statement are carried out in the statement?
+SELECT e.EMPLOYEE_ID,e.LAST_NAME,e.DEPARTMENT_ID, d.DEPARTMENT_NAME FROM EMP e, DEPARTMENT d WHERE e.DEPARTMENT_ID = d.DEPARTMENT_ID;
+
+![Simple](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
+A. Selection, projection, join
+
+B. Difference, projection, join
+
+C. Selection, intersection, join
+
+D. Intersection, projection, join
+
+<details><summary> <b>Show Answer</b> </summary>
+  
+> A. Selection, projection, join
+  
+<details><summary> <b>Explanation</b> </summary>
+  
+>In the statement, Selection, projection, join capabilities of a SELECT statement are performed
+  
+  </details>
+</details>
+
+---
+
+79.What kind of join is the following SQL?
+SELECT CUSTOMER_T. CUSTOMER_ID, ORDER_T. CUSTOMER_ID, NAME, ORDER_ID FROM CUSTOMER_T,ORDER_T
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+A. Equi-join
+B. Natural join
+C. Outer join
+D. Cartesian join
+
+<details><summary> <b>Show Answer</b> </summary>
+  
+> D. Cartesian join
+  
+<details><summary> <b>Explanation</b> </summary>
+  
+>Cartesian Join is simply the joining of one or more table which returns the product of all the rows in these tables.
+  
+  </details>
+</details>
+
+---
+
+80.Which kind of join does the following SQL represent?
+
+SELECT CUSTOMER_T. CUSTOMER_ID, ORDER_T. CUSTOMER_ID, NAME, ORDER_ID FROM CUSTOMER_T,ORDER_T WHERE CUSTOMER_T. CUSTOMER_ID = ORDER_T. CUSTOMER_ID
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+A. Equi-join
+B. Natural join
+C. Outer join
+D. Cartesian join
+
+<details><summary> <b>Show Answer</b> </summary>
+
+A. Equi-join
+
+<details><summary> <b>Explanation</b> </summary>
+  
+> Equi-join joins only same data entry field. For example, one table contains department id and another table should contain department id.
+  
+  </details>
+</details>
+
+---
+
+81.Which of the subsequent statements is accurate?
+
+![Simple](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
+A. INNER JOIN only retrieves those rows from Cartesian Product that satisfy the JOIN condition
+B. FULL OUTER JOIN is same as CROSS JOIN
+C. SELF JOIN is a special type of OUTER JOIN
+D. Both A and C
+
+<details><summary> <b>Show Answer</b> </summary>
+
+A. INNER JOIN only retrieves those rows from Cartesian Product that satisfy the JOIN condition
+
+<details><summary> <b>Explanation</b> </summary>
+  
+> INNER JOIN only retrieves those rows from Cartesian Product that satisfy the JOIN condition is true.
+
+  </details>
+</details>
+
+---
+
+82.What is the FULL OUTER JOIN formed on two tables, Table1 and Table2, and which of the following statements about it is TRUE?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+A. Retrieves all the unmatched rows of Table1
+B. Retrieves all the unmatched rows of Table2
+C. Retrieves both matched and unmatched rows of Table1 and Table2
+D. Retrieves only matched rows of table1 and Table2
+
+<details><summary> <b>Show Answer</b> </summary>
+
+C. Retrieves both matched and unmatched rows of Table1 and Table2
+
+<details><summary> <b>Explanation</b> </summary>
+  
+> The statement is TRUE about FULL OUTER JOIN created on two tables Table1 and Table2 is Retrieves both matched and unmatched rows of Table1 and Table2.
+
+  </details>
+</details>
+
+---
+
+83.Which view in the top-level FROM clause of the SELECT query contains more than one table:
+
+![Complex](https://github.com/krishnagopika/githubpages/blob/main/hard.jpg)
+
+A. Join view
+B. Datable join view
+C. Updatable join view
+D. All of the mentioned
+
+<details><summary> <b>Show Answer</b> </summary>
+
+C. Updatable join view
+
+<details><summary> <b>Explanation</b> </summary>
+  
+> Updatable join view that contains more than one table in the top-level FROM clause of the SELECT statement.
+
+  </details>
+</details>
+
+---
+
+84.A query that retrieves rows from many tables or views is known as a ______________
+
+![Simple](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
+A. Start
+B. End
+C. Join
+D. All of the above
+
+<details><summary> <b>Show Answer</b> </summary>
+
+C. Join
+
+<details><summary> <b>Explanation</b> </summary>
+  
+> A Join is a query that retrieves rows from more than one table or view.
+
+  </details>
+</details>
+
+---
+
+85.Only the relation previously mentioned preserves tuples using the left outer join
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+A. Right outer join operation
+B. Right inner join operation
+C. Left inner join operation
+D. Left outer join operation
+
+<details><summary> <b>Show Answer</b> </summary>
+
+D. Left outer join operation
+
+<details><summary> <b>Explanation</b> </summary>
+  
+>  Left outer join preserves tuples only in the relation named before Left outer join operation.
+
+  </details>
+</details>
+
+86.Using the word inner is, how would you express a normal join?
+
+![Simple](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
+A. Mandatory
+B. Optional
+C. Independent
+D. Free
+
+<details><summary> <b>Show Answer</b> </summary>
+
+B. Optional
+
+<details><summary> <b>Explanation</b> </summary>
+  
+>  To specify a normal join, using the keyword inner is Optional.
+
+  </details>
+</details>
+
+---
+
+87.Which of the following claims is untrue?
+
+![Simple](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
+A. RIGHT OUTER JOIN is equivalent to LEFT OUTER JOIN if order of tables are reversed
+B. FULL OUTER JOIN is same as CROSS JOIN
+C. SELF JOIN is a special type of OUTER JOIN
+D. Both B and C
+
+<details><summary> <b>Show Answer</b> </summary>
+
+D. Both B and C
+
+<details><summary> <b>Explanation</b> </summary>
+  
+> Both B and C option are False statements.
+
+  </details>
+</details>
+
+---
+
+88.What join corresponds to the Cartesian product?
+
+![Simple](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
+A. INNER JOIN
+B. OUTER JOIN
+C. CROSS JOIN
+D. NATURAL JOIN
+
+<details><summary> <b>Show Answer</b> </summary>
+
+C. CROSS JOIN
+
+<details><summary> <b>Explanation</b> </summary>
+  
+>  CROSS JOIN is equivalent to Cartesian Product.
+
+  </details>
+</details>
+
+---
+
+89.Which of the following have to be true for INNER JOIN to function?
+
+![Complex](https://github.com/krishnagopika/githubpages/blob/main/hard.jpg)
+
+A. Columns used for joining must have same name
+B. Columns used for joining can have same or different name
+C. Columns used for joining must have different names
+D. Columns used for joining must have different names
+
+<details><summary> <b>Show Answer</b> </summary>
+
+B. Columns used for joining can have same or different name
+
+<details><summary> <b>Explanation</b> </summary>
+  
+> Columns used for joining can have same or different name is the following conditions has to be satisfied for INNER JOIN to work
+
+  </details>
+</details>
+
+---
+
+90.When the resultant table needs rows from A and B that match the condition and rows from A that do not satisfy the condition, which join between tables A and B should be used?
+
+![Complex](https://github.com/krishnagopika/githubpages/blob/main/hard.jpg)
+
+A. Outer Join
+B. Cross Join
+C. Inner Join
+D. None of the above
+
+<details><summary> <b>Show Answer</b> </summary>
+
+A. Outer Join
+
+<details><summary> <b>Explanation</b> </summary>
+  
+>Outer Join is to be used between two tables A and B when the resultant table needs rows from A and B that matches the condition and rows from A that does not match the condition.
+
+  </details>
+</details>
+
+---
+
+91.Ten tuples and five characteristics make up relation R1. Relation R2 has 7 characteristics and 0 tuples. How many tuples would the resulting set include if R1 and R2 were to achieve a CROSS JOIN?
+
+![Complex](https://github.com/krishnagopika/githubpages/blob/main/hard.jpg)
+
+A. 28
+B. 10
+C. 0
+D. 35
+
+<details><summary> <b>Show Answer</b> </summary>
+
+C. 0
+
+<details><summary> <b>Explanation</b> </summary>
+  
+>When a CROSS JOIN is achieved between R1 and R2, 0 tuples the resultant set will have.
+
+  </details>
+</details>
+
+---
+
+92.Which join refers to join records from the write table that have no matching key in the left table are include in the result set:
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+A. Left outer join
+B. Right outer join
+C. Full outer join
+D. None of the above
+
+<details><summary> <b>Show Answer</b> </summary>
+
+B. Right outer join
+
+<details><summary> <b>Explanation</b> </summary>
+  
+>Right outer join refers to join records from the write table that have no matching key in the left table are include in the result set.
+
+  </details>
+</details>
+
+---
+
+93.Which join types are there in a join condition:
+
+![Simple](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
+A. Cross join
+B. Natural join
+C. Join with USING clause
+D. All of the mentioned
+
+<details><summary> <b>Show Answer</b> </summary>
+
+D. All of the mentioned
+
+<details><summary> <b>Explanation</b> </summary>
+  
+>INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN, EQUIJOIN are the types of joins.
+
+  </details>
+</details>
+
+---
+
+94.How many join conditions are there?
+
+![Simple](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
+A. 2
+B. 3
+C. 4
+D. 5
+
+<details><summary> <b>Show Answer</b> </summary>
+
+D. 5
+
+<details><summary> <b>Explanation</b> </summary>
+  
+>INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN, EQUIJOIN.
+
+  </details>
+</details>
+
+---
+
+95.Which type of JOIN is used to returns all rows from right table and only matched rows from left table?
+
+![Simple](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
+A.INNER JOIN
+B.RIGHT JOIN
+C.FULL JOIN
+D.LEFT JOIN
+
+<details><summary> <b>Show Answer</b> </summary>
+
+B.RIGHT JOIN
+
+<details><summary> <b>Explanation</b> </summary>
+  
+>RIGHT JOIN is similar to LEFT JOIN. This join returns all the rows of the table on the right side of the join and matching rows for the table on the left side of the join.
+
+  </details>
+</details>
+
+---
+
+96.Which type of JOIN is used to returns all rows from left table and only matched rows from right table?
+
+![Simple](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
+A.INNER JOIN
+B.RIGHT JOIN
+C.FULL JOIN
+D.LEFT JOIN
+
+<details><summary> <b>Show Answer</b> </summary>
+
+D.LEFT JOIN
+
+<details><summary> <b>Explanation</b> </summary>
+  
+>The LEFT JOIN is a clause of the SELECT statement. The LEFT JOIN clause allows you to query data from multiple tables. The LEFT JOIN returns all rows from the left table and the matching rows from the right table.
+
+  </details>
+</details>
+
+---
+
+97.Which view in the top-level FROM clause of the SELECT query contains more than one table:
+a) Join view
+b) Datable join view
+c) Updatable join view
+d) All of the mentioned
+
+Answer: c
+Explanation: The DELETE statement is used to delete rows in a table. The UPDATE statement is used to update existing records in a table. The INSERT INTO statement is used to insert new records in a table.
+
+---
+
+98.What actions are permitted in a join view:
+a) UPDATE
+b) INSERT
+c) DELETE
+d) All of the mentioned
+
+Answer: d
+Explanation: The DELETE statement is used to delete rows in a table. The UPDATE statement is used to update existing records in a table. The INSERT INTO statement is used to insert new records in a table.
+
+---
+
+98.Which join means that the result set includes records from the write table for which there is no key match in the left table:
+a) Left outer join
+b) Right outer join
+c) Full outer join
+d) Half outer join
+
+Answer: b
+Explanation: A right outer join will return all the rows that an inner join returns plus one row for each of the other rows in the second table that did not have a match in the first table. It is the same as a left outer join with the tables specified in the opposite order.
+
+---
+
+99.Which is a join condition and includes an equality operator
+a) Equijoins
+b) Cartesian
+c) Both Equijoins and Cartesian
+d) None of the mentioned
+
+Answer: a
+Explanation: An equi-join is a specific type of comparator-based join, that uses only equality comparisons in the join-predicate.
+
+---
+
+100.Which item is returned when there is no join condition in the join query:
+a) Equijoins
+b) Cartesian
+c) Both Equijoins and Cartesian
+d) None of the mentioned
+
+Answer: b
+Explanation: A Cartesian coordinate system is a coordinate system that specifies each point uniquely in a plane by a pair of numerical coordinates.
+
+---
+
+101.Which join types are there in a join condition:
+a) Cross join
+b) Natural join
+c) Join with USING clause
+d) All of the mentioned
+
+Answer: d
+Explanation: INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN, EQUIJOIN are the types of joins.
+
+---
+
+102.How many join conditions are there?
+a) 2
+b) 3
+c) 4
+d) 5
+
+Answer: d
+Explanation: INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN, EQUIJOIN.
+
+---
+
+103.A condition is referred to as __________
+a) Join in SQL
+b) Join condition
+c) Join in SQL & Condition
+d) None of the mentioned
+
+Answer: b
+Explanation: An SQL join clause combines records from two or more tables in a database. It creates a set that can be saved as a table or used as it is. A JOIN is a means for combining fields from two tables by using values common to each.
+
+---
+
+104. A_____ is a query that retrieves rows from more than one table or view:
+a) Start
+b) End
+c) Join
+d) All of the mentioned
+
+Answer: c
+Explanation: An SQL join clause combines records from two or more tables in a database. It creates a set that can be saved as a table or used as it is. A JOIN is a means for combining fields from two tables by using values common to each.
+
+---
 
 
 
