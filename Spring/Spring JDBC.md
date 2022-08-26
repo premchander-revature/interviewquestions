@@ -35,7 +35,7 @@
 
 2. What are three types of implementations of DataSource in Java application?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -52,7 +52,7 @@
 ---
 3. What is `Connection Pooling` in enterprise application?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -68,7 +68,7 @@
 ---
 4. What default connection pool does spring boot use?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -106,7 +106,7 @@
 ---
 6. What is the sequence of choosing various connection pools inside Spring application?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -124,7 +124,7 @@
 ---
 7. What is `Programmatic & Declarative Trasnaction Management` in Spring application?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -145,7 +145,7 @@
 8. What does isloation and propagation attributes denote in below code-
 `@Transactional(isolation = Isolation.READ_COMMITTED, propagation = Propagation.NEVER)`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -159,15 +159,15 @@
 </details>
 
 ---
-9. What configurations does Spring JDBC vs developer need to perform in application?
+9. What configurations does Spring JDBC & developer need to perform in application?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
 <blockquote> 
     
-- The table shows which actions Spring takes care of and which actions are your responsibility.
+- The table shows which actions Spring takes care of and which are developers responsibilities.
   
 | **Steps** | **Action**                                               | **Spring** | **Developer** |
 | --------- | -------------------------------------------------------- | ---------- | ------------- |
