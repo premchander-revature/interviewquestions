@@ -397,10 +397,10 @@ CONSTRAINT constraint_name UNIQUE (columns)
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-a.Row
-b.Database
-c.Column
-d.Table
+a.Row<br>
+b.Database<br>
+c.Column<br>
+d.Table<br>
 
 
 <details>
@@ -418,10 +418,10 @@ b. Database
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
-a.5
-b.6
-c.2
-d.3
+a.5<br>
+b.6<br>
+c.2<br>
+d.3<br>
 
 
 <details>
@@ -465,10 +465,10 @@ c. 2
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-a.-1
-b.1
-c.Empty
-d.0
+a.-1<br>
+b.1<br>
+c.Empty<br>
+d.0<br>
 
 <details>
 <summary> <b>Show Answer</b> </summary>
@@ -494,10 +494,10 @@ c. Empty
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-a.Domain Integrity
-b.User-defined Integrity
-c.Entity Integrity
-d.Referential Integrity
+a.Domain Integrity<br>
+b.User-defined Integrity<br>
+c.Entity Integrity<br>
+d.Referential Integrity<br>
 
 <details>
 <summary> <b>Show Answer</b> </summary>
@@ -523,10 +523,10 @@ d. Referential Integrity
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-a.Modify
-b.Change
-c.Delete
-d.Drop
+a.Modify<br>
+b.Change<br>
+c.Delete<br>
+d.Drop<br>
 
 <details>
 <summary> <b>Show Answer</b> </summary>
@@ -543,10 +543,10 @@ a. Modify
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-a.SET NULL
-b.NO ACTION
-c.CASCADE
-d.None of the above
+a.SET NULL<br>
+b.NO ACTION<br>
+c.CASCADE<br>
+d.None of the above<br>
 
 <details>
 <summary> <b>Show Answer</b> </summary>
@@ -572,10 +572,10 @@ c.CASCADE
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-a.`DEFAULT`
-b.`UNIQUE`
-c.`CHECK`
-d.`NOT NULL`
+a.`DEFAULT`<br>
+b.`UNIQUE`<br>
+c.`CHECK`<br>
+d.`NOT NULL`<br>
 
 <details>
 <summary> <b>Show Answer</b> </summary>
