@@ -125,7 +125,7 @@ We can use date pipe to date in this format "MM/dd/yy". Also, we can get the cur
 
 ![image](https://user-images.githubusercontent.com/70228962/186723294-69118376-7c4a-48e5-966f-c8cd0ba50954.png)
 
-**NOTE:**  Output like  _08/25/22_
+**NOTE:**  Output will be like  _08/25/22_
     
 </blockquote>
 </details>
