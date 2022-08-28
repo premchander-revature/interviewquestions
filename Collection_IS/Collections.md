@@ -6,13 +6,14 @@
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
+
 Java Collection framework provides many interfaces (Set, List, Queue, Deque) and classes (ArrayList, Vector, LinkedList, PriorityQueue, HashSet, LinkedHashSet, TreeSet).
 </blockquote>
 </details>
 
 ---
 
-2. Can you tell the Main Interfaces, and What Are the Differences Between Them?
+2. Can you tell the main interfaces, and what are the differences between them?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -29,7 +30,7 @@ Java Collection framework provides many interfaces (Set, List, Queue, Deque) and
 
 ---
 
-3. Why Map is not inherited from Collection interface although it is a part of Java collection framework?
+3. Why is Map not inherited from the Collection interface, despite the fact that it is a component of the Java collection framework? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -43,53 +44,53 @@ Because they are of an incompatible type. List, Set and Queue are a collection o
 
 ---
 
-4. How do you remove an entry from a Collection? and subsequently what is the difference between the remove() method of Collection and remove() method of Iterator, which one you will use while removing elements during iteration?
+4. How do you remove an entry from a collection? And subsequently, what is the difference between the `remove()` method of a collection and the `remove()` method of an iterator? Which one will you use while removing elements during iteration?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- Collection interface defines remove(Object obj) method to remove objects from Collection.List interface adds another method remove(int index), which is used to remove objects at a specific index.
+- Collection interface defines `remove(Object obj)` method to remove objects from `Collection.List` interface adds another method `remove(int index)`, which is used to remove objects at a specific index.
 - You can use any of these methods to remove an entry from Collection, while not iterating. 
-- Things change when you iterate. Suppose you are traversing a List and removing only certain elements based on logic, then you need to use Iterator's remove() method. 
--This method removes the current element from Iterator's perspective. If you use Collection's or List's remove() method during iteration then your code will throw ConcurrentModificationException. 
-- That's why it's advised to use the Iterator remove() method to remove objects from Collection.
+- Things change when you iterate. Suppose you are traversing a List and removing only certain elements based on logic, then you need to use Iterator's `remove()` method. 
+-This method removes the current element from Iterator's perspective. If you use Collection's or List's `remove()` method during iteration then your code will throw `ConcurrentModificationException`. 
+- That's why it's advised to use the iterator `remove()` method to remove objects from Collection.
 
 </blockquote>
 </details>
 
 ---
 
-5. How does HashSet is implemented in Java, How does it use Hashing?
+5. How does HashSet use Hashing?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-HashSet internally uses HashMap to store it’s elements. Whenever you create a HashSet object,one HashMap object associated with it is also created. This HashMap object is used to store the elements you enter in the HashSet. The elements you add into HashSet are stored as keys of this HashMap object. The value associated with those keys will be a constant.
+HashSet extends `AbstractSet` and implements the Set interface. It creates a collection that uses a hash table for storage. A hash table stores information by using a mechanism called hashing. In hashing, the informational content of a key is used to determine a unique value, called its hash code.
 
 </blockquote>
 </details>
 
 ---
 
-6. How do you Sort objects on the collection?
+6. How is HashSet implemented in Java?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Sorting is implemented using Comparable and Comparator in Java and when you call Collections.sort() it gets sorted based on the natural order specified in compareTo() method while Collections.sort(Comparator) will sort objects based on compare() method of Comparator. 
+When we create an object of HashSet, it internally creates an instance of HashMap with default initial capacity 16. HashSet uses a constructor `HashSet(int capacity)` that represents how many elements can be stored in the HashSet. The capacity may increase automatically when more elements to be store.
 
 </blockquote>
 </details>
 
 ---
 
-7. Which one you will prefer between Array and ArrayList for Storing objects and why?
+7. Which one do you prefer in Java between Array and Array Lists for storing objects and why?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -129,14 +130,14 @@ Though ArrayList is also backed up by array, it offers some usability advantage 
 - No, Collection is a top level interface of Java collection framework where as Collections is an utility class. Below table shows the difference between them.
 
 - Collection:	
- - Collection is a root level interface of the Java Collection Framework. 
- - Most of the classes in Java Collection Framework inherit from this interface.	
- - List, Set and Queue are main sub interfaces of this interface.	
+    - Collection is a root level interface of the Java Collection Framework. 
+    - Most of the classes in Java Collection Framework inherit from this interface.	
+    - List, Set and Queue are main sub interfaces of this interface.	
 
 - Collections:
- - Collections is an utility class in java.util package. 
- - It consists of only static methods which are used to operate on objects of type Collection.
- - Collections.max(), Collections.min(),Collections.sort() are some methods of Collections class.
+    - Collections is an utility class in java.util package. 
+    - It consists of only static methods which are used to operate on objects of type Collection.
+    - Collections.max(), Collections.min(),Collections.sort() are some methods of Collections class.
 
 </blockquote>
 </details>
@@ -150,91 +151,44 @@ Though ArrayList is also backed up by array, it offers some usability advantage 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-we should prefer String, Integer, Long, Double, Float, Short and any other wrapper class. Reason behind using them as a key is that they override equals() and hashCode() method, we need not to write any explicit code for overriding equals() and hashCode() method in java.
+We should prefer String, Integer, Long, Double, Float, Short and any other wrapper class. Reason behind using them as a key is that they override `equals()` and `hashCode()` method, we need not to write any explicit code for overriding `equals()` and `hashCode()` method in java.
 
 </blockquote>
 </details>
 
 ---
 
-11. Let’s say you have to build dictionary and multiple users can add data in that dictionary? 
-And can you use 2 Collection classes? Which Collection classes you will prefer and WHY?
+11.  Suppose there is an Student class. We add Student class objects to the ArrayList. Mention the steps that need to be taken if I want to sort the objects in ArrayList using the studentId attribute present in Student class. 
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-We must use ConcurrentSkipListMap and TreeSet  
-* ConcurrentSkipListMap<String, TreeSet<String>> myDictionary =
-                           new ConcurrentSkipListMap<String, TreeSet<String>>(); 
-Store words in ConcurrentSkipListMap as key, keys are sorted in natural order (words will be sorted in natural order),  doesn’t allow null keys (words can’t be null) , doesn’t allow duplicate keys (words can’t be duplicate) and  synchronized, so 2 threads won’t create synchronization problems for storing meaning of word in dictionary we must use TreeSet as value in ConcurrentSkipListMap because one word can have many meanings 
+- Implement the Comparable interface for the Employee class and now to compare the objects by studentId we will override the `std1.compareTo(std2)` .
+- We will now call Collections class `sort()` method and pass the list as an argument, that is,
+`Collections.sort(stdList)`
 
 </blockquote>
 </details>
 
 ---
 
-12. Why to use java.util.WeakHashMap map which is so inconsistent and unpredictable in behaviour?
-
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
-
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
-Let's say we have huge application which consists of lots n lots of object and may run short of memory at any time, we will like garbage collector to quickly discard less used key value pair to free up some memory. As, behavior of the WeakHashMap class depends upon garbage collector. Discarding less used key-value is always going to a better option than running out of memory.
-
-</blockquote>
-</details>
-
----
-
-13.  Suppose there is an Student class. We add Student class objects to the ArrayList. Mention the steps that need to be taken if I want to sort the objects in ArrayList using the studentId attribute present in Student class. 
+12. What is the sorting algorithm used in `Collections.sort()`?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- Implement the Comparable interface for the Employee class and now to compare the objects by studentId we will override the std1.compareTo(std2) .
-- We will now call Collections class sort method and pass the list as an argument, that is,
-    Collections.sort(stdList)
+`Collections.sort()` uses Merge sort algorithm to sort the objects.
 
 </blockquote>
 </details>
 
 ---
 
-14. What are common algorithms used in the Collections Framework?
-
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
-
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
-
-Common algorithms used for searching and sorting. For example, a red-black algorithm is used in the sorting of elements in TreeMap. Most of the algorithms are used for List interface but few of them are applicable for all kinds of Collection.
-
-</blockquote>
-</details>
-
----
-
-15. What is CopyOnWriteArrayList, how it is different than ArrayList and Vector?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
-	
-- CopyOnWriteArrayList is a thread-safe variant of ArrayList in which all mutative operations like add,  set are implemented by creating a fresh copy of the underlying array.
-- It guaranteed not to throw ConcurrentModificationException.
-- It permits all elements including null. It is introduced in JDK 1.5.
-
-</blockquote>
-</details>
-
----
-
-16. What will happen if we put two values ​​with the same key in Map?
+13. What will happen if we put two values ​​with the same key in Map?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -248,21 +202,21 @@ If we try to insert two values for the same key, the second value will be stored
 
 ---
 
-17. How to Create a Thread-Safe ConcurrentHashSet in Java?
+14. How to create a Thread-Safe `ConcurrentHashSet` in Java?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-JDK 8 has the newly added keySet (the default) and newKeySet() methods to create a ConcurrentHashSet in Java that is supported by ConcurrentHashMap
+JDK 8 has the newly added `keySet()` (the default) and `newKeySet()` methods to create a ConcurrentHashSet in Java that is supported by `ConcurrentHashMap`
 
 </blockquote>
 </details>
 
 ---
 
-18. Can an ArrayList Contain Multiple References to the Same Object in Java?
+15. Can an ArrayList contain mutiple references to the same object in Java?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -276,7 +230,7 @@ The ArrayList in java does not provide the checks for duplicate references to th
 
 ---
 
-19. If the frequent operation is retrieval which collection is used and if the frequent operation is insertion or deletion which one is used?
+16. If the frequent operation is retrieval which collection is used and if the frequent operation is insertion or deletion which one is used?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -290,7 +244,7 @@ If the frequent operation is retrieval the ArrayList for the othercase LinkedLis
 
 ---
 
-20. How iterator and enumerator differs while iterating the elements in the collection?
+17. How iterator and enumerator differs while iterating the elements in the collection?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -298,9 +252,9 @@ If the frequent operation is retrieval the ArrayList for the othercase LinkedLis
 <blockquote>
 
 - Enumeration is twice as fast as Iterator and uses less memory. Iterator is thread-safe because does not allow other threads to modify the collection when iterating.
-- Enumeration can only be used for read-only collections. It also has no remove () method ;
-- Enumeration:  hasMoreElement () ,  nextElement ()
-- Iterator:  hasNext () ,  next () ,  remove ()
+- Enumeration can only be used for read-only collections. It also has no `remove()` method ;
+- Enumeration:  `hasMoreElement()` ,  `nextElement ()`
+- Iterator:  `hasNext()` ,  `next()` ,  `remove()`
 
 </blockquote>
 </details>
@@ -308,49 +262,34 @@ If the frequent operation is retrieval the ArrayList for the othercase LinkedLis
 ---
 
 
-21. Can we use null element in TreeSet? Give reason?
+18. Can we use null element in TreeSet? Give reason?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- No, TreeSet does not allows to store any null keys. Any attempt to add null throws runtimeException (NullPointerException).
-- TreeSet internally compares elements for sorting elements by natural order (comparator may be used for sorting, if defined at creation time) and null is not comparable, Any attempt to compare null with other object will throw NullPointerException.
+- No, TreeSet does not allows to store any null keys. Any attempt to add null throws `runtimeException (NullPointerException)`.
+- TreeSet internally compares elements for sorting elements by natural order (comparator may be used for sorting, if defined at creation time) and null is not comparable, Any attempt to compare null with other object will throw `NullPointerException`.
 
 </blockquote>
 </details>
 
 ---
 
-22. Which Set class must be preferred in multithreading environment, considering performance constraint?
+19. What will be the output of the given snippet?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
-
-<details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
-
-- CopyOnWriteArraySet (allows null and elements aren't sorted in natural order) or ConcurrentSkipListSet 
-(doesn’t allows null and elements are sorted in natural order) .
-- We can select any one depending on our requirement.
-
-</blockquote>
-</details>
-
----
-
-23. What will be the output of the given snippet?
-<blockquote>
-  List<String> arrayList = new ArrayList<String>();
  
-           arrayList.add("a");
-           arrayList.add("b");
+    List<String> arrayList = new ArrayList<String>();
+    arrayList.add("a");
+    arrayList.add("b");
  
-           ListIterator<String> listIterator = arrayList.listIterator();
-           while (listIterator.hasNext()) {
-                  System.out.println(listIterator.next());
-                  listIterator.previous();
-           }
+    ListIterator<String> listIterator = arrayList.listIterator();
+    while (listIterator.hasNext()) {
+        System.out.println(listIterator.next());
+        listIterator.previous();
+    }
 </blockquote>
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
@@ -358,25 +297,31 @@ If the frequent operation is retrieval the ArrayList for the othercase LinkedLis
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 	
-*** a infinite times ***
+**Output**
 
-ArrayList provides listIterator for traversing in forward and backward direction, so program will compile and run infinitely.
+a infinite times
 
 </blockquote>
 </details>
 
+<details> <summary> <b> Explanation </b> </summary>
+
+ArrayList provides listIterator for traversing in forward and backward direction, so program will compile and run infinitely.
+
+</details>
+
 ---
 
-24.If we want to use a custom object as a key in Collection classes like Map or Set, how can we achieve that?
+20.If we want to use a custom object as a key in Collection classes like Map or Set, how can we achieve that?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- If you are using any custom object in Map as key, you need to override equals() and hashCode() method, 
+- If you are using any custom object in Map as key, you need to override `equals()` and `hashCode()` method, 
 and make sure they follow their contract. On the other hand if you are storing a custom object in Sorted Collection 
-- e.g. SortedSet or SortedMap, you also need to make sure that your equals() method is consistent to compareTo() method, otherwise that collection will not follow there contacts e.g. Set may allow duplicates.
+- e.g. SortedSet or SortedMap, you also need to make sure that your `equals()` method is consistent to `compareTo()` method, otherwise that collection will not follow there contacts e.g. Set may allow duplicates.
 
 </blockquote>
 </details>
@@ -384,7 +329,7 @@ and make sure they follow their contract. On the other hand if you are storing a
 ---
 
 
-25. Do you know what is BlockingQueue? Give a practical example of BlockingQueue?
+21. Do you know what is BlockingQueue? Give a practical example of BlockingQueue?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -399,14 +344,14 @@ and make sure they follow their contract. On the other hand if you are storing a
 
 ---
 
-26.  What is the difference between fail-safe and fail-fast properties?
+22.  What is the difference between fail-safe and fail-fast properties?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- Fail-fast Iterators throw ConcurrentModificationException when one Thread is iterating over collection object and other thread structurally modify Collection either by adding, removing, or modifying objects on the underlying collection. 
+- Fail-fast Iterators throw `ConcurrentModificationException` when one thread is iterating over collection object and other thread structurally modify Collection either by adding, removing, or modifying objects on the underlying collection. 
 - They are called fail-fast because they try to immediately throw Exception when they encounter failure. - On the other hand, fail-safe Iterators works on copy of collection instead of the original collection
 
 </blockquote>
@@ -414,7 +359,7 @@ and make sure they follow their contract. On the other hand if you are storing a
 
 ---
 
-27. Which Collection type do you suggest me If I want a sorted collection of objects with no duplicates?
+23. Which Collection type do you suggest me If I want a sorted collection of objects with no duplicates?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -428,7 +373,7 @@ TreeSet is the best suitable for such scenarios where you want a collection of o
 
 ---
 
-28. Why it is recommended not to use Vector class in our code?
+24. Why is it recommended not to use the Vector class in our code?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -444,35 +389,37 @@ thread safe and only one thread is allowed to have object lock at any moment of 
 
 ---
 
-29. How to sort ArrayList in descending order?
+25. How to sort ArrayList in descending order?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-We can use reverseorder() like Collections.sort(arraylist, Collections.reverseOrder());  
+We can use `reverseorder()` like `Collections.sort(arraylist, Collections.reverseOrder())`;  
 
 </blockquote>
 </details>
 
 ---
 
-30. Predict the output?
+26. Predict the output?
+
 <blockquote>
- PriorityQueue<Integer> queue = new PriorityQueue<>();
-        queue.add(25);
-        queue.add(15);
-        queue.add(23);
-        queue.add(5);
-        queue.add(12);
-        queue.add(2);
+
+    PriorityQueue\<Integer\> queue = new PriorityQueue\<\>();<br>
+    queue.add(25);<br>
+    queue.add(15);<br>
+    queue.add(23);<br>
+    queue.add(5);<br>
+    queue.add(12);<br>
+    queue.add(2);<br>
  
-        while (queue.isEmpty() == false)
-            System.out.printf("%d ", queue.remove());
+    while (queue.isEmpty() == false)
+        System.out.printf("%d ", queue.remove());
  
-        System.out.println("\n");
-    }
+    System.out.println("\n");
+    
 </blockquote>
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
@@ -480,17 +427,24 @@ We can use reverseorder() like Collections.sort(arraylist, Collections.reverseOr
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-*** Output ***
-	2 5 12 15 23 25
+**Output**
 	
-Priority queue always outputs the minimum element from the queue when remove() method is called, no matter what the sequence of input is.
+2 5 12 15 23 25
+
+</blockquote>
+</details>
+
+<details> <summary> <b> Explanation </b> </summary>
+<blockquote>
+
+Priority queue always outputs the minimum element from the queue when `remove()` method is called, no matter what the sequence of input is.
 
 </blockquote>
 </details>
 
 ---
 
-31. Arrange the following in the ascending order (performance):
+27. Arrange the following in the ascending order (performance):
 HashMap, Hashtable, ConcurrentHashMap, and Collections.SynchronizedMap 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -505,7 +459,7 @@ Hashtable  <  Collections.SynchronizedMap  <  ConcurrentHashMap  <  HashMap
 
 ---
 
-32. Can you pass List (String) to a method which accepts List (Object)?
+28. Can you pass `List(String)` to a method which accepts `List(Object)`?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -515,14 +469,14 @@ Hashtable  <  Collections.SynchronizedMap  <  ConcurrentHashMap  <  HashMap
 - List(Object) can store any any thing including String, Integer etc but List(String) can only store Strings.
 - List(Object) objectList;
 - List(String) stringList;
-- objectList = stringList; *** compilation error ***
+- objectList = stringList; **compilation error**
 
 </blockquote>
 </details>
 
 ---
 
-33.  If The Compiler Erases All Type Parameters At Compile Time, Why Should You Use Generics?
+29. If the compiler erases all type parameters at compile time, why should you use generics?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -537,7 +491,7 @@ Hashtable  <  Collections.SynchronizedMap  <  ConcurrentHashMap  <  HashMap
 </details>
 ---
 
-34. Why String Is Popular Hashmap Key In Java?
+30. Why is String a popular Hashmap key in Java?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -551,22 +505,21 @@ Since String is immutable, its hashcode is cached at the time of creation and it
 
 ---
 
-35. How will you create a Readonly List, Set, Map in Java?
+31. How will you create a Readonly List, Set, Map in Java?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-We can use Collections.unModifiableList() method to create read-only List, Collections.unmodifiableSet() 
-for creating read-only Set like read-only HashSet and similarly creating a read-only Map in Java.
+We can use `Collections.unModifiableList()` method to create read-only List,`Collections.unmodifiableSe()`for creating read-only Set like read-only HashSet and similarly creating a read-only Map in Java.
 
 </blockquote>
 </details>
 
 ---
 
-36. When to use Queues and stack? What is the possible use case?
+32. When to use Queues and stack? What is the possible use case?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -582,10 +535,10 @@ for creating read-only Set like read-only HashSet and similarly creating a read-
 
 ---
 
-37. What is the purpose of the initial capacity and load factor parameters of a HashMap? What are
+33. What is the purpose of the initial capacity and load factor parameters of a HashMap? What are
 their default values? How is the threshold plays the role to decide the size?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -599,7 +552,7 @@ Now let’s focus on load factor, so there is a concept of threshold value, whic
 
 ---
 
-38. What is collision problem ?
+34. What is collision problem ?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -613,7 +566,7 @@ The collision problem is, whenever the hash function returns the same index posi
 
 ---
 
-39. Can I  add a null element to HashSet and TreeSet?
+35. Can i add a null element to HashSet and TreeSet?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -622,7 +575,7 @@ The collision problem is, whenever the hash function returns the same index posi
 
 - We can’t add any null element in TreeSet as it uses NavigableMap for element storage. But we can add just one to HashSet.
 - SortedMap doesn’t allow null keys and NavigableMap is its subset.
-- That’s why we can’t add a null element to TreeSet, it will come up with the NullPointerException
+- That’s why we can’t add a null element to TreeSet, it will come up with the `NullPointerException`
  every time you try to do that.
 
 </blockquote>
@@ -630,7 +583,7 @@ The collision problem is, whenever the hash function returns the same index posi
 
 ---
 
-40. How will you remove the duplicates from the ArrayList?
+36. How will you remove the duplicates from the ArrayList?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -647,14 +600,14 @@ There are two ways to remove duplicates from the ArrayList.
 
 ---
 
-41. Can you iterate a map ? 
+37. Can you use iterateor interface over map?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- No, Map does not implement Iterable interface, only Collection ( thus , list and set ) do , so the Collection implements iterable <E> , make the set and the list iteratble.
+- No, Map does not implement Iterable interface, only Collection ( thus , list and set ) do , so the Collection implements iterable \<E\> , make the set and the list iteratble.
 - The Map can't be iterable only the key part can be iterable 
 
 </blockquote>
@@ -662,20 +615,21 @@ There are two ways to remove duplicates from the ArrayList.
 
 ---
 
-42. Predict the output?
+38. Predict the output?
 <blockquote>
-public class HashMapTest {
-    public static void main(String args[]) {
-           Map<Integer, String> hashMap = new HashMap<Integer, String>();
+
+    public class HashMapTest {
+        public static void main(String args[]) {
+                Map<Integer, String> hashMap = new HashMap<Integer, String>();
+                hashMap.put(11, "a");
+                hashMap.put(null, "c");
+                hashMap.put(null, null);
  
-           hashMap.put(11, "a");
-           hashMap.put(null, "c");
-           hashMap.put(null, null);
- 
-           System.out.println(hashMap.size());
-           System.out.println(hashMap);
-    }
-}
+                System.out.println(hashMap.size());
+                System.out.println(hashMap);
+            }
+        }
+
 </blockquote>
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
@@ -683,9 +637,16 @@ public class HashMapTest {
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-*** OUTPUT ***
-2
+**OUTPUT**
+    
+2<br>
 {null=null, 11=a} 
+
+</blockquote>
+</details>
+
+<details> <summary> <b> Explanation </b> </summary>
+<blockquote>
 
 HashMap does not maintains insertion order of keys, and allows one null key and many null values.
 
@@ -694,21 +655,22 @@ HashMap does not maintains insertion order of keys, and allows one null key and 
 
 ---
 
-43.  Predict the output?
+39.  Predict the output?
 <blockquote>
-public class HashSetTest {
-    public static void main(String args[]) {
+
+    public class HashSetTest {
+        public static void main(String args[]) {
  
-           Set hashSet = new HashSet();
+            Set hashSet = new HashSet();
+            hashSet.add("1");
+            hashSet.add(1);
+            hashSet.add(null);
+            hashSet.add("null");
+            System.out.println(hashSet);
  
-           hashSet.add("1");
-           hashSet.add(1);
-           hashSet.add(null);
-           hashSet.add("null");
-           System.out.println(hashSet);
- 
+        }
     }
-}
+
 </blockquote>
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
@@ -716,9 +678,15 @@ public class HashSetTest {
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-*** OUTPUT ***
+**OUTPUT**
  
 [null, 1, 1, null]
+
+</blockquote>
+</details>
+
+<details> <summary> <b> Explanation </b> </summary>
+<blockquote>
 
 HashSet does not store duplicates but “1” is a String, while 1 is Integer & null is nothing, while “null” is a String . Also HashSet does not maintain insertion order and allows null.
 
@@ -727,20 +695,21 @@ HashSet does not store duplicates but “1” is a String, while 1 is Integer & 
 
 ---
 
-44. Predict the output?
+40. Predict the output?
 <blockquote>
-public class LinkedHashSetTest {
-    public static void main(String args[]) {
+
+    public class LinkedHashSetTest {
+        public static void main(String args[]) {
  
-           Set s = new LinkedHashSet();
-           s.add("1");
-           s.add(1);
-           s.add(3);
-           s.add(2);
-           System.out.println(s);
+            Set s = new LinkedHashSet();
+            s.add("1");
+            s.add(1);
+            s.add(3);
+            s.add(2);
+            System.out.println(s);
  
+        }
     }
-}
 </blockquote>
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
@@ -748,9 +717,15 @@ public class LinkedHashSetTest {
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-***  OUTPUT ***
+**OUTPUT**
  
 [1, 1, 3, 2]
+
+</blockquote>
+</details>
+
+<details> <summary> <b> Explanation </b> </summary>
+<blockquote>
 
 LinkedHashSet maintains insertion order and does not allow duplicates.
 
@@ -759,16 +734,17 @@ LinkedHashSet maintains insertion order and does not allow duplicates.
 
 ---
 
-45. Predict the output?
+41. Predict the output?
 <blockquote>
-public class MyClass {
-    public static void main(String args[]) {
-           Map<String, String> identityHashMap = new IdentityHashMap<String, String>();
-           identityHashMap.put(new String("a"), "audi");
-           identityHashMap.put(new String("a"), "ferrari");
-           System.out.println(identityHashMap);
+
+    public class MyClass {
+        public static void main(String args[]) {
+            Map<String, String> identityHashMap = new IdentityHashMap<String, String>();
+            identityHashMap.put(new String("a"), "audi");
+            identityHashMap.put(new String("a"), "ferrari");
+            System.out.println(identityHashMap);
+        }
     }
-}
 </blockquote>
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
@@ -776,9 +752,15 @@ public class MyClass {
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-*** OUTPUT ***
+**OUTPUT**
  
 {a=audi, a=ferrari}
+
+</blockquote>
+</details>
+
+<details> <summary> <b> Explanation </b> </summary>
+<blockquote>
 
 - IdentityHashMap when comparing keys (and values) performs reference-equality in place of object-equality. 
 - In an IdentityHashMap, two keys k1 and k2 are equal if and only if (k1==k2). (In normal Map implementations (like HashMap) two keys k1 and k2 are considered equal if and only if (k1==null ? 
@@ -790,14 +772,14 @@ k2==null : k1.equals(k2)).)
 
 ---
 
-46. Which methods you need to override to use any object as a key in HashMap?
+42. Which methods you need to override to use any object as a key in HashMap?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-To use any object as a key in HashMap, it needs to implement equals() and hashCode() method.
+To use any object as a key in HashMap, it needs to implement `equals()` and `hashCode()` method.
 
 
 </blockquote>
@@ -806,42 +788,42 @@ To use any object as a key in HashMap, it needs to implement equals() and hashCo
 ---
 
 
-47. What is and when to use Collections.emptySet() . What is the advantage of having emptySet in Collections class ?
+43. What is and when to use `Collections.emptySet()` . What is the advantage of having emptySet in Collections class ?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Collections.emptySet() returns the empty immutable Set ,not containing null  .
+`Collections.emptySet()` returns the empty immutable Set ,not containing null  .
 
 </blockquote>
 </details>
 
 ---
 
-48. Why we call emptySet() method,as we can also create empty Set  using constructor ?
+44. Why we call `emptySet()` method,as we can also create empty Set  using constructor ?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Advantages of using emptySet() method over creating object using constructor are :
+Advantages of using `emptySet()` method over creating object using constructor are :
 
 1. Immutable : You should prefer to use immutable collection against the mutable collections wherever possible . It becomes handy as multiple threads accessing the same instance of object will see the same values.
 
 2. Concise :  You do not need to manually type out the generic type of the collection - normally it is inferred from the context of the method call.
 
 
-3. Efficient : As emptySet() method dont create new objects , so they just reuse the  existing empty and immutable object . Although ,practically,this trick is not that handy , and rarely improves the performance
+3. Efficient : As `emptySet()` method dont create new objects , so they just reuse the  existing empty and immutable object . Although ,practically,this trick is not that handy , and rarely improves the performance
 
 </blockquote>
 </details>
 
 ---
 
-49.  What copy technique internally used by HashSet clone() method ?
+45.  What copy technique internally used by HashSet `clone()` method ?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -851,8 +833,24 @@ Advantages of using emptySet() method over creating object using constructor are
 - There are two copy techniques in every object oriented programming lanuage , 
 deep copy and shallow copy.
 - To create a clone or copy of the Set object, HashSet  internally uses shallow copy 
-in clone() method , the elements themselves are not cloned . 
+in `clone()` method , the elements themselves are not cloned . 
 - In other words , a shallow copy is made by copying the reference of the object.
+
+</blockquote>
+</details>
+
+---
+
+46. What is a good way to sort the Collection objects in Java?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+A good way to sort Java collection objects is using Comparable and Comparator interfaces. A developer can use `Collections.sort()`, the elements are sorted based on the order mention in `compareTo()`.
+
+When a developer uses Collections, sort (Comparator), it sorts the objects depend on `compare()` of the Comparator interface.
 
 </blockquote>
 </details>
