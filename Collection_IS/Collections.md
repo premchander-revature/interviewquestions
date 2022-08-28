@@ -302,11 +302,14 @@ If the frequent operation is retrieval the ArrayList for the othercase LinkedLis
 a infinite times
 
 </blockquote>
-</details>
+
+<blockquote>
 
 <details> <summary> <b> Explanation </b> </summary>
 
 ArrayList provides listIterator for traversing in forward and backward direction, so program will compile and run infinitely.
+
+</details>
 
 </details>
 
@@ -432,7 +435,7 @@ We can use `reverseorder()` like `Collections.sort(arraylist, Collections.revers
 2 5 12 15 23 25
 
 </blockquote>
-</details>
+
 
 <details> <summary> <b> Explanation </b> </summary>
 <blockquote>
@@ -441,7 +444,7 @@ Priority queue always outputs the minimum element from the queue when `remove()`
 
 </blockquote>
 </details>
-
+</details>
 ---
 
 27. Arrange the following in the ascending order (performance):
@@ -643,7 +646,7 @@ There are two ways to remove duplicates from the ArrayList.
 {null=null, 11=a} 
 
 </blockquote>
-</details>
+
 
 <details> <summary> <b> Explanation </b> </summary>
 <blockquote>
@@ -652,7 +655,7 @@ HashMap does not maintains insertion order of keys, and allows one null key and 
 
 </blockquote>
 </details>
-
+</details>
 ---
 
 39.  Predict the output?
@@ -683,7 +686,7 @@ HashMap does not maintains insertion order of keys, and allows one null key and 
 [null, 1, 1, null]
 
 </blockquote>
-</details>
+
 
 <details> <summary> <b> Explanation </b> </summary>
 <blockquote>
@@ -692,7 +695,7 @@ HashSet does not store duplicates but “1” is a String, while 1 is Integer & 
 
 </blockquote>
 </details>
-
+</details>
 ---
 
 40. Predict the output?
@@ -722,7 +725,7 @@ HashSet does not store duplicates but “1” is a String, while 1 is Integer & 
 [1, 1, 3, 2]
 
 </blockquote>
-</details>
+
 
 <details> <summary> <b> Explanation </b> </summary>
 <blockquote>
@@ -731,7 +734,7 @@ LinkedHashSet maintains insertion order and does not allow duplicates.
 
 </blockquote>
 </details>
-
+</details>
 ---
 
 41. Predict the output?
@@ -757,7 +760,7 @@ LinkedHashSet maintains insertion order and does not allow duplicates.
 {a=audi, a=ferrari}
 
 </blockquote>
-</details>
+
 
 <details> <summary> <b> Explanation </b> </summary>
 <blockquote>
@@ -768,6 +771,7 @@ k2==null : k1.equals(k2)).)
 - new String("a") & new String("a") are different by reference.
 
 </blockquote>
+</details>
 </details>
 
 ---
