@@ -8,6 +8,7 @@
 <blockquote>
 
 Java Collection framework provides many interfaces (Set, List, Queue, Deque) and classes (ArrayList, Vector, LinkedList, PriorityQueue, HashSet, LinkedHashSet, TreeSet).
+
 </blockquote>
 </details>
 
@@ -112,8 +113,8 @@ Though ArrayList is also backed up by array, it offers some usability advantage 
 <blockquote>
 
 - Java LinkedList:
-- It is an implementation of the List and Deque interfaces. Internally, it is an implemented using Doubly Linked List Data Structure. It supports duplicate elements. 
-- It stores or maintains it's elements in Insertion order. 
+    - It is an implementation of the List and Deque interfaces. Internally, it is an implemented using Doubly Linked List Data Structure. It supports duplicate elements. 
+    - It stores or maintains it's elements in Insertion order. 
 
 </blockquote>
 </details>
@@ -137,7 +138,7 @@ Though ArrayList is also backed up by array, it offers some usability advantage 
 - Collections:
     - Collections is an utility class in java.util package. 
     - It consists of only static methods which are used to operate on objects of type Collection.
-    - Collections.max(), Collections.min(),Collections.sort() are some methods of Collections class.
+    -  `Collections.max()`, `Collections.min()`, `Collections.sort()` are some methods of Collections class.
 
 </blockquote>
 </details>
@@ -280,7 +281,9 @@ If the frequent operation is retrieval the ArrayList for the othercase LinkedLis
 19. What will be the output of the given snippet?
 
 <blockquote>
- 
+
+```Java
+
     List<String> arrayList = new ArrayList<String>();
     arrayList.add("a");
     arrayList.add("b");
@@ -290,6 +293,7 @@ If the frequent operation is retrieval the ArrayList for the othercase LinkedLis
         System.out.println(listIterator.next());
         listIterator.previous();
     }
+```
 </blockquote>
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
@@ -340,7 +344,7 @@ and make sure they follow their contract. On the other hand if you are storing a
 <blockquote>
 
 - BlockingQueue is a java Queue that support operations that wait for the queue to become non-empty when retrieving and removing an element, and wait for space to become available in the queue when adding an element.
-- Producer-consumer problem is a best example
+- Producer-consumer problem is a best example of BlockingQueue.
 
 </blockquote>
 </details>
@@ -410,19 +414,22 @@ We can use `reverseorder()` like `Collections.sort(arraylist, Collections.revers
 
 <blockquote>
 
-    PriorityQueue\<Integer\> queue = new PriorityQueue\<\>();<br>
-    queue.add(25);<br>
-    queue.add(15);<br>
-    queue.add(23);<br>
-    queue.add(5);<br>
-    queue.add(12);<br>
-    queue.add(2);<br>
+```Java
+
+    PriorityQueue<Integer> queue = new PriorityQueue<>();
+    queue.add(25);
+    queue.add(15);
+    queue.add(23);
+    queue.add(5);
+    queue.add(12);
+    queue.add(2);
  
     while (queue.isEmpty() == false)
         System.out.printf("%d ", queue.remove());
  
     System.out.println("\n");
-    
+```
+
 </blockquote>
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
@@ -596,8 +603,8 @@ The collision problem is, whenever the hash function returns the same index posi
 
 There are two ways to remove duplicates from the ArrayList.
 
-- Using HashSet: By using HashSet we can remove the duplicate element from the ArrayList, but it will not then preserve the insertion order.
-- Using LinkedHashSet: We can also maintain the insertion order by using LinkedHashSet instead of HashSet.
+- **Using HashSet**: By using HashSet we can remove the duplicate element from the ArrayList, but it will not then preserve the insertion order.
+- **Using LinkedHashSet**: We can also maintain the insertion order by using LinkedHashSet instead of HashSet.
 
 </blockquote>
 </details>
@@ -622,6 +629,8 @@ There are two ways to remove duplicates from the ArrayList.
 38. Predict the output?
 <blockquote>
 
+```Java
+
     public class HashMapTest {
         public static void main(String args[]) {
                 Map<Integer, String> hashMap = new HashMap<Integer, String>();
@@ -633,7 +642,7 @@ There are two ways to remove duplicates from the ArrayList.
                 System.out.println(hashMap);
             }
         }
-
+```
 </blockquote>
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
@@ -662,6 +671,7 @@ HashMap does not maintains insertion order of keys, and allows one null key and 
 39.  Predict the output?
 <blockquote>
 
+```Java
     public class HashSetTest {
         public static void main(String args[]) {
  
@@ -674,6 +684,7 @@ HashMap does not maintains insertion order of keys, and allows one null key and 
  
         }
     }
+```
 
 </blockquote>
 
@@ -702,6 +713,7 @@ HashSet does not store duplicates but “1” is a String, while 1 is Integer & 
 40. Predict the output?
 <blockquote>
 
+```Java
     public class LinkedHashSetTest {
         public static void main(String args[]) {
  
@@ -714,6 +726,7 @@ HashSet does not store duplicates but “1” is a String, while 1 is Integer & 
  
         }
     }
+```
 </blockquote>
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
@@ -741,6 +754,7 @@ LinkedHashSet maintains insertion order and does not allow duplicates.
 41. Predict the output?
 <blockquote>
 
+```Java
     public class MyClass {
         public static void main(String args[]) {
             Map<String, String> identityHashMap = new IdentityHashMap<String, String>();
@@ -749,6 +763,7 @@ LinkedHashSet maintains insertion order and does not allow duplicates.
             System.out.println(identityHashMap);
         }
     }
+```
 </blockquote>
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
@@ -853,9 +868,8 @@ in `clone()` method , the elements themselves are not cloned .
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-A good way to sort Java collection objects is using Comparable and Comparator interfaces. A developer can use `Collections.sort()`, the elements are sorted based on the order mention in `compareTo()`.
-
-When a developer uses Collections, sort (Comparator), it sorts the objects depend on `compare()` of the Comparator interface.
+- A good way to sort Java collection objects is using Comparable and Comparator interfaces. A developer can use `Collections.sort()`, the elements are sorted based on the order mention in `compareTo()`.
+- When a developer uses Collections, `sort (Comparator)`, it sorts the objects depend on `compare()` of the Comparator interface.
 
 </blockquote>
 </details>
