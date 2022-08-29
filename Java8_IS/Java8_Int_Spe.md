@@ -7,6 +7,7 @@
 
 <blockquote>
 
+```Java
     public static void main(String[] args)
     {
         // Creating a list of Integers
@@ -18,7 +19,7 @@
             .filter(num -> num % 5 == 0)
             .forEach(System.out::println);
     }
-
+```
 </blockquote>
 
 **Output**<br>
@@ -97,7 +98,8 @@
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Buckets containing a large number of colliding keys will store their entries in a balanced tree instead of a linked list after certain threshold is reached.
+When the number of items in a hash is larger than a certain value, the hash will change from using a linked list of elements or entries to a balanced tree, this will improve the worst case performance from O(n) to O(log n).
+
 
 </blockquote>
 </details>
@@ -111,7 +113,8 @@ Buckets containing a large number of colliding keys will store their entries in 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Lambda expressions can only be applied to abstract method of functional interface.
+- Lambda expressions express instances of functional interfaces (An interface with single abstract method is called functional interface. An example is `java.lang.Runnable`). 
+- Lambda expressions implement the only abstract function and therefore implement functional interfaces
 
 </blockquote>
 </details>
@@ -139,7 +142,10 @@ It is the process of chaining different operations together. It accomplishes thi
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Yes, we can create our own functional interface.
+- Yes, we can create our own functional interface.
+- We have to do these two things:
+    - Annotate the interface with `@FunctionalInterface`, which is the Java 8 convention for custom functional interfaces.
+    - Ensure that the interface has just one abstract method.
 
 </blockquote>
 </details>
@@ -153,7 +159,7 @@ Yes, we can create our own functional interface.
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-It will throw a compile time error.
+Inside Functional Interface we can take only one abstract method, if we take more than one abstract method then compiler raise an error. Interface can declares an abstract method overriding one of the public method from `java.lang.Object`, that still can be considered as functional interface.
 
 </blockquote>
 </details>
@@ -167,7 +173,7 @@ It will throw a compile time error.
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Default methods can add new functionality to the libraries interfaces and ensure binary compatability with older code written for the interfaces.
+ Java 8 has introduced the concept of default methods which allow the interfaces to have methods with implementation without affecting the classes that implement the interface.
 
 </blockquote>
 </details>
@@ -181,9 +187,39 @@ Default methods can add new functionality to the libraries interfaces and ensure
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-The `findFirst()` method returns the first element of a stream or an empty Optional. If the stream has no encounter order, any element is returned, as it's ambiguous which is the first one anyway.
+Stream `findFirst()` returns an Optional (a container object which may or may not contain a non-null value) describing the first element of this stream, or an empty Optional if the stream is empty.
 
 </blockquote>
+
+<details> <summary> <b> Explanation </b> </summary>
+<blockquote>
+
+```Java
+    import java.util.stream.Stream;
+    public class Main 
+    {
+        public static void main(String[] args) 
+        {
+            //sequential stream
+            Stream.of("one", "two", "three", "four")
+            .findFirst()
+            .ifPresent(System.out::println);
+            //parallel stream
+            Stream.of("one", "two", "three", "four")
+            .parallel()
+            .findFirst()
+            .ifPresent(System.out::println);
+        }
+    }
+```
+
+**Output**
+
+one<br>
+one
+
+</blockquote>
+</details>
 </details>
 
 ---
@@ -195,8 +231,7 @@ The `findFirst()` method returns the first element of a stream or an empty Optio
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-The `findAny()` method returns any element of the stream - much like `findFirst()` with no encounter order.
-
+Stream `findAny()` returns an Optional (a container object which may or may not contain a non-null value) describing some element of the stream, or an empty Optional if the stream is empty.
 </blockquote>
 </details>
 
@@ -226,6 +261,7 @@ There are instances where you have a stream, but you only want to select a rando
 - Streams are just sequence of data from a source.
 - With Java 8, we can do manipulation on data using stream API.
 - Example: Youtube
+    - If we are watching a video all the content of the video will not be loaded at once. As the time elapses we will get the content.
 
 </blockquote>
 </details>
@@ -292,17 +328,49 @@ We can declare a lambda expression by-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- Example :
+```Java
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
 @Retention(RetentionPolicy.RUNTIME)
-@Target(ElementType.Type)
-public @interface ByteProgramming
-{
-    String username() default "ByteProgramming";
-
+@interface TestAnnotationForClass {
+   String author();
+   String date();
+   int currentRevision() default 1;
+   String lastModified() default "Not applicable";
+   String lastModifiedBy() default "Not applicable";
 }
-@ByteProgramming(username="Byte")
+
+//Now, we’ll use TestAnnotationForClass annotation for Test class.
+
+   @TestAnnotationForClass (
+   author = "Editorial Team",
+   date = "9/18/2020",
+   currentRevision = 6,
+   lastModified = "9/18/2020",
+   lastModifiedBy = "Editorial Team"
+    )
+    public class Test {
+        public static void main(String[] args) {
+        Test t = new Test();
+        //print annotations of class Test
+        System.out.println(t.getClass().getAnnotations()[0]);
+        }
+    }
+```
 
 </blockquote>
+
+<details> <summary> <b> Explanation </b> </summary>
+<blockquote>
+
+In this example, we have used RetentionPolicy.RUNTIME because we want to demonstrate and read annotation at runtime. RetentionPolicy.RUNTIME indicates that annotations are to be recorded in the class file by the compiler and retained by the virtual machine at run time, so they may be read reflectively.
+
+**Output**
+
+@TestAnnotationForClass(currentRevision=6, lastModified=9/18/2020, lastModifiedBy=Editorial Team, author=Editorial Team, date=9/18/2020)
+
+</blockquote>
+</details>
 </details>
 
 ---
@@ -318,24 +386,27 @@ public @interface ByteProgramming
 - Optionals can be used to avoid `NullPointer Exception`
 
 Example:
-    ```java
-    String value=null;
-     Optional \<String\> value=Optional.empty();
+
+    ```Java
+    String value=null;<br>
+    Optional <String> value=Optional.empty();
     ```
 </blockquote>
 </details>
 
 ---
 
-20. What are the functional interfaces you have used in your project?
+20. What are the different types of functional interfaces in Java 8?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- Functional interfaces like Function like Function, Consumer, Supplier, Predicate
-- All these are part of `java.util.function package`.
+- Consumer
+- Predicate
+- Function 
+- Supplier
 
 </blockquote>
 </details>
@@ -349,8 +420,40 @@ Example:
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- Example
-<code> StreamSupport.stream(iterable.spliterator(),false).forEach( stud -> { System.out.println(stud); }); </code>
+Lets have an example:
+```Java
+import java.util.*;
+import java.util.stream.*;
+class Main{
+    // Function to get the Stream
+    public static <T> Stream<T>
+    getStreamFromIterable(Iterable<T> iterable)
+    {
+        // Convert the Iterable to Spliterator
+        Spliterator<T>
+            spliterator = iterable.spliterator();
+        // Get a Sequential Stream from spliterator
+        return StreamSupport.stream(spliterator, false);
+    }
+    public static void main(String[] args)
+    {
+        // Get the Iterator
+        Iterable<Integer>
+            iterable = Arrays.asList(10,20,30,40,50);
+        // Get the Stream from the Iterable
+        Stream<Integer>
+            stream = getStreamFromIterable(iterable);
+        // Print the elements of stream
+        stream.forEach(s -> System.out.println(s));
+    }
+}
+```
+**Output**<br>
+10<br>
+20<br>
+30<br>
+40<br>
+50<br>
 
 </blockquote>
 </details>
@@ -473,13 +576,17 @@ The following is the expression for a method reference:
 
 The `now` method, which is a part of `LocalDate`, can be used to get the current date as shown below:
 
+    ```Java
     LocalDate currentDate = LocalDate.now();
     System.out.println(currentDate);
+    ```
 
 Similarly, it can also be used to get the current time:
 
+    ```Java
     LocalTime currentTime = LocalTime.now();
     System.out.println(currentTime);
+    ```
 
 </blockquote>
 </details>
@@ -512,13 +619,17 @@ Similarly, it can also be used to get the current time:
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <blockquote>
-@FunctionalInterface<br>
-public interface Function2<T, U, V> {<br>
-public V apply(T t, U u);<br>
-default void count() {<br>
-    // increment counter<br>
-}<br>
-}<br>
+
+```Java
+@FunctionalInterface
+public interface Function2<T, U, V> {
+public V apply(T t, U u);
+default void count() {
+    // increment counter
+}
+}
+```
+
 </blockquote>
 
 <details> <summary> <b> Show Answer </b> </summary>
@@ -542,11 +653,14 @@ The below piece of code sorts strings using the lambda expression:
 
 //Sorting using Java 8 lambda expression
 
+```Java
 private void sortUsingJava8(List<String> names) {
 
 Collections.sort(names, (s1, s2) -> s1.compareTo(s2));
 
 }
+```
+
 </blockquote>
 </details>
 
@@ -561,6 +675,7 @@ Collections.sort(names, (s1, s2) -> s1.compareTo(s2));
 
 Yes, it is possible to call a static method in a class by making use of the name as shown below:
 
+```Java
     interface Student {
         static void Present() {
         System.out.println("Student is there!");
@@ -572,6 +687,8 @@ Yes, it is possible to call a static method in a class by making use of the name
             Student.Present();
         }
     }
+```
+
 </blockquote>
 </details>
 
@@ -588,9 +705,11 @@ The `random` keyword, as the name suggests, is used to generate random values fo
 
 The following piece of code is used to print out 20 random numbers using the forEach loop:
 
+```Java
+
     Random random = new Random();
     random.ints().limit(20).forEach(System.out::println);
-
+```
 </blockquote>
 </details>
 
@@ -619,9 +738,11 @@ Collectors are mainly used to combine the final result after the processing of e
 
 In Java 8, the following code is used to print the sum of all of the numbers that are present in a list:
 
+```Java
     List<Integer> numbers = Arrays.asList(5, 4, 10, 12, 87, 33, 75);
     IntSummaryStatistics stats = integers.stream().mapToInt((x) −> x).summaryStatistics();
     System.out.println("Sum of all numbers : " + stats.getSum());
+```
 
 </blockquote>
 </details>
@@ -670,8 +791,9 @@ A supplier is a simple functional interface in Java 8 that does not take in any 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Just like a predicate, a consumer is a single argument functional interface present in Java 8. However, the consumer does not return any value and can be used for lambda expressions.
-
+- The Predicate is also a functional interface in Java and it is defined in the java.util.function package.
+- It improves the readability and manageability of our code. Also, it helps us in unit testing them separately.
+- We can use Predicate anywhere where we need to evaluate a condition on a Collection of objects such that evaluation can result either in true or false.
 </blockquote>
 </details>
 
@@ -707,11 +829,11 @@ There are many functional interface types in the standard library, and some of t
 
 The examples that are widely used in intermediate operations are:
 
-- Distinct()
-- Limit(long n)
-- Filter(Predicate)
-- Map(Function)
-- skip(long n)
+- `Distinct()`
+- `Limit(long n)`
+- `Filter(Predicate)`
+- `Map(Function)`
+- `skip(long n)`
 
 </blockquote>
 </details>
@@ -755,10 +877,11 @@ Duplicate elements can be listed and removed easily by applying stream operation
 
 Any array in Java 8 can be converted into a stream easily using the stream class. The creation of a stream using a factory method is as shown below:
 
+```Java
     String[] testarray = {"Hello", "Intellipaat", "learners"};
     Stream numbers = Stream.of(testarray);
     numbers.forEach(System.out::println);
-
+```
 </blockquote>
 </details>
 
@@ -794,8 +917,6 @@ Spliterator is a newly introduced iterator interface for Java 8. It is very effi
 
 ---
 
-
-
 46. Explain the different time and date APIs and when you may use them.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
@@ -803,14 +924,22 @@ Spliterator is a newly introduced iterator interface for Java 8. It is very effi
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-The new date and time API functions can be useful in coding projects, with each having its own benefits. `LocalDate` returns the date on the accessing machine in year, month and day format, and a company may use it to display special messages on a holiday. LocalTime provides the current time for the accessing machine, which allows you to customize actions throughout the day, such as displaying a lunch or dinner menu to a user. Finally, LocalDateTime combines both, allowing for options such as a gym showing a message about current and upcoming classes  that adjusts to the time and day.
+- Important classes of Date-Time API are:
+    - Local: It is used to simplify the date-time API with no complexity of timezone handling.
+    - Zonal: It is a specialized date-time API to deal with various timezones.
 
+- Java LocalDate Time Class:
+    - It is an immutable date-time object that represents a date-time, with the default format as yyyy-MM-dd-HH-mm-ss.zzz. It is used when time zones are NOT required.
+
+- ZonedDate Time Class in Java:
+    - It is an immutable representation of a date-time with a time-zone. Use it when time zones are to be considered. It is used to store all date and time fields.
+    
 </blockquote>
 </details>
 
 ---
 
-47. How to convert String to `LocalDate`, `LocalDateTime` in Java ?
+47. In Java, how do you convert a String to a LocalDate or a LocalDateTime? ?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -820,9 +949,10 @@ The Java 8 `LocalDate-Time API` includes a `parse()` method, which can be used t
 
 For example,
 
+```Java
     LocalDate newDate = LocalDate.parse("2016-08-23");
     System.out.println("Parsed date : " + newDate);
-
+```
 </blockquote>
 </details>
 
@@ -851,8 +981,11 @@ For example,
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-A functional interface cannot extend another interface with abstract methods as it will void the rule of one abstract method per functional interface. E.g:
+A functional interface cannot extend another interface with abstract methods as it will void the rule of one abstract method per functional interface. 
 
+Example:
+
+```Java
     interface Parent { 
         public int parentMethod(); 
     } 
@@ -863,7 +996,7 @@ A functional interface cannot extend another interface with abstract methods as 
             // Hence it will have more than one abstract method 
             // And will give a compiler error 
         }
-
+```
 It can extend other interfaces which do not have any abstract method and only have the default, static, another class is overridden, and normal methods.
 
 </blockquote>
