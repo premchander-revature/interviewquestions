@@ -49,7 +49,7 @@
   - Small change in monolithic application requires the **redeployment of the entire project**.
   - **Difficult to change framework/language** hence barrier to technology adoption.
   - Developer are **constrained by the technologies already used** in the monolith.
-  - Due to one **smallest error the entire applications can be **down and unavailable**.
+  - Due to one **smallest error the entire applications can be down and unavailable**.
 </blockquote> 
 
 </details>
@@ -407,7 +407,7 @@ public class ProducerEureka2 {
 
 ---
 
-16. What is the difference between @EnableDiscoveryClient and @EnableEurekaClient?
+18. What is the difference between @EnableDiscoveryClient and @EnableEurekaClient?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -426,7 +426,7 @@ public class ProducerEureka2 {
 
 ---
 
-17. How to fetch service url from `Service Discovery` server using `DiscoveryClient`?
+19. How to fetch service url from `Service Discovery` server using `DiscoveryClient`?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -456,8 +456,10 @@ public class ProducerEureka2 {
 </blockquote> 
 
 </details>
+
 ---
-1.  What do you understand by load balancing?
+
+20. What do you understand by load balancing?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -472,7 +474,8 @@ public class ProducerEureka2 {
 </details>
 
 ---
-19. Do you know which are two types of load balancing techniques?
+
+21. Do you know which are two types of load balancing techniques?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -489,7 +492,7 @@ public class ProducerEureka2 {
 </details>
 
 ---
-20. What is use of Netflix Ribbon?
+22. What is use of Netflix Ribbon?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -506,7 +509,7 @@ public class ProducerEureka2 {
 </details>
 
 ---
-21. How to configure & use Netflix Ribbon in Spring application?
+23. How to configure & use Netflix Ribbon in Spring application?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -554,7 +557,7 @@ public class ProducerEureka2 {
 </details>
 
 ---
-22. What do you understand by Circuit Breaker?
+24. What do you understand by Circuit Breaker?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -571,7 +574,7 @@ public class ProducerEureka2 {
 </details>
 
 ---
-23. How Spring Cloud supports Circuit Breaker?
+25. How Spring Cloud supports Circuit Breaker?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -588,7 +591,7 @@ public class ProducerEureka2 {
 </details>
 
 ---
-24. Which circuit breaker implementations does Spring cloud supports?
+26. Which circuit breaker implementations does Spring cloud supports?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -603,7 +606,7 @@ public class ProducerEureka2 {
 
 ---
 
-25. How to configure and use Netflix Hystrix?
+27. How to configure and use Netflix Hystrix?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -690,7 +693,7 @@ public class ProducerEurekaHystrix {
 </details>
 
 ---
-26. What do you understand by `API Gateway`?
+28. What do you understand by `API Gateway`?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -716,7 +719,7 @@ public class ProducerEurekaHystrix {
 </details>
 
 ---
-27. What is use of Netflix Zuul?
+29. What is use of Netflix Zuul?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -735,7 +738,7 @@ public class ProducerEurekaHystrix {
 </details>
 
 ---
-28. How to configure and use Netflix Zuul in Spring cloud application?
+30. How to configure and use Netflix Zuul in Spring cloud application?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -819,7 +822,7 @@ public class EmployeeZuulGatwayApplication {
 </details>
 
 ---
-29. What are Zuul Filter & its types?
+31. What are Zuul Filter & its types?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -830,16 +833,16 @@ public class EmployeeZuulGatwayApplication {
 - Netflix Zuul mainly comprises of four types of filters.
 - Filter enable us to intercept the traffic in different timeline of the request processing. 
 - We can add any number of filters for a particular url pattern.
-  - Pre filters – Invoked before the request is routed.
-  - Post filters – Invoked after the request has been routed.
-  - Route filters – Used to route the request.
-  - Error filters – Invoked when an error occurs while handling the request.
+  - `Pre filters` – Invoked before the request is routed.
+  - `Post filters` – Invoked after the request has been routed.
+  - `Route filters` – Used to route the request.
+  - `Error filters` – Invoked when an error occurs while handling the request.
 </blockquote> 
 
 </details>
 
 ---
-30.  What is meaning of Blue/Green Deployments?
+32.  What is meaning of Blue/Green Deployments?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
