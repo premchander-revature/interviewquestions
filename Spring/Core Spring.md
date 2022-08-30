@@ -8,7 +8,9 @@
 
 <blockquote> 
     
-- Core business component defined insider Spring applications is termed as `Bean`. Each technology has branded their core business components by certain nomenclature. For example, Business component in `JavaEE` applications are termed as `Servlet`, in `Web Services` they are named as `Resource` in `Struts` framework they are called `ActionForm` etc.
+- Core business component defined insider Spring applications is termed as `Bean`. 
+- In simple terms `Bean` is an object that is instantiated, assembled, and managed by a Spring IoC container.
+- Each technology has branded their core business components by certain nomenclature. For example, Business component in `JavaEE` applications are termed as `Servlet`, in `Web Services` they are named as `Resource` in `Struts` framework they are called `ActionForm` etc.
 </blockquote> 
 
 </details>
@@ -261,27 +263,35 @@ public class App {
     ```java
     @Component("employeeDtoForReport")  // Bean id - employeeDtoForReport
     public class EmployeeDto{
-    ....
+    //.....
     }
 
     @RestController // Bean id - employeeRestController 
     public class EmployeeRestController {
-    ....
+    //.....
     }
 
     @Repository   //Bean id - DepartmentRepository 
     public interface DepartmentRepository extends JpaRepository<Department, Long> {
-    ....
+    //.....
     }
 
     @Service //Bean id - employeeServiceImpl
     public class EmployeeServiceImpl implements EmployeeService {
-    ....
+    //.....
     }
 
     @Controller
     public class PayrollController {
-    ....
+    //.....
+    }
+    
+    @Configuration
+    public class AppConfig {
+        @Bean 
+        public void beanName(){   
+            //.....
+        }
     }
     ```
 </blockquote> 
@@ -297,8 +307,10 @@ public class App {
     
 <blockquote> 
 
+- Database connections are expensive operation.
 - A connection pool is like a collection of open connections. 
-- If a connection is established or created it should be added to the connection pool, and if that connection is closed it should be removed in connection pool.
+- If a connection is established or created it should be added to the connection pool.
+- When a connection is released, it's actually returned back to the pool, so other clients can reuse it.
 - While the connection is open it can be used again and again.
 - Spring support connection pooling by supporting configuration of DataSource inside application.
 - Spring provides `DriverManagerDataSource` for testing application during development phase.
@@ -383,7 +395,7 @@ public class App {
 
 ---
 
-8. What is usual cause of org.springframework.beans.factory.NoUniqueBeanDefinitionException?
+8. What is usual cause of `org.springframework.beans.factory.NoUniqueBeanDefinitionException`?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -445,12 +457,12 @@ public class App {
 - Similarly, you might need to clean up resources before a bean is removed from the container.
 - These actions can be achieved by configuring Init and Destroy lifecycle hooks into Spring application.
 - `@PostConstruct` Annotation:
-    - Whenever we annotate a method in Spring Bean with @PostConstruct annotation, it gets executed after the spring bean is initialized. 
-    - We can have only one method annotated with @PostConstruct annotation. 
+    - Whenever we annotate a method in Spring Bean with `@PostConstruct` annotation, it gets executed after the spring bean is initialized. 
+    - We can have only one method annotated with `@PostConstruct` annotation. 
 - `@PreDestroy` Annotation: 
     - When we annotate a Spring Bean method with PreDestroy annotation, it gets called when the bean instance is getting removed from the context.
     - Note: if your spring bean scope is `Prototype` then it’s not completely managed by the spring container and the PreDestroy method won’t get called. 
-- Both of the above annotation are part of Common Annotations API and it’s part of JDK module javax.annotation-api. 
+- Both of the above annotation are part of Common Annotations API and it’s part of JDK module `javax.annotation-api`. 
 - Lets look at simple example below:
 - `MailService.java` file-
 ```java
@@ -467,16 +479,13 @@ import org.springframework.stereotype.Component;
 @Scope(scopeName = ConfigurableBeanFactory.SCOPE_SINGLETON)
 public class MailService {
    private Map<String, String> map=null;
-   
    public MailService() {
       map=new HashMap<>();
    }
-
    public void send(String mailTo){
       //Send mail code
       System.out.println("Inside send email method - "+mailTo);
    }
-   
    @PostConstruct
    public void init() {
       map.put("host", "mail.gd.com");
@@ -484,14 +493,12 @@ public class MailService {
       map.put("from", "example@gd.com");
       System.out.println("Inside init method - "+map);
    }
-
    @PreDestroy
    public void destroy() {
       map.clear();
       System.out.println("Inside destroy method - "+map);
    }
 }
-
 ```
 - `MainApp.java` file-
 
@@ -504,15 +511,12 @@ public class MainApp {
    public static void main(String[] args) {
       AnnotationConfigApplicationContext context = 
             new AnnotationConfigApplicationContext(AppConfig.class);
-      
       // Send mail 1
       MailService mailService1 = (MailService) context.getBean("mailService");
       mailService1.send("coupancodes@gd.com");
-
       // Send mail 2
       MailService mailService2 = context.getBean(MailService.class);
       mailService2.send("newletters@gd.com");
-
       context.close();
    }
 }
