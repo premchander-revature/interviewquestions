@@ -175,7 +175,7 @@ src
 </details>
 
 ---
-8. Which `pom.xml` file inside Spring Boot ramework defines versions of all preconfigured dependencies?
+8. Which `pom.xml` file inside Spring Boot framework defines versions of all preconfigured dependencies?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
