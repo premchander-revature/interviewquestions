@@ -21,8 +21,7 @@ JUnit helps to test individual pieces of code, or “units,” to ensure that th
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-*** Import features of JUnit are: ***
-
+**Important features of JUnit are:**
 - It is an open source framework.
 - Provides Annotation to identify the test methods.
 - Provides Assertions for testing expected results.
@@ -166,7 +165,7 @@ There are mainly three types of tools that play a pivotal role in the integratio
 <blockquote>
 
 - In JUnit, it is unnecessary to write a test case for every logic but only for those that can be reasonably broken. 
-- A unit test case would comprise a collection of input data and expected output. The org.junit package contains several classes and interfaces to help you in unit testing, such as Assert, Test, Before, After, etc. 
+- A unit test case would comprise a collection of input data and expected output. The org.JUnit package contains several classes and interfaces to help you in unit testing, such as Assert, Test, Before, After, etc. 
 
 </blockquote>
 </details>
@@ -252,26 +251,26 @@ In the `protected` method, test class and target class are declared in the same 
 
 ---
 
-17. What do you understand by JUnit classes? List some of Junit classes.
+17. What do you understand by JUnit classes? List some of JUnit classes.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-JUnit classes are those classes which are used in writing and testing Junit programs. Some of the important Junit classes are mentioned below –
+JUnit classes are those classes which are used in writing and testing JUnit programs. Some of the important JUnit classes are mentioned below –
 
 `Assert` – A set of assert methods.
 `TestCase` − A test case that defines the fixture to run multiple tests.
 `TestResult` − It contains methods that collect the results after a test case is executed.
-`TestSuite` − It is an aggregate of Junit tests.
+`TestSuite` − It is an aggregate of JUnit tests.
 
 </blockquote>
 </details>
 
 ---
 
-18.  What is Junit Test Fixture?
+18.  What is JUnit Test Fixture?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -295,16 +294,16 @@ Fixture is a fixed state of a set of objects used as a baseline for running test
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-The first step is to download JUnit 5, the latest version of JUnit ( it would be a file named junit.zip). We would be required to unzip the distribution file to a directory, `%JUNIT_HOME%`. Then, we would add JUnit to the classpath. 
+The first step is to download JUnit 5, the latest version of JUnit ( it would be a file named JUnit.zip). We would be required to unzip the distribution file to a directory, `%JUnit_HOME%`. Then, we would add JUnit to the classpath. 
 
-Next, we would test the installation. This would involve running sample tests (located not in the junit.jar file, but the installation directory) distributed with Junit. Lastly, we would confirm that all the tests pass with an “OK” message. If they don’t, we would go back and verify whether junit.jar is in the classpath.  
+Next, we would test the installation. This would involve running sample tests (located not in the JUnit.jar file, but the installation directory) distributed with JUnit. Lastly, we would confirm that all the tests pass with an “OK” message. If they don’t, we would go back and verify whether JUnit.jar is in the classpath.  
 
 </blockquote>
 </details>
 
 ---
 
-20. Name some Junit extensions?
+20. Name some JUnit extensions?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -380,7 +379,7 @@ The parameterized test is a new feature introduced in JUnit 4. It provides the f
 
 ---
 
-25. What are Annotations and how are they are useful in Junit?
+25. What are Annotations and how are they are useful in JUnit?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -394,7 +393,7 @@ Annotations are like meta-tags that you can add to you code and apply them to me
 
 ---
 
-26. In Java, `Assert` is a keyword. Won't this conflict with Junit's `Assert()` Method?
+26. In Java, `Assert` is a keyword. Won't this conflict with JUnit's `Assert()` Method?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -422,7 +421,7 @@ Debugging the code using `System.out.println()` will lead to manual scanning of 
 
 ---
 
-28. How will you run Junit from command window?
+28. How will you run JUnit from command window?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -433,14 +432,14 @@ Debugging the code using `System.out.println()` will lead to manual scanning of 
 Follow the steps below −
 
 Set the CLASSPATH
-Invoke the runner   `−java org.junit.runner.JUnitCore `
+Invoke the runner   `−java org.JUnit.runner.JUnitCore `
 
 </blockquote>
 </details>
 
 ---
 
-29. What is the purpose of `Org.junit.assert` class?
+29. What is the purpose of `org.JUnit.jupiter.api.Assertions` class?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -454,7 +453,7 @@ This class provides a set of assertion methods useful for writing tests. Only fa
 
 ---
 
-30. What is the purpose of `Org.junit.testresult` Class?
+30. What is the purpose of `org.JUnit.testresult` Class?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -468,7 +467,7 @@ A TestResult collects the results of executing a test case. It is an instance of
 
 ---
 
-31. What is the purpose of `Org.junit.testsuite` Class?
+31. What is the purpose of `org.JUnit.testsuite` Class?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -482,63 +481,76 @@ A TestSuite is a composite of tests. It runs a collection of test cases.
 
 ---
 
-32.  What is the purpose of `@before` Annotation In Junit?
+32.  What is the purpose of `@BeforeEach` Annotation In JUnit?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Several tests need similar objects created before they can run. Annotating a public void method with `@Before` causes that method to be run before each Test method.
+Several tests need similar objects created before they can run. Annotating a public void method with `@BeforeEach` causes that method to be run before each Test method.
 
 </blockquote>
 </details>
 
 ---
 
-33.  What is the purpose of `@after` annotation in Junit?
+33.  What is the purpose of `@AfterAll` annotation in JUnit?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-If you allocate external resources in a Before method you need to release them after the test runs. Annotating a public void method with `@After` causes that method to be run after the Test method.
+If you allocate external resources in a Before method you need to release them after the test runs. Annotating a public void method with `@AfterAll` causes that method to be run after the Test method.
+```Java
+@AfterAll
+    public static void runsAfterEverything(){
+        System.out.println("Finished Running a Test Class");
+    }
 
+```
 </blockquote>
 </details>
 
 ---
 
-34. What is the purpose of `@beforeclass` annotation in Junit?
+34. What is the purpose of `@BeforeAll` annotation in JUnit?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Annotating a public static void method with `@BeforeClass` causes it to be run once before any of the test methods in the class.
+Annotating a public static void method with `@BeforeAll` causes it to be run once before any of the test methods in the class.
+```Java
+ @BeforeAll
+    public static void runsBeforeEverything(){
+        System.out.println("Running a Test Class");
+    }
+```
 
 </blockquote>
 </details>
 
 ---
 
-35. What is the purpose of `@afterclass` annotation in Junit?
+35. What is the purpose of `assertTrue()` and `assertFalse()` in JUnit?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-This will perform the method after all tests have finished. This can be used to perform clean-up activities.
+The `assertTrue()` asserts that the supplied condition is true or boolean condition supplied by BooleanSupplier is true.
+Similarly, `assertFalse()` asserts that supplied condition is false.
 
 </blockquote>
 </details>
 
 ---
 
-36. What is `@ignore` annotation and how is this useful?
+36. What is `@Disable` annotation and how is this useful?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -546,16 +558,25 @@ This will perform the method after all tests have finished. This can be used to 
 <blockquote>
 
 
-We can easily identify all `@Ignore` annotations in the source code, while unannotated or commented out tests are not so simple to find.
+To disable a test in JUnit 5, you will need to use `@Disabled` annotation. It is equivalent to JUnit 4’s `@Ignored` annotation.
 
-There are cases when we can't fix a code that is failing, but we still want to method to be around, precisely so that it does not get forgotten. In such cases `@Ignore` makes sense.
+`@Disabled` annotation can be applied over test class (disables all test methods in that class) or individual test methods as well.
+```Java
+@Disabled
+@Test
+void testCalcTwo()
+{
+	System.out.println("======TEST TWO EXECUTED=======");
+	Assertions.assertEquals( 6 , Calculator.add(2, 4));
+}
+```
 
 </blockquote>
 </details>
 
 ---
 
-37. Explain the execution procedure of the Juint test Api methods?
+37. Explain the execution procedure of the JUnit test API methods?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -564,18 +585,21 @@ There are cases when we can't fix a code that is failing, but we still want to m
 
 Following is how the JUnit execution procedure works −
 
-   - First of all method annotated as `@BeforeClass` execute only once.
-   - Lastly, the method annotated as `@AfterClass` executes only once.
-   - Method annotated as `@Before` executes for each test case but before executing the test case.
-   - Method annotated as `@After` executes for each test case but after the execution of test case.
-   - In between method annotated as `@Before` and method annotated as `@After` each test case executes.
+- The method annotated with `@BeforeAll` is executed once at the start of the class.
+- The method annotated with `@BeforeEach` executes before Testcase 1 begins.
+- The method Testcase1 annotated with @Test is the testcase in the class.
+- The method annotated with `@AfterEach` runs after Testcase 1 completes execution.
+- The method annotated with `@BeforeEach` executes before Testcase 2 begins.
+- The method Testcase2 annotated with `@Test` is the testcase in the class.
+- The method annotated with `@AfterEach` runs after Testcase 2 completes execution.
+- The method annotated with `@AfterAll` is executed once at the end of the class after both testcase 1 and 2 are executed.
 
 </blockquote>
 </details>
 
 ---
 
-38. What is the purpose of `Org.junit.junitcore` Class?
+38. What is the purpose of `Org.JUnit.JUnitcore` Class?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -589,21 +613,21 @@ The test cases are executed using JUnitCore class. JUnitCore is a facade for run
 
 ---
 
-39. How to simulate timeout situation In Junit?
+39. How to simulate timeout situation In JUnit?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Junit provides a handy option of Timeout. If a test case takes more time than specified number of milliseconds then Junit will automatically mark it as failed. The timeout parameter is used along with `@Test` annotation.
+JUnit provides a handy option of Timeout. If a test case takes more time than specified number of milliseconds then JUnit will automatically mark it as failed. The timeout parameter is used along with `@Test` annotation.
 
 </blockquote>
 </details>
 
 ---
 
-40. How can you use Junit to test that the code throws desired exception?
+40. How can you use JUnit to test that the code throws desired exception?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -624,21 +648,39 @@ JUnit provides a option of tracing the Exception handling of code. You can test 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-There are five steps, that you need to follow to create Parameterized tests−
+Following are the steps to create parameterized tests in JUnit5:
+- Declare `@ParameterizedTest` to the test.
+- Declare at least one source (example – `@ValueSource`) that will provide the arguments for each invocation of test.
+- Consume the arguments in the test method .
+- JUnit 5 parameterized test maven dependency : We need `junit-jupiter-params` maven dependencies to support parameterized tests.
 
-  - Annotate test class with `@RunWith(Parameterized.class)`.
-  - Create a public static method annotated with `@Parameters` that returns a Collection of Objects (as Array) as test data set.
-  - Create a public constructor that takes in what is equivalent to one "row" of test data.
-  - Create an instance variable for each "column" of test data.
-  - Create the tests case(s) using the instance variables as the source of the test data.
-  - The test case will be invoked once per each row of data. 
+```Java
+public class Junit5_Parameterized_Test {
+  
+  // This test will run sequentially 5 times with 1 argument each time
+    @ParameterizedTest
+    @ValueSource(ints = {8,4,2,6,10})
+    void test_int_arrays(int arg) {
+      System.out.println("arg => "+arg);
+        assertTrue(arg % 2 == 0);
+    }   
+}
+```
+**Output**
+
+arg => 8<br>
+arg => 4<br>
+arg => 2<br>
+arg => 6<br>
+arg => 10<br>
+
 
 </blockquote>
 </details>
 
 ---
 
-42. How to compile a Junit Test Class?
+42. How to compile a JUnit Test Class?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -652,7 +694,7 @@ Compiling a JUnit test class is like compiling any other Java classes. The only 
 
 ---
 
-43. What happens if a Junit test method is declared as "private"?
+43. What happens if a JUnit test method is declared as "private"?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -723,28 +765,32 @@ No there is no time constraint. A JUnit test needs to run whenever there is a ch
 
 ---
 
-48. What is the use of `@Rule` annotation?
+48. What is the annotation we have in JUnit 5 as a replacement for @Rule in JUnit 4?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-`@Rule` annotation is used for creating objects, which later can be used in test methods.
+- `@ExtendWith`	is replacement fro `@Rule`.
+- `@Rule` is extended from the class TestRule that helps apply certain rules on the test cases.
+  - For Example: creating a temporary folder prior to test case execution and deleting the folder post-execution can be set through a Rule.
+- `@Rule` is available only in JUnit 4 which can be used in JUnit 5 Vintage, however, `@ExtendWith` provides a closer feature for JUnit 5
 
 </blockquote>
 </details>
 
 ---
 
-49. What does `@Rule` annotation do?
+49. What does `@TestFactory` annotation do?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-It allows us to create JUnit rules, which can be used to add or redefine the behaviour of each test method in a test class. We can write our own rules using `@Rule` annotation.
+- This annotation supported by JUnit 5 only and helps creation of dynamic or runtime tests.
+- It returns a stream of data as collection and cannot use lifecycle callback annotations
 
 </blockquote>
 </details>
@@ -795,10 +841,116 @@ JUnit is used because:
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-`assert()` is used to compare actual and expected results in JUnit. It has various implementations like assertEquals,assertArrayEquals,assertFalse, assertNotNull, etc.
+`assert()` is used to compare actual and expected results in JUnit. It has various implementations like `assertEquals()`,`assertArrayEquals()`,`assertFalse()`, `assertNotNull()`, etc.
 
 </blockquote>
 </details>
 
 ---
 
+53. Differentiate TDD and BDD ?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+The key difference is the scope. TDD is a development practice while BDD is a team methodology. In TDD, the developers write the tests while in BDD the automated specifications are created by users or testers (with developers wiring them to the code under test.) 
+
+</blockquote>
+</details>
+
+---
+
+54. Why do we need Unit testing ?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+- Unit tests help to fix bugs early in the development cycle and save costs.
+- It helps the developers to understand the testing code base and enables them to make changes quickly.
+- Good unit tests serve as project documentation.
+- Unit tests help with code re-use. Migrate both your code and your tests to your new project. Tweak the code until the tests run again.
+
+</blockquote>
+</details>
+
+---
+
+55. What is the purpose of Assumptions in JUnit5? 
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Assumptions provide static methods to support conditional test execution based on assumptions. A failed assumption results in a test being aborted.
+
+Assumptions are typically used whenever it does not make sense to continue the execution of a given test method. In the test report, these tests will be marked as passed.
+
+Assumptions class has three methods with many overloaded forms:
+
+`assumeFalse()`: validates the given assumption to be false.
+`assumeTrue()`: validates the given assumption to be true.
+`assumingThat()`: executes the supplied Executable, but only if the supplied assumption is valid.
+```Java
+@Test
+void testOnDev()
+{
+    System.setProperty("ENV", "DEV");
+    Assumptions.assumeTrue("DEV".equals(System.getProperty("ENV")));
+    //remainder of test will proceed
+}
+
+@Test
+void testOnProd()
+{
+    System.setProperty("ENV", "PROD");
+    Assumptions.assumeTrue("DEV".equals(System.getProperty("ENV")));
+    //remainder of test will be aborted
+}
+```
+
+</blockquote>
+</details>
+
+---
+
+56. Can we have Non-Public test methods in JUnit 5?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+- JUnit 5 test classes and test methods are not required to be public. We can now make them package protected.
+- JUnit internally uses reflection to find test classes and test methods. Reflection can discover them even if they have limited visibility, so there is no need for them to be public.
+
+</blockquote>
+</details>
+
+---
+
+57. What is the purpose of `@RepeatedTest` annotation in JUnit 5?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+JUnit Jupiter provides the ability to repeat a test a specified number of times by annotating a method with `@RepeatedTest` and specifying the total number of repetitions desired. 
+
+Below is the example of `@RepeatedTest` in JUnit5.
+```Java
+@RepeatedTest(3)
+void repeatedTestWithRepetitionInfo1(RepetitionInfo repetitionInfo) {
+    assertEquals(3, repetitionInfo.getTotalRepetitions());
+}
+```
+
+</blockquote>
+</details>
+
+---
