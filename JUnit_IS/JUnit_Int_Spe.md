@@ -421,18 +421,16 @@ Debugging the code using `System.out.println()` will lead to manual scanning of 
 
 ---
 
-28. How will you run JUnit from command window?
+28. How will you run JUnit 5 test?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-
-Follow the steps below −
-
-Set the CLASSPATH
-Invoke the runner   `−java org.JUnit.runner.JUnitCore `
+- We can run a JUnit 5 test case using JUnit's console launcher. The executable for this jar can be downloaded from Maven Central, under the `junit-platform-console-standalone` directory.
+- Also, we'll need a directory that will contain all our compiled classes:
+`$ mkdir target`
 
 </blockquote>
 </details>
@@ -599,7 +597,7 @@ Following is how the JUnit execution procedure works −
 
 ---
 
-38. What is the purpose of `Org.JUnit.JUnitcore` Class?
+38. What is the purpose of `org.JUnit.JUnitcore` Class?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -696,7 +694,7 @@ Compiling a JUnit test class is like compiling any other Java classes. The only 
 
 43. What happens if a JUnit test method is declared as "private"?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -710,7 +708,7 @@ If a JUnit test method is declared as "private", it compiles successfully. But t
 
 44. Can you use a `main()` method for Unit testing?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -724,7 +722,7 @@ Yes we can test using `main()` method. One obvious advantage seems to be that we
 
 45. Do you need to write a Test Class for every class that needs to be tested?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -739,7 +737,7 @@ No. We need not write an independent test class for every class that needs to be
 46. Can we change return type of JUnit test method from void to some other type ?
 
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
