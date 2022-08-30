@@ -1,6 +1,6 @@
 ## Technical
 
-1. Why we need Spring JDBC when we already have Java JDBC?
+1. Why we need `Spring JDBC` when we already have Java JDBC?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -8,16 +8,16 @@
 
 <blockquote> 
     
-- JDBC is core API to connect your java application with any database vendor.
-- When we uses Java JDBC there are multiple configuration steps, starting from loading driver till closing the DB connection developer has to manage.
-- When we use Spring JDBC module under Spring framework, it takes care of all low level common JDBC operation and allows developer to focus only on business logic.
+- `JDBC` is core API to connect your java application with any database vendor.
+- When we uses Java `JDBC` there are multiple configuration steps, starting from loading driver till closing the DB connection developer has to manage.
+- When we use `Spring JDBC` module under Spring framework, it takes care of all low level common `JDBC` operation and allows developer to focus only on business logic.
 </blockquote> 
 
 </details>
 
 ---
 
-2. What is DataSource in Java application?
+2. What is `DataSource` in Java application?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -25,15 +25,15 @@
 
 <blockquote> 
     
-- DataSource is a factory for connections to the physical data source.
-- In enterprise application DataSource object is the preferred means of getting a connection to your database.
+- `DataSource` is a factory for connections to the physical data source.
+- In enterprise application `DataSource` object is the preferred means of getting a connection to your database.
 </blockquote> 
 
 </details>
 
 ---
 
-2. What are three types of implementations of DataSource in Java application?
+2. What are three types of implementations of `DataSource` in Java application?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -41,7 +41,7 @@
 
 <blockquote> 
     
-- The DataSource interface is implemented by a driver vendor. There are three types of implementations:
+- The `DataSource` interface is implemented by a driver vendor. There are three types of implementations:
     - `Basic implementation` - produces a standard Connection object
     - `Connection pooling implementation` -- produces a Connection object that will automatically participate in connection pooling. 
     - `Distributed transaction implementation` -- produces a Connection object that may be used for distributed transactions and almost always participates in connection pooling. 
@@ -59,7 +59,7 @@
 <blockquote> 
     
 - `Connection pooling` is a technique of creating and managing a pool of connections that are reused rather than created each time a connection is requested. 
-- Connection pooling can greatly increase the performance of your Java application, while reducing overall resource usage.
+- `Connection pooling` can greatly increase the performance of your Java application, while reducing overall resource usage.
 -  Connection pool is a memory cache of database connections which is maintained by a connection pooling provider as a layer on top of any standard JDBC driver.
 </blockquote> 
 
@@ -74,8 +74,8 @@
 
 <blockquote> 
     
-- Spring Boot uses HikariCP as the default connection pool.
-- HikariCP has great performance and concurrency.
+- `Spring Boot` uses `HikariCP` as the default connection pool.
+- `HikariCP` has great performance and concurrency.
 </blockquote> 
 
 </details>
@@ -115,8 +115,8 @@
 - Spring Boot uses the following algorithm for choosing a specific implementation:
     - If HikariCP is available, Spring always chooses it.
     - Otherwise, if the Tomcat pooling DataSource is available, Spring will use it.
-    - Otherwise, if Commons DBCP2 is available, Spring will use that.
-- If none of HikariCP, Tomcat, and DBCP2 are available and if Oracle UCP is available, Spring will use it.
+    - Otherwise, if Commons `DBCP2` is available, Spring will use that.
+- If none of `HikariCP`, `Tomcat`, and `DBCP2` are available and if `Oracle UCP` is available, Spring will use it.
 </blockquote> 
 
 </details>
@@ -158,7 +158,7 @@
 </details>
 
 ---
-9. What configurations does Spring JDBC & developer need to perform in application?
+9. What configurations does `Spring JDBC` & developer need to perform in application?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
