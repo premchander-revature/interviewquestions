@@ -810,6 +810,11 @@ There are different methods of exception handling in JUnit
 - With catch exception library
 - With customs annotation
 
+</blockquote>
+</details>
+
+---
+
 51. Explain who should use JUnit – a developer or tester? Why do you use JUnit to test your code?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
