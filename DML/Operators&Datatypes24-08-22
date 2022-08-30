@@ -1,0 +1,1270 @@
+1.Which operator is used in query for pattern matching?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+`LIKE` operator is used for pattern matching, and it can be used as -.
+
+% – Matches zero or more characters.
+
+_(Underscore) – Matching exactly one character.
+Example:
+
+```sql
+
+Select * from Student where studentname like 'a%'
+
+```
+
+```sql
+
+Select * from Student where studentname like 'ami_'
+
+```
+
+</blockquote>
+
+</details>
+
+2.What are the types of String Operators?
+
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+the types of String Operators is used For concatenation and pattern matching of strings are,
+
++ (String concatenation)
+
++= (String concatenation assignment)
+
+% (Wildcard)
+
+[] (Character(s) matches)
+
+[^] (Character(s) not to match)
+
+_ (Wildcard match one character)
+
+</blockquote>
+
+</details>
+
+3.Predict the output for the following query by using INITCAP String Operation.
+
+The given String is 'hELLO'. for Example: The String should predict the output as 'Hello'.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+Example:
+
+```sql
+
+SELECT Initcap('hELLO') from String
+
+```
+
+The Output is:
+
+Hello
+
+<details>
+<summary><b> Explanation </b></summary>
+
+<blockquote>
+
+`INITCAP` converts the first letter of the string to uppercase and retains others in lowercase and the Syntax for Initcap function is,
+
+```sql
+
+Initcap(‘sTRING’)
+
+```
+
+</blockquote>
+
+</details>
+</details>
+
+4.Predict the output for the following query by using Length function.
+
+The given String is 'Happy'. for Example: The String should predict the output as 5.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+Example:
+
+```sql
+
+SELECT LENGTH(‘Hello World’) from String
+
+```
+Output:
+
+11
+
+<details>
+<summary><b> Explanation </b></summary>
+
+<blockquote>
+
+`LENGTH` is used to get the length of a string and the Syntax for finding the length is,
+
+```sql
+
+LENGTH(‘String’)
+
+```
+
+</blockquote>
+
+</details>
+</details>
+
+5.What is the use of the `INTERSECT` operator with an Example?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+Only data shared by both select statements are returned when using the `INTERSECT` operator to combine two select statements. We will only receive records that are similar to the results of the select statements of Table 1 and Table 2  and if we apply the `INTERSECT` operator to these two tables after getting Table 1 and Table 2 over here.
+
+Now, Let us see  an Example for `INTERSECT` Operator
+
+Table 1: Student_Details1
+
+| S_Id 	| S_Name 	| S_Marks 	|
+|-------|-----------|-----------|
+| 1    	| Sam    	| 98      	|
+| 2    	| Bob    	| 76      	|
+| 3    	| Annie  	| 85      	|
+| 4    	| Julie  	| 77      	|
+
+Table 2: Student_Details2
+
+
+| S_Id 	| S_Name 	| S_Marks 	|
+|------	|--------	|---------	|
+| 1    	| Sam    	| 98      	|
+| 6    	| John   	| 88      	|
+| 3    	| Annie  	| 85      	|
+| 8    	| Jack   	| 57      	|
+
+
+
+The Output for the following query is,
+
+| S_Id 	| S_Name 	| S_Marks 	|
+|------	|--------	|---------	|
+| 1    	| Sam    	| 98      	|
+| 3    	| Annie  	| 85      	|
+
+
+</blockquote>
+
+<details>
+<summary><b> Explanation </b></summary>
+
+<blockquote>
+
+Step1: Take 2 tables and table_name is Student_Details1 and Student_Details2 and Insert the datas in the two tables.
+Step2: Then Insersect (Which is same in table1 and table2) take the comman datas and represents the output.
+
+The Syntax for Intersect Operator is,
+
+```sql
+
+select * from student_details1
+intersect
+select * from student_details2
+
+```
+
+</blockquote>
+
+</details>
+</details>
+
+6. What is Union Operator and  Explain with an Example?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+The `UNION` operator is used to merge the result that set of two or more select statements.
+
+For example, the first select statement returns the records shown in table1, and the second statement returns the records shown in table2. The Union operator will then return the result of the two select statements as shown in table1 U table2. If there is a record present in both tables, then we will get only one of them in the final result.
+
+Now, Let us see  an Example for `UNION` Operator
+
+Table 1: Student_Details1
+
+| S_Id 	| S_Name 	| S_Marks 	|
+|-------|-----------|-----------|
+| 1    	| Sam    	| 98      	|
+| 2    	| Bob    	| 76      	|
+| 3    	| Annie  	| 85      	|
+| 4    	| Julie  	| 77      	|
+
+Table 2: Student_Details2
+
+| S_Id 	| S_Name 	| S_Marks 	|
+|------	|--------	|---------	|
+| 1    	| Sam    	| 98      	|
+| 6    	| John   	| 88      	|
+| 3    	| Annie  	| 85      	|
+| 8    	| Jack   	| 57      	|
+
+</blockquote>
+
+```sql
+
+select * from student_details1
+UNION
+select * from student_details2
+
+```
+
+Output:
+
+| S_Id 	| S_Name 	| S_Marks 	|
+|-------|-----------|-----------|
+| 1    	| Sam    	| 98      	|
+| 2    	| Bob    	| 76      	|
+| 3    	| Annie  	| 85      	|
+| 4    	| Julie  	| 77      	|
+| 6    	| John   	| 88      	|
+| 8    	| Jack   	| 57      	|
+
+</blockquote>
+
+<details>
+<summary><b> Explanation </b></summary>
+
+<blockquote>
+
+The Syntax for Union Operator is,
+
+```sql
+
+SELECT column_name from table1
+UNION
+SELECT column_name from table2
+
+```
+
+</blockquote>
+
+</details>
+</details>
+
+7.What is `UNION ALL` Operator and  Explain with an Example?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+A `UNION ALL` operators return all the data's from both tables, including duplicate records.
+
+Now, Let us see  an Example for `UNION ALL` Operator
+
+Table 1: Student_Details1
+
+| S_Id 	| S_Name 	| S_Marks 	|
+|-------|-----------|-----------|
+| 1    	| Sam    	| 98      	|
+| 2    	| Bob    	| 76      	|
+| 3    	| Annie  	| 85      	|
+| 4    	| Julie  	| 77      	|
+
+Table 2: Student_Details2
+
+| S_Id 	| S_Name 	| S_Marks 	|
+|------	|--------	|---------	|
+| 1    	| Sam    	| 98      	|
+| 6    	| John   	| 88      	|
+| 3    	| Annie  	| 85      	|
+| 8    	| Jack   	| 57      	|
+
+</blockquote>
+
+```sql
+
+select * from student_details1
+UNION ALL
+select * from student_details2
+
+```
+
+Output:
+
+| S_Id 	| S_Name 	| S_Marks 	|
+|-------|-----------|-----------|
+| 1    	| Sam    	| 98      	|
+| 2    	| Bob    	| 76      	|
+| 3    	| Annie  	| 85      	|
+| 4    	| Julie  	| 77      	|
+| 1    	| Sam    	| 98      	|
+| 6    	| John   	| 88      	|
+| 3    	| Annie  	| 85      	|
+| 8    	| Jack   	| 57      	|
+
+</blockquote>
+
+<details>
+<summary><b> Explanation </b></summary>
+
+<blockquote>
+
+The Syntax for UNION ALL Operator is,
+
+```sql
+
+select * from table_name1
+UNION ALL
+select * from student_details2
+
+```
+
+</blockquote>
+
+</details>
+</details>
+
+8.Write an SQL query to print the First_Name from  Employee table after replacing 'a' with 'A'.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+create table Employee(First_Name varchar(20), Emp_Id int);
+
+insert into Employee values('robert', 23);
+
+```sql
+
+insert into 
+SELECT REPLACE(First_Name, 'r', 'R')
+from Employee;
+
+```
+
+</blockquote>
+
+</details>
+
+9.Predict the following output for the given below query.
+
+Table1: Employee_Details 
+
+| Emp_ID 	| Emp_Fname | Emp_Lname	| Department 	| Project 	|  Address  	|     DOB    	| Gender 	|
+|:-----:	|:--------:	|:--------:	|:----------:	|:-------:	|:---------:	|:----------:	|:------:	|
+|   1   	|  Sanjay  	|   Mehra  	|     HR     	|    P1   	| Hyderabad 	| 01/12/1976 	|    M   	|
+|   2   	|  Ananya  	|  Mishra  	|    Admin   	|    P2   	|   Delhi   	| 02/05/1968 	|    F   	|
+|   3   	|   Rohan  	|   Diwan  	|   Account  	|    P3   	|   Mumbai  	| 01/01/1980 	|    M   	|
+|   4   	|   Sonia  	| Kulkarni 	|     HR     	|    P1   	| Hyderabad 	| 02/05/1992 	|    F   	|
+|   5   	|   Ankit  	|  Kapoor  	|    Admin   	|    P2   	|   Delhi   	| 03/07/1994 	|    M   	|
+
+Table2: Employee_Position
+
+| Emp_ID 	| Emp_Position 	| DateOfJoining 	| Salary 	|
+|:------:	|:------------:	|:-------------:	|:------:	|
+|    1   	|    Manager   	|   01/05/2022  	| 500000 	|
+|    2   	|   Executive  	|   02/05/2022  	|  75000 	|
+|    3   	|    Manager   	|   01/05/2022  	|  90000 	|
+|    2   	|     Lead     	|   02/05/2022  	|  85000 	|
+|    1   	|   Executive  	|   01/05/2022  	| 300000 	|
+
+9.Write a query to find all the employees whose salary is between 50000 to 100000.
+
+```sql
+
+SELECT * FROM EmployeePosition WHERE Salary BETWEEN '50000' AND '100000';
+
+```
+
+10.Write a query to find the names of employees that begin with ‘S’.
+
+```sql
+
+SELECT * FROM EmployeeInfo WHERE EmpFname LIKE 'S%';
+
+```
+
+11. Write a query to fetch top N records.
+
+```sql
+
+SELECT TOP N * FROM EmployeePosition ORDER BY Salary DESC;
+
+```
+
+12.Which operator is applied throughout a search to match text?(Which operator is used to match text while search?)
+
+a. IN
+
+b. IS 
+
+c. LIKE
+
+d. BETWEEN 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+ LIKE
+
+</blockquote>
+
+<details>
+<summary><b> Explanation </b></summary>
+
+<blockquote>
+
+To check whether a specific character string matches a given pattern, the logical operator SQL `LIKE` is applied.  and It is frequently used to search for a certain pattern in a column in a Where clause.
+
+</blockquote>
+
+</details>
+
+
+13.Which of the below operators that chooses a data range between two values?
+
+a. % 
+
+b. IN
+
+c. OR 
+
+d. BETWEEN
+
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+BETWEEN
+
+</blockquote>
+
+<details>
+<summary><b> Explanation </b></summary>
+
+<blockquote>
+
+
+
+</blockquote>
+
+</details>
+</details>
+
+14.How would you generate a SQL query to locate competitors with names that start with 'A'?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+Using the 'LIKE' command, you can retrieve data entries that start with a specific letter by doing the following:
+
+Use the `SELECT` statement to specify the column with the names you want to vet.
+Use the `FROM` statement to specify the table containing that column.
+Use `WHERE` 'column name' followed by `LIKE x%`, with x representing the letter you are searching for.
+Use `ORDER` by 'column name' to complete the query.
+
+</blockquote>
+
+</details>
+
+15.What are some of the most important aggregate functions?
+
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+Aggregate values are used to perform calculations on a set of values to return a single value. Some of the most widely used aggregate functions are:
+
+`AVG` calculates the average set of values
+`COUNT` counts the total number of rows in a table
+`MIN` finds the minimum value in a table
+`MAX` finds the maximum value in a table
+`SUM` calculates the sum of the values
+
+</blockquote>
+
+</details>
+</details>
+
+16.What is the difference between the CHAR and VARCHAR2 datatype in SQL?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+CHAR is used to store fixed-length character strings, and VARCHAR2 is used to store variable-length character strings.
+
+For example, suppose you store the string ‘Database’ in a CHAR(20) field and a VARCHAR2(20) field.
+
+The CHAR field will use 22 bytes (2 bytes for leading length).
+
+The VARCHAR2 field will use 10 bytes only (8 for the string, 2 bytes for leading length).
+
+</blockquote>
+
+</details>
+
+17.
+EmployeeInfo table
+
+| EmpID 	| EmpFname 	| EmpLname 	| Department 	| Project  	| Address 	| DOB        	| Gender  	|
+|-------	|----------	|----------	|------------	|----------	|---------	|------------	|---------	|
+| 1     	| Rohit    	| Gupta    	| Admin      	| P1       	| Delhi   	| 02/12/1979 	| Male    	|
+| 2     	| Rahul    	| Mahajan  	| Admin      	| P2       	| Mumbai  	| 10/10/1986 	| Male    	|
+| 3     	| Sonia    	| Banerjee 	| HR         	| P3       	| Pune    	| 05/06/1983 	| Female  	|
+| 4     	| Ankita   	| Kapoor   	| HR         	| P4       	| Chennai 	| 28/11/1983 	| Female  	|
+| 5     	| Swati    	| Garg     	| HR         	| P5       	| Delhi   	| 06/04/1991 	| Female  	|
+
+
+Table2:
+EmployeePosition table
+
+| EmpID 	| EmpPosition 	| DateOfJoining  	| Salary 	|
+|-------	|-------------	|----------------	|--------	|
+| 1     	| Executive   	| 01/04/2020     	| 75000  	|
+| 2     	| Manager     	| 03/04/2020     	| 500000 	|
+| 3     	| Manager     	| 02/04/2020     	| 150000 	|
+| 2     	| Officer     	| 02/04/2020     	| 90000  	|
+| 1     	| Manager     	| 03/04/2020     	| 300000 	|
+
+
+
+Write a query to get the number of employees working in the department ‘HR’.
+Here’s the query for this demand:
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+```sql
+
+SELECT COUNT(*) FROM EmployeeInfo WHERE Department = ‘HR’;
+
+```
+
+
+The output will be,
+
+| EmpID 	| EmpFname 	| EmpLname 	| Department 	| Project  	| Address 	| DOB        	| Gender  	|
+|-------	|----------	|----------	|------------	|----------	|---------	|------------	|---------	|
+| 3     	| Sonia    	| Banerjee 	| HR         	| P3       	| Pune    	| 05/06/1983 	| Female  	|
+| 4     	| Ankita   	| Kapoor   	| HR         	| P4       	| Chennai 	| 28/11/1983 	| Female  	|
+| 5     	| Swati    	| Garg     	| HR         	| P5       	| Delhi   	| 06/04/1991 	| Female  	|
+
+</blockquote>
+
+<details>
+<summary><b> Explanation </b></summary>
+
+<blockquote>
+
+Here we use the `COUNT` statement for getting the number of employees working in the department ‘HR’. The following Syntax is,
+
+```sql
+
+
+SELECT COUNT(*) FROM Table_Name WHERE condition;
+
+```
+
+</details>
+
+
+18.If there are 4 SQL `SELECT` statements joined using `UNION` and `UNION ALL`, how many times should a `UNION` be used to remove duplicate rows?
+
+a.One time
+
+b.Two times
+
+c.Three times
+
+d.Five Times
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+One time
+
+</blockquote>
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b> Explanation </b></summary>
+
+<blockquote>
+
+
+</blockquote>
+
+</details>
+</details>
+
+19.Create a query to check if the passed value to the query follows the EmployeeInfo and EmployeePosition tables’ date format.  
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+```sql
+
+SELECT ISDATE(’01/04/2020′) AS “MM/DD/YY”;
+
+```
+
+</blockquote>
+
+<details>
+<summary><b> Explanation </b></summary>
+
+<blockquote>
+
+You can use the `IsDate()` function in SQL to check whether the passed value follows the specified format or not. It returns 1(true) or 0(false) accordingly.
+
+Running this query will return 0 since the passed value does not match the specified format. 
+
+</blockquote>
+
+</details>
+</details>
+
+20.Write a query to convert the given string into Uppercase?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+For Example:
+
+```sql
+
+SELECT UPPER('hello world');
+
+```
+The Output for the given string is:
+
+HELLO WORLD
+
+</blockquote>
+
+<details>
+<summary><b> Explanation </b></summary>
+
+<blockquote>
+
+It returns the string in uppercase.
+
+The Syntax for converting the string to Uppercase is,
+
+```sql
+
+UPPER('string')
+
+```
+
+</blockquote>
+
+</details>
+</details>
+
+21.Write a query to convert the given string into Lowercase?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+For Example:
+
+```sql
+
+SELECT LOWER('HELLO WORLD');
+
+```
+The Output for the given string is:
+
+hello world
+
+</blockquote>
+
+<details>
+<summary><b> Explanation </b></summary>
+
+<blockquote>
+
+It returns the string in lowercase.
+
+The Syntax for converting the string to Lowercase is,
+
+```sql
+
+LOWER('string')
+
+```
+
+</blockquote>
+
+</details>
+</details>
+
+22.Write a query for Concating the given Strings?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+```sql
+
+SELECT CONCAT('SQL', ' is', `an`, ' intresting', 'language!');
+
+```
+
+The Output is,
+
+SQL is an intresting language!
+
+</blockquote>
+
+<details>
+<summary><b> Explanation </b></summary>
+
+<blockquote>
+
+The `CONCAT()` function adds two or more strings together.
+
+```sql
+
+CONCAT(string1, string2, ...., string_n)
+
+```
+
+</blockquote>
+
+</details>
+</details>
+
+23.Write a query to Add strings together (separate each string with a space character):
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+```sql
+
+SELECT CONCAT('SQL', ' ', 'is', ' ',  'an', ' ', 'intresting', ' ', 'language!');
+
+```
+
+The Output is,
+
+SQL  is  an intresting  language!
+
+<details>
+<summary><b> Explanation </b></summary>
+
+<blockquote>
+
+To Add the strings together (separate each string with a space character) and it is as same as concation of a given string . and its Syntax is, 
+
+```sql
+
+SELECT CONCAT('String1', ' ', 'String2', ' ',  'String3', ' ');  
+
+```
+
+</blockquote>
+
+</details>
+</details>
+
+24.Write a query for finding the length of a given string?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+```sql
+
+Example:
+
+SELECT LENGTH('Hello World');
+
+```
+
+The Output for the given String is:
+
+11
+
+<details>
+<summary><b> Explanation </b></summary>
+
+<blockquote>
+
+`LENGTH` is used to get the length of a string.
+
+The Syntax for the lenght of a given string is,
+
+```sql
+
+LENGTH('String')
+
+```
+
+</blockquote>
+
+</details>
+</details>
+
+25.Character data can be stored in the form of ______________.
+
+a. Fixed length string
+b. Either Fixed or Variable length string
+c. Variable length string 
+d. None of the mentioned
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+Either Fixed or Variable length string
+
+</blockquote>
+
+<details>
+<summary><b>  Explanation </b></summary>
+
+<blockquote>
+
+To store a character data we can also use two definitions and they are,
+
+Char(20) ---> fixed length 
+
+Varchar(20) ---> variable length 
+
+</blockquote>
+
+</details>
+</details>
+
+26.The maximum length of the char columns is ____________
+a. 255 bytes
+b. 256 bytes 
+c. 65, 535 bytes
+d. None of the above
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+255 bytes
+
+</blockquote>
+
+</detials>
+
+27.Which "text type" contains the most  maximum number of bytes?
+
+a. Text 
+b. Tiny text
+c. Long text
+d. Medium text 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+Long text
+
+</blockquote>
+
+<details>
+<summary><b> Explanation </b></summary>
+
+<blockquote>
+
+A string data type called `LONGTEXT` can contain up to '4,294,967,295' characters.
+
+</blockquote>
+
+</details>
+</details>
+
+28.Among the following, which contains the most maximum bytes?
+
+a. Varchar
+b. Char
+c. Both Varchar and Char
+d. Text type
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+Text type
+
+</blockquote>
+
+<details>
+<summary><b> Explanation </b></summary>
+
+<blockquote>
+
+</blockquote>
+
+</details>
+</details>
+
+29.What are Set operators in SQL?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+The operators used to join the two tables and retrieve the records from the two tables that are known as set operators. Only  One requirement that must be completed is that the datatype of the columns in table sets 1 and 2 must match. The results of two queries or components are combined into one result by SQL Set Operators.
+
+The Following  types of Set Operators in SQL are:
+
+* Union
+
+* Unionall
+
+* Intersect
+
+* Minus
+
+</blockquote>
+
+</details>
+
+30.What is Union Operator?
+
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+The union operator fetches the output of two select statements and combines the results of two or more tables. The table's duplicates are removed by the union operation, which also retrieves the outcome. In the result, just one row is shown for each duplicate row in the table. Using union is not the best option when it comes to SQL performance, but it is the best option if the user needs to eliminate duplicate data from two or more tables.
+
+Let's see an Example fro Union Operator:
+
+```sql
+
+Select Employee_Num,Employee_name,Department,Salary from Employee_OBIEE;
+
+Union
+
+Select Employee_Num,Employee_name,Department,Salary from Employee_COGNOS;
+
+```
+
+</blockquote>
+
+</details>
+</details>
+
+31.determine the column's data type? Name of Column: IFSC Code; An 11-character alphanumeric code used to designate a bank branch; Consider SBIN0009044.
+
+a. NUMBER
+b. NUMBER(11)    
+c. Char(11)
+d. VARCHAR2(50)
+
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+Char(11)
+
+</blockquote>
+
+<details>
+<summary><b> Explanation </b></summary>
+
+<blockquote>
+
+Char(11) is the data type for the given column.
+
+</blockquote>
+
+</details>
+</details>
+
+32.Choose the most suitable data type in case multiple data types are possible for the column. Column Name: PIN_Code ; Description: Six digit numeric PIN code for any address in India ; Example: 560100
+
+a. Integer
+b. Number(6)                
+c. CHAR(11)
+d. VARCHAR2(11)
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+ Number(6)
+
+</blockquote>
+
+<details>
+<summary><b> Explanation </b></summary>
+
+<blockquote>
+
+ Number(6) is the most suitable data type in case multiple data types are possible for the column.
+
+</blockquote>
+
+</details>
+</details>
+
+33.If more than one data type is possible for the column, pick the one that best fits the situation. Date of Birth; Column Name: Date Of Birth; Example: 1990/01/01; Description: Employee's date of birth.
+
+a. Date
+b. VARCHAR2(11)
+c. Blob
+d. Timestamp
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+Date
+
+<details>
+<summary><b> Explanation </b></summary>
+
+<blockquote>
+
+When many data types are possible for the column, date is the most appropriate data type.
+
+</blockquote>
+
+</details>
+</details>
+
+34.SQL enables operations on the data types that compare_______________.
+
+a. Date
+b. Timestamp
+c. Time
+d. All of the above
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+All of the above
+
+</blockquote>
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+SQL allows comparison operations on the all of the above data types .
+
+</blockquote>
+
+</details>
+</details>
+
+35.Which of the following statements are TRUE?
+
+a. Scale denotes number of digits allowed after decimal point
+b. SQL performs rounding if user attempts to store a value that has higher scale than the data type
+c. Both A and B
+d. None of the above
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+Both A and B
+
+</blockquote>
+
+<details>
+<summary><b> Explanation  </b></summary>
+
+<blockquote>
+
+Both A and B is the following statements are TRUE.
+
+</blockquote>
+
+</details>
+</details>
+
+36.Where cannot subqueries be used?
+
+a. Field names in the `SELECT` statement
+b. The `WHERE` clause only in the `SELECT` statement
+c. The `WHERE` clause in `SELECT` as well as all DML statements
+d. The `FROM` clause in the `SELECT` statement
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+The `WHERE` clause only in the `SELECT` statement.
+
+</blockquote>
+
+<details>
+<summary><b> Explanation </b></summary>
+
+<blockquote>
+
+Data that will be used in the main query as a condition to further limit the data that can be retrieved is returned by a subquery. Along with operators like =,, >, >=, =, IN, BETWEEN, etc., subqueries can be utilised with the `SELECT`, `INSERT`, `UPDATE`, and `DELETE` statements.
+
+</blockquotes>
+
+</details>
+</details>
+
+37.
+Table – EmployeeDetails
+
+| EmpId 	| FullName     	| ManagerId  	| DateOfJoining  	| City       	|
+|-------	|--------------	|------------	|----------------	|------------	|
+| 121   	| John Snow    	| 321        	| 01/31/2014     	| Toronto    	|
+| 321   	| Walter White 	| 986        	| 01/30/2015     	| California 	|
+| 421   	| Kuldeep Rana 	| 876        	|  27/11/2016    	| New Delhi  	|
+
+Table – EmployeeSalary
+
+| EmpId 	| Project 	| Salary 	| Variable 	|
+|-------	|---------	|--------	|----------	|
+| 121   	| P1      	| 8000   	| 500      	|
+| 321   	| P2      	| 10000  	| 1000     	|
+| 421   	| P1      	| 12000  	| 0        	|
+
+
+
+
+
+
+
+Fetch all the employees who are not working on any project.
+Ans. This is one of the very basic interview questions in which the interviewer wants to see if the person knows about the commonly used – Is NULL operator.
+
+SELECT EmpId 
+FROM EmployeeSalary 
+WHERE Project IS NULL;
