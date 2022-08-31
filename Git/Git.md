@@ -18,7 +18,7 @@
 ---
 2. What is difference between `Git` and `GitHub`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -53,7 +53,7 @@
 
 4. What do you mean by initialize a repository in Git? How we do it?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -62,9 +62,11 @@
 - Usually when the new project is created, developers first initialize the local repository using `Git` on their system.
 - Initialize a repository in Git means creating a directory which will start tracking the changes to your files or source code.
 - To do this, we first create a simple empty directory for our application and execute below command using Git-
-- ```bash
-- git init
-- ```
+
+```
+git init
+```
+
 - After above command, a hidden `.git` folder will appear in the directory.
 </blockquote> 
 
@@ -74,7 +76,7 @@
 
 5. Can we modify `.git` hidden folder under any Git repository?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -99,9 +101,11 @@
     
 - Git repository holds all of the commits (snapshot of all your files at a point in time) that have been made. 
 - We can access the commit history with the below command.
-- ```bash
-- git log
-- ```
+
+```
+git log
+```
+
 </blockquote> 
 
 </details>
@@ -110,7 +114,7 @@
 
 7. What is working directory/tree in Git?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -127,7 +131,7 @@
 
 8. What is staging area in Git?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -152,9 +156,11 @@
 <blockquote> 
     
 - We can copy a remote repository onto your local machine using below command-
-- ```bash
--  `git clone '<remote-repository-url>'`
--  ```
+
+```
+git clone '<remote-repository-url>'
+```
+
 -  Above command will automatically set up a local master/main branch that tracks the remote master/main branch it was cloned from.
 </blockquote> 
 
@@ -164,16 +170,18 @@
 
 10. How to clone specifc branch using `git clone` command?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
 <blockquote> 
     
 - To clone lets say feature branch named `feature/audit` from the GitHub remote repository we can use below command-
-- ```bash
-- `git clone -b feature/audit --single-branch https://<github-username>@github.com/my-organization/my-project.git`
-- ```
+
+```bash
+git clone -b feature/audit --single-branch 'https://<github-username>@github.com/my-organization/my-project.git'
+```
+
 </blockquote> 
 
 </details>
