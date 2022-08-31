@@ -1,0 +1,181 @@
+## Technical
+
+1. What is `Git`?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+    
+- `Git` is very famous tool which facilitates source code management in software development.
+- We can track changes in computer files (versions) using `Git`.
+- Using git can track progress of project overtime as well as coordinate work among team developers.
+</blockquote> 
+
+</details>
+
+---
+2. What is difference between `Git` and `GitHub`?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+    
+- `Git` is a version control tool, used to manage history of changes performed to source code.
+- Whereas `GitHub` is a web application which provides service to host source code, commonly referred to as Git repository.
+- `GitHub` provides all of the distributed version control and `source code management (SCM)` functionalities of Git, along with few of its own features.
+  
+</blockquote> 
+
+</details>
+
+---
+3. What do you understand by Git repository?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+    
+- Git repository refers to a folder/location where all the Git files are stored.
+- These files can either be stored on the local repository or on the remote repository.
+- The local repository is the folder inside your system where you will find one hidden folder named `.git` 
+
+</blockquote> 
+
+</details>
+
+---
+
+4. What do you mean by initialize a repository in Git? How we do it?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+    
+- Usually when the new project is created, developers first initialize the local repository using `Git` on their system.
+- Initialize a repository in Git means creating a directory which will start tracking the changes to your files or source code.
+- To do this, we first create a simple empty directory for our application and execute below command using Git-
+- ```bash
+- git init
+- ```
+- After above command, a hidden `.git` folder will appear in the directory.
+</blockquote> 
+
+</details>
+
+---
+
+5. Can we modify `.git` hidden folder under any Git repository?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+    
+- Ideally the contents of .git folder are modified by `git` command, we are not supposed to tamper any files manually.
+- The .git folder contains all information that is necessary for the project and all information relating commits, remote repository address, etc. 
+- It also contains a log which stores the commit history and helps to roll back to the desired version of the code.
+</blockquote> 
+
+</details>
+
+---
+
+6. How to view commit logs in git?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+    
+- Git repository holds all of the commits (snapshot of all your files at a point in time) that have been made. 
+- We can access the commit history with the below command.
+- ```bash
+- git log
+- ```
+</blockquote> 
+
+</details>
+
+---
+
+7. What is working directory/tree in Git?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+    
+- The project files that we are currently working on are called as working tree, or working directory
+- We can think of a working tree as a file system where you can view and modify files.
+  
+</blockquote> 
+
+</details>
+
+---
+
+8. What is staging area in Git?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+    
+- The staging area also called as index, is where commits are prepared. 
+- The index compares the files in the working tree to the files in the repo. 
+- When you make a change in the working tree, the index marks the file as modified before it is committed.
+  
+</blockquote> 
+
+</details>
+
+---
+
+9. How to copy remote repository onto your local machine?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+    
+- We can copy a remote repository onto your local machine using below command-
+- ```bash
+-  `git clone '<remote-repository-url>'`
+-  ```
+-  Above command will automatically set up a local master/main branch that tracks the remote master/main branch it was cloned from.
+</blockquote> 
+
+</details>
+
+---
+
+10. How to clone specifc branch using `git clone` command?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+    
+- To clone lets say feature branch named `feature/audit` from the GitHub remote repository we can use below command-
+- ```bash
+- `git clone -b feature/audit --single-branch https://<github-username>@github.com/my-organization/my-project.git`
+- ```
+</blockquote> 
+
+</details>
+
+---
