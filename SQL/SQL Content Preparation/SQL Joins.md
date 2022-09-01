@@ -1,6 +1,6 @@
-OVERALL JOINS QUESTIONS :
+<b>OVERALL JOINS QUESTIONS</b>
 
-DEFINITION BASED QUESTIONS:
+<b>DEFINITION BASED QUESTIONS:</b>
 
 1.What is database?
 
@@ -98,6 +98,8 @@ Four advantages of database are
 
 </details>
 
+---
+
 6.What do you mean by Data Redundancy?
 
 <details>
@@ -125,6 +127,8 @@ Data integrity means that the data is accurate and consistent in the database.
 </blockquote>
 
 </details>
+
+---
 
 8.What is Data Consistency?
 
@@ -159,6 +163,8 @@ Two features of database are :
 </blockquote>
 
 </details>
+
+---
 
 10. What do you mean by RDBMS.
 
@@ -1325,6 +1331,8 @@ Where selects the rows on a particular condition. From gives the relation which 
  </blockquote>
 
  </details>
+   
+ </details>
 
 ---
 
@@ -1357,6 +1365,8 @@ Where selects the rows on a particular condition. From gives the relation which 
 </blockquote>
 
 </details>
+
+---
 
 52.Here which of the following displays the unique values of the column?
 
@@ -1636,6 +1646,8 @@ c) Desc, Asc
 Explanation:
 
 </blockquote>
+   
+</details>
 
 ---
 
@@ -2883,7 +2895,7 @@ SELECT DEPARTMENT, sum(Salary) from worker group by DEPARTMENT;
 
 Given Student Table
 
-ID        | Name            | Grade
+ID         | Name           | Grade
 
 1          | George         | 1
 
@@ -3216,6 +3228,8 @@ D. Left outer join operation
 
   </details>
 </details>
+   
+---
 
 86.Using the word inner is, how would you express a normal join?
 
