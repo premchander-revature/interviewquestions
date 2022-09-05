@@ -725,7 +725,24 @@ Just in time (JIT) compiler provides compilation during the execution of the pro
 - Angular uses Databinding and Routing
 - Angular uses Jasmine testing framework
 
-**NOTE** - The candidate must come up with the angular points that they see in the application. Depends on the candidate. This makes us understand how far the candidate can relate a real time application with the topic
+**NOTE** - The candidate must come up with the angular points that they see in the application. Depends on the candidate. This makes interviewer understand how far the candidate can relate a real time application with the topic
+
+</blockquote>
+</details>
+
+--- 
+	
+41. Is Angular Javascript based or Typescript based?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+  <summary> <b>Show Answer</b></summary>
+  
+<blockquote>
+
+- AngularJS is written using JavaScript
+- Angular 2+  written using TypeScript
 
 </blockquote>
 </details>
