@@ -34,7 +34,7 @@
 
 --- 
 
-3. Angular workflow or How does Angular work or bootstrapping your angular app?
+3. Angular workflow _or_ How does Angular work or bootstrapping your angular app? _or_ How do you load an Angular application in the webserver? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
