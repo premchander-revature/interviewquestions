@@ -47,7 +47,7 @@ Consider, we are building a page for an application. The features in the page in
   
 ---
   
- 4. What are the files created or updated when we create a component?
+ 4. What are the files created or updated when we create a component? _or_  How would you create an HTML file along with a component?
  
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
