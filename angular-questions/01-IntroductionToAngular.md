@@ -709,3 +709,25 @@ Just in time (JIT) compiler provides compilation during the execution of the pro
 </details>
   
 ---
+	
+40. Let us take a most commonly used application, youtube or E-mail. How do you see Angular in this application? 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+  <summary> <b>Show Answer</b></summary>
+  
+<blockquote>
+  
+- Angular is a typescript-based web application framework used to create & build web apps
+- It allows us to create Single Page Application (SPA)
+- Angular written using TypeScript
+- Angular uses Databinding and Routing
+- Angular uses Jasmine testing framework
+
+**NOTE** - The candidate must come up with the angular points that they see in the application. Depends on the candidate. This makes us understand how far the candidate can relate a real time application with the topic
+
+</blockquote>
+</details>
+
+--- 
