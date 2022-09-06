@@ -1,7 +1,7 @@
 #P1
 ##EASY
 ###TF
-1. Inner classes have access to private members of the outer class.
+1. State True  or False: Inner classes have access to private members of the outer class.
     A. True
     B. False
 
@@ -21,7 +21,7 @@ Answer: D
 #P1
 ##EASY
 ###TF
-3. Lambda is used to implement a functional Interface( an interface with a single abstract method)
+3.State True  or False: Lambda is used to implement a functional Interface( an interface with a single abstract method)
     A. True
     B. False
 
