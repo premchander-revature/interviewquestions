@@ -14,6 +14,7 @@ Answer: A
 ##EASY
 ###BC
 2. John got a recipe for cookies from his mother, but john likes choco chips, so he altered the original cookie recipe, this is an example for?
+
     A.Method Overriding
     B.Method Overloading
     C.Inheritance
@@ -51,6 +52,7 @@ Answer: D
 ##EASY
 ###BC
 4. _______ is also called Compile time Polymorphism or Method overloading. 
+
     A. Static Polymorphism
     B. Dynamic Polymorphism
     C. Default Polymorphism
@@ -62,6 +64,7 @@ Answer: A
 ##EASY
 ###BC
 5. Which of the following is an example of static binding?
+
     A.method overriding
     B.method overloading
     C.abstraction
