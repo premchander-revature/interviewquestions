@@ -2,7 +2,7 @@
 ##EASY
 ###TF
 
-1.Do we need to set the path for Java.
+1.Do we need to set the path for Java?
 
 A.Yes
 B.No
@@ -15,7 +15,7 @@ Note: We don't need to set the path if we save the Java source file inside the J
 ##EASY
 ###BC
 
-2.The set of paths where the Java compiler and the JVM must find needed classes to compile or execute other classes is
+2.The set of paths where the Java compiler and the JVM must find needed classes to compile or execute other classes is___
 
 A.Classpath
 B.JVM
@@ -29,7 +29,7 @@ Explanation:classpath is just a set of paths where the Java compiler and the JVM
 ##EASY
 ###TF
 
-3. Do we need to set the environment variable.
+3. Do we need to set the environment variable?
 
 A.Yes
 B.No
@@ -84,7 +84,7 @@ Explanation:JVM stands for Java Virtual Machine that uses to run Java applicatio
 ##EASY
 ###TF
 
-7. Java is platform-dependent language.
+7. State True or False: Java is platform-dependent language.
 
 A.True
 B.False
@@ -96,7 +96,7 @@ Explanation:Java is platform independent language.By use of compiler, .Java file
 ##EASY
 ###TF
 
-8.main() is the entry point of a Java program?
+8.State True or False: main() is the entry point of a Java program?
 
 A.False
 B.True
@@ -122,7 +122,7 @@ Explanation:API means Application Programming Interface, which acts as intermedi
 ##EASY
 ###TF
 
-10.Java is not a pure object oriented programming language.
+10.State True or False: Java is not a pure object oriented programming language.
 
 A.True
 B.False
@@ -160,7 +160,7 @@ Explanation:No, We can have more classes in a file but only one class should be 
 ##MEDIUM
 ###TF
 
-13.Consider we are creating an object like B b=new A(). Here we are creating object for the class A.Is that True?
+13.State True or False: Consider we are creating an object like B b=new A(). Here we are creating object for the class A.Is that True?
 
 A.True
 B.False
@@ -189,7 +189,7 @@ Explanation:Heap memory is used through out the application.Objects, arrays, sta
 ##EASY
 ###TF
 
-15.Size of int in Java is the same 4 bytes for both 32 bit and 64 bit architecture.
+15.State True or False: Size of int in Java is the same 4 bytes for both 32 bit and 64 bit architecture.
 
 A.False
 B.True
@@ -215,7 +215,7 @@ Explanation:In Just In Time compilation, the source code is coverted into byte c
 ##MEDIUM
 ###TF
 
-17.Java is a intermediate language.
+17.State True or False: Java is a intermediate language.
 
 A.False
 B.True
@@ -240,7 +240,7 @@ Answer:D
 ##EASY
 ###TF
 
-19.Javac is a complementary tool that a compiler uses to read Java code and translate it into bytecode.
+19.State True or False: Javac is a complementary tool that a compiler uses to read Java code and translate it into bytecode.
 
 A.False
 B.True
@@ -265,7 +265,7 @@ Explanation:It converts API documentation from Java source code to HTML. This is
 ##EASY
 ###TF
 
-21.Can we call the Java programing as pure object oriented if we use wrapper class instead of primitive data type?
+21.State True or False: Can we call the Java programing as pure object oriented if we use wrapper class instead of primitive data type?
 
 A.False
 B.True
