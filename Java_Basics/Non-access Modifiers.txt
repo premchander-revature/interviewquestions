@@ -2,7 +2,7 @@
 ##EASY
 ###BC
 
-1.The three non-access modifiers are
+1.The three non-access modifiers are___
 
 A.static,abstract,default.
 B.default,static,final.
@@ -33,7 +33,7 @@ Explanation:final is the keyword that can be used with class, variable, and meth
 ##EASY
 ###TF
 
-3.There is no need to create an object for the class to access the static variable or static method. 
+3.State True  or False: There is no need to create an object for the class to access the static variable or static method. 
 
 A.True
 B.False
@@ -69,7 +69,7 @@ Explanation:No, we can't use instance variable in static method because instance
 ##MEDIUM
 ###TF
 
-6.Non-static methods are called using class name.
+6.State True  or False:Non-static methods are called using class name.
 
 A.True
 B.False
