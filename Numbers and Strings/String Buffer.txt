@@ -9,10 +9,10 @@ iii.StringBuffer is thread safe, so the performance is less than the StringBuild
 
 Which of the above statements are correct?
 
-A. Only i.
-B.i and ii.
-C.i and iii.
-D.ii and iii.
+A. Only i
+B.i and ii
+C.i and iii
+D.ii and iii
 
 Answer:C.
 Explanation:StringBuffer is in java.lang package. StringBuffer is mutable strings that are stored in heap memory. StringBuffer has synchronized methods. StringBuffer is thread safe, so the performance is less than the StringBuilder.
@@ -28,10 +28,10 @@ iii.StringBuilder is not thread safe, so the performance is less than the string
 
 Which of the above statements are correct?
 
-A. Only i.
-B.i and ii.
-C.i and iii.
-D.ii and iii.
+A. Only i
+B.i and ii
+C.i and iii
+D.ii and iii
 
 Answer:B
 Explanation:StringBuilders are also mutable strings that are stored in heap memory. StringBuilder is not thread-safe. At a time many threads are allowed to access.
