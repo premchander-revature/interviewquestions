@@ -82,12 +82,13 @@ Answer: B
 ##EASY
 ###BC
 7. Which of the following statements are TRUE?
+
 A. Interface contains an abstract class with no implementation, whereas abstract class contain both abstract and non-abstract methods with concrete implementation, so complete abstraction can be achieved by an interface
 B. A class can Inherit multiple Interfaces with the same method names.
 C. Both A and B are TRUE
 D. Both A and B are not TRUE
 
-Answer: CState True  or False:
+Answer: C 
 
 #P1
 ##EASY
