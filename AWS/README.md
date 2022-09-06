@@ -19,7 +19,7 @@
 4. RDS
 5. S3
 6. VPC
-7. Elastic BeanStalk
+7. EBS
 8. IAM
 9. Route53
 10. Lambda
