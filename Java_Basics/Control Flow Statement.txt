@@ -74,7 +74,7 @@ Explanation: Since the given value is 200, which is not lesser than 100 so it wi
 ##EASY
 ###BC
 
-5. When we will get the output 'pass' according to the code snippet given below.
+5.When we will get the output 'pass' according to the code snippet given below.
 
 public static String findMonth(int english,int math,int science) {
 		String result = null;
@@ -116,7 +116,7 @@ Explanation: Switch statement is used to select one of code from many blocks of 
 ##EASY
 ###TF
 
-7.If we didn't use break or return, each cases of the switch will be executed which are present after that case.
+7.State True or False: If we didn't use break or return, each cases of the switch will be executed which are present after that case.
 
 A.True
 B.False
