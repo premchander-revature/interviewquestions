@@ -2,7 +2,7 @@
 ##EASY
 ###TF
 
-1.Strings and arrays are the examples of non-primitive data types.
+1.State True  or False:Strings and arrays are the examples of non-primitive data types.
 
 A.True
 B.False
