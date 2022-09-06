@@ -255,7 +255,28 @@ export class AppModule { }
   
 ---
  
+12. How do you manage the development of complex applications in Angular? 
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+ 
+For large scale/ complex application, lazy loading would be good.
+</blockquote>
+	
+<details>
+<summary><b>Reference</b></summary>	
+<blockquote>
+	
+[Angular Reference for implementing lazy loading](https://angular.io/guide/lazy-loading-ngmodules)
+	
+</blockquote>
+</details>
+</details>
+  
+---
  
 
 
