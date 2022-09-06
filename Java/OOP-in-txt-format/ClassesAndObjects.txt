@@ -130,7 +130,7 @@ Answer: C
 #P1
 ##EASY
 ##BC
-9. By setting all the references to object as null, the object is eligible for _______.
+9. By setting all the references to object as null, the object is eligible for _______
 
     A. Re-Assigning
     B. Garbage collection
@@ -166,7 +166,7 @@ Answer: D
 #P1
 ##EASY
 ##BC
-11. An immutable class can be created by
+11. An immutable class can be created by___
 
     A. Declare class as final to avoid ineritance.
     B. Intializing data using a parameterized constructor.
