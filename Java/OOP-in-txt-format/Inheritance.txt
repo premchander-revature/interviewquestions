@@ -47,7 +47,7 @@ Answer: A
 #P1
 ##EASY
 ###BC
-5. A superclass is extended by a subclass and the subclass is extended by another subclass. This is called as _______.
+5. A superclass is extended by a subclass and the subclass is extended by another subclass. This is called as _______
 
     A. Hybrid Inheritance
     B. Multilevel Inheritance
@@ -71,7 +71,7 @@ Answer: C
 #P1
 ##EASY
 ###BC
-7. A child class inherits all the properties of parent class so the child class can be implicitly upcasted to parent. This is called as _______.
+7. A child class inherits all the properties of parent class so the child class can be implicitly upcasted to parent. This is called as _______
 
     A. Upcasting
     B. Downcasting
@@ -83,7 +83,7 @@ Answer: A
 #P1
 ##EASY
 ###BC
-8. A parent class may or may not have all the properties of Child class, so parent class can be ecplicily downcasted to Child class. This is called as _______.
+8. A parent class may or may not have all the properties of Child class, so parent class can be ecplicily downcasted to Child class. This is called as _______
 
     A. Upcasting
     B. Downcasting
@@ -104,7 +104,7 @@ Answer: A
 #P1
 ##EASY
 ###BC
-10. A static method can not be overriden if a sub class has a method with the same name as the static method in super class, its considered as _______.
+10. A static method can not be overriden if a sub class has a method with the same name as the static method in super class, its considered as _______
 
     A. Data Hiding
     B. Overloading
