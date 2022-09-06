@@ -18,7 +18,7 @@ C.true
 D.false
 
 Answer:D
-Explanation:If we add zero before a number, the value will become octal number. The octal number is converted into decimal value and assigned to int variable. The value of num1 is 11 and value of num2 is 9 that are not equal. The output is false.
+Explanation: If we add zero before a number, the value will become octal number. The octal number is converted into decimal value and assigned to int variable. The value of num1 is 11 and value of num2 is 9 that are not equal. The output is false.
 
 #P1
 ##EASY
@@ -48,5 +48,5 @@ A.Yes.
 B.No.
 
 Answer:A
-Explanation:When we have decimal value with precision that we will double by default. To specify that the value is float then we need to post-fix the value with f.
+Explanation: When we have decimal value with precision that we will double by default. To specify that the value is float then we need to post-fix the value with f.
 
