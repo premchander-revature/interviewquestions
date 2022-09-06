@@ -18,8 +18,8 @@ Explanation:Integer.MIN_VALUE will return the value -2147483648.
 
 2.Can we do typecasting for both primitive and reference type?
 
-A.No.
-B.Yes.
+A.No
+B.Yes
 
 Answer:B.
 Explanation:Type casting is the process of changing variable from one datatype to another datatype. Type casting is possible for both primitive and reference type. For primitive types we have values being wither widen or narrow depdending upon source and destination data type. For refernce types, type casting make sense only when there is inheritance relationship exist between the source and destination type, in that case we say upcasting (child object casted to parent) or downcasting(parent object casted to child) casting.
@@ -58,8 +58,8 @@ Explanation:Narrowing casting also called explicit type casting is the process c
 
 5.Can we convert char to int with exact numeric value of char?
 
-A.Yes.
-B.No.
+A.Yes
+B.No
 Answer:A.
 Explanation:Yes, we can convert char to int with exact numeric value using wrapper class. For e.g., char c = '9'; int i = Character.getNumericValue(c);
 
@@ -69,8 +69,8 @@ Explanation:Yes, we can convert char to int with exact numeric value using wrapp
 
 6.Do we have to create object to use Character.getNumericValue()?
 
-A.Yes.
-B.No.
+A.Yes
+B.No
 
 Answer:B
 Explanation:getNumericValue() is a static method of Character wrapper class. For static methods, we don't need objects to access it.
@@ -81,10 +81,10 @@ Explanation:getNumericValue() is a static method of Character wrapper class. For
 
 7.What happen if we directly assign the value of char D to int result?What will be the vale of result?
 
-A.68.
-B.100.
-C.4.
-D.Complilation Error.
+A.68
+B.100
+C.4
+D.Complilation Error
 
 Answer:A
 Explanation:If we directly assign the value of char to int, it will assign the ASCII value.
