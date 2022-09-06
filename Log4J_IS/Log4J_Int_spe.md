@@ -31,7 +31,7 @@ Log4j has three main components −
 
 ---
 
-3. Define what are the other support objects in Log4j?
+3.What are the support objects in Log4j?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -121,7 +121,7 @@ The top-level layer of log4j architecture is the Logger which provides the Logge
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- The layout layer of log4j architecture provides objects which are used to format logging information in different styles. It provides support to appender objects before publishing logging information.
+- The layout  of log4j architecture provides objects which are used to format logging information in different styles. It provides support to appender objects before publishing logging information.
 - Layout objects play an important role in publishing logging information in a way that is human-readable and reusable.
 
 </blockquote>
@@ -340,7 +340,7 @@ log4j.appender.FILE.layout.conversionPattern=%m%n
 
 ---
 
-23. Inside the logger component, what are the different log levels?
+23. What are the different log levels in the logger component?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -826,7 +826,7 @@ The format characters used in log4j are
 
 ---
 
-55. What is the best way to migrate from java.util logging to log4j?
+55. What is the best way to migrate from `java.util` logging to log4j?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
