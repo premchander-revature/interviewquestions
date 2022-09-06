@@ -1,19 +1,19 @@
 # AWS
 
 1. Cloud Computing
-  - What is the "Cloud"?
-  - Cloud computing - advantages & disadvantages
-  - Paying for cloud services
-  - 3 Models of Cloud Computing
-  - Cloud providers
+    - What is the "Cloud"?
+    - Cloud computing - advantages & disadvantages
+    - Paying for cloud services
+    - 3 Models of Cloud Computing
+    - Cloud providers
 
 2. AWS
-  - What is AWS?
-  - AWS Regions
-  - AZ's
-  - Benefits
-  - AWS Services
-  - AWS Management Console
+    - What is AWS?
+    - AWS Regions
+    - AZ's
+    - Benefits
+    - AWS Services
+    - AWS Management Console
 
 3. EC2
 4. RDS
