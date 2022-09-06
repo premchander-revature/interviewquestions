@@ -27,10 +27,10 @@ Answer: D
 ###BC
 3. When do we use Interface?
 
-    A. When classes are not related, they have the same methods but different implementations an interface is used.
-    B. When behaviour is specified but the implementation of the behaviour can be altered.
-    C. To implement Multiple Inheritance of value.
-    D. All of the above.
+    A. When classes are not related, they have the same methods but different implementations an interface is used
+    B. When behaviour is specified but the implementation of the behaviour can be altered
+    C. To implement Multiple Inheritance of value
+    D. All of the above
 
 Answer: D
 
@@ -64,9 +64,9 @@ Answer: D
 6. Which of the following is true when an abstract class implements an Interface?
 
     A. Abstract class must override all the methods of an interface
-    B. Abstract class must override all the abstract methods of an Interface.
-    C. The abstract class does not need to override all the methods of the interface.
-    D. None of the above.
+    B. Abstract class must override all the abstract methods of an Interface
+    C. The abstract class does not need to override all the methods of the interface
+    D. None of the above
 
 Answer: C
 
@@ -87,7 +87,7 @@ Answer: B
     A. Polymorphism
     B. Inheritance
     C. Encapsulation
-    D. None of the above.
+    D. None of the above
 
 Answer: C
 
