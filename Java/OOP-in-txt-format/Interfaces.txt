@@ -12,7 +12,7 @@ Answer: A
 #P1
 ##EASY
 ###TF
-2. Marker interfaces are used to pass the information to JVM that a certain object of a class can implement methods like Serializable, Cloneable etc.
+2.State True  or False: Marker interfaces are used to pass the information to JVM that a certain object of a class can implement methods like Serializable, Cloneable etc.
     A. True
     B. False
 
@@ -21,7 +21,7 @@ Answer: A
 #P1
 ##EASY
 ###TF
-3. Is it possible to create an Object for the Interface?
+3. State True  or False: Is it possible to create an Object for the Interface?
     A. True
     B. False
 
@@ -87,12 +87,12 @@ B. A class can Inherit multiple Interfaces with the same method names.
 C. Both A and B are TRUE
 D. Both A and B are not TRUE
 
-Answer: C
+Answer: CState True  or False:
 
 #P1
 ##EASY
 ###TF
-8. It is possible to override the static method of an interface.
+8. State True  or False:It is possible to override the static method of an interface.
     A. True
     B. False
 
