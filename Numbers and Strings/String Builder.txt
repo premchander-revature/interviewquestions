@@ -14,7 +14,7 @@ Explanation:StringBuilder is in java.lang package. StringBuilder is mutable stri
 ##EASY
 ###TF
 
-2.String is immutable in Java,whereas StringBuffer and StringBuilder are mutable.
+2.State True  or False:String is immutable in Java,whereas StringBuffer and StringBuilder are mutable.
 
 A.False
 B.True
@@ -28,8 +28,8 @@ Explanation:As StringBuilders are mutable, we can change the values inbetween th
 
 3.Can we create StringBuilder object of any existing String?
 
-A.Yes.
-B.No.
+A.Yes
+B.No
 
 Answer:A
 Explanation:StringBuilder constructor accepts String object.For e.g.,String s = "Hello";StringBuilder sb = new StringBuilder(s);
