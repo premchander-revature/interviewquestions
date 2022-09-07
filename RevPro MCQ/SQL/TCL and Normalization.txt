@@ -28,8 +28,8 @@ Explanation: Commit is the command used in mySQL to store data permanently in a 
 #P1
 ##EASY
 ###BC
-3. Larry was updating a SQL table during his practical exam during which he mistakenly added few mismatched data's his examination time is about to end
-   Suggest a quick solution through which he can score full marks.
+3. Larry was updating a SQL table during his practical exam during which he mistakenly added few mismatched data. His examination time is about to end,
+   suggest a quick solution through which he can score full marks.
 
 A. Revoke
 B. Grant
@@ -95,8 +95,7 @@ D. By Combining Savepoint and Rollback command
 
 Answer: D
 
-Explanation: Savepoint is a command in MySQL that is like a Restore Point in Windows i.e., If an error occurs it rollbacks to the point where the restore point was created, Likewise in MySQL if we want to go to a point we will be using the
-ROLLBACK TO [SAVEPOINT NAME];
+Explanation: Savepoint is a command in MySQL that is like a Restore Point in Windows i.e., If an error occurs it rollbacks to the point where the restore point was created, Likewise in MySQL if we want to go to a point we will be using the ROLLBACK TO [SAVEPOINT NAME];
 
 #P2
 ##EASY
@@ -290,7 +289,7 @@ Explanation: Outer joins are joins that return matched values and unmatched valu
 #P2
 ##EASY
 ###BC
-16. Which is the best way to reduce the data redundancy in a database.?
+16. Which is the best way to reduce the data redundancy in a database?
 
 A. De-Normalization
 B. Normalization
@@ -304,12 +303,12 @@ Explanation: Normalization is the process of organizing data in a database.
 #P2
 ##EASY
 ###BC
-17. Which one is based on multi-valued dependency?
+17. Which of the following deals with multi-valued dependency?
 
-A. First
-B. Second
-C. Third
-D. Fourth
+A. 1NF
+B. 2NF
+C. 3NF
+D. 4NF
 
 Answer: D
 
@@ -318,9 +317,9 @@ Answer: D
 ###BC
 18. If a relation is in BCNF, then it is also in___
 
-A. 1 NF
-B. 2 NF
-C. 3 NF
+A. 1NF
+B. 2NF
+C. 3NF
 D. All the above
 
 Answer: D
@@ -328,7 +327,7 @@ Answer: D
 #P1
 ##EASY
 ###BC
-19. If every non-key attribute is functionally dependent primary key, then the relation will be in___
+19. If every non-key attribute is functionally dependent primary key, then the relation will be in_______.
 
 A. First normal form
 B. Second normal form
@@ -337,9 +336,7 @@ D. Fourth normal form
 
 Answer: B
 
-#P1
-##EASY
-###BC
+#IGNORE
 20. If an attribute of a composite key is dependent on an attribute of the other composite key, a normalization called _______ is needed.
 
 A. DKNF
@@ -375,7 +372,7 @@ Answer: A
 #P2
 ##EASY
 ###BC
-23. A dependency exists between two columns when___
+23. A dependency exists between two columns, When___
 
 A. Together they constitute a composite key for the table
 B. Knowing the value in one column determines the value stored in another column
@@ -384,7 +381,7 @@ D. Together they constitute a foreign key
 
 Answer: A
 
-#P2
+#P1
 ##EASY
 ###BC
 24. In the ___________ normal form, a composite attribute is converted to individual attributes.
@@ -399,18 +396,16 @@ Answer: A
 #P2
 ##EASY
 ###BC
-25. Tables in second normal form (2NF)___
+25. Which of the following conditions are true for a table in second normal form (2NF)?
 
 A. Eliminate all hidden dependencies
 B. Eliminate the possibility of a insertion anomalies
 C. Have a composite key
-D. Have all non key fields depend on the whole primary key
+D. all non key fields depend on the primary key
 
-Answer: A
+Answer: D
 
-#P2
-##EASY
-###BC
+#IGNORE
 26. Key to represent relationship between tables is called _______
 
 A. Primary key
@@ -423,14 +418,14 @@ Answer: C
 #P2
 ##EASY
 ###BC
-27. A functional dependency is a link between:
+27. A functional dependency is a relationship between _______.
 
 A. Tables
 B. Rows
-C. Relations
-D. Attributes
+C. Attributes
+D. None of the above
 
-Answer: D
+Answer: C
 
 #P1
 ##EASY
@@ -447,7 +442,7 @@ Answer: B
 #P1
 ##MEDIUM
 ###BC
-29. This form of a connection eliminates any modification abnormalities:
+29. Which of the following eliminates any modification anomalies?
 
 A. First normal form
 B. Second normal form
@@ -456,9 +451,7 @@ D. Domain/key normal form
 
 Answer: D
 
-#P2
-##MEDIUM
-###BC
+#IGNORE
 30. It follows that characteristic C must be determined by attributes A and B, which is know as________.
 
 A. A → C.
@@ -503,9 +496,7 @@ D.BCNF
 
 Answer: B
 
-#P1
-##EASY
-###BC
+#IGNORE
 34. 4NF is designed in a way such that there are no : 
 
 A. Transitive dependency
@@ -527,9 +518,7 @@ D. All of the above
 
 Answer: B
 
-#P1
-##EASY
-###BC
+#IGNORE
 36. A Boyce-Codd Normal Form is:
 
 A. Loss less join and dependency preserving
@@ -551,9 +540,7 @@ D. All of the above
 
 Answer: D
 
-#P2
-##EASY
-###BC
+#IGNORE
 38. The requirement to use increasingly complex SQL in database systems is _____________ of normalization.
 
 A.Advantage
@@ -564,9 +551,7 @@ D.Neither an advantage nor disadvantage
 Answer: B
 
 
-#P2
-##EASY
-###BC
+#IGNORE
 39. _______ of normalisation is the elimination of modification anomalies.
 
 A. Advantage
@@ -610,9 +595,7 @@ D. Fourth step.
 
 Answer: B
 
-#P2
-##EASY
-###BC
+#IGNORE
 43. The task of Creating a read-only database is ________ assigned to beginners of the database profession.
 
 A. Always
@@ -692,9 +675,7 @@ D. One row has the value "He is interested in a Silver Porsche from the years 19
 
 Answer: A 
 
-#P1
-##EASY
-###BC
+#IGNORE
 50. When assessing the table structure of an acquired set of tables with data, counting the number of table rows is (part of) the:
 
 A. First step.
@@ -704,9 +685,7 @@ D. Fourth step.
 
 Answer: A
 
-#P1
-##EASY
-###BC
+#IGNORE
 51. A table is in the _________ state, if all determinants have been converted to candidate keys by normalisation.
 
 A. 1NF.
@@ -738,9 +717,7 @@ D. Neither an advantage nor disadvantage
 
 Answer: D
 
-#P2
-##EASY
-###BC
+#IGNORE
 54. When assessing the table structure of an acquired set of tables with data, determining primary keys is (part of) the:
 
 A. First step.
