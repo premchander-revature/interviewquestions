@@ -48,3 +48,18 @@
 </details>
 
 ---
+4. State True or False: In waterfall model the one-direction flow makes changes to previous stages impossible
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+- True
+    
+</blockquote> 
+
+</details>
+
+---
