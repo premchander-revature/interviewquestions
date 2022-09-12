@@ -107,7 +107,8 @@ Cloud technology works through data centers. Instead of using the storage space 
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-![image](https://user-images.githubusercontent.com/70228962/189582797-b7ef712e-ad82-4bf9-b520-18f3ed665e01.png)
+![image](https://user-images.githubusercontent.com/70228962/189582874-ff508715-3519-4745-9cd8-baa2951d6633.png)
+
 
 
 </blockquote>
