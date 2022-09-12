@@ -147,7 +147,7 @@ There are three major cloud service models:
 
 - Platform as a Service (or PaaS) is a way of providing a platform and environment to build applications and services over the internet.
 - Here we don't need to manage or control the underlying cloud infrastructure including network, servers, operating systems, or storage. Only need to focus on the deployed applications and possibly configuration settings for the application hosting environment. 
-- **Example:**  AWS Elastic Beanstalk, Windows Azure, Heroku, Google App Engine, OpenShift
+- **Example:**  AWS Elastic Beanstalk, Windows Azure, Heroku, Google App Engine, OpenShift, FaceBook
 
 </blockquote>
 </details>
@@ -178,7 +178,12 @@ There are three major cloud service models:
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-
+| Parameters              | IaaS                                                                                                                                                   | PaaS                                                                                                            | SaaS                                                                                                                           |
+|-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
+| stands for              | Infrastructure as a Service                                                                                                                            | Platform as a Service                                                                                           | Software as a Service                                                                                                          |
+| on demand access to     | cloud-hosted physical and virtual servers, storage and networking - the backend IT infrastructure for running applications and workloads in the cloud. | a complete, ready-to-use, cloud-hosted platform for developing, running, maintaining and managing applications. | ready-to-use, cloud-hosted application software.                                                                               |
+| Technical Understanding | A user requires technical knowledge to make use of IaaS services.                                                                                      | One must acquire the basic knowledge of the concerned subjects to understand the setup of the PaaS services.    | You don’t need to know any technicalities to understand and use the SaaS services- the service provider can handle everything. |
+| Examples                | Amazon Web Services, Microsoft Azure, and Google Compute Engine                                                                                        | AWS Elastic Beanstalk, Windows Azure, Heroku, Google App Engine, OpenShift, FaceBook                            | Gmail, Salesforce, Dropbox, Cisco WebEx, GoToMeeting, Netflix, Uber, Instagram                                                 |
 
 </blockquote>
 </details>
