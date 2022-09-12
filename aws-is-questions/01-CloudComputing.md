@@ -178,6 +178,7 @@ There are three major cloud service models:
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
+![image](https://user-images.githubusercontent.com/70228962/189591430-b5c383a4-6677-4d74-8413-b406e60dd2dc.png)
 
 
 </blockquote>
