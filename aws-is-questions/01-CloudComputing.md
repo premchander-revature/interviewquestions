@@ -107,7 +107,76 @@ Cloud technology works through data centers. Instead of using the storage space 
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
+There are three major cloud service models: 
+- Software as a Service (SaaS)
+- Infrastructure as a Service (IaaS) 
+- Platform as a service (PaaS)
+
 ![image](https://user-images.githubusercontent.com/70228962/189582874-ff508715-3519-4745-9cd8-baa2951d6633.png)
+
+</blockquote>
+</details>
+  
+---
+ 
+8. What does SaaS mean?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+- Software as a Service (or SaaS) is a way of delivering applications over the Internet—as a service. 
+- Instead of installing and maintaining software, you simply access it via the Internet, freeing yourself from complex software and hardware management.
+- SaaS applications are sometimes called Web-based software, on-demand software, or hosted software.
+- **Example:**  Gmail, Salesforce, Dropbox, Cisco WebEx, GoToMeeting, Netflix, Uber, Instagram
+
+</blockquote>
+</details>
+  
+---
+ 
+9. What does PaaS mean?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+- Platform as a Service (or PaaS) is a way of providing a platform and environment to build applications and services over the internet.
+- Here we don't need to manage or control the underlying cloud infrastructure including network, servers, operating systems, or storage. Only need to focus on the deployed applications and possibly configuration settings for the application hosting environment. 
+- **Example:**  AWS Elastic Beanstalk, Windows Azure, Heroku, Google App Engine, OpenShift
+
+</blockquote>
+</details>
+  
+---
+
+10. What does IaaS mean?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+- Infrastructure as a Service (or IaaS) provides IT infrastructure such as compute, storage, networking and virtualization to businesses and individuals via the cloud.
+- **Example** Amazon Web Services, Microsoft Azure, and Google Compute Engine
+
+</blockquote>
+</details>
+  
+---
+ 
+11. Difference between IaaS, PaaS and SaaS.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
 
 
 
@@ -116,5 +185,9 @@ Cloud technology works through data centers. Instead of using the storage space 
   
 ---
  
+
+
+ 
+
 
 
