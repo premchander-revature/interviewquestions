@@ -342,11 +342,25 @@ A private cloud, also known as internal or corporate cloud, is dedicated to the 
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-- **Pay as you go** - Pay only when you use computing resources, and only for how much you use.
-- **Stop guessing capacity** - When you make a capacity decision prior to deploying an application, you often end up either sitting on expensive idle resources or dealing with limited capacity. With cloud computing, you can access as much or as little capacity as you need, and scale up and down as required with only a few minutes notice.
-- **Increase speed and agility** - IT resources are only a click away, which means that you reduce the time to make resources available to your developers from weeks to minutes. This dramatically increases agility for the organization, because the cost and time it takes to experiment and develop is significantly lower.
-- **Realize cost savings** - Companies can focus on projects that differentiate their business instead of maintaining data centers. With cloud computing, you can focus on your customers, rather than on the heavy lifting of racking, stacking, and powering physical infrastructure.
-- **Go global in minutes** - Applications can be deployed in multiple Regions around the world with a few clicks. This means that you can provide lower latency and a better experience for your customers at a minimal cost.
+1. Trade capital expense for variable expense.
+2. Benefit from massive economies of scale.
+3. Stop guessing about capacity.
+4. Increase speed and agility.
+5. Eliminate overhead cost of maintaining data centers
+6. Go global in minutes.
+
+
+**Trade capital expense for variable expense** - Instead of having to invest heavily in data centers and servers before you know how you’re going to use them, you can pay only when you consume computing resources, and pay only for how much you consume.
+
+**Benefit from massive economies of scale** - By using cloud computing, you can achieve a lower variable cost than you can get on your own. Because usage from hundreds of thousands of customers is aggregated in the cloud, providers such as AWS can achieve higher economies of scale, which translates into lower pay as-you-go price.
+
+**Stop guessing about capacity** - Eliminate guessing on your infrastructure capacity needs. When you make a capacity decision prior to deploying an application, you often end up either sitting on expensive idle resources or dealing with limited capacity.
+
+**Increase speed and agility** - In a cloud computing environment, new IT resources are only a click away, which means that you reduce the time to make those resources available to your developers from weeks to just minutes.
+
+**Eliminate overhead cost of maintaining data centers** - Cloud computing lets you focus on your own customers, rather than on the heavy lifting of racking, stacking, and powering servers (infrastructure).
+
+**Go global in minutes** - Easily deploy your application in multiple regions around the world with just a few clicks. This means you can provide lower latency and a better experience for your customers at minimal cost.
 
 </blockquote>
 </details>
@@ -798,6 +812,36 @@ In general, servers are regulated by the laws of the country they reside in. Tha
 - Platform as a Service (PaaS) - Online Coding Platforms
 - Infrastructure as a Service (IaaS) - Amazon Web Services
 - Software as a Service (SaaS) - Google Docs
+
+</blockquote>
+</details>
+  
+---
+ 
+44. Describe cloud computing and its role in modern technology industry
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+ Cloud computing means having the ability to store and access data and programs over the internet instead of on a hard drive. This means businesses of any size can harness powerful software and IT infrastructure to become bigger, leaner, and more agile, as well as compete with much larger companies.
+
+</blockquote>
+</details>
+  
+---
+ 
+45. Describe different payment models for cloud services
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+**Pay as you go**- Pay only when you use computing resources, and only for how much you use.
 
 </blockquote>
 </details>
