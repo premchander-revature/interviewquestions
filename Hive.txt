@@ -1,0 +1,179 @@
+Hive
+
+#P1
+##EASY
+###TF
+1.Hive supports the notion of enclosing characters that may include field delimeters in the enclosing string.
+
+A.True
+B.False
+
+Answer:B
+Explanation:Hive does not supports the notion of enclosing characters that may include field delimeters in the enclosing string.
+
+#P1
+##EASY
+###BC
+2.Which of the following are features of Hive?
+
+A.Hive is an RDBMS.
+B.Hive is a distributed file system.
+C.Hive is a resource manager in Hadoop that is used to analyze data stored in HDFS.
+D.Hive is a data warehouse system that is used to query and analyze large datasets stored in the HDFS.
+
+Answer:D
+
+#P1
+##EASY
+###TF
+3.State True/False:Hive is based on the notion of reading and writing many times.
+
+A.True
+B.False
+
+Answer:B
+Explanation:Hive is based on the notion of write once and read many times. RDBMS is based on the notion of reading and writing many times.
+
+#P1
+##EASY
+###BC
+4.Which of the following is true for Static Partitioning in Hive?
+
+A.It is required to pass the values of partitioned columns manually while loading the data into the table.  
+B.The values of partitioned columns exist within the table.So, it is not required to pass the values of partitioned columns manually.  
+C.The data stored in Static Partitions cannot be changed.
+D.The data is stored in Static Partitions based on a formula that Hadoop uses by applying a Hash to the value and dividing it by the number of partitions.
+
+Answer:A
+
+#P1
+##EASY
+###BC
+5.Consider there are 50000 Records in one hive table and you have loaded it in spark -shell for development purposes. What would be the best practice to write code?
+
+A.we can use range
+B.we can use limit_record
+C.we can use 50000
+D.we can use limit function
+
+Answer:D
+Explanation:In that case we can use limit function(say 1000 records),cache it and then use it .
+
+#P1
+##EASY
+###BC
+6.SQL Windowing functions are implemented in Hive using which keywords?
+
+A.UNION DISTINCT, RANK
+B.OVER, RANK
+C.OVER, EXCEPT
+D.UNION DISTINCT, RANK
+
+Answer:B
+
+#P1
+##EASY
+###BC
+7.Which Hive query returns the first 1000 values from the table?
+
+A.SELECT…WHERE value = 1000
+B.SELECT … LIMIT 1000
+C.SELECT TOP 1000 …
+D.SELECT MAX 1000…
+
+Answer:B
+
+#P1
+##EASY
+###TF
+8.State True/False:Multiline comments are supported in Hive
+
+A.True
+B.False
+
+Answer:B
+Explanation:No, as of now multiline comments are not supported in Hive, only single-line comments are supported.
+
+#P1
+##EASY
+###BC
+9.Where is table data stored in Apache Hive by default?
+
+A./user/warehouse
+B./user/hives/datawarehouse
+C./user/hive/warehouses
+D./user/hive/warehouse
+
+Answer:D
+Explanation:Hive stores tables files by default at /user/hive/warehouse location on HDFS file system.
+
+#P1
+##EASY
+###BC
+10.Which of the following formula is used by Hadoop to determine which bucket to store the data in?
+
+A.f(x) % n
+B.f(x) / n
+C.f(x) + n
+D.f(x) * n
+
+Answer:A
+
+#P1
+##EASY
+###BC
+11.Which of the folllowing commands cna be used to create a table where the fields are delimited by '%'?
+
+A.create table demo.employee (Id int, Name string , Salary float)    row format delimited    fields terminated by '%' ;
+B.create table demo.employee (Id int, Name string , Salary float)    row format delimited    fields terminated by ',' ;
+C.create table demo.employee (Id int, Name string , Salary float)    row format terminated    fields delimited by '%' ;
+D.create table demo.employee (Id int, Name string , Salary float)    row format terminated    fields delimited by ',' ;
+
+Answer:A
+
+#P1
+##EASY
+###TF
+12.State True/False:It is possible to import or export tables in HBase.
+
+A.True
+B.False
+
+Answer:A
+
+#P1
+##EASY
+###TF
+13.If we try to drop an external table, the metadata of the table will be deleted, but the data still exists.
+
+A.True
+B.False
+
+Answer:A
+Explanation:As the table is external, the data is not present in the Hive directory.Therefore, if we try to drop the table, the metadata of the table will be deleted, but the data still exists.
+
+#P1
+##EASY
+###BC
+14.Which of the following commands can be used to create an external table in Hive?
+
+A.create external table employees (Id int, Name string , Salary float)   row format delimited   fields terminated by ','    location '/user/foo/inputdata';  
+B.create external table employees (Id int, Name string , Salary float)   row format delimited   fields terminated by ',';
+C.create table employees (Id int, Name string , Salary float)   row format delimited   fields terminated by ','    location '/user/foo/inputdata';  
+D.create external table employees (Id int, Name string , Salary float)   row format delimited   fields terminated by ','    hdfs-location '/user/foo/inputdata';  
+
+Answer:A
+
+#P1
+##EASY
+###TF
+15.State True/False:HIVE can perform all CRUD operation with the help of ACID operations.
+
+A.True
+B.False
+
+Answer:A
+
+
+
+
