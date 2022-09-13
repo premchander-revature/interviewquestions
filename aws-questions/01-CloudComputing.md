@@ -307,7 +307,10 @@ A private cloud, also known as internal or corporate cloud, is dedicated to the 
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-Hybrid cloud describes the mixing of two or more distinct types of infrastructure: it combines a private cloud, an on-premises data center, or both with at least one public cloud. Multi-cloud refers to several different public clouds being deployed, and it doesn't necessarily include a private cloud, although it can.
+- Multi Cloud = Multiple Public Cloud from different cloud providers 
+    - For example, an organization might host its web front-end application on AWS and host its Exchange servers on Microsoft Azure.
+- Hybrid Cloud = Private Cloud + Public Cloud
+    - For example, an organization’s own data center along with one or more public cloud services
 
 </blockquote>
 </details>
