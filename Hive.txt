@@ -174,6 +174,317 @@ B.False
 
 Answer:A
 
+#P1
+##EASY
+###BC
+16.Which of the following commands can be used to load data stored in HDFS into a table in Hive?
+
+A.load data inpath '/home/foouser/inputdata/emp_details' into table employees;  
+B.load data '/home/foouser/inputdata/emp_details' into table employees;  
+C.load data inpath '/home/foouser/inputdata/emp_details' into external table employees;  
+D.load data hdfspath '/home/foouser/inputdata/emp_details' into table employees;  
+
+Answer:A
+
+#P1
+##EASY
+###BC
+17.Which of the following commands will display the partitions of a table?
+
+A.SHOW PARTITIONS <table name>;
+B.SHOW PARTITIONS <dbname>;
+C.SHOW PARTITIONS;
+D.LIST PARTITIONS <table name>;
+
+Answer:A
+
+#P1
+##EASY
+###TF
+18.We can create a hive table with an partition key for a particular column along with the data type.
+
+A.True
+B.False
+
+Answer:A
+Explanation:The Hive partition table can be created using PARTITIONED key for a particular column along with the data type.
+
+#P1
+##EASY
+###BC
+19.Which is the correct command to display the tables in Hive?
+
+A.hive>SHOW TABLES;
+B.hive>DIS TABLES;
+C.hive>TABLES;
+D.ERROR 
+
+Answer:A
+
+#P1
+##EASY
+###BC
+20.Which is the appropriate syntax using for commands inline?
+
+A.%hive -e 
+B.%hive -s  
+C.%hive -f  
+D.None  
+
+Answer:A
+
+#P1
+##EASY
+###BC
+21.Which of the following commands can be used to load data stored in the local directory into a table in Hive?
+
+A.load data local inpath '/home/foouser/input_data/emp_details' into table employees;  
+B.load data inpath '/home/foouser/input_data/emp_details' into table employees;  
+C.load data localpath '/home/foouser/input_data/emp_details' into table employees;  
+D.load data local inpath '/home/foouser/input_data/emp_details' into external table employees; 
+
+Answer:A
+
+#P1
+##EASY
+###BC
+22.Which is the central repository for storing all the hive metadata?
+
+A.metadata
+B.metastore
+C.datawarehouse
+D.None of the above
+
+Answer:B
+Explanation:metastore as a central repository for storing all the Hive metadata information. Hive metadata includes various types of information like structure of tables
+
+#P2
+##EASY
+###BC
+23.What is the full form of HWI?
+
+A.Hive World Internet
+B.Hive Web Interface 
+C.Hive Wire Internet 
+D.Hive World Interface 
+
+Answer:B
+
+#P1
+##EASY
+###BC
+24.TINYINT supports _____ byte signed integer?
+
+A.1
+B.2
+C.3
+D.4
+    
+Answer:A
+
+#P1
+##EASY
+###TF
+25.State True/False:SmallINT supports 2 byte signed integer.
+
+A.True
+B.False
+
+Answer:True
+
+#P1
+##EASY
+###BC
+26.What is the maximum size of data Hive can handle?
+
+A.12GB
+B.2TB
+C.2GB
+D.12GB
+
+Answer:C
+Explanation:The maximum size of a string data type supported by Hive is 2 GB. Hive supports the text file format by default, and it also supports the binary format sequence files, ORC files, Avro data files, and Parquet files.
+
+#P1
+##EASY
+###MA
+27.Which of the following are valid AVRO types?
+
+A.Record
+B.Arrays
+C.Unions
+D.JSON
+
+Answer:A,B & C
+Explanation:Record,Arrays and unions are the valid AVRO types.
+
+#P1
+##EASY
+###BC
+28.Which of the following is the correct way to define a map type in an AVRO schema? 
+
+A.{"name": "additional", "type": {"type": "map", "values": "string"}}
+B.{"name": "additional", "type": ["type": "map", "values": "string"]}
+C.{"name": "additional", "type": "map", "values": "string"}
+D.{"name": "additional", "type": "map", {"values": "string"}}
+
+Answer:A
+
+#P1
+##EASY
+###BC
+29.In what format is the AVRO schema structure created?
+
+A.JSON
+B.CSV
+C.XML
+D.Binary
+
+Anwer:A
+Explanation:An Avro schema is created using JSON format. JSON is short for JavaScript Object Notation, and it is a lightweight, text-based data interchange format.
+
+#P2
+##EASY
+###BC
+30.What is AVRO?
+
+A.Avro is a java compression library. 
+B.Avro is a java serialization library.
+C.Avro is a java library that create split table files.
+D.None of these answers are correct.
+
+Answer:A
+
+#P1
+##EASY
+###BC
+31.Can you run Map - Reduce jobs directly on Avro data?
+
+A.Yes, Avro was specifically designed for data processing via Map-Reduce. 
+B.Yes, but additional extensive coding is required.
+C.No, Avro was specifically designed for data storage only.
+D.Avro specifies metadata that allows easier data access. This data cannot be used as part of map-reduce execution, rather input specification only.
+
+Answer:A
+
+#P1
+##EASY
+###TF
+32.State True/False:Hive is designed for Online transaction processing (OLTP).
+
+A.True
+B.False
+
+Answer:False
+Explanation:Hive is not designed for Online transaction processing (OLTP).It is designed only for (OLAP).
+
+#P1
+##EASY
+###BC
+33.What is Serializaiton?
+
+A.The process of converting complex objects (array, dicts, lists, class objects, JSON, etc) into byte streams so that they can be stored or transferred to other machines.
+B.When the data, once received, is converted in to it's original form.
+C.It is a framework library.
+D.It is a framework that is used by YARN to process data.
+
+Answer:A
+
+#P1
+##EASY
+###TF
+34.State True/False:In Hive, sub queries are not supported.
+
+A.True
+B.False
+
+Answer:A
+Explanation:In hive sub queries are not supported.
+
+#P1
+##EASY
+###BC
+35.What happens when the scema does not match the file content?
+
+A.It cannot read the file
+B.It reads only the string data type
+C.it throws an error and stops reading the file
+D.It returns null values for mismatched fields.
+
+Answer:D
+
+#P1
+##EASY
+###BC
+36.Choose the correct statements about the Hive.
+
+A.Hive supports sub query.
+B.Hive supports overwriting
+C.Hive supports deletes
+D.All of the above
+
+Answer:B
+Explanation:Hive supports only the overwriting but i will not supports deletes.
+
+#P2
+##EASY
+###BC
+37.Which type of tables used to Creating  a table As well as loading data from a select clause.
+
+A.only managed tables
+B.only external tables
+C.Both types of tables
+D.Only tables without partitions
+
+Answer:A
+
+#P2
+##EASY
+###TF
+38.Hive is a distributed data warehouse.
+
+A.True
+B.False
+
+Answer:A
+
+#P1
+##EASY
+###TF
+39.State True/False:Hive supports updates and deletes
+
+A.True
+B.False
+
+Answer:B
+Explanation:Hive does not supports updates and deletes.
+
+#P1
+##EASY
+###BC
+40.Which query is used to select all columns starting with the word 'BUY' form the table GROSS_BUY the query is ?
+
+A.select '$BUY*'  from GROSS_BUY 
+B.select 'BUY*' from GROSS_BUY 
+C.select 'BUY.*' from GROSS_BUY 
+D.select  'BUY[*]' from GROSS_BUY
+    
+Answer:C
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
