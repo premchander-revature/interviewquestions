@@ -25,4 +25,30 @@
   
 ---
  
-2.  
+2.  How do you know about AWS Global Infrastructure?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+AWS Global Infrastructure is the most secure, extensive, and reliable Global Cloud Infrastructure, for all your applications. 
+
+AWS Cloud infrastructure is built around AWS Regions and Availability Zones. The AWS Cloud spans 87 Availability Zones within 27 geographic regions around the world.
+
+</blockquote>
+
+<details>
+<summary><b>Reference</b></summary>
+<blockquote>
+
+- [AWS Global Infrastructure](https://aws.amazon.com/about-aws/global-infrastructure/?pg=cloudessentials)
+
+</blockquote>
+</details>
+</details>
+  
+---
+ 
+3. What is meant by regions

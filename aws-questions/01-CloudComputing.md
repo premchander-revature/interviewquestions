@@ -798,6 +798,3 @@ In general, servers are regulated by the laws of the country they reside in. Tha
 </details>
   
 ---
- 
- 
-
