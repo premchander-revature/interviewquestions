@@ -959,6 +959,122 @@ D.None of the mentioned
 
 Answer:A
 
+#P2
+##EASY
+###TF
+81.State True/False:bfs executes a dfs command from the hive shell.
+
+A.True
+B.False
+
+Answer:B
+Explanation:dfs executes a dfs command from the hive shell.
+
+#P1
+##EASY
+###MA
+82.How will you remove duplicate records from a table?
+
+A.Use Insert Overwrite
+B.Use Distinct keyword
+C.Use Remove keyword
+D.None of the above
+
+Answer:A & B
+
+#P1
+##EASY
+###TF
+83.We will not use a Inner Join to join a two big table in Hive.
+
+A.True
+B.False
+
+Answer:B
+Explanation:We can use a Inner Join to join a two big table in Hive.
+
+#P1
+##EASY
+###BC
+84.Choose the correct option why we use AVRO in a system?
+
+A.Dynamic typing
+B.No manually assigned area ID's
+C.data exchange between systems
+D.All of the above
+
+Answer:D
+
+#P1
+##EASY
+###TF
+85.State True/False:Multiple users can use one metastore.
+
+A.True
+B.False
+
+Answer:B
+Explanation:Multiple users can't use one metastore.it is not supported by Hive.
+
+#P1
+##EASY
+###BC
+86.Is there a data type in Hive to store data information?
+
+A.No
+B.We can use TIME datatype
+C.We can use TIMESTAMP data type
+D.None of the above
+
+Answer:C
+Explanation:The TIMESTAMP data type in Hive stores all data information in the java.sql.timestamp format
+
+#P1
+##EASY
+###TF
+87.It is possible to run unix shell commandsin Hive.
+
+A.True
+B.False
+
+Answer:A
+EXplanation:It can run shell commands in Hive by adding a ‘!’ before the command.
+
+#P1
+##EASY
+###TF
+88.State True/False: It is Possible to executue Hive Queries from a Script File.
+
+A.True
+B.False
+
+Answer:A
+
+#P1
+##EASY
+###BC
+89.Consider We have number of databases.we had to List all database that began with the letter 'C', How would we Do it?
+
+A.show database like;
+B.show databases like 'C.*
+C.show database
+D.None of the above
+
+Answer:B
+
+#P1
+##EASY
+###TF
+90.It is possible to delete DBPROPERTY in Hive.
+
+A.True
+B.False
+
+Answer:B
+Explanation:We cannot delete the DBPROPERTY.
+
+91.
+
   
 
 
