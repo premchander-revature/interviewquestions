@@ -507,7 +507,457 @@ D.None of the above
 Answer:C
 Explanation:The data will be accessible even if the table gets dropped. We can get the data from the table’s HDFS location.
 
-44.
+#P1
+##EASY
+###BC
+44.Which statements are used to build and modify the tables.
+
+A.DML
+B.DCL
+C.DDL
+D.All of the above
+
+Answer:C
+Explanation:DDL Statements are used to build and modify the tables.
+
+#P1
+##EASY
+###BC
+45.Which of the following commands are not from the DDL commands?
+
+A.Describe
+B.Delete
+C.Alter
+D.None of the above
+
+Answer:D
+Explanation:All the above commands are DDL commands.
+
+#P1
+##EASY
+###TF
+46.DML statements are used to retrieve, store, modify, delete, insert data in the database.
+
+A.True
+B.False
+
+Answer:A
+
+#P1
+##EASY
+###BC
+47.Which of the following command is used to display the information about the schema of the table.
+
+A.Details
+B.Show
+C.Describe
+D.Load
+
+Answer:C
+Explanation:Describe provides information about the schema of the table.
+
+#P1
+##EASY
+###TF
+48.State True/False:By default Hive will use the logj4.
+
+A.True
+B.False
+
+Answer:B
+Explanation:By default hive will use the log4j not logj4.
+
+
+#P1
+##EASY
+###TF
+49.State True/False:Hive and HiveQL is not same.
+
+A.True
+B.False
+
+Answer:False
+Explanation:Hive queries are written in HiveQL,Which is a query language similar to the SQL.
+
+#P1
+##EASY
+###BC
+50.How will you get hive prompt using command?
+
+A.hive -v
+B.hive 
+C.hive>
+D.hive!
+
+Answer:B
+Explanation:From home directory , type hive 
+hive
+You will get hive prompt as
+hive>
+
+#P1
+##EASY
+###BC
+51.Which of the following Hive query is used to check the table data?
+
+A.select * from the table_name;
+B.select from table_name
+C.select ** from table_name
+D.select * from table_name;
+
+Answer:D
+
+#P1
+##EASY
+###BC
+52.Which of the following command is used to create a partition using the table column.
+
+A.create table <table_name> (col1 data_type1, col2 data_type2..)
+parti by(part_col data_type3);
+B.create table(col1 data_type1, col2 data_type2..)
+partitioned by(part_col data_type3);;
+C.create tables <table_name> (col1 data_type1, col2 data_type2..)
+partitioning by(part_col data_type3):
+D.create table <table_name> (col1 data_type1, col2 data_type2..)
+partitioned by(part_col data_type3);
+
+Answer:D
+
+#P1
+##EASY
+###BC
+53.Hive clients are categorized into how many types?
+
+A.4
+B.5
+C.3
+D.None of the above
+
+Answer:Hive clients are categorized into three types
+Explanation:The three types of hive clients are Thrift clients,JDBC client,ODBC client.
+
+#P1
+##EASY
+###TF
+54.The Beeline is a command shell supported by HiveServer2.
+
+A.True
+B.False
+
+Answer:A
+
+#P1
+##EASY
+###BC
+55.Which will overwrite any existing data in the table or partition?
+
+A.INSERT WRITE
+B.INSERT OVERWRITE
+C.INSERT INTO
+D.None of the mentioned 
+
+Answer:C
+
+#P1
+##EASY
+###BC
+56.Which one receives the queries Whenvever the user submits the HiveQL statements ?
+
+A.Hive Compiler
+B.Hive Driver
+C.Execution engine
+D.Optimizer
+
+Answer:B
+Explanation:The Hive driver receives the HiveQL statements submitted by the user through the command shell. 
+
+#P1
+##EASY
+###BC
+57.Which of the following aggregate function is used to count the total number of the records in a table?
+
+A.sum(col)
+B.count()
+C.count(*)
+D.avg(col)
+
+Answer:C
+Explanation:It returns the count of the number of rows present in the file.
+
+#P1
+##EASY
+###TF
+58.State True/False:We can't transfer data from Hive to Hdfs.
+
+A.True
+B.False
+
+Answer:B
+Explanation:We can trasfer the data from Hive to Hdfs.
+
+#P2
+##EASY
+###BC
+59.Consider you have a Student hive table you want to count total number of students from that table which of the following command is used to count the students count?
+
+A.select count(*) from Student;
+B.select count() from student;
+C.select sum(*) from student;
+D.None of the above
+
+Answer:A
+
+#P1
+##EASY
+###BC
+60.In which mode Hiveserver2 only accepts the valid thrift calls?
+
+A.Remote
+B.Embedded
+C.Both a and b
+D.Interactive
+
+Answer:A
+
+#P1
+##EASY
+###BC
+61.Which of the following command used to sets the value of particular configuration variable?
+
+A.set-v
+B.set=
+C.set
+D.reset
+
+Answer:C
+Explanation:Set command is used to sets the value of particular configuration variable.
+
+#P2
+##EASY
+###TF
+62.State True/False:Hive Commands are non-SQL statement such as setting a property or adding a resource.
+
+A.True
+B.False
+
+Answer:A
+
+#P1
+##EASY
+###BC
+63.In hive each database is created in which format it will stored as
+
+A.a directory
+B.a file
+C.a hdfs block
+D.a node
+
+Answer:A
+
+#P1
+##EASY
+###BC
+64.What is the stands for SerDe in hive?
+
+A.serialize and Deserialize
+B.Serializer and Deserializer
+C.serialize and destruct
+D.None of the above
+
+Answer:B
+
+#P1
+##EASY
+###BC
+65.Which of the following is not a type of compression option for a sequence file
+
+A.Record
+B.Block
+C.Column
+D.None
+
+Answer:C
+
+#P1
+##EASY
+###BC
+66.ORC file contains groups of row data called as
+
+A.postscript
+B.stripes
+C.script
+D.none of the mentioned
+
+Answer:B
+
+#P2
+##EASY
+###BC
+67.In Hive the distributed by clasue is 
+
+A.It comes before the sort by clause
+B.It comes after the sort by clause
+C.Doesn't depends upon the position
+D.None of the above
+
+Answer:A
+
+#P1
+##EASY
+###TF
+68.State True/False:we can't change the settings within a Hive session.
+
+A.True
+B.False
+
+Answer:B
+Explanation:We can change the settings within a Hive session.
+
+#P1
+##EASY
+###BC
+69.Which of the following command shows that buckets are occupied according to the table?
+
+A.SET hive.enforce.bucketing=true;
+B.set hives.enforce.bucketing=false;
+C.SET hive.enforce.bucketing=false;
+D.SET hive.enforce=true;
+
+Answer:A
+
+#P2
+##EASY
+###BC
+70.Is it possible to add 100 nodes when we already have 100 nodes in Hive? 
+
+A.Not possible
+B.Possible
+C.We can add only 50 nodes
+D.None of the above
+
+Answer:B
+Explanation:Yes,it is possible to add 100 nodes when we already have an 100 nodes in hive using some of the steps.
+
+#P1
+##EASY
+###TF
+71.State True/False:We haven't Trim and Reverse functions in Hive.
+
+A.True
+B.False
+
+Answer:B
+Explanation:In Hive we have trim and reverse functions.
+
+#P1
+##EASY
+###BC
+72.Which of the following command is used change the data type of the salary column from integer to bigint in the employee table?
+
+A.ALTER TABLE employee CHANGE salary int into BIGINT;
+B.ALTER TABLE employee salary nito bigint;
+C.ALTER TABLE employee CHANGE salary salary BIGINT;
+D.ALTER TABLE employee salary salary BIGINT;
+
+Answer:C
+Explanation:We can change the column data type by using ALTER and CHANGE.
+
+#P2
+##EASY
+###BC
+73.Which of the following components are not used in Hive Query processor?
+
+A.Plan Components
+B.Hive Function Framework
+C.Optimizer
+D.None of the above
+
+Answer:D
+Explanation:All the components are used in hive query processor.
+
+#P1
+##EASY
+###MA
+74.What is the use of Buckets in Hive?
+
+A.used to broke down into some parts.
+B.used to segregating ihve table data into multiple files.
+C.it is a kind of map/reduce.
+D.used to segregating ihve table data into directories.
+
+Answer:B and D
+
+#P1
+##EASY
+###BC
+75.In hive we have three different types of tables.
+
+A.True
+B.False
+
+Answer:B
+Explanation:In hive we have only the 2 different types of files.The files are Managed tables and External tables.
+
+#P1
+##EASY
+###MA
+76.ORC is a which type of file format?
+
+A.column-oriented storage file
+B.sequence file
+C.record-columnar storage file
+D.parquet format
+
+Answer:A & C
+Explanation:Except A and C all other files are different format and type of file.
+
+#P1
+##EASY
+###TF
+77.Say True/False:Whenever we run a Hive query, a new metastore_db is created.
+
+A.True
+B.False
+
+Answer:A
+EXplanation:A local metastore is created when we run Hive in an embedded mode. Before creating, it will checks whether the metastore exists or not, and this metastore property is defined in the configuration file hive-site.xml,with the default value.we have to change the behavior of the location to an absolute path so that from that location the metastore can be used.
+
+#P1
+##EASY
+###BC
+78.How many metastores are in the hive?
+
+A.4
+B.5
+C.6
+D.None of the above
+
+Answer:D
+Explanation:In hive we have three metastores one is Embedded metestore,Local metastore,Remote metastore.
+
+#P1
+##EASY
+###BC
+79.Which of the following is not the data types in Hive array?
+
+A.arrays
+B.Structs
+C.int
+D.Structs
+
+Answer:C
+
+#P1
+##EASY
+###BC
+80.Which designed to overcome limitations of the other Hive file formats?
+
+A.ORC
+B.OPC
+C.ODC
+D.None of the mentioned
+
+Answer:A
 
   
 
