@@ -6,7 +6,7 @@
 ###BC
 1. Who can be the consumer of cloud computing? 
 
-A. single user
+A. Single user
 B. Group of users
 C. Company or organization
 D. All of the above
