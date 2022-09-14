@@ -1,6 +1,6 @@
 ## Technical
 
-1. What is meaning of Monolithic Application?
+1. What is the meaning of Monolithic Application?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -9,6 +9,7 @@
 <blockquote> 
     
 - When all the features/functionalities of an application are coupled together in single code base, then that application is termed as Monolithic applications.
+	
 </blockquote> 
 
 </details>
@@ -28,6 +29,7 @@
 - In Monolithic style code is tightly coupled and servers all of the business concerns together.  
 - To make a change to Monolithic of application requires update to entire stack by accessing the code base and building and deploying an updated version of the service-side interface. 
 - This leads to changes/updates restrictive and time-consuming. 
+	
 </blockquote> 
 
 </details>
@@ -42,7 +44,7 @@
 
 <blockquote> 
     
-- There are many drawbacks of using Monolithic Style as listed below-
+  - There are many drawbacks of using Monolithic Style as listed below-
   - **Slower development speed**  due to large, complex monolithic application.
   - We **can’t scale individual components**.
   - As application evolves & become complex, **making changes are often expensive and time-consuming**.
@@ -64,13 +66,14 @@
 
 <blockquote> 
     
-- Yes there are too few advantages of Monolithic applications as listed below-
+  - Yes there are too few advantages of Monolithic applications as listed below-
   - One code base, it is **easier to develop**.
   - Single build unit makes **deployment easier**.
   - **Better performance** due to centralized code base.
   - **Simplified end-to-end testing** due to single, centralized unit.
   - **Easy debugging** to locate application issues.
   - **Cost of hosting** is less compared to microservices style.
+	
 </blockquote> 
 
 </details>
@@ -91,9 +94,11 @@
 - There is a bare minimum of centralized management of these services, which may be written in different programming languages and use different data storage technologies. 
 - Each service runs a unique process and manages its database. 
 - A service can generate alerts, log data, support user interfaces (UIs), handle user identification or authentication, and perform various other tasks.
+	
 </details>
 
 ---
+	
 6. What if there are already complex, huge legacy applications operational from decades, can we convert them into microservices?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
@@ -107,6 +112,7 @@
 - Usually, the legacy applications which involved huge capital and way complex at core takes time to slowly migrate to MSA.
 - Companies are trying to migrate first the UI or client facing layer to MSA followed by slowly moving towards the core complex layers. 
 - This has given them scaling advantages, greater business agility, and increased profits.
+	
 </blockquote> 
 
 </details>
@@ -124,11 +130,13 @@
 - Beginning In 2012, Netflix began adopting microservices.
 - They made the decision to break down their monolithic legacy application into smaller, individual microservices to lower the possibility of system errors and ensure better long-term system stability.
 - Switching to a microservices architecture can create exciting opportunities is proven by Netflix.
+	
 </blockquote> 
 
 </details>
 
 ---
+	
 8. What is Netflix OSS?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
@@ -157,6 +165,7 @@
 - Just like Spring Framework, Spring Data & Spring Boot, there is another project called Spring Cloud.
 - Spring Cloud project help build robust cloud applications and it provides a solution to the commonly encountered patterns when developing a distributed system. 
 - Spring Cloud project provides tools for developers to quickly build both cloud and microservice-based applications.
+	
 </blockquote> 
 
 </details>
@@ -187,7 +196,7 @@
 
 <blockquote> 
     
-- We can leverage `Spring Cloud Netflix` project and integrate below Netflix OSS components- 
+  - We can leverage `Spring Cloud Netflix` project and integrate below Netflix OSS components- 
   - `Netflix Eureka` - This is Service Discovery Server
   - `Netflix Ribbon` - Dynamic Routing and Load Balancer
   - `Netflix Hystrix` -  Circuit Breaker
@@ -208,11 +217,13 @@
 - Under distributed application development, we have a concept called Service Registration and Service Discovery.
 - We have one dedicated server which is responsible for maintaining the registry of all the microservices that have been deployed and removed.
 - We can understand it as a lookup service where microservices (clients) can register themselves and discover other registered microservices.
+	
 </blockquote> 
 
 </details>
 
 ---
+	
 13. What are the Service Discovery providers you know?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
@@ -242,6 +253,7 @@
 - The discovery server expects a regular heartbeat message from each microservice instance. 
 - If any microservice instance consistently fail to send a heartbeat, then the discovery server will remove the instance from its registry. 
 - This way Eureka server maintains very stable ecosystem of microservices collaborating with each other. 
+	
 </blockquote> 
 
 </details>
@@ -259,6 +271,7 @@
 - This is usually one of the key responsibilities of Service Discovery Server.
 - Usually, each service instance in microservices based architecture is scaled up and down as per application load.
 - Also, we use a virtual host to host the services, especially in the cloud environment.
+	
 </blockquote> 
 
 </details>
@@ -273,6 +286,7 @@
 <blockquote> 
     
 - We have to add below maven dependencies in `pom.xml`
+	
 ```xml
   <dependencies>
 	<dependency>
@@ -287,6 +301,7 @@
 		<artifactId>spring-cloud-starter-eureka-server</artifactId>
 	</dependency>
   </dependencies>
+	
 ```
 - Configure `Eureka server common port: 8761` inside application.properties file as below-
 ```
@@ -315,6 +330,7 @@ eureka.server.max-threads-for-peer-replication=0
 #logging.level.com.netflix.eureka=OFF
 #logging.level.com.netflix.discovery=OFF
 #https://cloud.spring.io/spring-cloud-static/Dalston.SR5/multi/multi__appendix_compendium_of_configuration_properties.html
+	
 ```
 - Annotate the Spring Boot application main class with @EnableEurekaServer annotation-
 
