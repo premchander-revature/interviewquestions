@@ -3,7 +3,7 @@ Hadoop
 #P1
 ##EASY
 ###BC
-1.Which of the following commands will create a directory named "Big-Big-data" in the user's HDFS home directory? (cosider the username is "ken").
+1.Which of the following commands will create a directory named "Big-data" in the user's HDFS home directory? (cosider the username is "ken").
 
 A.hdfs dfs -mkdir Big-data
 B.mkdir /user/ken/Big-data
@@ -36,7 +36,7 @@ C.Value
 D.Accuracy
 
 Answer:D
-Explanation:Other than the accuracy all of the characteristics of Big data.In Big data we have five characteristics.
+Explanation:Volume,variety and value all three are the characteristics of Big data.
 
 #P1
 ##EASY
@@ -49,7 +49,7 @@ C.Any node on the rack adjacent to rack of the datanode
 D.Just any node in the cluster
 
 Answer:A
-Explanation:When the JobTracker tries to find somewhere to schedule a task within the MapReduce operations, it will looks for for empty slot on the same server that hosts the DataNode containing the data orelse  it looks for an empty slot on a machine.
+Explanation:When the JobTracker tries to find somewhere to schedule a task within the MapReduce operations, it will looks for empty slot on the same server that hosts the DataNode or else it looks for an empty slot on a machine.
 
 #P1
 ##EASY
@@ -100,7 +100,7 @@ C.Tasktracker to namenode
 D.Jobtracker to namenode
 
 Answer:B
-Explanation:A Heartbeat is a signal from Datanode to Name node to indicate that Data node is alive. Data node sends the heartbeat to the Name Node.
+Explanation:A Heartbeat signal sent from Datanode to Namenode, it will indicate that Data node is alive.
 
 #P1
 ##EASY
@@ -111,8 +111,7 @@ A.True
 B.False
 
 Answer:A
-Explanation:Hadoop has two major layer one is processing layer(MapReduce) and another one is Storage layer(HDFS).
-
+Explanation:Hadoop has two major layers one is processing layer(MapReduce) and another one is Storage layer(HDFS).
 
 #P1
 ##EASY
@@ -125,7 +124,7 @@ C.hdfs dfs -cp <source> <target on HDFS>
 D.hdfs dfs -mv <source> <target on HDFS>
 
 Answer: A and B
-Explanation: In order to copy a file from the local file system to HDFS, use Hadoop fs -put or hdfs dfs -put, on put command, specify the local-file-path where we wanted to copy from and then HDFS-file-path where you wanted to copy to.
+Explanation: In order to copy a file from the local file system to HDFS, use hdfs dfs -put or -copyFromLocal command, specify the path of source file and then destination file path.
 
 #P1
 ##EASY
@@ -152,7 +151,7 @@ C.Java
 D.Go
 
 Answer:C
-Explanation:Hadoop was written in Java because it was used to "fix" the problems in Nutch, which also was written in Java.
+Explanation:Hadoop was written in Java because it was used to "fix" the problems.
 
 #P1
 ##EASY
@@ -425,13 +424,13 @@ Answer:A
 #P1
 ##EASY
 ###TF
-35.State True/False: TextInputFormat treats each line of each input file not separate as a separate record and performs parsing.
+35.State True/False: TextInputFormat treats each line of each input file as a separate record and performs parsing.
 
 A.True
 B.False
 
 Answer:False
-Explanation:This is the default InputFormat of MapReduce.TextInputFormat treats each line of each input file as a separate record and performs no parsing.
+Explanation: TextInputFormat treats each line of each input file as a separate record and performs no parsing.
 
 #P1
 ##EASY
@@ -647,7 +646,7 @@ C.warm swappable
 D.non-swappable
 
 Answer:A
-Explanation:Datanode supports hot swappable drives. The user can add or replace HDFS data volumes without shutting down the DataNode.
+Explanation:Datanode supports the hot swappable drives. The user can add or replace volume of data from HDFS without shutting down the DataNode.
 
 #P1
 ##EASY
@@ -988,7 +987,7 @@ C.It will kill the job
 D.None of the above
 
 Answer:C
-Explanation:If of the task fails basically, it will restart the task again on some other TaskTracker and if the task fails more than four (By default ) times will it kill the job.
+Explanation:If the task fails, it will restart the task on some other TaskTracker and if the task fails more than four (By default ) times it will kill the job.
 
 #P2
 ##EASY
@@ -1337,8 +1336,8 @@ A.True
 B.False
 
 Answer:B
-Explanation:YARN is not a replacement of Hadoop but it is a more powerful and efficient
-technology that supports MapReduce and is also referred to as Hadoop 2.0.
+Explanation:YARN is not a replacement of MapReduce in Hadoop but it is more powerful and efficient
+technology that do all the resource managing in Hadoop 2.0 instead of MapReduce.
 
 #P1
 ##EASY
