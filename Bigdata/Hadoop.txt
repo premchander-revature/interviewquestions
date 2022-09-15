@@ -84,7 +84,10 @@ C.Fair scheduler
 D.None of the above
 
 Answer:A and C
-Explantion:In YARN there are three types of schedulers available:1.FIFO,2.Capacity,3.Fair.
+Explantion:In YARN there are three types of schedulers available.
+1.FIFO
+2.Capacity
+3.Fair.
 
 #P1
 ##EASY
@@ -133,7 +136,10 @@ A.True
 B.False
 
 Answer:B
-Explanation:Hadoop can run in 3 different types of modes.These modes are Local,Single,Fully distributed mode.
+Explanation:Hadoop can run in 3 different types of modes.
+1. Local distributed mode.
+2. Single distributed mode.
+3. Fully distributed mode.
 
 #P2
 ##EASY
@@ -206,7 +212,7 @@ A.True
 B.False
 
 Answer:B
-Explanation:The default size of the distributed cache is 10GB only.
+Explanation:The default size of the distributed cache is 10 GB only.
 
 #P1
 ##EASY
@@ -387,7 +393,9 @@ C.128Gb
 D.300TB
 
 Answer:A
-Explanation:HDFS stores the file as blocks and each block is 128Mb in size. Mapreduce processes this HDFS file. Each mapper processes a block.So,128MB is a single block of size which will not be further split.
+Explanation:HDFS stores the file as blocks and each block is contain 128Mb in size. 
+Mapreduce processes this HDFS file.
+Each mapper processes a block. So, 128MB is a single block of size which will not be further split.
 
 #P1
 ##EASY
@@ -614,7 +622,7 @@ C.reduce, sort, and combine
 D.map, sort, and combine
 
 Answer:B
-Explanation:shuffle,sort and reduce are the primary phases of the reducer.
+Explanation:Shuffle,sort and reduce are the primary phases of the reducer.
 
 #P2
 ##EASY
@@ -762,7 +770,11 @@ C.mapred-site.xlm
 D.hadoop-site.xml
 
 Answer:A and B
-Explanation:The 4 main hadoop configuration files are core-site.xml,hdfs-site.xml,mapred-site.xml and yarn-site.xml.
+Explanation:The 4 main hadoop configuration files are :
+1. core-site.xml
+2. hdfs-site.xml
+3. mapred-site.xml 
+4. yarn-site.xml.
 
 #P1
 ##EASY
@@ -797,7 +809,8 @@ C.using exist any namenode
 D.None of the above
 
 Answer:B
-Explanation:No we can't able to use an empty naemnode in hdfs.There does not exist any NameNode without data. If it is a NameNode then it should have some sort of data in it.
+Explanation:No we can't able to use an empty naemnode in hdfs.
+There does not exist any NameNode without data. If it is a NameNode then it should have some sort of data in it.
 
 #P1
 ##EASY
@@ -1081,7 +1094,12 @@ C.1
 D.5
 
 Answer:D
-Explanation:In Hadoop 5 daemons are required to run a hadoop cluster.The 5 daemons are NameNode,DataNode,Secondary NameNode,JobTracker,TaskTracker.
+Explanation:In Hadoop 5 daemons are required to run a hadoop cluster.
+1. NameNode
+2. DataNode
+3. Secondary NameNode
+4. JobTracker
+5. TaskTracker.
 
 #P2
 ##EASY
