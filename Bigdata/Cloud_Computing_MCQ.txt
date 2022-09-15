@@ -26,21 +26,20 @@ C. MongoDB
 D. Cloud Computing
 
 Answer: D
-Explanation: option A, B, C are stateful applications.
+Explanation: MySQL, Cassandra and MongoDB are stateful applications.
 
 
 #P2
 ##EASY
 ###BC
-3. Which is not a feature of Cloud Computing?
+3. Which of the following cloud are managed by thrid-party service provider, which delivers their computing resources over the internet?
 
-A. Resource Pooling
-B. One Time Payment
-C. Scalability
-D. Security
+A. Private Cloud
+B. Public Cloud
+C. Both A and B
+D. Hybrid Cloud
 
 Answer: B
-Explanation: Cloud Computing is based on Pay-As-You-Go. Therefore the pricing will change with the requirements of users
 
 
 #P2
@@ -80,7 +79,7 @@ C. Data as a Service
 D. Software as a Service 
 
 Answer: C
-Explanation: There is no service as "Data as a service" in Cloud Computing.
+Explanation: There is no "Data as a service" service that comes under Cloud Computing.
 
 
 #P1
@@ -119,7 +118,7 @@ A. True
 B. False
 
 Answer: B
-Explanation: It is an example of PaaS.
+Explanation: It is an example of Platform as a service.
 
 
 #P1
@@ -160,7 +159,16 @@ C. AWS Elastic Beanstalk
 D. AWS EC2
 
 Answer: D
-Explanation: All the above options except D are examples of PaaS.
+Explanation: AWS EC2 is an example of Infrastructure as a service.
+
+#P1
+##EASY
+###TF
+13. State True or False: "SaaS model virtualized the hardware in the cloud."
+A. True
+B. False
+
+Answer: B
 
 
 #P1
