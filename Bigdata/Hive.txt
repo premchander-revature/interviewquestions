@@ -1073,8 +1073,133 @@ B.False
 Answer:B
 Explanation:We cannot delete the DBPROPERTY.
 
-91.
+#P1
+##EASY
+###TF
+91.State True/False:We can make Hive avoid MapReduce
+to return query results by setting the hive.exec.mode.local.auto property to true.
 
+A.True
+B.False
+
+Answer:A
+
+#P1
+##EASY
+###BC
+92.How can we view the indeces of a hive Table?
+
+A.index in table
+B.show index
+C.SHOW INDEX ON table_name
+D.show index in Table_name
+
+Answer:C
+Explanation:We can view the indices of ahive table using SHOW INDEX ON table_name.
+
+#P2
+##EASY
+###TF
+93.State True/False:We can use Load or insert to view.
+
+A.True
+B.False
+
+Answer:B
+EXplanation:It cannot be used with respect to a view in Hive.
+
+#P1
+##EASY
+###BC
+94.What are following steps not use in running hive commands?
+
+A.Start all the hadoop daemons
+B.Create a text file and put it into hdfs.
+C.show databases
+D.None of the Above
+
+Answer:D
+
+#P1
+##EASY
+###TF
+95.State True/False:Hive is optimized for row-level insert/delete/update operations
+
+A.True
+B.False
+
+Answer:B
+
+#P2
+##EASY
+###BC
+96.HiveServer2 introduced in Hive 0.11 has a new CLI known as ?
+
+A.BeeLine
+B.SqlLine
+C.HiveLine
+D.CLilLine
+
+Answer:A
+
+#P1
+##EASY
+###BC
+97.Which of the following is used as command line option?
+
+A.-d,–define <key=value>
+B.-e,–define <key=value>
+C.-f,–define <key=value>
+D.None of the mentioned
+
+Answer:A
+
+#P1
+##EASY
+###TF
+98.State True/False:Enum data type is not supported by hive.
+
+A.True
+B.False
+
+Answer:A
+Explanation:Enum data type doesn't supported by hive.
+
+#P1
+##EASY
+###MA
+99.Which of the following statements are true about internal and external tables.
+
+A.When you drop an internal table in Hive, it simply deletes the metadata information as well as the table data.
+Should have been checked.
+B.The data of both the internal and external tables is moved into the Hive Metastore.
+C.'Internal tables’ data is stored in the Hive warehouse directory.
+D.When you drop an external table, it drops the metadata information of that table; it does not touch the table data at all. This means that it keeps the table data present in the HDFS untouched, but Hive is ignorant of that data now.
+
+Answer:A,C & D
+
+#P1
+##EASY
+###TF
+100.In hive the concat string function is used concat to any number of strings.
+
+A.True
+B.False
+
+Answer:A
+Explanation:CONCAT function accepts any number of arguments
+
+#P1
+##EASY
+###BC
+101.Which  is a shell utility which can be used to run Hive queries in either interactive or batch mode.?
+
+A.$HIVE/bin/hive
+B.$HIVE_HOME/hive
+C.$HIVE_HOME/bin/hive
+D.All of the mentioned
+
+Answer:C
   
 
 
