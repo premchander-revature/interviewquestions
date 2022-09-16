@@ -1444,7 +1444,7 @@ C. Using db.isSysAdmin()
 D. Using db.isSystemAdmin()
 
 Answer: A
-Explanation:  option A returns a document containing the status of a replica set and also tells whether it is a part of primary replica or secondary replica set. 
+Explanation: db.isMaster() returns a document containing the status of a replica set and also tells whether it is a part of primary replica set or secondary replica set. 
 
 
 #P1
