@@ -2,23 +2,25 @@ Hive
 
 #P1
 ##EASY
-###TF
-1.Hive supports the notion of enclosing characters that may include field delimeters in the enclosing string.
+###BC
+1.What will happen if you drop a internal table in Hive?
 
-A.True
-B.False
+A.The directory file from HDFS location has also been deleted
+B.The table along with metadata also get deleted
+C.Both A and B
+D.None of the above
 
-Answer:B
-Explanation:Hive does not supports the notion of enclosing characters that may include field delimeters in the enclosing string.
+Answer:C
+Explanation:If you drop a internal table in hive, it will deletes its whole data along with metadata attached with it and It's data file from HDFS location as well.
 
 #P1
 ##EASY
 ###BC
-2.Which of the following are features of Hive?
+2.Which of the following satement is true regarding Hive?
 
-A.Hive is an RDBMS.
+A.Hive is a RDBMS.
 B.Hive is a distributed file system.
-C.Hive is a resource manager in Hadoop that is used to analyze data stored in HDFS.
+C.Hive is a resource manager in Hadoop.
 D.Hive is a data warehouse system that is used to query and analyze large datasets stored in the HDFS.
 
 Answer:D
@@ -32,7 +34,7 @@ A.True
 B.False
 
 Answer:B
-Explanation:Hive is based on the notion of write once and read many times. RDBMS is based on the notion of reading and writing many times.
+Explanation:Hive is based on the notion of write once and read many times. 
 
 #P1
 ##EASY
@@ -257,7 +259,7 @@ C.datawarehouse
 D.None of the above
 
 Answer:B
-Explanation:metastore as a central repository for storing all the Hive metadata information. Hive metadata includes various types of information like structure of tables
+Explanation:Metastore is a central repository for storing all the Hive metadata information such as column name, data type,Owner name,etc.
 
 #P2
 ##EASY
@@ -423,12 +425,12 @@ Answer:D
 36.Choose the correct statements about the Hive.
 
 A.Hive supports sub query.
-B.Hive supports overwriting
-C.Hive supports deletes
+B.Hive supports overwrite operation
+C.Hive supports delete operation
 D.All of the above
 
 Answer:B
-Explanation:Hive supports only the overwriting but i will not supports deletes.
+Explanation:Hive supports the overwrite operation but the delete operation is not unabled in Hive by default.
 
 #P2
 ##EASY
@@ -490,13 +492,13 @@ Answer:D
 #P1
 ##EASY
 ###TF
-42.State True/False:Hive needs a relational database like oracle to perform query operations and store data.
+42.State True/False:Hive needs a relational database like oracle to perform query operations and for storing data.
 
 A.True
 B.False
 
 Answer:B
-Explanation:Hive needs a relational database like oracle to perform query operations and store data is incorrect with the respect to hive.
+Explanation:Hive needs a relational database like oracle to perform query operations but it has its own Data Warehouse to store data.
 
 #P2
 ##EASY
@@ -587,7 +589,7 @@ Explanation:Hive queries are written in HiveQL,Which is a query language similar
 #P1
 ##EASY
 ###BC
-50.How will you get hive prompt using command?
+50.Using which command you will get hive prompt in Hive?
 
 A.hive -v
 B.hive 
@@ -595,10 +597,7 @@ C.hive>
 D.hive!
 
 Answer:B
-Explanation:From home directory , type hive 
-hive
-You will get hive prompt as
-hive>
+Explanation:To get a prompt in Hive just you need to type "hive" in shell.
 
 #P1
 ##EASY
@@ -836,12 +835,12 @@ Answer:A
 70.Is it possible to add 100 nodes when we already have 100 nodes in Hive? 
 
 A.Not possible
-B.Possible
+B.It is Possible
 C.We can add only 50 nodes
 D.None of the above
 
 Answer:B
-Explanation:Yes,it is possible to add 100 nodes when we already have an 100 nodes in hive using some of the steps.
+Explanation:Yes,it is possible to add 100 nodes when we already have an 100 nodes in hive.
 
 #P1
 ##EASY
@@ -901,8 +900,7 @@ A.True
 B.False
 
 Answer:B
-Explanation:In hive we have only the 2 different types of files.
-The files are Managed tables and External tables.
+Explanation:In hive we have 2 different types of tables, one is managed table and another one is external table.
 
 #P1
 ##EASY
