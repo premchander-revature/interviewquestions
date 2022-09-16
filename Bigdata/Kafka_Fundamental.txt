@@ -3,7 +3,7 @@ Kafka Fundamental
 #P1
 ##EASY
 ###BC
-1.If I produce to a topic that does not exist, by default?
+1.If I produce messages to a topic that does not exist, by default then what will happen?
 
 A.I see a error and producer will not work
 B.I see a warning and kafka create a automatic topic
