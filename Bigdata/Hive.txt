@@ -57,7 +57,7 @@ C.we can use 50000
 D.we can use limit function
 
 Answer:D
-Explanation:In that case we can use limit function(say 1000 records),cache it and then use it .
+Explanation:In that case we can use limit function(say 1000 records) take it and then use it .
 
 #P1
 ##EASY
@@ -150,7 +150,8 @@ A.True
 B.False
 
 Answer:A
-Explanation:As the table is external, the data is not present in the Hive directory.Therefore, if we try to drop the table, the metadata of the table will be deleted, but the data still exists.
+Explanation:As the table is external, the data is not present in the Hive directory.
+Therefore, if we try to drop the table, the metadata of the table will be deleted, but the original data still exists.
 
 #P1
 ##EASY
@@ -303,7 +304,8 @@ C.2GB
 D.12GB
 
 Answer:C
-Explanation:The maximum size of a string data type supported by Hive is 2 GB. Hive supports the text file format by default, and it also supports the binary format sequence files, ORC files, Avro data files, and Parquet files.
+Explanation:The maximum size of a string data type supported by Hive is 2 GB. 
+Hive supports the text file format by default as well as it will support the binary format sequence files, ORC files, Avro data files, and Parquet files.
 
 #P1
 ##EASY
@@ -341,7 +343,8 @@ C.XML
 D.Binary
 
 Anwer:A
-Explanation:An Avro schema is created using JSON format. JSON is short for JavaScript Object Notation, and it is a lightweight, text-based data interchange format.
+Explanation:An Avro schema is created using JSON format. 
+JSON is short for JavaScript Object notation, and it is a lightweight, text-based data interchange format.
 
 #P2
 ##EASY
@@ -376,7 +379,8 @@ A.True
 B.False
 
 Answer:False
-Explanation:Hive is not designed for Online transaction processing (OLTP).It is designed only for (OLAP).
+Explanation:Hive is not designed for Online transaction processing (OLTP).
+It is designed only for (OLAP).
 
 #P1
 ##EASY
@@ -505,7 +509,8 @@ C.It is accessible
 D.None of the above
 
 Answer:C
-Explanation:The data will be accessible even if the table gets dropped. We can get the data from the table’s HDFS location.
+Explanation:The data will be accessible even if the table gets dropped. 
+We can get the data from the table’s HDFS location.
 
 #P1
 ##EASY
@@ -896,7 +901,8 @@ A.True
 B.False
 
 Answer:B
-Explanation:In hive we have only the 2 different types of files.The files are Managed tables and External tables.
+Explanation:In hive we have only the 2 different types of files.
+The files are Managed tables and External tables.
 
 #P1
 ##EASY
@@ -933,7 +939,10 @@ C.6
 D.None of the above
 
 Answer:D
-Explanation:In hive we have three metastores one is Embedded metestore,Local metastore,Remote metastore.
+Explanation:In hive we have three metastores-
+1. Embedded metestore
+2. Local metastore
+3. Remote metastore.
 
 #P1
 ##EASY
@@ -1027,7 +1036,7 @@ C.We can use TIMESTAMP data type
 D.None of the above
 
 Answer:C
-Explanation:The TIMESTAMP data type in Hive stores all data information in the java.sql.timestamp format
+Explanation:The TIMESTAMP data type in Hive stores all data information in the java.sql.timestamp format.
 
 #P1
 ##EASY
@@ -1076,8 +1085,7 @@ Explanation:We cannot delete the DBPROPERTY.
 #P1
 ##EASY
 ###TF
-91.State True/False:We can make Hive avoid MapReduce
-to return query results by setting the hive.exec.mode.local.auto property to true.
+91.State True/False:We can make Hive avoid MapReduce to return query results by setting the hive.exec.mode.local.auto property to true.
 
 A.True
 B.False
