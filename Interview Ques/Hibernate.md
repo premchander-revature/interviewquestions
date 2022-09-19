@@ -1,4 +1,4 @@
-1. Explain about ORM in Hibernate.
+1. Explain about ORM in Hibernate.p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -14,7 +14,7 @@ Hibernate ORM stands for Object Relational Mapping. Which is a mapping tool patt
 
 ---
 
-2. What do you mean by session in Hibernate?
+2. What do you mean by session in Hibernate?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -30,7 +30,7 @@ It is an object that maintains the connection between Java object application an
 
 ---
 
-3. What is a SessionFactory?
+3. What is a SessionFactory?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -47,7 +47,7 @@ Which provides an instance of Session. It is a factory class that gives the Sess
 
 ---
 
-4. What are the main elements of the Hibernate framework?
+4. What are the main elements of the Hibernate framework?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -69,7 +69,7 @@ It consists of
 
 ---
 
-5. How will SQL query created in Hibernate?
+5. How will SQL query created in Hibernate?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -87,7 +87,7 @@ The SQL query is created by executing the following syntax:
 
 ---
 
-6. Is SessionFactory a thread-safe object?
+6. Is SessionFactory a thread-safe object?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -103,7 +103,7 @@ Yes, it is a thread-safe object, many threads cannot access it simultaneously.
 
 ---
 
-7. Is Session a thread-safe object?
+7. Is Session a thread-safe object?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -119,7 +119,7 @@ No, It is not a thread-safe object, many threads can access it simultaneously. I
 
 ---
 
-8. Explain the states of the object in hibernate?
+8. Explain the states of the object in hibernate?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -139,7 +139,7 @@ There are 3 states of the object (instance) in hibernate.
 
 ---
 
-9. List some of the important interfaces of Hibernate framework?
+9. List some of the important interfaces of Hibernate framework?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -159,7 +159,7 @@ There are some interfaces like
 
 ---
 
-10. What is the use of Hibernate Configuration File?
+10. What is the use of Hibernate Configuration File?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -175,7 +175,7 @@ Which mainly contains database-specific configurations and are used to initializ
 
 ---
 
-11. What will be stored in hibernate.cfg.xml file?
+11. What will be stored in hibernate.cfg.xml file?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -192,7 +192,7 @@ Which mainly contains database-specific configurations and are used to initializ
 
 ---
 
-12. What does lazy loading do in hibernate?
+12. What does lazy loading do in hibernate?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -210,7 +210,7 @@ Which mainly contains database-specific configurations and are used to initializ
 
 ---
 
-13. Explain about caching levels in Hibernate.
+13. Explain about caching levels in Hibernate.p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -229,7 +229,7 @@ It offers two caching levels:
 
 ---
 
-14. What are Hibernate's callback interfaces?
+14. What are Hibernate's callback interfaces?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -245,7 +245,7 @@ Which is used in a Hibernate application to receive a notification when an objec
 
 ---
 
-15. How to achieve mapping in Hibernate?
+15. How to achieve mapping in Hibernate?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -265,7 +265,7 @@ Association mappings are one of the key features of Hibernate. It supports the s
 
 ---
 
-16. Can we use SQL inside the Hibernate?
+16. Can we use SQL inside the Hibernate?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -283,7 +283,7 @@ To execute SQL commands from hibernate, Hibernate given us SQLQuery. SQLQuery is
 
 ---
 
-17. Any idea about O-R (Object relational) impedance mismatch? Explain about.
+17. Any idea about O-R (Object relational) impedance mismatch? Explain about.p1
 
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
@@ -300,7 +300,7 @@ When we load or store graph of objects using a relational database we come acros
 
 ---
 
-18. What do you mean by Named SQL Query?
+18. What do you mean by Named SQL Query?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -318,7 +318,7 @@ We can create named queries for both HQL as well as for Native SQL. These Named 
 
 ---
 
-19. Explain about JPA.
+19. Explain about JPA.p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -334,7 +334,7 @@ Java Persistence API (JPA) defines the management of relational data in the Java
 
 ---
 
-20. What is the use of EntityManagerFactory interface?
+20. What is the use of EntityManagerFactory interface?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -350,7 +350,7 @@ Which is used to interact with the entity manager factory for the persistence un
 
 ---
 
-21. Explain about EntityManager interface.
+21. Explain about EntityManager interface.p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -367,7 +367,7 @@ It is used to create, read, and delete operations for instances of mapped entity
 
 ---
 
-22. What are the possible methods that can be used for detached state?
+22. What are the possible methods that can be used for detached state?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -386,7 +386,7 @@ It is used to create, read, and delete operations for instances of mapped entity
 
 ---
 
-23.  What are the possible methods that can be used for persistent state?
+23.  What are the possible methods that can be used for persistent state?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -407,7 +407,7 @@ It is used to create, read, and delete operations for instances of mapped entity
 
 ---
 
-24. How to solve impedance mismatch problem?
+24. How to solve impedance mismatch problem?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -423,7 +423,7 @@ We can use an ORM tool that converts the data between relational databases and o
 
 ---
 
-25. Differentiate between the first and second level cache in Hibernate? 
+25. Differentiate between the first and second level cache in Hibernate? p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
