@@ -1,6 +1,6 @@
 ## Technical
 
-1. Why Java is not a pure object oriented language?
+1. Why Java is not a pure object oriented language?p2
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -16,7 +16,7 @@ Java contains primitive data types like char, boolean, byte, short, int, long, f
 
 ---
 
-2. Which is related to real life entities in object oriented programming langauage.
+2. Which is related to real life entities in object oriented programming langauage.p2
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -35,7 +35,7 @@ Java contains primitive data types like char, boolean, byte, short, int, long, f
 
 ---
 
-3. Which feature in object oriented programming langauage will show only the important deatils?
+3. Which feature in object oriented programming langauage will show only the important deatils?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -53,7 +53,7 @@ Java contains primitive data types like char, boolean, byte, short, int, long, f
 
 ---
 
-4. Which acts as protective shield in object oriented programming langauage?
+4. Which acts as protective shield in object oriented programming langauage?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -70,7 +70,7 @@ Encapsulation is defined as the wrapping up of data under a single unit. It is t
 
 ---
 
-5. How to achieve encapsulation in a Java program?
+5. How to achieve encapsulation in a Java program?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -86,7 +86,7 @@ It can be achieved by declaring all the variables in a class as private and publ
 
 ---
 
-6. How to achieve abstraction in a Java program?
+6. How to achieve abstraction in a Java program?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -102,7 +102,7 @@ It is achieved by interfaces and abstract classes. We can achieve 100% abstracti
 
 ---
 
-7. Which feature is used to reuse the contents in one class to other class in object oriented programming langauage?
+7. Which feature is used to reuse the contents in one class to other class in object oriented programming langauage?p1
 
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -119,7 +119,7 @@ Inheritance is the mechanism in Java by which one class is allowed to inherit th
 
 ---
 
-8. Which feature in object-oriented programming languages is used to differentiate between entities with the same name efficiently?
+8. Which feature in object-oriented programming languages is used to differentiate between entities with the same name efficiently?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -137,7 +137,7 @@ Inheritance is the mechanism in Java by which one class is allowed to inherit th
 
 ---
 
-9. Assume that A is a class with 3 functions with same name and different arguments , how do you call these feature in object-oriented programming languages ?
+9. Assume that A is a class with 3 functions with same name and different arguments , how do you call these feature in object-oriented programming languages ?p1
 
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -154,7 +154,7 @@ Overloading concept, which is a type of polymorphism . Accepts same method name 
 
 ---
 
-10. How can we change the super class method according to the requirements of sub class in Java?
+10. How can we change the super class method according to the requirements of sub class in Java?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -170,7 +170,7 @@ It can be done by method overriding , which is a type of polymorphism. It can mo
 
 ---
 
-11. What happens if we change the arguments of overriding method?
+11. What happens if we change the arguments of overriding method?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -186,7 +186,7 @@ If we change the arguments of overriding method, then it will be treated as over
 
 ---
 
-12. It is possible to change the return type of overriding method from Number type to Integer type?
+12. It is possible to change the return type of overriding method from Number type to Integer type?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -202,7 +202,7 @@ Yes. You can change ,as Integer is a sub class of Number type.
 
 ---
 
-13. How do you refer super class version of overridden method in the sub class?
+13. How do you refer super class version of overridden method in the sub class?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -218,7 +218,7 @@ Using `super` keyword, we can refer super class version of overridden method in 
 
 ---
 
-14. Which is a kind of class that contains only constants and abstract methods?
+14. Which is a kind of class that contains only constants and abstract methods?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -234,7 +234,7 @@ The interface in java is a mechanism to achieve abstraction. There can be only a
 
 ---
 
-15. Which modifiers are allowed for methods in an interface?
+15. Which modifiers are allowed for methods in an interface?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -250,7 +250,7 @@ The interface in java is a mechanism to achieve abstraction. There can be only a
 
 ---
 
-16. Suppose B is an interface. Can we create an object using new B()?
+16. Suppose B is an interface. Can we create an object using new B()?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -266,7 +266,7 @@ No, we cannot create an object of interface using new operator. But we can creat
 
 ---
 
-17. Can we define private and protected modifiers for fields in interfaces?
+17. Can we define private and protected modifiers for fields in interfaces?p1
 
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
@@ -284,7 +284,7 @@ No, we cannot define private and protected modifiers for variables in interface 
 
 ---
 
-18. Is it possible to define an interface with a static modifier?
+18. Is it possible to define an interface with a static modifier?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -300,7 +300,7 @@ Yes, from Java 8 onwards, we can define static and default methods in an interfa
 
 ---
 
-19. Can an interface extends another interface in Java?
+19. Can an interface extends another interface in Java?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -316,7 +316,7 @@ Yes, from Java 8 onwards, we can define static and default methods in an interfa
 
 ---
 
-20. Does an interface implement another interface?
+20. Does an interface implement another interface?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -332,7 +332,7 @@ No, an interface cannot implement another interface in Java
 
 ---
 
-21. Is it possible to define a class inside an interface in Java?
+21. Is it possible to define a class inside an interface in Java?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -348,7 +348,7 @@ Yes, we can define a class inside an interface.
 
 ---
 
-22. What happens if a class has implemented an interface but has not provided implementation for that method defined in Interface?
+22. What happens if a class has implemented an interface but has not provided implementation for that method defined in Interface?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -365,7 +365,7 @@ The class has to be declared with an abstract modifier, which will be enforced b
 
 ---
 
-23. Can a method within an interface be marked as final?
+23. Can a method within an interface be marked as final?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -382,7 +382,7 @@ No, it will result in compilation error, because a final method cannot be overri
 
 ---
 
-24. Is it possible to re-assign a value to a variable of interface?
+24. Is it possible to re-assign a value to a variable of interface?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -399,7 +399,7 @@ No, it will result in compilation error, because a final method cannot be overri
 
 ---
 
-25. What type of a variable in an interface should be?
+25. What type of a variable in an interface should be?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -416,7 +416,7 @@ No, it will result in compilation error, because a final method cannot be overri
 
 ---
 
-26. Is it necessary to implement all abstract methods of an interface?
+26. Is it necessary to implement all abstract methods of an interface?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -432,7 +432,7 @@ Yes, all the abstract methods defined in interface must be implemented.
 
 ---
 
-27. Explain about Marker Interface in Java?
+27. Explain about Marker Interface in Java?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -449,7 +449,7 @@ It doesn’t have any data members or methods in java. For example, Serializable
 
 ---
 
-28. Can we declare a class as Abstract without having any abstract method?
+28. Can we declare a class as Abstract without having any abstract method?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -465,7 +465,7 @@ Yes we can create an abstract class by using abstract keyword before class name 
 
 ---
 
-29. How can we pass arguments to a function by reference or pass by value in Java?
+29. How can we pass arguments to a function by reference or pass by value in Java?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -481,7 +481,7 @@ Yes we can create an abstract class by using abstract keyword before class name 
 
 ---
 
-30. Can we call the constructor of a class more than once for an object?
+30. Can we call the constructor of a class more than once for an object?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -497,7 +497,7 @@ It’s called only once for an object automatically at the time of object creati
 
 ---
 
-31. There are two classes named classBird and classParrot. Both classes are in the same package. Can a private member of classBird can be accessed by an object of classParrot?
+31. There are two classes named classBird and classParrot. Both classes are in the same package. Can a private member of classBird can be accessed by an object of classParrot?p2
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -513,7 +513,7 @@ No, Private members of a class are not accessible outside the scope of that clas
 
 ---
 
-32. How can we make copy of a java object?
+32. How can we make copy of a java object?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -529,7 +529,7 @@ We can use the concept of cloning to create copy of an object. Using clone, we c
 
 ---
 
-33. How can we stop inherting a class from other class in Java?
+33. How can we stop inherting a class from other class in Java?p1
 
  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -553,7 +553,7 @@ public Final Class Stone {
 
 ---
 
-34. Can we use a default constructor of a class even if an explicit constructor is defined?
+34. Can we use a default constructor of a class even if an explicit constructor is defined?p1
 
  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -569,7 +569,7 @@ No. Java provides a default no argument constructor if no explicit constructor i
 
 ---
 
-35. Can a constructor have different name than a Class name in Java?
+35. Can a constructor have different name than a Class name in Java?p1
 
   ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -585,7 +585,7 @@ Constructor in Java must have same name as the class name and if the name is dif
 
 ---
 
-36. Is it possible to re-reach and use an object once it has been garbage collected?
+36. Is it possible to re-reach and use an object once it has been garbage collected?p1
 
  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -601,7 +601,7 @@ No,  Once an object has been destroyed by garbage collector, it no longer exists
 
 ---
 
-37. If i want my class to be developed in a way that no other class (even derived class) can create its objects. How can I do so?
+37. If i want my class to be developed in a way that no other class (even derived class) can create its objects. How can I do so?p1
 
 
  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
@@ -618,7 +618,7 @@ If we declare the constructor of a class as private, it will not be accessible b
 
 ---
 
-38. Is the following class declaration correct?
+38. Is the following class declaration correct?p1
 
  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -643,7 +643,7 @@ The above class declaration is incorrect as an abstract class can’t be declare
 
 ---
 
-39. How are destructors used in Java?
+39. How are destructors used in Java?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -659,7 +659,7 @@ The above class declaration is incorrect as an abstract class can’t be declare
 
 ---
 
-40. Can a variable be local and static at the same time?
+40. Can a variable be local and static at the same time?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -677,7 +677,7 @@ No, variable can’t be static as well as local at the same time. Defining a loc
 
 ---
 
-41. Is it possible to change the value of any variable defined in the class implementing an interface?
+41. Is it possible to change the value of any variable defined in the class implementing an interface?p1
 
  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -694,7 +694,7 @@ No, we can’t change the value of any variable of an interface in the implement
 
 ---
 
-42. What part of memory (Stack/Heap) is cleaned in garbage collection process?
+42. What part of memory (Stack/Heap) is cleaned in garbage collection process?p1
 
  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -711,7 +711,7 @@ Heap. Because when Java programs run on the JVM, objects are created on the heap
 
 ---
 
-43. What would be the result if a class extends two interfaces and both have a method with same name and signature? Assume that the class is not implementing that method.
+43. What would be the result if a class extends two interfaces and both have a method with same name and signature? Assume that the class is not implementing that method.p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -729,7 +729,7 @@ Heap. Because when Java programs run on the JVM, objects are created on the heap
 
 ---
 
-44. Which is the superclass of String and StringBuffer classes in Java?
+44. Which is the superclass of String and StringBuffer classes in Java?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -745,7 +745,7 @@ Heap. Because when Java programs run on the JVM, objects are created on the heap
 
 ---
 
-45. Can we achieve method overloading by changing the return type?
+45. Can we achieve method overloading by changing the return type?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -761,7 +761,7 @@ No, We cannot achieve method overloading through return type in Java.
 
 ---
 
-46. Can we extend a String class?
+46. Can we extend a String class?p1
 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -778,7 +778,7 @@ No, String is a final class, therefore we cannot extend or inherit it.
 
 ---
 
-47. Is it possible to access non-static members of outer class inside a static nested class?
+47. Is it possible to access non-static members of outer class inside a static nested class?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -794,7 +794,7 @@ No, we can’t access non-static members of outer class inside a static nested c
 
 ---
 
-48. Can we declare local inner classes as private or protected or public?
+48. Can we declare local inner classes as private or protected or public?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -810,7 +810,7 @@ No. Local inner classes can’t be declared with access modifiers.They can’t b
 
 ---
 
-49. What is the condition to use local variables inside a local inner class?
+49. What is the condition to use local variables inside a local inner class?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -826,7 +826,7 @@ The local variables must be final inside a local inner class in Java. We can’t
 
 ---
 
-50. Differentaite between static and non-static nested classes?
+50. Differentaite between static and non-static nested classes?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -842,7 +842,7 @@ The main difference between static and non-static nested classes is that you nee
 
 ---
 
-51. How many .class files are created when you compile a file with inner classes in Java?
+51. How many .class files are created when you compile a file with inner classes in Java?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -859,7 +859,7 @@ When an inner class enclosed by with an outer class is compiled,then two .class 
 
 ---
 
-52. Which `java.util classes` and interfaces support event handling?
+52. Which `java.util classes` and interfaces support event handling?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -876,7 +876,7 @@ The `EventObject class` and the `EventListener interface` support event processi
 ---
 
 
-53. Can an object’s `finalize()` method be invoked while it is reachable?
+53. Can an object’s `finalize()` method be invoked while it is reachable?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -892,7 +892,7 @@ An object’s `finalize()` method cannot be invoked by the garbage collector whi
 
 ---
 
-54. Explain about inner class in Java.
+54. Explain about inner class in Java.p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -908,7 +908,7 @@ In Java, we can define a class inside a class and they are called nested classes
 
 ---
 
-55. How does break statement with label works in Java?
+55. How does break statement with label works in Java?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -925,7 +925,7 @@ Which will skip the current iteration of the outermost loop in the program.
 ---
 
 
-56. what will be the value stored in the String array passed into the `main()` method, when no argument is passed in command line?
+56. what will be the value stored in the String array passed into the `main()` method, when no argument is passed in command line?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -941,7 +941,7 @@ The value will be empty if no arguments passed in command line in Java.
 
 ---
 
-57. What if the static modifier is removed from the signature of the `main()` method?
+57. What if the static modifier is removed from the signature of the `main()` method?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -957,7 +957,7 @@ Program compiles. But it will throws an error "NoSuchMethodError" at runtime.
 
 ---
 
-58. What will happen if you decalre the constructor as static?
+58. What will happen if you decalre the constructor as static?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -973,7 +973,7 @@ It will throw an compile time error, because static concept belongs to the class
 
 ---
 
-59. Is it possible to make the abstract methods static in Java?
+59. Is it possible to make the abstract methods static in Java?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -989,7 +989,7 @@ If we make the abstract methods as static, It will become the part of the class 
 
 ---
 
-60. Differentiate between aggregation and composition?
+60. Differentiate between aggregation and composition?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1005,7 +1005,7 @@ Aggregation represents the weak relationship whereas composition represents the 
 
 ---
 
-61. Can you use `this()` and `super()` both in a constructor?
+61. Can you use `this()` and `super()` both in a constructor?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1021,7 +1021,7 @@ No, because `this()` and `super()` must be the first statement in the Java class
 
 ---
 
-62. Differentiate between a path and classPath in Java?
+62. Differentiate between a path and classPath in Java?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1037,7 +1037,7 @@ Path specifies the location of .exe files. Classpath specifies the location of b
 
 ---
 
-63. How many times does the garbage collector calls the `finalize()` method for an object?
+63. How many times does the garbage collector calls the `finalize()` method for an object?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1053,7 +1053,7 @@ The garbage collector calls the `finalize()` method only once for an object.
 
 ---
 
-64. When does a finally block does not get executed?
+64. When does a finally block does not get executed?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1072,7 +1072,7 @@ The only time finally won’t be called is if you call `System.exit()` or if the
 
 ## Problem Solving
 
-65. Choose the right access modifier for the line 7 in the below code.
+65. Choose the right access modifier for the line 7 in the below code.p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1112,7 +1112,7 @@ We can provide only a less restrictive or same-access modifier when overriding a
 
 ---
 
-66. Identify the error in the following code.
+66. Identify the error in the following code.p1
 
  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1141,7 +1141,7 @@ A variable(x) in an interface must be initialized at the time of declaration.
 
 ---
 
-67. Predict the output of the following code.
+67. Predict the output of the following code.p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1196,7 +1196,7 @@ When a child class object is created, the child class constructor implicitly inv
 
 ---
 
-68. Predict the output of the following Java code?
+68. Predict the output of the following Java code?p1
 
 
  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
@@ -1235,7 +1235,7 @@ o
 
 ---
 
-69. Can a class be a super class and a sub-class at the same time? Give example.
+69. Can a class be a super class and a sub-class at the same time? Give example.p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1267,7 +1267,7 @@ public class Kitten extends Cat {
 ---
 
 
-70. What will be the output of the following Java program?
+70. What will be the output of the following Java program?p1
 
  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
