@@ -1,4 +1,4 @@
-1. How can you describe multithreading is beneficial in java?
+1. How can you describe multithreading is beneficial in java?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -14,7 +14,7 @@ Multithreading allows the program to run continuously even if a part of it is bl
 
 ---
 
-2.Explain Threads in Java?
+2.Explain Threads in Java?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -30,7 +30,7 @@ Threads are basically the lightweight and smallest unit of processing that can b
 
 ---
 
-3.How can you implement threads in Java?
+3.How can you implement threads in Java?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -96,7 +96,7 @@ My thread is in running state.
 
 ---
 
-4.How can you differentiate threads and process in Java?
+4.How can you differentiate threads and process in Java?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -130,7 +130,7 @@ Process:
 
 ---
 
-5.How can you differentiate class lock and object lock?
+5.How can you differentiate class lock and object lock?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -182,7 +182,7 @@ public class ObjectLevelLockExample
 
 ---
 
-6.How can you differentiate User thread and Daemon thread?
+6.How can you differentiate User thread and Daemon thread?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -204,7 +204,7 @@ User and Daemon are basically two types of thread used in Java by using a 'Threa
 
 ---
 
-7.How can we create daemon threads?Explain with an example?
+7.How can we create daemon threads?Explain with an example?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -281,7 +281,7 @@ Check if its DaemonThread: false
 
 ---
 
-8.How can we differentiate `wait()` and `sleep()` methods?
+8.How can we differentiate `wait()` and `sleep()` methods?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -320,7 +320,7 @@ Thread.sleep(1000);
 
 ---
 
-9.How can we differentiate `notify()` and `notifyAll()` methods ?
+9.How can we differentiate `notify()` and `notifyAll()` methods ?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -339,7 +339,7 @@ Thread.sleep(1000);
 
 ---
 
-10.Why `wait()`,`notify()`, and `notifyAll()` methods are present in Object class?
+10.Why `wait()`,`notify()`, and `notifyAll()` methods are present in Object class?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -356,7 +356,7 @@ We know that every object has a monitor that allows the thread to hold a lock on
 
 ---
 
-11.Explain deadlock and when it can occurs?
+11.Explain deadlock and when it can occurs?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -373,7 +373,7 @@ Deadlock situation arises where two threads are blocked forever.  Thread 1 is ho
 
 ---
 
-12. Explain volatile variables in Java?
+12. Explain volatile variables in Java?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -389,7 +389,7 @@ A volatile variable is basically a keyword that is used to ensure and address th
 
 ---
 
-13. How do threads communicate with each other?
+13. How do threads communicate with each other?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -405,7 +405,7 @@ Threads can communicate using three methods i.e., wait(), notify(), and notifyAl
 
 ---
 
-14. Can two threads execute two methods (static and non-static concurrently)?
+14. Can two threads execute two methods (static and non-static concurrently)?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -421,7 +421,7 @@ Yes, it is possible. If both the threads acquire locks on different objects, the
 
 ---
 
-15.Explain `finalize()` method?
+15.Explain `finalize()` method?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -437,7 +437,7 @@ Yes, it is possible. If both the threads acquire locks on different objects, the
 
 ---
 
-16. Explain synchronization process? Why we use it?
+16. Explain synchronization process? Why we use it?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -464,7 +464,7 @@ synchronized (object)
 
 ---
 
-17. Differentiate synchronized method and synchronized block? Which one should be preferred?
+17. Differentiate synchronized method and synchronized block? Which one should be preferred?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -485,7 +485,7 @@ synchronized (object)
 
 ---
 
-18. Explain thread starvation?
+18. Explain thread starvation?p2
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -501,7 +501,7 @@ Thread starvation is basically a situation or condition where a thread won’t b
 
 ---
 
-19. Describe BlockingQueue?
+19. Describe BlockingQueue?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -518,7 +518,7 @@ BlockingQueue basically represents a queue that is thread-safe. Producer thread 
 
 ---
 
-20. Can you start a thread twice?
+20. Can you start a thread twice?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -534,7 +534,7 @@ No, it's not at all possible to restart a thread once a thread gets started and 
 
 ---
 
-21. Explain context switching.
+21. Explain context switching.p2
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -550,7 +550,7 @@ Context switching is referred to as switching of CPU from one thread or process 
 
 ---
 
-22. Explain CyclicBarrier and CountDownLatch?
+22. Explain CyclicBarrier and CountDownLatch?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -568,7 +568,7 @@ Context switching is referred to as switching of CPU from one thread or process 
 
 ---
 
-23. What do you mean by inter-thread communication?
+23. What do you mean by inter-thread communication?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -584,7 +584,7 @@ Inter-thread communication is a process or mechanism using which multiple thread
 
 ---
 
-24. Explain Thread Scheduler and Time Slicing?
+24. Explain Thread Scheduler and Time Slicing?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -602,7 +602,7 @@ Inter-thread communication is a process or mechanism using which multiple thread
 
 ---
 
-25. Explain shutdown hook?
+25. Explain shutdown hook?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -626,7 +626,7 @@ a.addShutdownHook(new MyThread());
 
 ---
 
-26. What do you mean by busy spinning?
+26. What do you mean by busy spinning?p2
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -643,7 +643,7 @@ Busy Spinning, also known as Busy-waiting, is a technique in which one thread wa
 
 ---
 
-27. What is ConcurrentHashMap and Hashtable? In java, why is ConcurrentHashMap considered faster than Hashtable?
+27. What is ConcurrentHashMap and Hashtable? In java, why is ConcurrentHashMap considered faster than Hashtable?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -663,7 +663,7 @@ Busy Spinning, also known as Busy-waiting, is a technique in which one thread wa
 
 ---
 
-28. Explain thread priority.
+28. Explain thread priority.p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -679,7 +679,7 @@ Thread priority simply means that threads with the highest priority will get a c
 
 ---
 
-29.What do you mean by the ThreadLocal variable in Java?Explain with an example?
+29.What do you mean by the ThreadLocal variable in Java?Explain with an example?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -727,7 +727,7 @@ Output:
 
 ---
 	
-30. What is semaphore?
+30. What is semaphore?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -743,7 +743,7 @@ Semaphore is regarded as a thread synchronization construct that is usually requ
 	
 ---
 	
-31.Explain Thread Group. Why we should not use it?
+31.Explain Thread Group. Why we should not use it?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -772,7 +772,7 @@ System.out.println("exception occured:"+e.getMessage());
 	
 ---
 
-32.What is the ExecutorService interface?Explain with an example.
+32.What is the ExecutorService interface?Explain with an example.p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -836,7 +836,7 @@ shutdown finished
 
 ---
 	
-33.What will happen if we don’t override the thread class run() method?
+33.What will happen if we don’t override the thread class run() method?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -873,7 +873,7 @@ Ended Main.
 
 ---
 	
-34. What is the lock interface? Why is it better to use a lock interface rather than a synchronized block.?
+34. What is the lock interface? Why is it better to use a lock interface rather than a synchronized block.?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -893,7 +893,7 @@ Lock interface is more flexible and makes sure that the longest waiting thread g
 	
 ---
 
-35. Is it possible to call the `run()` method directly to start a new thread?
+35. Is it possible to call the `run()` method directly to start a new thread?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -909,7 +909,7 @@ No, it's not possible at all. You need to call the start method to create a new 
 	
 ---
 	
-36. Is it possible that each thread can have its stack in multithreaded programming?
+36. Is it possible that each thread can have its stack in multithreaded programming?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -925,7 +925,7 @@ Of course, it is possible. In multithreaded programming, each thread maintains i
 	
 ---
 
-37. What are different states in lifecycle of Thread?
+37. What are different states in lifecycle of Thread?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -942,7 +942,7 @@ When we create a Thread in java program, its state is New. Then we start the thr
 	
 ---
 	
-38. Can we call `run()` method of a Thread class?
+38. Can we call `run()` method of a Thread class?p1 repeated
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -959,7 +959,7 @@ Yes, we can call `run()` method of a Thread class but then it will behave like a
 	
 ---
 
-39. How can we pause the execution of a Thread for specific time?
+39. How can we pause the execution of a Thread for specific time?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -975,7 +975,7 @@ We can use Thread class `sleep()` method to pause the execution of Thread for ce
 	
 ---
 
-40. What do you understand about Thread Priority?
+40. What do you understand about Thread Priority?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -991,7 +991,7 @@ Every thread has a priority, usually higher priority thread gets precedence in e
 	
 ---
 
-41. How can we make sure `main()` is the last thread to finish in Java Program?
+41. How can we make sure `main()` is the last thread to finish in Java Program?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1007,7 +1007,7 @@ We can use Thread `join()` method to make sure all the threads created by the pr
 	
 ---
 
-42. Why `wait()`, `notify()` and `notifyAll()` methods have to be called from synchronized method or block?
+42. Why `wait()`, `notify()` and `notifyAll()` methods have to be called from synchronized method or block?p1 looks repeated
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1024,7 +1024,7 @@ When a Thread calls `wait()` on any Object, it must have the monitor on the Obje
 	
 ---
 	
-43. Why Thread `sleep()` and `yield()` methods are static?
+43. Why Thread `sleep()` and `yield()` methods are static?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1040,7 +1040,7 @@ Thread `sleep()` and `yield()` methods work on the currently executing thread. S
 	
 ---
 	
-44. How can we achieve thread safety in Java?
+44. How can we achieve thread safety in Java?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1056,7 +1056,7 @@ There are several ways to achieve thread safety in java - synchronization, atomi
 
 ---
 	
-45. What is Deadlock? How to analyze and avoid deadlock situation?
+45. What is Deadlock? How to analyze and avoid deadlock situation?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1072,7 +1072,7 @@ Deadlock is a programming situation where two or more threads are blocked foreve
 	
 ---
 	
-46. What is an atomic operation? What are the atomic classes in Java Concurrency API?
+46. What is an atomic operation? What are the atomic classes in Java Concurrency API?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1088,7 +1088,7 @@ Atomic operations are performed in a single unit of task without interference fr
 	
 ---
 
-47. What is Lock interface in Java Concurrency API? What are its benefits over synchronization?
+47. What is Lock interface in Java Concurrency API? What are its benefits over synchronization?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1108,7 +1108,7 @@ Lock interface provides more extensive locking operations than can be obtained u
 	
 ---
 	
-48. What are Executors Framework?
+48. What are Executors Framework?p1 repeated
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1124,7 +1124,7 @@ The Executor framework is a framework for standardizing invocation, scheduling, 
 	
 ---
 	
-49. What is BlockingQueue? How can we implement Producer-Consumer problem using Blocking Queue?
+49. What is BlockingQueue? How can we implement Producer-Consumer problem using Blocking Queue?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1140,7 +1140,7 @@ The Executor framework is a framework for standardizing invocation, scheduling, 
 	
 ---
 
-50.How java provides ways to create a thread programmatically?Explain with an example?
+50.How java provides ways to create a thread programmatically?Explain with an example?p1 repeated
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1250,7 +1250,7 @@ Once we start any thread, it’s execution depends on the OS implementation of t
 
 ---
 
-51.Explain Blocking Queue with producer - consumer example?
+51.Explain Blocking Queue with producer - consumer example?p1 repeated
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1386,7 +1386,7 @@ Produced 8
 
 ---
 
-52. When is it appropriate to create multiple streams?
+52. When is it appropriate to create multiple streams?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1404,7 +1404,7 @@ As an example, a program with a graphical interface can be given – as long as 
 	
 ---
 
-53.Explain the ways to create and run streams with examples?
+53.Explain the ways to create and run streams with examples?p2
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1571,7 +1571,7 @@ public class CallableExample {
 
 ---
 	
-54. Which method starts a thread for execution?
+54. Which method starts a thread for execution?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1588,7 +1588,7 @@ public class CallableExample {
 
 ---
 
-55. When does the thread finish its execution?Explain with an example?
+55. When does the thread finish its execution?Explain with an example?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1679,7 +1679,7 @@ He orders the main method to wait 1000ms so that the meter has time to count a l
 
 ---
 	
-56. How to use monitor in threads?
+56. How to use monitor in threads?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1704,7 +1704,7 @@ He orders the main method to wait 1000ms so that the meter has time to count a l
 	
 ---
 	
-57. How to suspend the flow of a thread?
+57. How to suspend the flow of a thread?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1720,7 +1720,7 @@ He orders the main method to wait 1000ms so that the meter has time to count a l
 
 ---
 	
-58. Explain the functionality of the notify and notifyAll methods with examples?
+58. Explain the functionality of the notify and notifyAll methods with examples? p1 repeated
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1817,7 +1817,7 @@ Interrupted Exception
 
 </details>
 
-59. Explain the implementation of `join()` method?
+59. Explain the implementation of `join()` method?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1872,7 +1872,7 @@ Then we create a thread test threadExample and run it. We set the thread to stup
 
 ---
 	
-60.Explain the concept of "interlocking" with examples?
+60.Explain the concept of "interlocking" with examples?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1933,7 +1933,7 @@ To avoid deadlock, you can use only one synchronized block, refuse from wait-not
 	
 ---
 	
-61.What is a ThreadGroup and why is it needed?
+61.What is a ThreadGroup and why is it needed?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1950,7 +1950,7 @@ ThreadGroup is a set of threads that can also contain other groups of threads. A
 
 ---
 	
-62.Why Thread Pool is needed?
+62.Why Thread Pool is needed?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1966,7 +1966,7 @@ Thread pools (threads) are a managed collection of threads that are available fo
 	
 ---
 	
-63.How race condition is occurred in threads.Explain with an example?
+63.How race condition is occurred in threads.Explain with an example?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -2058,7 +2058,7 @@ Value for Thread at last Thread-2 0
 	
 ---
 	
-64.How Race condition can be avoided.Explain with an example?
+64.How Race condition can be avoided.Explain with an example?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -2133,7 +2133,7 @@ It can be seen from the output how threads are accessing the shared resource one
 
 ---
 	
-65.Describe the functionality of  yield method in a Thread-class?
+65.Describe the functionality of  yield method in a Thread-class?p1 repeated
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
