@@ -187,3 +187,85 @@ git clone -b feature/audit --single-branch 'https://<github-username>@github.com
 </details>
 
 ---
+
+11. Which command adds a change from the working directory to the staging area.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+    
+- The `git add` command adds a change in the working directory to the staging area. 
+- We tell Git that we want to include updates to a particular file in the next commit. 
+
+```
+git add -A 
+or 
+git add --all
+```
+
+-  Above command stages all (new, modified, deleted) files
+</blockquote> 
+
+</details>
+
+---
+
+12. What is Git command to save your changes to the local repository?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+    
+- The `git commit` command is used to save your changes to the local repository.
+- We need to ensure that we use the `git add` command to mark the desired changes for inclusion. 
+
+```
+git commit -m "Added first commit"
+```
+
+-  In above command we specifiy the message for the commit.
+
+</blockquote> 
+</details>
+
+---
+
+13. What is use of `git push` command?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+    
+- The `git push` command is used to upload local repository content to a remote repository. 
+- Using this command we transfer commits from your local repository to a remote repo.
+
+```
+git push 
+```
+
+</blockquote> 
+</details>
+
+---
+
+14. What are untracked files in git status?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+    
+- Untracked files are files that have been created within your repo's working directory but have not yet been added to the repository's tracking index using the `git add` command.
+  
+</blockquote> 
+
+</details>
+
+---
