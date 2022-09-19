@@ -1,4 +1,4 @@
-1.Define Servlets?
+1.Define Servlets?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -14,7 +14,7 @@ Servlets can be defined as a small Java program that runs within a Web server.It
 
 ---
 
-2.What are the functionalities of Servlets in java?
+2.What are the functionalities of Servlets in java?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -30,7 +30,7 @@ Servlets provide a number of functionalities which includes power, integration, 
 
 ---
 
-3.How do you create a servlet in a web application?
+3.How do you create a servlet in a web application?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -48,7 +48,7 @@ To handle requests that are appropriate for the servlet, a typical servlet must 
   
  ---
   
-4.What is the need of Http servlet?
+4.What is the need of Http servlet?p2
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -64,7 +64,7 @@ A Http servlet typically does not override the `service()` method. However, it a
   
 ---
   
-5.How do you create a  server-side functionalities in servlets?
+5.How do you create a  server-side functionalities in servlets?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -92,7 +92,7 @@ Servlets can be added in HTML pages with the server-side include (SSI) functiona
 
 ---
   
-6.Explain  'init' and 'destroy' methods in servlets?
+6.Explain  'init' and 'destroy' methods in servlets?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -109,7 +109,7 @@ Servlets init method is used to initialise a servlet.When the web container load
 
  ---
   
- 7.How does a servlet get access and examine all its init parameters?
+ 7.How does a servlet get access and examine all its init parameters?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -127,7 +127,7 @@ Servlets init method is used to initialise a servlet.When the web container load
 
 ---
   
-8.Define Servlet chaining?
+8.Define Servlet chaining?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -143,7 +143,7 @@ Servlet Chaining is a way where the output of one servlet is piped to the input 
   
 ---
   
-9.Explain the Life Cycle of a Servlet?
+9.Explain the Life Cycle of a Servlet?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -166,7 +166,7 @@ When a user enters a Uniform Resource Locator (URL) to a web browser.The browser
   
 ---
 
-10.Define Servlet Reloading?
+10.Define Servlet Reloading?p2
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -182,7 +182,7 @@ In servlet reloading, the objects in classloader are developed to load a class j
 
 ---
   
-11.How can we get the name of the server and the port number for a particular request using a servlet?
+11.How can we get the name of the server and the port number for a particular request using a servlet?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -204,7 +204,7 @@ In servlet reloading, the objects in classloader are developed to load a class j
   
 ---
   
-12.How to create a servlet with example?
+12.How to create a servlet with example?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -249,7 +249,7 @@ string Hello! in bold type.
 
 ---
 
-13.Explain Single-Thread Model in servlets?
+13.Explain Single-Thread Model in servlets?p2
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -267,7 +267,7 @@ A server loading the SingleThreadModel servlet should guarantee, "that no two th
 ---
 
     
-14.How does Background Processing take place in servlets?
+14.How does Background Processing take place in servlets?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -283,7 +283,7 @@ A thread that has been started by a servlet can continue to execute even after t
   
 ---
   
-15.How does Servlet collaboration take place?
+15.How does Servlet collaboration take place?p2
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -304,7 +304,7 @@ Servlets running together in the same server have many ways to communicate with 
   
 ---
   
-16.Explain Request parameters in servlets?
+16.Explain Request parameters in servlets?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -327,7 +327,7 @@ public String[] ServletRequest.getParameterValues(String name)
   
 ---
 	
-17.Explain the stages of inter-servlet communication?
+17.Explain the stages of inter-servlet communication?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -348,7 +348,7 @@ public String[] ServletRequest.getParameterValues(String name)
   
 ---
   
-18.What is Servlet API?
+18.What is Servlet API?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -367,7 +367,7 @@ used by servlet developers and its functionality makes it easy to build servlets
 
 ---
   
-19.Explain the Servlet Interface?
+19.Explain the Servlet Interface?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -384,7 +384,7 @@ methods that are called by the server during the life cycle of a servlet. These 
   
 ---
   
-20.How can you differentiate ServletConfig and ServletContext Interface?
+20.How can you differentiate ServletConfig and ServletContext Interface?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -414,7 +414,7 @@ parameters.
 
 ---
 
-21.What is ServletRequest and ServletResponse Interface?
+21.What is ServletRequest and ServletResponse Interface?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -430,7 +430,7 @@ The ServletRequest interface enables a servlet to obtain information about a cli
 
 ---
 
-22.What is GenericServlet Class?
+22.What is GenericServlet Class?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -446,7 +446,7 @@ The GenericServlet class provides implementations of the basic life cycle method
 
 ---
 
-23.How can differentiate ServletInputStream and ServletOutputStream Class?
+23.How can differentiate ServletInputStream and ServletOutputStream Class?p2
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -469,7 +469,7 @@ the actual number of bytes read or –1 if an end-of-stream condition is encount
 
 ---
 
-24:Explain how to read servlet parameters with an example?
+24:Explain how to read servlet parameters with an example?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -536,7 +536,7 @@ pw.close();
 
 ---
 
-25:What are HttpServlet request,response and session interfaces in servlets?
+25:What are HttpServlet request,response and session interfaces in servlets?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -552,7 +552,7 @@ The HttpServletRequest interface enables a servlet to obtain information about a
 
 ---
 
-26:What is a Cookie Class?
+26:What is a Cookie Class?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -568,7 +568,7 @@ The Cookie class encapsulates a cookie. A cookie is stored on a client and conta
 
 ---
 
-27:How a servlet helps to create a cookie in user's machine?
+27:How a servlet helps to create a cookie in user's machine?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -593,7 +593,7 @@ Here, the name and value of the cookie are supplied as arguments to the construc
 
 ---
 
-28:What is HttpServlet and HttpSessionEvent Class?
+28:What is HttpServlet and HttpSessionEvent Class?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -609,7 +609,7 @@ The HttpServlet class extends GenericServlet. It is commonly used when developin
 
 ---
 
-29:Explain how it is possible to handle HTTP Requests in a servlet with examples?
+29:Explain how it is possible to handle HTTP Requests in a servlet with examples?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -712,7 +712,7 @@ pw.close();
 
 ---
 
-30.Explain creating a cookie using a servlet with example?
+30.Explain creating a cookie using a servlet with example?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -790,7 +790,7 @@ pw.close();
 
 ---
 
-31:What is Session Tracking?
+31:What is Session Tracking?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -808,7 +808,7 @@ Http is a stateless protocol. Each request is independent of the previous one. H
 
 ---
 
-32.How do you create session using session tracking in servlets?
+32.How do you create session using session tracking in servlets?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
