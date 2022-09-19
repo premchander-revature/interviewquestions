@@ -1,4 +1,4 @@
-1. What are the ways to declare a string in Java?
+1. What are the ways to declare a string in Java?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -21,7 +21,7 @@ Example: `String str=new String ( "Welcome");`
 
 ---
 
-2. Why strings are of derived type in Java?
+2. Why strings are of derived type in Java?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -38,7 +38,7 @@ Example: `String str=new String ( "Welcome");`
 
 ---
 
-3. Is String immutable in Java? If so state the reason.
+3. Is String immutable in Java? If so state the reason.p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -55,7 +55,7 @@ Yes, Strings are immutable in Java. Which mean that they can't be changed or alt
 
 ---
 
-4. Differentiate between `str1 == str2` and `str1.equals(str2)`.
+4. Differentiate between `str1 == str2` and `str1.equals(str2)`.p1
 
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
@@ -76,7 +76,7 @@ Yes, Strings are immutable in Java. Which mean that they can't be changed or alt
 
 ---
 
-5. Can we use a string in the switch case in Java?
+5. Can we use a string in the switch case in Java?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -93,7 +93,7 @@ Yes, Java allows to use strings in switch case conditions to be declared in doub
 
 ---
 
-6. How can two strings be compared in Java?
+6. How can two strings be compared in Java?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -113,7 +113,7 @@ Yes, Java allows to use strings in switch case conditions to be declared in doub
 
 ---
 
-7. Is String thread-safe in Java?
+7. Is String thread-safe in Java?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -139,7 +139,7 @@ Strings are immutable objects,so they can't be changed or altered once created. 
 
 ---
 
-8. What is the use of string `subSequence` method?
+8. What is the use of string `subSequence` method?p2
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -170,7 +170,7 @@ The Java String `subSequence()` method is a built-in function that returns a cha
 
 ---
 
-9. How do you convert a string to an integer and vice versa in Java?
+9. How do you convert a string to an integer and vice versa in Java?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -186,7 +186,7 @@ Integer class in the Java lang package provides different methods for converting
 
 ---
 
-10. How to check whether a String is empty in Java?
+10. How to check whether a String is empty in Java?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -202,7 +202,7 @@ The `isEmpty()`method in Java String class determines whether or not a string is
 
 ---
 
-11. What is the use of String pool in Java?
+11. What is the use of String pool in Java?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -220,7 +220,7 @@ The `isEmpty()`method in Java String class determines whether or not a string is
 
 ---
 
-12. How many objects will be created in the following code?
+12. How many objects will be created in the following code?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -254,7 +254,7 @@ Here, for line1 (s1), one new object will get created in String constant pool, w
 
 ---
 
-13. Why is it safer to store passwords in a Char[] array rather than a string?
+13. Why is it safer to store passwords in a Char[] array rather than a string?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -272,7 +272,7 @@ Here, for line1 (s1), one new object will get created in String constant pool, w
 
 ---
 
-14. Whcih method is used to creates an exact copy of a String object in the heap?
+14. Whcih method is used to creates an exact copy of a String object in the heap?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -290,7 +290,7 @@ Here, for line1 (s1), one new object will get created in String constant pool, w
 
 ---
 
-15. How does the method `int compareTo()` works?
+15. How does the method `int compareTo()` works?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -306,7 +306,7 @@ It is to compares the input argument with the Number object. It returns 1 (posit
 
 ---
 
-16. What is the use of `valueof()` method?
+16. What is the use of `valueof()` method?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -325,7 +325,7 @@ It is to compares the input argument with the Number object. It returns 1 (posit
 
 ---
 
-17. Differentiate between `ceil()` and `floor()`.
+17. Differentiate between `ceil()` and `floor()`.p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -342,7 +342,7 @@ It is to compares the input argument with the Number object. It returns 1 (posit
 
 ---
 
-18. Is it possible to count the number of times a given character appears in a String?
+18. Is it possible to count the number of times a given character appears in a String?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -358,7 +358,7 @@ The `charAt()` method of the String class can be used to find out the number of 
 
 ---
 
-19. How many objects will be created for the following code:
+19. How many objects will be created for the following code:p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -380,7 +380,7 @@ Object created using String literal str1 is stored in the string constant pool.
 
 ---
 
-20. Give the example for mutable and immutable objects in java?
+20. Give the example for mutable and immutable objects in java?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -398,7 +398,7 @@ Object created using String literal str1 is stored in the string constant pool.
 
 ---
 
-21. Explain about Delimiters  in Java.
+21. Explain about Delimiters  in Java.p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -414,7 +414,7 @@ Object created using String literal str1 is stored in the string constant pool.
 
 ---
 
-22. What is the use of `split ()` method in Java?
+22. What is the use of `split ()` method in Java?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -430,7 +430,7 @@ The method `split(String regex)` to split the String into String array based on 
 
 ---
 
-23. If the invoking string is less than the string compared, what value will be returned by the function `compareTo`?
+23. If the invoking string is less than the string compared, what value will be returned by the function `compareTo`?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -446,7 +446,7 @@ negative value
 
 ---
 
-24. Differentiate between `format()` and `printf()` methods in Java?
+24. Differentiate between `format()` and `printf()` methods in Java?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -463,7 +463,7 @@ Both the methods are used to format String and the key difference is that `forma
 
 ---
 
-25. Whcih method is to remove white space from String in Java?
+25. Whcih method is to remove white space from String in Java?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -481,7 +481,7 @@ Both the methods are used to format String and the key difference is that `forma
 
 ---
 
-26. Which class is the superclass of string class in Java?
+26. Which class is the superclass of string class in Java?p1
 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -498,7 +498,7 @@ Object class is the superclass of string. String class extends object class.
 
 ---
 
-27. How many objects will create for the identical string?
+27. How many objects will create for the identical string?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -514,7 +514,7 @@ Two identical string literal would create two separate string references but bot
 
 ---
 
-28. Why string class is declared as final in Java?
+28. Why string class is declared as final in Java?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -530,7 +530,7 @@ String class has been marked as final so that we could not override the immutabl
 
 ---
 
-29. What will be the disadvantage of string class in Java?
+29. What will be the disadvantage of string class in Java?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -546,7 +546,7 @@ we cannot extend String class to get additional features in Java
 
 ---
 
-30. What are the ways to concatenate strings in Java?
+30. What are the ways to concatenate strings in Java?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -563,7 +563,7 @@ Using `+ (String concatenation) operator`: Used to add two or more strings.
 
 ---
 
-31. Differentiate between length and capacity in Java StringBuffer?
+31. Differentiate between length and capacity in Java StringBuffer?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -579,7 +579,7 @@ Capacity is the total number of characters hold in the StringBuffer object. Wher
 
 ---
 
-32. Why StringBuffer and StringBuilder classes are introduced in java when there already exist String class to represent the set of characters?
+32. Why StringBuffer and StringBuilder classes are introduced in java when there already exist String class to represent the set of characters?p1
 
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
@@ -596,7 +596,7 @@ The objects of String class are immutable in nature, so you can’t modify them 
 
 ---
 
-33. What package should be imported to use Integer class in Java?
+33. What package should be imported to use Integer class in Java?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -612,7 +612,7 @@ To use the Integer class methods `import java.lang.Number` package should be imp
 
 ---
 
-34. Is Java Number class is an abstarct class?
+34. Is Java Number class is an abstarct class?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -659,7 +659,7 @@ This will Convert the value of this Number object to the xxx data type and retur
 
 ## Problem Solving
 
-36. Predict the output of the following code.
+36. Predict the output of the following code.p2
 
  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -699,7 +699,7 @@ If you use the equals method, the result is true since it's only comparing the v
 
 ---
 
-37. What string method should be used in line 7 to display the message "gramming"?
+37. What string method should be used in line 7 to display the message "gramming"?p2
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -740,7 +740,7 @@ using `substring()` method to prints the substring from the index 9-17(exclusive
 
 ---
 
-38. What will be the output of the following code?
+38. What will be the output of the following code?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -780,7 +780,7 @@ false true
 
 ---
 
-39. How many strings can be collected by Garbage Collector in the following code snippet?
+39. How many strings can be collected by Garbage Collector in the following code snippet?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -822,7 +822,7 @@ All three strings (s1, s2, s3) point to the same string that is "Java". so, the 
 ## Scenario Based Question
 
 
-40. Which class should we use among String,StringBuffer and StringBuilder when there are lot of String concatenation and String modification operations with thread-safe code?
+40. Which class should we use among String,StringBuffer and StringBuilder when there are lot of String concatenation and String modification operations with thread-safe code?p1
 
  ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
