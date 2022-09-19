@@ -1,4 +1,4 @@
-1.How can you describe a design pattern?
+1.How can you describe a design pattern?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -13,7 +13,7 @@ Design patterns are the reusable solutions that solve common problems of softwar
 
 ---
 
-2. How Inversion of Control can be used in design pattern ?
+2. How Inversion of Control can be used in design pattern ?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -56,7 +56,7 @@ We have inverted the control of handing the dependency of instantiating the obje
 
 ---
 
-3. How can you describe the SOLID Principles of the design pattern?
+3. How can you describe the SOLID Principles of the design pattern?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -76,7 +76,7 @@ We have inverted the control of handing the dependency of instantiating the obje
 
 ---
 
-4. What do you understand by the Open-Closed Principle (OCP)?
+4. What do you understand by the Open-Closed Principle (OCP)?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -92,7 +92,7 @@ The Open close principle states that any class, component or entity should be op
 
 ---
 
-5. What are the design patterns used in Java?
+5. What are the design patterns used in Java?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -111,7 +111,7 @@ The Open close principle states that any class, component or entity should be op
 
 ---
 
-6.How are design principles different from design patterns?
+6.How are design principles different from design patterns?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -128,7 +128,7 @@ The Open close principle states that any class, component or entity should be op
 
 ---
 
-7. How are design patterns different from algorithms?
+7. How are design patterns different from algorithms?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -144,7 +144,7 @@ Both Design Patterns and Algorithms describe typical solutions to any given prob
 
 ---
 
-8.Explain  Factory Design Pattern with an example?
+8.Explain  Factory Design Pattern with an example?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -246,7 +246,7 @@ Output:
 
 ---
 
-9.Explain  an Adapter Design Pattern with an example?
+9.Explain  an Adapter Design Pattern with an example?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -361,7 +361,7 @@ Format not supported
 
 ---
 
-10.Explain  Proxy Design Pattern?
+10.Explain  Proxy Design Pattern?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -377,7 +377,7 @@ Proxy design pattern lets the developers provide a substitute for another object
 
 ---
 
-11.Explain Bridge Pattern?
+11.Explain Bridge Pattern?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -398,7 +398,7 @@ The bridge pattern is a type of structural design pattern that lets to split lar
 
 ---
 
-12.In what scenarios we have to apply Chain of Responsibility pattern?
+12.In what scenarios we have to apply Chain of Responsibility pattern?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -426,7 +426,7 @@ This pattern can be used in the following cases:
 
 ---
 
-13.Explain Decorator Design Pattern with an example?
+13.Explain Decorator Design Pattern with an example?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -513,7 +513,7 @@ Output:
 
 ---
 
-14.Explain Command Design Pattern with an example?
+14.Explain Command Design Pattern with an example?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -639,7 +639,7 @@ TubeLight on
 
 ---
 
-15.Explain Observer Design Pattern?
+15.Explain Observer Design Pattern?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -661,7 +661,7 @@ This design pattern has 3 main components:
 
 ---
 
-16. Consider a scenario where you are writing classes for providing market data and we have the flexibility to switch to different vendors or we can be directed to the Direct Exchange Feed. How will you approach this problem to design the system?
+16. Consider a scenario where you are writing classes for providing market data and we have the flexibility to switch to different vendors or we can be directed to the Direct Exchange Feed. How will you approach this problem to design the system?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -677,7 +677,7 @@ We can do this by having an interface called “MarketData” which will consist
 
 ---
 
-17.Explain MVC design pattern?
+17.Explain MVC design pattern?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -697,7 +697,7 @@ MVC stands for Model-View-Controller. This pattern is used for separating the ap
 
 ---
 
-18.Explain the components of the Composite Entity pattern?
+18.Explain the components of the Composite Entity pattern?p2
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -718,7 +718,7 @@ This pattern is used in EJB (Enterprise Java Beans) persistence mechanism. A com
 
 ---
 
-19.Explain the main advantage of using a prototype design pattern over object creation using a new keyword?
+19.Explain the main advantage of using a prototype design pattern over object creation using a new keyword?p2
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -734,7 +734,7 @@ Prototype design pattern is used for creating duplicate objects based on the pro
 
 ---
 
-20.How can you achieve thread-safe singleton patterns in Java?
+20.How can you achieve thread-safe singleton patterns in Java?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -826,7 +826,7 @@ But the disadvantage of this way is that the initialization cannot be done lazil
 
 ---
 
-21.Explain the benefits of design patterns in Java?
+21.Explain the benefits of design patterns in Java?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -842,7 +842,7 @@ Design patterns provide a template for developers which they can use in multiple
 
 ---
 
-22. How is the bridge pattern different from the adapter pattern?
+22. How is the bridge pattern different from the adapter pattern?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -858,7 +858,7 @@ The adapter and bridge patterns are very similar. They are both considered a for
 
 ---
 
-23. Which design pattern is used to get a way to access the elements of a collection object in sequential manner?
+23. Which design pattern is used to get a way to access the elements of a collection object in sequential manner?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -874,7 +874,7 @@ Iterator pattern is used to get a way to access the elements of a collection obj
 
 ---
 
-24. What is the difference between Strategy and State design Patterns in Java?
+24. What is the difference between Strategy and State design Patterns in Java?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -894,7 +894,7 @@ Iterator pattern is used to get a way to access the elements of a collection obj
 
 ---
 
-25. When to use the Composite design pattern in Java?
+25. When to use the Composite design pattern in Java?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -910,7 +910,7 @@ The Composite pattern is also a core Java design pattern, which allows you to tr
 
 ---
 
-26.When to use the Template method design pattern in Java?
+26.When to use the Template method design pattern in Java?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -926,7 +926,7 @@ The template pattern outlines an algorithm in the form of a template method and 
 
 ---
 
-27.When to use Setter and Constructor Injection in the Dependency Injection pattern?
+27.When to use Setter and Constructor Injection in the Dependency Injection pattern?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -942,7 +942,7 @@ We can use setter injection to provide optional dependencies of an object and us
 
 ---
 
-28.Explain Structural Patterns in Java?
+28.Explain Structural Patterns in Java?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -958,7 +958,7 @@ Structural patterns are used to provide solutions and efficient standards regard
 
 ---
 
-29.Describe in how many ways can you create a singleton pattern?
+29.Describe in how many ways can you create a singleton pattern?p2
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -978,7 +978,7 @@ There are two ways of creating a Singleton pattern.
 
 ---
 
-30.What is the proxy pattern, and what does it do?
+30.What is the proxy pattern, and what does it do?p1 repeated
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -994,7 +994,7 @@ The term Proxy stands for an object representing another object. The proxy patte
 
 ---
 
-31. How can you differentiate Dependency Injection and Service Locator patterns?
+31. How can you differentiate Dependency Injection and Service Locator patterns?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1012,7 +1012,7 @@ With Dependency injection, the class which contains its dependencies neither kno
 
 ---
 
-32. Explain the Intercepting Filter Design Pattern and also mention its benefits?
+32. Explain the Intercepting Filter Design Pattern and also mention its benefits?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1041,7 +1041,7 @@ The intercepting filter design pattern is used to intercept and manipulate a req
 
 ---
 
-33. Explain Data Access Object (DAO) pattern?
+33. Explain Data Access Object (DAO) pattern?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1063,7 +1063,7 @@ Data Access Object Pattern is used to isolate low-level data accessing API or ac
 
 ---
 
-34. Explain how can you create a Singleton class in Java?
+34. Explain how can you create a Singleton class in Java?p2 repeated
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1080,7 +1080,7 @@ Data Access Object Pattern is used to isolate low-level data accessing API or ac
 
 ---
 
-35. Which pattern is useful when one has to pass data with multiple attributes in one shot from client to server?
+35. Which pattern is useful when one has to pass data with multiple attributes in one shot from client to server?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1096,7 +1096,7 @@ Transfer Object Pattern is useful when one has to pass data with multiple attrib
 
 ---
 
-36. Explain in singleton pattern whether it is better to make the whole getinstance() method synchronized or just critical section is enough? Which one is preferable?
+36. Explain in singleton pattern whether it is better to make the whole getinstance() method synchronized or just critical section is enough? Which one is preferable?p2 repeated
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1112,7 +1112,7 @@ Synchronization of whole `getinstance()` method is costly and is only needed dur
 
 ---
 
-37. Explain how can you prevent creating another instance of singleton using clone() method?
+37. Explain how can you prevent creating another instance of singleton using clone() method?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1128,7 +1128,7 @@ The preferred way to prevent creating another instance of a singleton is by not 
 
 ---
 
-38. What is the limitation of using singleton pattern?
+38. What is the limitation of using singleton pattern?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1144,7 +1144,7 @@ The singleton pattern ensures that a class has only one instance and to provide 
 
 ---
 
-39. What are the drawbacks of using a singleton design pattern?
+39. What are the drawbacks of using a singleton design pattern?p2 repeated
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1163,7 +1163,7 @@ The singleton pattern ensures that a class has only one instance and to provide 
 
 ---
 
-40. Explain DAO design pattern with an example?
+40. Explain DAO design pattern with an example?p2 repeated
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1286,7 +1286,7 @@ Student: [RollNo : 0, Name : Michael ]
 	
 ---
 
-41. Explain front controller design pattern with an example?
+41. Explain front controller design pattern with an example?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1385,7 +1385,7 @@ Displaying Student Page
 
 ---
 	
-42. How can you implement service locator design pattern with an example?
+42. How can you implement service locator design pattern with an example?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1540,7 +1540,7 @@ Executing Service2
 
 ---
 	
-43. Describe Transfer Object pattern with an example?
+43. Describe Transfer Object pattern with an example?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1648,7 +1648,7 @@ Student: [RollNo : 0, Name : Michael ]
 
 ---
 
-44. How do you create a  Singleton Design pattern?
+44. How do you create a  Singleton Design pattern?p2 repeated
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1695,7 +1695,7 @@ public class SingletonDemo {
 	
 ---
 
-45. Explain  eager initialization in singleton?
+45. Explain  eager initialization in singleton?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1728,7 +1728,7 @@ public class EagerInitialized{
 	
 ---
 
-46. Explain Lazy Initialization in Singleton?
+46. Explain Lazy Initialization in Singleton?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1762,7 +1762,7 @@ public class LazyInitialized {
 	
 ---
 	
-47. How to implement singleton class with Serialization in Java?
+47. How to implement singleton class with Serialization in Java?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1829,7 +1829,7 @@ instanceTwo hashCode=209678522
 	
 ---
 	
-48. When will you prefer to use a Factory Pattern?
+48. When will you prefer to use a Factory Pattern?p2 repeated
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1846,7 +1846,7 @@ instanceTwo hashCode=209678522
 
 ---
 
-49. Differentiate Factory Vs Builder Design Pattern Vs Strategy Design Pattern ?
+49. Differentiate Factory Vs Builder Design Pattern Vs Strategy Design Pattern ?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1864,7 +1864,7 @@ instanceTwo hashCode=209678522
 	
 ---
 
-50. What specific problems builder pattern solves?
+50. What specific problems builder pattern solves?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
