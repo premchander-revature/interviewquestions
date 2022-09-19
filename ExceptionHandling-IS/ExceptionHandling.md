@@ -1,4 +1,4 @@
-1.How can you throw an exception object?
+1.How can you throw an exception object? p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -17,7 +17,7 @@ Exception Handler is the block of code that can process the exception object.
 
 ---
 
-2.Explain `throw` keyword with real time example?
+2.Explain `throw` keyword with real time example? p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -33,7 +33,7 @@ Exception Handler is the block of code that can process the exception object.
 
 ---
 
-3.How are the exceptions created?
+3.How are the exceptions created? p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -49,7 +49,7 @@ An object representing the exception is created and thrown in the method that ca
 
 ---
 
-4.How exception handling manages try,catch,throw,throws and finally statements?
+4.How exception handling manages try,catch,throw,throws and finally statements? p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -65,7 +65,7 @@ Program statements that you want to monitor for exceptions are contained within 
 
 ---
 
-5.How does the StackOverflow occur?
+5.How does the StackOverflow occur?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -81,7 +81,7 @@ Error, which defines exceptions are not expected to be caught under normal circu
 
 ---
 
-6.Can we keep other statements in between ‘try’, ‘catch’, and ‘finally’ blocks?
+6.Can we keep other statements in between ‘try’, ‘catch’, and ‘finally’ blocks?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -97,7 +97,7 @@ It is not necessary to include any statements between the  ‘try’, ‘catch�
 
 ---
 
-7.Can we use only a ‘try’ block without the ‘catch’ and ‘finally’ blocks included?
+7.Can we use only a ‘try’ block without the ‘catch’ and ‘finally’ blocks included?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -113,7 +113,7 @@ This would result in compilation error. It is necessary for the ‘try’ block 
 
 ---
 
-8.What happens when you don’t handle exceptions in your program.
+8.What happens when you don’t handle exceptions in your program. p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -130,7 +130,7 @@ When the Java run-time system detects a runtime-error, it constructs a new excep
 
 ---
 
-9.Is it allowed to use any statements after the ‘finally’ block?
+9.Is it allowed to use any statements after the ‘finally’ block? p2
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -146,7 +146,7 @@ No, this will result in an unreachable catch block error. This is because the co
 
 ---
 
-10.How can you differentiate between NoClassDefFoundError and ClassNotFoundException in Java?
+10.How can you differentiate between NoClassDefFoundError and ClassNotFoundException in Java? p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -162,7 +162,7 @@ ClassNotFoundException and NoClassDefFoundError are the errors that occurs when 
 
 ---
 
-11.Explain the role of Throwable class in Exception handling?
+11.Explain the role of Throwable class in Exception handling? p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -180,7 +180,7 @@ All exception types are subclasses of the built-in class Throwable. Thus, Throwa
 ---
 
 
-12.Why should we clean up activities such as i/o resources in the finally block?
+12.Why should we clean up activities such as i/o resources in the finally block? p1
 `
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -196,7 +196,7 @@ Finally is useful for more than just exception handling — it allows the progra
 
 ---
 
-13.Consider three statements in a 'try' block: statement1, statement2, and statement3. It is followed by a 'catch' block to catch the exceptions that occurred during the execution of the 'try' block. Assume that the exception is thrown at statement2. Do you think the statement3 will be executed?  
+13.Consider three statements in a 'try' block: statement1, statement2, and statement3. It is followed by a 'catch' block to catch the exceptions that occurred during the execution of the 'try' block. Assume that the exception is thrown at statement2. Do you think the statement3 will be executed?  p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -213,7 +213,7 @@ Statement3 will not be executed. If an exception is thrown by the ‘try’ bloc
 ---
 
 
-14.When should we use the printStackTrace() method?
+14.When should we use the printStackTrace() method? p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -229,7 +229,7 @@ Statement3 will not be executed. If an exception is thrown by the ‘try’ bloc
 
 ---
 
-15.Complete the missing code in the given code block ?
+15.Complete the missing code in the given code block ? p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -269,7 +269,7 @@ System.out.println("Division by zero.");
 
 ---
 
-16.Explain try-with resource. How can you say that it differs from an ordinary try?
+16.Explain try-with resource. How can you say that it differs from an ordinary try?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -312,7 +312,7 @@ System.out.println("Message written to file successfuly!");
 
 ---
 
-17.Can we throw an exception, explicitly or manually? Explain with an example?
+17.Can we throw an exception, explicitly or manually? Explain with an example? p2
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -366,7 +366,7 @@ ExceptionExample.java:6: error: unreachable statement
 
 ---
 
-18.What is the purpose of OutofMemoryError in exception handling?
+18.What is the purpose of OutofMemoryError in exception handling?p2
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -382,7 +382,7 @@ The OutofMemoryError is thrown when there is insufficient space to allocate an o
 
 ---
 
-19.Explain unchecked exception with an example.
+19.Explain unchecked exception with an example.p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -419,7 +419,7 @@ The unchecked exception thrown is ArrayIndexOutOFBoundsException for the specifi
 
 ---
 
-20.Is it allowed to have an empty catch block in a code?
+20.Is it allowed to have an empty catch block in a code?p2
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -435,7 +435,7 @@ Yes, we can have an empty catch block. But this is a bad practice to implement i
 
 ---
 
-21.Can checked exception occur at compile time?
+21.Can checked exception occur at compile time? p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -451,7 +451,7 @@ A checked exception is an exception that occurs at the compile time which are al
 
 ---
 
-22.In which situation will you not be able to execute the finally block?
+22.In which situation will you not be able to execute the finally block? p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -467,7 +467,7 @@ We cannot say the finally block always executes because sometimes statement like
 
 ---
 
-23.Is it possible to throw a statement inside a static block?
+23.Is it possible to throw a statement inside a static block? p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -483,7 +483,7 @@ We cannot use throws keyword with a static block, and more over a static block i
 
 ---
 
-24.How rethrowing is done in exception handling? Explain with an example?
+24.How rethrowing is done in exception handling? Explain with an example?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -530,7 +530,7 @@ Caught in main
 
 ---
 
-25.How can you handle a chained exception?
+25.How can you handle a chained exception? p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -546,7 +546,7 @@ The chained exception feature allows you to associate another exception with an 
 
 ---
 
-26.Explain the methods in the throwable class.
+26.Explain the methods in the throwable class. p2
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -582,7 +582,7 @@ The chained exception feature allows you to associate another exception with an 
 
 ---
 
-27.When is the unreachable catch block error displayed by the compiler?
+27.When is the unreachable catch block error displayed by the compiler?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -623,7 +623,7 @@ public class ExceptionHandling
 
 </details>
 
-28.Why is it always recommended to include clean up operations like closing the DB resources inside a finally block?
+28.Why is it always recommended to include clean up operations like closing the DB resources inside a finally block?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -639,7 +639,7 @@ Finally block is always executed whether or not the exceptions are raised in the
 
 ---
 
-29.Explain the difference between throw, throws and Throwable in java?
+29.Explain the difference between throw, throws and Throwable in java? p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -722,7 +722,7 @@ class ThrowableExample
 
 ---
 
-30.Can we override a super class method with checked exception which is throwing an unchecked exception in the sub class?
+30.Can we override a super class method with checked exception which is throwing an unchecked exception in the sub class? p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -788,7 +788,7 @@ finally
 ---
 
 
-32.Can we throw an Exception inside the body of a Lambda Expression’s?
+32.Can we throw an Exception inside the body of a Lambda Expression’s? p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -816,7 +816,7 @@ integers.forEach(i -> {
 	
 ---
 	
-33.Suppose if there is a catch block corresponding to a try block with three statements – statement1, statement2, and statement3. Assume that exception is thrown in statement2. Does statement3 get executed?
+33.Suppose if there is a catch block corresponding to a try block with three statements – statement1, statement2, and statement3. Assume that exception is thrown in statement2. Does statement3 get executed? p2
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -832,7 +832,7 @@ Statement3 will not get executed because once a try block throws an exception, r
 
 ---
 	
-34.Why do you use the ‘throws’ keyword in Java? Explain with an example?
+34.Why do you use the ‘throws’ keyword in Java? Explain with an example?p1 but looks repetative with q4
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -880,7 +880,7 @@ public class ExceptionHandling{
 	
 ---
 	
-35.Debug the error in the below code:
+35.Debug the error in the below code: p2
 	
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -939,7 +939,7 @@ Another way is to remove the FileNotFoundException from the multi-catch block.
 	
 ---
 	
-36.Predict the output for the given code:
+36.Predict the output for the given code: p2
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 ```java
@@ -971,7 +971,7 @@ exception caught.
 
 ---
 
-37.Predict the output for the given code:
+37.Predict the output for the given code: p2
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1007,7 +1007,7 @@ public class  Try2{
 
 25
 finally block executing
-from try
+from try p2 but repeated
 
 ```
 </blockquote>
@@ -1026,7 +1026,7 @@ try block started it’s execution and no exception so it goes to finally and th
 
 ---
 	
-38.Can we keep the statements after finally block if the control is returning from the finally block itself?
+38.Can we keep the statements after finally block if the control is returning from the finally block itself? p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1042,7 +1042,7 @@ No, it gives unreachable code error. Because, control is returning from the fina
 	
 ---
 
-39.Predict the output in the below code:
+39.Predict the output in the below code: p2
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1077,7 +1077,7 @@ This code will throw compiler error on line where RuntimeException  variable “
 
 ---
 
-40. Debug the error in the below code
+40. Debug the error in the below code p2
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1110,7 +1110,7 @@ In this code compiler will complain on sub class where start() method gets overr
 
 ---
 
-41. Predict the output for the given below code:
+41. Predict the output for the given below code: p2
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1157,7 +1157,7 @@ If you notice we have return statement in try block, so before returning from ex
 
 ---
 
-42. Debug the error in the given below code:
+42. Debug the error in the given below code: p2
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1192,7 +1192,7 @@ The compiler will complain about the line where we are handling IOException, sin
 	
 ---
 
-43. What happens when JVM faces an exception in a program?
+43. What happens when JVM faces an exception in a program? p2
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1208,7 +1208,7 @@ When JVM faces an exception in a program, it creates an exception object and thr
 	
 ---
 
-44. What will happen to exception object after the exception handling is done?
+44. What will happen to exception object after the exception handling is done? p2
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1224,7 +1224,7 @@ The exception object will be garbage collected once exception handling is done.
 	
 ---
 
-45. Whether compile-time errors are exceptions?
+45. Whether compile-time errors are exceptions? p2
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1240,7 +1240,7 @@ Compile-time errors are not exceptions. They come under errors. In Java, only ru
 	
 ---
 	
-46. Whether the java compiler check Runtime exceptions at compile time?
+46. Whether the java compiler check Runtime exceptions at compile time? p1 repeated
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1256,7 +1256,7 @@ Java compiler does not check runtime exception at compile time, the programmer h
 	
 ---
 	
-47. What happens when runtime exception occurs in a program?
+47. What happens when runtime exception occurs in a program? p2 repeated
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1272,7 +1272,7 @@ When a runtime exception occurs in a method and the programmer does not handle i
 	
 ---
 	
-48.Predict the output in the given code:Assume that statement 2 arises an exception in the following statements. The exception object created is matched with argument of the catch block.
+48.Predict the output in the given code:Assume that statement 2 arises an exception in the following statements. The exception object created is matched with argument of the catch block. p2
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1302,7 +1302,7 @@ statement 1 will be executed normally.statement 4 inside catch block will be exe
 
 ---
 
-49. Predict the output in the following code?
+49. Predict the output in the following code? p2
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1340,7 +1340,7 @@ ArrayIndexOutOfBoundsException.
 
 ---
 
-50. In what scenarios or conditions, a finally block will not be executed?
+50. In what scenarios or conditions, a finally block will not be executed? p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1356,7 +1356,7 @@ When System.exit() method is invoked before executing finally block.When an exce
 	
 ----
 
-51. Can we throw multiple exceptions in one throw statement?
+51. Can we throw multiple exceptions in one throw statement? p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1372,7 +1372,7 @@ No, we cannot throw multiple exceptions in one throw statement. Only one object 
 
 ---
 
-52. What is error in Java? What are the types of errors in Java programming?
+52. What is error in Java? What are the types of errors in Java programming?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1392,7 +1392,7 @@ c. Logical errors
 	
 ---
 	
-53.How can you differentiate runtime error and syntax error.
+53.How can you differentiate runtime error and syntax error. p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1416,7 +1416,7 @@ Runtime Error:
 
 ---
 
-54. How to create your own user-defined exception in Java?
+54. How to create your own user-defined exception in Java? p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1440,7 +1440,7 @@ For example:
 
 ---
 	
-55. Explain the steps to create a user-defined exception?
+55. Explain the steps to create a user-defined exception? p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1489,7 +1489,7 @@ OwnException obj = new OwnException("Exception details");
 	
 ---
 	
-56.Explain with an example for creating a custom exception?
+56.Explain with an example for creating a custom exception? p2 repeated with q55
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 	
@@ -1542,7 +1542,7 @@ Output:
 
 ---
 	
-57.Write the code  to  evaluate candidate’s age to vote. If the candidate’s age is less than 18 years, the program will throw a custom exception "Invalid age".
+57.Write the code  to  evaluate candidate’s age to vote. If the candidate’s age is less than 18 years, the program will throw a custom exception "Invalid age".p2
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1613,7 +1613,7 @@ Second Execution:
 
 ---
 
-58. Explain the important methods of Java Exception Class?
+58. Explain the important methods of Java Exception Class? p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1640,7 +1640,7 @@ Exception and all of its subclasses don’t provide any specific methods and all
 	
 ---
 	
-59. What happens when an exception is thrown by the main method?
+59. What happens when an exception is thrown by the main method?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1656,7 +1656,7 @@ When an exception is thrown by a main() method, Java Runtime terminates the prog
 	
 ---
 	
-60. Why an exception occurs in the program?
+60. Why an exception occurs in the program?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1679,7 +1679,7 @@ There can be many reasons that might generate an exception in a Java program.
 	
 ---
 	
-61.Explain the Java exception hierarchy.
+61.Explain the Java exception hierarchy.p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1728,7 +1728,7 @@ SecurityException, etc.
 
 ---
 	
-62.Assume that statement 2 arises an exception in the following try-catch block:Will statement3 be executed?If the exception is not handled in catch block, will statement 4 be executed?If the exception is handled in the catch block, will statement 4 be executed?
+62.Assume that statement 2 arises an exception in the following try-catch block:Will statement3 be executed?If the exception is not handled in catch block, will statement 4 be executed?If the exception is handled in the catch block, will statement 4 be executed? p2
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1764,7 +1764,7 @@ statement 4;
 	
 ---
 	
-63.Predict the output for the below code?
+63.Predict the output for the below code? p2
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1799,7 +1799,7 @@ Value is less than 100, Outside try-catch block
 
 ---
 	
-64.Predict the output for the below code?
+64.Predict the output for the below code?p2
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1835,7 +1835,7 @@ catch (ArithmeticException ae) {
 
 ---
 
-65.Predict the output for the below code?
+65.Predict the output for the below code?p2
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1921,7 +1921,7 @@ abc xyz 456
 
 ---
 
-67.Predict the output for the below code?
+67.Predict the output for the below code?p2
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1964,7 +1964,7 @@ StringIndexOutOfBoundsException
 
 ---
 
-68.Predict the output for the below code?
+68.Predict the output for the below code?p2
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -2023,7 +2023,7 @@ I am in outer catch block, I am in try block, I am in finally block
 
 ---
 
-69.Predict the output for the below code?
+69.Predict the output for the below code?p2
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -2066,7 +2066,7 @@ Finally block
 
 ---
 
-70.Predict the output for the below code?
+70.Predict the output for the below code?p2
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -2104,7 +2104,7 @@ Compile Time error
 
 ---
 
-71. How would you explain a ClassCastException in Java?
+71. How would you explain a ClassCastException in Java?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -2120,7 +2120,7 @@ When the JVM is unable to cast an object of one type to another type, this excep
 
 ---
 
-72. Explain chained exceptions in Java?
+72. Explain chained exceptions in Java? p2 repeated
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -2146,7 +2146,7 @@ Methods Of Throwable class:
 
 ---
 
-73. What is try-with-resources statement in Java?
+73. What is try-with-resources statement in Java? p2 repeated
 
 ![Easy](htts://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -2177,7 +2177,7 @@ static String readFirstLineFromFile(String path) throws IOException {
 
 ---
 
-74. How to use exception handling with method overriding?
+74. How to use exception handling with method overriding? p1
 
 ![Easy](htts://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -2197,7 +2197,7 @@ static String readFirstLineFromFile(String path) throws IOException {
 
 ---
 
-75.  Is it necessary that each try block must be followed by a  catch block?
+75.  Is it necessary that each try block must be followed by a  catch block? p1
 
 ![Easy](htts://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -2213,7 +2213,7 @@ No it is not mandatory that there should be a catch block after a try block. try
 
 ---
 
-76.What is Exception Propagation?
+76.What is Exception Propagation? p2
 
 ![Easy](htts://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -2229,7 +2229,7 @@ When an exceptional condition occurs within a method, the method (where the exce
 
 ---
 
-77.Debug the error in the below code?
+77.Debug the error in the below code? p2
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -2262,7 +2262,7 @@ Here parent class had declared IOException where as subclass has declared Except
 
 ---
 
-78.Predict the output  in the below code?
+78.Predict the output  in the below code? p2
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -2315,7 +2315,7 @@ java.lang.NullPointerException:Cause of the NullPointerException
 
 ---
 
-79.Predict the output  in the below code?
+79.Predict the output  in the below code? p2
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -2376,7 +2376,7 @@ Exception is:java.lang.ArithmeticException:ThrowsDemo2
 
 ---
 
-80.Predict the output  in the below code?
+80.Predict the output  in the below code? p2
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
