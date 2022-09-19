@@ -1,6 +1,6 @@
 ## Technical Questions
 
- 1. What do you have in Java download file?
+ 1. What do you have in Java download file?p2
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -17,7 +17,7 @@ If the user downloads Java setup file, it contains `JRE` (Java Runtime Environme
 
 ---
 
-2.	Explain about ClassLoader.
+2.	Explain about ClassLoader.p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -36,7 +36,7 @@ Java has three type of ClassLoaders - Bootstrap, Extension, and Application clas
 
 ---
 
-3.	Does the program run if we give `static public void main`?
+3.	Does the program run if we give `static public void main`?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -53,7 +53,7 @@ Yes, the program will execute successfully .  Because, in Java, there is no spec
 
 ---
 
-4. What could be the result, if the `main()` is not declared as static?
+4. What could be the result, if the `main()` is not declared as static?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -71,7 +71,7 @@ When the main method is not declared as static, then the program may be compiled
 
 ---
 
-5.	How can you differentiate between >> and >>> operators.
+5.	How can you differentiate between >> and >>> operators.p1
 
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -93,7 +93,7 @@ The left operand value is moved right by the number of bits specified by the rig
 
 ---
 
-6.	Why is Java considered as dynamic?
+6.	Why is Java considered as dynamic?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -110,7 +110,7 @@ Because it is designed to adapt to an evolving environment. Java programs includ
 
 ---
 
-7.	Can we run a block of code before executing the main method?
+7.	Can we run a block of code before executing the main method?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -128,7 +128,7 @@ Because it is designed to adapt to an evolving environment. Java programs includ
 
 ---
 
-8.	Differentiate between `System. Out`, `System. Err`, and `System.in`?
+8.	Differentiate between `System. Out`, `System. Err`, and `System.in`?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -148,7 +148,7 @@ Because it is designed to adapt to an evolving environment. Java programs includ
 
 ---
 
-9.	Can a class be static ?
+9.	Can a class be static ?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -165,7 +165,7 @@ Because it is designed to adapt to an evolving environment. Java programs includ
 
 ---
 
-10. How will you differentiate between `a=a+b` and `a+=b`?
+10. How will you differentiate between `a=a+b` and `a+=b`?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -188,7 +188,7 @@ Because it is designed to adapt to an evolving environment. Java programs includ
 
 ---
 
-11. Does `System.exit()` in try block executes code in finally block?
+11. Does `System.exit()` in try block executes code in finally block?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -206,7 +206,7 @@ It will not execute finally block. The program will be terminated after `System.
 ---
 
 
-12.	Can we write multiple main methods inside one class in Java?
+12.	Can we write multiple main methods inside one class in Java?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -224,7 +224,7 @@ Throws a compiler error, that the method has been already defined inside the cla
 
 ---
 
-13.	Can we import the same class or package twice in a program and what happens to it during runtime?
+13.	Can we import the same class or package twice in a program and what happens to it during runtime?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -241,7 +241,7 @@ Throws a compiler error, that the method has been already defined inside the cla
 
 ---
 
-14.	Why the main method is static in Java?
+14.	Why the main method is static in Java?p2 repeated
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -258,7 +258,7 @@ Java `main()` method is always static, so the compiler can call it without the c
 
 ---
 
-15.	List the steps to set classpath in Java?
+15.	List the steps to set classpath in Java?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -282,7 +282,7 @@ Java `main()` method is always static, so the compiler can call it without the c
 
 ---
 
-16.	What is default value that a local variable holds?
+16.	What is default value that a local variable holds?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -299,7 +299,7 @@ Java `main()` method is always static, so the compiler can call it without the c
 
 ---
 
-17.	Can variables be used in Java without initialization?
+17.	Can variables be used in Java without initialization?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -316,7 +316,7 @@ In Java, if a variable is used in a code without prior initialization by a valid
 
 ---
 
-18.	Is it possible to compile a Java class successfully without even having a main method
+18.	Is it possible to compile a Java class successfully without even having a main method. p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -333,7 +333,7 @@ Yes. main method is an entry point of Java class and is required for execution o
 
 ---
 
-19.	Is it possible to use its sub-packages when its package is imported in a class
+19.	Is it possible to use its sub-packages when its package is imported in a class. p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -354,7 +354,7 @@ For example, if a developer imports a package `Company.*,` all classes in the pa
 
 ---
 
-20.	Can we declare a class in Java as private?
+20.	Can we declare a class in Java as private? p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -371,7 +371,7 @@ We can not declare top level class as private. Java allows only public and defau
 
 ---
 
-21. Why do we call JVM as virtual??
+21. Why do we call JVM as virtual?? p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -388,7 +388,7 @@ It provides a machine interface that does not depend on the underlying operating
 
 ---
 
-22. Explain the types of ClassLoader.
+22. Explain the types of ClassLoader. p1 repeated
 
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -409,7 +409,7 @@ If class is found by any loader then class is loaded by class loader; else Class
 
 ---
 
-23.	What will be the role of execution engine in JVM?
+23.	What will be the role of execution engine in JVM? p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -426,7 +426,7 @@ All code assigned to JVM is executed by an execution engine. The execution engin
 
 ---
 
-24.How to convert byte-code instruction to corresponding native instruction?
+24.How to convert byte-code instruction to corresponding native instruction? p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -443,7 +443,7 @@ JIT compilers interact with the JVM at runtime and compile appropriate bytecode 
 
 ---
 
-25. Where does all the bundles of libraries, Java Virtual Machine, and other components reside in the Java?
+25. Where does all the bundles of libraries, Java Virtual Machine, and other components reside in the Java? p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -462,7 +462,7 @@ JIT compilers interact with the JVM at runtime and compile appropriate bytecode 
 
 ---
 
-26.	What you need to develop a Java Application?
+26.	What you need to develop a Java Application? p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -479,7 +479,7 @@ JDK is a superset of JRE. JDK contains everything that JRE has along with develo
 
 ---
 
-27.	Differentiate between JDK, JRE and JVM.
+27.	Differentiate between JDK, JRE and JVM. p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -499,7 +499,7 @@ JDK = JRE + tools to develop Java Application.
 
 ---
 
-28.	Does Java support Pointers
+28.	Does Java support Pointers? p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -517,7 +517,7 @@ Java has references.A reference is a variable that refers to something else and 
 
 ---
 
-29.	What is the difference between instance variable and a class variable?
+29.	What is the difference between instance variable and a class variable? p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -535,7 +535,7 @@ Java has references.A reference is a variable that refers to something else and 
 
 ---
 
-30.	 Can a static method access non-static variables or methods? 
+30.	 Can a static method access non-static variables or methods? p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -552,7 +552,7 @@ No,  A static method cannot access non-static variables or methods because stati
 
 ---
 
-31.	How many types of variables are used in Java?
+31.	How many types of variables are used in Java? p1 repeated
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -574,7 +574,7 @@ There are three types of variables in Java
 
 ---
 
-32.	Why Data Type is mandatory in Java?
+32.	Why Data Type is mandatory in Java? p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -592,7 +592,7 @@ It is an attribute which tells what kind of data that variable can have. Every J
 
 ---
 
-33.	When do the static variables will be loaded in the memory?
+33.	When do the static variables will be loaded in the memory?p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -609,7 +609,7 @@ They are loaded at runtime when the respective Class is loaded.
 
 ---
 
-34. How many bytes void data type requires since every data type requires some bytes of memory in Java?
+34. How many bytes void data type requires since every data type requires some bytes of memory in Java? p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -626,7 +626,7 @@ Void is nothing which doesn't return anything , so it has no memory allocated .
 
 ---
 
-35.	 Why do local variables don't have any default value, whereas the member variables have default values ?
+35.	 Why do local variables don't have any default value, whereas the member variables have default values ? p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -644,7 +644,7 @@ member variable are loaded into heap, so they are initialized with default value
 
 ---
 
-36.	 Why global variables are not supported in Java?
+36.	 Why global variables are not supported in Java? p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -662,7 +662,7 @@ They are not allowed in Java, as it wont fit good with the concept of encapsulat
 
 ---
 
-37.	 When does <b>Garbage Collection</b> process reclaim the memory of object in Java?
+37.	 When does <b>Garbage Collection</b> process reclaim the memory of object in Java? p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -679,7 +679,7 @@ All Java objects automatically grab the memory that they need when they are crea
 
 ---
 
-38. Which is the form of automatic memory management?
+38. Which is the form of automatic memory management? p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -696,7 +696,7 @@ Garbage collector is a program which runs on the JVM which gets rid of unused ob
 
 ---
 
-39. Assume there are 2 variables declared as `int` in a program and in later part of the program we need to use the same variables to hold in `Char`. How can we achieve this.
+39. Assume there are 2 variables declared as `int` in a program and in later part of the program we need to use the same variables to hold in `Char`. How can we achieve this. p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -713,7 +713,7 @@ Using Type-casting we can achieve this, it is a way to cast a variable into anot
 
 ---
 
-40.	Which operators are used in looping and branching statements to create conditions?
+40.	Which operators are used in looping and branching statements to create conditions? p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -730,7 +730,7 @@ To create a condition in looping statements we can use Relational operators in J
 
 ---
 
-41. What will be the return value of the main () method in Java?
+41. What will be the return value of the main () method in Java? p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -748,7 +748,7 @@ In java, main() method can’t return any data and hence, it’s always declared
 
 ---
 
-42.In which loop the keyword `break` cannot be simply used?
+42.In which loop the keyword `break` cannot be simply used? p1
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -766,7 +766,7 @@ In `if-else` we cannot use break statement , since it is to simply come out of t
 
 ---
 
-43. Which type of loop will execute the statements at least once no matter the condition fails?
+43. Which type of loop will execute the statements at least once no matter the condition fails? p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -784,7 +784,7 @@ A `do-while loop` checks the loop condition after execution of the loop body. Th
 
 ---
 
-44. Which keyword is used to end the current loop iteration and proceed execution with the next iteration of that loop?
+44. Which keyword is used to end the current loop iteration and proceed execution with the next iteration of that loop? p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -801,7 +801,7 @@ The `continue` keyword is used to end the loop iteration immediately and resume 
 
 ---
 
-45. Which access modifiers can be used with a class in Java?
+45. Which access modifiers can be used with a class in Java? p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -818,7 +818,7 @@ Public and Default access modifiers can be used with a class.
 
 ---
 
-46. Can we declare a top-level class as protected?
+46. Can we declare a top-level class as protected? p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -835,7 +835,7 @@ Public and Default access modifiers can be used with a class.
 
 ---
 
-47. Why are access modifiers used?
+47. Why are access modifiers used? p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -852,7 +852,7 @@ It is used to restrict the access of a class and its members and used to reduce 
 
 ---
 
-48.  Which one is the least restrictive access modifier in Java?
+48.  Which one is the least restrictive access modifier in Java? p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -869,7 +869,7 @@ It is used to restrict the access of a class and its members and used to reduce 
 
 ---
 
-49. Which is the most restrictive access modifier in Java?
+49. Which is the most restrictive access modifier in Java?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -886,7 +886,7 @@ Private - The methods or data members declared as private are accessible only wi
 
 ---
 
-50. Which access modifier is also known as Universal access modifier?
+50. Which access modifier is also known as Universal access modifier? p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -903,7 +903,7 @@ Public-  Classes, methods, or data members that are declared as public are acces
 
 ---
 
-51. Is it possible to combine more than one access modifier in Java?
+51. Is it possible to combine more than one access modifier in Java? p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -920,7 +920,7 @@ No. A method, variable or class can be marked with only one access modifier.
 
 ---
 
-52. What you have to do to access a protected variable or method of a Class outside the package in Java?
+52. What you have to do to access a protected variable or method of a Class outside the package in Java? p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -939,7 +939,7 @@ No. A method, variable or class can be marked with only one access modifier.
 
 ---
 
-53. How will you make a class to execute first in Java?
+53. How will you make a class to execute first in Java? p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -956,7 +956,7 @@ If you declare a class as static, that class will be executed first. Static modi
 
 ---
 
-54. When does the class cannot be subclassed?
+54. When does the class cannot be subclassed? p1
 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -974,7 +974,7 @@ If you declare a class as static, that class will be executed first. Static modi
 
 ---
 
-55. Which class cannot be instantiated in Java?
+55. Which class cannot be instantiated in Java? p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -991,7 +991,7 @@ When we declare the class or method as abstract, which is used for further modif
 
 ---
 
-56. What will happen , if no access specifiers is mentioned?
+56. What will happen , if no access specifiers is mentioned? p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1008,7 +1008,7 @@ If no access modifier is mentioned (i.e. public-private or protected). It means 
 
 ---
 
-57. Differentiate between a keyword and a modifier ?	
+57. Differentiate between a keyword and a modifier ?	p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1029,7 +1029,7 @@ private , public , final , abstract etc are keywords as well as modifiers.
 
 ---
 
-58. What is the difference between public class and class ?	
+58. What is the difference between public class and class ?	p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1047,7 +1047,7 @@ private , public , final , abstract etc are keywords as well as modifiers.
 
 ---
 
-59. Can we change the return type Of `main()` method? what will be the output if we change if we change the type?
+59. Can we change the return type Of `main()` method? what will be the output if we change if we change the type?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1074,7 +1074,7 @@ It will throw an exception that Main method must return a value of type void in 
 
 ---
 
-60. Can we declare main method as non static in Java?
+60. Can we declare main method as non static in Java?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1090,7 +1090,7 @@ No, JVM invokes main method even before the instantiation of the class. As non-s
 
 ---
 
-61. Can we declare `main()` method as private or protected or with no access specifier?
+61. Can we declare `main()` method as private or protected or with no access specifier?p1 repeated
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1116,7 +1116,7 @@ No
 
 ---
 
-62. Can we define package statement after import statement in Java? 
+62. Can we define package statement after import statement in Java? p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1132,7 +1132,7 @@ We can’t define package statement after import statement in Java. package stat
 
 ---
 
-63. What access modifiers can be used for class in Java? 
+63. What access modifiers can be used for class in Java? p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1150,7 +1150,7 @@ We can use only public and default access modifiers for classes in Java
 
 ## Problem Solving
 
-64. The program throws a compile-time error? State the reason and number of errors it will throw. 
+64. The program throws a compile-time error? State the reason and number of errors it will throw. p1
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -1192,7 +1192,7 @@ The above program will give a compile-time error. The compiler will throw 2 erro
 
 ---
 
-65.	Predict the output of the code snippet
+65.	Predict the output of the code snippet p2
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1238,7 +1238,7 @@ public static void main(String[] args)
 
 ---
 
-66. What should be in Line 4 to get the output 97?
+66. What should be in Line 4 to get the output 97?p2
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1276,7 +1276,7 @@ int a = 'a';
 
 ---
 
-67. Predict the output of the following code snippet
+67. Predict the output of the following code snippet p2
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1314,7 +1314,7 @@ The value a holds 6 since its a pre increment operator and b holds 5 (post incre
 
 ---
 
-68. Predict the output of the following code.
+68. Predict the output of the following code. p2
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1339,7 +1339,7 @@ It will throw Compilation error. Preincrement & Postincrement operators are not 
 
 ---
 
-69.	Predict the output of the following output.
+69.	Predict the output of the following output.p2
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1375,7 +1375,7 @@ If we use the local variable `localVar` outside `getLocalVarValue()` function, t
 
 ---
 
-70. How many times the output 'Have a nice day' will be printed?
+70. How many times the output 'Have a nice day' will be printed?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1414,7 +1414,7 @@ Because break is used in the for loop which will terminate the current loop
 
 ---
 
-71. How many times the output 'Good Day' will be printed?
+71. How many times the output 'Good Day' will be printed?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1451,7 +1451,7 @@ It is printed 3 times becuase the variable i is incremented 2 times for one iter
 
 ---
 
-72. Write the for loop statement in Line 4 to declare infinitive loop
+72. Write the for loop statement in Line 4 to declare infinitive loop p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1478,7 +1478,7 @@ for (;;) using two semicolons ;; in the for loop will declare the infinitive for
 
 ---
 
-73. Can you find out the error in the below code?
+73. Can you find out the error in the below code? p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1504,7 +1504,7 @@ Inner classes can be private, but outer classes can not be private.
 
 ---
 
-74. Predict the error in the following code snippet.
+74. Predict the error in the following code snippet.p2
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1538,7 +1538,7 @@ Here private inner class B cannot be instantiated outside the class A.
 
 ---
 
-75. Predict the error in the following code snippet.
+75. Predict the error in the following code snippet.p2
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1570,7 +1570,7 @@ Class with default (no) access modifiers can not have subclass outside the packa
 
 ---
 
-76. Mr.XYZ has written the code like below but it is showing compile time error. Can you help him to remove the error?
+76. Mr.XYZ has written the code like below but it is showing compile time error. Can you help him to remove the error?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1598,7 +1598,7 @@ Outer class can’t be private. Don’t declare Class A as private.
 
 ---
 
-77. Predict the output of the following code snippet.
+77. Predict the output of the following code snippet.p2
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1627,7 +1627,7 @@ Compilation error will occur stating that Main method must return a value of typ
 
 ---
 
-78. Predict the output of the following code snippet.
+78. Predict the output of the following code snippet.p2
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1665,7 +1665,7 @@ non-static variable cannot be used in a static class
 
 ---
 
-79. Predict the order of execution in the following program.
+79. Predict the order of execution in the following program.p2
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1703,7 +1703,7 @@ No  argument constructor <br>
 
 ---
 
-80. How can we make the below code to work perfectly to print numbers from 0 to 9?
+80. How can we make the below code to work perfectly to print numbers from 0 to 9?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
