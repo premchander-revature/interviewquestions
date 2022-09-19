@@ -218,7 +218,7 @@ Explanation: spark memory = (2048 - 300) * 0.75 = 1311mb
 #P1
 ##EASY
 ###BC
-17. Spark memory is broken into 2 segments named as 
+17. Spark memory is broken into 2 segments named as -
 
 A. storage memory and heap memory
 B. heap memory and execution memory
