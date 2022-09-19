@@ -1,4 +1,4 @@
-1.How JDBC plays a vital role in java?
+1.How JDBC plays a vital role in java? p2
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -14,7 +14,7 @@ JDBC(Java Database Connectivity) is a Java API, which is helpful in interacting 
 
 ---
 
-2.What is the functionality of resultset in jdbc?
+2.What is the functionality of resultset in jdbc?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -36,7 +36,7 @@ ResultSet rs = con.executeQuery(sqlQuery);
 
 ---
 
-3.Why we need Jdbc driver in Jdbc?
+3.Why we need Jdbc driver in Jdbc?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -60,7 +60,7 @@ For example:
   
  ---
   
- 4.What is the need of DriverManager in Jdbc?
+ 4.What is the need of DriverManager in Jdbc?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -76,7 +76,7 @@ Jdbc DriverManager is a static class in Java, through which we manage the set of
   
 ---
   
-5.Which Jdbc driver is fastest and used more commonly?
+5.Which Jdbc driver is fastest and used more commonly?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -92,7 +92,7 @@ Jdbc Net pure Java driver(Type 4 driver) is the fastest driver for localhost and
 
 ---
   
-6.Which data types are used for storing the image and file in the database table?
+6.Which data types are used for storing the image and file in the database table?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -108,7 +108,7 @@ BLOB data type is used to store the image in the database. We can also store vid
 
  ---
   
- 7.Why we need stored procedure?Explain it?
+ 7.Why we need stored procedure?Explain it?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -146,7 +146,7 @@ ResultSet rs = cs.executeQuery();
 
 ---
   
-8.How can you differentiate ODBC and JDBC?
+8.How can you differentiate ODBC and JDBC? p2
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -174,7 +174,7 @@ JDBC(Java Database Connectivity):
   
 ---
   
-9.What is Rowset in a Resultset?
+9.What is Rowset in a Resultset?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -190,7 +190,7 @@ A RowSet is an object that encapsulates a row set from either Jdbc result sets o
   
 ---
 
-10.Describe the different types of Jdbc drivers in Java? 
+10.Describe the different types of Jdbc drivers in Java? p2 repeated
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -215,7 +215,7 @@ There are four types of JDBC drivers in Java. They are:
 
 ---
   
-11.Explain the different types of statements in Jdbc? 
+11.Explain the different types of statements in Jdbc? p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -254,7 +254,7 @@ ResultSet rs = cs.executeQuery();
   
 ---
   
-12.What are the interfaces and classes in Jdbc?Explain it?
+12.What are the interfaces and classes in Jdbc?Explain it? p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -282,7 +282,7 @@ The java.sql package contains different interfaces and classes for JDBC API. The
 
 ---
 
-13.What is Batch processing in Jdbc?How to perform it?
+13.What is Batch processing in Jdbc?How to perform it?p2
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -298,7 +298,7 @@ Batch processing is the process of executing multiple SQL statements in one tran
   
 ---
   
-14.How can you differentiate Statement and PreparedStatement?
+14.How can you differentiate Statement and PreparedStatement?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -319,7 +319,7 @@ The query is compiled only once.It is used when we want to give input parameters
   
 ---
   
-15.What is `execute()`,`executeQuery()` and `executeUpdate()` methods in Jdbc?Explain it?
+15.What is `execute()`,`executeQuery()` and `executeUpdate()` methods in Jdbc?Explain it?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -340,7 +340,7 @@ The query is compiled only once.It is used when we want to give input parameters
   
 ---
   
-16.How getter and setter methods used in ResultSet?
+16.How getter and setter methods used in ResultSet? p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -358,7 +358,7 @@ The query is compiled only once.It is used when we want to give input parameters
   
 ---
   
-17.What do you mean by "Dirty read" in terms of database?
+17.What do you mean by "Dirty read" in terms of database?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -375,7 +375,7 @@ Dirty read implies the meaning "read the value which may or may not be correct".
   
 ---
   
-18.Describe the steps for establishing a Jdbc connection in java?
+18.Describe the steps for establishing a Jdbc connection in java?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -443,7 +443,7 @@ con.close();
 
 ---
   
-19.Explain the implementation of Jdbc MySQL database connection with an example?
+19.Explain the implementation of Jdbc MySQL database connection with an example?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -483,7 +483,7 @@ class JdbcMySql{
   
 ---
   
-20.Explain the implementation to call Stored procedures in Jdbc?
+20.Explain the implementation to call Stored procedures in Jdbc? p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -512,7 +512,7 @@ We must register the OUT parameters before executing the CallableStatement.
 
 </details>
 
-21.When "No suitable driver" error occurs in java?
+21.When "No suitable driver" error occurs in java? p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -532,7 +532,7 @@ when one or more shared libraries required by the Jdbc bridge cannot be loaded.
 
 ---
 	
-22.Explain the types of Jdbc architecture?
+22.Explain the types of Jdbc architecture? p2
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -553,7 +553,7 @@ Jdbc has 2 types of architecture models  to access the database. They are:
 
 ---
 	
-23.Explain the ACID properties in Jdbc Transaction Management and why is it needed?
+23.Explain the ACID properties in Jdbc Transaction Management and why is it needed?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -575,7 +575,7 @@ The sequence of SQL statements served as a single unit that is called a transact
 
 ---
 	
-24:How can you differentiate between PreparedStatement and Statement? 
+24:How can you differentiate between PreparedStatement and Statement? p2 repeated
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -592,7 +592,7 @@ The query used in PreparedStatement looks similar each time, so the database can
 
 ---
 	
-25:Explain the  Transaction Management methods in Jdbc.
+25:Explain the  Transaction Management methods in Jdbc. p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -628,7 +628,7 @@ Syntax:`conn.releaseSavepoint("Mysavepoint");`
 </details
 
 
-26:Explain the common exceptions in Jdbc.
+26:Explain the common exceptions in Jdbc.p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -647,7 +647,7 @@ Syntax:`conn.releaseSavepoint("Mysavepoint");`
 
 ---
 	
-27:How two-phase commit is performed in Jdbc?
+27:How two-phase commit is performed in Jdbc?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -664,7 +664,7 @@ The main process or co-ordinator process take a vote of all other process that t
 
 ---
 	
-28:How to create a table dynamically from java using jdbc?
+28:How to create a table dynamically from java using jdbc?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -699,7 +699,7 @@ public class dynamicjdbctable{
 
 ---
 	
-29:How is it possible to connect to multiple databases using single statement object?
+29:How is it possible to connect to multiple databases using single statement object?p1
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -715,7 +715,7 @@ It is possible to connect to multiple databases, at the same time, but it depend
 
 ---
 	
-30.How do you insert images into database using Jdbc?
+30.How do you insert images into database using Jdbc?p1
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
