@@ -317,7 +317,7 @@ C. 23.16%
 D. 50%
 
 Answer: C
-
+Explanation: User Memory = (4096MB — 300MB) * (1.0–0.75) = 949MB. In percentage,  (949*100)/4096 = 23.16%. 
 
 #P1
 ##MEDIUM
@@ -330,7 +330,7 @@ C. 23.16%
 D. 69.5%
 
 Answer: B
-
+Explanation: Execution Memory = (4096MB — 300MB) * 0.75 * (1.0 — 0.5) = 1423MB. In percentage, (1423*100)/4096 = 34.75%. 
 
 #P1
 ##EASY
@@ -577,7 +577,7 @@ C. enabling header option to be true
 D. All of the above
 
 Answer: C
-
+Explanation:  We can rewrite the above code to create 1st row as column by simply adding option header to true as "spark.read.csv("path").option("header": "true")  
 
 #P1
 ##EASY
