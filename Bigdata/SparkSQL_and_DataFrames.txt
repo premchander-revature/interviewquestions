@@ -685,7 +685,7 @@ C. The above query will produces the employee name, salary, department ID, and m
 D. None of the above
 
 Answer: C
-Explanation: 
+Explanation: The inner query will get the maximum salary from each department and the outer query will compare each employee salary with maximum salary where the dept_id is equal for both inner and outer query. 
 
 
 #P1
@@ -991,12 +991,13 @@ Answer: C
 Which of the following code will result in correct solution?
 
 
-A. df.filter((df['State']== "Texas") ~ (df['weight']>65.0) ~ (df['Height’]>5.6)).show()
-B. df.filter((df['State']!= "Texas") & (df['weight']>65.0) | (df['Height’]>5.6)).show()
-C. df.filter((df['State']== "Texas") == (df['weight']>65.0) == (df['Height’]>5.6)).show()
-D. df.filter((df['State']== "Texas") & (df['weight']>65.0) & (df['Height’]>5.6)).show()
+A. df.filter((df['State']== "Texas") ~ (df['weight']>65.0) ~ (df['Height’]>5.6)).count()
+B. df.filter((df['State']!= "Texas") & (df['weight']>65.0) | (df['Height’]>5.6)).count()
+C. df.filter((df['State']== "Texas") == (df['weight']>65.0) == (df['Height’]>5.6)).count()
+D. df.filter((df['State']== "Texas") & (df['weight']>65.0) & (df['Height’]>5.6)).count()
 
 Answer: D
+Explanation: The code in option D will return the number of students who are from Texas and having weight above 65kg and height above 5.6 feets. 
 
 
 #P1
