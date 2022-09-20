@@ -88,7 +88,7 @@ A. True
 B. False
 
 Answer: B
-Explanation: By default, off-heap memory is disabled in Spark Cluster not heap memory.
+Explanation: By default, off-heap memory is disabled in Spark Cluster not heap memory. To enable off-heap memory, we have to set "spark.memory.offheap.enabled = true". 
 
 
 #P1
@@ -685,6 +685,7 @@ C. The above query will produces the employee name, salary, department ID, and m
 D. None of the above
 
 Answer: C
+Explanation: 
 
 
 #P1
