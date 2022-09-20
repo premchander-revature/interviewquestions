@@ -997,7 +997,7 @@ C. df.filter((df['State']== "Texas") == (df['weight']>65.0) == (df['Height’]>5
 D. df.filter((df['State']== "Texas") & (df['weight']>65.0) & (df['Height’]>5.6)).count()
 
 Answer: D
-Explanation: The code in option D will return the number of students who are from Texas and having weight above 65kg and height above 5.6 feets. 
+Explanation: The only option which will print the output only if all the conditions are true is option D. It will return the number of students who are from Texas and having weight above 65kg and height above 5.6 feets. 
 
 
 #P1
