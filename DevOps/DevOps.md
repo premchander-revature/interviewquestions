@@ -15,6 +15,7 @@
 </details>
 
 ---
+
 2. What is goal of `DevOps`?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -30,6 +31,7 @@
 </details>
 
 ---
+
 3. What do you understand by Continuous Integration?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -45,6 +47,7 @@
 </details>
 
 ---
+
 4. What tools are used for Continuous Integration?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -61,9 +64,10 @@
 </details>
 
 ---
-5. What are the common steps in Dev Ops
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+5. What are the common steps in Dev Ops?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -81,6 +85,7 @@
 </details>
 
 ---
+
 6. What do you understand by Continuous Delivery?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -116,6 +121,7 @@
 </details>
 
 ---
+
 8. State True or False. 
 Due to Continuous Integration code can be tested easily by creating separate, test or development branches based on the mainline code.
 
@@ -132,6 +138,7 @@ Due to Continuous Integration code can be tested easily by creating separate, te
 </details>
 
 ---
+
 9. State True or False. 
 Continuous Integration establishes the foundation for an automated DevOps pipeline & ensures the entire team works on the most up to date code.
 
@@ -148,6 +155,7 @@ Continuous Integration establishes the foundation for an automated DevOps pipeli
 </details>
 
 ---
+
 10. What is Jenkins?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -163,6 +171,7 @@ Continuous Integration establishes the foundation for an automated DevOps pipeli
 </details>
 
 ---
+
 11. Why Jenkins pipeline is used?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -182,7 +191,7 @@ Continuous Integration establishes the foundation for an automated DevOps pipeli
 
 12. What are two types of Jenkins Pipeline syntax?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -202,7 +211,7 @@ Continuous Integration establishes the foundation for an automated DevOps pipeli
 
 13. What do you mean by environment variable in Jenkins?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -222,7 +231,7 @@ Continuous Integration establishes the foundation for an automated DevOps pipeli
 
 14. What is the purpose of SonarLint?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -241,7 +250,7 @@ Continuous Integration establishes the foundation for an automated DevOps pipeli
 
 15. What is the use of Sonar Cloud?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -257,7 +266,7 @@ Continuous Integration establishes the foundation for an automated DevOps pipeli
 
 16. What is Sonar Qube?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -274,7 +283,7 @@ Continuous Integration establishes the foundation for an automated DevOps pipeli
 
 17. How is Jenkins installed?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -288,3 +297,4 @@ Continuous Integration establishes the foundation for an automated DevOps pipeli
 </details>
 
 ---
+
