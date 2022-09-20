@@ -56,6 +56,7 @@ A.True
 B.False
 
 Answer:B
+Explanation: offset is controlled by the consumer not producer, normally a consumer will advance its offset linearly as it reads messages.
 
 #P1
 ##EASY
@@ -63,7 +64,7 @@ Answer:B
 6.What happens in Kafka, if a machine to be written data is down?
 
 A.The write fails
-B.The machine is bypassed till it comes back up
+B.The machine is by passed till it comes back up
 C.The write waits till the machine comes back up
 D.Data is lost as a machine has failed
 
@@ -93,6 +94,7 @@ C.kafka-server-start.sh
 D.kafka-consumer-start.sh
 
 Answer:C
+Explanation:kafka-server-start.sh command is used to start the kafka broker.
 
 #P1
 ##EASY
@@ -105,6 +107,7 @@ C.kafka-cli.sh
 D.kafka-producer.sh
 
 Answer:B
+Explanation:To create a topic in kafka we can use kafka-topics.sh command.
 
 #P1
 ##EASY
@@ -222,6 +225,7 @@ C.Primary key
 D.Identifier
 
 Answer:B
+Explanation:offset acts as a unique identifier of a record within that partition.
 
 #P1
 ##EASY
@@ -325,6 +329,7 @@ C. It can have zero leader but more than one follower is compulsory.
 D. None of the above
 
 Answer: A
+Explaantion:A kafka partition can have 0 followers.
 
 #P1
 ##EASY
@@ -347,6 +352,7 @@ C. Bucket
 D. Consumer
 
 Answer: C
+Explanation:Broker,Topic and consumer all are the elements of kafka.Bucket is not an element of kafka.
 
 #P1
 ##EASY
@@ -354,11 +360,8 @@ Answer: C
 31.When does QueueFullException happens in kafka?
 
 A. QueueFullException happens when the manufacturer tries amplified load at a speed which a Topic can’t grip
-
 B. QueueFullException happens when the manufacturer tries amplified load at a speed which a Producer can’t grip
-
 C. QueueFullException happens when the manufacturer tries amplified load at a speed which a Partition can’t grip
-
 D. QueueFullException happens when the manufacturer tries amplified load at a speed which a Broker can’t grip
 
 Answer: D
@@ -478,6 +481,7 @@ C.Python and Java
 D.Scala and Java
 
 Answer:D
+Explanation:Kafka is written in both scala and java languages.
 
 #P1
 ##EASY
@@ -490,6 +494,7 @@ C.Both A and B
 D.None of these
 
 Answer:C
+Explanation:We can use kafka for real time streaming data pipelines, real time streaming apllications,etc.
 
 #P1
 ##EASY
@@ -500,6 +505,7 @@ A.True
 B.False
 
 Answer:B
+Explanation:It is not possible to use kafka without the zookeeper.
 
 #P1
 ##EASY
@@ -534,6 +540,7 @@ A.True
 B.False
 
 Answer:B
+Explanation:In kafka only one server which acts as the "leader".
 
 #P1
 ##EASY
@@ -544,6 +551,7 @@ A.True
 B.False
 
 Answer:A
+Explanation:In kafka zero or more servers which act as "followers"
 
 #P1
 ##EASY
@@ -556,6 +564,7 @@ C.In Partition
 D.None of these
 
 Answer:C
+Explanation:In broker messages are stored in partition.
 
 #P1
 ##EASY
