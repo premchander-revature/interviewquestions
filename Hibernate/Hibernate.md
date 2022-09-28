@@ -9,7 +9,7 @@
 
 - Hibernate ORM stands for Object Relational Mapping. This is a mapping tool pattern mainly used for converting data stored in a relational database to an object used in object-oriented programming constructs. This tool also helps greatly in simplifying data 	retrieval, creation, and manipulation.
 
-<img alt="Hibernate" src="www.imgur.com/a/jZvtZr2">
+<img alt="Hibernate.png" src="www.imgur.com/a/jZvtZr2">
 
 </blockquote>
 
