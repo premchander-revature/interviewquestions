@@ -8,8 +8,9 @@
 <blockquote>
 
 - Hibernate ORM stands for Object Relational Mapping. This is a mapping tool pattern mainly used for converting data stored in a relational database to an object used in object-oriented programming constructs. This tool also helps greatly in simplifying data 	retrieval, creation, and manipulation.
+	
+![Hibernate](https://user-images.githubusercontent.com/106813140/192742158-93dfe2ff-6019-4a5b-9b63-8223a3485a10.png)
 
-<img alt="Hibernate.png" src="www.imgur.com/a/jZvtZr2">
 
 </blockquote>
 
@@ -850,7 +851,7 @@ public class Task {
 
 <blockquote>
 
-<img alt="Alt text" src="https://imgur.com/a/MnoNbWA">
+![hiber2](https://user-images.githubusercontent.com/106813140/192742500-013b5b25-9fe1-4f96-914e-5dfbe77a800a.png)
 
 </blockquote>
 
@@ -933,7 +934,7 @@ can be changed.
     	finally {session.close();}  
 ```
 
-<img alt="Alt text" src="https://imgur.com/a/jnhxslK">
+![hiber1](https://user-images.githubusercontent.com/106813140/192742423-e0cc47ea-7fe2-44d0-b9b2-d02aa7553cf7.jpg)
 
 </blockquote>
 
