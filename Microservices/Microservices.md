@@ -99,7 +99,7 @@
 
 ---
 	
-6. What if there are already complex, huge legacy applications operational from decades, can we convert them into microservices?
+6. What if there are already complex, huge legacy applications operational for decades? Can we convert them into microservices?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -201,12 +201,13 @@
   - `Netflix Ribbon` - Dynamic Routing and Load Balancer
   - `Netflix Hystrix` -  Circuit Breaker
   - `Netflix Zuul` - API Gateway
+	
 </blockquote> 
 
 </details>
 
 ---
-12. What do you know about Service Discovery in microservices?
+12. What do you know about Service Discovery in Microservices?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
