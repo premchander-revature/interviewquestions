@@ -492,7 +492,7 @@ public class ProducerEureka2 {
 
 ---
 
-21. Do you know which are two types of load balancing techniques?
+21. Do you know what the two types of load balancing techniques are?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -582,7 +582,7 @@ public class ProducerEureka2 {
 
 <blockquote> 
     
-- Circuit breaker is a design pattern used in software development. 
+- Circuit Breaker is a design pattern used in software development. 
 - It is used to detect failures and encapsulates the logic of preventing a failure from constantly recurring, during maintenance, temporary external system failure or unexpected system difficulties.
 - The Circuit Breaker design pattern stops sending the request to the service which is not working or taking too long to respond.
 - Circuit Breaker aims in building fault-tolerant and resilient systems.
@@ -603,6 +603,7 @@ public class ProducerEureka2 {
 - When we wrap a method call in a circuit breaker, Spring Cloud Circuit Breaker watches for failing calls to that method.
 - In case failure occurs, Spring Cloud Circuit Breaker opens the circuit so that subsequent calls automatically fail. 
 - While the circuit is open, Spring Cloud Circuit Breaker redirects calls to our specified `fallback method`.
+	
 </blockquote> 
 
 </details>
@@ -653,7 +654,7 @@ public class ProducerEureka2 {
 	</dependency>
 </dependencies>
 ```
-- In the service provider side, we need to mark the target method as @HystrixCommand where circuit breaker will be enabled.
+- In the service provider side, we need to mark the target method as `@HystrixCommand` where circuit breaker will be enabled.
 - We also need to mention fallbackMethod attribute which is our handler method invoked in case the target method execution fails.
   
 ```java
@@ -731,6 +732,7 @@ public class ProducerEurekaHystrix {
   - Caching
   - Versioning
   - Routing
+	
 </blockquote> 
 
 </details>
@@ -854,6 +856,7 @@ public class EmployeeZuulGatwayApplication {
   - `Post filters` – Invoked after the request has been routed.
   - `Route filters` – Used to route the request.
   - `Error filters` – Invoked when an error occurs while handling the request.
+	
 </blockquote> 
 
 </details>
@@ -872,6 +875,7 @@ public class EmployeeZuulGatwayApplication {
 - One environment (blue) is running the current application version and one environment (green) is running the new application version. 
 - Using a blue/green deployment strategy increases application availability and reduces deployment risk by simplifying the rollback process if a deployment fails. 
 - Once testing has been completed on the green environment, live application traffic is directed to the green environment and the blue environment is deprecated.
+	
 </blockquote> 
 
 </details>
