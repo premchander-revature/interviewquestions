@@ -65,7 +65,7 @@
 
 ---
 
-5. What are the common steps in Dev Ops?
+5. What are the common steps in DevOps?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -73,7 +73,7 @@
 
 <blockquote> 
 
-- The steps or phases for Dev Ops refers to the creation, testing, and deployment of an application.
+- The steps or phases for DevOps refers to the creation, testing, and deployment of an application.
     - Source code Control: Producing (writing) code and pushing to a repository
     - Building and Testing Automation: Test basic functionality of code (Generally unit testing) and create a new, working build
     - Deploying to Staging: Deployment of working build to a temporary environment
@@ -94,7 +94,7 @@
 
 <blockquote> 
 
-- Development principle which focuses on the automation of the Dev Ops pipeline to the extent that human intervention is not required. 
+- Development principle which focuses on the automation of the DevOps pipeline to the extent that human intervention is not required. 
 - Generally, source code control, building and testing, and deployment to staging are automated.
 - While acceptance testing and if necessary deployment to production environment may be handled by a Human or requires manual approval.
 
@@ -123,6 +123,7 @@
 ---
 
 8. State True or False. 
+
 Due to Continuous Integration code can be tested easily by creating separate, test or development branches based on the mainline code.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -140,6 +141,7 @@ Due to Continuous Integration code can be tested easily by creating separate, te
 ---
 
 9. State True or False. 
+
 Continuous Integration establishes the foundation for an automated DevOps pipeline & ensures the entire team works on the most up to date code.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
