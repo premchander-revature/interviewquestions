@@ -573,7 +573,7 @@ Docker client and Docker Daemon communication happen with the combination of Res
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Docker Swarm is a tool used for clustering and scheduling Docker containers. Using Docker Swarm, developers and IT supervisors can easily establish and manage a bunch of nodes in Docker or a solitary Virtual System (VS).
+ A Docker Swarm is a group of either physical or virtual machines that are running the Docker application and that have been configured to join together in a cluster. Once a group of machines have been clustered together, we can still run the Docker commands that we're used to, but they will now be carried out by the machines in our cluster. The activities of the cluster are controlled by a swarm manager, and machines that have joined the cluster are referred to as nodes.
 
 </blockquote>
 </details>
