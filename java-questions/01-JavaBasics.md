@@ -6,7 +6,7 @@
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
- 
+ Java is a widely-used programming language for coding web applications.Java is a multi-platform,fast,secure, object-oriented, and network-centric language that can be used as a platform in itself.
  
 </blockquote>
 </details>
@@ -22,6 +22,8 @@
   
 <blockquote>
  
+JDK stands for Java Development Kit that contains JRE and developments tools like compilers and debuggers which are useful for developing Java applications.
+For instance, JDK contains javac i.e., Java compiler helps us to compiles Java source file MyPrg.java and generates the class file MyPrg.class.
  
 </blockquote>
 </details>
@@ -36,7 +38,7 @@
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
- 
+ JRE stands for Java Runtime Environment that contains JVM and provides the libraries and libraries to run java applications.
  
 </blockquote>
 </details>
@@ -51,7 +53,9 @@
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
- 
+JVM stands for Java Virtual Machine that uses to run Java application in different platforms.
+It converts class into Java bytecode which depends up the paltform ie, the native language code.
+
  
 </blockquote>
 </details>
@@ -66,8 +70,16 @@
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
- 
- 
+JDK
+It is a software development kit required to develop applications in Java.
+JDK includes compiler (javac.exe), Java application launcher (java.exe), Applet viewer, etc., 
+Java compiler translates java source code into byte code.
+JRE
+It is a software package that provides Java class libraries, Java Virtual Machine (JVM), and other components that are required to run Java applications.
+Actually, JVM runs the program, and it uses the class libraries, and other supporting files provided in JRE.
+JVM  
+When we compile a Java file, output is not an .exe but it's a .class file. This .class is known as Java byte code; it has the Java byte codes which can be understood by JVM.
+Java Virtual Machine interprets the byte code into the machine code and execute it.
 </blockquote>
 </details>
 
@@ -81,7 +93,12 @@
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
- 
+ Access Modifiers are used to limit the accessibility or visibility of class, method, variable, and constructor.
+There are four type of access modifier:
+Default
+Public
+Private
+Protected
  
 </blockquote>
 </details>
@@ -96,7 +113,8 @@
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
- 
+ declared variables:Declared variables are created before any code is executed.declared variables are non-configurable.
+ undeclared variables:Undeclared variables do not exist until the code assigning to them is executed.undeclared variables are configurable.
  
 </blockquote>
 </details>
@@ -111,7 +129,10 @@
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
- 
+Non-Access Modifiers will not change the scope but, it will add some functionality. There are three types of Non-Access Modifiers:
+final
+static
+abstract
  
 </blockquote>
 </details>
@@ -126,8 +147,11 @@
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
- 
- 
+There are two kinds of memory used in Java. 
+stack memory 
+heap memory. 
+Stack memory stores primitive types and the addresses of objects. 
+Heap memory stores the value of the object. 
 </blockquote>
 </details>
 
@@ -141,7 +165,7 @@
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
- 
+ Garbage collection is the process of looking at heap memory, identifying which objects are in use and which are not, and deleting the unused objects.
  
 </blockquote>
 </details>
@@ -156,7 +180,7 @@
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
- 
+ Whenever an object is created, it's always stored in the Heap memory and stack memory contains the reference of it.
  
 </blockquote>
 </details>
@@ -171,7 +195,11 @@
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
- 
+ Scope of a variable denotes span of a variable.
+
+The scope of a local variable is within that method i.e. when we create a variable with in a method, it cannot be accessed outside that method.
+
+Example
  
 </blockquote>
 </details>
@@ -186,7 +214,8 @@
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
- 
+ Local variables are visible only in the method or block they are declared.Local variables are declared inside a method or a block.  
+ instance variables can been seen by all methods in the class.instance variables are declared inside a class, but outside a method. 
  
 </blockquote>
 </details>
@@ -216,7 +245,9 @@
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
- 
+When we use static before variable or method that will not belong to any object,it belongs to the class.
+There is no need to create an object for the class to access the static variable or static method. We can use the class name to call them with respect to the access modifier.
+If we use the object name to call the static method or variable, the compiler will replace the name of the object with class.
  
 </blockquote>
 </details>
@@ -231,7 +262,11 @@
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
- 
+final is the keyword that can be used with class, variable, and method.
+
+Final variable – The value can’t be changed.
+Final method – The method can’t be overridden.
+Final class – No subclasses can be created. 
  
 </blockquote>
 </details>
@@ -246,7 +281,11 @@
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
- 
+ Public- it is access specifier from anywhere we can access it.
+ Static- it is access modifier we can call the methods directly by class name without creating its objects
+ Void- it is the return type  
+ Main- it is a method name  
+ String[]args- in java we accept only the string type of argument and store it.
  
 </blockquote>
 </details>
@@ -261,8 +300,7 @@
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
- 
- 
+ If the main method won't be static, JVM would not be able to call it because there is no object of the class is present.
 </blockquote>
 </details>
 
@@ -276,7 +314,8 @@
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
- 
+Stack memory is the space allocated for a process where all the function calls, primitive data types like int, double, etc., and local and reference variables of the functions are stored. Stack memory is always accessed in a Last-In-First-Out (LIFO) manner.
+Heap memory is used to store the objects that are created during the execution of a Java program. Heap follows dynamic memory allocation (memory is allocated during execution or runtime) and provides random access, unlike stack, which follows Last-In-First-Out (LIFO) order.
  
 </blockquote>
 </details>
