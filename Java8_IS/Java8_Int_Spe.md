@@ -76,29 +76,30 @@
 
 ---
 
-4. What enhancements have been done to JDK in Java 8?
+4. Tell us about Functional interfaces.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- Until Java 7, JVM used an area called `PermGen` to store classes. It is replaced as `MetaSpace` in Java 8.
-- Major advantage of `MetaSpace` over `permgen`: `Permgen` was fixed in term of maximum size and cannot grow dynamically but `Metaspace` can grow dynamically and do not have any size constraint.
-
+An Interface that contains exactly one abstract method is known as functional interface. It can have any number of default, static methods but can contain only one abstract method. It can also declare methods of object class. Functional Interface is also known as Single Abstract Method Interfaces or SAM Interfaces.
+    
 </blockquote>
 </details>
 
 ---
 
-5. What changes have been done to HashMap in Java 8?
+5. What is the difference between Functionsl interface abd Method Interface?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-When the number of items in a hash is larger than a certain value, the hash will change from using a linked list of elements or entries to a balanced tree, this will improve the worst case performance from O(n) to O(log n).
+Lambda expression is an anonymous method (method without a name) that has used to provide the inline implementation of a method defined by the functional interface while a method reference is similar to a lambda expression that refers a method without executing it. The arrow (->) operator can be used to connect the argument and functionality in a lambda expression while the (::) operator separates the method name from the name of an object or class in a method reference.
+
+
 
 
 </blockquote>
