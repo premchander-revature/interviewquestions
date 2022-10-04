@@ -81,6 +81,9 @@ Java is one of the most popular high level programming language. For example, it
 
 **JDK** is a software development kit whereas **JRE** is a software bundle that allows Java program to run, whereas **JVM** is an environment for executing bytecode.
   
+- JRE = JVM + libraries to run Java application
+- JDK = JRE + tools to develop Java application
+
 ![image](https://user-images.githubusercontent.com/70228962/193740634-fbaf769e-ad53-45bd-86fb-36983e754ecc.png)
 
 </blockquote>
@@ -97,33 +100,19 @@ Java is one of the most popular high level programming language. For example, it
   
 <blockquote>
 
-- Access Modifiers are used to limit the accessibility or visibility of class, method, variable, and constructor.
-There are four type of access modifier:
-Default
-Public
-Private
-Protected
+Access modifiers allow us to set the scope or accessibility or visibility of a data member be it a field, constructor, class, or method.  The four different types of access specifiers
+- Public
+- Protected
+- Private
+- Default
+
+Private is more protective. When the methods or data members declared as private, then we can access them only within the class in which they are declared.
  
 </blockquote>
 </details>
 
 --- 
 
-7. What can you tell me about declared and undeclared variables?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
-<details>
-  <summary> <b>Show Answer</b></summary>
-  
-<blockquote>
- declared variables:Declared variables are created before any code is executed.declared variables are non-configurable.
- undeclared variables:Undeclared variables do not exist until the code assigning to them is executed.undeclared variables are configurable.
- 
-</blockquote>
-</details>
-
---- 
 
 8. Tell us about non-access modifiers
 
@@ -133,10 +122,13 @@ Protected
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
-Non-Access Modifiers will not change the scope but, it will add some functionality. There are three types of Non-Access Modifiers:
-final
-static
-abstract
+
+Non-access modifiers defines the behavior of the entities to the JVM, used with classes, variables, methods, constructors, etc. Some of the non access modifiers are
+
+- static
+- final
+- abstract
+- synchronized
  
 </blockquote>
 </details>
@@ -151,11 +143,12 @@ abstract
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
-There are two kinds of memory used in Java. 
-stack memory 
-heap memory. 
-Stack memory stores primitive types and the addresses of objects. 
-Heap memory stores the value of the object. 
+
+There are two kinds of memory used in Java:
+
+- **Stack memory** stores primitive types and the addresses of objects. 
+- **Heap memory** stores the value of the object. 
+
 </blockquote>
 </details>
 
@@ -169,6 +162,7 @@ Heap memory stores the value of the object.
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
+ 
  Garbage collection is the process of looking at heap memory, identifying which objects are in use and which are not, and deleting the unused objects.
  
 </blockquote>
@@ -184,7 +178,8 @@ Heap memory stores the value of the object.
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
- Whenever an object is created, it's always stored in the Heap memory and stack memory contains the reference of it.
+
+Whenever an object is created, it's always stored in the Heap memory and stack memory contains the reference of it.
  
 </blockquote>
 </details>
@@ -196,14 +191,25 @@ Heap memory stores the value of the object.
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
-  <summary> <b>Show Answer</b></summary>
-  
+
+<summary> <b>Show Answer</b></summary>
+
 <blockquote>
- Scope of a variable denotes span of a variable.
+ 
+When we create a variable with in a method, it cannot be accessed outside that method. The scope of that variable is a local scope.
 
-The scope of a local variable is within that method i.e. when we create a variable with in a method, it cannot be accessed outside that method.
+**Example:** Here `age` is a variable declared inside the `printAge()` method. It can be accessed only inside the `printAge()`. So, we can say `age` variable has a local scope
 
-Example
+```java
+public class Test {
+
+	public void printAge() {
+		int age = 7;
+		System.out.println(age);
+	}
+}
+```
+
  
 </blockquote>
 </details>
@@ -218,8 +224,12 @@ Example
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
- Local variables are visible only in the method or block they are declared.Local variables are declared inside a method or a block.  
- instance variables can been seen by all methods in the class.instance variables are declared inside a class, but outside a method. 
+
+| Local Scope                                                                | Instance Scope                                                        |
+|----------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| Its the scope of the local variables                                       | Its the scope of the instance variables                               |
+| Local variables are declared inside a method or a block.                   | Instance variables are declared inside a class, but outside a method. |
+| Local variables are visible only in the method or block they are declared. | Instance variables can been seen by all methods in the class.         |
  
 </blockquote>
 </details>
@@ -234,7 +244,12 @@ Example
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
- 
+
+Variables can be defined as having one of three types of scope: 
+
+- **Class level scope or Instance scope** (instance variables): Any variable declared within a class is accessible by all methods in that class. 
+- **Method level scope or Local scope** (local variables): Any variable declared within a method and arguments is only accessible inside that method.
+- **Block scope** (loop variables): Any variable declared in a for loop condition is not accessible after the loop, unless you defined it beforehand.
  
 </blockquote>
 </details>
@@ -249,9 +264,13 @@ Example
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
-When we use static before variable or method that will not belong to any object,it belongs to the class.
-There is no need to create an object for the class to access the static variable or static method. We can use the class name to call them with respect to the access modifier.
-If we use the object name to call the static method or variable, the compiler will replace the name of the object with class.
+
+- Its a non access modifier
+- Its used to share the same variable or method of a given class
+- When we declare a variable or method as static that will not belong to any object, it belongs to the class. 
+- There is no need to create an object for the class to access the static variable or static method. 
+- We can use the class name to call them with respect to the access modifier.
+- If we use the object name to call the static method or variable, the compiler will replace the name of the object with class.
  
 </blockquote>
 </details>
@@ -266,18 +285,29 @@ If we use the object name to call the static method or variable, the compiler wi
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
-final is the keyword that can be used with class, variable, and method.
 
-Final variable – The value can’t be changed.
-Final method – The method can’t be overridden.
-Final class – No subclasses can be created. 
+final keyword is a non-access specifier that can be used with class, variable, and method to restrict changes or make it as constant. 
+
+- If we initialize a variable with the final keyword, then we cannot modify its value.
+- If we declare a method as final, then it cannot be overridden by any subclasses. 
+- And, if we declare a class as final, we restrict the other classes to inherit or extend it.
+
+```
+
+Final Variable  ---> To create constant variable
+Final Method    ---> Prevents Method Overriding
+Final Class     ---> Prevents Inheritance
+
+```
+
  
 </blockquote>
 </details>
 
 --- 
 
-17. Explain each of the parts of Public Static void main String[] args
+
+17. Explain each of the parts of `public static void main (String[] args)`
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -285,11 +315,14 @@ Final class – No subclasses can be created.
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
- Public- it is access specifier from anywhere we can access it.
- Static- it is access modifier we can call the methods directly by class name without creating its objects
- Void- it is the return type  
- Main- it is a method name  
- String[]args- in java we accept only the string type of argument and store it.
+ 
+ `public static void main(String[] args)` -  main method is the e**ntry point of any java program**
+
+- `public` is an access specifierof the main method. It has to be `public` so that java runtime can execute this method. 
+- `static` is non-access modifier. When java runtime starts, there is no object of the class present. That’s why the main method has to be static so that JVM can load the class into memory and call the main method.
+- `void`is a return type, means main method not going to return anything. 
+- `main` is a method name  
+- `String[] args` - Java main method accepts a single argument of type String array. This is also called as java command line arguments.
  
 </blockquote>
 </details>
@@ -304,7 +337,9 @@ Final class – No subclasses can be created.
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
- If the main method won't be static, JVM would not be able to call it because there is no object of the class is present.
+
+If the main method won't be static, JVM would not be able to call it because there is no object of the class is present.
+
 </blockquote>
 </details>
 
@@ -318,8 +353,12 @@ Final class – No subclasses can be created.
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
-Stack memory is the space allocated for a process where all the function calls, primitive data types like int, double, etc., and local and reference variables of the functions are stored. Stack memory is always accessed in a Last-In-First-Out (LIFO) manner.
-Heap memory is used to store the objects that are created during the execution of a Java program. Heap follows dynamic memory allocation (memory is allocated during execution or runtime) and provides random access, unlike stack, which follows Last-In-First-Out (LIFO) order.
+| Stack Memory                                                                                                                                                                            | Heap Memory                                                                                                                                                                |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Stack memory is the space allocated for a process where all the function calls, primitive data types (int, double, etc.) and local and reference variables of the functions are stored. | Heap memory is used to store the objects that are created during the execution of a Java program. The reference to the objects that are created is stored in stack memory. |
+| Stack memory is always referenced in LIFO (Last-In-First-Out) order.                                                                                                                    | Heap follows dynamic memory allocation (memory is allocated during execution or runtime) and provides random access                                                     |
+
+
  
 </blockquote>
 </details>
