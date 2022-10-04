@@ -88,7 +88,7 @@ There are multiple ways to set language in HTML
 
 ---
 
-5. What does a <DOCTYPE html> do?
+5. What does a `<DOCTYPE html>` do?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
