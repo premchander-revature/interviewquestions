@@ -190,10 +190,46 @@ In encapsulation, the variables of a class will be hidden from other classes, an
 
 <details>
   <summary> <b>Show Answer</b></summary>
-  
 <blockquote>
- 
- 
+
+Abstract Class allows us to achieve 0 - 100 % of abstraction in java. 
+
+A class which is declared with the abstract keyword is known as an abstract class. It can have abstract and non-abstract methods (method with the body).
+
+A method that doesn't have its body is known as an abstract method. We use the same abstract keyword to create abstract methods.
+
+We cannot create an object for abstract classes. Though abstract classes cannot be instantiated, we can create subclasses from it. We can then access members of the abstract class using the object of the subclass. 
+
+```java
+abstract class Animal {
+  //abstract method
+  abstract void makeSound();
+  //non abstract method
+  public void eat() {
+    System.out.println("I can eat.");
+  }
+}
+
+class Dog extends Animal {
+
+  // provide implementation of abstract method
+  public void makeSound() {
+    System.out.println("Bark bark");
+  }
+}
+
+class Main {
+  public static void main(String[] args) {
+
+    // create an object of Dog class
+    Dog d1 = new Dog();
+
+    d1.makeSound();
+    d1.eat();
+  }
+}
+```
+
 </blockquote>
 </details>
 
@@ -208,6 +244,33 @@ In encapsulation, the variables of a class will be hidden from other classes, an
   
 <blockquote>
  
+Interface allow us to achieve 100% abstraction in java. An interface is declared by using the `interface` keyword. Sll the methods in an interface are abstract (declared with the empty body), and all the fields are `public`, `static` and `final` by default.
+
+Like abstract classes, we cannot create objects of interfaces.
+
+To use an interface, other classes must implement it. We use the `implements` keyword to implement an interface. A class that implements an interface must implement all the methods declared in the interface.
+
+```java
+interface Polygon {
+  void getArea(int length, int breadth);
+}
+
+// implement the Polygon interface
+class Rectangle implements Polygon {
+
+  // implementation of abstract method
+  public void getArea(int length, int breadth) {
+    System.out.println("The area of the rectangle is " + (length * breadth));
+  }
+}
+
+class Main {
+  public static void main(String[] args) {
+    Rectangle r1 = new Rectangle();
+    r1.getArea(5, 6);
+  }
+}
+```
  
 </blockquote>
 </details>
@@ -223,13 +286,21 @@ In encapsulation, the variables of a class will be hidden from other classes, an
   
 <blockquote>
  
+ | Abstract class                                                             | Interface                                                                                            |
+|----------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
+| Abstract class can have abstract and non-abstract methods.                 | Interface can have only abstract methods. Since Java 8, it can have default and static methods also. |
+| Abstract class doesn't support multiple inheritance.                       | Interface supports multiple inheritance.                                                             |
+| Abstract class can have final, non-final, static and non-static variables. | Interface has only static and final variables.                                                       |
+| The `abstract` keyword is used to declare abstract class.                  | The `interface` keyword is used to declare interface.                                                |
+| n abstract class can be extended using keyword `extends`.                  | An interface can be implemented using keyword `implements`.                                          |
+| Members can be private, protected, default or public.                      | Members of a interface are public by default.                                                        |
  
 </blockquote>
 </details>
 
 --- 
 
-10. What is Abstraction?
+10. What is Abstraction? or Describe abstract in OOP (or) What does Abstraction do?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -238,7 +309,18 @@ In encapsulation, the variables of a class will be hidden from other classes, an
   
 <blockquote>
  
- 
+Abstraction is an important concept of object oriented programming that allows us to hide unnecessary details and only show the needed information.
+
+A practical example of abstraction can be motorbike brakes. We know what brake does. When we apply the brake, the motorbike will stop. However, the working of the brake is kept hidden from us.
+
+The major advantage of hiding the working of the brake is that now the manufacturer can implement brake differently for different motorbikes, however, what brake does will be the same.
+
+**Abstraction lets you focus on what the object does instead of how it does it.**
+
+There are two ways to achieve abstraction in java
+1. Abstract class (0 to 100% abstraction)
+2. Interface (100% abstraction)
+
 </blockquote>
 </details>
 
@@ -253,13 +335,17 @@ In encapsulation, the variables of a class will be hidden from other classes, an
   
 <blockquote>
  
+Inheritance in Java is a concept that acquires the properties from one class to other classes; for example, the relationship between father and son. Inheritance in Java is a process of acquiring all the behaviours of a parent object.
+
+The parent-child relationship, also known as the **IS-A** relationship, is represented by inheritance.
  
 </blockquote>
 </details>
 
 --- 
 
-11. Describe abstract in OOP (or) What does Abstraction do?
+
+12. Brief us on encapsulation and access modifiers (or) How do you achieve encapsulation?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -268,21 +354,9 @@ In encapsulation, the variables of a class will be hidden from other classes, an
   
 <blockquote>
  
- 
-</blockquote>
-</details>
+Encapsulation can be achieved by declaring all the variables in the class as private and writing public methods in the class to set and get the values of variables.
 
---- 
-
-12. Brief us on encapsulation and access modifiers
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
-<details>
-  <summary> <b>Show Answer</b></summary>
-  
-<blockquote>
- 
+**Encapsulation = private data members + public getters or setters**
  
 </blockquote>
 </details>
@@ -298,7 +372,8 @@ In encapsulation, the variables of a class will be hidden from other classes, an
   
 <blockquote>
  
- 
+ Yes, a class can have multiple constructors that assign the fields in different ways
+
 </blockquote>
 </details>
 
@@ -312,7 +387,8 @@ In encapsulation, the variables of a class will be hidden from other classes, an
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
- 
+
+ We can declare static methods with the same signature in the subclass, but it is not considered overriding as there won’t be any run-time polymorphism. Hence the answer is ‘No’. 
  
 </blockquote>
 </details>
