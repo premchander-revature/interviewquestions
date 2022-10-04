@@ -353,6 +353,7 @@ If the main method won't be static, JVM would not be able to call it because the
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
+	
 | Stack Memory                                                                                                                                                                            | Heap Memory                                                                                                                                                                |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Stack memory is the space allocated for a process where all the function calls, primitive data types (int, double, etc.) and local and reference variables of the functions are stored. | Heap memory is used to store the objects that are created during the execution of a Java program. The reference to the objects that are created is stored in stack memory. |
