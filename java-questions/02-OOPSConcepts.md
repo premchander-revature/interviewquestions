@@ -43,6 +43,7 @@ Characteristics are also known as data, attributes, or properties, and Behaviour
 --- 
 
 3. What are the pillars of OOP?
+
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
@@ -372,7 +373,7 @@ Encapsulation can be achieved by declaring all the variables in the class as pri
   
 <blockquote>
  
- Yes, a class can have multiple constructors that assign the fields in different ways
+ Yes, a class can have multiple constructors that assign the fields in different ways.
 
 </blockquote>
 </details>
@@ -388,7 +389,7 @@ Encapsulation can be achieved by declaring all the variables in the class as pri
   
 <blockquote>
 
- We can declare static methods with the same signature in the subclass, but it is not considered overriding as there won’t be any run-time polymorphism. Hence the answer is ‘No’. 
+ We can declare static methods with the same signature in the subclass, but it is not considered overriding as there won’t be any run-time polymorphism. Hence the answer is **No**. 
  
 </blockquote>
 </details>
@@ -403,8 +404,11 @@ Encapsulation can be achieved by declaring all the variables in the class as pri
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
+
+
  
- 
+ ![image](https://user-images.githubusercontent.com/70228962/193798049-81ea6a70-ea0e-4608-8789-d73370162d9a.png)
+
 </blockquote>
 </details>
 
