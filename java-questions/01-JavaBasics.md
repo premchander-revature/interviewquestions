@@ -4,10 +4,10 @@
 
 <details>
   <summary> <b>Show Answer</b></summary>
-  
 <blockquote>
- Java is a widely-used programming language for coding web applications.Java is a multi-platform,fast,secure, object-oriented, and network-centric language that can be used as a platform in itself.
- 
+
+Java is one of the most popular high level programming language. For example, its used to create mobile application like Netflix, Twitter, Spotify, and many more. Also, used in the server applications.
+
 </blockquote>
 </details>
 
@@ -22,8 +22,12 @@
   
 <blockquote>
  
-JDK stands for Java Development Kit that contains JRE and developments tools like compilers and debuggers which are useful for developing Java applications.
-For instance, JDK contains javac i.e., Java compiler helps us to compiles Java source file MyPrg.java and generates the class file MyPrg.class.
+- JDK - **J**ava **D**evelopment **K**it
+- JDK contains everything that JRE has along with development tools for developing, debugging, and monitoring Java applications. 
+- JDK used to develop Java applications.
+- JDK contains compiler (javac.exe), Java application launcher (java.exe), Applet viewer, etc., 
+    - javac - Java compiler translates java source code into byte code.
+
  
 </blockquote>
 </details>
@@ -38,7 +42,11 @@ For instance, JDK contains javac i.e., Java compiler helps us to compiles Java s
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
- JRE stands for Java Runtime Environment that contains JVM and provides the libraries and libraries to run java applications.
+ 
+- JRE - **J**ava **R**untime **E**nvironment 
+- JRE is a software package which bundles the libraries (jars) and the JVM, and other components to run applications written in the Java. 
+-To execute any Java application, you need JRE installed in the machine. It’s the minimum requirement to run Java applications on any computer.
+
  
 </blockquote>
 </details>
@@ -53,9 +61,9 @@ For instance, JDK contains javac i.e., Java compiler helps us to compiles Java s
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
-JVM stands for Java Virtual Machine that uses to run Java application in different platforms.
-It converts class into Java bytecode which depends up the paltform ie, the native language code.
 
+- JVM - **J**ava **V**irtual **M**achine 
+- JVM interprets the byte code into the machine code and execute it.
  
 </blockquote>
 </details>
@@ -70,16 +78,10 @@ It converts class into Java bytecode which depends up the paltform ie, the nativ
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
-JDK
-It is a software development kit required to develop applications in Java.
-JDK includes compiler (javac.exe), Java application launcher (java.exe), Applet viewer, etc., 
-Java compiler translates java source code into byte code.
-JRE
-It is a software package that provides Java class libraries, Java Virtual Machine (JVM), and other components that are required to run Java applications.
-Actually, JVM runs the program, and it uses the class libraries, and other supporting files provided in JRE.
-JVM  
-When we compile a Java file, output is not an .exe but it's a .class file. This .class is known as Java byte code; it has the Java byte codes which can be understood by JVM.
-Java Virtual Machine interprets the byte code into the machine code and execute it.
+
+**JDK** is a software development kit whereas **JRE** is a software bundle that allows Java program to run, whereas **JVM** is an environment for executing bytecode.
+
+
 </blockquote>
 </details>
 
