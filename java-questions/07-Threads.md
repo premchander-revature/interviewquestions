@@ -91,7 +91,11 @@ My thread is in running state.
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
- 
+ New
+ Runnable
+ Waiting
+ Timed Waiting
+ Terminated (Dead)
  
 </blockquote>
 </details>
