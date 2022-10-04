@@ -45,7 +45,7 @@ Java is one of the most popular high level programming language. For example, it
  
 - JRE - **J**ava **R**untime **E**nvironment 
 - JRE is a software package which bundles the libraries (jars) and the JVM, and other components to run applications written in the Java. 
--To execute any Java application, you need JRE installed in the machine. It’s the minimum requirement to run Java applications on any computer.
+- To execute any Java application, you need JRE installed in the machine. It’s the minimum requirement to run Java applications on any computer.
 
  
 </blockquote>
@@ -80,7 +80,8 @@ Java is one of the most popular high level programming language. For example, it
 <blockquote>
 
 **JDK** is a software development kit whereas **JRE** is a software bundle that allows Java program to run, whereas **JVM** is an environment for executing bytecode.
-
+  
+![image](https://user-images.githubusercontent.com/70228962/193740634-fbaf769e-ad53-45bd-86fb-36983e754ecc.png)
 
 </blockquote>
 </details>
