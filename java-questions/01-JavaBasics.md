@@ -365,3 +365,54 @@ If the main method won't be static, JVM would not be able to call it because the
 </details>
 
 --- 
+
+3.	Does the program run if we give `static public void main`?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+Yes, the program will execute successfully .  Because, in Java, there is no specific rule for the order of specifiers
+
+</blockquote>
+
+</details>
+
+
+---
+
+8.	Differentiate between `System. Out`, `System. Err`, and `System.in`?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+- `System.out` and `System.err` represent the monitor by default and can be used to send data or results to the monitor. 
+- `System.out` is used to display normal messages and results. 
+- `System.err` is used to display error messages. 
+- `System.in` represents InputStream object which by default represents standard input device, i.e., keyboard.
+
+</blockquote>
+
+</details>
+
+
+---
+
+19. Can a static method access non-static variables or methods? 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+No,  A static method cannot access non-static variables or methods because static methods can be accessed without instantiating the class, so if the class is not instantiated the variables are not initialized and thus cannot be accessed from a static method.
+
+</blockquote>
+
+</details>
