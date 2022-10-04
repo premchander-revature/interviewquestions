@@ -95,7 +95,8 @@ Java is one of the most popular high level programming language. For example, it
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
- Access Modifiers are used to limit the accessibility or visibility of class, method, variable, and constructor.
+
+- Access Modifiers are used to limit the accessibility or visibility of class, method, variable, and constructor.
 There are four type of access modifier:
 Default
 Public
