@@ -63,7 +63,7 @@
 </details>
 
 ---
-1. What do you mean by Sprint in Agile framework?
+5 What do you mean by Sprint in Agile framework?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -86,8 +86,7 @@
 
 <blockquote> 
 
-- A level of difficulty assigned to a user story through the use of a sequence of numbers that increases with increasing difficulty. Story points are used to measure the complexity of a 
-- story. 
+- A level of difficulty assigned to a user story through the use of a sequence of numbers that increases with increasing difficulty. Story points are used to measure the complexity of a story. 
 - The overall goal of a story is to provide value to its user within a set timeframe.
 
 </blockquote> 
@@ -111,7 +110,7 @@
 </details>
 
 ---
-1. What do you understand by Product Backlog?
+8. What do you understand by Product Backlog?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -164,7 +163,7 @@
 
 <blockquote> 
 
-- During the daily scrum, each scrim team member answers the following three questions: 
+- During the daily scrum, each scrum team member answers the following three questions: 
   - What did you do yesterday? 
   - What will you do today? 
   - Are there any impediments in your way?
