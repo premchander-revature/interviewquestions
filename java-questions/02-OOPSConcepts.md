@@ -405,7 +405,15 @@ Encapsulation can be achieved by declaring all the variables in the class as pri
   
 <blockquote>
 
+There are 5 types of Inheritance. They are
 
+1. Single Inheritance
+2. Multi-level Inheritance
+3. Hierarchical Inheritance
+4. Hybrid Inheritance
+5. Multiple inheritance 
+
+**In java, multiple and hybrid inheritance is supported through interface only.**
  
  ![image](https://user-images.githubusercontent.com/70228962/193798049-81ea6a70-ea0e-4608-8789-d73370162d9a.png)
 
@@ -422,6 +430,13 @@ Encapsulation can be achieved by declaring all the variables in the class as pri
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
+
+When we have the requirement of a class that contains some common properties or methods with some common properties whose implementation is different for different classes, in that situation, it's better to use Abstract Class then Interface.
+
+Interfaces are a good choice when we think that the API will not change for a while.
+Interfaces are also good when we want to have something similar to multiple inheritances since we can implement multiple interfaces.
+
+The JDBC API is an excellent example. It exist of almost only interfaces. The concrete implementations are provided as "JDBC drivers". This enables you to write all the JDBC code independent of the DB vendor. You can just change the JDBC driver without changing any line of Java code (except of any hardcoded DB-specific SQL code) whenever you'd like to switch of DB vendor.
  
  
 </blockquote>
@@ -437,7 +452,10 @@ Encapsulation can be achieved by declaring all the variables in the class as pri
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
- 
+
+There are two types of polymorphism as below: 
+1. Static Binding or Compile time Polymorphism or Method Overloading
+2. Dynamic Binding or Runtime Polymorphism or Method overriding.
  
 </blockquote>
 </details>
@@ -453,6 +471,7 @@ Encapsulation can be achieved by declaring all the variables in the class as pri
   
 <blockquote>
  
+ No, we cannot override main method of java because a static method cannot be overridden.
  
 </blockquote>
 </details>
@@ -467,7 +486,8 @@ Encapsulation can be achieved by declaring all the variables in the class as pri
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
- 
+
+ A constructor in Java is a special method that is used to initialize objects. The constructor is called when an object of a class is created.
  
 </blockquote>
 </details>
@@ -483,6 +503,11 @@ Encapsulation can be achieved by declaring all the variables in the class as pri
   
 <blockquote>
  
+A class is a blueprint for the object. Before we create an object, we first need to define the class.
+
+We can think of the class as a sketch (prototype) of a house. It contains all the details about the floors, doors, windows, etc. Based on these descriptions we build the house. House is the object.
+
+Since many houses can be made from the same description, we can create many objects from a class.
  
 </blockquote>
 </details>
@@ -498,6 +523,10 @@ Encapsulation can be achieved by declaring all the variables in the class as pri
   
 <blockquote>
  
+- Inheritance helps in **code reuse**. The child class may use the code defined in the parent class without re-writing it.
+- Inheritance makes the code flexible to change, as you will adjust only in one place, and the rest of the code will work smoothly.
+- With the help of Inheritance, you can override the methods of the base class.
+- The base class in Inheritance decides which data to be kept private, such that the derived class will not be able to alter it.
  
 </blockquote>
 </details>
@@ -513,6 +542,7 @@ Encapsulation can be achieved by declaring all the variables in the class as pri
   
 <blockquote>
  
+Java does not support multiple inheritance using classes. It can be achieved or implemented using interfaces.
  
 </blockquote>
 </details>
@@ -528,21 +558,13 @@ Encapsulation can be achieved by declaring all the variables in the class as pri
   
 <blockquote>
  
- 
-</blockquote>
-</details>
+ Yes, we can change the scope of the overridden method in the subclass. However, we cannot decrease the accessibility of the method. 
 
---- 
-
-25. What are some of the advantages of inheritance?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
-<details>
-  <summary> <b>Show Answer</b></summary>
-  
-<blockquote>
- 
+While changing the accessibility of the method,
+  - private can be changed to protected, public, or default.
+  - protected can be changed to public or default.
+  - default can be changed to public.
+  - public will always remain public.
  
 </blockquote>
 </details>
@@ -557,8 +579,10 @@ Encapsulation can be achieved by declaring all the variables in the class as pri
 <summary> <b>Show Answer</b></summary>
   
 <blockquote>
- 
- 
+
+- Helps to increase the security of an application or program as only essential details are provided to the user.
+- Avoids code duplication and increases reusability. 
+- It improves the maintainability of the application. It improves the modularity of the application.
 </blockquote>
 </details>
 
@@ -573,7 +597,22 @@ Encapsulation can be achieved by declaring all the variables in the class as pri
   
 <blockquote>
  
- 
+ +---------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| Class                                                                     | Object                                                                                      |
++---------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| Class is a blueprint or template from which objects are created.          | Object is an instance of a class.                                                           |
++---------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| Class is a group of similar objects.                                      | Object is a real world entity such as pen, laptop, mobile, bed, keyboard, mouse, chair etc. |
++---------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| When a class is created, no memory is allocated.                          | Objects are allocated memory space whenever they are created.                               |
++---------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| The class has to be declared first and only once.                         | An object is created many times as per requirement.                                         |
++---------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| It is declared with the class keyword                                     | It is created with a class name and a `new` keyword in Java.                                |
++---------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| Class does not contain any values which can be associated with the field. | Each object has its own values, which are associated with it.                               |
++---------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+
 </blockquote>
 </details>
 
