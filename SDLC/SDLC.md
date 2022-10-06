@@ -63,7 +63,7 @@
 </details>
 
 ---
-5 What do you mean by Sprint in Agile framework?
+5. What do you mean by Sprint in Agile framework?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
