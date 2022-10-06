@@ -618,3 +618,206 @@ While changing the accessibility of the method,
 
 --- 
 
+10. How can we change the super class method according to the requirements of sub class in Java?
+
+ ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+It can be done by method overriding , which is a type of polymorphism. It can modify a super class method in the sub class.
+
+</blockquote>
+
+</details>
+
+---
+
+19. Can an interface extends another interface in Java?
+
+ ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer </b></summary>
+
+<blockquote
+
+ Yes, an interface can extend another interface in Java.
+
+</blockquote>
+
+</details>
+
+---
+
+22. What happens if a class has implemented an interface but has not provided implementation for that method defined in Interface?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+The class has to be declared with an abstract modifier, which will be enforced by the Java compiler.
+
+</blockquote>
+
+</details>
+
+---
+
+28. Can we declare a class as Abstract without having any abstract method?
+
+ ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+Yes we can create an abstract class by using abstract keyword before class name even if it doesn’t have any abstract method.If a class has even one abstract method, it must be declared as abstract otherwise it will give an error.
+
+</blockquote>
+
+</details>
+
+---
+
+30. Can we call the constructor of a class more than once for an object?
+
+ ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+It’s called only once for an object automatically at the time of object creation using new keyword. we can’t invoke the constructor again for an object after its creation.
+
+</blockquote>
+
+</details>
+
+---
+
+33. How can we stop inherting a class from other class in Java?
+
+ ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+If we want a class not to be extended further by any class, we can use the keyword `Final` with the class name.
+
+In the following example, Stone class is Final and can’t be extended
+
+``` java
+public Final Class Stone {
+	// Class methods and Variables
+}
+```
+
+ </blockquote>
+
+</details>
+
+---
+
+34. Can we use a default constructor of a class even if an explicit constructor is defined?
+
+ ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+No. Java provides a default no argument constructor if no explicit constructor is defined in a class. But if an explicit constructor has been defined, default constructor can’t be invoked and developer can use only those constructors which are defined in the class.
+
+ </blockquote>
+
+</details>
+
+---
+
+41. Is it possible to change the value of any variable defined in the class implementing an interface?
+
+ ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+ 
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+No, we can’t change the value of any variable of an interface in the implementing class as all variables defined in the interface are by default public, static and Final. final variables are like constants which can’t be changed later
+
+  </blockquote>
+
+</details>
+
+---
+
+42. What part of memory (Stack/Heap) is cleaned in garbage collection process?
+
+ ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+ 
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+Heap. Because when Java programs run on the JVM, objects are created on the heap,
+
+  </blockquote>
+
+</details>
+
+---
+
+45. Can we achieve method overloading by changing the return type?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote> 
+
+No, We cannot achieve method overloading through return type in Java.
+
+</blockquote>
+
+</details>
+
+---
+
+46. Can we extend a String class?
+
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+No, String is a final class, therefore we cannot extend or inherit it.
+
+</blockquote>
+
+</details>
+
+---
+
+54. Explain about inner class in Java.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+In Java, we can define a class inside a class and they are called nested classes. Any nested class which is non-static are known as inner class. 
+
+</blockquote>
+
+</details>
+
+---
