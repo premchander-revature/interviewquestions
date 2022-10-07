@@ -29,7 +29,7 @@
 - `GitHub` provides all of the distributed version control and `source code management (SCM)` functionalities of Git, along with few of its own features.
   
 </blockquote> 
-
+    
 </details>
 
 ---
