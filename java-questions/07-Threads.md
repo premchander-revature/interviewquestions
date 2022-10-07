@@ -6,14 +6,15 @@
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
- A thread is a single sequential flow of control within a program.The real excitement surrounding threads is not about a single sequential thread. Rather, it’s about the use of multiple threads running at the same time and performing different tasks in a single program. 
- 
+
+A process is a program in execution. A thread is a subset of a process.
+
 </blockquote>
 </details>
 
 --- 
 
-2. Tell us about Java Threads
+3. How do you make a thread in java? or How do you create thread?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -21,61 +22,11 @@
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
-Threads are basically the lightweight and smallest unit of processing that can be managed independently by a scheduler. Threads are referred to as parts of a process that simply let a program execute efficiently with other parts or threads of the process at the same time. Using threads, one can perform complicated tasks in the easiest way. It is considered the simplest way to take advantage of multiple CPUs available in a machine. They share the common address space and are independent of each other
- 
-</blockquote>
-</details>
 
---- 
+In Java, we can create a thread using
 
-3. How do you make a thread in java?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
-<details>
-  <summary> <b>Show Answer</b></summary>
-  
-<blockquote>
- There are basically two ways of implementing thread in java as given below:
-
-By Extending the Thread class
-Example:
-
-class ThreadingDemo extends Thread 
-{   
-  public void run() 
- {   
-     System.out.println("My thread is in running state.");    
- } 
-  public static void main(String args[]) 
- {   
-    ThreadingDemo obj=new ThreadingDemo();  
-        obj.start();  
-  }  
-} 
-
-Output:
-
-My thread is in running state.
-By Implementing Runnable interface in Java
-Example:
-
-class ThreadingDemo implements Runnable 
-{  
-   public void run() 
- {  
-      System.out.println("My thread is in running state.");  
-  }  
-    public static void main(String args[]) 
- {  
-      ThreadingDemo obj=new ThreadingDemo();   
-      Thread t=new Thread(obj);       
-      t.start();  
- }   
-} 
-
-Output: 
-My thread is in running state.
+1. By Extending the Thread class
+2. By Implementing Runnable interface in Java
 
  
 </blockquote>
@@ -91,13 +42,85 @@ My thread is in running state.
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
-New − A new thread begins its life cycle in the new state. It remains in this state until the program starts the thread. It is also referred to as a born thread.
-Runnable − After a newly born thread is started, the thread becomes runnable. A thread in this state is considered to be executing its task.
-Waiting − Sometimes, a thread transitions to the waiting state while the thread waits for another thread to perform a task. Thread transitions back to the runnable state only when another thread signals the waiting thread to continue executing.
-Timed Waiting − A runnable thread can enter the timed waiting state for a specified interval of time. A thread in this state transitions back to the runnable state when that time interval expires or when the event it is waiting for occurs.
-Terminated (Dead) − A runnable thread enters the terminated state when it completes its task or otherwise terminates.
+
+At any given time, a thread can be in one of these states:
+
+- New: newly created thread that has not started executing
+- Runnable: either running or ready for execution but waiting for its resource allocation
+- Blocked: waiting to acquire a monitor lock to enter or re-enter a synchronized block/method
+- Waiting: waiting for some other thread to perform an action without any time limit
+- Timed_Waiting: waiting for some other thread to perform a specific action for a specified time period
+- Terminated: has completed its execution
  
 </blockquote>
 </details>
 
 --- 
+
+9.How can we differentiate `notify()` and `notifyAll()` methods ?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+
+- `notify()`: It sends a notification and wakes up only a single thread instead of multiple threads that are waiting on the object’s monitor.
+
+- `notifyAll()`: It sends notifications and wakes up all threads and allows them to compete for the object's monitor instead of a single thread. 
+
+</blockquote>
+
+</details>
+
+---
+
+5. Explain synchronization process? Why we use it?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Synchronization in java is the capability to control the access of multiple threads to any shared resource. In the Multithreading concept, multiple threads try to access the shared resources at a time to produce inconsistent results. The synchronization is necessary for reliable communication between threads.
+
+</blockquote>
+</details>
+
+---
+
+18. Explain thread starvation?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Thread starvation is basically a situation or condition where a thread won’t be able to have regular access to shared resources and therefore is unable to proceed or make progress. This is because other threads have high priority and occupy the resources for too long. This usually happens with low-priority threads that do not get CPU for its execution to carry on. 
+
+</blockquote>
+
+</details>
+
+---
+
+20. Can you start a thread twice?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+No, it's not at all possible to restart a thread once a thread gets started and completes its execution. Thread only runs once and if you try to run it for a second time, then it will throw a runtime exception i.e., `java.lang.IllegalThreadStateException`. 
+
+</blockquote>
+
+</details>
+
+---
+
+
