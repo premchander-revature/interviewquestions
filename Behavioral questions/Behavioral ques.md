@@ -159,13 +159,29 @@ Sample answer: When I am assigned with a project, I would segregate the project 
 -------------
 
 11.What were your role/responsibilities in your project?
+
+<details>
+<summary> Show Answer </summary>
+<blockquote>
+
 (Should get the details from their respective portfolios)
+ 
+</details>
+</blockquote>
 
 -------------
 
 12.Explain your project
+
+<details>
+<summary> Show Answer </summary>
+<blockquote>
+ 
 (Should get the details from their respective portfolios)
 
+</details>
+</blockquote>
+ 
 -------------
 
 13.How to resolve conflicts between team members?
@@ -217,7 +233,7 @@ Sample Answer: “My superpower would have to be super-speed, like The Flash. I 
  
 Sample Answer 1: I firmly believe in self-development and knowledge enhancement, so for sure, I will develop myself and gain more knowledge in the next 5 years to be a better version of myself. So, me and my organization I can grow together.
 
-Sample Answer 1: In the next five years, I want to see myself as more responsible, knowledgeable, and experienced. I will make sure that I explore skills and used opportunities so that I can contribute and share my knowledge, see myself learning and growing with every experience and last of course want to be happy.
+Sample Answer 2: In the next five years, I want to see myself as more responsible, knowledgeable, and experienced. I will make sure that I explore skills and used opportunities so that I can contribute and share my knowledge, see myself learning and growing with every experience and last of course want to be happy.
 
 </details>
 </blockquote>
