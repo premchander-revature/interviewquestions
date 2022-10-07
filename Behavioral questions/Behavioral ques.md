@@ -161,8 +161,12 @@ Sample answer: When I am assigned with a project, I would segregate the project 
 11.  What were your role/responsibilities in your project?
 (Should get the details from their respective portfolios)
 
+-------------
+
 12. Explain your project
 (Should get the details from their respective portfolios)
+
+-------------
 
 13. How to resolve conflicts between team members?
 
