@@ -105,7 +105,7 @@ If you are an ethical and empathetic person you own up to this and let the chips
  
 -------------
 
-8. Tell me about yourself and what led you to Revature?
+8.Tell me about yourself and what led you to Revature?
 
 <details>
 <summary> Show Answer </summary>
@@ -120,7 +120,7 @@ Revature is a well-reputed company with numerous opportunities on learning platf
  
 ---------------
  
-9. What are your strengths and weaknesses?
+9.What are your strengths and weaknesses?
 
 <details>
 <summary> Show Answer </summary>
@@ -135,7 +135,7 @@ Sample Answer: To state my strength and weakness can be a little confusing becau
 
 --------------
 
-10. How do you react to challenges such as prioritizing parts of the project and conflict resolutions?
+10.How do you react to challenges such as prioritizing parts of the project and conflict resolutions?
 
 <details>
 <summary> Show Answer </summary>
@@ -158,17 +158,17 @@ Sample answer: When I am assigned with a project, I would segregate the project 
 
 -------------
 
-11.  What were your role/responsibilities in your project?
+11.What were your role/responsibilities in your project?
 (Should get the details from their respective portfolios)
 
 -------------
 
-12. Explain your project
+12.Explain your project
 (Should get the details from their respective portfolios)
 
 -------------
 
-13. How to resolve conflicts between team members?
+13.How to resolve conflicts between team members?
 
 <details>
 <summary> Show Answer </summary>
@@ -181,7 +181,7 @@ Sample Answer: When faced with a conflict, I like to ask questions and understan
 
 ---------------
 
-14. Tell me about a time when you had a person that was hampering your progress as a team for a project
+14.Tell me about a time when you had a person that was hampering your progress as a team for a project
 
 <details>
 <summary> Show Answer </summary>
@@ -195,7 +195,7 @@ Unfortunately, she avoided my question. Afterward, I spoke with my research ment
 
 --------------
 
-15. If you had a superpower, what would it be and why?
+15.If you had a superpower, what would it be and why?
 
 <details>
 <summary> Show Answer </summary>
@@ -209,7 +209,7 @@ Sample Answer: “My superpower would have to be super-speed, like The Flash. I 
 
 --------------
 
-16. Where do you want to see yourself in 3-4 years?
+16.Where do you want to see yourself in 3-4 years?
 
 <details>
 <summary> Show Answer </summary>
@@ -224,7 +224,7 @@ Sample Answer 1: In the next five years, I want to see myself as more responsibl
 
 --------------
 
-17. Describe a moment where you failed?
+17.Describe a moment where you failed?
 
 <details>
 <summary> Show Answer </summary>
@@ -237,7 +237,7 @@ Sample Answer: “When I started my first internship, I was overly eager to go t
 
 ---------------
 
-18. Describe a time when you had to earn someone's respect/what did that take?
+18.Describe a time when you had to earn someone's respect/what did that take?
 
 <details>
 <summary> Show Answer </summary>
