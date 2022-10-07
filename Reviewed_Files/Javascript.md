@@ -14,7 +14,6 @@
 
 </details>
 
-
 ---
 
 2. What browser can use JavaScript??
