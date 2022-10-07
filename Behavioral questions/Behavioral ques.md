@@ -1,4 +1,3 @@
-
 1. Tell me something interesting about your schooling.
 
 <details>
