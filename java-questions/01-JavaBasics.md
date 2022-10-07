@@ -391,10 +391,12 @@ Yes, the program will execute successfully .  Because, in Java, there is no spec
 
 <blockquote>
 
-- `System.out` and `System.err` represent the monitor by default and can be used to send data or results to the monitor. 
 - `System.out` is used to display normal messages and results. 
 - `System.err` is used to display error messages. 
-- `System.in` represents InputStream object which by default represents standard input device, i.e., keyboard.
+- `System.in` represents InputStream object which by default represents standard input device, i.e., 
+keyboard.
+
+`System.out` and `System.err` represent the monitor by default and can be used to send data or results to the monitor. 
 
 </blockquote>
 
