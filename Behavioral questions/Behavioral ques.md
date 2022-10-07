@@ -29,7 +29,7 @@ Sample answer 2: When the software development of our new product stalled, I coo
 
 -------------
 
-3. How did you deal with someone not pulling their weight?
+3.How did you deal with someone not pulling their weight?
 
 <details>
 <summary> Show Answer </summary>
@@ -44,7 +44,7 @@ Sample answer 2: A team member was finding it difficult to contribute because th
  
 -----------
 
-4. Have you explored outside of your study area? If so, what did you explore?
+4.Have you explored outside of your study area? If so, what did you explore?
 
 <details>
 <summary> Show Answer </summary>
@@ -58,7 +58,7 @@ Sample Answer: Cricket is my outside interest. In my free time, I spend more tim
 </blockquote>
  
 ------------
-5. Tell me about your previous job experience?
+5.Tell me about your previous job experience?
 
 <details>
 <summary> Show Answer </summary>
@@ -73,7 +73,7 @@ Sample answer 2: The last time I worked as a language assistant, I found the wor
  
 ------------
 
-6. Describe a problem that you had and how did you fix it?
+6.Describe a problem that you had and how did you fix it?
 
 <details>
 <summary> Show Answer </summary>
@@ -87,7 +87,7 @@ Sample answer 2: Once I found a major flaw in the work of one of the most senior
 </blockquote>
 
 --------------
-7. How would you handle a client situation where the client was upset with a broken code and the client claimed that you submitted but it was another team member's code?
+7.How would you handle a client situation where the client was upset with a broken code and the client claimed that you submitted but it was another team member's code?
 
 <details>
 <summary> Show Answer </summary>
@@ -103,7 +103,7 @@ If you are an ethical and empathetic person you own up to this and let the chips
  
 -------------
  
-8. What are the three most important traits for a leader to possess? 
+8.What are the three most important traits for a leader to possess? 
 OR
 What are the 3 main characteristics of a leader?
 
@@ -127,7 +127,7 @@ Sample answer 2:
 
 --------------
 
-9. How do you handle stress?
+9.How do you handle stress?
 
 <details>
 <summary> Show Answer </summary>
@@ -142,7 +142,7 @@ Sample answer 2: When stress does inevitably arise, planning helps me to tackle 
  
 ------------
  
- 10. What to do when there is a conflict with a client or stakeholder?
+ 10.What to do when there is a conflict with a client or stakeholder?
 
 <details>
 <summary> Show Answer </summary>
@@ -163,7 +163,7 @@ Sample answer: I actively readjust my attitude during a conflict situation. This
  
 ------------ 
 
-11. What would you do when you didn’t understand a question?
+11.What would you do when you didn’t understand a question?
 
 <details>
 <summary> Show Answer </summary>
@@ -177,7 +177,7 @@ Sample answer 2: “I’m sorry, but I didn’t quite hear you. Could you say th
  
 -------------
  
-12. Tell me about a time when you had to use a creative solution to solve a problem while working with others.
+12.Tell me about a time when you had to use a creative solution to solve a problem while working with others.
 
 <details>
 <summary> Show Answer </summary>
@@ -198,7 +198,7 @@ Sample answer: In my last job, I had to do quite a bit of problem solving relate
  
 ------------ 
  
-13. Talk about a time when you had an issue with a coworker, how did you resolve that?
+13.Talk about a time when you had an issue with a coworker, how did you resolve that?
 
 <details>
 <summary> Show Answer </summary>
@@ -213,7 +213,7 @@ Sample answer 2: I’ve learned that disagreements and conflicts are part of wor
  
 ------------- 
  
-14. If you were asked to switch roles in the company, how would you handle that?
+14.If you were asked to switch roles in the company, how would you handle that?
 
 <details>
 <summary> Show Answer </summary>
@@ -228,7 +228,7 @@ Sample answer 2: I manage change by first seeking to understand the reason for t
  
 -----------
  
-15. Talk about a time when you thought you did your best, but it did not work out.
+15.Talk about a time when you thought you did your best, but it did not work out.
 
 <details>
 <summary> Show Answer </summary>
