@@ -1,4 +1,4 @@
-1. Tell me something interesting about your schooling.
+1.Tell me something interesting about your schooling.
 
 <details>
 <summary> Show Answer </summary>
