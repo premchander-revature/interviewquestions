@@ -65,4 +65,113 @@ D. All the above
 ANSWER: D
 Explanation: Borders, Margins and Padding are the parts of the CSS box model.
 
+7. Which of the following attributes enlarges an element's top padding ?
+
+A. top
+B. height
+C. padding-top
+D. padding-height
+
+ANSWER: C
+Explanation: padding-top is used to add padding to the top of the element.
+
+
+8. Which display property value perfectly describes the phrase treats the element as inline?
+
+A. list-item
+B. block
+C. inline
+D. inline-block
+
+ANSWER: C
+Explanation: inline property value describes the phrase treats the elements in CSS.
+
+
+9. In which property specifies the style for the bottom border of an element ?
+
+A. border-collapse
+B. border-bottom-style
+C. border-style-bottom
+D. None of the above
+
+AMSWER: B 
+Explanation:  border-bottom-style property specifies the style for the bottom border of an element.
+
+
+10. In which of the following property defines the style for the left border of an element ?
+
+A. border-left width
+B. border-left style
+C. border-style
+D. None of the above
+
+ANSWER: B 
+Explanation: border-left style property is used to specify the style for the left border of an element.
+
+
+11. In which of the following visibility property value is specified by the element is not visible ?
+
+A. hidden
+B. collapse
+C. visible
+D. None of the above
+
+ANSWER: A 
+
+
+12. Which of the display property value is specified by used internally by browsers to create list items ?
+
+A. inline-block
+B. group
+C. list-item
+D. None of the above
+
+ANSWER: C 
+Explanation: list-item is the display property value is specified by used internally by browsers to create list items
+
+
+13. In Which of the following property is used to controls the horizontal overflow of a block or inline block?
+
+A. overflow
+B. overflow-x
+C. overflow-y
+D. overflow-k 
+
+ANSWER: B 
+Explanation: overflow-x is the property used to controls the horizontal overflow of a block or inline block. 
+
+
+14. In which overflow property value is specified by scrollbars should be provided if content is too big ?
+
+A. visible
+B. auto
+C. scroll
+D. hidden
+
+ANSWER: B 
+Explanation: auto is the overflow property value is specified by scrollbars should be provided.
+
+
+15. Which of the following property used to sets a consistent margin on all four sides of the affected element ?
+
+A. margin
+B. border
+C. padding
+D. None of the above
+
+ANSWER: A 
+Explanation: margin is the property in CSS used to sets a consistent margin on all four sides.
+
+
+16. In which of the following box-sizing property value describes the height and width padding and borders ?
+
+A. content-box
+B. border
+C. border-box
+D. None of the above
+
+ANSWER: C 
+Explanation: border-box property of box-sizing value describes the height and width padding and borders.
+
+
 
