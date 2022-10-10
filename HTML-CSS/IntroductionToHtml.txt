@@ -1,5 +1,3 @@
-HTML CONTENT PREPARATION(06/09)
-
 INTRODUCTION TO HTML
 
 1.What does  HTML stand for?
@@ -265,4 +263,3 @@ Answer: A
 
 Explanation: The unordered lists in HTML can form bullets of form circle,square and disc.
 
-26.
