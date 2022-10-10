@@ -1,4 +1,5 @@
-#approve
+#CSSBoxModel
+
 1. Which CSS property is used to specify the maximum width of an elements content box ?
 
 A. max-height property
@@ -9,7 +10,7 @@ D. height property
 ANSWER: B
 Explanation: max-width property in CSS is used to specify the maximum width of an element.
 
-#approve
+
 2. The CSS property is used to set the maximum height of the element's content box.
 
 A. height property
@@ -20,7 +21,7 @@ D. None of the Above
 ANSWER: B 
 Explanation: max-height property is use to set the maximum height of the element's content box.
 
-#approve
+
 3. Which of the CSS property is used to set the minimum width of the element's content box ?
 
 A. width property
@@ -31,7 +32,7 @@ D. None of the above
 ANSWER: B 
 Explanation: min-width property is used to set the minimum width of an element's content box.
 
-#approve
+
 4. How to set the horizontal alignment of a table-cell box or the block element in CSS ?
 
 A. text-transform
@@ -42,7 +43,7 @@ D. text-shadow
 ANSWER: B
 Explanation: text-align is used to define the horizontal alignment of a table-cell box or the block element.
 
-#approve
+
 5. How to define the order of the flex item in the grid container ?
 
 A. float 
@@ -53,7 +54,7 @@ D. None of the above
 ANSWER: B 
 Explanation: order proeprty is used to define the order of the flex item in the grid container and it ordering the flex items.
 
-#approve
+
 6. What are the components of the CSS box model ?
 
 A. borders
