@@ -1,0 +1,14 @@
+#ignore
+1. The benefits of following a Responsive Web Design is that a Responsive web design will automatically adjust for different screen sizes and viewports.
+
+A. True.
+
+B. False.
+
+#ignore
+2. Web design that responds to how a web page is being viewed is ___.
+
+A. RWD
+B. CSS
+C. Pixel
+D. Responsive architecture
