@@ -419,6 +419,7 @@ D.None of these
 
 Answer: C
 
+
 36.GET requests can be bookmarked.
 
 A.True
@@ -484,5 +485,77 @@ C.readonly Attribute
 D.multiple Attribute
 
 Answer: A
+
+42.When submitting form data to a server, the ______ attribute specifies how the input should be encoded (for type="submit" and type="image").
+
+A.formaction
+B.formtarget
+C.Both A and B
+D.formenctype
+
+Answer: D
+
+Explanation: The formenctype parameter indicates how form-data should be encoded before being sent to a server. This attribute takes precedence over the form's enctype attribute. Only buttons with type="submit" use the formenctype attribute.
+
+43.In a drop-down list, ________ denotes a collection of related options.
+
+A.<output>
+B.<optgroup>
+C.<datalist>
+D.<option>
+
+Answer: B
+
+Explanation: The <optgroup> tag is used in a <select> element to group related options (drop-down list). When dealing with a big list of options, groups of related options are easier for a user to manage.
+
+44._______ Indicates the result of a calculation.
+
+A.<datalist>
+B.<textarea>
+C.<legend>
+D.<output>
+
+Answer: D
+
+Explanation: The HTML element <output> is a container element into which a site or app can inject the results of a calculation or the result of a user action.
+
+45.A <form> attribute is the _______ attribute.
+
+A.novalidate
+B.formnovalidate
+C.formmethod 
+D.None of the above
+
+Answer: A
+
+Explanation: * A form attribute is the novalidate attribute.
+
+* Novalidate indicates that all form-data should not be validated before submission when it is present.
+
+46.Find the correct answer for the below given statement:
+
+i.The "get" method appends the form-data as name/value pairs to the URL.
+ii.The "get" method is useful when a user wants to bookmark the result of a form submission.
+
+A.Both i and ii are Worng
+B.i is wrong and ii is correct
+C.i is correct and ii is wrong
+D.Both i and ii are Correct
+
+Answer: D
+
+47.Find the correct answer for the below given statement:
+
+i.The form data is sent as an HTTP post transaction using the "post" method.
+ii.Form submissions made using the "post" method can be bookmarked.
+
+A.Both i and ii are Worng
+B.i is wrong and ii is correct
+C.i is correct and ii is wrong
+D.Both i and ii are Correct
+
+Answer: C
+
+
 
 
