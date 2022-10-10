@@ -1,5 +1,4 @@
-HTML CONTENT 2
-
+BASICS OF HTML:
 
 1.What kind of language is HTML?
 A.Scripting Language 
