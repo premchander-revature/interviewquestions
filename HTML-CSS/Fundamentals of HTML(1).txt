@@ -509,6 +509,438 @@ Explanation:
 <script> tag is used for the purpose of setting up a client-side scripting language.
 
 
+47.Which of the following does heading content influence when it renders in HTML?
+A. Font changes
+B. Paragraph breaks before and after
+C. Any white spaces necessary to render
+D. All of above
+
+Answer:C
+
+48.What one of the following statements about HTML headers is accurate?
+A. HTML supports only align attribute apart from global attributes
+B. Heading tags are pair tags but can render correctly even if you skip closing tag
+C. There are six level of headings supported in HTML being H6 for the most prominent one
+D. All of above
+
+Answer:A
+
+49.In HTML, headings are important because _______
+A. Search engines read your heading to learn the topic you are presenting about
+B. They format your document automatically saving you a time
+C. Screen readers can recognize your document structure and useful for blind readers
+D. Both a & c
+
+Answer:B
+
+50.The ______element includes meta data about the HTML page.
+A. ftp
+B. <head>
+C. physical
+D. hyperlink
+
+Answer:B
+
+51.The ____ area is used for writing tags and other content that is not directly visible on the page.
+A. <html>
+B. <title>
+C. <body>
+D. <head>
+
+Answer:D
+
+52.The largest heading is produced by ______ HTML tag.
+A. <h1>
+B. <h4>
+C. <h7>
+D. <h9>
+
+Answer:A
+
+53.Which tag offers information on a page's expiration date, author, keyword list, page description, etc?
+A. <Title>
+B. <Head>
+C. <Meta>
+D. <Document type>
+
+Answer:C
+
+54.Which line will have the largest font size based on the HTML code provided?
+A. h1
+B. h3
+C. h5
+D. None
+
+Answer:B
+
+55.HTML can tag headers at a maximum of __ levels in a document.
+A. 4
+B. 6
+C. 8
+D. 10
+
+Answer:A
+
+56._______ acts as Support for heading tags
+A. align attribute
+B. global attribute
+C. line-heigth attribute
+D. Both a & b
+
+Answer:D
+
+57.You're advised to use HTML5's paragraph and heading alignment features rather than ______
+A. style
+B. Justified
+C. align attribute
+D. None of above
+
+Answer:B
+
+58.Which of the following is used to add a paragraph to an HTML document?
+A. <p>
+B. <pg>
+C. <pre>
+D. <para>
+
+Answer:A
+
+59.Which of the following values can be used for the heading tag's align attribute in HTML 5?
+A. Left
+B. Right
+C. Center
+D. align is not supported in HTML 5
+
+Answer:D
+
+60.It is suggested that you use h2> to h6> as often as necessary.
+A. follow the order as they were intended
+B. use them only up to 3 times for SEO benefits
+C. use them according to your formatting requirements
+D. All of above
+
+Answer:A
+
+61.How many times is it OK to use the h1 element in an HTML document?
+A. 1
+B. 2
+C. 3
+D. Use as many times as there are main headings
+
+Answer:2
+
+62.Which of the following tags will be used to a content to add a heading?
+A. <h1>
+B. <p> and <h1>
+C. <br> and <p>
+D. <hr> and <br>
+
+Answer:A
+
+63.The mailto tag is applied for ____
+A. Image
+B. Email
+C. Twitter
+D. Faebook
+
+Answer:B
+
+64.Which of the following will automatically create a margin (or gap between each heading)?
+A. Server
+B. Compiler
+C. Browser
+D. Interpreter
+
+Answer:C
+
+65.Which Style is automatically applied to the H1 heading?
+A. <h0>
+B. <h1>
+C. <h3>
+D. <h6>
+
+Answer:A
+
+66.When run in a browser, how will the following's content be displayed?
+
+<!DOCTYPE html>
+<html>
+<body>
+<p>LetsFindCourse/p>
+<p>Learning Made Easy!/p>
+</body>
+</html>
+
+A. LetsFindCourseLearning Made Easy!
+B. LetsFindCourse Learning Made Easy!
+C. LetsFindCourse Learning Made Easy!
+D. <p>LetsFindCourse</p> <p>Learning Made Easy!</p>
+
+Answer:C
+
+67.Which Style is automatically applied to the H1 heading?
+A. Italic
+B. Bold
+C. Underline
+D. Bold and Underline
+
+Answer:B
+
+68.Pick the right answer.
+A. In HTML, <h1> is an inline element while p> is a block element.
+B. In HTML, <p> is an inline element while <h1> is a block element.
+C. In HTML, both <p> and <h1> are inline elements.
+D. In HTML, both <p> and <h1> are block elements.
+
+Answer:D
+
+HTML Iframe
+
+69.Which inline function incorporates an external HTML file into the current document?
+A. <div>
+B. <span>
+C. <form>
+D. <iframe>
+
+Answer:D
+
+70.Which frameset tag characteristic results in the creation of two horizontal frames?
+A. Cols
+B. Rows
+C. Both
+D. None
+
+Answer:B
+
+71.What does the <NOFRAMES> tag accomplish?
+A. Specifies that no frames are included in the HTML file.
+B. Allows information after the tag to be displayed with browsers that cannot handle frames.
+C. Tells the browser to ignore the frame content.
+D. None of these.
+
+Answer:B
+
+72.which of the subsequent uses a tag?
+A. <FRAME>
+B. <NOFRAMES>
+C. <FRAMESET>
+D. All of the above
+
+Answer:C
+
+73.Which tag does not appear on a page with frames?
+A. div
+B. body
+C. title
+D. head
+
+Answer:B
+
+74.The number of rows in a frameset is indicated by the _________ attribute.
+A. TR
+B. TD
+C. ROWS
+D. HORIZONTAL
+
+Answer:C
+
+75.What function does iframe provide in HTML?
+A. to display a web page without browser.
+B. to display a web page within a web page.
+C. to display a web page with animation effect.
+D. All of the Above.
+
+Answer:B
+
+76.which of the following is not an HTML screen frame type
+A. uframe
+B. iframe
+C. noframe
+D. frameset
+
+Answer:A
+
+77.Which inline function incorporates an external HTML file into the current document?
+A. <div>
+B. <span>
+C. <form>
+D. <iframe>
+
+Answer:D
+
+78.You can disable scrolling in a frame with the _________ attribute.
+A. SCROLLBAR
+B. SCROLLING
+C. OFFSCROLL
+D. none of the above
+
+Answer:B
+
+79.What function does iframe provide in HTML?
+A. to display a web page within a web page
+B. to display a web page without browser
+C. to display a web page with animation effect
+D. All of the Above
+
+Answer:A
+
+80.The frameset's column count is indicated by the _________ property.
+A. COLS
+B. VERT
+C. TABLE
+D. COLUMNS
+
+Answer:A
+
+81.The web page to load into that frame is specified by the frame tag's ___ attribute.
+A. id
+B. src
+C. href
+D. name
+
+Answer:C
+
+82.Which tag allows for the inline framing of web pages?
+A. Iframe
+B. Object
+C. Index
+D. Frame
+
+Answer:D
+
+83.All of the links on a page can be made to load in a specific frame by using the __ tag and __ attribute.
+A. Base and Frame
+B. Base and Target
+C. Frame and iframe
+D. Frame and Target
+
+Answer:B
+
+84.______ refers to a collection of frames.
+A. List
+B. Form
+C. Index
+D. Frameset
+
+Answer:D
+
+HTML-Hyperlink
+
+85.<a> is an ______
+A. Active Tag
+B. Action Tag
+C. Anchor Tag
+D. Additional Tag
+
+86.Pick the appropriate answer.
+A. address specified as value of href in HTML have to be relative.
+B. address specified as value of href in HTML have to be absolute.
+C. destination address is specified as value of href between and tag.
+D. address specified as value of href in HTML can be absolute or relative.
+
+Answer:D
+
+Explanation:
+In the HTML <a> tag, the address is supplied as the value of the href attribute and can either be absolute or relative.
+
+87.In the HTML <a> tag, which attribute is used to specify the destination address?
+A. link
+B. type
+C. href
+D. address
+
+Answer:C
+
+Explanation:
+href is used for defining destination address in <a> tag as <a href=”destination address”>
+
+88.In a web document, external style sheets are referenced by a _____
+A. page
+B. class
+C. Link/Url or path
+D. none
+
+Answer:C
+
+89.Any browser's unvisited link has a default style and colour of ______
+A. Normal and Blue
+B. Underline and Pink
+C. Underlined and Blue
+D. Underline and Magento
+
+Answer:C
+
+90.HTML links can be of the following types
+A. Active
+B. Visited
+C. Unvisited
+D. All are the Types of Links
+
+Answer:D
+
+91.When a link is __, it is automatically underlined and coloured red.
+A. Active
+B. visited
+C. unvisited
+D. It is red and underlined
+
+Answer:A
+
+HTML Table
+
+92.Which tag in HTML allows for the definition of a row?
+A. <tr>
+B. <row>
+C. <table-row>
+D. <tablerow>
+
+Answer:A
+
+93.With the help of which tag, is a row defined in HTML?
+A. <tr>
+B. <row>
+C. <table-row>
+D. <tablerow>
+
+Answer:A
+
+94.The table's cells can be represented by _____
+A. <tr>
+B. <td>
+C. <th>
+D. <thread>
+
+Answer:B
+
+Explanation:
+td stands for table data, we can represent each cell of the table by using <td>, at the end we used </td> tag. But some browsers by default draw the lines around table. <tr> is used to indicate start of every row i.e. it stands for table row. The header information is present in <th> tag. <thead> tag contains the group of header.
+
+95.Which of the following tags provides a table caption?
+A. <head>
+B. <caption>
+C. <heading>
+D. None of these
+
+Answer:B
+
+96.What tags are associated with the table?
+A. <table>,<tr>,<tt>
+B. <table>,<tr>,<td>
+C. <table>,<head>,<tfoot>
+D. <thead>,<body>,<tr>
+
+Answer:B
+
+
+
+
+
+
+
+
+
+
+
 
 
 
