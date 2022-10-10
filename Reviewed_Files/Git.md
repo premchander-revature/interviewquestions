@@ -155,7 +155,7 @@ git log
 
 <blockquote> 
     
-- We can copy a remote repository onto your local machine using below command-
+- We can copy a remote repository onto your local machine using below command
 
 ```
 git clone '<remote-repository-url>'
