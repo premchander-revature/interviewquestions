@@ -1,0 +1,502 @@
+#semantic tags
+
+#Approve
+1 What does HTML5 Stack mean?
+
+       A. HTML5, CSS3, JavaScript
+
+       B. HTML5, PHP, MySQL
+
+       C. HTML5, CSS2, JavaScript
+
+       D. HTML5, PHP, JavaScript
+
+Ans : HTML5, CSS3, JavaScript
+
+#Approve
+2 Which of the following input controls corresponds to a date (year, month, and day) encoded in Web Form 2.0 using ISO 8601?
+
+       A. datetime
+
+       B. month
+
+       C. datetime-local
+
+       D. date
+
+Ans : date
+
+#Approve
+3 What is the suggested procedure for determining a feature's compatibility with a browser?
+
+       A. Use Modernizr
+
+       B. Application automatically detects
+
+       C. Use navigator.UserAgent method
+
+       D. None of the options
+
+Ans : Use Modernizr
+
+#Approve
+4 In an HTML5 page, which of the following tags best describes an independent piece of content?
+
+       A. section
+
+       B. article
+
+       C. footer
+
+       D. nav
+
+Ans : article
+
+#Approve
+5 How would you define a footer in HTML5?
+
+       A. foot
+
+       B. footer
+
+       C. body
+
+       D. bottom
+
+Ans : footer
+
+#ignore
+6.What occurs when a new HTML5 form input type is seen in a legacy browser?
+
+       A. It does not show input
+
+       B. It reverts to standard text input
+
+       C. The form will not load
+
+       D. The page will not load
+
+Ans : It reverts to standard text input
+
+#Approve
+7.Which of the following properties causes events to be triggered when a form changes in HTML5?
+
+       A. onforminput
+
+       B. onformchange
+
+       C. onchange
+
+       D. onedit
+
+Ans : onformchange
+
+#Approve
+8.Which of the following tags best describes a document's navigational section in HTML5?
+       A. nav
+
+       B. section
+
+       C. footer
+
+       D. navigation
+
+Ans : nav
+
+#ignore
+9.Which of the following tags is not supported by HTML5 anymore?
+
+       A. align
+
+       B. p
+
+       C. span
+
+       D. div
+
+Ans : align
+
+#ignore already added
+10.Which Semantic element is most appropriate for self-contained, autonomous material that may be reprinted, such as a blog post?
+       A. div
+
+       B. section
+
+       C. article
+
+       D. aside
+
+Ans : section
+
+#Approve
+11.What new form components are included in HTML5?
+
+       A. optgroup, button, keygen
+
+       B. datalist, keygen, output
+
+       C. optgroup, button, datalist
+
+       D. datalist, keygen, button
+
+Ans : datalist, keygen, output
+
+#ignore
+12. The HTML5 audio element provides a variety of properties that may be used to customise the audio player's appearance and functionality. Except for ________, the following are properties of the HTML5 audio element.
+       A. autoplay
+
+       B. controls
+
+       C. stop
+
+       D. src
+
+Ans : src
+
+#Approve
+Q.13 Which video tag attribute specifies the image that will be shown while the video downloads?
+
+       A. fig
+
+       B. src
+
+       C. img
+
+       D. poster
+
+Ans : poster
+
+#ignore
+14. In HTML5 Programmatic control of the audio element is possible from ___________.
+
+       A. HTML or CSS or JavaScript
+
+       B. HTML
+
+       C. CSS
+
+       D. Javascript
+
+Ans : HTML or CSS or JavaScript
+
+#re-work on answer 
+15. Using _______, a video player may be embedded in HTML5.
+       A. src
+
+       B. source
+
+       C. vid
+
+       D. iframe
+
+Ans : iframe
+
+#Approve
+16. The controls property offers controls for audio and video, such as PLAY, PAUSE, and VOLUME.
+
+       A. True
+
+       B. False
+
+Ans : True
+
+#Approve
+17. In HTML5 Programmatic control of the audio element is possible from .
+
+       A. HTML or CSS or JavaScript
+
+       B. HTML
+
+       C. CSS
+
+       D. Javascript
+
+Ans : HTML
+
+#approve but change chat to pie charts
+18.SVG is mostly used for diagrams with vector elements, like .
+
+       A. Charts and 3D Graphs
+
+       B. Charts and 2D Graphs
+
+       C. 2D Graphs
+
+       D. 3D Graphs
+
+Ans : Charts and 2D Graphs
+
+#Approve
+19. How do you insert a canvas element with the ID canvas1 into a JavaScript variable?
+
+       A. var canvas1 = document.getElementById(‘canvas1’);
+
+       B. var canvas1 = document.get(‘#canvas1’);
+
+       C. var canvas1 = getElementById(‘canvas1’);
+
+       D. var canvas1 = document.getElement(‘canvas1’);
+
+Ans : var canvas1 = document.getElementById(‘canvas1’);
+
+#ignore
+20.Which of the following statements concerning HTML5's "canvas" element is accurate?
+
+(I) Easy way to draw graphics using JavaScript
+(II) Can be used to make Animations
+
+       A. None of the options
+
+       B. Both I and II
+
+       C. II
+
+       D. I
+
+Ans : Both I and II
+
+#ignore
+21. Except for _______, the statements regarding Canvas are accurate.
+
+       A. Canvas renders graphics pixel by pixel
+
+       B. Each shape in Canvas is looked at as an object
+
+       C. Canvas is well suited for intense graphics
+
+       D. Canvas draws graphics on the fly using JavaScript
+
+Ans : Each shape in Canvas is looked at as an object
+
+#Approve
+22.Except for ___, the following statements regarding SVG graphics are true.
+
+       A. Graphics in SVG are defined in XML
+
+       B. SVGs do not lose quality when zoomed
+
+       C. SVG is mostly used for graphs
+
+       D. Graphics in SVG are defined using JavaScript
+
+
+Ans : Graphics in SVG are defined using JavaScript
+
+#Approve
+23.Which is most appropriate for programmes like Google Maps that require big rendering areas?
+
+       A. None of the options
+
+       B. Canvas and SVG
+
+       C. SVG
+
+       D. Canvas
+
+Ans : SVG
+
+#Approve
+24. Scalable Vector Graphics are defined in which markup language?
+
+       A. XML
+
+       B. Native HTML
+
+       C. HTML5
+
+       D. DHTML
+
+Ans : XML
+
+#ignore
+25.When using ______, web applications can launch more quickly and function without an internet connection.
+
+       A. Session Storage
+
+       B. Local Storage
+
+       C. App cache
+
+       D. Cloud
+
+Ans : App cache
+
+# ignore repetated
+26.___ is made possible by HTML5's Application Cache.
+
+       A. All the options
+
+       B. Reduction of Server Load
+
+       C. Offline Browsing
+
+       D. Higher Speed
+
+Ans : All the options
+
+#ignore 
+27.LocalStorage functions include the following, with the exception of 
+
+       A. getItem()
+
+       B. setItem()
+
+       C. getElementbyID()
+
+       D. removeItem()
+
+Ans : getElementbyID()
+
+#Approve
+28. Which of the following APIs can be used to suggest nearby restaurants in a restaurant finder app?
+
+       A. Local Storage
+
+       B. Cache API
+
+       C. Web Workers
+
+       D. Geolocation API
+
+Ans : Geolocation API
+
+#Approve
+29. Which API can be used to display the thumbnail image of a file being uploaded in a HTML5 photo sharing website?
+
+       A. File API
+
+       B. Web Storage API
+
+       C. Device Access API
+
+       D. Cache API
+
+Ans : File API
+
+#Approve
+30. Which of the following attributes triggers event when an element is dragged?
+
+       A. ondragenter
+
+       B. ondragover
+
+       C. ondragevent
+
+       D. ondragdrop
+
+Ans : ondragover
+
+#ignore
+31. Application Cache enables _______.
+
+       A. Higher Speed
+
+       B. Offline Browsing
+
+       C. Reduction of Server Load
+
+       D. All the options
+
+Ans : All the options
+
+#Approve
+32. Which of the following attributes triggers event when the window loses focus?
+
+       A. onlastfocus
+
+       B. onblur
+
+       C. lostfocus
+
+       D. onbeforeload
+
+Ans : onblur
+
+#ignore
+33.Websites can store data on the user’s computer using Web Storage. How is Web Storage different from Cookies?
+
+       A. More secure
+
+       B. Can store more data
+
+       C. All the options
+
+       D. Web Storage is faster
+
+Ans : All the options
+
+#Approve
+34.Which of the following attributes specifies whether a user is allowed to drag an element or not?
+
+       A. drag
+
+       B. dragdrop
+
+       C. draggable
+
+       D. context
+
+Ans : draggable
+
+#ignore
+35.Which of the following input controls represents a date consisting of a year and a week number encoded according to ISO 8601 in Web Form 2.0?
+
+       A. Week
+
+       B. Number
+
+       C. Range
+
+       D. Time
+
+Ans : Week
+
+#ignore
+36. Which plugin is required to use SVG tags in HTML5?
+
+       A. Vector Graphics
+
+       B. Does not require a plugin
+
+       C. Modernizr
+
+       D. Graphics
+
+Ans : Graphics
+
+#Approve
+37. The following are suited for game applications, except ______.
+
+       A. SVG
+
+       B. Canvas and SVG
+
+       C. Canvas
+
+       D. None of the options
+
+Ans : Canvas and SVG
+
+#Approve
+38. A semantic element clearly describes its meaning to the ______.
+
+       A. Browser
+
+       B. Browser and Developer
+
+       C. None of the options
+
+       D. Developer
+
+Ans : Browser and Developer
+
+#ignore
+39. Semantic HTML5 elements allows data to be shared and reused across applications, enterprises, and communities.
+
+       A. True
+
+       B. False
+
+Ans : True
+
+
