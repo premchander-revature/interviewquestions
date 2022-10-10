@@ -1,4 +1,4 @@
-HTML ATTRIBUTES (APPROVED QUESTIONS)
+HTML ATTRIBUTES:
 
 1.checked attribute is applied for ___________
 a) Whether on page load element should be checked
