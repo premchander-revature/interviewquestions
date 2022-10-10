@@ -122,3 +122,73 @@ D.<button> Element
 Answer: A
 
 Explanation: The <datalist> tag specifies a set of options for an <input> element. The <datalist> tag is used to provide "autocomplete" functionality to <input> components. As they enter data, users will see a drop-down list of pre-defined options.
+
+13.The input element's type is specified using the ____________ attribute and text is the default value. 
+
+A.Type
+B.Text
+C.Name
+D.Value
+
+Answer: A 
+
+Explanation: The type attribute defines the type of <input> element that will be displayed. The default type is "text" if the type parameter is not given.
+
+14.The <input> element's connection with one or more forms is indicated by the ______  attribute.
+
+A.Disabled
+B.Form 
+C.Required
+D.None of these
+
+Answer: B
+
+Explanation: * The form to which the <input> element belongs is indicated by the input form attribute.
+
+* This attribute's value needs to match the id attribute of the <form> element it's attached to.
+
+15.The _________ attribute is used to specify a character-based measure of an <input> element's width.
+
+A.src
+B.size
+C.pattern
+D.None of these
+
+Answer: B
+
+Explanation: The size parameter specifies the width and height of the <input> and <select> elements. If the type attribute is text or password, the amount of characters is used for the input.
+
+16.The _______ element specifies a set of choices for an <input> element.
+
+A.<fieldset>
+B.<textarea>
+C.<datalist>
+D.None
+
+Answer: C
+
+Explanation: The <datalist> element defines a set of predefined options for an <input> element. As they enter data, users will see a drop-down list of pre-defined alternatives. The list attribute of the <input> element must correspond to the <datalist> element's id attribute.
+
+17.The input _________ property specifies a name or a keyword that determines where the response received after submitting the form should be displayed.
+
+A.formnovalidate 
+B.novalidate
+C.formtarget
+D.formmethod 
+
+Answer: C
+
+Explanation:  The input formtarget attribute specifies a name or keyword that defines where the response received after submitting the form should be displayed. This attribute overrides the <form> element's target attribute. The submit and picture input types are supported through the formtarget attribute.
+
+18.When an <input> element is submitted, the input____________ attribute states that it should not be verified.
+
+A.formmethod 
+B.formnovalidate
+C.formtarget
+D.None
+
+Answer: B
+
+Explanation: The input formnovalidate attribute states that when an <input> element is submitted, it should not be verified. This attribute overrides the <form> element's novalidate attribute. The formnovalidate attribute accepts the following sorts of input: submit.
+
+
