@@ -28,12 +28,12 @@ D. For use with projected media (direct computer-to-projector presentations), or
 
 Answer: A
 
-#re-work on answer
+#approve
 4. What does aural media type is used for ?
 
 A. For use with low-resolution teletypes, terminals, or other devices with limited display capabilities
-B. For use with Braille printers
-C. For use with speech synthesizers
+B. For use with speech synthesizers
+C. For use with Braille printers
 D. For use with projected media (direct computer-to-projector presentations), or printing transparencies for projection 
 
 Answer: D
