@@ -1,0 +1,188 @@
+#re-work question framing can be little bit specific
+1. What is the range of border-style property ?
+
+A. 0-4
+B. 1-4
+C. 1-3
+D. 1-2
+
+ANSWER: B
+Explanation: The border-style property have 1-4 values like top border, right border, bottom border and left border.
+
+#Approve
+2. Which CSS property is used to specify the style of an border ?
+
+A. border-bold
+B. border-solid
+C. border-style
+D. border-inset
+
+ANSWER: C
+Explanation: border-style property of CSS is used to specify the style.
+
+#Approve
+3. Which CSS property is used to specifies the width of the borders ?
+
+A. border-solid
+B. border-width
+C. border-style
+D. border-bold
+
+ANSWER: B
+Explanation: border-width property in CSS is used to define the width of all the borders.
+
+#Approve
+4. Which of the following  is the correct syntax to define the hidden border ?
+
+A. p.border{border-style: hidden}
+B. p.border{border-style: hidden;}
+C. p.hidden{border-style: hidden:}
+D. p.hidden{border-style: hidden}
+
+ANSWER: D
+Explanation: p.hidden{border-style} CSS property is used to define the hidden border
+
+#Approve
+5. Which of the following  is the correct syntax to define the 3D border ?
+
+A. p.border{border-style:solid;}
+B. p.grove{border-style:grove;}
+C. p.border{border-style:grove;}
+D. p.border{border-style:solid:}
+
+ANSWER: B
+Explanation: p.border{border-style:grove;} property is used to define the 3D border.
+
+#Approve
+6. Which is the valid syntax to define the border width in CSS ?
+
+A. p.one{border-style:solid; border-width:6px;}
+B. p.one{border-style:thick; border-width:6px;}
+C. p.one{border-style:thick; border-width:medium:}
+D. p.border{border-style:solid:}
+
+ANSWER: A
+Explanation: p.one{border-style:solid; border-width:6px;} is the syntax used to define the border width of CSS.
+
+#Approve
+7. Which of the following syntax is used to define the border style width along with top, bottom and sides ?
+
+A. p.one{border-style:solid; border-width:6px;}
+B. p.one{border-style:solid; border-width:10px,6px;}
+C. p.one{border-style:solid; border-width:10px 6px;}
+D. p.one{border-style:solid; border-width:10px:6px;}
+
+ANSWER: C
+
+#Approve
+8. Which CSS property is used as the shorthand property for the border properties ?
+
+A. border-width
+B. border-color
+C. border-style
+D. border
+
+ANSWER: D
+Explanation: border property is used as the shorthand property for the individual properties of border-width, border-style and border-color.
+
+#Approve
+9. Which of the CSS property is used to add the rounded borders to an element ?
+
+A. border-style
+B. border-radius
+C. border-width
+D. none of the above
+
+ANSWER: B
+Explanation: border-radius property is used to add rounded borders to an element.
+
+#Approve
+10. Which of the following CSS property is used as the shorthand property for the padding properties ?
+
+A. padding-top
+B. padding-bottom
+C. padding
+D. None of the above
+
+ANSWER: C
+Explanation: padding prperty is used as the shorthand property for the padding properties. By using the shorthand property of padidng we can also change all of the padding properties at once.
+
+#Approve
+11. Does negative values allowed in margin property ?
+
+A. Yes
+B. No
+C. May be
+D. None of the above
+
+ANSWER: A
+Explanation: The negative values are allowed in margin property.
+
+#Approve
+12. Does the negative values allowed in padding property ?
+
+A. No
+B. Yes
+C. May be
+D. None of the above
+
+ANSWER: B 
+Explanation: The negative values are not allowed in padding property.
+
+#Approve
+13. In what order the margins can be added in the below code snippet ?
+p1 {
+  margin: 50px 40px 35px 80px;
+}
+A. Top,Bottom,Left,Right
+B. Top,Left,Bottom,Right
+C. Top,Right,Bottom,Left
+D. Right,Left,Top,Bottom
+
+ANSWER: C 
+Explanation: By default the margins are added in the order(Top,Right,Bottom,Left)
+
+#re-work on answer 
+14. In what order the padding can be added in the below code snippet ?
+div {
+  padding: 20px 40px 60px;
+}
+
+A. Top,left,Bottom
+B. Top,Right,Bottom
+C. Top,Right,Left
+D. Top,Right and Left,Bottom
+
+ANSWER: D 
+Explanation: By using padding shorthand property are added in the order(Top,Right and Left,Bottom)
+
+#Approve
+15. In whih CSS property is used to draw a line around the elements outside the border ?
+
+A. padding
+B. outline
+C. border
+D. line
+
+ANSWER: B
+Explanation: outline property is used to draw a line around the elements outside the border.
+
+#ignore
+16. What will be the width of the div element in the given code snippet ?
+
+div {
+  width: 320px;
+  padding: 10px;
+  border: 5px solid blue;
+  margin: 0;
+}
+
+A. 360 px
+B. 350 px
+C. 310 px
+D. None of the above
+
+
+ANSWER: B
+Explanation: 320 px (width) + 10 * 2 px ( right and left padding ) + 5 * 2 px (left + right border) + 0px (margin) = 350px
+
