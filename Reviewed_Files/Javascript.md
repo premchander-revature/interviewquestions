@@ -84,7 +84,7 @@ The scope of a variable represents where the variable has been declared or defin
 `Global Scope` -Global variables, having global scope are available everywhere in a JavaScript code.
 
 `Local Scope` -The Local Scope has divided into the Function scope, the Block scope and the Lexical scope.
-  - `Function Scope` -The variable declared in a function is only visible inside that function
+  - `Function Scope` -The variable declared in a function is only visible inside that function.
   - `Block Scope` -Block scope is the scope of the variables declared inside the {} (curly brackets).
   - `Lexical Scope` -Lexical scope is that a variable defined outside a function can access the inside another function defined after the variable declaration. The inner functions are lexically bound to the execution context of their outer functions.
 
