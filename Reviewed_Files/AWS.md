@@ -27,13 +27,13 @@
 <blockquote>
 
 - The following are the main components of AWS are:
-  - `Simple Storage Service (S3)`: S3 is a service of aws that stores the files. It is objectobased storage, i.e., you can store the images, word files, pdf files, etc. The size of the file that can be stored in S3 is from 0 Bytes to 5 TB. It is an unlimited storage medium, i.e., you can store the data as much you want. S3 contains a bucket which stores the files. A bucket is like a folder that stores the files. It is a universal namespace, i.e., name must be unique globally. Each bucket must have a unique name to generate the unique DNS address.
+  - `Simple Storage Service (S3)`: S3 is a service of AWS that stores the files. It is objectbased storage, i.e., you can store the images, word files, pdf files, etc. The size of the file that can be stored in S3 is from 0 Bytes to 5 TB. It is an unlimited storage medium, i.e., you can store the data as much you want. S3 contains a bucket which stores the files. A bucket is like a folder that stores the files. It is a universal namespace, i.e., name must be unique globally. Each bucket must have a unique name to generate the unique DNS address.
   - `Elastic Compute Cloud (EC2)`: Elastic Compute Cloud is a web service that provides resizable compute capacity in the cloud. You can scale the compute capacity up and down as per the computing requirement changes. It changes the economics of computing by allowing you to pay only for the resources that you actually use.
   - `Elastic Block Store (EBS)`: It provides a persistent block storage volume for use with EC2 instances in aws cloud. EBS volume is automatically replicated within its availability zone to prevent the component failure. It offers high durability, availability, and low-latency performance required to run your workloads.
   - `CloudWatch`: It is a service which is used to monitor all the AWS resources and applications that you run in real time. It collects and tracks the metrics that measure your resources and applications. If you want to know about the CloudWatch in detail, then click on the below link: Click here
-  - `Identity Access Management (IAM)`: It is a service of aws used to manage users and their level of access to the aws management console. It is used to set users, permissions, and roles. It allows you to grant permission to the different parts of the aws platform. If you want to know about the IAM, then click the below link: Click here
-  - `Simple Email Service`: Amazon Simple Email Service is a cloud-based email sending service that helps digital marketers and application developers to send marketing, notification, and transactional emails. This service is very reliable and costoeffective for the businesses of all the sizes that want to keep in touch with the customers.
-  - `Route53`: It is a highly available and scalable DNS (Domain Name Service) service. It provides a reliable and costoeffective way for the developers and businesses to route end users to internet applications by translating domain names into numeric IP addresses.
+  - `Identity Access Management (IAM)`: It is a service of AWS used to manage users and their level of access to the AWS management console. It is used to set users, permissions, and roles. It allows you to grant permission to the different parts of the aws platform. If you want to know about the IAM, then click the below link: Click here
+  - `Simple Email Service`: Amazon Simple Email Service is a cloud-based email sending service that helps digital marketers and application developers to send marketing, notification, and transactional emails. This service is very reliable and cost effective for the businesses of all the sizes that want to keep in touch with the customers.
+  - `Route53`: It is a highly available and scalable DNS (Domain Name Service) service. It provides a reliable and cost effective way for the developers and businesses to route end users to internet applications by translating domain names into numeric IP addresses.
 
 </blockquote>
 
@@ -69,7 +69,7 @@
 
 <blockquote>
 
-- S3 is a storage service in aws that allows you to store the vast amount of data
+- S3 is a storage service in aws that allows you to store the vast amount of data.
 
 </blockquote>
 
