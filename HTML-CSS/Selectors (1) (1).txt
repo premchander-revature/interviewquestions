@@ -1,9 +1,9 @@
-#re-work on answer  
+ 
 1) In CSS "color:pink" is defined as a: 
  
 A.    Selector
-B.    Declaration  
-C.    Rule  
+B.    Rule 
+C.    Declaration   
 D.    Value
 
 Answer: D
@@ -82,15 +82,8 @@ D. none of the mentioned.
 
 Answer: A
 
-#ignore
-9) One advantage of using a responsive web design is that it will automatically adapt to various screen sizes and viewports.
-
-True or False?
-
-True.
-
 #approve 
-10) Which of the following selectors selects the specified elements of type E with a particular class value?
+9) Which of the following selectors selects the specified elements of type E with a particular class value?
 
 A. E.class
 B. E ~ F
@@ -98,32 +91,3 @@ C. *
 D. E, F, G
   
 Answer: A 
-
-#ignore
-11) Which approach from the list below is appropriate for every h1 header inside a div element?
-
-A. div h1
-B. h1
-C. div-h1
-D. None of the above
-
-ANSWER: A
-
-
-#ignore
-12) The selector with the highest specificity value will "win" if there are several CSS rules pointing to the same HTML element and its style declaration will be used.
-
-A. True. 
-B. False.
-
-Answer: A.
-
-#ignore 
-13) Which of the following order is correct, regarding the CSS specificity?
-
-A. (Elements and pseudo-elements) > (Classes, pseudo-classes, attribute selectors) > (IDs) > (Inline styles.).
-B. (IDs) > (Inline styles.) > (Elements and pseudo-elements) > (Classes, pseudo-classes, attribute selectors).
-C. (Elements and pseudo-elements) > (Classes, pseudo-classes, attribute selectors) < (IDs) < (Inline styles.).
-D. (Elements and pseudo-elements) < (Classes, pseudo-classes, attribute selectors) < (IDs) < (Inline styles.).  
-
-Answer:D
