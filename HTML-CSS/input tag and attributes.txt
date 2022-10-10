@@ -318,3 +318,10 @@ C.<input type="datetime-local">
 D.All the above
 
 Answer: D
+
+32.button, image, number, color are the types of <input> tag attributes.
+
+A.True
+B.False
+
+Answer: A
