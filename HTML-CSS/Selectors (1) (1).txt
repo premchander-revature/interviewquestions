@@ -8,7 +8,7 @@ D.    Value
 
 Answer: D
 
-#approve
+
 2) How do you alter an element's text colour?
 
  A. color:
@@ -18,7 +18,7 @@ Answer: D
 
 Answer: A
 
-#approve
+
 3) In CSS "font:size" is defined as a: 
 
 A. Selector
@@ -28,7 +28,7 @@ D. Property-Name
 
 Answer: D
 
-#approve
+
 4) Which selectors are employed to define a collection of items
 
 A. name
@@ -38,7 +38,7 @@ D. tag
 
 Answer: C
 
-#approve
+
 5)  In CSS, what attribute is used to alter the background colour?
 
 A. bgcolor: 
@@ -48,7 +48,7 @@ D. back-color:
 
 Answer: B
 
-#approve
+
 6) What among the following chooses a regular or small-caps face from a font family?
 
 A. font-weight 
@@ -58,7 +58,7 @@ D. font-kerning
 
 Answer: C
 
-#approve
+
 7) Which of the above properties defines a shortcut property for configuring the margin properties in a single declaration?
 
 A. border 
@@ -68,7 +68,7 @@ D. border-left
 
 Answer: A
 
-#approve
+
 8) What will happen in this case?
 
 h1 {
@@ -82,7 +82,7 @@ D. none of the mentioned.
 
 Answer: A
 
-#approve 
+ 
 9) Which of the following selectors selects the specified elements of type E with a particular class value?
 
 A. E.class
