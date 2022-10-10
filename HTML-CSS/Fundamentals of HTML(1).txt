@@ -1,5 +1,3 @@
-HTML MCQ BASED QUESTIONS:
-
 FUNDAMENTALS OF HTML
 
 1.How many different header sizes are available by default in HTML?
