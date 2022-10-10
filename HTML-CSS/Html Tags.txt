@@ -1,4 +1,4 @@
-HTML QUESTIONS(APPROVED)
+HTML TAGS:
 
 1.What do we use to obtain a scripting interface after initialising a plug-in?
 
