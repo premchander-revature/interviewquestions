@@ -1,6 +1,6 @@
 #margin,paddingandborder
 
-#re-work question framing can be little bit specific
+
 1. What is the range of border-style property ?
 
 A. 0-4
@@ -169,22 +169,215 @@ D. line
 ANSWER: B
 Explanation: outline property is used to draw a line around the elements outside the border.
 
-#ignore
-16. What will be the width of the div element in the given code snippet ?
 
-div {
-  width: 320px;
-  padding: 10px;
-  border: 5px solid blue;
-  margin: 0;
+17. Choose the option that correctly specifies the output of the following CSS.
+
+span {
+	border: 1px solid green;
+        outline: red dotted thick;
 }
 
-A. 360 px
-B. 350 px
-C. 310 px
+
+A. All span elements will have a green border and a red dotted outline
+B. All span elements will have a red thick border and a green outline
+C. All span elements will have an outer green border and inner red dotted border
+D. All span elements will have a outer red dotted border and an inner green border
+
+ANSWER: D
+Explanation: Border property creates the inner border while the outline sets the outer border.
+
+
+18. Which property defines the color of an outline in CSS ?
+
+A. outline-color
+B. color-outline
+C. outline-style-color
 D. None of the above
 
+ANSWER: A 
+Explanation: outline-color property defines the color of an outline in CSS.
+
+
+19. Which outline property that defines the amount of area extended beyond the border box ?
+
+A. inset
+B. outset
+C. inset3d
+D. outset3d
+
+ANSWER: B 
+Explanation: outset property define the 3D border.
+
+
+20. In which of the value define the dashed outline ?
+
+A. dash
+B. double-dash
+C. dashed 
+D. All of the above
+
+ANSWER: C 
+Explanation: dashed property value defines the dashed outline.
+
+
+21. In which of the property define the look and design of an outline ?
+
+A. outline-format
+B. outline-font
+C. outline-style
+D. None of the above
+
+ANSWER: C 
+Explanation: outline-style property in CSS is used to set the style of an outline of an element.
+
+
+22. Which property value define the 3D grooved outline ?
+
+A. ridge
+B. groove
+C. groove3d
+D. initial 
+
+ANSWER: B 
+Explanation: groove property value define the groove 3d border.
+
+
+23. What is the output of the following code snippet ?
+
+div {
+    border-width:20px;	
+    border-style:inset solid double dotted;
+}
+
+
+A. Box having inset top outline, solid right outline, double bottom outline and dotted left outline
+B. Box having inset top outline, solid left outline, double bottom outline and dotted right outline
+C. Box having inset bottom outline, solid right outline, double top outline and dotted left outline
+D. Box having inset bottom outline, solid left outline, double top outline and dotted left outline
+
+ANSWER: A 
+
+
+24. In which of the following defines the width of an outline ?
+
+A. outline-height
+B. outline-size
+C. outline-width
+D. Both C and B 
+
+ANSWER: C 
+Explanation: outline-width property define the width of an outline.
+
+
+25. In which of the following property in CSS defines the solid outline ?
+
+A. rock 
+B. solid
+C. dashed 
+D. bold
 
 ANSWER: B
-Explanation: 320 px (width) + 10 * 2 px ( right and left padding ) + 5 * 2 px (left + right border) + 0px (margin) = 350px
+Explanation: solid property in CSS defines the solid outline.
+
+
+26. In which of the property defines in shorthand form the width, color and style for the bottom border of an element ?
+
+A. border-bottom-color
+B. border-bottom-all
+C. border-bottom
+D. None of the above
+
+ANSWER: C 
+
+
+27. Which is used to set the width of an element's bottom border ?
+
+A. border
+B. border-bottom-width
+C. border-collapse
+D. None of the above
+
+ANSWER: B 
+Explanation: border-bottom-width property is used to set the width of an element's bottom border in CSS.
+
+
+28. Which property in CSS is used to define whether table cell borders are connected or separate ?
+
+A. border
+B. border-collapse
+C. border-table
+D. None of the above
+
+ANSWER: B 
+Explanation: border-collapse property in CSS is used to specify whether table cell borders are connected or separate.
+
+
+29. In which property is used to specifies the style for the right border of an element ?
+
+A. border-right
+B. border-style
+C. border-right-style
+D. border-spacing 
+
+ANSWER: A 
+
+
+30. How to specify the color of an element's top border ?
+
+A. border-top
+B. border-color
+C. border-top-color
+D. border-top-color-webkit
+
+ANSWER: C 
+
+
+31. How to set the width of an element's complete border ?
+
+A. border-depth 
+B. border-width
+C. width
+D. None of the Above
+
+ANSWER: B 
+
+
+32. Which property specifies the visual style of up to four different sides of a border ?
+
+A. border-top
+B. border-style
+C. border
+D. None of the above
+
+ANSWER: B 
+
+
+33. Which of the following property specifies in a shorthand form the width, style, and color for the top border of an element?
+
+A. border-style
+B. border-bottom
+C. border-up
+D. None of the above
+
+ANSWER: D 
+
+
+34. Which property describes the placement of an element in relation to floating objects ?
+
+A. clear 
+B. space
+C. color
+D. None of the above
+
+ANSWER: clear
+
+
+35. Which property specifies the y (vertical) coordinate for a positioned element, relative to the bottom of the enclosing object or browser window ?
+
+A. position
+B. bottom
+C. border
+D. None of the above
+
+ANSWER: B 
 
