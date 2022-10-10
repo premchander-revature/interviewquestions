@@ -1,4 +1,5 @@
-#Approve
+#InlineandBlockelements
+
 1. The CSS property that is used to specify the set the difference between two lines of your content is
 
 A. line-height property
@@ -9,7 +10,7 @@ D. None of the above
 ANSWER: A 
 Explanation: The CSS line height property defines the amount of space above and below inline elements.
 
-#Approve
+
 2. How to set an inline-block in CSS properties ?
 
 A. color
