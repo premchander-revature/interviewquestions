@@ -1,4 +1,5 @@
-#approve
+#font-family and font-size properties
+
 1. How to set the text wider or narrower compare to the default width of the font ?
 
 A. text-transform
@@ -9,7 +10,7 @@ D. font-variant
 ANSWER: C 
 Explanation: font-stretch property is used to set the text narrower or wider than the default width of the font.
 
-#approve
+
 2. How to define the custom fonts using CSS ?
 
 A. custome fonts cannot be defined 
@@ -20,28 +21,7 @@ D. None of the above
 ANSWER: B 
 Explanation: We can define the custom fonts using @font-face rule in CSS
 
-#ignore
-3. Which of the value is supposed is meant to have slightly more boldness than the font's default bold ?
 
-A. dark
-B. lighter
-C. light
-D. emphasize
-
-ANSWER: A 
-
-#ignore
-4. Which property allows the spaces between the characters in text?
-
-A. font-family
-B. font-style
-C. font-variant
-D. font-kerning
-
-ANSWER: D 
-Explanation: font-kerning allows the spaces between the characters in text ?
-
-#approve
 5. Which of the following does not represent a value for font-style property?
 
 A. italic
@@ -52,7 +32,7 @@ D. none of the above
 ANSWER: D 
 Explanation: itlaic, oblique and normal are belongs to font-style property.
 
-#Approve
+
 6. Which value is allowed to synthesize bold or oblique font faces when a font family lacks bold or italic faces?
 
 A. font-weight
@@ -63,7 +43,7 @@ D. font-variant
 ANSWER: C 
 Explanation: font-synthesis allows to synthesize bold or oblique font faces when a font family lacks bold or italic faces.
 
-#approve
+
 7. Which value selects a normal or small caps face from a font family ?
 
 A. font-variant
@@ -84,7 +64,7 @@ D. None of the above
 
 ANSWER: D
 
-#approve
+
 9. Which of the following properties modifies the font-size of the fallback fonts specified by font-family such that the x-height is constant of the font used ?
 
 A. default
@@ -95,7 +75,7 @@ D. font-size-fallback
 ANSWER: B
 Explanation: font-size-adjust property modifies the font-size of the fallback fonts specified by font-family.
 
-#approve
+
 10. Which font-size-adjust is used in calculating the size of the fallback fonts ?
 
 A. number
@@ -106,7 +86,7 @@ D. None of the above
 ANSWER: A 
 Explanation: 
 
-#approve
+
 11. “font-variant comes first than font-weight in font attribute”.State true or false.
 
 A. True
