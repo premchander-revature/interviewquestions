@@ -1,0 +1,189 @@
+HTML CONTENT PREPARATION 19
+
+
+1.If you have a mistake in your HTML code, the browser will:
+
+A.Replace your Web page with an error code
+B.Try its best to fix it and continue
+C.Crash and need to be restarted
+D.Highlight that part of the Web page in red
+
+Answer:B
+
+
+3.Which of these HTML fragments would render differently from the others?
+
+A.<P>This is my Paragraph</P>
+B.<P>       This is my Paragraph</P>
+C.<P>This is my    Paragraph</P>
+D.<P>This   is   my   Paragraph</P>
+
+Answer:B
+
+
+4.All headings should be used within the header element.
+
+A.True
+B.False
+
+Answer:B
+
+
+5.HTML tags and HTML elements the same thing. True or false?
+
+A.True
+B.False
+
+Answer:B
+
+
+6.Any complete HTML5 file must contain bits of CSS and Javascript.
+
+A.True
+B.False
+
+Answer:B
+
+
+7.Which of the following is not among "Best practices"?
+
+A.Primarily designed to make your code run faster
+B.Suggested good habits based on experience
+C.Intended to make your code cleaner and more organized
+D.None of the option
+
+Answer:A
+
+
+8.What do you use to split multiple classnames in the 'class' attributes?
+
+A.You can only specify one classname in the 'class' attribute
+B.space
+C.comma
+D.colon
+
+Answer:B
+
+
+9.What does character encoding do?
+
+A.provides support for search engines to process your HTML documents correctly
+B.helps translate page from one language to another
+C.decodes bytes into code points
+D.None of the given.
+
+Answer:C
+
+
+10.The extension of the file name is not needed for 'download' attribute's value.
+
+A.True
+B.False
+
+Answer:A
+
+
+11.If you want to indicate that a large passage of text is an exact quotation, what tag would you use?
+
+A.blockquote
+B.quote
+C.quotation
+D.None of the given.
+
+Answer:A
+
+
+12.The term hypertext means:
+
+A.Writing in ALL CAPS
+B.Text with embedded links to other documents
+C.Very energetic words
+D.None of the given.
+
+Answer:B
+
+
+13.Images can be added to your Web page in more than one way.
+
+A.True
+B.False
+
+Answer:A
+
+
+14.Semantic elements, like article and section, don't use attributes.
+
+A.True
+B.False
+
+Answer:B
+
+
+15.The anchor element is the same as the < link > tag.
+
+A.True
+B.False
+
+Answer:B
+
+
+16.What’s the best way to ensure that your picture will display correctly?
+
+A.add the 'src' attribute
+B.add the 'display' attribute
+C.use an image file format commonly supported by browsers
+D.change your HTML editor
+
+Answer:C
+
+
+17.You need to use both height and width attributes to shrink your image by half.
+
+A.True
+B.False
+
+Answer:B
+
+
+18.What does the 'alt' attribute do?
+
+A.used to distinguish image and text links by a screen reader
+B.describes the information the image conveys or its function
+C.display information about an ambiguous image as a tooltip
+D.links to a URL
+
+Answer:B
+
+
+19.Which of the following is a valid value following best practice for the id attribute?
+
+A.< p id=""> < /p >
+B.< p id="NaViGaTiOn" > < /p >
+C.< p id="score-display" > < /p >
+D.< p id="Frequently asked questions" > < /p >
+
+Answer:C
+
+
+20.If I told you that an open tag looked like this: <div id='mydiv' class='myclass'>, what would the closing tag look like?
+A.</mydiv>
+B.</id>
+C.</div>
+D.None of the given.
+
+Answer:C
+
+
+21.<....> You need to leave immediately. Your office is bugged! <....>
+Which of the following tags should be used in this case?
+
+A.< strong >
+B.< i >
+C.< b >
+D.< em >
+
+Answer:A
+
+
+
+

@@ -1,0 +1,156 @@
+HTML CONTENT 2
+
+
+1.What kind of language is HTML?
+A.Scripting Language 
+B.Markup Language 
+C.Programming Language
+D.Network Protocol
+
+Answer:B
+
+Explanation:
+
+
+2.HTML uses _______
+A.User defined tags
+B.Pre-specified tags
+C.Fixed tags defined by the language 
+D.Tags only for linking
+
+Answer:C
+
+Explanation:
+
+d
+3.The first HTML proposal was made in the year _____
+A.1990
+B.1980
+C.2000
+D.1995
+
+Answer:A
+
+Explanation:
+
+
+4.The basic HTML block is referred to as _______
+A.HTML Body
+B.HTML Tag
+C.HTML Attribute
+D.HTML Element
+
+Answer:B
+
+Explanation:
+
+
+5.What other tag makes text bold except the <b> tag?
+A.<fat>
+B.<strong>
+C.<black>
+D.<emp>
+
+Answer:B
+
+Explanation:
+
+
+6.Who is recognised as the World Wide Web's (WWW) father?
+A.Robert Cailliau
+B.Tim Thompson
+C.Charles Darwin
+D.Tim Berners-Lee
+
+Answer:D
+
+Explanation:
+
+
+7.What tag belongs at the top of every HTML document?
+A.<head>
+B.<title>
+C.<html>
+D.<document>
+
+Answer:C
+
+Explanation:
+
+
+8.How do you generate a list of bullet points using numbers?
+A.<dl>
+B.<ol>
+C.<list>
+D.<ul>
+
+Answer:B
+
+Explanation:
+
+
+9.Which tag is used in an HTML page to display a picture?
+A.picture
+B.image 
+C.img
+D.src
+
+Answer:C
+
+Explanation:
+
+
+10._______ can read and render HTML web pages.
+A.Compiler
+B.server
+C.web browser
+D.Interpreter
+
+Answer:C
+
+Explanation:
+
+
+11.In the list below, which one is not a browser?
+A.Microsoft Bing
+B.Netscape Navigator
+C.Mozilla Firefox
+D.Opera
+
+Answer:A
+
+Explanation:
+
+12.Which HTML tag produces the largest heading?
+A.<h4>
+B.<h2>
+C.<h3>
+D.<h1>
+
+Answer:D
+
+Explanation:
+
+
+13.What kind of brackets are used around HTML tags?
+A.Curly
+B.Round
+C.Squart
+D.Angle
+
+Answer:D
+
+Explanation:
+
+
+14.Tags and texts that are not directly displayed on the page are written in _____ section.
+A.<head>
+B.<title>
+C.<body>
+D.<html>
+
+Answer:A
+
+Explanation:
+
+

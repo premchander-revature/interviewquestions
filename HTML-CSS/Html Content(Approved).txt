@@ -1,0 +1,255 @@
+HTML QUESTIONS(APPROVED)
+
+1.What do we use to obtain a scripting interface after initialising a plug-in?
+
+A. NP_GetMIMEDescription
+
+B. NP_Initialize
+
+C. NPP_GetValue
+
+D. NP_GetValue
+
+Answer:C
+
+2.Which of these categories best enables a text to stand out?
+
+A. .small
+
+B. .lead
+
+C. .text-center
+
+D. .text-left
+
+Answer:B
+
+3.Which of these enables us to determine whether an ancient browser still supports geolocation?
+
+A. Modernizr.geolocation
+
+B. Modernizr
+
+C. Modernizr.js
+
+D. Navigator.userAgent
+
+Answer:D
+
+4.Which of these is not an MP3-compatible format?
+
+A. Opera
+
+b. Safari
+
+c. Chrome
+
+d. Firefox
+
+Answer: (a) Opera
+
+5.Which of these entities doesn't have an XML definition?
+
+A. apos
+
+B. quot
+
+C. copy
+
+D. gt
+
+Answer:C
+
+6.For data binding, what attribute do we use?
+
+a. datasrc
+
+b. mayscript
+
+c. name
+
+d. datafld
+
+Answer:A
+
+7.What functions does the <bdo> element have?
+
+A. changes direction of the ltr text
+
+B. override the direction of the rtl text
+
+C. stops writing in current direction of text
+
+D. override the text direction
+
+Answer:D
+
+8.In HTML, the correct way of commenting out something would be using
+
+A. ## and #
+
+B. <!– and –>
+
+C. </– and -/->
+
+D. <!– and -!>
+
+Answer:B
+
+9.Which HTML tag should we use to demonstrate the power of the expression (x2 - y2)?
+
+A. <p>
+
+B. <sub>
+
+C. <sup>
+
+D. None of the above
+
+Answer:C
+
+10.What is the correct starting position for an ordered list with a count of 5?
+
+A. <ol type = “1” start = “5”>
+
+B. <ol type = “1” num = “5”>
+
+C. <ol type = “1” begin = “5”>
+
+D. <ol type = “1” initial = “5”>
+
+Answer:A
+
+11.In HTML5, which tag is used to initialise the document type?
+
+A. <Doctype HTML>
+
+B. <!DOCTYPE html>
+
+C. <Doctype>
+
+D. <\Doctype html>
+
+Answer:B
+
+12.Which of these tags supports in the building of a combo box or drop-down box?
+
+A. <input type = “dropdown”>
+
+B. <list>
+
+C. <ul>
+
+D. <select>
+
+Answer:D
+
+13.The tags in HTML are ________
+
+A. in upper case
+
+B. case-sensitive
+
+C. in lowercase
+
+D. not case sensitive
+
+Answer: (d) not case sensitive
+
+14.What is the proper procedure for sending HTML email?
+
+A. <mail ab@b</mail>
+
+B. <a href = “ab@b”>
+
+C. <a href = “mailto: ab@b”>
+
+D. None of the above
+
+Answer: (c) <a href = “mailto: ab@b”>
+
+15.The <hr> tag in HTML is used for _______
+
+A. horizontal ruler
+
+B. new line
+
+C. new paragraph
+
+D. vertical ruler
+
+Answer: (a) horizontal ruler
+
+16.How can we display text with a scrolling effect using HTML?
+
+a. <div>
+
+b. <scroll>
+
+c. <marquee>
+
+d. None of the above
+
+Answer:C
+
+17.Which one of these would add a background colour to HTML?
+
+A. "<marquee bgcolor = “plum”>"
+
+B. "<marquee bg color: “plum”>"
+
+C. "<marquee color = “plum”>"
+
+D. "<marquee bg-color = “plum”>"
+
+Answer:A
+
+18.How do we define the choices offered in the drop-down selection lists?
+
+A. <list>
+
+B. <option>
+
+C. <dropdown>
+
+D. <select>
+
+Answer:B
+
+19.How do we insert an image in HTML?
+
+A. "<img src = “jtp.png” />"
+
+B. "<img href = “jtp.png” />"
+
+C. "<img link = “jtp.png” />"
+
+D. "<img url = “jtp.png” />"
+
+Answer:A
+
+20.How do I make an HTML hyperlink?
+
+A. "<a link = “www.thinkandlearn.com”> thinkandlearn.com </a>"
+
+B. "<a> www.thinkandlearn.com <thinkandlearn.com /a>"
+
+C. "<a href = “www.thinkandlearn.com”> thinkandlearn.com </a>"
+
+D. "<a url = “www.thinkandlearn.com” thinkandlearn.com /a>"
+
+Answer:C
+
+21.Which tag in HTML should we use to create a line break?
+
+A. <a>
+
+B. <br>
+
+C. <b>
+
+D. <pre>
+
+Answer:B
+
+
