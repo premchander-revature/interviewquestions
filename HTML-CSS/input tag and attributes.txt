@@ -327,3 +327,204 @@ B.False
 Answer: A
 
 
+33.The _____________ attribute is used to specify a hint that defines an input field's expected value.
+
+A.Type
+B.Placeholder
+C.disabled
+D.None
+
+Answer:  B
+
+Explanation: The placeholder attribute offers a brief description of the intended value of an input field (e.g. a sample value or a short description of the expected format). Before the user inputs a value, the short suggestion is displayed in the input area.
+
+34.If the user is unable to view the image, the _________ attribute is used to offer alternate text.
+
+A.Value
+B.Form
+C.Alt 
+D.Required
+
+Answer: C
+
+Explanation: If the user is unable to view the image for some reason, the alt attribute gives an alternate text (because of slow connection, an error in the src attribute, or if the user uses a screen reader) the alt attribute can only be used with <input type="image">.
+
+35.The ______ attribute indicates that an element should be given focus when the page loads.
+
+A.Alt
+B.Disabled
+C.Required
+D.Autofocus
+
+Answer: D
+
+Explanation: The autofocus attribute is a boolean attribute. When it present, it indicates  an <input> element should be given importance when the page loads. 
+
+36.When the page loads, the checked attribute specifies that an element should be pre-selected (checked). The checked attribute can be used with <input types="checkbox"> and <input types= "radio">.
+
+A.True
+B.False
+
+Answer: A
+
+Explanation: * The square boxes are defined using the HTML <checkbox> tag. It is a form element that allows users to choose one or more alternatives from a list.
+* It is produced by the type attribute of the <input> element, as seen below:
+
+* name="field name" input type="checkbox" value="First value">
+
+37.A required input field must be filled up before submitting the form, according to the _______ attribute.
+
+A.Form
+B.Disabled
+C.Required
+D.Readonly
+
+Answer: C
+
+Explanation: * A boolean attribute is the required attribute. When present, it indicates that a field has to be completed before the form can be submitted.
+
+* The following input types are supported with the needed attribute and they are text, search, url, tel, email, password, date pickers, number, checkbox, radio, and file.
+
+38.A read-only input field is indicated by the read - only attribute. An input field that is read-only cannot be changed. An input field that is read-only will still be submitted by a form, but an input field that is disabled won't.
+
+A.True
+B.False
+
+Answer: A
+
+Explanation: Read-only is a file attribute that prevents writing to a file and only permits a user to see it. When a file is marked as "read-only," it can still be accessed and read but cannot be changed in any way, including deletions, overwrites, revisions, or name changes.
+
+39._______ attribute is used to specifies that a user can enter more than one value in an <input> element.
+
+A.min
+B.src
+C.multiple
+D.pattern
+
+Answer: C
+
+Explanation: * A boolean attribute is the multiple attribute. When present, it indicates that the user may enter more than one value into the <input> element.
+
+* The email and file input types are supported by the multiple attribute.
+
+40.The ___________ attribute specifies a regular expression against which the value of an <input> element is tested.
+
+A.multiple
+B.list
+C.size
+D.pattern 
+
+Answer: D
+
+Explanation: The pattern attribute specifies a regular expression against which the value of the <input> element is tested during form submission. Text, date, search, url, tel, email, and password are all supported by the pattern attribute.
+
+41.The __________ attribute defines the allowable number intervals for an input field.
+
+A.step 
+B.src
+C.pattern
+D.multiple
+
+Answer: A
+
+Explanation: * The step attribute in an <input> element sets the spacing between legal numbers.
+
+* The step attribute, in combination with the max and min properties, can be used to define a range of legal values.
+
+42.<!DOCTYPE html>
+   <html>
+   <body>
+   <h3> Welcome All </h3>
+   <form>
+   <label for="EMAIL ID">Email Id:</label><br>
+   <input type="text" name="Email id" id="Email id">
+   </form>
+   </body>
+   </html> 
+
+The above html code is the example for,
+
+A.Password Field
+B.Text area
+C.Text Field 
+D.None
+
+Answer: C
+
+43.<!DOCTYPE html>
+   <html>
+   <body>
+   <h3> Welcome To Revature </h3>   
+   <form>
+   <label for="user-password">Password:
+   </label><br>
+   <input type="password" name="user-pwd" id="user-password">
+   </form>
+   </body>
+   </html>
+
+The above html code is the example for,
+
+A.Text area
+B.Password Field
+C.Forms
+D.Text Field
+
+Answer: B
+
+44.<!DOCTYPE html>
+   <html>
+   <body>
+   <h3> Welcome All</h3>
+   <form>
+   <label for="Description">Description:</label>
+   <textarea rows="5" cols="50" name="Description" id="Description"></textarea>
+   </form>
+   </body>
+   </html>
+
+The above html code is the example for,
+
+A.Password Field
+B.Select Boxes
+C.Text Field
+D.Text area 
+
+Answer: D
+
+45.<!DOCTYPE html>
+   <html>
+   <body>
+   <h3> Welcome to the world of Countries </h3>
+   <form>
+   <label for="country">Country:</label>
+   <select name="country" id="country">
+   <option value="India"> India </option>
+   <option value="USA"> USA </option>
+   <option value="Australia"> Australia </option>
+   </select>
+   </form>
+   </body>
+   </html>
+
+The above html code is the example for,
+
+A.Select Boxes
+B.Check Boxes
+C.Radio Buttons
+D.None of these
+
+Answer: A
+
+Explanation: Select boxes are used to allow users to choose one or more options from a drop-down menu. Select boxes are made up of two elements: "select" and "option." The choose element defines the list items. 
+
+46.A hidden input field is defined by the __________ (not visible to a user).
+
+A.<input type="hidden"> 
+B.<input type="file">
+C.<input type="search">
+D.<input type="range">
+
+Answer: A
+
+Explanation: A hidden input field is defined with the input type="hidden"> (not visible to a user). When a form is submitted, a hidden field allows site developers to enter data that users cannot see or modify. When a form is submitted, a hidden field is frequently used to store which database record has to be modified.
