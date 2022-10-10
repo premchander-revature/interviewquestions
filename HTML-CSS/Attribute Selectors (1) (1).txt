@@ -7,13 +7,3 @@ C. CSS3
 D. CSS2    
 
 Answer: D
-
-#ignore
-2) All <input> tags with the single attribute value would be matched by......................
-
-A. input value {font-weight: bold;}
-B. input < value {font-weight: bold;}
-C. input ~ value {font-weight: bold;}
-D. input [value] {font-weight: bold;}     
-
-Answer: D
