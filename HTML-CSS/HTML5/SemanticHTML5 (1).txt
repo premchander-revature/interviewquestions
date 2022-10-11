@@ -1,7 +1,6 @@
-#semantic tags
 
-
-1 What does HTML5 Stack mean?
+1.What does HTML5 Stack mean?
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
        A. HTML5, CSS3, JavaScript
 
@@ -11,10 +10,16 @@
 
        D. HTML5, PHP, JavaScript
 
-Ans : HTML5, CSS3, JavaScript
-
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+A
+</blockquote>
+</details>
 
 2.Which of the following input controls corresponds to a date (year, month, and day) encoded in Web Form 2.0 using ISO 8601?
+
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
        A. datetime
 
@@ -23,9 +28,12 @@ Ans : HTML5, CSS3, JavaScript
        C. datetime-local
 
        D. date
-
-Ans : date
-
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+D
+</blockquote>
+</details>
 
 3. What is the suggested procedure for determining a feature's compatibility with a browser?
 
