@@ -2,8 +2,11 @@
 1) Which of the following is/are the correct examples of implementing class selectors.
 
 i) h2.new {background-color: green;}
+
 ii) *.new {background-color: green;}
+
 iii) .new * {background-color: green;} 
+
 iv) .new {background-color: green;}
 
 ![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
