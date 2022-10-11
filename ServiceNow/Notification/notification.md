@@ -254,3 +254,19 @@ Via Watermark or InReplyTo email header. If These are not present, ServiceNow re
 </details>
 
 --- 
+
+17. If you identify a domain as suspicious, how can you stop receiving email from that domain?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+  
+By using email address filters, we can stop receiving emails from any suspicious domain. For this, we have to create an email filter of type Blacklist and add the domain from which we want to stop receiving emails.
+
+</blockquote>
+  
+</details>
+
+--- 
