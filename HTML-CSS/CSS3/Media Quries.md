@@ -13,7 +13,9 @@ D. For use with tactile Braille devices
 
 <details>
 <summary> <b> Show Answer </b> </summary>
-A
+<blockquote>
+  A
+  </blockquote> 
 </details>
 
 
