@@ -76,9 +76,13 @@ C
 
 5)  In CSS, what attribute is used to alter the background colour?
 ![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
 A. bgcolor: 
+
 B. background-color: 
+
 C. color:
+
 D. back-color:
 <details>
 <summary> <b> Show Answer </b> </summary>
@@ -90,6 +94,7 @@ B
 
 6) What among the following chooses a regular or small-caps face from a font family?
 ![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
 A. font-weight
 
 B. font-synthesis
