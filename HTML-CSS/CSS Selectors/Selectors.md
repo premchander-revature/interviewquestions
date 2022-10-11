@@ -57,6 +57,7 @@ D
 </details>
 
 4) Which selectors are employed to define a collection of items
+
 ![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
 A. name
@@ -75,6 +76,7 @@ C
 </details>
 
 5)  In CSS, what attribute is used to alter the background colour?
+
 ![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
 A. bgcolor: 
@@ -93,6 +95,7 @@ B
 
 
 6) What among the following chooses a regular or small-caps face from a font family?
+
 ![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
 A. font-weight
@@ -111,6 +114,7 @@ C
 
 
 7) Which of the above properties defines a shortcut property for configuring the margin properties in a single declaration?
+
 ![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
 A. border
@@ -133,6 +137,7 @@ A
 h1 {
     color:"green";
 }
+
 ![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
 A. make the h1 tag green. 
@@ -151,6 +156,7 @@ A
 
  
 9) Which of the following selectors selects the specified elements of type E with a particular class value?
+
 ![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
 A. E.class
