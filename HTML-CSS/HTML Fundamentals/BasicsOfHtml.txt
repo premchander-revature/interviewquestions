@@ -1,12 +1,19 @@
 BASICS OF HTML:
 
 1.What kind of language is HTML?
+
 A.Scripting Language 
 B.Markup Language 
 C.Programming Language
 D.Network Protocol
 
-Answer:B
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+Answer:B.Markup Language 
+
+</blockquote>
 
 2.HTML uses _______
 A.User defined tags
