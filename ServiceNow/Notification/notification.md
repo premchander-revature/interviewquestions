@@ -270,3 +270,37 @@ By using email address filters, we can stop receiving emails from any suspicious
 </details>
 
 --- 
+
+18. How can we call an email script in notification?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+  
+We can call email scripts in notification by using the ${mail_script:&lt;nameofmailscript&gt;} syntax. 
+
+</blockquote>
+  
+</details>
+
+--- 
+
+19. What are the different types of inbound email?
+
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+  
+Three different inbound email types are available: new, forward, and replay.
+
+</blockquote>
+  
+</details>
+
+--- 
+
