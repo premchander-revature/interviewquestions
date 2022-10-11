@@ -8,7 +8,7 @@ A. True
 B. False
 
 <details>
-  <summary> <b> Answer: </b> </summary>
+  <summary> <b>Show Answer </b> </summary>
 <blockquote>
 A
 </blockquote>
@@ -23,7 +23,7 @@ A. False
 B. True
   
 <details>
-  <summary> <b> Answer: </b> </summary>
+  <summary> <b>Show Answer </b> </summary>
 <blockquote>
 A
 </blockquote>
