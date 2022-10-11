@@ -10,7 +10,7 @@ B. False
 <details>
   <summary> <b> Answer: </b> </summary>
 <blockquote>
-Answer: A
+A
 </blockquote>
   </details>
 
@@ -25,6 +25,6 @@ B. True
 <details>
   <summary> <b> Answer: </b> </summary>
 <blockquote>
-Answer: A
+A
 </blockquote>
   </details>
