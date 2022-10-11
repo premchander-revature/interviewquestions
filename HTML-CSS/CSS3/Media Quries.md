@@ -21,13 +21,21 @@ D. For use with tactile Braille devices
 
 2. What does projection media type is used for?
 
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
 A. For use with projected media (direct computer-to-projector presentations), or printing transparencies for projection. 
+
 B. For use with color computer screens
+
 C. For use with handheld devices
+
 D. For use with television-type devices
-
-Answer: A
-
+<details>
+  <summary> <b> Show Answer: </b> </summary>
+<blockquote>
+  A
+  </blockquote>
+  </details>
 
 3. What does tty media type is used for ?
 
