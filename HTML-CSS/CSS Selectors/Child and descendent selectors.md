@@ -18,7 +18,6 @@ A
  </blockquote>
  </details>
 
-
 2) Only <a> tags that are descendants of a tag located under the body element would be chosen by.....................
 
  ![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
