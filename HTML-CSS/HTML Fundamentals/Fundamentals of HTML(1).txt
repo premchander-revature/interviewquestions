@@ -1,15 +1,34 @@
-FUNDAMENTALS OF HTML
+FUNDAMENTALS OF HTML:
 
 1.How many different header sizes are available by default in HTML?
+
 A.5
+
 B.1
+
 C.3
+
 D.6
 
-Answer:D
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+Answer: D
+
+</blockquote>
+
+<details>
+<summary><b>Explanation</b></summary>
+<blockquote>
 
 Explanation:
 6 headers are available in HTML by default ranging from h1 to h6.
+
+</blockquote>
+</details>
+</details>
+
 
 2.HTML's default header size is _______
 A.h1
