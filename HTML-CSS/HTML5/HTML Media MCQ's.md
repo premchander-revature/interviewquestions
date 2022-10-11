@@ -625,15 +625,30 @@ Autobuffer is a attribute for both <audio> and <video>, so we can replace it wit
 </details>
 
 25. Which plugins can support older browsers as a fallback?
+ 
+ ![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+ 
 a) Flash
+
 b) Quicktime
+
 c) Both Flash and Quicktime
+
 d) Fireback and Quickertime
 
-Answer: C
-
-Explanation: An attribute of the format: type=”application/x-shockwave-flash” will justify the purpose.
-
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+C
+</blockquote>
+<details>
+<summary> <b> Explanation </b> </summary>
+<blockquote>
+An attribute of the format: type=”application/x-shockwave-flash” will justify the purpose.
+</blockquote>
+</details>
+</details>
+ 
 26. Which of the following statements about the open web platform is false?
 
 ![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
