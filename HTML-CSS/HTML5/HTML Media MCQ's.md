@@ -519,9 +519,6 @@ As long as the browser’s own media cache isn’t full, it will keep on downloa
 
 21. On the client side, simple graphics like line art, graphs, and other unique graphical features are rendered using the ________ element.
 
-<details>
-<summary> <b> Show Answer </b> </summary>
-<blockquote>
 
 a) metadata
 
