@@ -487,6 +487,7 @@ The textTracks property returns a TextTrackList object.
 The TextTrackList object represents the available text tracks for the audio/video. Each available text track is represented by an TextTrack Object.
 </blockquote>
 </details>
+</details>
 
 20. To optimise playback, the browser can be instructed to download media files in the background using .
 
@@ -513,6 +514,7 @@ If autobuffering attribute is used, then the video will automatically begin to b
 It suggests to the browser that it should load as much of the resource as possible.
 As long as the browser’s own media cache isn’t full, it will keep on downloading. URL of an image is given by poster attribute until the user seek for it.
 </blockquote>
+</details>
 </details>
 
 21. On the client side, simple graphics like line art, graphs, and other unique graphical features are rendered using the ________ element.
