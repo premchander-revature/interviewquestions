@@ -239,4 +239,18 @@ By setting glide.email.append.timezone to true, we can add the system time zone 
 
 --- 
 
+16. How does ServiceNow recognize Inbound Emails?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+  
+Via Watermark or InReplyTo email header. If These are not present, ServiceNow recognizes an email containing a prefix in the subject line.
+
+</blockquote>
+  
+</details>
+
+--- 
