@@ -54,6 +54,7 @@ D. Property-Name
 <blockquote>
 D
 </blockquote>
+</details>
 
 4) Which selectors are employed to define a collection of items
 ![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
