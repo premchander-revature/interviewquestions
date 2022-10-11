@@ -266,6 +266,7 @@ b) <audio>
 c) <video>
 
 d) <canvas>
+ 
 <details>
 <summary> <b> Show Answer </b> </summary>
 <blockquote>  
@@ -275,6 +276,9 @@ B
 <summary> <b> Explanation </b> </summary>
 <blockquote>
 <video> tag is used for video clips in HTML5. <canvas> is for graphical user interface. The audio tag defines sound, such as music or other audio streams.
+</blockquote>
+</details>
+</details>
  
 12. For the audio and video media elements, what tag is used to identify various media resources?
 
@@ -299,6 +303,7 @@ A
 <video> tag is used for video clips in HTML5. <canvas> is for graphical user interface. 
 The audio tag defines sound, such as music or other audio streams.defines multiple media resources for media elements, such as <video> and <audio>.
 </blockquote>
+</details>
 </details>
 
 13.Which of the following web browsers is incompatible with the wav file format?
