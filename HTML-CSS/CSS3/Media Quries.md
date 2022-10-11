@@ -1,12 +1,16 @@
 
 1. What does all media type is used for?
 
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
 A. For use with all devices 
 B. For use with speech synthesizers
 C. For use with handheld devices
 D. For use with tactile Braille devices
-
-Answer: A
+<details>
+<summary> <b> Show Answer </b> </summary>
+A
+</details>
 
 
 2. What does projection media type is used for?
