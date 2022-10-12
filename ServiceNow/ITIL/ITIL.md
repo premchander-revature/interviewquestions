@@ -23,11 +23,11 @@ ITIL means Information Technology Infrastructure Library which is a framework th
 <blockquote>
   
 In ITIL there are total 5 stages
-Service Strategy
-Service Design
-Service Transition
-Service Operation
-Continual Service Improvement
+Service Strategy,
+Service Design,
+Service Transition,
+Service Operation,
+Continual Service Improvement.
 
 </blockquote>
   
@@ -174,7 +174,7 @@ ITIL capacity management contains the service designs, plans, and processes to e
 
 ---
 
-11. Which processed are included under ITSM?
+11. Which processes are included under ITSM?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -183,12 +183,12 @@ ITIL capacity management contains the service designs, plans, and processes to e
 <blockquote>
   
 The ITSM process helps you to manage IT services. The following processes are included under ITSM.
-Incident Management
-Change Management
-Problem Management
-Knowledge Management
-Release Management
-Finance Management 
+Incident Management,
+Change Management,
+Problem Management,
+Knowledge Management,
+Release Management,
+Finance Management.
 
 </blockquote>
   

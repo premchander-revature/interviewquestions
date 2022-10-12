@@ -182,8 +182,8 @@ The text in the subject field will get displayed as it overrides the subject fie
   
 <blockquote>
   
-We have to create a new property inside sys_properties.list named glide.email.watermark.visible and have to set its value to false to hide the watermark globally. 
-But the watermakr can only be hidden in HTML messages. The text version of the message will always have the watermark.
+We have to create a new property inside sys_properties.list named glide.email.watermark.visible and have to set its value to false to hide the watermark globally.
+But the watermark can only be hidden in HTML messages. The text version of the message will always have the watermark.
 
 </blockquote>
   
