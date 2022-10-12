@@ -674,8 +674,10 @@ D.All the above.
 
 <details>
 <summary> <b> Show Answer </b> </summary>
-D
 <blockquote>
+D
+</blockquote>
+</details>
 
 35.How Can we hyperlink a picture using HTML?
 
