@@ -694,15 +694,19 @@ D.None of the above.
 <blockquote>
 D
 </blockquote>
-</details>
+<details>
+  <summary> <b> Explanation </b> </summary>
 
-
+  <blockquote>
+    
 The HTML <a> type attribute is used to create a hyperlink to web pages, files, locations on the same page. 
 We can make elements like images into links by nesting them within an <a> element. 
 It defines a hyperlink that is used to link from one page to another. If the <a> tag has no href attribute,
 then it will be only a placeholder for a hyperlink.
 
-
+    </blockquote>
+    </details>
+    </details>
 36.Which tag not used for font formatting in HTML5?
 
 
