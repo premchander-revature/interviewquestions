@@ -1,5 +1,6 @@
 
 1.What does HTML5 Stack mean?
+
 ![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
        A. HTML5, CSS3, JavaScript
