@@ -697,9 +697,9 @@ D.None of the above.
 D
 </blockquote>
 <details>
-  <summary> <b> Explanation </b> </summary>
+<summary> <b> Explanation </b> </summary>
 
-  <blockquote>
+<blockquote>
     
 The HTML <a> type attribute is used to create a hyperlink to web pages, files, locations on the same page. 
 We can make elements like images into links by nesting them within an <a> element. 
