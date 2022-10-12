@@ -541,13 +541,13 @@ D
 
 ![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
-A. '<big>'
+A. <big>
 
-B.'<small>'
+B.<small>
 
-C.'<strike>'
+C.<strike>
 
-D.'<center>'
+D.<center>
 
 <details>
 <summary> <b> Show Answer </b> </summary>
