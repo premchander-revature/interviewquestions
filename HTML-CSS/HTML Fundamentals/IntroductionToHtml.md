@@ -26,13 +26,14 @@ HTML stands for HyperText Markup Language.
 </details>
 </details>
 
-
-
 2.How many different header sizes are offered by default in HTML?
 
 A.1
+
 B.2
+
 C.5
+
 D.6
 
 <details>
