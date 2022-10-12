@@ -707,9 +707,11 @@ then it will be only a placeholder for a hyperlink.
     </blockquote>
     </details>
     </details>
+    
 36.Which tag not used for font formatting in HTML5?
 
-
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+    
 A.<strong> - Important text
 
 B.<em> - Emphasized text
@@ -718,10 +720,17 @@ C.<sub> - Subscript text
 
 D.<div> - division.
 
-Answer:D
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+D
+</blockquote>
+</details>
 
 
 37.What is the syntax to set a background image on a webpage?
+
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
 A. {
             background-image: url("/videotutorials/images/tutor_connect_home.jpg");
@@ -737,149 +746,289 @@ C.{
 
 D.None of the above.
 
-Answer: A.
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+A
+</blockquote>
+</details>
+
 
 
 38.What video formats are compatible with HTML5?
 
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+    
 A.WebM 
+
 B.Ogg
+
 C.MP4 
+
 D.All the above.
 
-Answer:D.
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+D
+</blockquote>
+</details>
 
 39.In how many different ways is it possible to specify the CSS styles for an HTML element?
 
 A.2 ways
+
 B.3 Ways
+
 C.5 Ways
+
 D.None
 
-Answer: B
-
-Explanation: CSS is being used. CSS can be introduced to HTML texts in three different ways: Inline - when the style attribute is used within HTML elements. Internal - by incorporating a <style> element into the head> section.
-
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+B
+  </blockquote>
+    <details>
+      <summary> <b> Explanation </b> </summary>
+      <blockquote>
+      CSS is being used. CSS can be introduced to HTML texts in three different ways: Inline - when the style attribute is used within HTML elements. Internal - by incorporating a <style> element into the head> section.
+      </blockquote>
+        </details>
+  </details>
 
 40.How many permissible values are applicable to the position attribute?
 
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+  
 A.3 Values
+
 B.5 Values
+
 C.7 Values
+
 D.10 Values
 
-Answer: C
-
-Explanation: There are primarily 7 position attribute values that can be used to position an HTML element: The default value is static. The element is positioned here in accordance with the document's regular flow. absolute: The element is positioned relative to its parent element in this case.
-
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+ C
+  </blockquote>
+ <details>
+   <summary> <b> Explanation </b> </summary>
+<blockquote>
+   There are primarily 7 position attribute values that can be used to position an HTML element: The default value is static. The element is positioned here in accordance with the document's regular flow. absolute: The element is positioned relative to its parent element in this case.
+   </blockquote>
+  </details>
+  </details>
 
 41.How many minimum number of HTML tags which are essential for creation of an HTML page?
 
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
 A.2
+
 B.3
+
 C.4
+
 D.5
-
-Answer: C
-
-Explanation: There are various HTML tags that can be used to assist you build your web page. In HTML, four tags are necessary. These are the html tags, title, head, and body.
-
-
+  
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+C
+</blockquote>
+<details>
+  <summary> <b> Explanation </b> </summary>
+<blockquote>
+There are various HTML tags that can be used to assist you build your web page. In HTML, four tags are necessary. These are the html tags, title, head, and body.
+  </blockquote>
+  </details>
+  </details>
+  
 42.What is the usage of a novalidate attribute for the form tag that is introduced in HTML5?
 
-
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
 A. it specifies the form-data should not be validated when submitting the form.
+
 B. it define the footer for a document
+
 C. both A and B
+
 D. None of the above
 
-
-
-ANSWER: A
-
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+A
+</blockquote>
+</details>
 
 43.What do you mean by application cache refers in HTML5 ?
 
-
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+  
 A. Offline browsing
+
 B. Speed
+
 C. Reduced server load
+
 D. All the above
 
-ANSWER: D
-
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+D
+</blockquote>
+</details>
 
 44.Which of the following tag refers to migrated tags from HTML4 to HTML5 ?
 
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
 A. <nav>
+
 B. <div id="post">
+
 C. <div id="footer">
+
 D. <div id="menu">
 
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+A
+</blockquote>
+</details>
 
-
-ANSWER: A
 
 45.Which is not difference between the HTML and XHTML?
 
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+  
 A. HTML is used to create webpages and XHTML is similar to HTML but it is stricter.
+
 B. HTML is case insensitive while XHTML is case sensitive.
+
 C. HTML is case insensitive while XHTML is case insensitive.
+
 D. None of the above.
 
-ANSWER: B
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+B
+</blockquote>
+</details>
+
 
 46.In terms of HTML5 elements, what is the difference between the ‘id' attribute and the ‘class' attribute?
 
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+  
 A.Id is not unique whereas Class is unique
+
 B.No differences between them
+
 C.“id” is unique in a page and can only apply to at most one element, while “class” selector can apply to multiple elements.
+
 D.None of the options above
 
-Answer:C
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+C
+</blockquote>
+</details>
 
 
 47.What are the different types of browsers that HTML5 supports?
 
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
 A.Chrome
+
 B.Firefox
+
 C.Both A and B
+
 D.None of the Options above
 
-Answer:C
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+C
+</blockquote>
+</details>
+
 
 
 48.Are there advantages of using HTML5 for web development? What are those advantages?
 
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+  
 A. More code means slower page speed
+
 b.HTML5 will enable web designers to use cleaner, neater code
+
 C.The software is available for free
+
 D.None of the options above
 
-Answer:B
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+B
+</blockquote>
+</details>
+
 
 49.Is there any advantage of collapsing white space in HTML5?
 
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
 A.White Space Improves Readability and Comprehension.
+
 B.Collapsing white spaces decreases the transmission time between the server and the client
+
 C.Both A and B
+
 D.None of the options
 
-Answer:C
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+C
+</blockquote>
+</details>
+
 
 50..What is the importance of div tag for development of HTML5 web pages?
 
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
 A.It is used to display all the information or data
+
 B.it helps us to separate out data in the web page
+
 C.It allows users to have a consistent web experience across multiple devices
+
 D.None of the options
 
-Answer:B
-
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+B
+</blockquote>
+</details>
 
 51. What does SVG mean in context of HTML5?
 
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+  
 A. SVG is used to define media files in HTML.
 
 B. SVG is used to define Audio files in HTML.
@@ -888,10 +1037,16 @@ C. SVG defines vector-based graphics in XML format.  
 
 D. None of the Above.
 
-Answer: C
-
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+C
+</blockquote>
+</details>
 
 52. Which of the follwing video formats are compatible with HTML5?
+
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
 A. .Mov
 
@@ -901,11 +1056,18 @@ C. .AVCHD
 
 D. .WMV
 
-Answer: B
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+B
+</blockquote>
+</details>
 
 
 53.What is the use of an article tag in HTML5?
 
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+  
 A. Used to define a blank space for publishing article in a web page.
 
 B. Used to define an article in a webpage.
@@ -914,10 +1076,18 @@ C. Used to seperate paragraphs.
 
 D. The <article> tag specifies independent, self-contained content.
 
-Answer: D
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+D
+</blockquote>
+</details>
+
 
 
 54. What are Server-Sent Events in HTML5?
+
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
 A. A Server-Sent Event is when a web page automatically gets updates from a server.
 
@@ -927,11 +1097,19 @@ C. Both A and B.
 
 D. None of the Above.
 
-Answer: A
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+A
+</blockquote>
+</details>
+
 
 
 55. What is cell padding in relation to HTML5?
 
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+  
 A. Cell padding is the space between cell borders and the content within a cell.
 
 B. Both A and C.
@@ -940,11 +1118,19 @@ C. Cell padding is the space between cell borders and the content without a cell
 
 D. None of the Above.
 
-Answer: A
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+A
+</blockquote>
+</details>
+
 
 
 56. What is the use of Geolocation API in HTML5?
 
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+  
 A. Both B and C.
 
 B. Used to detect which phone the user has.
@@ -953,10 +1139,18 @@ C. The HTML Geolocation API is used to get the geographical position of a user.
 
 D. None of the Above.
 
-Answer: C
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+C
+</blockquote>
+</details>
+
 
 57. What is a multipart form data in HTML5?
 
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+  
 A. 2 forms is known as multipart form.
 
 B. Multipart/form-data is one of the value of enctype attribute, which is used in form element that have a file upload.
@@ -965,7 +1159,13 @@ C. Both A and B.
 
 D. None of the above.
 
-Answer: B
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+B
+</blockquote>
+</details>
+
 
 
 
