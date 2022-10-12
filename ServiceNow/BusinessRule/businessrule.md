@@ -62,4 +62,18 @@ When a user submits the form and any action is taken on the database
 
 ---
 
-5. 
+5. What is the use of setworkflow() in servicenow?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+  
+The serWorkflow() method accepts one argument: a boolean true/false value. This argument will determine whether business rules should be triggered by any database actions performed by your GlideRecord script. For example, if you make a change and call the update() method, calling setWorkflow() and passing in false will prevent any business rules that would normally be triggered by that update from running.
+
+</blockquote>
+  
+</details>
+
+---
