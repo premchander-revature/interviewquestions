@@ -15,6 +15,7 @@ D.None of the above
 A
 
 </blockquote>
+ <details>
 
 <details>
 <summary><b>Explanation</b></summary>
@@ -24,7 +25,6 @@ HTML stands for HyperText Markup Language.
 
 </blockquote>
 </summary>
-</details>
 </details>
 
 2.How many different header sizes are offered by default in HTML?
