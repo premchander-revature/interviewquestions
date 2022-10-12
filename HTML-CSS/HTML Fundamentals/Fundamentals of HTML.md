@@ -1624,8 +1624,6 @@ A
 
 66.When run in a browser, how will the following's content be displayed?
 
-```html
-
 <!DOCTYPE html>
 <html>
 <body>
@@ -1633,8 +1631,6 @@ A
 <p>Learning Made Easy!/p>
 </body>
 </html>
-
-html```
 
 A. LetsFindCourseLearning Made Easy!
 B. LetsFindCourse Learning Made Easy!
@@ -1969,8 +1965,9 @@ C. Index
 
 D. Frameset
 
-</blockquote>
-</details>
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
 
 D
 
@@ -1996,104 +1993,246 @@ C
 </blockquote>
 </details>
 
-86.Pick the appropriate answer.
+86.Pick the appropriate answer
+
 A. address specified as value of href in HTML have to be relative.
+
 B. address specified as value of href in HTML have to be absolute.
+
 C. destination address is specified as value of href between and tag.
+
 D. address specified as value of href in HTML can be absolute or relative.
 
-Answer:D
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
 
-Explanation:
+D
+
+</blockquote>
+
+<details>
+<summary><b>Explanation</b></summary>
+<blockquote>
+
 In the HTML <a> tag, the address is supplied as the value of the href attribute and can either be absolute or relative.
 
+</blockquote>
+</details>
+</details>
+
+
 87.In the HTML <a> tag, which attribute is used to specify the destination address?
+
 A. link
+
 B. type
+
 C. href
+
 D. address
 
-Answer:C
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
 
-Explanation:
+C
+
+</blockquote>
+</details>
+
+
+</blockquote>
+
+<details>
+<summary><b>Explanation</b></summary>
+<blockquote>
+
 href is used for defining destination address in <a> tag as <a href=”destination address”>
 
-88.In a web document, external style sheets are referenced by a _____
+</blockquote>
+</summary>
+</details>
+
+88.In a web document, external style sheets are referenced by a ________
+
 A. page
+
 B. class
+
 C. Link/Url or path
+
 D. none
 
-Answer:C
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
 
-89.Any browser's unvisited link has a default style and colour of ______
+C
+
+</blockquote>
+</details>
+
+89.Any browser's unvisited link has a default style and colour of ________
+
 A. Normal and Blue
+
 B. Underline and Pink
+
 C. Underlined and Blue
+
 D. Underline and Magento
 
-Answer:C
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+C
+
+</blockquote>
+</details>
 
 90.HTML links can be of the following types
+
 A. Active
+
 B. Visited
+
 C. Unvisited
+
 D. All are the Types of Links
 
-Answer:D
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+D
+
+</blockquote>
+</details>
 
 91.When a link is __, it is automatically underlined and coloured red.
+
 A. Active
+
 B. visited
+
 C. unvisited
+
 D. It is red and underlined
 
-Answer:A
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
 
-HTML Table
+A
+
+</blockquote>
+</details>
 
 92.Which tag in HTML allows for the definition of a row?
+
 A. <tr>
+
 B. <row>
+
 C. <table-row>
+
 D. <tablerow>
 
-Answer:A
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+A
+
+</blockquote>
+</details>
+
 
 93.With the help of which tag, is a row defined in HTML?
+
 A. <tr>
+
 B. <row>
+
 C. <table-row>
+
 D. <tablerow>
 
-Answer:A
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
 
-94.The table's cells can be represented by _____
+A
+
+</blockquote>
+
+
+94.The table's cells can be represented by ________
+
 A. <tr>
+
 B. <td>
+
 C. <th>
+
 D. <thread>
 
-Answer:B
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
 
-Explanation:
+B
+
+</blockquote>
+
+<details>
+<summary><b>Explanation</b></summary>
+<blockquote>
+
 td stands for table data, we can represent each cell of the table by using <td>, at the end we used </td> tag. But some browsers by default draw the lines around table. <tr> is used to indicate start of every row i.e. it stands for table row. The header information is present in <th> tag. <thead> tag contains the group of header.
 
+
+
 95.Which of the following tags provides a table caption?
+
 A. <head>
+
 B. <caption>
+
 C. <heading>
+
 D. None of these
 
-Answer:B
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+B
+
+</blockquote>
+</details>
 
 96.What tags are associated with the table?
+
 A. <table>,<tr>,<tt>
+
 B. <table>,<tr>,<td>
+
 C. <table>,<head>,<tfoot>
+
 D. <thead>,<body>,<tr>
 
-Answer:B
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+B
+
+</blockquote>
+</details>
 
 
 
