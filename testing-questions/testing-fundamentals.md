@@ -87,6 +87,8 @@ Manual software testing is a process where human testers manually run test cases
   
 Software testing is generally classified into two main broad categories: functional testing and non-functional testing.
 
+![image](https://user-images.githubusercontent.com/70228962/195307040-d274cee8-d794-49c9-9081-e552c24d3096.png)
+
 <img src = "https://user-images.githubusercontent.com/70228962/195267678-4f17c0c7-71b7-4210-8ae9-7d1e4cc15af9.png" height = "300"/>
 
 </blockquote>
@@ -162,7 +164,105 @@ A mistake made by a programmer during coding is called an error, an error found 
 
 What is Defect/Bug Life Cycle in Software Testing?
 
+The Defect Life Cycle is also known as Bug Life Cycle. It is a process in which bug goes through different stages in its entire life.
 <img src = "https://user-images.githubusercontent.com/70228962/195288096-8cf86cdf-e93e-4da1-a7fe-7710ece088f6.png">
 
+ How can you use the test pyramid model to reduce the number of bugs that make their way into production?
+The test pyramid model is a way of thinking about the different types of tests that should be used when developing software. The idea is that there should be more low-level unit tests than higher-level integration tests. This is because unit tests can be run more quickly and cheaply, and they can be used to target specific parts of the code. By having more unit tests, you can find and fix bugs before they make their way into the integration tests and eventually into production.
+
+
+Q3. What is Code Coverage?
+Answer:
+
+Code coverage is a metric that determines the number of lines of code validated successfully by a testing process, which helps to analyze how software is verified in depth.
+
+
+Explain the states of Bug Lifecycle.
+
+New: When the defect or bug is logged for the first time it is said as New.
+Assigned: After the tester has logged a bug, his bug is being reviewed by the tester lead and then it is assigned to the corresponding developer team.
+Open: Tester logs a bug in the Open state and it remains in the open state until the developer has performed some task on that bug.
+Resolved/Fixed: When a developer has resolved the bug, i.e. now the application is producing the desired output for a particular issue, then the developer changes its status to Resolved/Fixed.
+Verified/Closed: When a developer has changed the status to resolved/fixed then the tester now tests the issue at its end and if it’s fixed then he changes the status of the bug to ‘Verified/Close’.
+Reopen: If a tester is able to reproduce the bug again i.e. the bug still exists even after fixing by the developer, it’s status is marked as Reopen.
+Not a bug/Invalid: A bug can be marked as invalid or not a bug by the developer when the reported issue is as per the functionality but is logged due to misinterpretation.
+Deferred: Usually when the bug is of minimal priority for the release and if there is lack of time, in that case, those minimal priority bugs are deferred to the next release.
+Cannot Reproduce: If the developer is unable to reproduce the bug at its end by following the steps as mentioned in the issue.
+
+
+ What is Automation testing?
+
+Answer: Automation testing is a testing methodology where an automation tool is used to execute the test cases suite in order to increase test coverage as well as speed to test execution. Automation testing does not require any human intervention as it executes pre-scripted tests and is capable of reporting and comparing outcomes with previous test runs.
+
+Repeatability, ease of use, accuracy, and greater consistency are some of the advantages of Automation testing.
+
+Some automation testing tools are listed below:
+
+Selenium
+Tellurium
+Watir
+SoapUI
+
+Accessibility Testing 
+Accessibility testing is the practice of ensuring your mobile and web apps are working and usable for users without and with disabilities such as vision impairment, hearing disabilities, and other physical or cognitive conditions. 
+
+Acceptance Testing 
+Acceptance testing ensures that the end-user (customers) can achieve the goals set in the business requirements, which determines whether the software is acceptable for delivery or not. It is also known as user acceptance testing (UAT).  
+
+Black Box Testing 
+Black box testing involves testing against a system where the code and paths are invisible. 
+
+End to End Testing 
+End to end testing is a technique that tests the application’s workflow from beginning to end to make sure everything functions as expected. 
+
+Functional Testing 
+Functional testing checks an application, website, or system to ensure it’s doing exactly what it’s supposed to be doing. 
+
+Interactive Testing 
+Also known as manual testing, interactive testing enables testers to create and facilitate manual tests for those who do not use automation and collect results from external tests.  
+
+Integration Testing 
+Integration testing ensures that an entire, integrated system meets a set of requirements. It is performed in an integrated hardware and software environment to ensure that the entire system functions properly.  
+
+Load Testing 
+This type of non-functional software testing process determines how the software application behaves while being accessed by multiple users simultaneously. 
+
+Non Functional Testing 
+Non functional testing verifies the readiness of a system according to nonfunctional parameters (performance, accessibility, UX, etc.)  which are never addressed by functional testing. 
+
+Performance Testing 
+Performance testing examines the speed, stability, reliability, scalability, and resource usage of a software application under a specified workload. 
+
+Regression Testing 
+Software regression testing is performed to determine if code modifications break an application or consume resources. 
+
+Sanity Testing 
+Performed after bug fixes, sanity testing determines that the bugs are fixed and that no further issues are introduced to these changes.  
+
+Security Testing 
+Security testing unveils the vulnerabilities of the system to ensure that the software system and application are free from any threats or risks. These tests aim to find any potential flaws and weaknesses in the software system that could lead to a loss of data, revenue, or reputation per employees or outsides of a company. 
+
+Single User Performance Testing 
+Single user performance testing checks that the application under test performs fine according to specified threshold without any system load. This benchmark can be then used to define a realistic threshold when the system is under load.  
+
+Smoke Testing 
+This type of software testing validates the stability of a software application, it is performed on the initial software build to ensure that the critical functions of the program are working. 
+
+Stress Testing 
+Stress testing is a software testing activity that tests beyond normal operational capacity to test the results. 
+
+Unit Testing 
+Unit testing is the process of checking small pieces of code to ensure that the individual parts of a program work properly on their own, speeding up testing strategies and reducing wasted tests. 
+
+White Box Testing 
+White box testing involves testing the product's underlying structure, architecture, and code to validate input-output flow and enhance design, usability, and security. 
+
+What is the order of testing?
+There are four main stages of testing that need to be completed before a program can be cleared for use: unit testing, integration testing, system testing, and acceptance testing.
+
+![image](https://user-images.githubusercontent.com/70228962/195306718-fbe82030-08e1-4ac8-9f85-0d6042feb5a4.png)
+
+What is Test Documentation?
+Test documentation is documentation of artifacts created before or during the testing of software. It helps the testing team to estimate testing effort needed, test coverage, resource tracking, execution progress, etc
 
 
