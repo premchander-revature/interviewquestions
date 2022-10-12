@@ -1,6 +1,8 @@
 
 1.What is HTML?
 
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
 A. Hyper Text Markup Language.
 
 B. Hi-Tech Markup language.
@@ -9,9 +11,17 @@ C. Hyper Text Makeup Language.
 
 D.None of the above.
 
-Answer:A.
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+A
+</blockquote>
+</details>
+
 
 2.Syntax for spellcheck attribute in an input field in html:
+
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
 A.<input type="text" spellcheck="value">
 
@@ -21,25 +31,49 @@ C.<input type="text" "value"=spellcheck>
 
 D.None of the above.
 
-Answer:A.
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+A
+</blockquote>
+</details>
+
 
 3.Using the <audio> and <video> elements, does HTML5 allow audio and video controls?
+
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
 A.True
 
 B.False
 
-Answer:True.
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+A
+</blockquote>
+</details>
+
 
 4.Cookies are used by HTML5 to store transient data.
+
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
 A.True
 
 B.False.
 
-Answer:False.
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+B
+</blockquote>
+</details>
+
 
 5.Doctype declaration in HTML5?
+
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
 A.<!DOCTYPE html>
 
@@ -49,16 +83,28 @@ C.<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml1
 
 D.None of the above.
 
-Answer: A.
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+A
+</blockquote>
+</details>
+
 
 6.HTML5 allows drag and drop option?
-True or False.
+
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
 A.True.
 
 B.False.
 
-Answer:True.
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+A
+</blockquote>
+</details>
 
 
 Explanation:<HTML>,<Body> , and <Head> can be omitted while writing HTML5 code.
@@ -66,6 +112,8 @@ Explanation:<HTML>,<Body> , and <Head> can be omitted while writing HTML5 code.
 Answer:D.
 
 7.Easy character encoding in HTML5?
+
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
 A.<meta charset="UTF-8">
 
@@ -75,9 +123,17 @@ C.<<meta charset”UTF-8″>
 
 D.None of the above.
 
-Answer: A
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+A
+</blockquote>
+</details>
+
 
 8.<figcaption> tag is used to?
+
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
 A.The <figcaption> tag in HTML5 is used to set a caption to the figure element in a document.
 
@@ -86,10 +142,17 @@ B.The <figcaption> tag in HTML is used to add self-contained content like illust
 C.The <figcaption> is used to provide autocomplete feature in the HTML files.
 
 D.None of the above.
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+A
+</blockquote>
+</details>
 
-Answer:A
 
 9.What is the use of <wbr> tag?
+
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
 A.The <wbr> tag in HTML stands for word break opportunity and is used to define the position within the text which is treated as a line break by the browser.
 
@@ -99,12 +162,23 @@ C.The <wbr> tag in HTML stands for Delineates the main content of the body of a 
 
 D.None of the above.
 
-Answer:A.
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+A
+</blockquote>
+<details>
+<summary> <b> Explanation </b> </summary>
 
-Explanation:It is mostly used when the used word is too long and there are chances that the browser may break lines at the wrong place for fitting the text.
+It is mostly used when the used word is too long and there are chances that the browser may break lines at the wrong place for fitting the text.
 
+</blockquote>
+</details>
+</details>
 
 10. Among the following, which browsers support HTML 5 ?
+
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
 A. Safari
 
@@ -114,220 +188,514 @@ C.Internet Explorer
 
 D.All of the above
 
-Answer:D
-
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+D
+</blockquote>
+</details>
 
 11.In addition to links, the _________ element may also include other interactive elements, such as the recently added command element.
 
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
 A.menu
+
 B.meter
+
 C.details
+
 D.progress
 
-Answer:A
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+A
+</blockquote>
+</details>
+
 
 12. What new form components are there in HTML 5 ?
+
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
 A. 2
+
 B. 3
+
 C. 4
+
 D. 5
 
-Answer:B
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+B
+</blockquote>
+</details>
+
 
 13. An article element contains ............
+
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
 A. Audio
+
 B.Image
+
 C.Text or embedded content
+
 D.None of the above
-Answer:C
+
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+C
+</blockquote>
+</details>
+
 
 14. All html5 tags must ..........
+
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
 A. Uppercase
+
 B.Lowercase
+
 C.Both Uppercase & Lowercase
+
 D.None of the above
 
-Answer:B
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+B
+</blockquote>
+</details>
+
 
 15. Which function was available prior to HTML5 ?
+
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
 A. Video
+
 B.Frames
+
 C.Canvas/SVG
+
 D.Geolocation
 
-Answer:B
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+B
+</blockquote>
+</details>
+
 
 16. Which tag is used with javascript?
+
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
 A. <table>
+
 B.<footer>
+
 C.<article>
+
 D.<canvas>
 
-Answer:D
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+D
+</blockquote>
+</details>
+
 
 17. What element in the following is used for styling HTML5 layout ?
+
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
 A. PHP
+
 B.CSS
+
 C.jQuery
+
 D.JavaScript
 
-Answer:D
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+D
+</blockquote>
+</details>
+
 
 18. What is the replacement for cookies in HTML5?
+
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
 A. Java scripts
+
 B.Local Storage
+
 C.Web beacons
+
 D.All of the above
 
-Answer:B
+
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+B
+</blockquote>
+</details>
+
 
 19. The html5 specification includes ...........
+
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
 A. Data storage
+
 B.Graphics APIs
+
 C.Other APIs for web apps
+
 D.All of the above
 
-Answer:D
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+D
+</blockquote>
+</details>
+
 
 20. The html5 specification does not includes ............
+
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
 A. Data storage
+
 B.Graphics APIs
+
 C.Networking
+
 D.Other APIs for web apps
 
-Answer:C
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+C
+</blockquote>
+</details>
+
 
 21. What element doesn't support the autofocus attribute?
 
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
 A. <input>
+
 B.<base>
+
 C.<select>
+
 D.None of the above
 
-Answer:B
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+B
+</blockquote>
+</details>
+
 
 22. Which of the following is one of the new input characteristics that HTML 5 introduced ?
+
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
 A. text
+
 B.date
+
 C.submit buttons
+
 D.checkbox controls
 
-Answer:B
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+B
+</blockquote>
+</details>
+
 
 23. Which of the following is not a HTML5 tag ?
+
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
 A. <track>
+
 B.<source>
+
 C.<slider>
+
 D.<video>
 
-Answer:C
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+C
+</blockquote>
+</details>
+
 
 24. Which of the following is not a HTML5 added form element ?
+
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
 A.<keygen>
+
 B.<output>
+
 C.<password>
+
 D.<datalist>
 
-Answer:C
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+C
+</blockquote>
+</details>
+
 
 
 25. Which of the following does not qualify as a semantic text element in HTML5 ?
+
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
 A. <wbr>
+
 B.<time>
+
 C.<mark>
+
 D.<article>
 
-Answer:D
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+D
+</blockquote>
+</details>
+
 
 26. Which of the following is not a html 5 element.
+
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
 A. article
+
 B.wrapper
+
 C.footer
+
 D.None of the above
 
-Answer:B
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+B
+</blockquote>
+</details>
+
 
 27. What is accurate about the HTML5 "video" tag?
 
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
 A. Ogg files with Thedora video codec and Vorbis audio codec are supported.
+
 B.HTML5 supports video tag which is used to embed a video file in an HTML or XHTML document.
+
 C.The current HTML5 draft specification does not specify which video formats browsers should support in the video tag.
+
 D.All of the above
 
-Answer:D
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+D
+</blockquote>
+</details>
+
 
 28. Which element was not removed by HTML5?
+
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
 A. <big>
+
 B.<small>
+
 C.<strike>
+
 D.<center>
 
-Answer:B
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+B
+</blockquote>
+</details>
+
 
 29. Which of the following is not a Boolean attribute?
+
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
 A. Novalidate
+
 B.Formtarget
+
 C.Formvalidate
+
 D.None of the above
 
-Answer:B
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+B
+</blockquote>
+</details>
+
 
 30. What are the most interesting new API's in HTML5?
 
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
 A. HTML Local Storage & HTML SSE
+
 B.HTML Drag and Drop & HTML Web Workers
+
 C.HTML Geolocation & HTML Application Cache
+
 D.All of the above
 
-Answer:D
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+D
+</blockquote>
+</details>
+
 
 31. Which element is used to get highlighted text in HTML5?
 
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
 A. <u>
+
 B.<b>
+
 C.<mark>
+
 D.<highlight>
 
-Answer:C
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+C
+</blockquote>
+</details>
+
 
 32.Which of the following are table tags?
+
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
 A. table, thead, tr, td
+
 B. table, tt, tr, td
+
 C. colspan, table, tr
+
 D. None of the Above
 
-Answer:A
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+A
+</blockquote>
+</details>
+
 
 
 33.Without the manifest attribute, it is not possible to cache a web page."
 
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
 
 A.True.
+
 B.False.
 
-Answer:A
-
-
-Explanation:A manifest attribute allows the data of the webpage to be stored in the cache of an application,
- which allows it to be accessible even in the absence of internet connectivity.
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+A
+</blockquote>
+<details>
+<summary> <b> Explanation </b> </summary>
+<blockquote>
+A manifest attribute allows the data of the webpage to be stored in the cache of an application,
+which allows it to be accessible even in the absence of internet connectivity.
+</blockquote>
+</details>
+</details>
 
 34.Name the 3 different types of lists in HTML.
 
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
 A.Ordered List or Numbered List (ol)
+
 B.Unordered List or Bulleted List (ul)
+
 C.Description List or Definition List (dl)
+
 D.All the above.
 
-Answer:D.
+<details>
+<summary> <b> Show Answer </b> </summary>
+D
+<blockquote>
 
 35.How Can we hyperlink a picture using HTML?
 
+![Easy](<https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg>)
+
 A.Using attribute <a>.
+
 B.Using attribute <g>.
+
 C.Using attribute <d>.
+
 D.None of the above.
 
-Answer:A
+<details>
+<summary> <b> Show Answer </b> </summary>
+<blockquote>
+D
+</blockquote>
+</details>
+
 
 The HTML <a> type attribute is used to create a hyperlink to web pages, files, locations on the same page. 
 We can make elements like images into links by nesting them within an <a> element. 
