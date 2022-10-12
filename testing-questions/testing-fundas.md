@@ -60,7 +60,8 @@ Manual software testing is a process where human testers manually run test cases
 - STLC stands Software Testing Life Cyle. 
 - STLC defines a series of activities performed during testing to ensure the quality of the software.
   
-![image](https://user-images.githubusercontent.com/70228962/195261473-9140741d-0315-405c-ac06-def823ea023d.png)
+<img src = "https://user-images.githubusercontent.com/70228962/195261473-9140741d-0315-405c-ac06-def823ea023d.png" height="42" width="42"/>
+  
 
   
 
