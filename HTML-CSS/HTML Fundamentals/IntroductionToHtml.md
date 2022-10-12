@@ -1,5 +1,3 @@
-INTRODUCTION TO HTML
-
 1.What does  HTML stand for?
 
 A.HyperText Markup Language
@@ -26,6 +24,7 @@ HTML stands for HyperText Markup Language.
 
 </blockquote>
 </summary>
+</details>
 </details>
 
 2.How many different header sizes are offered by default in HTML?
