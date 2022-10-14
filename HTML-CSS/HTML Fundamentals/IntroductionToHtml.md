@@ -76,7 +76,7 @@ C
 h6 is the smallest header HTML by default.
 
 </blockquote>
-</summary>
+</details>
 </details>
 
 4.What kinds of lists are there in HTML?
@@ -104,7 +104,7 @@ A
 The lists available in HTML are Ordered and Unordered List
 
 </blockquote>
-</summary>
+</details>
 </details>
 
 5.How can I make an HTML sorted list?
@@ -132,7 +132,7 @@ B
 An ordered list is created in HTML by using the <ol> tag
 
 </blockquote>
-</summary>
+</details>
 </details>
 
 6.HTML files are saved by default with the extension?
@@ -160,7 +160,7 @@ A
 HTML files are saved by the .html or .htm extension.
 
 </blockquote>
-</summary>
+ </details>
 </details>
 
 7.We enclose HTML tags within?
@@ -188,7 +188,7 @@ B
 HTML tags are enclosed within <> according to syntax.
 
 </blockquote>
-</summary>
+ </details>
 </details>
 
 8.What is the effect of the <b> tag?
@@ -216,7 +216,7 @@ A
 <b> is used to convert the text within it to bold font.
 
 </blockquote>
-</summary>
+ </details>
 </details>
 
 9.Which of the following is correct about HTML?
@@ -244,7 +244,7 @@ B
 HTML can only use the tags defined within the language 
 
 </blockquote>
-</summary>
+ </details>
 </details>
 
 10.How to display preformatted text in HTML?
@@ -272,7 +272,7 @@ B
 <pre> tags is used to handle preformatted text in HTML.
 
 </blockquote>
-</summary>
+</details>
 </details>
 
 11.Which of the following tags doesn't require a closing tag?
@@ -300,7 +300,7 @@ C
 Both the <hr> and the <br> tag doesn’t require a closing tag.
 
 </blockquote>
-</summary>
+</details>
 </details>
 
 12.What is meant by empty tag in HTML?
@@ -326,7 +326,7 @@ B
 In HTML,empty tags are those that don't require a closing tag for completion.
 
 </blockquote>
-</summary>
+</details>
 </details>
 
 13.What are the attributes used to change the size of an image?
@@ -352,7 +352,7 @@ A
 Width and height attributes are used to change the size of an image.
 
 </blockquote>
-</summary>
+</details>
 </details>
 
 14.Which attribute is used to provide a unique name to an HTML element?
@@ -378,7 +378,7 @@ A
 An id is used to provide a unique name for an HTML element that can be used to identify it.
 
 </blockquote>
-</summary>
+</details>
 </details>
 
 15.What is the function of the HTML style attribute?
@@ -406,7 +406,7 @@ A
 The HTML style attribute is used to add styles like font,color,and size to an HTML element.
 
 </blockquote>
-</summary>
+</details>
 </details>
 
 16.Which of the following is the correct syntax for using the HTML style attribute?
@@ -434,7 +434,7 @@ A
 The correct syntax for the style attribute is shown in otion A
 
 </blockquote>
-</summary>
+</details>
 </details>
 
 17.Which HTML element is used to define description data?
@@ -462,7 +462,7 @@ C
 Description data is defined by <dd> tag.
 
 </blockquote>
-</summary>
+</details>
 </details>
 
 18.Which of the following properties is used to change the font to text?
@@ -490,7 +490,7 @@ A
 The font-family property is used to change text font in HTML
 
 </blockquote>
-</summary>
+</details>
 </details>
 
 19.How are quotations defined in HTML?
@@ -516,7 +516,7 @@ C
 The <blockquote> tag is used to define a section that is quoted from another source.
 
 </blockquote>
-</summary>
+</details>
 </details>
 
 20.What tag is used to render an image on a webpage?
@@ -548,7 +548,7 @@ A
 The img tag is used to display an image on a webpage.
 
 </blockquote>
-</summary>
+</details>
 </details>
 
 21.Apart from <i> tag ,which of the following tag is used to render a text in italics?
@@ -574,7 +574,7 @@ A
 The <em> tag is used to emphasize text,which puts same effect <i> tag.
 
 </blockquote>
-</summary>
+</details>
 </details>
 
 22.What is the correct syntax to write an HTML comment?
@@ -602,7 +602,7 @@ A
 The Correct syntax of writing an HTML comment is <!Comment>
 
 </blockquote>
-</summary>
+</details>
 </details>
  
 23.Colours are defined in HTML using?
@@ -630,7 +630,7 @@ D
 Colours are defined using RGB,HEX,RGBA,HSLA values or with predefined 
 
 </blockquote>
-</summary>
+</details>
 </details>
 
 24.Which property is used to set colours in HTML?
@@ -658,7 +658,7 @@ A
 The color property is used to set and change colours in HTML.
 
 </blockquote>
-</summary>
+</details>
 </details>
 
 25.What are the types of unordered lists in HTML?
@@ -686,6 +686,6 @@ A
 The unordered lists in HTML can form bullets of form circle,square and disc.
 
 </blockquote>
-</summary>
+</details>
 </details>
 
