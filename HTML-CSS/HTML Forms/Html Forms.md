@@ -1,10 +1,10 @@
 1.Which tag create a check box for a form in HTML?
 
-a) <checkbox>
+a)<checkbox>
   
-b) <select>
+b)<select>
   
-c) <input type-“checkbox”>
+c)<input type-“checkbox”>
   
 d) None of the above
 
