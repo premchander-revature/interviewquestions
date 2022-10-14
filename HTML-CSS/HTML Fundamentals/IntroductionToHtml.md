@@ -51,7 +51,7 @@ D
 6 headers are available in HTML by default ranging from h1 to h6
 
 </blockquote>
-</summary>
+</details>
 </details>
 
 3.What is the default smallest header size for HTML?
