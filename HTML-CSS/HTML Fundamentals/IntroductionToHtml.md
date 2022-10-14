@@ -163,7 +163,7 @@ A
 HTML files are saved by the .html or .htm extension.
 
 </blockquote>
- </details>
+</details>
 </details>
 
 7.We enclose HTML tags within?
@@ -191,7 +191,7 @@ B
 HTML tags are enclosed within <> according to syntax.
 
 </blockquote>
- </details>
+</details>
 </details>
 
 8.What is the effect of the <b> tag?
@@ -498,13 +498,13 @@ The font-family property is used to change text font in HTML
 
 19.How are quotations defined in HTML?
 
-A.
+A.<a>
 
-B.
+B.<br>
 
-C.
+C.<q>
 
-D.
+D.None of the above 
 
 <details>
 <summary><b>Show Answer</b></summary>
