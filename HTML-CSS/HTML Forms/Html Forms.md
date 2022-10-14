@@ -344,8 +344,11 @@ A
 19. The tag for title text for rows and columns is
 
 a) <TD>
+  
 b) <TR>
+  
 c) <TH>
+  
 d) None of the above
 
 Answer : c
