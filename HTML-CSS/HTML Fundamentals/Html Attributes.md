@@ -1,4 +1,4 @@
-1.checked attribute is applied for ___________
+1.Checked attribute is applied for ___________
 
 a) Whether on page load element should be checked
 
@@ -175,9 +175,13 @@ C
   
 
 9.Which of the following is not a <form> tag attribute?
+  
 a) action
+  
 b) method
+  
 c) name
+  
 d) url
   
 <details>
