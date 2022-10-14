@@ -277,11 +277,15 @@ B. new line
 C. new paragraph
 
 D. vertical ruler
+  
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
 
+ A
+  
 </blockquote>
 </details>
-
-Answer: (a) horizontal ruler
 
 16.How can we display text with a scrolling effect using HTML?
 
@@ -392,7 +396,10 @@ D. <pre>
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-Answer:B
+B
+
+</blockquote>
+</details>
 
 22.If you have a mistake in your HTML code, the browser will:
 
@@ -404,8 +411,14 @@ C.Crash and need to be restarted
 
 D.Highlight that part of the Web page in red
 
-Answer:B
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
 
+B
+
+</blockquote>
+</details>
 
 23.Which of these HTML fragments would render differently from the others?
 
