@@ -57,8 +57,11 @@ D
 3.What is the default smallest header size for HTML?
 
 A.h1
+
 B.h2
+
 C.h6
+
 D.h4
 
 <details>
