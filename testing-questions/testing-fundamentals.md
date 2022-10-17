@@ -34,7 +34,6 @@ Some reasons:
 
 3. What is manual software testing, and how does it differ from automated software testing?
 
-
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
@@ -97,10 +96,24 @@ Software testing is generally classified into two main broad categories: functio
 ---
 
 What is meant by entry criteria and exit criteria?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+  
 Entry Criteria: Entry Criteria are a set of conditions that need to be satisfied in order to begin the test.
 Exit Criteria: Exit Criteria are a set of conditions that need to be satisfied in order to end the test.
 
 What is the purpose of the test closure phase?
+  
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+  
 Test closure activities have several purposes, such as to:
 
 Make sure testing is completed.
@@ -109,6 +122,12 @@ Hold retrospective meetings to review previous information and improve.
 
 What is the difference between SDLC and STLC?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote> 
+  
 Software Development Life Cycle (SDLC) is a process of software development, presented as a set of sequential phases such as:
 
 Planning
