@@ -246,3 +246,63 @@ Validation: It is a dynamic analysis technique where testing is done by executin
 </details>
   
 ---
+
+14. What is the difference between a feature and a bug?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+A feature is a functionality intended to be useful to the user. 
+A bug is a behavior, usually the result of an error in the implemented features.
+
+</blockquote>
+</details>
+  
+---
+
+15. Difference between Bug and Defect
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
++-------------------------------------------------------+---------------------------------------------------------------------------------------------------------+
+| BUG                                                   | DEFECT                                                                                                  |
++-------------------------------------------------------+---------------------------------------------------------------------------------------------------------+
+| A bug is a deviation from the customer’s requirement. | The functionality of an application not working as per the customer’s requirement is known as a defect. |
++-------------------------------------------------------+---------------------------------------------------------------------------------------------------------+
+| The bug is found by the testing team.                 | The defect is found by the development team.                                                            |
++-------------------------------------------------------+---------------------------------------------------------------------------------------------------------+
+| Reason Behind Bug:                                    | Reason Behind Defect:                                                                                   |
+|                                                       |                                                                                                         |
+| Missing Coding                                        | Giving wrong input may lead to a defect.                                                                |
+| Wrong Coding                                          | Any error in code may lead to a defect.                                                                 |
+| Extra Coding                                          |                                                                                                         |
++-------------------------------------------------------+---------------------------------------------------------------------------------------------------------+
+
+
+</blockquote>
+</details>
+  
+---
+
+16. What is error, defect, bug and failure?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+A mistake made by a programmer during coding is called an error, an error found during the unit testing in the development phase is called a defect, an error found during the testing phase is called a bug and when an error is found at an end user’s end is called as the failure.
+
+
+</blockquote>
+</details>
+  
+---
