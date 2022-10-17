@@ -272,21 +272,10 @@ A bug is a behavior, usually the result of an error in the implemented features.
 <blockquote>
 
  
-+-------------------------------------------------------+---------------------------------------------------------------------------------------------------------+
-| BUG                                                   | DEFECT                                                                                                  |
-+-------------------------------------------------------+---------------------------------------------------------------------------------------------------------+
-| A bug is a deviation from the customer’s requirement. | The functionality of an application not working as per the customer’s requirement is known as a defect. |
-+-------------------------------------------------------+---------------------------------------------------------------------------------------------------------+
-| The bug is found by the testing team.                 | The defect is found by the development team.                                                            |
-+-------------------------------------------------------+---------------------------------------------------------------------------------------------------------+
-| Reason Behind Bug:                                    | Reason Behind Defect:                                                                                   |
-|                                                       |                                                                                                         |
-| Missing Coding                                        | Giving wrong input may lead to a defect.                                                                |
-| Wrong Coding                                          | Any error in code may lead to a defect.                                                                 |
-| Extra Coding                                          |                                                                                                         |
-+-------------------------------------------------------+---------------------------------------------------------------------------------------------------------+
-
-
+| BUG                                                   | DEFECT                                                                                                  |    |
+|-------------------------------------------------------|---------------------------------------------------------------------------------------------------------|----|
+| A bug is a deviation from the customer’s requirement. | The functionality of an application not working as per the customer’s requirement is known as a defect. |    |
+| Reason Behind Bug - Missing/Wrong/Extra Coding        | Reason Behind Defect: Giving wrong input, any error in the code                                         | 
 </blockquote>
 </details>
   
