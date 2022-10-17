@@ -337,7 +337,6 @@ By having more unit tests, you can find and fix bugs before they make their way 
 ---
 
 19. What is Code Coverage?
-Answer:
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -370,7 +369,7 @@ Code coverage is a metric that determines the number of lines of code validated 
 - **Reopen:** If a tester is able to reproduce the bug again i.e. the bug still exists even after fixing by the developer, it’s status is marked as Reopen.
 - **Not a bug/Invalid:** A bug can be marked as invalid or not a bug by the developer when the reported issue is as per the functionality but is logged due to misinterpretation.
 - **Deferred:** Usually when the bug is of minimal priority for the release and if there is lack of time, in that case, those minimal priority bugs are deferred to the next release.
-- **Cannot Reproduce: **If the developer is unable to reproduce the bug at its end by following the steps as mentioned in the issue.
+- **Cannot Reproduce:** If the developer is unable to reproduce the bug at its end by following the steps as mentioned in the issue.
 
 </blockquote>
 </details>
