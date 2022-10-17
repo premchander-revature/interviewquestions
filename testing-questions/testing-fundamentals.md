@@ -129,3 +129,120 @@ Its required because it provides below functionalities
 </details>
   
 ---
+
+8. What is the difference between SDLC and STLC?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote> 
+  
+Software Development Life Cycle (SDLC) is a process of software development, with below phases
+- Planning
+- Analysis and Design
+- Implementation
+- Testing
+- Deployment and Maintenance
+
+We can say Software Testing Life Cycle is a part of the Software Development Life Cycle, and represents testing activities held within it.
+
+STLC defines a series of activities performed during testing to ensure the quality of the software with below phases:
+- Requirement Analysis
+- Test Planning
+- Test Case Development
+- Test Environment Setup
+- Test Execution
+- Test Closure
+
+</blockquote>
+</details>
+  
+---
+
+
+9. What is white box testing?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+White box testing is an approach that allows testers to inspect and verify the inner workings of a software system—its code, infrastructure, and integrations with external systems. 
+
+</blockquote>
+</details>
+  
+---
+
+10. What is black box testing ?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+Black Box Testing is an approach that allows testers to check the functionality of software without looking into its internal structure or coding. 
+
+For example, checking that it is possible to log in using correct user credentials, and not possible to log in using wrong credentials.
+
+</blockquote>
+</details>
+  
+---
+
+
+11. Which is “better” – white or black box testing?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+Neither – they are both necessary and complementary. 
+
+White box testing assures code functionality and makes later, higher level testing less time intensive. 
+
+Thorough black box testing enhances end user experience.
+
+</blockquote>
+</details>
+  
+---
+
+12. What are the differences between white box and black box testing?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+White box testing usually begins early in the development cycle. It is conducted at lower levels, and includes unit and integration testing.
+
+Black box testing is mainly higher level, as in system and acceptance testing, so implementation comes later in the development cycle.
+
+</blockquote>
+</details>
+  
+---
+
+13. What is Verification and Validation in Software Testing?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+Verification: It is a static analysis technique. Here, testing is done without executing the code. Examples include – Reviews, Inspection, and walkthrough.
+
+Validation: It is a dynamic analysis technique where testing is done by executing the code. Examples include functional and non-functional testing techniques.
+
+</blockquote>
+</details>
+  
+---
