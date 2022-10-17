@@ -296,3 +296,83 @@ A mistake made by a programmer during coding is called an error, an error found 
 </details>
   
 ---
+
+17. What is Defect/Bug Life Cycle in Software Testing?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+The Defect Life Cycle is also known as Bug Life Cycle. It is a process in which bug goes through different stages in its entire life.
+
+<img src = "https://user-images.githubusercontent.com/70228962/195288096-8cf86cdf-e93e-4da1-a7fe-7710ece088f6.png">
+
+</blockquote>
+</details>
+  
+---
+
+18. How can you use the test pyramid model to reduce the number of bugs that make their way into production?
+ 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+The test pyramid model is a way of thinking about the different types of tests that should be used when developing software. 
+
+The idea is that there should be more low-level unit tests than higher-level integration tests. 
+
+This is because unit tests can be run more quickly and cheaply, and they can be used to target specific parts of the code.
+
+By having more unit tests, you can find and fix bugs before they make their way into the integration tests and eventually into production.
+
+
+</blockquote>
+</details>
+  
+---
+
+19. What is Code Coverage?
+Answer:
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+Code coverage is a metric that determines the number of lines of code validated successfully by a testing process, which helps to analyze how software is verified in depth.
+
+</blockquote>
+</details>
+  
+---
+
+20. Explain the states of Bug Lifecycle.
+
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+- **New:** When the defect or bug is logged for the first time 
+- **Assigned:** Reviewing bug and assigning to the corresponding developer
+- **Open:** Tester logs a bug in the open state and it remains in the open state until the developer has performed some task on that bug.
+- **Resolved/Fixed**: When a developer has resolved the bug
+- **Verified/Closed:** When a developer has changed the status to resolved/fixed then the tester now tests the issue at its end and if it’s fixed then he changes the status of the bug to ‘Verified/Close’.
+
+- **Reopen:** If a tester is able to reproduce the bug again i.e. the bug still exists even after fixing by the developer, it’s status is marked as Reopen.
+- **Not a bug/Invalid:** A bug can be marked as invalid or not a bug by the developer when the reported issue is as per the functionality but is logged due to misinterpretation.
+- **Deferred:** Usually when the bug is of minimal priority for the release and if there is lack of time, in that case, those minimal priority bugs are deferred to the next release.
+- **Cannot Reproduce: **If the developer is unable to reproduce the bug at its end by following the steps as mentioned in the issue.
+
+</blockquote>
+</details>
+  
+---
