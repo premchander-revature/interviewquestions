@@ -375,3 +375,99 @@ Code coverage is a metric that determines the number of lines of code validated 
 </details>
   
 ---
+
+21. What is Automation testing?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+Automation testing is a testing methodology where an automation tool is used to execute the test cases suite in order to increase test coverage as well as speed to test execution. 
+
+Automation testing does not require any human intervention as it executes pre-scripted tests and is capable of reporting and comparing outcomes with previous test runs.
+
+Some automation testing tools are Selenium, Tellurium, SoapUI.
+
+</blockquote>
+</details>
+
+---
+
+22. What is meant by Acceptance Testing 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+Acceptance testing ensures that the end-user (can achieve the goals set in the business requirements, which determines whether the software is acceptable for delivery or not. 
+
+It is also known as user acceptance testing (UAT).  
+
+</blockquote>
+</details>
+
+---
+
+23. Tell about End to End Testing 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+End to end testing is a technique that tests the application’s workflow from beginning to end to make sure everything functions as expected. 
+
+</blockquote>
+</details>
+
+---
+
+24. Explain about Functional Testing 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+Functional testing checks an application, website, or system to ensure it’s doing exactly what it’s supposed to be doing. 
+
+</blockquote>
+</details>
+
+---
+
+25. What is purpose of Integration Testing 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+Integration testing ensures that an entire, integrated system meets a set of requirements. It is performed in an integrated hardware and software environment to ensure that the entire system functions properly. 
+
+</blockquote>
+</details>
+
+---
+
+26. What is Non Functional Testing?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+Non functional testing verifies the readiness of a system according to nonfunctional parameters (performance, accessibility, UX, etc.)  which are never addressed by functional testing. 
+
+</blockquote>
+</details>
+
+---
