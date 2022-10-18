@@ -471,3 +471,123 @@ Non functional testing verifies the readiness of a system according to nonfuncti
 </details>
 
 ---
+
+27. What is unit testing?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+Unit testing involves the testing of each unit or an individual component of the software application. It is the first level of functional testing.
+
+</blockquote>
+</details>
+
+---
+
+28. What we do in Performance Testing ?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+In Performance testing, we examine the speed, stability, reliability, scalability, and resource usage of a software application under a specified workload.
+
+</blockquote>
+</details>
+
+---
+
+
+29. What is Regression Testing ?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+Software regression testing is performed to determine if code modifications break an application or consume resources. 
+
+</blockquote>
+</details>
+
+---
+
+30. When we do Sanity Testing 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+Performed after bug fixes, sanity testing determines that the bugs are fixed and that no further issues are introduced to these changes.  
+
+</blockquote>
+</details>
+
+
+31. What is the order of testing?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+There are four main stages of testing that need to be completed before a program can be cleared for use: unit testing, integration testing, system testing, and acceptance testing.
+
+![image](https://user-images.githubusercontent.com/70228962/195306718-fbe82030-08e1-4ac8-9f85-0d6042feb5a4.png)
+
+</blockquote>
+</details>
+
+---
+
+32. What do you mean by Positive and Negative Testing?
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+Positive testing is used to determine what a system is supposed to do and is it justifying the planned requirement.
+
+Whereas negative testing helps in determining what the system should not perform, leading to finding the possible defects in the software.
+
+</blockquote>
+</details>
+
+---
+33. What is the traceability matrix?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+Traceability matrix is the document with the help of which the relationship between test cases and requirement specifications is shown. It helps to ensure transparency and completeness of the software testing products.
+
+</blockquote>
+</details>
+
+---
+
+34. How do severity and priority relate to each other?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+Severity: It represents the gravity/depth of a bug. It describes the application point of view.
+
+Priority: It specifies which bug should get fixed first. It defines the user’s point of view.
+</blockquote>
+</details>
+
+---
