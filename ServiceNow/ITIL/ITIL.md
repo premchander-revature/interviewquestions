@@ -6,7 +6,7 @@
   
 <blockquote>
   
-ITIL means Information Technology Infrastructure Library which is a framework that describe the best practices for delivering IT services. It helps organizations to achieve their goals with the best way to plan, manage and deliver.
+ITIL means Information Technology Infrastructure Library which is a framework that describes the best practices for delivering IT services. It helps organizations to achieve their goals with the best way to plan, manage and deliver.
 
 </blockquote>
   
@@ -22,7 +22,7 @@ ITIL means Information Technology Infrastructure Library which is a framework th
   
 <blockquote>
   
-In ITIL there are total 5 stages
+In ITIL, there are 5 stages:
 Service Strategy,
 Service Design,
 Service Transition,
@@ -35,7 +35,7 @@ Continual Service Improvement.
 
 ---
 
-3. Suppose you are building a mall how you will implement the ITIL stages in it?
+3. Suppose you are building a mall, how would you implement the ITIL stages in it?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -43,7 +43,7 @@ Continual Service Improvement.
   
 <blockquote>
   
-First, we will implement the service strategy state where we will plan which type of mall we want to build, what services we will provide in that mall, and what can be the main attraction for the customers in that mall. 
+First, we will implement the service strategy state where we will plan the type of mall we want to build, what services will we provide in that mall, and what can be the main attraction for the customers in that mall. 
 In service design, we will create an on-paper layout for the design. 
 In service transition, we will do the physical implementation of the design finalized in the service design stage. 
 In the service operation stage, we will monitor if the selling operation is executed without any errors and if all the products are properly packed. Following our observations, we discovered that if a product is not in high demand, removing it from the list and improving service quality through feedback will fall under the Continual Service Improvement stage.
@@ -55,7 +55,7 @@ In the service operation stage, we will monitor if the selling operation is exec
 
 ---
 
-4. What advantages we get from ITIL?
+4. What advantages do we get from ITIL?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -63,7 +63,7 @@ In the service operation stage, we will monitor if the selling operation is exec
   
 <blockquote>
   
-By using ITIL we can increase the customer satisfaction, it helps to create structure of an organization and improves the decision making process.
+By using ITIL, we can increase the customer satisfaction, helps to create the structure of an organization and improves the decision making process.
 
 </blockquote>
   
