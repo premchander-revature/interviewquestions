@@ -14,7 +14,7 @@ You may create a mobile-friendly self-service environment for your users with Se
 
 ---
 
-2. What are widgets in service portal?
+2. Is it possible to use CSS and JavaScript with Service Portal?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -22,7 +22,7 @@ You may create a mobile-friendly self-service environment for your users with Se
   
 <blockquote>
 
-Widgets are reusable components which make up the functionality of a portal page. Widgets define what a portal does and what information a user sees.
+Yes, it is possible to use CSS and JavaScript with Service Portal. You can either add the CSS and JavaScript directly to the Service Portal pages or you can create a widget that includes the CSS and JavaScript.
 
 </blockquote>
   
@@ -173,5 +173,7 @@ Widgets and Widget Instances are separate records and separate concepts. A Widge
 </details>
 
 ---
+
+
 
 
