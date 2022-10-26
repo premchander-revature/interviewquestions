@@ -144,7 +144,7 @@ In the transform event script we have 6 types. onStart, onComplete, onBefore, on
 
 10. How will you set the title field of a user record created by foreing record insert?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
   
