@@ -141,3 +141,37 @@ The server-side widget api includes GlideSPScriptable class and to access method
 </details>
 
 ---
+
+9. What tools can be used to monitor performance of service portal?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+We can use the performance analytics content pack. This enables us to improve user engagement with our portal by tracking the usage of the portal through preconfigured indicators.
+
+</blockquote>
+  
+</details>
+
+---
+
+10. What is the difference between page widget and instance in ServiceNow?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+Widgets and Widget Instances are separate records and separate concepts. A Widget is the code template used to display content in the portal. A Widget Instance is created when a Widget is added to a Page. Every time a Widget is added to a Page it creates a new Widget Instance
+
+</blockquote>
+  
+</details>
+
+---
+
+
