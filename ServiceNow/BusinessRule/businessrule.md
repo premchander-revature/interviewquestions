@@ -6,7 +6,7 @@
   
 <blockquote>
   
-The business rule is a server-side script that launches whenever a table is queried, or whenever a record is displayed, inserted, updted or deleted.
+The business rule is a server-side script that launches whenever a table is queried, or whenever a record is displayed, inserted, updated or deleted.
 
 </blockquote>
   
@@ -46,7 +46,7 @@ Before business rule is triggered when a user submits the form, but before any a
 
 ---
 
-4. When does after business rule triggers?
+4. When does after business rule trigger?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -54,7 +54,7 @@ Before business rule is triggered when a user submits the form, but before any a
   
 <blockquote>
   
-When a user submits the form and any action is taken on the database record, then the after business rule is triggered.
+When a user submits the form and any action is taken on the database record, then the after business rule is triggers.
 
 </blockquote>
   
