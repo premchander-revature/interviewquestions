@@ -174,6 +174,21 @@ Widgets and Widget Instances are separate records and separate concepts. A Widge
 
 ---
 
+11. Which type of relationship widget controllers have if multiple widgets are present on the page?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+In most of the cases the widget controllers act as siblings. but in the case where one widget is embedded inside other they have paren child relationship.
+
+</blockquote>
+  
+</details>
+
+---
 
 
 
