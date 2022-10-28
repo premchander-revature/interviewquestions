@@ -495,3 +495,18 @@ When an argument is passed as a `ref`, it must be initialized before it can be p
 
 ---
 
+27. What is meant by garbage collection in C#?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+In C#, garbage collection is the process of managing memory in an application. The garbage collector automatically disposes of memory that is no longer used to make memory available for new allocations.
+
+</blockquote>
+
+</details>
+    
+---
