@@ -764,3 +764,20 @@ STLC defines a series of activities performed during testing to ensure the quali
 </details>
   
 ---
+
+44. What is `V-Model` in Software Testing?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- The V-model provides guidance that testing needs to begin as early as possible in the software development life cycle.
+- The V-model is a model that illustrates how testing activities (verification and validation) can be integrated into each phase of the life cycle.
+- Within the V-model, validation testing takes place especially during the early stages.
+
+![V-model](https://user-images.githubusercontent.com/110081175/199331199-55c5e2b4-e48b-449a-9cdc-24e137bd60d5.PNG)
+
+</blockquote>
+</details>
