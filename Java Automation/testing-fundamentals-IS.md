@@ -83,7 +83,7 @@ Some reasons:
 
 6. What is meant by `STLC`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -147,7 +147,7 @@ Some reasons:
 
 9. What is meant by `Entry Criteria` and `Exit Criteria` in software testing? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -162,9 +162,10 @@ The entry and exit criteria for the test are closely related to the purpose and 
 </details>
   
 ---
+
 10. What is the `Test Closure` and Why its needed?
   
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -248,7 +249,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 14.  Which is better – White or Black Box Testing?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -265,7 +266,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 15. Which one comes first White Box or Black Box Testing?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -281,7 +282,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 16. What is `Verification` and `Validation` in Software Testing?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -313,7 +314,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 18. Difference between Bug and Defect?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -329,9 +330,9 @@ STLC defines a series of activities performed during testing to ensure the quali
   
 ---
 
-19. Distinguish betweeing `Error`, `Defect`, `Bug` and `Failure`?
+19. Distinguish between `Error`, `Defect`, `Bug` and `Failure`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -350,7 +351,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 20.  What is Defect/Bug Life Cycle in Software Testing?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -367,7 +368,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 21. How can you use the `Test Pyramid Model` to reduce the number of bugs that make their way into production?
  
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -400,7 +401,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 23. What are Automation Testing tools?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -434,7 +435,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 25. What is End to End (E2E) Testing? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -466,13 +467,13 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 27. Why Non Functional Testing is essential?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-- Non functional testing verifies the readiness of a system according to nonfunctional parameters (performance, accessibility, UX, etc.)  which are never addressed by functional testing. 
+- Non functional testing verifies the readiness of a system according to nonfunctional parameters (performance, accessibility, UX, etc.) which are never addressed by functional testing. 
 
 </blockquote>
 </details>
@@ -531,7 +532,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 31. When we do `Sanity Testing` 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -542,6 +543,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 </blockquote>
 </details>
 
+---
 
 32. What is common sequence or order of Testing?
 
@@ -561,6 +563,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 ---
 
 33. What do you mean by `Positive and Negative Testing`?
+    
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
@@ -575,9 +578,9 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 ---
 
-34. What is `Requirements Traceability Matrix (RTM)`?
+1.  What is `Requirements Traceability Matrix (RTM)`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -628,7 +631,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 37.  Provide key difference between Priority and Severity of Defects in Software Testing?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -649,7 +652,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 38. How Priority and Severity Metrix help to decide impact of defects in Software Testing?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -659,7 +662,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 - Usually, impact is not expressed in absolute terms, but rather a range/degree that is subject to the interpretation of company's business context like impact to customers, revenue, systems, services etc. 
 - It can be Enterprise-wide, extensive/widespread, moderate/multi-user or individual/single user.
 
-<Image>
+![Priority   Severity Matrix](https://user-images.githubusercontent.com/110081175/199326650-97cbac8d-75e3-448e-bcd8-27d9bf642bb3.png)
 
 </blockquote>
 </details>
@@ -754,8 +757,8 @@ STLC defines a series of activities performed during testing to ensure the quali
   - when a member of the project team completes some assigned task related to closing an incident report. 
   - when the project team decides not to repair a defect during this project, leading to the deferral of the incident report. 
   - when an incident report is poorly written or describes behavior which is actually correct, leading to the rejection of that report.
-
-<Image>
+ 
+![Incident Report Life Cycle](https://user-images.githubusercontent.com/110081175/199326542-fa767018-4410-4438-a2ad-a23d284031d8.PNG)
 
 </blockquote>
 </details>
