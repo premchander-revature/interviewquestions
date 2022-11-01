@@ -815,4 +815,20 @@ Whereas if a method is overridden then the implementation to be called is based 
 </details>
 
 ---
+    
+41. Can "this" be used within a static method?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>
+    
+We can't use `this` in static method because keyword this returns a reference to the current instance of the class containing it. Static methods (or any static member) do not belong to a particular instance. They exist without creating an instance of the class and call with the name of a class not by instance so we can't use this keyword in the body of static Methods, but in case of Extension Methods we can use it as the functions parameters.
+
+</blockquote>
+
+</details>
+    
+---
+    
