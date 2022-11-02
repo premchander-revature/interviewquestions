@@ -578,7 +578,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 ---
 
-1.  What is `Requirements Traceability Matrix (RTM)`?
+34.  What is `Requirements Traceability Matrix (RTM)`?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
