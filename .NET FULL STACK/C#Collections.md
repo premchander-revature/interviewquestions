@@ -49,9 +49,13 @@ There are 3 ways to work with collections. The three namespaces are
 The Non-Generic collection classes in C# are defined under `System.Collections`classes which are operate on objects, and hence can handle any type of data, but not in a safe-type manner. The `System.Collections` namespace contains the following classes:
 
 **ArrayList**: It Implements the `System.Collections.IList` interface using an array whose size is dynamically increased as required.
+
 **Stack**: It represents a simple last-in-first-out (LIFO) non-generic collection of objects.
+
 **Queue**: It represents a first-in, first-out collection of objects.
+
 **Hashtable**: It represents a collection of key/value pairs that are organized based on the hash code of the key.
+
 **SortedList**:  It represents a collection of key/value pairs that are sorted by the keys and are accessible by key and by index.
 
 </blockquote>
@@ -71,13 +75,21 @@ The Non-Generic collection classes in C# are defined under `System.Collections`c
 It provides a generic implementation of standard data structures like linked lists, stacks, queues, and dictionaries. These collection classes are type-safe because they are generic means only those items that are type-compatible with the type of the collection can be stored in a generic collection, it eliminates accidental type mismatches. The `System.Collections.Generic` namespace has the following classes:
 
 `List<T>`: It represents a strongly typed list of objects that can be accessed by index. Provides methods to search, sort, and manipulate lists.
+
 `Stack<T>`: It represents a variable size last-in-first-out (LIFO) collection of instances of the same specified type.
+
 `Queue<T>`: It represents a first-in, first-out collection of objects.
+
 `HashSet<T>`: It represents a set of values. It removes duplicate elements from the collection.
+
 `Dictionary<TKey, TValue>`: It represents a collection of keys and values.
-`SortedList<TKey, TValue>`: It represents a collection of key/value pairs that are sorted by key based on the associated System.Collections.Generic.IComparer implementation.
+
+`SortedList<TKey, TValue>`: It represents a collection of key/value pairs that are sorted by key based on the associated `System.Collections.Generic.IComparer` implementation.
+
 `SortedSet<T>`: It represents a collection of objects that are maintained in sorted order.
+
 `SortedDictionary<TKey, TValue>`: It represents a collection of key/value pairs that are sorted on the key.
+
 `LinkedList<T>`: It represents a doubly linked list.
 
 </blockquote>
@@ -97,9 +109,13 @@ It provides a generic implementation of standard data structures like linked lis
 It provides various threads-safe collection classes that are used in place of the corresponding types in the `System.Collections` and `System.Collections.Generic` namespaces, when multiple threads are accessing the collection simultaneously. The `System.Collections.Concurrent` namespace provides classes for thread-safe operations. Now multiple threads will not create problems for accessing the collection items. The `System.Collections.Concurrent` namespace has the following classes:
 
 `BlockingCollection<T>`: It provides blocking and bounding capabilities for thread-safe collections that implement `System.Collections.Concurrent.IProducerConsumerCollection`.
+
 `ConcurrentBag<T>`: It represents a thread-safe, unordered collection of objects.
+
 `ConcurrentStack<T>`: It represents a thread-safe last-in-first-out (LIFO) collection.
+
 `ConcurrentQueue<T>`: It represents a thread-safe first-in-first-out (FIFO) collection.
+
 `ConcurrentDictionary<TKey, TValue>`: It represents a thread-safe collection of key/value pairs that can be accessed by multiple threads concurrently.
 
 </blockquote>
@@ -116,7 +132,8 @@ It provides various threads-safe collection classes that are used in place of th
 
 <blockquote> 
 
-The ArrayList collection in C# is very much similar to the Arrays data type. The major difference between them is the **dynamic nature** of the non-generic collection ArrayList. For arrays, we need to define the size i.e. the number of elements that the array can hold at the time of array declaration. But in the case of the ArrayList collection in C#, this does not need to be done beforehand. Elements can be added or removed from the Array List collection at any point in time.
+- The ArrayList collection in C# is very much similar to the Arrays data type. The major difference between them is the **dynamic nature** of the non-generic collection ArrayList. 
+- For arrays, we need to define the size i.e. the number of elements that the array can hold at the time of array declaration. But in the case of the ArrayList collection in C#, this does not need to be done beforehand. Elements can be added or removed from the Array List collection at any point in time.
 
 </blockquote>
 
@@ -160,7 +177,7 @@ The Hashtable computes a hash code for each key. Then it uses that hash code to 
 
 ---
 
-9. How Actually the Hashtable works in C#?
+9. How actually the Hashtable works in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -178,7 +195,7 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 
 ---
 
-10. Can you differentiate ArrayList and Hashtable in C#:
+10. Can you differentiate ArrayList and Hashtable in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
