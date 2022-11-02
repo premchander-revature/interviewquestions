@@ -510,3 +510,60 @@ In C#, garbage collection is the process of managing memory in an application. T
 </details>
     
 ---
+
+28. What is Stream?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+    
+A stream is a sequence of bytes traveling from a source to a destination over a communication path. There are two main streams: the input stream and the output stream. The input stream is used for reading data from the file (read operation) and the output stream is used for writing into the file (write operation). There are two types of streams are used:
+
+- **Input stream**: This stream is used to read data from a file, which is known as a read operation.
+- **Output stream**: This stream is used to write data into a file, which is known as a write operation.
+
+</blockquote>
+
+</details>
+
+---
+
+29. Can you brief us on `System.IO` namespace in C#?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+In C#, the `System.IO` namespace contains the required classes which are used to handle the input and output streams and also provide information about file and directory structure. The parent class of file processing is Stream. Stream is an abstract class, which is used as the parent of the classes that actually implement the necessary operations.
+
+**Note**:The FileIno, DirectoryInfo, and DriveInfo classes have instance methods. File, Directory, and Path classes have static methods.
+
+</blockquote>
+
+</details>
+
+---
+
+30. What is FileStream Class in C#?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+- The FileStream class in C# provides a stream for file operations. It can be used to perform both synchronous and asynchronous read and write operations. With the help of FileStream class, we can easily read and write data into files.
+
+- In order to use FileStream class in C#, first of all, we need to include the System.IO namespace and then we need to create an instance of the FileStream object to create a new file or open an existing file.
+
+</blockquote>
+
+</details>
+
+---
+
+
