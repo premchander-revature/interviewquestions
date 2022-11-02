@@ -781,3 +781,255 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 </blockquote>
 </details>
+
+---
+
+45. What do you understand by Tester Mindset?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- A mindset reflects an individual's assumptions and preffered methods for decision making and problem solving.
+- A tester’s mindset should include curiosity, professional pessimism, a critical eye, attention to detail, and a motivation for good and positive communications and relationships. 
+- A tester’s mindset tends to grow and mature as the tester gains experience. 
+
+</blockquote>
+</details>
+
+---
+
+46. What do you understand by Developer Mindset?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- The primary objective of developer's is to design and build a product.
+- A developer’s mindset may include some of the elements of a tester’s mindset, but successful developers
+are often more interested in designing and building solutions than in contemplating what might be wrong
+with those solutions. 
+
+</blockquote>
+</details>
+
+---
+
+47.  What is the relation between Tester’s and Developer’s Mindsets ?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- Developers and testers often think differently. 
+- Devloper's objective is to design and build a product, while Tester's objectives include verifying and validating the product, finding defects prior to release, and so forth. 
+- These are different sets of objectives which require different mindsets. 
+- Bringing these mindsets together helps to achieve a higher level of product quality.
+
+</blockquote>
+</details>
+
+---
+
+48. Developers are able to test their own code using TDD, then why Testers are needed?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- With the right mindset, developers are able to test their own code.
+- The separation of this responsibility to a tester is typically done to help focus effort and provide additional benefits, such as an independent view by trained and professional testing resources.
+
+</blockquote>
+</details>
+
+---
+
+49. What is the significance of Test Plan?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- Test Plan is written by Senior/Lead QA which includes details related to testing i.e. how to test, features to be tested, types of testing. 
+- Test Plan is derived from Software Requirement Specification (SRS). 
+- Test Plan contains the following:
+  - Objective
+  - Test Environments
+  - Features In/Out Scope
+  - Entry/Exit Criteria
+  - Types of testing
+  - Status
+
+
+</blockquote>
+</details>
+
+---
+
+50. What is the significance of Test Strategy?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- Test Strategy is written at a high-level mostly by QA Manager which defines the approach of testing. 
+- Test Strategy is derived from the Business Requirement Document, it basically sets the standards for testing. 
+- Test Strategy contains the following:
+  - Scope
+  - Business Challenges
+  - Testing approaches
+  - Test deliverables
+  - Bug tracking approaches
+  - Automation
+  - Risks
+
+</blockquote>
+</details>
+
+---
+
+51. What is the importance of Test Results in STLC?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- Test results are the outcome of the whole process of STLC. 
+- Test results offer an insight into the deliverables of a software.
+- They are significant in representing the status of the project to the stakeholders.
+
+</blockquote>
+</details>
+
+---
+
+52. What is the meaning of Test Case?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- Test Case is a specification that consists of test data, pre-conditions, post-conditions and expected results that are developed for a specific test scenario.
+- Test Case define a single test to be executed to achieve a particular software testing objective, such as to exercise a particular program path or to verify compliance with a specific requirement.
+  
+</blockquote>
+</details>
+
+---
+
+53. What is the meaning of Test Suite?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- It is a collection of test cases, that are aimed at testing a software application to detect that the application adheres to the requirement specifications.
+- It basically consists of a detailed set of instructions to attain a common goal.
+  
+</blockquote>
+</details>
+
+---
+
+53. What are Defect Reports?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- Defect reports provide information about defects that are related to a test plan, the status of those defects, and trends in those defects over time.
+- Defect reports answer the following questions:
+  - What defects are associated with this test plan and what is the status of those defects?
+  - How are we doing on finding and fixing defects?
+  
+</blockquote>
+</details>
+
+---
+
+53. What is Test Documentation? or What are Test Documents?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- Test Documentation or Test Documents is a complete suite of documents that allows us to describe and document test planning, test design, test execution, test results that are drawn during software testing.
+- Few Test Documents Names:
+  - Test Strategy
+  - Test Plan
+  - Requirements Traceability Matrix
+  - Test Scenario
+  - Test Case
+  - Defect Report
+  
+</blockquote>
+</details>
+
+---
+
+53. What do you understand by Test Scenarios?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- Test Scenarios is a document that defines the multiple ways/combinations of testing the application. 
+- It is prepared to understand the flow of an application. 
+- It does not consist of any inputs and navigation steps.
+  
+</blockquote>
+</details>
+
+---
+
+54. Name few parameters monitored during Performance Testing.
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Few parameters which are monitored during Performance Testing are listed below:
+
+- Processor Usage – an amount of time processor spends executing non-idle threads.
+- Memory use – amount of physical memory available to processes on a computer.
+- Disk time – amount of time disk is busy executing a read or write request.
+- Bandwidth – shows the bits per second used by a network interface.
+- Response time – time from when a user enters a request until the first character of the response is received.
+- Throughput – rate a computer or network receives requests per second
+- Amount of connection pooling – the number of user requests that are met by pooled connections. The more requests met by connections in the pool, the better the performance will be.
+- Maximum active sessions – the maximum number of sessions that can be active at once.
+- Database locks – locking of tables and databases needs to be monitored and carefully tuned.
+- Thread counts – An applications health can be measured by the no. of threads that are running and currently active.
+- Garbage collection – It has to do with returning unused memory back to the system. Garbage collection needs to be monitored for efficiency.
+  
+</blockquote>
+</details>
+
+---
