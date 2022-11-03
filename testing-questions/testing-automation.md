@@ -93,6 +93,20 @@ Selenium is an open-source automated testing framework for validating web applic
   
 ---
 
+5. Can selenium be used to launch web browsers?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+Yes, using selenium webdriver.
+
+</blockquote>
+</details>
+  
+---
 
 
 
