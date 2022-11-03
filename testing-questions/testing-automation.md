@@ -108,5 +108,38 @@ Yes, using selenium webdriver.
   
 ---
 
+6. Why do yiu need Selenium Automation Testing?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+Let's consider a  scenario: Checking whether the web app’s signup page (www.example.com/signup) validates input strings and registers a user successfully.
+
+Assume that the signup page has these input fields—username, email address, and password. 
+
+As a manual tester, we need to follow these steps:
+
+1. Enter the URL in the address bar (www.example.com/signup)
+2. Enter an invalid string in each input field (email, username, and password)
+3. Check whether the input strings were validated against corresponding regexes and any pre-existing values in the database
+4. Enter _valid_ strings in each input field; click Sign Up
+5. Check whether _Welcome, {username}_ page showed up
+6. Check whether the system database created a new userID for _{username}_
+7. Mark the test _passed_ if it did, _failed_ if the signup feature broke anywhere during the test.
+
+Depending on the number of manual testers (and thoroughness of test cases), it may take anywhere between hours to weeks to be sure that the web app is fully functional.
+
+Modern developers and product teams don’t have that kind of time to allot for testing, but they can’t set aside exhaustive testing in a hurry to release either. 
+
+This is why we go for automation testing with Selenium.
+
+</blockquote>
+</details>
+  
+---
+
 
 
