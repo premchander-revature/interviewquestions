@@ -79,10 +79,10 @@ Selenium is an open-source automated testing framework for validating web applic
 - **Selenium Client API** - Support for writing Selenium in various languages.
 - **Selenium Remote Control** - Server that allows for running web application written in those various languages.
 - **Selenium Grid** - A server that can test using multiple machines running in parallel.
-		- Beneficial for scaling your application across multiple browsers/OSs.
+	- Beneficial for scaling your application across multiple browsers/OSs.
 - **Selenium IDE** - Plugin used to set up testing scripts and offer record-and-playback automation functionality.
 - **Selenium WebDriver** - A Serverless way to execute your scripts. The heart of Modern Selenium. Starts a browser and controls it.
-		- Each type of browser has its own Selenium WebDriver.
+	- Each type of browser has its own Selenium WebDriver.
 		- chromedriver	->	Google Chrome
 		- geckodriver	->	Mozilla Firefox
 		- edgedriver	->	Microsoft Edge
