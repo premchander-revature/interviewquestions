@@ -141,5 +141,264 @@ This is why we go for automation testing with Selenium.
   
 ---
 
+7. List the steps to perform a test through Selenium?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+1. Download browser drivers
+2. Create a WebDriver instance.
+3. Navigate to a webpage.
+4. Locate a web element on the webpage via locators in selenium.
+5. Perform one or more user actions on the element.
+6. Preload the expected output/browser response to the action.
+7. Run test.
+8. Record results and compare results from them to the expected output.
+9. Close the WebDriver
+
+</blockquote>
+</details>
+  
+---
+
+8. How do you navigate to a particular webpage URL?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+To navigate to a particular webpage URL, one can use either of the following commands:
+
+- Using get method: 
+	
+```java
+driver.get (“https://www.example.com”) ;
+```	
+	
+- Using the navigate method
+
+```java
+driver.navigate().to("https://www.example.com/signup");
+```
+	
+</blockquote>
+</details>
+  
+---
+
+9. How can I move to a page in the browser history in selenium?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+The forward command navigates the browser forward by one page recorded in the browsing history.
+
+```java
+driver.navigate().forward();
+```
+	
+</blockquote>
+</details>
+  
+---
+
+10. How can I go back to the previous page in selenium?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+The back command instructs the browser to redirect to the immediate previous webpage.
+
+```java
+driver.navigate().back();
+```
+	
+</blockquote>
+</details>
+  
+---
+
+11. How can I reload a page using selenium?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+The Refresh command instructs the browser to reload or refresh the current web page.
+
+```java
+driver.navigate().refresh();
+```
+
+</blockquote>
+</details>
+  
+---
+
+12. What are Locators in Selenium? List the types of locators.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+A locator enables testers to select an HTML DOM element to act on. Some of the different locators are:
+
+|        Method        |                        Syntax                       |                  Description                 |
+|:--------------------:|:---------------------------------------------------:|:--------------------------------------------:|
+| By ID                | driver.findElement(By.id (<element ID>))            | Locates an element using the ID attribute    |
+| By name              | driver.findElement(By.name (<element name>))        | Locates an element using the Name attribute  |
+| By class name        | driver.findElement(By.className (<element class>))  | Locates an element using the Class attribute |
+| By tag name          | driver.findElement(By.tagName (<htmltagname>))      | Locates an element using the HTML tag        |
+| By link text         | driver.findElement(By.linkText (<linktext>))        | Locates a link using link text               |
+| By partial link text | driver.findElement(By.partialLinkText (<linktext>)) | Locates a link using the link's partial text |
+| By CSS               | driver.findElement(By.cssSelector (<css selector>)) | Locates an element using the CSS selector    |
+| By XPath             | driver.findElement(By.xpath (<xpath>))              | Locates an element using XPath query         |
+
+</blockquote>
+</details>
+  
+---
+
+13. Consider the following form and tell me how we can locate the input elements.
+```html
+<form id="loginForm">
+	<input name="name" type="text" value="Name" />
+	<input name="email" type="text" value="Email" />
+</form>
+```
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+Using the `driver.findElement(By.name (<element name>))` method, we can locate the `name` and `email` form element.
+	
+```java
+email_input = driver.findElement(By.name("email"))
+name_input = driver.findElement(By.name("name"))
+``` 	
+
+</blockquote>
+</details>
+  
+---
+
+14. Consider the following form and tell me how we can locate the input elements.
+```html
+<form id="loginForm">
+	<input name="name" type="text" value="First Name" />
+	<input name="name" type="text" value="Last Name" />
+</form>
+```
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+If we can locate by name, we able to only locate first name not the last name. Also, we can't locate first name and last name by by ID or class. So, we can locate these elements through its XML path.  
+	
+We will use the `driver.findElement(By.xpath (<xpath>))` method to locate an appropriate element in the document. 
+	
+The following code first searches for a form with the ID login form and then selects the form’s first and second input elements as the first and last names.
+
+```java
+first_name = driver.findElement(By.xpath ("//form[@id='loginForm']/input[1]"))
+last_name = driver.findElement(By.xpath ("//form[@id='loginForm']/input[2]"))
+```
+
+</blockquote>
+</details>
+  
+---
+
+15. How can I get all the elements in the HTML DOM?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+The `findElementsBy()` method helps in finding multiple elements in the DOM structure.
+
+For example, to find all input elements of a form with ID loginForm, we use: 
+	
+```java
+List<WebElement> inputs = driver.findElementsBy(By.id("loginForm"));
+```
+	
+</blockquote>
+</details>
+  
+---
+
+16. What is HTML Source?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+HTML Source refers to the HTML code underlying a certain web element on a web page.
+
+</blockquote>
+</details>
+  
+---
+
+17. What is a Web Element?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+- Anything that appears on a web page is a web element. Also, web elements mean the tags within the web page’s HTML code.
+- Web element refers to text boxes, checkboxes, buttons, or any other fields that display or require data from the user. Such elements usually have unique identifiers, such as ID, name, or unique classes. 
+
+</blockquote>
+</details>
+  
+---
+
+18. `FindElement()` vs `FindElements()`
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+| Find Element                                                                                      | Find Elements                                                                    |
+|---------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| Returns the first most web element if there are multiple web elements found with the same locator | Returns a list of web elements                                                   |
+| Throws exception NoSuchElementException if there are no elements matching the locator strategy    | Returns an empty list if there are no web elements matching the locator strategy |
+| Find element by XPath will only find one web element                                              | It will find a collection of elements whose match the locator strategy.          |
+| Not Applicable                                                                                    | Each Web element is indexed with a number starting from 0 just like an array     |
+| Example: driver.findElement(By.id("no"))                                                          | Example: List elements = driver.findElements(By.name("name"));                   |
+
+</blockquote>
+</details>
+  
+---
