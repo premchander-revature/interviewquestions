@@ -402,3 +402,55 @@ HTML Source refers to the HTML code underlying a certain web element on a web pa
 </details>
   
 ---
+	
+19. What is XPath in Selenium?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+XPath, also known as XML Path, used to locate any element in a web page using its tag name, ID, CSS class, and so on.
+	
+The basic format of XPath in Selenium is explained below.
+```
+XPath = //tagname[@Attribute=’Value’]
+```
+	
+Here,
+
+- `//`: denotes the current node
+- `tagname`: denotes the tagname of the current node
+- `@`: is the Select attribute
+- `Attribute`: denotes the attribute of the node
+- `Value`: denotes the value of the chosen attribute
+
+</blockquote>
+</details>
+  
+---
+	
+20. What are the types of XPath in Selenium?
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+There are two types of XPath in Selenium.
+
+1. **Absolute XPath** 
+	- It starts with a single slash `/`
+	- Provides the entire path starting from the root node
+	- Example: `/html//div/div/div/div[1]/div/a/img`
+2. **Relative XPath** 
+	- It starts with double slash `\\`
+	- Here XPath expression starts from the middle of the DOM structure denoting the current node.
+	- Example: `//img[@alt='LambdaTest']`
+
+</blockquote>
+</details>
+  
+---	
