@@ -369,3 +369,28 @@ HTTP Status Code:
 </details>
 
 ---
+    
+20. What is HATEOAS in REST?
+    
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>
+
+HATEOAS stand for Hypermedia As The Engine Of Application State. It provides links to resources so that client does not have to manually bookmark the links. Below is an example.
+    
+```JS
+{
+"id":1,
+"message":"Hello World",
+"author":"Dhiraj",
+"href":"/messages/1"
+}
+```
+
+</blockquote>
+
+</details>
+
+---
