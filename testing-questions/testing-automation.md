@@ -68,31 +68,6 @@ Selenium is an open-source automated testing framework for validating web applic
   
 ---
 
-4. What are the Selenium suite components?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
-<details>
-<summary><b>Show Answer</b></summary>
-<blockquote>
-
-- **Selenium Client API** - Support for writing Selenium in various languages.
-- **Selenium Remote Control** - Server that allows for running web application written in those various languages.
-- **Selenium Grid** - A server that can test using multiple machines running in parallel.
-	- Beneficial for scaling your application across multiple browsers/OSs.
-- **Selenium IDE** - Plugin used to set up testing scripts and offer record-and-playback automation functionality.
-- **Selenium WebDriver** - A Serverless way to execute your scripts. The heart of Modern Selenium. Starts a browser and controls it.
-	- Each type of browser has its own Selenium WebDriver.
-		- chromedriver	->	Google Chrome
-		- geckodriver	->	Mozilla Firefox
-		- edgedriver	->	Microsoft Edge
-
-
-</blockquote>
-</details>
-  
----
-
 5. Can selenium be used to launch web browsers?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -1073,4 +1048,28 @@ In Selenium, the Select class provides the implementation of the HTML SELECT tag
   
 ---
 
+47. What are the Selenium suite components?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
+- **Selenium Client API** - Support for writing Selenium in various languages.
+- **Selenium Remote Control** - Server that allows for running web application written in those various languages.
+- **Selenium Grid** - A server that can test using multiple machines running in parallel.
+	- Beneficial for scaling your application across multiple browsers/OSs.
+- **Selenium IDE** - Plugin used to set up testing scripts and offer record-and-playback automation functionality.
+- **Selenium WebDriver** - A Serverless way to execute your scripts. The heart of Modern Selenium. Starts a browser and controls it.
+	- Each type of browser has its own Selenium WebDriver.
+		- chromedriver	->	Google Chrome
+		- geckodriver	->	Mozilla Firefox
+		- edgedriver	->	Microsoft Edge
+
+
+</blockquote>
+</details>
+  
+---
 	
