@@ -83,7 +83,7 @@ Yes, using selenium webdriver.
   
 ---
 
-6. Why do yiu need Selenium Automation Testing?
+6. Why do you need Selenium Automation Testing?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
