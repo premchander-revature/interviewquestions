@@ -841,6 +841,13 @@ In these cases, we would like to wait for the element to appear. There are two w
 
 38. What is the reason to go for Page Object Model?
 
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b>Show Answer</b></summary>
+<blockquote>
+
 Imagine you are trying to automate a single page application. There are multiple views that you need to interact with and many elements to query for. Navigating to pages and repeatedly querying the DOM can result in messy, unorganized code. A simple design pattern to organize your code around is called the Page Object Model.
 
 
