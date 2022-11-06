@@ -446,7 +446,7 @@ There are two types of XPath in Selenium.
 	- Provides the entire path starting from the root node
 	- Example: `/html//div/div/div/div[1]/div/a/img`
 2. **Relative XPath** 
-	- It starts with double slash `\\`
+	- It starts with double slash `//`
 	- Here XPath expression starts from the middle of the DOM structure denoting the current node.
 	- Example: `//img[@alt='LambdaTest']`
 
@@ -454,3 +454,5 @@ There are two types of XPath in Selenium.
 </details>
   
 ---	
+	
+	
