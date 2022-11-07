@@ -152,7 +152,7 @@ To navigate to a particular webpage URL, one can use either of the following com
 - Using get method: 
 	
 ```java
-driver.get (“https://www.example.com”) ;
+driver.get ("https://www.example.com") ;
 ```	
 	
 - Using the navigate method
