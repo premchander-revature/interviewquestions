@@ -1017,18 +1017,134 @@ with those solutions.
 
 Few parameters which are monitored during Performance Testing are listed below:
 
-- Processor Usage – an amount of time processor spends executing non-idle threads.
-- Memory use – amount of physical memory available to processes on a computer.
-- Disk time – amount of time disk is busy executing a read or write request.
-- Bandwidth – shows the bits per second used by a network interface.
-- Response time – time from when a user enters a request until the first character of the response is received.
-- Throughput – rate a computer or network receives requests per second
-- Amount of connection pooling – the number of user requests that are met by pooled connections. The more requests met by connections in the pool, the better the performance will be.
-- Maximum active sessions – the maximum number of sessions that can be active at once.
-- Database locks – locking of tables and databases needs to be monitored and carefully tuned.
-- Thread counts – An applications health can be measured by the no. of threads that are running and currently active.
-- Garbage collection – It has to do with returning unused memory back to the system. Garbage collection needs to be monitored for efficiency.
+- **Processor Usage** – an amount of time processor spends executing non-idle threads.
+- **Memory use** – amount of physical memory available to processes on a computer.
+- **Disk time** – amount of time disk is busy executing a read or write request.
+- **Bandwidth** – shows the bits per second used by a network interface.
+- **Response time** – time from when a user enters a request until the first character of the response is received.
+- **Throughput** – rate a computer or network receives requests per second
+- **Amount of connection pooling** – the number of user requests that are met by pooled connections. The more requests met by connections in the pool, the better the performance will be.
+- **Maximum active sessions** – the maximum number of sessions that can be active at once.
+- **Database locks** – locking of tables and databases needs to be monitored and carefully tuned.
+- **Thread counts** – An applications health can be measured by the no. of threads that are running and currently active.
+- **Garbage collection** – It has to do with returning unused memory back to the system. Garbage collection needs to be monitored for efficiency.
   
+</blockquote>
+</details>
+
+---
+
+55. What is `Use Case Diagram`?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- High level functions and scope of a system can de depicted using User Case diagram. 
+- The use cases and actors in use-case diagrams describe what the system does and how the actors use it, but not how the system operates internally.
+  
+</blockquote>
+</details>
+
+---
+
+56. What is `Use Case Testing`?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- Use Case Testing is a functional black box testing technique which helps testers to identify test scenarios that exercise the whole system on each transaction basis from start to finish.
+  
+</blockquote>
+</details>
+
+---
+
+57. What is `Happy Path` in Use Case Analysis?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- Happy Path in Use Case Analysis refers to the "path"”" that the user takes to achieve the desired result without encountering any error.  
+- Happy path test is a well-defined test case using known input, which executes without exception and produces an expected output. 
+  
+</blockquote>
+</details>
+
+---
+
+58. What is `Alternate Path` in Use Case Analysis?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- An alternate path describes a scenario other than the basic path that results in a user completing his or her goal.  
+- It implies that the user has chosen to take an alternative path through the system.
+  
+</blockquote>
+</details>
+
+---
+
+59. What is `Exception Path` in Use Case Analysis?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- An exception path is an unintended path through the system usually as a result of missing information or system availability issues.  
+- Exception paths represent an undesirable path to the user.  
+- However, even though the exception path has occurred the system should still react in a way that recovers the flow and provides some useful information to the user.
+  
+</blockquote>
+</details>
+
+---
+
+60. What is `Data-Driven Testing (DDT)`?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- Data-Driven Testing (DDT) is where data that is external to our functional tests, and is loaded and used to extend our automated test cases. 
+- Data-Driven Testing is taking a test, parameterizing it and then running that test with varying data.
+- We can take the same test case and run it with as many different inputs as we like, thus getting better coverage from a single test.
+- This could be an Excel document, an XML file, a MySQL database, etc.
+- Data driven testing allows the ability to build both positive and negative test cases into a single test.
+ 
+</blockquote>
+</details>
+
+---
+
+61. Can we do Data-Driven Testing using JUnit?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- Yes, JUnit 5, the next generation of JUnit, facilitates writing developer tests with amazing new features.
+- One such feature is parameterized tests. 
+- This feature enables us to execute a single test method multiple times with different parameters.
+
 </blockquote>
 </details>
 
