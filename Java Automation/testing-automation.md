@@ -899,7 +899,6 @@ initElements(): initElements is a static method in Page Factory class. Using the
   
 ---
 
-
 42. How do you handle alerts using Selenium?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
@@ -974,7 +973,7 @@ objSelect.selectByValue("Automation Testing");
 ---
 
 
-43. How I can get all the options listed in the dropdown?
+44. How I can get all the options listed in the dropdown?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -996,7 +995,7 @@ System.out.println(elementCount.size());
 ---
 
 
-44. How we can know whether we can select multiple items from the dropdown?
+45. How we can know whether we can select multiple items from the dropdown?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1012,7 +1011,7 @@ isMultiple(): boolean – This method informs whether the Select element support
 ---
 
 
-45. What is used of Select class?
+46. What is used of Select class?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1028,7 +1027,7 @@ In Selenium, the Select class provides the implementation of the HTML SELECT tag
 ---
 
 
-46. Differences between Black Box Testing and White Box Testing
+47. Differences between Black Box Testing and White Box Testing
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1048,7 +1047,7 @@ In Selenium, the Select class provides the implementation of the HTML SELECT tag
   
 ---
 
-47. What are the Selenium suite components?
+48. What are the Selenium suite components?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
