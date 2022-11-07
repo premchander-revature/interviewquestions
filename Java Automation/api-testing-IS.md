@@ -1,4 +1,4 @@
-1. Why is API testing important?
+1. Why is `API Testing` important?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -6,7 +6,7 @@
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-- API testing is important for ensuring that API which we built performs as expected when faced with a wide variety of expected and unexpected requests.
+- API Testing is important for ensuring that API which we built performs as expected when faced with a wide variety of expected and unexpected requests.
 
 </blockquote>
 </details>
@@ -22,9 +22,9 @@
 <blockquote>
 
 API testing can be done on the below aspects:
-- Functional Testing: Checks API's functionality, takes payload in the form of JSON or XML and provides the response code and response body. 
-- Load Testing:  Checks the performance under the specific load and determines how much traffic the API can handle before being overloaded. 
-- Security Testing: Checks vulnerabilities like authentication and sensitive data is encrypted over HTTP and includes penetration testing validating authentication.
+- `Functional Testing`: Checks API's functionality, takes payload in the form of JSON or XML and provides the response code and response body. 
+- `Load Testing`:  Checks the performance under the specific load and determines how much traffic the API can handle before being overloaded. 
+- `Security Testing`: Checks vulnerabilities like authentication and sensitive data is encrypted over HTTP and includes penetration testing validating authentication.
 
 </blockquote>
 </details>
@@ -40,12 +40,12 @@ API testing can be done on the below aspects:
 <blockquote>
 
 There are many benefits to automating API testing, including:
-- Improved accuracy: Automated tests improves precision than manual testing.
-- Reduced cost: Comparatively less expensive to run than manual tests.
-- Increased coverage: Can cover a larger area of functionality than manual tests.
-- Faster feedback: More quicker results than manual tests.
-- Easier maintenance: Easier to maintain and update than manual tests.
-- Reduced human error: Produce less errors than manual tests run by DevOps.
+- **Improved accuracy**: Automated tests improves precision than manual testing.
+- **Reduced cost**: Comparatively less expensive to run than manual tests.
+- **Increased coverage**: Can cover a larger area of functionality than manual tests.
+- **Faster feedback**: More quicker results than manual tests.
+- **Easier maintenance**: Easier to maintain and update than manual tests.
+- **Reduced human error**: Produce less errors than manual tests run by DevOps.
 
 </blockquote>
 
@@ -61,7 +61,7 @@ There are many benefits to automating API testing, including:
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-- Postman Collections are a tidy way to group our API requests together so you can save, reuse, and share them with others.
+- `Postman Collection` is a tidy way to group our API requests together so you can save, reuse, and share them with others.
   
   
 </blockquote>
@@ -69,7 +69,7 @@ There are many benefits to automating API testing, including:
   
 ---
 
-5. What is Testing Collection in Postman?
+5. What is `Testing Collection` in Postman?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -85,7 +85,7 @@ There are many benefits to automating API testing, including:
   
 ---
   
-6. What is Documentation Collection in Postman??
+6. What is `Documentation Collection` in Postman??
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -102,7 +102,7 @@ There are many benefits to automating API testing, including:
 
 ---
 
-7. What is Newman API testing?
+7. What is `Newman` API testing?
    
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -110,7 +110,7 @@ There are many benefits to automating API testing, including:
 
 <blockquote>
 
-- Newman is a command-line Collection Runner for Postman. 
+- `Newman` is a command-line Collection Runner for Postman. 
 - We can run and test a Postman Collection directly from the command line. 
 - It's built with extensibility in mind and easily integrates with CI servers and build systems.
 - Newman resides in the npm registry and on GitHub.
@@ -146,7 +146,7 @@ newman run {{collectionUrl}}
 
 8. Is it possible to generate html report using Newman?
    
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -171,7 +171,7 @@ newman run Postman_Newman_Collection.json -e enVariable.json -r html
   
 ---
 
-9. What is SoapUI?
+9. What is `SoapUI`?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -179,8 +179,8 @@ newman run Postman_Newman_Collection.json -e enVariable.json -r html
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-- SoapUI is a tool for testing Web Services; these can be the SOAP Web Services as well RESTful Web Services or HTTP based services. 
-- SoapUI is an Open Source and completely free tool with a commercial companion called `ReadyAPI` that has extra functionality for companies with mission critical Web Services.
+- `SoapUI` is a tool for testing Web Services; these can be the SOAP Web Services as well RESTful Web Services or HTTP based services. 
+- `SoapUI` is an Open Source and completely free tool with a commercial companion called `ReadyAPI` that has extra functionality for companies with mission critical Web Services.
 
 </blockquote>
 </details>
@@ -218,6 +218,7 @@ newman run Postman_Newman_Collection.json -e enVariable.json -r html
 <blockquote>
 
 - SoapUI has the most comprehensive support for various protocols as shown below:
+  ![SoapUI protocols](https://user-images.githubusercontent.com/110081175/200236666-56cd75e8-7256-4ed6-8f67-c34b4437bd0a.PNG)
   
 </blockquote>
 </details>
