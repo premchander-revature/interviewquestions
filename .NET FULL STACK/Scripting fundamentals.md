@@ -9,7 +9,7 @@
 <blockquote> 
     
 - Shell is a command interpreter, which interprets the command given by the user to the kernel. 
-- It is an interface between a user and operating system.
+- It is an interface between a user and an operating system.
 
 </blockquote>
 
@@ -57,10 +57,10 @@ Shell variable forms the core part of a shell script or program. The variable al
 
 <blockquote> 
 
-- Absolute path is the full path of the directory. It always starts with “/” .
+- Absolute path is the full path of the directory. It always starts with “/”
   - Example:
     **`cd  /var/tmp/abrt/`**
-- Relative path is necessary from current location to reach particular directory doesn’t start with “/”.
+- Relative path is necessary from the current location to reach a particular directory that doesn’t start with “/”.
   - Example:
     **`cd .. ,   cd –`**
 
@@ -84,7 +84,7 @@ Shell variable forms the core part of a shell script or program. The variable al
 - The `cat` command is used for reading files.
   - Example:
     `#cat filename`
-- The `rm` command is used  for delete a file.
+- The `rm` command is used to delete a file.
   - Example:
     `#rm –f  filename` 
 
@@ -105,7 +105,7 @@ Shell variable forms the core part of a shell script or program. The variable al
 - The mkdir command is used for creating a directory. 
   - Example:
   `# mkdir filename`
-- The rmdir command is used for remove directory 
+- The rmdir command is used to remove the directory. 
   - Example:
   `#rmdir filename` 
 
@@ -115,7 +115,7 @@ Shell variable forms the core part of a shell script or program. The variable al
 
 ---
 
-7.  What is the use of `head` and `tail` command?
+7.  What is the use of `head` and `tail` commands?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -123,8 +123,8 @@ Shell variable forms the core part of a shell script or program. The variable al
 
 <blockquote> 
 
-- `Head` command is used for display started 10 lines.
-- `Tail` command is used for display started 10 lines.
+- `Head` command is used to display started 10 lines.
+- `Tail` command is used to display started 10 lines.
 
 </blockquote>
 
@@ -164,7 +164,7 @@ It represents the total number of arguments passed by string.
 
 ---
 
-10. How to make variables as unchangeable?
+10. How to make variables unchangeable?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -172,7 +172,7 @@ It represents the total number of arguments passed by string.
 
 <blockquote> 
 
-Variables can be made unchangeable using readonly. For instance, if we want variable ‘a’ value to remain as 10 and not change, then we can achieve this using readonly.
+Variables can be made unchangeable using read-only. For instance, if we want variable ‘a’ value to remain as 10 and not change, then we can achieve this using read-only.
 - Example:
   - $ a=10
   - $ readonly a
@@ -216,7 +216,7 @@ Variables can be made unchangeable using readonly. For instance, if we want vari
 
 ---
 
-13. What `ls` command does?
+13. What does `ls` command do?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -225,7 +225,7 @@ Variables can be made unchangeable using readonly. For instance, if we want vari
 <blockquote> 
 
 1. It lists files in the current directory.
-2. It lists files in the long format.
+2. It lists files in a long format.
 
 - Example
 
@@ -246,8 +246,8 @@ Variables can be made unchangeable using readonly. For instance, if we want vari
 
 <blockquote> 
 
-1. It changes directory to your home directory.
-2. It changes directory to test.
+1. It changes the directory to your home directory.
+2. It changes the directory to test.
 3. It moves back to one directory or to the parent directory of your current directory.
 
 </blockquote>
@@ -267,7 +267,7 @@ Variables can be made unchangeable using readonly. For instance, if we want vari
 - To copy the file
 
   - `$ cp file1 test`         - It copies file1 to test directory.
-  - `$ cp file1 file1.bak`    - It takes backup of file1. 
+  - `$ cp file1 file1.bak`    - It takes a backup of file1. 
 
 - To move the file 
  
@@ -282,7 +282,7 @@ Variables can be made unchangeable using readonly. For instance, if we want vari
 
 ---
 
-16. What is the use of `date`, `diff` and `find` command ?
+16. What is the use of `date`, `diff` and `find` command?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -290,9 +290,9 @@ Variables can be made unchangeable using readonly. For instance, if we want vari
 
 <blockquote> 
 
-**date**    -   `$ date`                        - It displays current date and time.
+**date**    -   `$ date`                        - It displays the current date and time.
 e.g. Output:
-Wednesday October, 2022 03:58:06 PM MDT
+Wednesday, October 2022 03:58:06 PM MDT
 
 **diff**    -   `$ diff file1 file2`	        - It displays line by line difference between file1 and file2.
 
@@ -305,7 +305,7 @@ Wednesday October, 2022 03:58:06 PM MDT
 
 ---
 
-17. What is the difference between `finger` and `who` command ?
+17. What is the difference between the `finger` and `who` command?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -313,8 +313,8 @@ Wednesday October, 2022 03:58:06 PM MDT
 
 <blockquote> 
 
-**finger**	`$ finger`	        - It displays information about user.
-**who** 	`$ who`         	- It lists the users those who are logged in on the machine.
+**finger**	`$ finger`	        - It displays information about the user.
+**who** 	`$ who`         	- It lists the users who are logged in on the machine.
 
 </blockquote>
 
@@ -322,7 +322,7 @@ Wednesday October, 2022 03:58:06 PM MDT
 
 ---
 
-18. What is the use of `grep` command ?
+18. What is the use of `grep` command?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -331,7 +331,7 @@ Wednesday October, 2022 03:58:06 PM MDT
 <blockquote> 
 
 `$ grep Hello file1`        -   It searches for the lines containing Hello in file1.
-`$ grep –c Hello file1`     -   It gives count or number of lines that contains Hello in file1.
+`$ grep –c Hello file1`     -   It gives the count or number of lines that contain Hello in file1.
 
 </blockquote>
 
@@ -339,7 +339,7 @@ Wednesday October, 2022 03:58:06 PM MDT
 
 ---
 
-19. Does `passwd` and `pwd` both are same ?
+19. Does `passwd` and `pwd` both are same?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -350,7 +350,7 @@ Wednesday October, 2022 03:58:06 PM MDT
 - No both are different.
 
 **passwd**	`$ passwd`	    -   It is used to change the password.
-**pwd** 	`$ pwd`         -   It displays present working directory.
+**pwd** 	`$ pwd`         -   It displays the present working directory.
 
 </blockquote>
 
@@ -358,7 +358,7 @@ Wednesday October, 2022 03:58:06 PM MDT
 
 ---
 
-20. What is the use of `ps`, `talk` and `wc` command ?
+20. What is the use of `ps`, `talk` and `wc` command?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -368,7 +368,7 @@ Wednesday October, 2022 03:58:06 PM MDT
 
 **ps**	    `$ ps`          -   It displays the list of processes which are currently running on the machine.
 **talk**	`$ talk user1`	-   It is used to talk to the user1 who is currently logged into the same machine.
-**wc**	    `$ wc file1`    -   It counts the number of lines, words and characters in file1.
+**wc**	    `$ wc file1`    -   It counts the number of lines, words, and characters in file1.
 
 </blockquote>
 
@@ -376,7 +376,7 @@ Wednesday October, 2022 03:58:06 PM MDT
 
 ---
 
-21. What `sort` command does ?
+21. What `sort` command does?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -384,7 +384,7 @@ Wednesday October, 2022 03:58:06 PM MDT
 
 <blockquote> 
 
-`$ sort file1`	        - This will sort the contents of file1 and displays sorted output on the screen.
+`$ sort file1`	        - This will sort the contents of file1 and display sorted output on the screen.
 
 </blockquote>
 
@@ -400,9 +400,9 @@ Wednesday October, 2022 03:58:06 PM MDT
 
 <blockquote> 
 
-- A file name that begins with a. (dot) is called as a hidden file. Whenever we try to list the files it will list all the files except hidden files.
+- A file name that begins with a. (dot) is called a hidden file. Whenever we try to list the files, it will list all the files except hidden files.
 
-- To list the hidden file we need to use –a option of ls. i.e. `$ ls –a`
+- To list the hidden file, we need to use –the option of ls. i.e. `$ ls –a`
 
 </blockquote>
 
@@ -437,7 +437,7 @@ Wednesday October, 2022 03:58:06 PM MDT
 <blockquote> 
 
 - Shebang is a `# sign` followed by an exclamation i.e. !.
-- Generally, this can be seen at the beginning or top of the script/program. This is used to avoid repetitive work. Shebang mainly determines the location of the engine which is to be used in order to execute the script.
+- Generally, this can be seen at the beginning or top of the script/program. This is used to avoid repetitive work. Shebang mainly determines the location of the engine which is to be used to execute the script.
 
 **Example: #!/bin/bash**        - The above line also tells which shell to use.
    - Here ‘#’ symbol is called hash and ‘!’ is called a bang.
