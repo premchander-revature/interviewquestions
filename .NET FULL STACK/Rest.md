@@ -8,8 +8,8 @@
 
 <blockquote> 
     
-- Representational state transfer(REST) is an abstraction of architecture of world wide web. REST is an architectural style to design networked application.
-- REST makes communication between remote computers easy by using the simple HTTP protocol which support for CRUD (Create, Read, Update, and Delete) operations on the server
+- Representational state transfer (REST) is an abstraction of the architecture of the world wide web. REST is an architectural style to design networked applications.
+- REST makes communication between remote computers easy by using the simple HTTP protocol which supports for CRUD (Create, Read, Update, and Delete) operations on the server
 
 </blockquote> 
 
@@ -35,7 +35,7 @@
 
 ---
 
-3. What are the most commonly used HTTP methods supported by REST?
+3. What are the most used HTTP methods supported by REST?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -43,7 +43,7 @@
 
 <blockquote> 
 
-- `GET` is only used to request data from a specified resource. Get requests can be cached and bookmarked. It remains in the browser history and haS length restrictions. GET requests should never be used when dealing with sensitive data.
+- `GET` is only used to request data from a specified resource. Get requests can be cached and bookmarked. It remains in the browser history and has length restrictions. GET requests should never be used when dealing with sensitive data.
 - `POST` is used to send data to a server to create/update a resource. POST requests are never cached and bookmarked and do not remain in the browser history.
 - `PUT` replaces all current representations of the target resource with the request payload.
 - `DELETE` removes the specified resource.
@@ -64,11 +64,11 @@
 
 <blockquote> 
 
-- In REST, every accessible piece of content on the server is labeled as a resource. 
+- In REST, every accessible piece of content on the server is labelled as a resource. 
 - A resource is an object with a type, associated data, a relationship with other resources on the server, and a list of methods that can be used with it. 
 - For example, a resource could be an HTML or text file, a data file, an image or video, or an executable code file.
 
-- A resource is identified with a uniform resource identifier, or URI. Clients access resources by including their URIs in HTTP requests.
+- A resource is identified with a uniform resource identifier or URI. Clients access resources by including their URIs in HTTP requests.
 
 </blockquote>
 
@@ -84,7 +84,7 @@
 
 <blockquote> 
 
-REST APIs follow six design principles :
+REST APIs follow six design principles:
 
 - Client-server Separation
 - Stateless
@@ -99,7 +99,7 @@ REST APIs follow six design principles :
 
 ---
 
-6. Can you brief on Client-server Seperation principle?
+6. Can you brief me on the Client-server Separation principle?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -117,7 +117,7 @@ REST APIs follow six design principles :
 
 ---
 
-7. What is stateless principle?
+7. What is the stateless principle?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -135,7 +135,7 @@ REST APIs follow six design principles :
 
 ---
 
-8. Can you brief us on cacheable principle?
+8. Can you brief us on the cacheable principle?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -170,7 +170,7 @@ REST APIs follow six design principles :
 
 ---
 
-10. Can you brief us on uniform interface in Rest?
+10. Can you brief us on the uniform interface in Rest?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -187,7 +187,7 @@ REST APIs follow six design principles :
 
 ---
 
-11. What is messaging in RESTful webservices?
+11. What is messaging in RESTful web services?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -195,7 +195,7 @@ REST APIs follow six design principles :
 
 <blockquote>
 
-A client sends a message in form of a HTTP Request and server responds in form of a HTTP Response. This technique is termed as Messaging. These messages contain message data and metadata i.e. information about message itself.
+A client sends a message in form of an HTTP Request and the server responds in form of an HTTP Response. This technique is termed Messaging. These messages contain message data and metadata i.e., information about the message itself.
 
 </blockquote>
 
@@ -203,7 +203,7 @@ A client sends a message in form of a HTTP Request and server responds in form o
 
 ---
 
-12. What is addressing in RESTful webservices?
+12. What is addressed in RESTful web services?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -211,7 +211,7 @@ A client sends a message in form of a HTTP Request and server responds in form o
 
 <blockquote>
 
-Addressing refers to locating a resource or multiple resources lying on the server. It is analogous to locate a postal address of a person.
+Addressing refers to locating a resource or multiple resources lying on the server. It is analogous to locating a postal address of a person.
 
 </blockquote>
 
@@ -273,12 +273,12 @@ There are five main components of an HTTP request in REST:
 
 <blockquote>
 
-- HTTP responses are sent by the API to the client. They inform the client that the requested action was (or was not) completed and to deliver any requested resources. There are four main components of an HTTP response:
+- HTTP responses are sent by the API to the client. They inform the client that the requested action was (or was not) completed and deliver any requested resources. There are four main components of an HTTP response:
 
 - **HTTP version**: The version of HTTP version used.
 - **Status line**: Indicates the status of the request with an HTTP response status code.
 - **HTTP Response Header**: Lists metadata about the response, such as the date, server, user agent, file formats of the returned resources, caching information, etc.
-- **HTTP Response body**: Contains the resource data that was requested by the client, and is also called the payload.
+- **HTTP Response body**: Contains the resource data that was requested by the client and is also called the payload.
 
 </blockquote>
 
@@ -314,8 +314,8 @@ The format of a URI is as follows:
 
 <blockquote>
 
-- Caching refers to storing server response in client itself so that a client needs not to make server request for same resource again and again. 
-- A server response should have information about how a caching is to be done so that a client caches response for a period of time or never caches the server response.
+- Caching refers to storing server response in the client itself so that a client does need not to make server requests for the same resource again and again. 
+- A server response should have information about how caching is to be done so that a client caches the response for a period or never caches the server response.
 
 </blockquote>
 
@@ -323,7 +323,7 @@ The format of a URI is as follows:
 
 ---
 
-18. What is payload?
+18. What is the payload?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -343,7 +343,7 @@ The format of a URI is as follows:
 
 ---
 
-19. What is the purpose of HTTP Status Code?
+19. What is the purpose of the HTTP Status Code?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -355,14 +355,14 @@ HTTP Status code are standard codes and refers to predefined status of task done
 
 HTTP Status Code:
 - **200** – OK, shows success.
-- **201** – CREATED, when a resource is successful created using POST or PUT request. Return link to newly created resource using location header.
-- **204** – NO CONTENT, when response body is empty.
+- **201** – CREATED, when a resource is successfully created using POST or PUT request. Return the link to a newly created resource using the location header.
+- **204** – NO CONTENT, when the response body is empty.
 - **304** – NOT MODIFIED, used to reduce network bandwidth usage in case of conditional GET requests.
 - **400** – BAD REQUEST, states that invalid input is provided.
-- **401** – FORBIDDEN, states that user is not having access to method being used.
-- **404** – NOT FOUND, states that method is not available.
+- **401** – FORBIDDEN, states that the user is not having access to the method being used.
+- **404** – NOT FOUND, states that the method is not available.
 - **409** – CONFLICT, states conflict situation while executing the method.
-- **500** – INTERNAL SERVER ERROR, states that server has thrown some exception while executing the method.
+- **500** – INTERNAL SERVER ERROR, states that the server has thrown some exception while executing the method.
 
 </blockquote>
 
@@ -378,7 +378,7 @@ HTTP Status Code:
 
 <blockquote>
 
-HATEOAS stand for Hypermedia As The Engine Of Application State. It provides links to resources so that client does not have to manually bookmark the links. Below is an example.
+HATEOAS stand for Hypermedia as The Engine of the Application State. It provides links to resources so that client does not have to manually bookmark the links. Below is an example.
     
 ```JS
 {
