@@ -10,7 +10,7 @@
     
 - Node.js is a web application framework built on Google Chrome's JavaScript Engine (V8 Engine).
 
-Node.js comes with runtime environment on which a Javascript based script can be interpreted and executed (It is analogus to JVM to JAVA byte code). This runtime allows to execute a JavaScript code on any machine outside a browser. Because of this runtime of Node.js, JavaScript is now can be executed on server as well.
+Node.js comes with a runtime environment on which a JavaScript-based script can be interpreted and executed (It is analogous to JVM to JAVA byte code). This runtime allows to execution of a JavaScript code on any machine outside a browser. Because of this runtime of Node.js, JavaScript is now can be executed on the server as well.
 	
 </blockquote> 
 
@@ -52,7 +52,7 @@ Node meets the low-latency requirements of real-time applications. It is ideal f
 
 4. Why will you choose Node over other popular frameworks?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -90,7 +90,7 @@ Node.JS relies on single-thread programming to execute functions. Monolith apps 
 
 <blockquote> 
 
-Node.js is single-threaded for async processing. By doing async processing on a single-thread under typical web loads, more performance and scalability can be achieved instead of the typical thread-based implementation.
+Node.js is single threaded for async processing. By doing async processing on a single thread under typical web loads, more performance and scalability can be achieved instead of the typical thread-based implementation.
 
 </blockquote>
 
@@ -141,8 +141,8 @@ The two types of API functions in Node.js are:
 
 <blockquote> 
 
-- All APIs of Node.js library are aynchronous that is non-blocking. It essentially means a Node.js based server never waits for a API to return data.
-- Server moves to next API after calling it and a notification mechanism of Events of Node.js helps server to get response from the previous API call.
+- All APIs of the Node.js library is asynchronous that is non-blocking. It essentially means a Node. The js-based server never waits for an API to return data.
+- The server moves to the next API after calling it and a notification mechanism of Events of Node.js helps the server to get a response from the previous API call.
 
 </blockquote>
 
@@ -163,7 +163,7 @@ The two types of API functions in Node.js are:
 - Node Package Manager provides two main functionalities:
 
   - Provides online repositories for node.js packages/modules, which are searchable on search.nodejs.org
-  - Provides command-line utility to install Node.js packages and also manages Node.js versions and dependencies.
+  - Provides command-line utility to install Node.js packages and manages Node.js versions and dependencies.
 
 </blockquote>
 
@@ -171,7 +171,7 @@ The two types of API functions in Node.js are:
 
 ---
 
-11. What is control flow function?
+11. What is the control flow function?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -179,7 +179,7 @@ The two types of API functions in Node.js are:
 
 <blockquote> 
 
-It is a generic piece of code which runs in between several asynchronous function calls is known as control flow function.
+It is a generic piece of code which runs in between several asynchronous function calls and is known as a control flow function.
 
 </blockquote>
 
@@ -187,7 +187,7 @@ It is a generic piece of code which runs in between several asynchronous functio
 
 ---
 
-12. What is global installation of dependencies?
+12. What is the global installation of dependencies?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -195,7 +195,7 @@ It is a generic piece of code which runs in between several asynchronous functio
 
 <blockquote> 
 
-Globally installed packages/dependencies are stored in /npm directory. Such dependencies can be used in CLI (Command Line Interface) function of any node.js but can not be imported using require() in Node application directly. To install a Node project globally use `-g flag`.
+Globally installed packages/dependencies are stored in /npm directory. Such dependencies can be used in CLI (Command Line Interface) function of any node.js but cannot be imported using require() in the Node application directly. To install a Node project globally use `-g flag`.
 
 </blockquote>
 
@@ -211,9 +211,9 @@ Globally installed packages/dependencies are stored in /npm directory. Such depe
 
 <blockquote> 
 
-- Event-driven programming uses various events(mouse click, keypress, messages from other programs) to initiate/trigger a function in the program. 
+- Event-driven programming uses various events (mouse click, keypress, messages from other programs) to initiate/trigger a function in the program. 
 - Callback functions are already registered with events and when an event is executed, the corresponding callback function is called.
-- Therefore the flow of the program is decided by these events and hence the name.
+- Therefore, the flow of the program is decided by these events and hence the name.
 
 </blockquote>
 
@@ -298,8 +298,8 @@ Express is a flexible Node.js web application framework that provides a wide set
 - Streams are objects that enable you to read data or write data continuously.
 - There are four types of streams:
   - Readable – Used for reading operations.
-  - Writable − Used for write operations.
-  - Duplex − Can be used for both reading and write operations.
+  - Writable − Used for writing operations.
+  - Duplex − Can be used for both reading and writing operations.
   - Transform − A type of duplex stream where the output is computed based on input.
 
 </blockquote>
@@ -326,7 +326,7 @@ Express is a flexible Node.js web application framework that provides a wide set
 
 ---
 
-20. What is the package.json file?
+20. What is the package. Json file?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -334,11 +334,11 @@ Express is a flexible Node.js web application framework that provides a wide set
 
 <blockquote> 
 
-- The package.json file is the heart of Node.js system. It is the manifest file of any Node.js project and contains the metadata of the project. 
+- The package.json file is the heart of the Node.js system. It is the manifest file of any Node.js project and contains the metadata of the project. 
 
-- The metadata information in package.json file can be categorized into below categories: 
-1. **Identifying metadata properties**: It basically consist of the properties to identify the module/project such as the name of the project, current version of the module, license, author of the project, description about the project etc. 
-2. **Functional metadata properties**: As the name suggests, it consists of the functional values/properties of the project/module such as the entry/starting point of the module, dependencies in project, scripts being used, repository links of Node project etc. 
+- The metadata information in the package.json file can be categorized into below categories: 
+1. **Identifying metadata properties**: It basically consists of the properties to identify the module/project such as the name of the project, current version of the module, license, author of the project, description of the project etc. 
+2. **Functional metadata properties**: As the name suggests, it consists of the functional values/properties of the project/module such as the entry/starting point of the module, dependencies in the project, scripts being used, repository links of Node project etc. 
 
 </blockquote>
 
@@ -355,14 +355,14 @@ Express is a flexible Node.js web application framework that provides a wide set
 <blockquote>
 
 A package.json file can be created in two ways: 
-1. **Using npm init** : Running this command, system expects user to fill the vital information required as discussed above. It provides users with default values which are editable by the user. 
+1. **Using npm init** : Running this command, the system expects the user to fill in the vital information required as discussed above. It provides users with default values which are editable by the user. 
 
 **Syntax**: 
 
 ```Node.js
 npm init
 ```
-2. **Writing directly to file** : One can directly write into file with all the required information and can include it in the Node project. 
+2. **Writing directly to file** : One can directly write into a file with all the required information and can include it in the Node project. 
 
 
 **Example**: A demo package.json file with the required information. 
