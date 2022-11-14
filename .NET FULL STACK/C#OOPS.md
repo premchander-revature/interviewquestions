@@ -10,7 +10,7 @@
     
 - Object-oriented programming (OOP) is an approach to programming where software is primarily designed by using objects (essentially data) that interact with each other. 
 
-- When different pieces of data are put together, they come to form the software as a whole. OOP is an alternative to functional or procedural programming and it’s also the approach used by C#.
+- When different pieces of data are put together, they come to form the software. OOP is an alternative to functional or procedural programming and it’s also the approach used by C#.
 
 </blockquote>
 
@@ -58,7 +58,7 @@ An object is a real-world entity and in C# it’s a single instance of a class. 
 
 <blockquote> 
 
-In C#, a method is a code block that contains a series of statements used to perform particular operations. Methods must be declared within a class or a structure. They help save time by reusing code. 
+In C#, a method is a code block that contains a series of statements used to perform specific operations. Methods must be declared within a class or a structure. They help save time by reusing code. 
 
 </blockquote>
 
@@ -74,9 +74,9 @@ In C#, a method is a code block that contains a series of statements used to per
 
 <blockquote> 
 
-- A C# structure is a value type and the instances or objects of a structure are created in stack. 
-- A structure in C# is simply a composite data type consisting of a number elements of other types. 
-- The structure in C# can contain fields, methods, constants, constructors, properties, indexers, operators and even other structure types. 
+- A C# structure is a value type, and the instances or objects of a structure are created in the stack. 
+- A structure in C# is simply a composite data type consisting of several elements of other types. 
+- The structure in C# can contain fields, methods, constants, constructors, properties, indexers, operators, and even other structure types. 
 
 </blockquote>
 
@@ -92,7 +92,7 @@ In C#, a method is a code block that contains a series of statements used to per
 
 <blockquote> 
 
-A Class is an Abstract Data Type because it specifies what data members and member functions (methods) contain in it (class), but it does not provide information on how those are implemented. That makes Class Abstract and Class is User Defined DataType. So, it’s an Abstract Data Type
+A Class is an Abstract Data Type because it specifies what data members and member functions (methods) contain in it (class), but it does not provide information on how those are implemented. That makes Class Abstract and Class is User Defined Data Type. So, it’s an Abstract Data Type
 
 </blockquote>
 
@@ -100,7 +100,7 @@ A Class is an Abstract Data Type because it specifies what data members and memb
 
 ---
 
-7. What is the difference between `string` keyword and `System.String` class? 
+7. What is the difference between the `string` keyword and the `System.String` class? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -108,7 +108,7 @@ A Class is an Abstract Data Type because it specifies what data members and memb
 
 <blockquote> 
 
-Actually there is no difference. The `string` keyword is an alias for `System.String` class. Therefore `System.String` and `string` keywords both are the same, and we can use whichever naming convention we prefer. The String class provides many methods for safely creating, manipulating, and comparing strings.
+Actually, there is no difference. The `string` keyword is an alias for the `System.String` class. Therefore `System.String` and `string` keywords both are the same, and we can use whichever naming convention we prefer. The String class provides many methods for safely creating, manipulating, and comparing strings.
 
 </blockquote>
 
@@ -116,7 +116,7 @@ Actually there is no difference. The `string` keyword is an alias for `System.St
 
 ---
 
-8. Can you define Constructors.
+8. Can you define Constructors?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -140,7 +140,7 @@ A constructor is a member function with the same name as its class. The construc
 
 <blockquote> 
 
-Destructor is used to clean up the memory and free the resources. But in C# this is done by the garbage collector on its own. `System.GC.Collect()` is called internally for cleaning up. But sometimes it may be necessary to implement destructors manually.
+Destructor is used to clean up the memory and free the resources. But in C#, this is done by the garbage collector on its own. `System.GC.Collect()` is called internally for cleaning up. But sometimes it may be necessary to implement destructors manually.
 
 For Example:
 
@@ -168,8 +168,8 @@ For Example:
 The four fundamental concepts of Object-Oriented Programming are:
 
 **Encapsulation**: Here, the internal representation of an object is hidden from the view outside the object’s definition. Only the required information can be accessed whereas the rest of the data implementation is hidden.
-**Abstraction**: It is a process of identifying the critical behavior and data of an object and eliminating the irrelevant details.
-**Inheritance**: It is the ability to create new classes from another class. It is done by accessing, modifying and extending the behavior of objects in the parent class.
+**Abstraction**: It is a process of identifying the critical behaviour and data of an object and eliminating the irrelevant details.
+**Inheritance**: It is the ability to create new classes from another class. It is done by accessing, modifying and extending the behaviour of objects in the parent class.
 **Polymorphism**: The name means, one name, many forms. It is achieved by having multiple methods with the same name but different implementations.
 
 </blockquote>
@@ -188,10 +188,10 @@ The four fundamental concepts of Object-Oriented Programming are:
 
 - Classes are reference types and structs are value types
 - Structures do not support inheritance.
-- Structures cannot have default constructor.
+- Structures cannot have a default constructor.
 - When we create a struct object using the new operator, it gets created and the appropriate constructor is called. Unlike classes, structs can be instantiated without using the New operator.
 - Structures do not support inheritance.
-- Structures cannot have default constructor.
+- Structures cannot have a default constructor.
 
 </blockquote>
 
@@ -226,12 +226,12 @@ The four fundamental concepts of Object-Oriented Programming are:
 
 <blockquote> 
 
-Static Classes are created using a `static` keyword, If any class marked as static it means we can't create an object of that class and the compiler will guarantee that instances (object) of this class cannot be created., just why because static classes are loaded automatically by the .NET Framework common language runtime (CLR).
+Static Classes are created using a `static` keyword, if any class is marked as static it means we can't create an object of that class and the compiler will guarantee that instances (object) of this class cannot be created., just why because static classes are loaded automatically by the .NET Framework common language runtime (CLR).
 
-**Characteristics of static class are** :
+**Characteristics of a static class are** :
 
 - Static classes are sealed and therefore cannot be inherited.
-- Contains only static members and static constructor.
+- Contains only static members and static constructors.
 - Static variables are stored in the heap memory.
 - You can access the members of a static class by using the class name itself. 
 - Static class can be public.
@@ -242,7 +242,7 @@ Static Classes are created using a `static` keyword, If any class marked as stat
 
 ---
 
-14. Do you know about sealed classes? If so, keep it brief. 
+14. Do you know about sealed classes? If so, keep it brief. 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -255,7 +255,7 @@ A sealed class is a class that does not allow inheritance. Some object model des
 **Characteristics of sealed classes are**:
 
 - We can create an instance of the sealed class in c#.
-- We can not inherit the sealed class.
+- We cannot inherit the sealed class.
 
 </blockquote>
 
@@ -273,7 +273,7 @@ A sealed class is a class that does not allow inheritance. Some object model des
 
 The `partial` keyword indicates that other parts of the class, struct, or interface can be defined in the namespace. All the parts must use the `partial` keyword.
 
-When we work on a large project and write the code in a single .cs file. It is possible to include more than one type in a single class file but a single type's code cannot be split into sections into multiple separate files. That's why, Microsoft decided to overcome the above issue, with the introduction of something called partial types.
+When we work on a large project and write the code in a single .cs file. It is possible to include more than one type in a single class file, but a single type's code cannot be split into sections into multiple separate files. That's why, Microsoft decided to overcome the above issue, with the introduction of something called partial types.
 
 **Characteristics of partial class**
 
@@ -296,9 +296,9 @@ When we work on a large project and write the code in a single .cs file. It is p
 
 <blockquote> 
 
-- An Abstract class is a class which is denoted by abstract keyword and can be used only as a Base class. This class should always be inherited. An instance of the class itself cannot be created. If we do not want any program to create an object of a class, then such classes can be made abstract.
+- An Abstract class is a class which is denoted by an abstract keyword and can be used only as a Base class. This class should always be inherited. An instance of the class itself cannot be created. If we do not want any program to create an object of a class, then such classes can be made abstract.
 
-- Any method in the abstract class does not have implementations in the same class. But they must be implemented in the child class.
+- Any method in the abstract class does not have implementations in the same class. But they must be implemented in the child’s class.
 
 For Example:
 
@@ -322,7 +322,7 @@ Class childClass : AB1
 
 ---
 
-17. What is the difference between Virtual method and Abstract method?
+17. What is the difference between the Virtual method and the Abstract method?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -346,7 +346,7 @@ A Virtual method must always have a default implementation. An Abstract method d
 
 <blockquote> 
 
-Both the `==` Operator and the `Equals()` method are used to compare two value type data items or reference type data items. The Equality Operator `(==)` is the comparison operator and the `Equals()` method compares the contents of a string. The `==` Operator compares the reference identity while the `Equals()` method compares only contents.
+Both the `==` Operator and the `Equals()` method are used to compare two value-type data items or reference-type data items. The Equality Operator `(==)` is the comparison operator and the `Equals()` method compares the contents of a string. The `==` Operator compares the reference identity while the `Equals()` method compares only contents.
 
 </blockquote>
 
@@ -354,7 +354,7 @@ Both the `==` Operator and the `Equals()` method are used to compare two value t
 
 ---
 
-19. What’s the difference between the `Is` and `As` operator in C#
+19. What’s the difference between the `Is` and `As` operators in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -396,7 +396,7 @@ A field is a member of a class or an object of any type that represents a locati
 
 <blockquote> 
 
-In C#, circular references occur when two or more interdependent resources refer back to each other, either directly or indirectly, resulting in a closed loop or lock condition. This situation makes the resource unusable.
+In C#, circular references occur when two or more interdependent resources refer to each other, either directly or indirectly, resulting in a closed loop or lock condition. This situation makes the resource unusable.
 
 </blockquote>
 
@@ -412,7 +412,7 @@ In C#, circular references occur when two or more interdependent resources refer
 
 <blockquote> 
 
-In C# most of the built-in operators are available and can be overloaded or redefined using the operator keyword. The example below explains the syntax used to implement the addition operator(+) for a user-defined class.
+In C#, most of the built-in operators are available and can be overloaded or redefined using the operator keyword. The example below explains the syntax used to implement the addition operator(+) for a user-defined class.
 
 ```C#
 public static Rectangle operator + (Rectangle b, Rectangle c) {
@@ -438,7 +438,7 @@ public static Rectangle operator + (Rectangle b, Rectangle c) {
 
 <blockquote> 
 
-Encapsulation reduces coupling between objects and increases maintainable code. It involves enclosing objects within a logical pack by limiting access to implementation details. In C# encapsulation is achieved through the access specifiers public, private, protected, internal, and protected internal.
+Encapsulation reduces coupling between objects and increases maintainable code. It involves enclosing objects within a logical pack by limiting access to implementation details. In C#, encapsulation is achieved through the access specifiers public, private, protected, internal, and protected internal.
 
 </blockquote>
 
@@ -456,7 +456,7 @@ Encapsulation reduces coupling between objects and increases maintainable code. 
 
 An Interface is a class with no implementation. The only thing that it contains is the declaration of methods, properties, and events.
 
-</bloackquote>
+</blockquote>
 
 </details>
 
@@ -470,9 +470,9 @@ An Interface is a class with no implementation. The only thing that it contains 
 
 <blockquote> 
 
-Extension methods are special static methods in a static class which enables us to add new methods to built-in types and custom types without creating new derived type. Which provides a user defined custom functionality just like built-in methods have. For Example, String has ToLower(), ToUpper() methods. In same way we can create our own method.
+Extension methods are special static methods in a static class which enables us to add new methods to built-in types and custom types without creating new derived type. Which provides a user-defined custom functionality just like built-in methods have. For Example, String has ToLower(), ToUpper() methods. In the same way, we can create our own method.
 
-Let's check following example, we have created Remove() method which removes any given character/string from original string.
+Let's check the following example, we have created Remove() method which removes any given character/string from the original string.
 
 public class Program
 {
@@ -596,7 +596,7 @@ Enumeration (or enum) is a value data type in C#. It is mainly used to assign th
 
 Constructor Overloading allows us to call a different constructor based on the input parameters we’ve provided when creating a new instance of the class. For each accepted parameter scenario, we must define the constructor to be used. We can have as many constructor overloads as you wish.
 
-We’ve added another constructor function that accepts a single string input in the example below. If an input is provided, it will set the name variable to that of the input value.
+We’ve added another constructor function that accepts a single-string input in the example below. If an input is provided, it will set the name variable to that of the input value.
 
 ```C#
 class Sample
@@ -637,7 +637,7 @@ class Sample
 
 ---
 
-31. How does `this` keyword works in C# ?
+31. How does `this` keyword works in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -659,7 +659,7 @@ Following are some uses of ‘this’ keyword in C#:
 
 ---
 
-32. Can you brief us on C# access modifiers ?
+32. Can you brief us on C# access modifiers?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -712,7 +712,7 @@ A container that has objects which are ready to be used is known as an object po
 
 ---
 
-35. Can you brief on Method Overriding?
+35. Can you brief me on Method Overriding?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -723,7 +723,7 @@ A container that has objects which are ready to be used is known as an object po
 - It is an approach for defining multiple methods with the same name and with the same signature means the same number, type, and order of parameters.
 - Overriding of methods is not possible within the same class it must be performed under the child classes only.
 - To override a parent class method under the child classes, first and foremost the child class requires to take permission from its parent.
-- This is all about changing the behavior of a method.
+- This is all about changing the behaviour of a method.
 - This is used to implement dynamic polymorphism.
 - To implement function overriding, we use the virtual keyword for the base class function and override keyword in the derived class function 
 
@@ -741,7 +741,7 @@ A container that has objects which are ready to be used is known as an object po
 
 <blockquote>
 
-In C#, colon can be used as an inheritance operator. You need to place a colon and follow it with the class name.
+In C#, the colon can be used as an inheritance operator. You need to place a colon and follow it with the class name.
 
 </blockquote>
 
@@ -788,7 +788,7 @@ Provided that the method isn’t virtual, it won’t be overridden. However, if 
 
 <blockquote>
 
-Yes, an interface can inherit from another interface in C#. It is possible for a class to inherit an interface multiple times, through base classes or interfaces it inherits. In this case, the class can only implement the interface one time, if it is declared as part of the new class. If the inherited interface is not declared as part of the new class, its implementation is provided by the base class that declared it. It is possible for a base class to implement interface members using virtual members; in that case, the class inheriting the interface can change the interface behavior by overriding the virtual members.
+Yes, an interface can inherit from another interface in C#. It is possible for a class to inherit an interface multiple times, through base classes or interfaces it inherits. In this case, the class can only implement the interface one time if it is declared as part of the new class. If the inherited interface is not declared as part of the new class, its implementation is provided by the base class that declared it. It is possible for a base class to implement interface members using virtual members; in that case, the class inheriting the interface can change the interface behaviour by overriding the virtual members.
 
 </blockquote>
 
@@ -804,11 +804,11 @@ Yes, an interface can inherit from another interface in C#. It is possible for a
 
 <blockquote>
 
-- For hiding the base class method from derived class simply declare the derived class method with the new keyword.
-Whereas in C#, for overriding the base class method in a derived class, you need to declare the base class method as virtual and the derived class method as overriden.
+- For hiding the base class method from the derived class, simply declare the derived class method with the new keyword.
+Whereas in C#, for overriding the base class method in a derived class, you need to declare the base class method as virtual, and the derived class method as overridden.
 - If a method is simply hidden then the implementation to call is based on the compile-time type of the argument "this".
 Whereas if a method is overridden then the implementation to be called is based on the run-time type of the argument "this".
-- New is reference-type specific, overriding is object-type specific.
+- New is reference-type specific and overriding is object-type specific.
 
 </blockquote>
 
@@ -824,7 +824,7 @@ Whereas if a method is overridden then the implementation to be called is based 
 
 <blockquote>
     
-We can't use `this` in static method because keyword this returns a reference to the current instance of the class containing it. Static methods (or any static member) do not belong to a particular instance. They exist without creating an instance of the class and call with the name of a class not by instance so we can't use this keyword in the body of static Methods, but in case of Extension Methods we can use it as the functions parameters.
+We can't use `this` in the static method because the keyword `this` returns a reference to the current instance of the class containing it. Static methods (or any static member) do not belong to a particular instance. They exist without creating an instance of the class and call with the name of a class not by instance so we can't use this keyword in the body of static Methods, but in the case of Extension Methods, we can use it as the parameters of the function.
 
 </blockquote>
 
