@@ -27,9 +27,9 @@ When we write and execute our code in the .NET framework then there is a possibi
 
 <blockquote> 
 
-An Exception is a class in C# which is responsible for abnormal termination of the program when runtime errors occur while running the program.  So, these errors (runtime) are very dangerous because whenever the runtime errors occur in the programs, the program gets terminated abnormally on the same line where the error gets occurred without executing the next line of code.
+An Exception is a class in C# which is responsible for the abnormal termination of the program when runtime errors occur while running the program.  So, these errors (runtime) are very dangerous because whenever the runtime errors occur in the programs, the program gets terminated abnormally on the same line where the error gets occurred without executing the next line of code.
 
-**Note**: Most people are saying Runtime Errors are Exceptions which is not true. Exceptions are classes that are responsible for abnormal termination of the program when runtime errors occur.
+**Note**: Most people are saying Runtime Errors are Exceptions which is not true. Exceptions are classes that are responsible for the abnormal termination of the program when runtime errors occur.
 
 </blockquote>
 
@@ -45,7 +45,7 @@ An Exception is a class in C# which is responsible for abnormal termination of t
 
 <blockquote> 
 
-Objects of Exception classes are responsible for abnormal termination of the program whenever runtime errors occur. These exception classes are predefined under BCL (Base Class Libraries) where a separate class is provided for each and every different type of exception like
+Objects of Exception classes are responsible for the abnormal termination of the program whenever runtime errors occur. These exception classes are predefined under BCL (Base Class Libraries) where a separate class is provided for every different type of exception like,
 
 - IndexOutOfRangeException
 - FormatException
@@ -67,7 +67,7 @@ Objects of Exception classes are responsible for abnormal termination of the pro
 
 <blockquote> 
 
-The process of catching the exception for converting the CLR given exception message to an end-user understandable message and for stopping the abnormal termination of the program whenever runtime errors are occurring is called Exception Handling in C#. Once we handle an exception under a program we will be getting the following advantages:-
+The process of catching the exception for converting the CLR-given exception message to an end-user understandable message and for stopping the abnormal termination of the program whenever runtime errors are occurring is called Exception Handling in C#. Once we handle an exception under a program, we will get the following advantages: -
 
 - We can stop the Abnormal Termination
 - We can perform any corrective action that may resolve the problem.
@@ -87,7 +87,7 @@ The process of catching the exception for converting the CLR given exception mes
 
 <blockquote> 
 
-The Exception Handling in C# is a 4 steps procedure
+The Exception Handling in C# is a 4 steps procedure:
 
 - Preparing the exception object that is appropriate to the current logical mistake.
 - Throwing that exception to the appropriate exception handler.
@@ -145,7 +145,7 @@ The fundamental difference is that throw exceptions overwrite the stack trace, w
 
 <blockquote> 
 
-Sometimes there are some errors that need to be handeled as per user requirements. Custom exceptions are used for them and are used defined exceptions.
+Sometimes there are some errors that need to be handled as per user requirements. Custom exceptions are used for them and are used as defined exceptions.
 
 **Example**
 
@@ -206,7 +206,7 @@ class Test {
 
 <blockquote> 
 
-No, Multiple catch blocks can't be executed. Once the proper catch code executed, the control is transferred to the finally block and then the code that follows the finally block gets executed.
+No, Multiple catch blocks can't be executed. Once the proper catch code is executed, the control is transferred to the finally block and then the code that follows the finally block gets executed.
 
 </blockquote>
 
@@ -214,7 +214,7 @@ No, Multiple catch blocks can't be executed. Once the proper catch code executed
 
 ---
 
-10. Why to use `finally` block in C#?
+10. Why do we use `finally` block in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -222,7 +222,7 @@ No, Multiple catch blocks can't be executed. Once the proper catch code executed
 
 <blockquote> 
 
-`Finally` block will be executed irrespective of exception. So while executing the code in try block when exception is occurred, control is returned to catch block and at last finally block will be executed. So closing connection to database / releasing the file handlers can be kept in finally block.
+`Finally` block will be executed irrespective of exception. So, while executing the code in the try block when an exception occurs, control is returned to the catch block and at last, finally block will be executed. So, closing the connection to the database / releasing the file handlers can be kept in the finally block.
 
 </blockquote>
 
@@ -271,8 +271,8 @@ Yes, Finally block will get executed always.
 
 <blockquote> 
 
-- System exceptions are derive directly from a base class `System.SystemException`. A System level Exception is normally thrown when a nonrecoverable error has occurred.
-- Application exceptions can be user defined exceptions thrown by the applications. If you are designing an application that needs to create its own exceptions class, you are advised to derive custom exceptions from the `System.ApplicationException` class. It is typically thrown when a recoverable error has occurred.
+- System exceptions are derived directly from a base class `System.SystemException`. A System-level Exception is normally thrown when a nonrecoverable error has occurred.
+- Application exceptions can be user-defined exceptions thrown by the applications. If you are designing an application that needs to create its own exceptions class, you are advised to derive custom exceptions from the `System.ApplicationException` class. It is typically thrown when a recoverable error has occurred.
  
 </blockquote>
 
@@ -288,7 +288,7 @@ Yes, Finally block will get executed always.
 
 <blockquote> 
 
-throw statement preserves original error stack information but in throw ex, stack error of exception will be replaced with a stack trace starting with rethrow point.
+throw statement preserves the original error stack information but in throw ex, stack error of exception will be replaced with a stack trace starting with rethrow point.
 
 </blockquote>
 
@@ -320,7 +320,7 @@ This will result in an unreachable catch block error. This is because the contro
 
 <blockquote> 
 
-In the case of multiple catch blocks, the order in which catch blocks are placed is from the most specific to the most general ones. That is, the sub classes of an exception should come first, and then the super classes will follow. In case that the super classes are kept first, followed by the sub classes after it, the compiler will show an unreachable catch block error.
+In the case of multiple catch blocks, the order in which catch blocks are placed is from the most specific to the most general ones. That is, the subclasses of an exception should come first, and then the super classes will follow. In case the super classes are kept first, followed by the sub classes after it, the compiler will show an unreachable catch block error.
 
 </blockquote>
 
@@ -328,7 +328,7 @@ In the case of multiple catch blocks, the order in which catch blocks are placed
 
 ---
 
-17. In how many ways handling exceptions in C#?
+17. In how many ways can we handle exceptions in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -342,7 +342,7 @@ Three ways we are handling the exceptions
 - Page Level
 - Code Level
 
-In addition to above IIS custom handlers.
+In addition to the above IIS custom handlers.
 
 </blockquote>
 
@@ -352,7 +352,7 @@ In addition to above IIS custom handlers.
 
 18. What is the need of handling exceptions at three levels in C#.Net?
 (or)
-What is the difference between Code Level , Pagelevel or Application Levele Exception handling?
+What is the difference between Code Level, Pagelevel or Application-Level Exception handling?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -360,7 +360,7 @@ What is the difference between Code Level , Pagelevel or Application Levele Exce
 
 <blockquote>
 
-**Code Level**: Using try , catch and finally blocks handling the exceptions 
+**Code Level**: Using try, catch and finally blocks to handle the exceptions 
 
 ```C#
 
@@ -380,8 +380,8 @@ finally
 
 **Page Level**:
 
-- Here also we have try , catch and finally blcoks  but these blocks are optional.
-- We need to add below event in page.
+- Here also we have try, catch and finally blocks but these blocks are optional.
+- We need to add the below event in the page.
 
 ```C#
 
@@ -393,13 +393,13 @@ void Application_Error(object sender, EventArgs e)
 }
 ```
 
-- If exception not handling at code level , it will come to above page level
+- If the exception not handling at the code level, it will come to the above page level
 
 **Application Level**:
 
-- Here also we have try , catch and finally blcoks  
+- Here also we have try, catch and finally blocks  
 
-- This kind of Exceptions will handled in two ways
+- This kind of Exception will be handled in two ways
 
   - Using WebConfig file.
   - Using Global.asax file.
@@ -417,7 +417,7 @@ void Application_Error(object sender, EventArgs e)
 
 - **Using Global.asax file**:
 
-- Needs to place below handler in  `Global.asax` file
+- Needs to place the below handler in  `Global.asax` file
 
 ```C#
 
@@ -429,7 +429,7 @@ void Application_Error(object sender, EventArgs e)
 }
 ```
 
-- If exception not handling at code level and page level then it will come to application level.
+- If an exception is not handled at the code level and page level, then it will come to the application level.
 
 </blockquote>
 
@@ -445,7 +445,7 @@ void Application_Error(object sender, EventArgs e)
 
 <blockquote> 
 
-Some uncatchable exceptios exist in C#.Net.
+Some uncatchable exceptions exist in C#.Net.
 
 **Examples** : OutOfMemoryException and StackOverflowException etc..
 
