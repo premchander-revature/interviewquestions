@@ -9,7 +9,7 @@
 <blockquote> 
     
 - Reflection is the process of describing the metadata of types, methods, and fields in a code. The namespace System. 
-- Reflection enables us to obtain data about the loaded assemblies, the elements within them like classes, methods, and value types.
+- Reflection enables us to obtain data about the loaded assemblies, and the elements within them like classes, methods, and value types.
 	
 </blockquote> 
 
@@ -41,7 +41,7 @@
 
 <blockquote> 
 
-Tuples are data structures that hold object properties and contain a sequence of elements of different data types. They were introduced as a `Tuple<T>` class in .NET Framework  to avoid the need of creating separate types to hold object properties.
+Tuples are data structures that hold object properties and contain a sequence of elements of different data types. They were introduced as a `Tuple<T>` class in .NET Framework to avoid the need of creating separate types to hold object properties.
 
 </blockquote>
 
@@ -75,9 +75,9 @@ Processes belonging to asynchronous programming run independently of the main or
 
 A thread in C# can have any of the following states:
 
-Aborted – The thread is dead but not stopped
+Aborted – The thread is dead but has not stopped
 Running – The thread is executing
-Stopped – The thread has stopped execution
+Stopped – The thread has stopped the execution
 Suspended – The thread has been suspended
 Unstarted – The thread is created but has not started execution yet
 WaitSleepJoin – The thread calls sleep, calls wait on another object, and calls join on some other thread
@@ -88,7 +88,7 @@ WaitSleepJoin – The thread calls sleep, calls wait on another object, and call
 
 ---
 
-6. What do you understand by regular expressions in C#? Can you write a program that searches a string using regular expressions.
+6. What do you understand by regular expressions in C#? Can you write a program that searches a string using regular expressions?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -96,9 +96,9 @@ WaitSleepJoin – The thread calls sleep, calls wait on another object, and call
 
 <blockquote>
 
-Regular expression is a template for matching a set of input. It can consist of constructs, character literals, and operators. Regex is used for string parsing, as well as replacing the character string. 
+A regular expression is a template for matching a set of inputs. It can consist of constructs, character literals, and operators. Regex is used for string parsing, as well as replacing the character string. 
 
-Following code searches a string “C#” against the set of inputs from the languages array using Regex:
+The following code searches a string “C#” against the set of inputs from the languages array using Regex:
 
 ```C#
 
@@ -148,7 +148,7 @@ Defining an indexer allows us to create classes that act as virtual arrays. Inst
 
 <blockquote>
 
-Serialization converts a code to its binary format using a process. After it is converted to bytes, it can be easily stored and written to a disk. Serializations are useful so that the original form of the code isn’t lost and it can be retrieved later on.
+Serialization converts a code to its binary format using a process. After it is converted to bytes, it can be easily stored and written to a disk. Serializations are useful so that the original form of the code isn’t lost and can be retrieved later.
 
 </blockquote>
 
@@ -185,7 +185,7 @@ public class Program
     }
     public void Start()
     {
-        myDel DelgateExample = AddNumbers;
+        myDel DelegateExample = AddNumbers;
     }
 }
 
@@ -207,7 +207,7 @@ public class Program
 
 - Events are user actions that generate notifications to the application to which it must respond. The user actions can be mouse movements, keypress and so on.
 
-- Programmatically, a class that raises an event is called a publisher and a class which responds/receives the event is called a subscriber. Event should have at least one subscriber else that event is never raised.
+- Programmatically, a class that raises an event is called a publisher and a class which responds/receives the event is called a subscriber. The event should have at least one subscriber else that event is never raised.
 
 - Delegates are used to declare Events.
 
@@ -230,7 +230,7 @@ Event PrintNumbers myEvent;
 
 <blockquote> 
 
-- A Delegate that points to more than one method is called a Multicast Delegate. Multicasting is achieved by using + and += operator.
+- A Delegate that points to more than one method is called a Multicast Delegate. Multicasting is achieved by using the + and += operator.
 
 </blockquote>
 
@@ -254,7 +254,7 @@ Event PrintNumbers myEvent;
 
 ---
 
-13. Can you state the difference between direct cast and ctype.
+13. Can you state the difference between direct cast and ctype?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -262,7 +262,7 @@ Event PrintNumbers myEvent;
 
 <blockquote> 
 
-The difference between direct cast and ctype is that direct cast is used for the conversion of type of an object that requires the run time which is similar to the specified type in the direct cast. Whereas ctype is used for converting the conversion which is defined for the expression and the type.
+The difference between direct cast and ctype is that direct cast is used for the conversion of the type of an object that requires a run time which is like the specified type in the direct cast. Whereas ctype is used for converting the conversion which is defined for the expression and the type.
 
 </blockquote>
 
@@ -278,7 +278,7 @@ The difference between direct cast and ctype is that direct cast is used for the
 
 <blockquote> 
 
-LINQ stands for Language Integrated Query. LINQ has a great power of querying on any source of data. The data source could be collections of objects, database or XML files. We can easily retrieve data from any object that implements the `IEnumerable<T>` interface.
+LINQ stands for Language Integrated Query. LINQ has the great power of querying any source of data. The data source could be collections of objects, databases, or XML files. We can easily retrieve data from any object that implements the `IEnumerable<T>` interface.
 
 </blockquote>
 
@@ -286,7 +286,7 @@ LINQ stands for Language Integrated Query. LINQ has a great power of querying on
 
 ---
 
-15. Can you explain the “using” statement.
+15. Can you explain the “using” statement?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -347,7 +347,7 @@ class Books : IDisposable
 
 <blockquote> 
 
-The best choice is using a sealed class to prevent the class not to be extended/inherited. This is true that private constructor and sealed class both can prevent extension of a class, means, we cannot derived any class from it. However, they have their own purpose and properties.
+The best choice is to use a sealed class to prevent the class not to be extended/inherited. This is true that a private constructor and sealed class both can prevent the extension of a class, which means, we cannot derive any class from it. However, they have their own purpose and properties.
 
 </blockquote>
 
