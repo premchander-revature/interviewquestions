@@ -8,7 +8,7 @@
 
 <blockquote> 
     
-ADO.Net is commonly termed as ActiveX Data Objects which is a part of .Net Framework. ADO.Net framework has set of classes which are used to handle data access by connecting with different databases like SQL,Access,Oracle,etc.,
+ADO.Net is commonly termed ActiveX Data Objects which is a part of the .Net Framework. ADO.Net framework has a set of classes which are used to handle data access by connecting with different databases like SQL, Access, Oracle, etc.,
 
 
 </blockquote>
@@ -17,7 +17,7 @@ ADO.Net is commonly termed as ActiveX Data Objects which is a part of .Net Frame
 
 ---
 
-2. What are the components of ADO.Net ?
+2. What are the components of ADO.Net?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -61,7 +61,7 @@ Components of ADO.NET Components are designed for data manipulation and faster d
 
 <blockquote> 
 
-A .NET data provider is a software library consisting of classes that provide data access services such as connecting to a data source, executing commands at a data source and fetching data from a data source with support to execute commands within transactions. It resides as a lightweight layer between data source and code, providing data access services with increased performance.
+A .NET data provider is a software library consisting of classes that provide data access services such as connecting to a data source, executing commands at a data source, and fetching data from a data source with support to execute commands within transactions. It resides as a lightweight layer between data source and code, providing data access services with increased performance.
 
 The .NET data provider is a component of ADO.NET, a subset of the .NET framework class library.
 
@@ -79,7 +79,7 @@ The .NET data provider is a component of ADO.NET, a subset of the .NET framework
 
 <blockquote> 
 
-A Dataset is set to be collection of data with a tabular column representation. Each column in the table represents a variable and the row represents to value of a variable. This Dataset object can be obtained from the database values.
+A Dataset is set to be a collection of data with a tabular column representation. Each column in the table represents a variable and the row represents to value of a variable. This Dataset object can be obtained from the database values.
 
 </blockquote>
 
@@ -95,7 +95,7 @@ A Dataset is set to be collection of data with a tabular column representation. 
 
 <blockquote> 
 
-DataReader is an object of ADO.Net that provides access to the data from the requested data source. It reads the data sequentially from a data source like Oracle, MS SQL or MS Access.
+DataReader is an object of ADO.Net that provides access to the data from the requested data source. It reads the data sequentially from a data source like Oracle, MS SQL, or MS Access.
 
 </blockquote>
 
@@ -127,12 +127,12 @@ A Data Service is responsible to handle the interaction between the Connection M
 
 <blockquote> 
 
-In ADO.NET, we can connect to your database with the help of following namespaces:
+In ADO.NET, we can connect to your database with the help of the following namespaces:
 
-- **Data**: This namespace is used to carry the data tables from the database and can hold column, relations, multiple tables, views and constraints.
+- **Data**: This namespace is used to carry the data tables from the database and can hold columns, relations, multiple tables, views and constraints.
 - **Data.SqlClient**: This namespace is used to connect the .NET application with the Microsoft SQL Database by using the miscellaneous classes such as SqlConnection, SqlCommand, SqlDataAdapter etc.
 - **Data.Odbc**: This namespace is used to connect with the ODBC drivers by using OdbcCommand and OdbcConnection.
-- **Data.OracleClient**: This namespace is used to describe a collection of classes to access and Oracle data source.
+- **Data.OracleClient**: This namespace is used to describe a collection of classes to access an Oracle data source.
 
 </blockquote>
 
@@ -161,7 +161,7 @@ We can populate a dataset by using any of the following different ways:
 
 ---
 
-10. What is the use of connection object?
+10. What is the use of a connection object?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -169,7 +169,7 @@ We can populate a dataset by using any of the following different ways:
 
 <blockquote> 
 
-The use of the connection object is to connect data to a command object. Different connection objects are used to different providers such as an OleDbConnection object for OLE-DB provider and SqlConnection object for the Microsoft SQL Server.
+The use of the connection object is to connect data to a command object. Different connection objects are used for different providers such as an OleDbConnection object for the OLE-DB provider and SqlConnection object for the Microsoft SQL Server.
 
 </blockquote>
 
@@ -177,7 +177,7 @@ The use of the connection object is to connect data to a command object. Differe
 
 ---
 
-11. Which are the different layers of ADO.NET?
+11. What are the different layers of ADO.NET?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -221,8 +221,8 @@ DataAdapter retrieves data from a data source. UpdateCommand, Insertcommand, and
 
 <blockquote> 
 
-**Data Grid**: Data Grid provides many features and functionality to users to perform paging, sort the data in the table easily. It can hold the text object data but it can’t hold embedded or linked objects data.
-**Data Repeater**: Data Repeater has offered so many features that are not offered by Data Grid such as – It can hold the control of embedded and linked objects data and it can embed Data Grid in it but vice-versa is not possible. It doesn’t have support for Paging functionality but can be achieved by programming it.
+**Data Grid**: Data Grid provides many features and functionality to users to perform paging and sort the data in the table easily. It can hold text object data, but it can’t hold embedded or linked object data.
+**Data Repeater**: Data Repeater has offered so many features that are not offered by Data Grid such as – It can hold control of embedded and linked objects data and it can embed Data Grid in it but vice-versa is not possible. It doesn’t have support for Paging functionality but can be achieved by programming it.
 
 </blockquote>
 
@@ -238,9 +238,9 @@ DataAdapter retrieves data from a data source. UpdateCommand, Insertcommand, and
 
 <blockquote> 
 
-- Connection pooling refers to the task of grouping database connections in cache to make them reusable because opening new connections every time to a database is a time-consuming process. 
-- Therefore, connection pooling enables us to reuse already existing and active database connections, whenever required, and increasing the performance of our application.
-- We can enable or disable connection pooling in your application by setting the pooling property to either true or false in connection string. By default, it is enabled in an application.
+- Connection pooling refers to the task of grouping database connections in the cache to make them reusable because opening new connections every time to a database is a time-consuming process. 
+- Therefore, connection pooling enables us to reuse already existing and active database connections, whenever required, increasing the performance of our application.
+- We can enable or disable connection pooling in your application by setting the pooling property to either true or false in the connection string. By default, it is enabled in an application.
 
 </blockquote>
 
@@ -257,7 +257,7 @@ DataAdapter retrieves data from a data source. UpdateCommand, Insertcommand, and
 <blockquote> 
 
 - Connections need to be closed properly because it affects the scalability and reliability of the applications.
-- Open connections are always vulnerable to attack, so to be short, `Open connections as late as possible and close it as early as possible`. We can close the connections by **final** block or ‘using’ the `USING statement`.
+- Open connections are always vulnerable to attack, so to be short, `Open connections as late as possible and close them as early as possible`. We can close the connections by **final** block or ‘using’ the `USING statement`.
 
 </blockquote>
 
@@ -294,7 +294,7 @@ DataAdapter retrieves data from a data source. UpdateCommand, Insertcommand, and
 The two key events of SqlConnection are:
 
 **StateChange event**: This event occurred when the state of the Connection changes. The event handler receives an argument (Datatype: StateChangeEventArgs) which contains the data related to that particular event.
-**InfoMessage event**: This event occurred when an info message or Warning is returned from a data source. The event handler receives an argument (Datatype: SqlInfoMessageEventArgs) which contains the data related to that particular event.
+**InfoMessage event**: This event occurred when an info message or Warning is returned from a data source. The event handler receives an argument (Datatype: SqlInfoMessageEventArgs) which contains the data related to that event.
 
 </blockquote>
 
@@ -302,7 +302,7 @@ The two key events of SqlConnection are:
 
 ---
 
-18. What is the difference between Typed and Untyped Dataset?
+18. What is the difference between a Typed and Untyped Dataset?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -313,7 +313,7 @@ The two key events of SqlConnection are:
 The differences are explained below:
 
 **Typed Dataset**: 
- - A typed dataset is derived from the Dataset class and has an associated XML schema, which is created at the time of creation of the dataset.
+ - A typed dataset is derived from the Dataset class and has an associated XML schema, which is created at the time of the creation of the dataset.
  - The XML schema contains information about the dataset structure such as tables, columns, and rows. Data is transferred from a database into a dataset and from the dataset to another component in the XML format.
 
 **Untyped Dataset**: Untyped dataset doesn’t have an XML schema associated with it. Untyped Dataset, the tables, and columns are represented as a collection.
@@ -324,7 +324,7 @@ The differences are explained below:
 
 ---
 
-19. Do we use Stored Procedure in Ado.net?
+19. Do we use the Stored Procedure in Ado.net?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -332,7 +332,7 @@ The differences are explained below:
 
 <blockquote> 
 
-Yes, stored procedures are used in ADO.Net and it can be used for common repetitive functions.
+Yes, stored procedures are used in ADO.Net and they can be used for common repetitive functions.
 
 </blockquote>
 
@@ -357,7 +357,7 @@ Yes, stored procedures are used in ADO.Net and it can be used for common repetit
 
 ---
 
-21. What are all the different methods under Sql Command?
+21. What are the different methods under SQL Command?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -368,10 +368,10 @@ Yes, stored procedures are used in ADO.Net and it can be used for common repetit
 There are different methods under SqlCommand like:
 - **Cancel** – Cancel the query
 - **CreateParameter** – returns SQL Parameter
-- **ExecuteNonQuery** – Executes and does not return result set
+- **ExecuteNonQuery** – Executes and does not return a result set
 - **ExecuteReader** – executes and returns data in DataReader
-- **ExecuteScalar** – Executes and returns single value
-- **ExecuteXmlReader** – Executes and return data in XMLDataReader object
+- **ExecuteScalar** – Executes and returns a single value
+- **ExecuteXmlReader** – Executes and returns data in XMLDataReader object
 - **ResetCommandTimeout** – Reset Timeout property
 
 </blockquote>
@@ -388,8 +388,8 @@ There are different methods under SqlCommand like:
 
 <blockquote> 
 
-**ExecuteScalar** – Returns single value from the dataset
-**ExecutenonQuery** – Returns resultset from dataset and it has multiple values
+**ExecuteScalar** – Returns a single value from the dataset
+**ExecutenonQuery** – Returns resultset from the dataset and it has multiple values
 **ExecuteReader** – Forwardonly resultset
 **ExecuteXMLReader** – Build XMLReader object from a SQL Query
 
@@ -419,7 +419,7 @@ There are four components of DataProviders:
 
 ---
 
-24. What are Parameters?
+24. What are the Parameters?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
