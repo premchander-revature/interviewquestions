@@ -26,7 +26,7 @@
 
 <blockquote> 
 
-There are 3 ways to work with collections. The three namespaces are 
+There are 3 ways to work with collections. The three namespaces are,
 
 - `System.Collections` classes.
 - `System.Collections.Generic` classes.
@@ -46,7 +46,7 @@ There are 3 ways to work with collections. The three namespaces are
 
 <blockquote> 
 
-The Non-Generic collection classes in C# are defined under `System.Collections`classes which are operate on objects, and hence can handle any type of data, but not in a safe-type manner. The `System.Collections` namespace contains the following classes:
+The Non-Generic collection classes in C# are defined under `System.Collections`classes which operate on objects, and hence can handle any type of data, but not in a safe-type manner. The `System.Collections` namespace contains the following classes:
 
 **ArrayList**: It Implements the `System.Collections.IList` interface using an array whose size is dynamically increased as required.
 
@@ -54,7 +54,7 @@ The Non-Generic collection classes in C# are defined under `System.Collections`c
 
 **Queue**: It represents a first-in, first-out collection of objects.
 
-**Hashtable**: It represents a collection of key/value pairs that are organized based on the hash code of the key.
+**HashTable**: It represents a collection of key/value pairs that are organized based on the hash code of the key.
 
 **SortedList**:  It represents a collection of key/value pairs that are sorted by the keys and are accessible by key and by index.
 
@@ -64,7 +64,7 @@ The Non-Generic collection classes in C# are defined under `System.Collections`c
 
 ---
 
-4. Can you ellaborate on Generic Collection Classes in C#?
+4. Can you elaborate on Generic Collection Classes in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -72,7 +72,7 @@ The Non-Generic collection classes in C# are defined under `System.Collections`c
 
 <blockquote> 
 
-It provides a generic implementation of standard data structures like linked lists, stacks, queues, and dictionaries. These collection classes are type-safe because they are generic means only those items that are type-compatible with the type of the collection can be stored in a generic collection, it eliminates accidental type mismatches. The `System.Collections.Generic` namespace has the following classes:
+It provides a generic implementation of standard data structures like linked lists, stacks, queues, and dictionaries. These collection classes are type-safe because they are generic means only those items that are type-compatible with the type of the collection can be stored in a generic collection; it eliminates accidental type mismatches. The `System.Collections.Generic` namespace has the following classes:
 
 `List<T>`: It represents a strongly typed list of objects that can be accessed by index. Provides methods to search, sort, and manipulate lists.
 
@@ -132,7 +132,7 @@ It provides various threads-safe collection classes that are used in place of th
 
 <blockquote> 
 
-- The ArrayList collection in C# is very much similar to the Arrays data type. The major difference between them is the **dynamic nature** of the non-generic collection ArrayList. 
+- The ArrayList collection in C# is very much like the Arrays data type. The major difference between them is the **dynamic nature** of the non-generic collection ArrayList. 
 - For arrays, we need to define the size i.e. the number of elements that the array can hold at the time of array declaration. But in the case of the ArrayList collection in C#, this does not need to be done beforehand. Elements can be added or removed from the Array List collection at any point in time.
 
 </blockquote>
@@ -141,7 +141,7 @@ It provides various threads-safe collection classes that are used in place of th
 
 ---
 
-7. Do we face any problem with Array and ArrayList Collection in C#? 
+7. Do we face any problems with Array and ArrayList Collection in C#? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -149,7 +149,7 @@ It provides various threads-safe collection classes that are used in place of th
 
 <blockquote> 
 
-In the case of Array and ArrayList in C#, we access the elements from the collection using the index position. The index position of the elements starts from zero (0) to the number of elements – 1. But, it is very difficult for us to remember the index position of the element in order to access the values.
+In the case of Array and ArrayList in C#, we access the elements from the collection using the index position. The index position of the elements starts from zero (0) to the number of elements – 1. But it is very difficult for us to remember the index position of the element to access the values.
 
 **For example**, let us say we have an employee array that contains the name, address, mobile, dept no, email id, employee id, salary, location, etc. Now if I want to know the email id or dept number of the employee then it is very difficult for me to use the index position.
 
@@ -177,7 +177,7 @@ The Hashtable computes a hash code for each key. Then it uses that hash code to 
 
 ---
 
-9. How actually the Hashtable works in C#?
+9. How the HashTable works in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -185,7 +185,7 @@ The Hashtable computes a hash code for each key. Then it uses that hash code to 
 
 <blockquote> 
 
-When we add elements to a hashtable like string, int, or complex types, then it converts the key data which can be a string, integer, numeric, or anything in the world into simple hash integer values so that lookup can be easy. Once the conversion is done, then the data will be added to the hashtable collection.
+When we add elements to a hashtable like string, int, or complex types, then it converts the key data which can be a string, integer, numeric, or anything in the world into simple hash integer values so that lookup can be easy. Once the conversion is done, then the data will be added to the hashtable. collection.
 
 **Note**: The performance of the hashtable is less as compared to the ArrayList because of this key conversion (converting the key to an integer hashcode).
 
@@ -204,8 +204,8 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 <blockquote> 
 
 **Lookup**: ArrayList can be only looked up via the index number which is generated internally. Hashtable can be looked up by a custom-defined key.
-**Performance**: ArrayList is faster than hashtable because of extra tasks performed in hashtables i.e. hashing.
-**Scenario**: If you want a key lookup use hashtable. If you just want to add and browser through a collection then use ArrayList.
+**Performance**: ArrayList is faster than hashtable because of extra tasks performed in hashtables i.e., hashing.
+**Scenario**: If you want a key lookup use hashtable. If you just want to add and browser through a collection, then use ArrayList.
 
 </blockquote>
 
@@ -213,7 +213,7 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 
 ---
 
-11. Can you brief on Stack Collection class in C#?
+11. Can you brief me on the Stack Collection class in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -234,7 +234,7 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 
 ---
 
-12. Can you brief on Queue Collection class in C#?
+12. Can you brief me on the Queue Collection class in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -243,7 +243,7 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 <blockquote> 
 
 - In C#, Queues are used to store a collection of objects in a FIFO (First in, First out) style, i.e., the element which is added first will remove first.
-- By using `Enqueue()` method, we can add elements at the end of the queue.
+- By using the `Enqueue()` method, we can add elements at the end of the queue.
 - The `Dequeue()` method will remove and return the first element from the queue.
 - The queue `Peek()` method will always return the first element of the queue, and it won’t delete elements from the queue.
 
@@ -297,7 +297,7 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 
 ---
 
-15. Can you brief on Generic Dictionary Collection Class ?
+15. Can you brief me on Generic Dictionary Collection Class?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -328,7 +328,7 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 - Both lists and dictionaries belong to Generics collections that are used to store collections of data.
 - Both Dictionary `<TKey, TValue>` and List `<T>` are similar both have random access data structures on top of the .NET framework. 
 - The Dictionary is based on a hash table which means it uses a hash lookup, which is an efficient algorithm to look up things, on the other hand, a list, has to go and check element by element until it finds the result from the beginning.
-- When comparing with the List data structure, the dictionary always has a more or less fixed lookup time.
+- When comparing with the List data structure, the dictionary always has a fixed lookup time.
 
 </blockquote>
 
@@ -336,7 +336,7 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 
 ---
 
-17. What is Foreach loop in C#?
+17. What is the ForEach loop in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -377,7 +377,7 @@ foreach(datatype var_name in collection_variable)
 - Concurrent adding and taking of items from multiple threads.
 - Optional maximum capacity.
 - Insertion and removal operations block when the collection is empty or full.
-- Insertion and removal “try” operations that do not block or that block up to a specified period of time.
+- Insertion and removal “try” operations that do not block or that block up to a specified period.
 - Encapsulates any collection type that implements `IProducerConsumerCollection<T>`
 
 </blockquote>
