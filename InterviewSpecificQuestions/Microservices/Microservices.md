@@ -881,7 +881,7 @@ public class EmployeeZuulGatwayApplication {
 
 ---
 
-33.What is meaning of Blue/Green Deployments - Duplicate Question Change?
+33.What is meaning of Blue/Green Deployments - Duplicate Question?
 
 ![Complex](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg)
 
