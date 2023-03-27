@@ -638,3 +638,24 @@ There are 5 types of bean scope in Spring :-
 </details>
 
 ---
+15.How many types of spring beans are there - Duplicate Question? 
+
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
+
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+
+<blockquote markdown="1">
+
+There are 5 types of bean scope in Spring :-
+
+1.**Singleton:-** It return a single bean instance per spring IOC Container.<br>
+2.**Prototype:-** It return a new bean instance each time when requested.<br>
+3.**Request:-** It return a single instance for every HTTP request call.<br>
+4.**Session:-** It returns a single instance for every HTTP request call.<br>
+5.**Global session:-** Global session scope is equal as session scope on portlet-based web applications.<br>
+
+</blockquote>
+
+</details>
+
+---
