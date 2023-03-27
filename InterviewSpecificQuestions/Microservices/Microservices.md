@@ -880,7 +880,7 @@ public class EmployeeZuulGatwayApplication {
 </details>
 
 ---
-33.What do you mean by Zuul Filter & explain its types - Duplicated?
+33.What do you mean by Zuul Filter & explain its types - Duplicated Question?
 
 ![Complex](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg)
 
