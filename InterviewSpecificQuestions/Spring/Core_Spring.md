@@ -638,7 +638,7 @@ There are 5 types of bean scope in Spring :-
 </details>
 
 ---
-15.How many types of spring beans are there - Duplicate Question ? 
+15.How many types of spring beans are there - Duplicate Question? 
 
 ![Complex](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg)
 
