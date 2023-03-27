@@ -881,3 +881,22 @@ public class EmployeeZuulGatwayApplication {
 </details>
 
 ---
+33.  What is meaning of Blue/Green Deployments-Duplicate?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+    
+- A blue/green deployment is an application deployment strategy.
+- First, we create two separate, but identical environments. 
+- One environment (blue) is running the current application version and one environment (green) is running the new application version. 
+- Using a blue/green deployment strategy increases application availability and reduces deployment risk by simplifying the rollback process if a deployment fails. 
+- Once testing has been completed on the green environment, live application traffic is directed to the green environment and the blue environment is deprecated.
+	
+</blockquote> 
+
+</details>
+
+---
